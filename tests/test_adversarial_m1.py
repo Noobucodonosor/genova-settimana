@@ -185,19 +185,25 @@ class TestAdversarialNetworkResilience(unittest.TestCase):
 
     @patch("urllib.request.urlopen")
     def test_http_404_handled_gracefully(self, mock_urlopen):
-        mock_urlopen.side_effect = urllib.error.HTTPError(
-            url="https://example.com/missing", code=404, msg="Not Found", hdrs={}, fp=None
+        import io
+        err = urllib.error.HTTPError(
+            url="https://example.com/missing", code=404, msg="Not Found", hdrs={}, fp=io.BytesIO(b"")
         )
+        mock_urlopen.side_effect = err
         reachable, code, msg = probe_url_reachability("https://example.com/missing", use_cache=False)
+        err.close()
         self.assertFalse(reachable)
         self.assertEqual(code, 404)
 
     @patch("urllib.request.urlopen")
     def test_http_500_handled_gracefully(self, mock_urlopen):
-        mock_urlopen.side_effect = urllib.error.HTTPError(
-            url="https://example.com/error", code=500, msg="Server Error", hdrs={}, fp=None
+        import io
+        err = urllib.error.HTTPError(
+            url="https://example.com/error", code=500, msg="Server Error", hdrs={}, fp=io.BytesIO(b"")
         )
+        mock_urlopen.side_effect = err
         reachable, code, msg = probe_url_reachability("https://example.com/error", use_cache=False)
+        err.close()
         self.assertFalse(reachable)
         self.assertEqual(code, 500)
 
