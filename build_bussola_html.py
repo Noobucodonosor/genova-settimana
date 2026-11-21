@@ -1,6 +1,8 @@
 import json
+import os as _os
+_DATA_DIR = _os.environ.get("GENOVA_DATA_DIR") or _os.path.dirname(_os.path.abspath(__file__))
 
-with open("/Users/dany/genova/tempo_libero_payload.json", "r", encoding="utf-8") as f:
+with open(f"{_DATA_DIR}/tempo_libero_payload.json", "r", encoding="utf-8") as f:
     payload_json = f.read()
 
 HTML_TEMPLATE = r"""<!DOCTYPE html>
@@ -1999,11 +2001,11 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
 
 final_html = HTML_TEMPLATE.replace("__PAYLOAD_JSON__", payload_json)
 
-with open("/Users/dany/genova/bussola_tempo_libero_genova.html", "w", encoding="utf-8") as f:
+with open(f"{_DATA_DIR}/bussola_tempo_libero_genova.html", "w", encoding="utf-8") as f:
     f.write(final_html)
 
 import os, re
-size_kb = round(os.path.getsize("/Users/dany/genova/bussola_tempo_libero_genova.html") / 1024, 1)
+size_kb = round(os.path.getsize(f"{_DATA_DIR}/bussola_tempo_libero_genova.html") / 1024, 1)
 print(f"Generated /Users/dany/genova/bussola_tempo_libero_genova.html ({size_kb} KB)")
 
 # Audit generative_ui rules: check no sub-12px classes or :root

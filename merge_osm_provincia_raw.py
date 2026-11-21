@@ -1,13 +1,15 @@
 import json
 import glob
 import os
+import os as _os
+_DATA_DIR = _os.environ.get("GENOVA_DATA_DIR") or _os.path.dirname(_os.path.abspath(__file__))
 
-with open("/Users/dany/genova/comuni_provincia_genova.json") as f:
+with open(f"{_DATA_DIR}/comuni_provincia_genova.json") as f:
     comuni_list = json.load(f)
 ALL_67 = {c["name"].replace(" ", "_"): c["name"] for c in comuni_list}
 
 # Also load Wikidata rich metadata (P856 website, P625 coords, P6375 address, wikipedia) to enrich OSM elements or add missing Wikidata items with websites
-with open("/Users/dany/genova/wikidata_rich_provincia.json") as f:
+with open(f"{_DATA_DIR}/wikidata_rich_provincia.json") as f:
     wd_rich = json.load(f)
 
 wd_by_qid = {}
@@ -34,7 +36,7 @@ all_elements = []
 seen_comuni = set()
 websites_count = 0
 
-for rf in sorted(glob.glob("/Users/dany/genova/comuni_raw/*.json")):
+for rf in sorted(glob.glob(f"{_DATA_DIR}/comuni_raw/*.json")):
     base = os.path.basename(rf)[:-5]
     cname = ALL_67.get(base, base.replace("_", " "))
     seen_comuni.add(cname)
@@ -72,7 +74,7 @@ out_raw = {
     "elements": all_elements
 }
 
-with open("/Users/dany/genova/osm_provincia_raw.json", "w", encoding="utf-8") as f:
+with open(f"{_DATA_DIR}/osm_provincia_raw.json", "w", encoding="utf-8") as f:
     json.dump(out_raw, f, indent=2, ensure_ascii=False)
 
 print(f"Created /Users/dany/genova/osm_provincia_raw.json: {len(all_elements)} elements across {len(seen_comuni)} municipalities ({websites_count} with web/social links)")

@@ -1,14 +1,16 @@
 import json
 import re
 from collections import defaultdict
+import os as _os
+_DATA_DIR = _os.environ.get("GENOVA_DATA_DIR") or _os.path.dirname(_os.path.abspath(__file__))
 
-with open("/Users/dany/genova/osm_genova_raw.json") as f:
+with open(f"{_DATA_DIR}/osm_genova_raw.json") as f:
     osm_data = json.load(f)
 
-with open("/Users/dany/genova/wikidata_p138.json") as f:
+with open(f"{_DATA_DIR}/wikidata_p138.json") as f:
     wd_p138 = json.load(f)
 
-with open("/Users/dany/genova/osm_resolved_qids.json") as f:
+with open(f"{_DATA_DIR}/osm_resolved_qids.json") as f:
     resolved_qids = json.load(f)
 
 # Build lookup from Wikidata P138

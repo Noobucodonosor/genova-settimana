@@ -2,6 +2,8 @@ import urllib.request
 import urllib.parse
 import json
 import time
+import os as _os
+_DATA_DIR = _os.environ.get("GENOVA_DATA_DIR") or _os.path.dirname(_os.path.abspath(__file__))
 
 # 6 geographic tiles covering the entire Metropolitan City of Genoa (from Cogoleto/Tiglieto to Moneglia/Santo Stefano d'Aveto)
 TILES = [
@@ -60,7 +62,7 @@ out center tags;
         print(f"[ERROR] Could not fetch {name}")
     time.sleep(0.5)
 
-with open("/Users/dany/genova/osm_esercenti_provincia_raw.json", "w", encoding="utf-8") as f:
+with open(f"{_DATA_DIR}/osm_esercenti_provincia_raw.json", "w", encoding="utf-8") as f:
     json.dump({"elements": list(all_elements.values())}, f, ensure_ascii=False)
 
 print("FINAL TOTAL UNIQUE ESERCENTI:", len(all_elements))

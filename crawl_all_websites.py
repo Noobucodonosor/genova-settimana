@@ -5,14 +5,16 @@ import urllib.request
 import urllib.parse
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from html.parser import HTMLParser
+import os as _os
+_DATA_DIR = _os.environ.get("GENOVA_DATA_DIR") or _os.path.dirname(_os.path.abspath(__file__))
 
-with open("/Users/dany/genova/osm_provincia_raw.json") as f:
+with open(f"{_DATA_DIR}/osm_provincia_raw.json") as f:
     osm_elements = json.load(f)["elements"]
 
-with open("/Users/dany/genova/wikidata_rich_provincia.json") as f:
+with open(f"{_DATA_DIR}/wikidata_rich_provincia.json") as f:
     wd_rich = json.load(f)
 
-with open("/Users/dany/genova/wikidata_all_provincia_items.json") as f:
+with open(f"{_DATA_DIR}/wikidata_all_provincia_items.json") as f:
     wd_all = json.load(f)
 
 # Build QID -> instanceOfLabel lookup from wd_all
@@ -224,5 +226,5 @@ with_hours = sum(1 for v in url_results.values() if v.get("orari_estratti_dal_si
 with_events = sum(1 for v in url_results.values() if v.get("eventi_e_apertura_pubblico"))
 print(f"Crawl complete! Reachable sites: {ok_count}/{len(unique_urls)}, Extracted site hours: {with_hours}, Extracted events/public info: {with_events}")
 
-with open("/Users/dany/genova/crawled_urls_cache.json", "w", encoding="utf-8") as f:
+with open(f"{_DATA_DIR}/crawled_urls_cache.json", "w", encoding="utf-8") as f:
     json.dump(url_results, f, indent=2, ensure_ascii=False)

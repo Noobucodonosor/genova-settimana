@@ -2,14 +2,16 @@ import json
 import csv
 import re
 from collections import defaultdict
+import os as _os
+_DATA_DIR = _os.environ.get("GENOVA_DATA_DIR") or _os.path.dirname(_os.path.abspath(__file__))
 
-with open("/Users/dany/genova/osm_genova_raw.json") as f:
+with open(f"{_DATA_DIR}/osm_genova_raw.json") as f:
     osm_data = json.load(f)
 
-with open("/Users/dany/genova/wikidata_p138.json") as f:
+with open(f"{_DATA_DIR}/wikidata_p138.json") as f:
     wd_p138 = json.load(f)
 
-with open("/Users/dany/genova/osm_resolved_qids.json") as f:
+with open(f"{_DATA_DIR}/osm_resolved_qids.json") as f:
     resolved_qids = json.load(f)
 
 # 1. Build Wikidata P138 lookup
@@ -286,16 +288,16 @@ for t, lst in sorted(by_type.items(), key=lambda x: -len(x[1])):
     print(f"  {t}: {len(lst)}")
 
 # Save full JSON and CSV
-with open("/Users/dany/genova/toponimi_personaggi_genova_integrale.json", "w", encoding="utf-8") as f:
+with open(f"{_DATA_DIR}/toponimi_personaggi_genova_integrale.json", "w", encoding="utf-8") as f:
     json.dump(results, f, indent=2, ensure_ascii=False)
 
-with open("/Users/dany/genova/toponimi_personaggi_genova_integrale.csv", "w", encoding="utf-8", newline="") as f:
+with open(f"{_DATA_DIR}/toponimi_personaggi_genova_integrale.csv", "w", encoding="utf-8", newline="") as f:
     writer = csv.DictWriter(f, fieldnames=["toponimo", "tipo", "personaggio_o_casata", "descrizione_categoria"])
     writer.writeheader()
     writer.writerows(results)
 
 # Also write a clean Markdown catalog grouped by category
-with open("/Users/dany/genova/elenco_integrale_personaggi_genova.md", "w", encoding="utf-8") as f:
+with open(f"{_DATA_DIR}/elenco_integrale_personaggi_genova.md", "w", encoding="utf-8") as f:
     f.write("# Censimento Integrale dei Toponimi di Genova intitolati a Personaggi e Casate\n\n")
     f.write(f"**Totale luoghi censiti nel Comune di Genova:** `{len(results)}` (su `5.240` odonimi e luoghi totali estratti da OpenStreetMap + Wikidata).\n\n")
     f.write("## 1. Formato Insieme Compatto `Insieme = ( ... )`\n\n```text\nInsieme_Toponimi_Personaggi_Genova = (\n  ")

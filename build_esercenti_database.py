@@ -2,14 +2,16 @@ import json
 import csv
 import math
 from collections import defaultdict
+import os as _os
+_DATA_DIR = _os.environ.get("GENOVA_DATA_DIR") or _os.path.dirname(_os.path.abspath(__file__))
 
-with open("/Users/dany/genova/osm_esercenti_provincia_raw.json") as f:
+with open(f"{_DATA_DIR}/osm_esercenti_provincia_raw.json") as f:
     raw_elems = json.load(f)["elements"]
 
-with open("/Users/dany/genova/comuni_67_geo.json") as f:
+with open(f"{_DATA_DIR}/comuni_67_geo.json") as f:
     comuni_geo = json.load(f)
 
-with open("/Users/dany/genova/toponimi_personaggi_provincia_genova.json") as f:
+with open(f"{_DATA_DIR}/toponimi_personaggi_provincia_genova.json") as f:
     toponimi = json.load(f)
 
 # Map (comune_lower, street_lower) -> (personaggio, categoria)
@@ -395,10 +397,10 @@ def rec_sort(x):
 
 records.sort(key=rec_sort)
 
-with open("/Users/dany/genova/esercenti_genova_provincia_db.json", "w", encoding="utf-8") as f:
+with open(f"{_DATA_DIR}/esercenti_genova_provincia_db.json", "w", encoding="utf-8") as f:
     json.dump(records, f, indent=2, ensure_ascii=False)
 
-with open("/Users/dany/genova/esercenti_genova_provincia_db.csv", "w", encoding="utf-8", newline="") as f:
+with open(f"{_DATA_DIR}/esercenti_genova_provincia_db.csv", "w", encoding="utf-8", newline="") as f:
     writer = csv.DictWriter(f, fieldnames=list(records[0].keys()))
     writer.writeheader()
     writer.writerows(records)
