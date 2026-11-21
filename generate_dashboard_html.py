@@ -39,7 +39,7 @@ for idx, it in enumerate(items_sorted, 1):
         "p": it["personaggio"]
     })
 
-json_payload = json.dumps(compact_items, ensure_ascii=False)
+json_payload = json.dumps(compact_items, ensure_ascii=False).replace("<", "\\u003c")
 
 html_template = """<!DOCTYPE html>
 <html lang="it">
@@ -450,32 +450,34 @@ html_template = """<!DOCTYPE html>
           }">${dayLetters[i]}</span>`;
         }).join("");
 
+        const esc = s => String(s ?? "").replace(/[&<>"']/g, m => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m]));
+        const safeHref = /^https?:\/\//i.test(String(it.w ?? "").trim()) ? it.w.trim() : "";
         const card = document.createElement("div");
         card.className = "rounded-xl border border-[var(--border)] bg-[var(--card)] p-4 shadow-sm flex flex-col justify-between gap-3 hover:border-[var(--primary)] transition-all";
         card.innerHTML = `
           <div class="space-y-2">
             <div class="flex items-start justify-between gap-2">
-              <span class="text-xs font-bold uppercase tracking-wider text-amber-500">${it.c} • ${it.m.split('.')[1]}</span>
+              <span class="text-xs font-bold uppercase tracking-wider text-amber-500">${esc(it.c)} • ${esc((it.m || "").split('.')[1] || "")}</span>
               ${statusBadge}
             </div>
-            <h3 class="text-base font-bold text-[var(--foreground)] leading-snug">${it.n}</h3>
-            ${it.a ? `<div class="text-xs text-[var(--muted-foreground)]">📍 ${it.a}</div>` : ""}
+            <h3 class="text-base font-bold text-[var(--foreground)] leading-snug">${esc(it.n)}</h3>
+            ${it.a ? `<div class="text-xs text-[var(--muted-foreground)]">📍 ${esc(it.a)}</div>` : ""}
             
             <div class="p-2.5 rounded-lg bg-[var(--content)] border border-[var(--border)] space-y-1">
-              <div class="text-xs font-semibold text-[var(--foreground)]">🕒 ${it.o}</div>
+              <div class="text-xs font-semibold text-[var(--foreground)]">🕒 ${esc(it.o)}</div>
               <div class="flex items-center gap-1 pt-1">${dayDots}</div>
             </div>
 
-            ${it.e ? `<p class="text-xs text-[var(--muted-foreground)] leading-relaxed">✨ <strong class="text-[var(--foreground)]">Eventi & Servizi:</strong> ${it.e}</p>` : ""}
-            ${it.p ? `<div class="text-xs px-2.5 py-1 rounded bg-blue-500/10 border border-blue-500/25 text-blue-400 font-medium">🏛️ Personaggio collegato: <strong>${it.p}</strong></div>` : ""}
+            ${it.e ? `<p class="text-xs text-[var(--muted-foreground)] leading-relaxed">✨ <strong class="text-[var(--foreground)]">Eventi & Servizi:</strong> ${esc(it.e)}</p>` : ""}
+            ${it.p ? `<div class="text-xs px-2.5 py-1 rounded bg-blue-500/10 border border-blue-500/25 text-blue-400 font-medium">🏛️ Personaggio collegato: <strong>${esc(it.p)}</strong></div>` : ""}
           </div>
 
           <div class="pt-2 border-t border-[var(--border)] flex flex-wrap items-center justify-between gap-2">
             <div class="flex items-center gap-2">
-              ${it.w ? `<a href="${it.w}" target="_blank" rel="noopener" class="px-2.5 py-1 rounded-md text-xs font-semibold bg-[var(--primary)] text-[var(--primary-foreground)] hover:opacity-90">Sito Web ↗</a>` : `<span class="text-xs text-[var(--muted-foreground)]">Sito non censito</span>`}
-              ${it.t ? `<span class="text-xs text-[var(--muted-foreground)] font-mono">📞 ${it.t}</span>` : ""}
+              ${safeHref ? `<a href="${esc(safeHref)}" target="_blank" rel="noopener" class="px-2.5 py-1 rounded-md text-xs font-semibold bg-[var(--primary)] text-[var(--primary-foreground)] hover:opacity-90">Sito Web ↗</a>` : `<span class="text-xs text-[var(--muted-foreground)]">Sito non censito</span>`}
+              ${it.t ? `<span class="text-xs text-[var(--muted-foreground)] font-mono">📞 ${esc(it.t)}</span>` : ""}
             </div>
-            <button onclick="togglePlanItem(${it.id})" class="px-2.5 py-1 rounded-md text-xs font-semibold border ${
+            <button onclick="togglePlanItem(${Number(it.id)})" class="px-2.5 py-1 rounded-md text-xs font-semibold border ${
               inPlan ? 'border-amber-500 bg-amber-500 text-white' : 'border-[var(--border)] bg-[var(--background)] text-[var(--foreground)] hover:bg-[var(--content)]'
             }">
               ${inPlan ? '✓ Nel Programma' : '+ Programma'}
@@ -584,23 +586,25 @@ html_template = """<!DOCTYPE html>
       }
       const planItems = ITEMS.filter(it => savedPlan.has(it.id));
       planItems.forEach((it, idx) => {
+        const esc = s => String(s ?? "").replace(/[&<>"']/g, m => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m]));
+        const safeHref = /^https?:\/\//i.test(String(it.w ?? "").trim()) ? it.w.trim() : "";
         const div = document.createElement("div");
         div.className = "p-4 rounded-xl border border-amber-500/40 bg-[var(--card)] flex flex-col justify-between gap-2";
         div.innerHTML = `
           <div>
             <div class="flex items-center justify-between">
-              <span class="text-xs font-bold text-amber-500">Tappa ${idx + 1} • ${it.c}</span>
-              <button onclick="togglePlanItem(${it.id})" class="text-xs text-red-400 hover:underline">Rimuovi</button>
+              <span class="text-xs font-bold text-amber-500">Tappa ${idx + 1} • ${esc(it.c)}</span>
+              <button onclick="togglePlanItem(${Number(it.id)})" class="text-xs text-red-400 hover:underline">Rimuovi</button>
             </div>
-            <h4 class="text-base font-bold text-[var(--foreground)] mt-0.5">${it.n}</h4>
-            <div class="text-xs text-[var(--muted-foreground)] mt-0.5">📍 ${it.a || it.c}</div>
-            <div class="text-xs font-semibold text-[var(--foreground)] mt-1.5">🕒 ${it.o}</div>
-            <p class="text-xs text-[var(--muted-foreground)] mt-1">${it.e}</p>
-            ${it.p ? `<div class="mt-2 text-xs text-blue-400 font-medium">🏛️ Personaggio per la tua Storia: <strong>${it.p}</strong></div>` : ""}
+            <h4 class="text-base font-bold text-[var(--foreground)] mt-0.5">${esc(it.n)}</h4>
+            <div class="text-xs text-[var(--muted-foreground)] mt-0.5">📍 ${esc(it.a || it.c)}</div>
+            <div class="text-xs font-semibold text-[var(--foreground)] mt-1.5">🕒 ${esc(it.o)}</div>
+            <p class="text-xs text-[var(--muted-foreground)] mt-1">${esc(it.e)}</p>
+            ${it.p ? `<div class="mt-2 text-xs text-blue-400 font-medium">🏛️ Personaggio per la tua Storia: <strong>${esc(it.p)}</strong></div>` : ""}
           </div>
           <div class="pt-2 border-t border-[var(--border)] flex items-center justify-between">
-            ${it.w ? `<a href="${it.w}" target="_blank" class="text-xs font-semibold text-[var(--primary)] underline">Apri Sito Ufficiale ↗</a>` : `<span></span>`}
-            <span class="text-xs font-mono text-[var(--muted-foreground)]">${it.t || ""}</span>
+            ${safeHref ? `<a href="${esc(safeHref)}" target="_blank" rel="noopener" class="text-xs font-semibold text-[var(--primary)] underline">Apri Sito Ufficiale ↗</a>` : `<span></span>`}
+            <span class="text-xs font-mono text-[var(--muted-foreground)]">${esc(it.t || "")}</span>
           </div>
         `;
         container.appendChild(div);

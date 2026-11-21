@@ -320,8 +320,6 @@ def probe_url_reachability(url: str, timeout: float = 3.5, use_cache: bool = Tru
         "Accept-Language": "it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7",
     }
     ctx = ssl.create_default_context()
-    ctx.check_hostname = False
-    ctx.verify_mode = ssl.CERT_NONE
 
     req = urllib.request.Request(url, headers=headers)
     try:

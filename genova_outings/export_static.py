@@ -299,6 +299,7 @@ function render() {
   document.getElementById("list").innerHTML = items.map(d => {
     const prog = (d.programma || []).length
       ? `<div class="prog"><b>In programma</b><ul>${d.programma.map(p => `<li>${esc(p.titolo)} <span>${esc(p.quando)}</span></li>`).join("")}</ul></div>` : "";
+    const safeHref = /^https?:\/\//i.test(String(d.url || "").trim()) ? d.url.trim() : "";
     return `<div class="card ${sel.has(d.id)?'sel':''}" data-id="${esc(d.id)}">
       <input type="checkbox" ${sel.has(d.id)?'checked':''} aria-label="Scegli ${esc(d.title)}">
       <div><div class="t">${esc(d.title)}</div>
@@ -306,7 +307,7 @@ function render() {
         <div class="m">🗓️ ${esc(d.day_time)}</div>
         ${d.description ? `<div class="d">${esc(d.description)}</div>` : ""}
         ${prog}
-        <a class="src" href="${esc(d.url)}" target="_blank" rel="noopener">Sito ufficiale</a>
+        ${safeHref ? `<a class="src" href="${esc(safeHref)}" target="_blank" rel="noopener">Sito ufficiale</a>` : ""}
       </div></div>`;
   }).join("");
   document.querySelectorAll(".card").forEach(c => c.onclick = e => {
@@ -393,8 +394,8 @@ def build(out_dir: Path) -> Path:
     today = date.today()
     end = today + timedelta(days=7)
     rng = f"Dal {today.day} {MESI[today.month-1]} al {end.day} {MESI[end.month-1]}"
-    page = (PAGE.replace("__DATA__", json.dumps(data, ensure_ascii=False))
-                .replace("__LABELS__", json.dumps(CAT_LABEL, ensure_ascii=False))
+    page = (PAGE.replace("__DATA__", json.dumps(data, ensure_ascii=False).replace("<", "\\u003c"))
+                .replace("__LABELS__", json.dumps(CAT_LABEL, ensure_ascii=False).replace("<", "\\u003c"))
                 .replace("__RANGE__", html.escape(rng))
                 .replace("__UPDATED__", f"{today.day} {MESI[today.month-1]} {today.year}"))
     out_dir.mkdir(parents=True, exist_ok=True)

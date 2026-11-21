@@ -1,7 +1,7 @@
 import json
 
 with open("/Users/dany/genova/tempo_libero_payload.json", "r", encoding="utf-8") as f:
-    payload_json = f.read()
+    payload_json = f.read().replace("<", "\\u003c")
 
 HTML_TEMPLATE = r"""<!DOCTYPE html>
 <html lang="it">
@@ -384,6 +384,8 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
 
   <script>
     const DATA = __PAYLOAD_JSON__;
+    const esc = s => String(s ?? "").replace(/[&<>"']/g, m => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m]));
+    const safeUrl = u => { const s = String(u ?? "").trim(); return /^https?:\/\//i.test(s) ? s : ""; };
 
     //Accurate Ligurian Coastline GPS Polyline (West -> Genoa -> Portofino -> Sestri -> Moneglia)
     const COASTLINE = [
@@ -918,11 +920,11 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
               ${ev.isFreeToday ? '<span class="text-emerald-600 font-semibold">• 🆓 Gratis</span>' : ''}
             </div>
 
-            ${place.personaggio ? `<div class="text-xs text-[var(--muted-foreground)] truncate">👤 <span class="font-medium text-[var(--foreground)]">${place.personaggio}</span></div>` : ''}
+            ${place.personaggio ? `<div class="text-xs text-[var(--muted-foreground)] truncate">👤 <span class="font-medium text-[var(--foreground)]">${esc(place.personaggio)}</span></div>` : ''}
 
             <div class="pt-1.5 border-t border-[var(--border)] flex items-center justify-between gap-2" onclick="event.stopPropagation()">
               <div class="flex items-center gap-2">
-                ${place.url ? `<a href="${place.url}" target="_blank" rel="noopener" class="text-xs underline text-[var(--muted-foreground)] hover:text-[var(--foreground)]">🌐 Sito</a>` : ''}
+                ${safeUrl(place.url) ? `<a href="${esc(safeUrl(place.url))}" target="_blank" rel="noopener" class="text-xs underline text-[var(--muted-foreground)] hover:text-[var(--foreground)]">🌐 Sito</a>` : ''}
                 <a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(place.nome + ' ' + place.comune)}" target="_blank" rel="noopener" class="text-xs underline text-[var(--muted-foreground)] hover:text-[var(--foreground)]">🗺️ Mappa</a>
               </div>
               <button onclick="toggleStopInTrip(${place.id})" class="px-3 py-1 rounded-xl text-xs font-semibold transition ${inTripIdx >= 0 ? 'bg-emerald-500/20 text-emerald-600 border border-emerald-500/40' : 'bg-[var(--primary)] text-[var(--primary-foreground)]'}">
@@ -969,24 +971,24 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
                 <span class="text-xs font-bold px-2.5 py-0.5 rounded-full bg-[var(--content)] border border-[var(--border)]">${meta.icon} ${meta.label} • ${place.comune}</span>
                 <span class="text-xs text-[var(--muted-foreground)]">${ZONE_LABELS[place.zona] || ''}</span>
               </div>
-              <h3 class="text-base font-bold mt-1.5">${place.nome}</h3>
+              <h3 class="text-base font-bold mt-1.5">${esc(place.nome)}</h3>
             </div>
-            <button onclick="toggleStopInTrip(${place.id})" class="px-3.5 py-1.5 rounded-xl text-xs font-semibold transition ${inTripIdx >= 0 ? 'bg-emerald-500/20 text-emerald-600 border border-emerald-500/40' : 'bg-[var(--primary)] text-[var(--primary-foreground)]'}">
+            <button onclick="toggleStopInTrip(${Number(place.id)})" class="px-3.5 py-1.5 rounded-xl text-xs font-semibold transition ${inTripIdx >= 0 ? 'bg-emerald-500/20 text-emerald-600 border border-emerald-500/40' : 'bg-[var(--primary)] text-[var(--primary-foreground)]'}">
               ${inTripIdx >= 0 ? `✓ Nel programma (Tappa #${inTripIdx + 1})` : '+ Aggiungi alla Giornata'}
             </button>
           </div>
 
-          <p class="text-xs sm:text-sm text-[var(--foreground)] leading-relaxed">${place.pitch}</p>
+          <p class="text-xs sm:text-sm text-[var(--foreground)] leading-relaxed">${esc(place.pitch)}</p>
 
           <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs bg-[var(--content)] rounded-xl p-3 border border-[var(--border)]">
-            <div><span class="text-[var(--muted-foreground)]">🕒 Orari:</span> <span class="font-medium">${place.orari}</span></div>
-            <div><span class="text-[var(--muted-foreground)]">🧭 Arrivo:</span> <span class="font-medium">${tr.badge} — ${place.trasporto_info}</span></div>
-            <div><span class="text-[var(--muted-foreground)]">🎟️ Ingresso:</span> <span class="font-medium">${place.costo} (visita ~${place.durata_min} min)</span></div>
-            <div><span class="text-[var(--muted-foreground)]">👤 Personaggio:</span> <span class="font-medium">${place.personaggio || 'Memoria storica locale'}</span></div>
+            <div><span class="text-[var(--muted-foreground)]">🕒 Orari:</span> <span class="font-medium">${esc(place.orari)}</span></div>
+            <div><span class="text-[var(--muted-foreground)]">🧭 Arrivo:</span> <span class="font-medium">${esc(tr.badge)} — ${esc(place.trasporto_info)}</span></div>
+            <div><span class="text-[var(--muted-foreground)]">🎟️ Ingresso:</span> <span class="font-medium">${esc(place.costo)} (visita ~${Number(place.durata_min)} min)</span></div>
+            <div><span class="text-[var(--muted-foreground)]">👤 Personaggio:</span> <span class="font-medium">${esc(place.personaggio || 'Memoria storica locale')}</span></div>
           </div>
 
           <div class="flex flex-wrap items-center gap-3 text-xs">
-            ${place.url ? `<a href="${place.url}" target="_blank" rel="noopener" class="px-3 py-1.5 rounded-lg bg-[var(--content)] border border-[var(--border)] font-medium hover:opacity-90">🌐 Sito Ufficiale ↗</a>` : ''}
+            ${safeUrl(place.url) ? `<a href="${esc(safeUrl(place.url))}" target="_blank" rel="noopener" class="px-3 py-1.5 rounded-lg bg-[var(--content)] border border-[var(--border)] font-medium hover:opacity-90">🌐 Sito Ufficiale ↗</a>` : ''}
             <a href="https://www.google.com/maps/dir/?api=1&origin=${origin.lat},${origin.lon}&destination=${place.lat},${place.lon}" target="_blank" rel="noopener" class="px-3 py-1.5 rounded-lg bg-[var(--content)] border border-[var(--border)] font-medium hover:opacity-90">🗺️ Indicazioni Stradali / Treno ↗</a>
             ${place.tel ? `<span class="text-[var(--muted-foreground)]">📞 ${place.tel}</span>` : ''}
             <button onclick="setCustomOriginFromPlace(${place.id})" class="ml-auto text-xs underline text-[var(--muted-foreground)] hover:text-[var(--foreground)]">Imposta come punto di partenza</button>
@@ -1279,9 +1281,9 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
           tooltip.style.top = `${Math.max(8, my - 38)}px`;
           if (hit.type === "place") {
             const p = hit.data;
-            tooltip.innerHTML = `<div class="font-bold">${TIPO_META[p.tipo].icon} ${p.nome}</div><div class="text-[var(--muted-foreground)]">${p.comune} • ${hit.ev.label}</div>`;
+            tooltip.innerHTML = `<div class="font-bold">${TIPO_META[p.tipo].icon} ${esc(p.nome)}</div><div class="text-[var(--muted-foreground)]">${esc(p.comune)} • ${esc(hit.ev.label)}</div>`;
           } else {
-            tooltip.innerHTML = `<div class="font-bold">📍 Comune di ${hit.data.nome}</div><div class="text-[var(--muted-foreground)]">${hit.data.elev} m s.l.m. • Clicca per filtrare</div>`;
+            tooltip.innerHTML = `<div class="font-bold">📍 Comune di ${esc(hit.data.nome)}</div><div class="text-[var(--muted-foreground)]">${esc(hit.data.elev)} m s.l.m. • Clicca per filtrare</div>`;
           }
         } else {
           canvas.style.cursor = "grab";
