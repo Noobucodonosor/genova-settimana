@@ -17,7 +17,7 @@ if str(REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(REPO_ROOT))
 
 from genova_outings.catalog import get_weekly_catalog
-from genova_outings.export_static import _dedupe
+from genova_outings.export_static import _clean_editorial_title, _dedupe
 from genova_outings.html_utils import get_data_dir
 from genova_outings.programme import attach_programmes
 from genova_outings.validator import sanitize_plain_writing
@@ -97,7 +97,7 @@ def build_events(live_verify: bool = False) -> List[Dict[str, Any]]:
     events: List[Dict[str, Any]] = []
     seen_keys = set()
     for o in options:
-        title = clean_scraping_text(o.title)
+        title = clean_scraping_text(_clean_editorial_title(o.title, o.venue))
         venue = clean_scraping_text(o.venue)
         key = (title.lower(), venue.lower(), o.category.value.lower())
         if key in seen_keys:
