@@ -317,14 +317,26 @@ function render() {
   });
 }
 
+function cleanPlain(s) {
+  return String(s || "").replace(/[\u2014\u2013\u2015]/g, "-").replace(/\s+/g, " ").trim();
+}
+
 function message() {
   const chosen = DATA.filter(d => sel.has(d.id));
-  const head = chosen.length === 1 ? "Ho guardato la lista, questa mi ispira:" : "Ho guardato la lista, queste mi ispirano:";
+  if (!chosen.length) return "";
+  const head = chosen.length === 1
+    ? "Ho visto questa cosa a Genova questa settimana, se ti va:"
+    : "Ti lascio un paio di idee carine per questa settimana a Genova:";
   const body = chosen.map(d => {
     const p = (d.programma || [])[0];
-    return `• *${d.title}*\n  ${d.place}` + (p ? `\n  ${p.titolo}, ${p.quando}` : `\n  ${d.day_time}`);
+    const when = p ? `${cleanPlain(p.titolo)}, ${cleanPlain(p.quando)}` : cleanPlain(d.day_time);
+    const safeHref = /^https?:\/\//i.test(String(d.url || "").trim()) ? String(d.url).trim().replace(/[.,;:!?)]+$/, "") : "";
+    const lines = [`• *${cleanPlain(d.title)}*`, `  ${cleanPlain(d.place)}`, `  ${when}`];
+    if (safeHref) lines.push(`  Info: ${safeHref}`);
+    return lines.join("\n");
   }).join("\n\n");
-  return `${head}\n\n${body}`;
+  const tail = chosen.length === 1 ? "Dimmi se ti ispira!" : "Dimmi se ti ispira qualcosa!";
+  return `${head}\n\n${body}\n\n${tail}`;
 }
 
 function bar() {
