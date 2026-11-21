@@ -13,7 +13,14 @@ from datetime import date, timedelta
 from pathlib import Path
 
 from genova_outings.catalog import get_weekly_catalog
-from genova_outings.html_utils import SHARED_NAV_CSS, render_shared_nav, safe_json_for_script
+from genova_outings.html_utils import (
+    OPEN_DATA_ATTRIBUTION_TEXT,
+    PWA_HEAD_HTML,
+    PWA_SW_SCRIPT,
+    SHARED_NAV_CSS,
+    render_shared_nav,
+    safe_json_for_script,
+)
 from genova_outings.programme import attach_programmes
 
 MESI = ["gennaio", "febbraio", "marzo", "aprile", "maggio", "giugno", "luglio",
@@ -33,6 +40,7 @@ PAGE = r"""<!DOCTYPE html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Cosa facciamo Genova</title>
 <meta name="description" content="Cosa facciamo a Genova questa settimana: cinema, mostre, musica, dove ballare, biblioteche, botteghe e passeggiate.">
+__PWA_HEAD__
 <style>
   __SHARED_NAV_CSS__
   :root { --bg:#faf8f4; --card:#ffffff; --fg:#14191f; --mut:#5a6472; --line:#e2ddd5; --acc:#0f4c81; --sel:#eef4fa; }
@@ -50,6 +58,10 @@ PAGE = r"""<!DOCTYPE html>
   .prompts { display: flex; flex-wrap: wrap; flex-wrap: balance; gap: 6px; padding: 10px 0 2px; }
   .pr { flex: 0 0 auto; border: 1px solid var(--line); background: var(--card); color: var(--mut); border-radius: 999px; padding: 5px 11px; font-size: 13px; cursor: pointer; }
   .pr:hover, .pr.on { border-color: var(--acc); color: var(--acc); background: var(--sel); }
+  .ctx-row { display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:8px; margin-top:10px; }
+  .weather-bar { font-size:13px; color:var(--mut); display:flex; flex-wrap:wrap; align-items:center; gap:8px; }
+  .weather-alert { border:1px solid #b45309; background:rgba(180,83,9,0.08); color:#92400e; border-radius:999px; padding:3px 10px; font-size:12px; font-weight:600; cursor:pointer; }
+  .zone-sel { border:1px solid var(--line); background:var(--card); color:var(--fg); border-radius:8px; padding:6px 10px; font-size:13px; }
   .filter-nav { position: sticky; top: 0; z-index: 5; background: rgba(250, 248, 244, 0.96); backdrop-filter: blur(6px); border-bottom: 1px solid var(--line); }
   .chips { display:flex; flex-wrap: wrap; flex-wrap: balance; gap:6px; padding:10px 16px; max-width:820px; margin:0 auto; }
   .chip { flex:0 0 auto; border:1px solid var(--line); background:var(--card); color:var(--fg); border-radius:999px; padding:6px 12px; font-size:14px; cursor:pointer; }
@@ -71,13 +83,19 @@ PAGE = r"""<!DOCTYPE html>
   .prog li span { color: var(--mut); }
   .src { display:inline-block; margin-top:8px; font-size:13px; font-weight: 600; color: var(--acc); text-decoration:none; }
   .src:hover { text-decoration: underline; }
-  .bar { position:fixed; left:0; right:0; bottom:0; background:var(--card); border-top:1px solid var(--line); padding:12px 16px calc(12px + env(safe-area-inset-bottom)); display:none; box-shadow: 0 -4px 16px rgba(20, 25, 31, 0.08); }
+  .bar { position:fixed; left:0; right:0; bottom:0; background:var(--card); border-top:1px solid var(--line); padding:12px 16px calc(12px + env(safe-area-inset-bottom)); display:none; box-shadow: 0 -4px 16px rgba(20, 25, 31, 0.08); z-index:20; }
   .bar.show { display:block; }
-  .bar-in { max-width:820px; margin:0 auto; display:flex; gap:8px; align-items:center; }
-  .count { flex:1; font-size:14px; color: var(--mut); }
-  .btn { border:0; border-radius:8px; padding:10px 14px; font-size:15px; font-weight:600; cursor:pointer; }
+  .bar-in { max-width:820px; margin:0 auto; display:flex; flex-wrap:wrap; gap:8px; align-items:center; }
+  .bar-actions { display:flex; flex-wrap:wrap; gap:6px; align-items:center; }
+  .preview-box { max-width:820px; margin:0 auto 10px; display:none; padding:10px; background:var(--bg); border:1px solid var(--line); border-radius:10px; }
+  .preview-box.open { display:block; }
+  .preview-head { display:flex; flex-wrap:wrap; gap:8px; align-items:center; justify-content:space-between; margin-bottom:8px; font-size:13px; }
+  .preview-edit { width:100%; min-height:110px; border:1px solid var(--line); border-radius:8px; padding:8px; font:14px/1.4 inherit; background:var(--card); color:var(--fg); resize:vertical; }
+  .count { flex:1; min-width:90px; font-size:14px; color: var(--mut); }
+  .btn { border:0; border-radius:8px; padding:9px 12px; font-size:14px; font-weight:600; cursor:pointer; }
   .wa { background:#128c7e; color:#fff; }
   .cp { background: var(--line); color: var(--fg); }
+  .sec { background: transparent; border:1px solid var(--line); color: var(--fg); }
   footer { color: var(--mut); font-size: 12px; text-align:center; padding: 12px 16px 24px; border-top: 1px solid var(--line); max-width: 820px; margin: 0 auto; }
 </style>
 </head>
@@ -91,12 +109,23 @@ __SHARED_NAV__
     <button id="qclr" class="ask-clr" type="button" aria-label="Cancella ricerca">✕</button>
   </div>
   <div class="prompts" id="prompts">
-    <button class="pr" type="button" data-q="stasera dove vado a ballare?">Stasera dove vado a ballare?</button>
-    <button class="pr" type="button" data-q="cosa c'è stasera?">Cosa c'è stasera?</button>
-    <button class="pr" type="button" data-q="dove andiamo se piove?">Se piove dove andiamo?</button>
-    <button class="pr" type="button" data-q="bere qualcosa o aperitivo nei caruggi">Bere qualcosa nei caruggi</button>
-    <button class="pr" type="button" data-q="film al cinema">Che film danno?</button>
-    <button class="pr" type="button" data-q="passeggiata vista mare">Vista mare</button>
+    <button class="pr" type="button" data-q="cosa c'è oggi?">Oggi</button>
+    <button class="pr" type="button" data-q="cosa c'è stasera?">Stasera</button>
+    <button class="pr" type="button" data-q="weekend">Weekend</button>
+    <button class="pr" type="button" data-q="dove andiamo se piove?">Al coperto</button>
+    <button class="pr" type="button" data-q="stasera dove vado a ballare?">Dove ballare</button>
+    <button class="pr" type="button" data-q="bere qualcosa o aperitivo nei caruggi">Aperitivo caruggi</button>
+  </div>
+  <div class="ctx-row">
+    <div id="weather-bar" class="weather-bar" aria-live="polite"></div>
+    <select id="zoneSel" class="zone-sel" aria-label="Filtra per zona">
+      <option value="">Tutte le zone</option>
+      <option value="centro">Genova Centro</option>
+      <option value="tigullio">Tigullio</option>
+      <option value="golfo paradiso">Golfo Paradiso</option>
+      <option value="ponente">Ponente / Valle Stura</option>
+      <option value="polcevera">Val Polcevera / Scrivia</option>
+    </select>
   </div>
 </header>
 <nav class="filter-nav" aria-label="Filtri per categoria"><div class="chips" id="chips"></div></nav>
@@ -104,27 +133,58 @@ __SHARED_NAV__
   <div id="ans" class="ans"></div>
   <div id="list"></div>
 </main>
-<footer>Orari e programmi letti dai siti ufficiali il __UPDATED__. Prima di andare conviene ricontrollare sul sito del posto.</footer>
-<div class="bar" id="bar"><div class="bar-in">
-  <span class="count" id="count"></span>
-  <button class="btn cp" id="copy">Copia</button>
-  <button class="btn wa" id="send">Invia su WhatsApp</button>
-</div></div>
+<footer>Orari e programmi letti dai siti ufficiali il __UPDATED__. Prima di andare conviene ricontrollare sul sito del posto.<br>__ATTRIBUTION__</footer>
+<div class="bar" id="bar">
+  <div class="preview-box" id="previewBox">
+    <div class="preview-head">
+      <label>Tono:
+        <select id="toneSel" class="zone-sel">
+          <option value="amichevole">Amichevole</option>
+          <option value="weekend">Weekend</option>
+          <option value="minimal">Minimal</option>
+        </select>
+      </label>
+      <button type="button" class="btn sec" id="clearSel">Svuota</button>
+    </div>
+    <textarea id="msgEdit" class="preview-edit" aria-label="Anteprima messaggio WhatsApp"></textarea>
+  </div>
+  <div class="bar-in">
+    <span class="count" id="count"></span>
+    <div class="bar-actions">
+      <button class="btn sec" id="togglePreview" type="button">Anteprima</button>
+      <button class="btn sec" id="copyLink" type="button">Copia link</button>
+      <button class="btn sec" id="saveIcs" type="button">Salva .ics</button>
+      <button class="btn cp" id="copy" type="button">Copia</button>
+      <button class="btn wa" id="send" type="button">WhatsApp</button>
+    </div>
+  </div>
+</div>
 <script>
 let DATA = __DATA__;
 const LABEL = __LABELS__;
 const _params = new URLSearchParams(window.location.search);
 let cat = _params.get("cat") || "tutto";
 let query = _params.get("q") || "";
+let zoneFilter = _params.get("zone") || "";
+let tone = "amichevole";
+const SEL_KEY = "genova_civica_sel_v1";
+const sel = new Set((() => {
+  const fromUrl = _params.get("sel");
+  if (fromUrl) return fromUrl.split(",").map(s => s.trim()).filter(Boolean);
+  try { return JSON.parse(localStorage.getItem(SEL_KEY) || "[]"); } catch { return []; }
+})());
+function persistSel() {
+  try { localStorage.setItem(SEL_KEY, JSON.stringify(Array.from(sel))); } catch {}
+}
 function syncUrl() {
   if (!window.history || !window.history.replaceState) return;
   const p = new URLSearchParams();
   if (cat && cat !== "tutto") p.set("cat", cat);
   if (query && query.trim()) p.set("q", query.trim());
+  if (zoneFilter) p.set("zone", zoneFilter);
   const qs = p.toString();
   window.history.replaceState(null, "", qs ? `?${qs}` : window.location.pathname);
 }
-const sel = new Set();
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const norm = s => String(s ?? "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
 
@@ -287,7 +347,11 @@ function chips() {
 function render() {
   const info = analyzeQuery(query);
   const ansEl = document.getElementById("ans");
-  let items = DATA.filter(d => cat === "tutto" || d.category === cat);
+  let items = DATA.filter(d => {
+    if (cat !== "tutto" && d.category !== cat) return false;
+    if (zoneFilter && !norm(d.place).includes(zoneFilter)) return false;
+    return true;
+  });
 
   if (info) {
     const scored = items
@@ -328,6 +392,7 @@ function render() {
     const toggle = () => {
       const id = c.dataset.id;
       sel.has(id) ? sel.delete(id) : sel.add(id);
+      persistSel();
       render(); bar();
     };
     c.onclick = e => {
@@ -351,9 +416,16 @@ function cleanPlain(s) {
 function message() {
   const chosen = DATA.filter(d => sel.has(d.id));
   if (!chosen.length) return "";
-  const head = chosen.length === 1
-    ? "Ho visto questa cosa a Genova questa settimana, se ti va:"
-    : "Ti lascio un paio di idee carine per questa settimana a Genova:";
+  const openers = {
+    amichevole: chosen.length === 1
+      ? "Ho visto questa cosa a Genova questa settimana, se ti va:"
+      : "Ti lascio un paio di idee carine per questa settimana a Genova:",
+    weekend: chosen.length === 1
+      ? "Idea per questo fine settimana a Genova:"
+      : "Un paio di idee per questo fine settimana a Genova:",
+    minimal: "Idee Genova questa settimana:"
+  };
+  const head = openers[tone] || openers.amichevole;
   const body = chosen.map(d => {
     const p = (d.programma || [])[0];
     const when = p ? `${cleanPlain(p.titolo)}, ${cleanPlain(p.quando)}` : cleanPlain(d.day_time);
@@ -362,14 +434,57 @@ function message() {
     if (safeHref) lines.push(`  Info: ${safeHref}`);
     return lines.join("\n");
   }).join("\n\n");
-  const tail = chosen.length === 1 ? "Dimmi se ti ispira!" : "Dimmi se ti ispira qualcosa!";
-  return `${head}\n\n${body}\n\n${tail}`;
+  const tail = tone === "minimal" ? "" : (chosen.length === 1 ? "\n\nDimmi se ti ispira!" : "\n\nDimmi se ti ispira qualcosa!");
+  return `${head}\n\n${body}${tail}`;
+}
+
+function getMessageText() {
+  const box = document.getElementById("previewBox");
+  const ed = document.getElementById("msgEdit");
+  if (box && box.classList.contains("open") && ed && ed.value.trim()) {
+    return ed.value;
+  }
+  return message();
 }
 
 function bar() {
   const n = sel.size;
   document.getElementById("bar").classList.toggle("show", n > 0);
   document.getElementById("count").textContent = n === 1 ? "1 scelta" : `${n} scelte`;
+  const ed = document.getElementById("msgEdit");
+  if (ed) ed.value = message();
+}
+
+function downloadIcs() {
+  const chosen = DATA.filter(d => sel.has(d.id));
+  if (!chosen.length) return;
+  const now = new Date();
+  const fmtDt = dt => dt.toISOString().replace(/[-:]/g, "").slice(0, 15) + "Z";
+  const start = new Date(now.getTime() + 86400000);
+  start.setUTCHours(18, 0, 0, 0);
+  const events = chosen.map((d, idx) => {
+    const dtStart = new Date(start.getTime() + idx * 3600000);
+    const dtEnd = new Date(dtStart.getTime() + 7200000);
+    const desc = cleanPlain(`${d.place} | ${d.day_time} | ${d.url || ""}`).replace(/,/g, "\\,");
+    return [
+      "BEGIN:VEVENT",
+      `UID:genova-civica-${esc(d.id)}-${now.getTime()}@genova`,
+      `DTSTAMP:${fmtDt(now)}`,
+      `DTSTART:${fmtDt(dtStart)}`,
+      `DTEND:${fmtDt(dtEnd)}`,
+      `SUMMARY:${cleanPlain(d.title).replace(/,/g, "\\,")}`,
+      `LOCATION:${cleanPlain(d.place).replace(/,/g, "\\,")}`,
+      `DESCRIPTION:${desc}`,
+      "END:VEVENT"
+    ].join("\r\n");
+  });
+  const ics = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Genova Civica//IT", ...events, "END:VCALENDAR"].join("\r\n");
+  const blob = new Blob([ics], { type: "text/calendar;charset=utf-8" });
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = "genova-programma.ics";
+  a.click();
+  setTimeout(() => URL.revokeObjectURL(a.href), 1000);
 }
 
 const qIn = document.getElementById("q");
@@ -387,10 +502,34 @@ qIn.oninput = e => setQuery(e.target.value);
 qClr.onclick = () => { setQuery(""); qIn.focus(); };
 document.querySelectorAll(".pr").forEach(b => b.onclick = () => setQuery(query === b.dataset.q ? "" : b.dataset.q));
 
-document.getElementById("send").onclick = () => window.open("https://wa.me/?text=" + encodeURIComponent(message()), "_blank");
+const zoneSelEl = document.getElementById("zoneSel");
+if (zoneSelEl) {
+  zoneSelEl.value = zoneFilter;
+  zoneSelEl.onchange = () => { zoneFilter = zoneSelEl.value; syncUrl(); render(); };
+}
+document.getElementById("toneSel").onchange = e => { tone = e.target.value; bar(); };
+document.getElementById("togglePreview").onclick = () => {
+  const box = document.getElementById("previewBox");
+  box.classList.toggle("open");
+  if (box.classList.contains("open")) document.getElementById("msgEdit").value = message();
+};
+document.getElementById("clearSel").onclick = () => { sel.clear(); persistSel(); render(); bar(); };
+document.getElementById("saveIcs").onclick = downloadIcs;
+document.getElementById("copyLink").onclick = async () => {
+  const p = new URLSearchParams();
+  if (cat && cat !== "tutto") p.set("cat", cat);
+  if (query.trim()) p.set("q", query.trim());
+  if (zoneFilter) p.set("zone", zoneFilter);
+  if (sel.size) p.set("sel", Array.from(sel).join(","));
+  const link = `${location.origin}${location.pathname}?${p.toString()}`;
+  try { await navigator.clipboard.writeText(link); document.getElementById("copyLink").textContent = "Link copiato"; }
+  catch { prompt("Copia link:", link); }
+  setTimeout(() => document.getElementById("copyLink").textContent = "Copia link", 1500);
+};
+document.getElementById("send").onclick = () => window.open("https://wa.me/?text=" + encodeURIComponent(getMessageText()), "_blank");
 document.getElementById("copy").onclick = async () => {
-  try { await navigator.clipboard.writeText(message()); document.getElementById("copy").textContent = "Copiato"; }
-  catch { prompt("Copia il testo:", message()); }
+  try { await navigator.clipboard.writeText(getMessageText()); document.getElementById("copy").textContent = "Copiato"; }
+  catch { prompt("Copia il testo:", getMessageText()); }
   setTimeout(() => document.getElementById("copy").textContent = "Copia", 1500);
 };
 if (query) { qIn.value = query; qClr.classList.add("show"); }
@@ -416,8 +555,23 @@ if (location.protocol.startsWith("http")) {
       chips(); render(); bar();
     })
     .catch(() => {});
+  fetch("https://api.open-meteo.com/v1/forecast?latitude=44.4056&longitude=8.9463&current=temperature_2m,precipitation,wind_speed_10m,weather_code&timezone=Europe%2FRome")
+    .then(r => r.ok ? r.json() : null)
+    .then(w => {
+      const c = w && w.current;
+      const wb = document.getElementById("weather-bar");
+      if (!c || !wb) return;
+      const rain = Number(c.precipitation || 0) > 0;
+      const windy = Number(c.wind_speed_10m || 0) >= 30;
+      wb.innerHTML = `<span>Genova ora (Open-Meteo): <strong>${Math.round(c.temperature_2m)}°C</strong> · Vento ${Math.round(c.wind_speed_10m)} km/h${rain ? " · Pioggia in corso" : ""}</span>`
+        + ((rain || windy) ? ` <button type="button" class="weather-alert" id="btn-indoor-weather">Mostra solo al coperto</button>` : "");
+      const btn = document.getElementById("btn-indoor-weather");
+      if (btn) btn.onclick = () => setQuery("dove andiamo se piove?");
+    })
+    .catch(() => {});
 }
 </script>
+__PWA_SW__
 </body>
 </html>
 """
@@ -458,6 +612,9 @@ def build(out_dir: Path) -> Path:
     rng = f"Dal {today.day} {MESI[today.month-1]} al {end.day} {MESI[end.month-1]}"
     page = (PAGE.replace("__SHARED_NAV_CSS__", SHARED_NAV_CSS)
                 .replace("__SHARED_NAV__", render_shared_nav("index"))
+                .replace("__PWA_HEAD__", PWA_HEAD_HTML)
+                .replace("__PWA_SW__", PWA_SW_SCRIPT)
+                .replace("__ATTRIBUTION__", html.escape(OPEN_DATA_ATTRIBUTION_TEXT))
                 .replace("__DATA__", safe_json_for_script(data))
                 .replace("__LABELS__", safe_json_for_script(CAT_LABEL))
                 .replace("__RANGE__", html.escape(rng))

@@ -12,6 +12,8 @@ import html
 import json
 import logging
 import re
+import time
+import urllib.error
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor
 from datetime import date, timedelta
@@ -30,8 +32,16 @@ _cache: Dict[str, List[Dict[str, str]]] = {}
 
 def _get(url: str, timeout: float = 10.0) -> str:
     req = urllib.request.Request(url, headers={"User-Agent": UA})
-    with urllib.request.urlopen(req, timeout=timeout) as r:
-        return r.read().decode("utf-8", errors="ignore")
+    last_exc: Optional[Exception] = None
+    for attempt in range(2):
+        try:
+            with urllib.request.urlopen(req, timeout=timeout) as r:
+                return r.read().decode("utf-8", errors="ignore")
+        except (urllib.error.URLError, TimeoutError, OSError) as exc:
+            last_exc = exc
+            if attempt == 0:
+                time.sleep(0.8)
+    raise last_exc  # type: ignore[misc]
 
 
 def _txt(fragment: str) -> str:
@@ -156,10 +166,12 @@ def teatro_nazionale(url: str, today: date) -> List[Dict[str, str]]:
     """teatronazionalegenova.it: EventBox con Title, Date (GG o GG - GG Mese), Location."""
     page = _get("https://www.teatronazionalegenova.it/")
     sala = urlparse(url).path.rstrip("/").split("/")[-1].replace("-", " ") if "spettacolo_sala" in url else ""
+    sala_token = sala.split()[-1].lower() if sala else ""
     out = []
     for title, dt, loc in re.findall(r'<p class="Title">(.*?)</p>\s*<p class="Date">(.*?)</p>\s*<p class="Location">(.*?)</p>', page, re.S):
         title, dt, loc = _txt(title), _txt(dt), _txt(loc)
-        if sala and sala.split()[-1].lower() not in loc.lower():
+        loc_low = loc.lower()
+        if sala_token and sala_token not in loc_low and not (sala_token == "modena" and "gustavo modena" in loc_low):
             continue
         m = re.match(r"(\d{1,2})(?:\s*-\s*(\d{1,2}))?\s+(\w+)", dt)
         mm = _month(m.group(3)) if m else None

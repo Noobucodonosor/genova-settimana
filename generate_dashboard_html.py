@@ -1,53 +1,13 @@
-import json
 import os as _os
 _DATA_DIR = _os.environ.get("GENOVA_DATA_DIR") or _os.path.dirname(_os.path.abspath(__file__))
-
-with open(f"{_DATA_DIR}/dashboard_items.json") as f:
-    items = json.load(f)
-
-# Sort items so those with verified rich schedules & websites come first
-def sort_key(x):
-    score = 0
-    if x.get("sito_web"): score -= 4
-    if x.get("telefono"): score -= 2
-    if "Bottega Storica" in x.get("sottocategoria", ""): score -= 5
-    if x.get("orari_apertura") and not x["orari_apertura"].startswith("Consultare") and not x["orari_apertura"].startswith("Aperto tutti i giorni per visite"):
-        score -= 4
-    if x.get("personaggio"): score -= 1
-    return (score, x["comune"], x["nome"])
-
-items_sorted = sorted(items, key=sort_key)
-
-# Compact keys for embedding in HTML
-compact_items = []
-for idx, it in enumerate(items_sorted, 1):
-    compact_items.append({
-        "id": idx,
-        "c": it["comune"],
-        "n": it["nome"],
-        "m": it["macro_categoria"],
-        "s": it["sottocategoria"],
-        "a": it["indirizzo"],
-        "t": it["telefono"],
-        "w": it["sito_web"],
-        "o": it["orari_apertura"],
-        "e": it["eventi_e_servizi_al_pubblico"][:260],
-        "d": it["days_open"],
-        "h": it["hours_range"],
-        "sun": 1 if it["open_sunday"] else 0,
-        "eve": 1 if it["open_evening"] else 0,
-        "f1": 1 if it["free_first_sunday"] else 0,
-        "mo": it["seasonal_months"],
-        "p": it["personaggio"]
-    })
-
-json_payload = json.dumps(compact_items, ensure_ascii=False).replace("<", "\\u003c")
 
 html_template = """<!DOCTYPE html>
 <html lang="it">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Genova & Provincia (67 Comuni) — Dashboard Giorno / Settimana / Mese</title>
+  __PWA_HEAD__
   <style>__VANILLA_CSS__</style>
   <style>
     .custom-scroll::-webkit-scrollbar { width: 6px; height: 6px; }
@@ -240,7 +200,7 @@ html_template = """<!DOCTYPE html>
   </main>
 
   <script>
-    const ITEMS = __JSON_PAYLOAD__;
+    let ITEMS = [];
 
     const DAY_NAMES = ["Domenica", "Lunedì", "Martedì", "Mercoledì", "Giovedì", "Venerdì", "Sabato"];
     const MONTH_DATA = [
@@ -267,7 +227,20 @@ html_template = """<!DOCTYPE html>
     let currentPage = 1;
     const PAGE_SIZE = 24;
     let filteredList = [];
-    let savedPlan = new Set();
+    let savedPlan = new Set((() => { try { return JSON.parse(localStorage.getItem("genova_civica_plan_v1") || "[]"); } catch { return []; } })());
+
+    async function bootDashboard() {
+      const counter = document.getElementById("results-counter");
+      try {
+        const resp = await fetch("./data/dashboard.json");
+        if (!resp.ok) throw new Error("HTTP " + resp.status);
+        ITEMS = await resp.json();
+        document.getElementById("plan-count-badge").textContent = savedPlan.size;
+        initSelects();
+      } catch (err) {
+        if (counter) counter.textContent = "Dashboard disponibile via HTTP/HTTPS (./data/dashboard.json).";
+      }
+    }
 
     function initSelects() {
       const comuniCounts = {};
@@ -454,7 +427,7 @@ html_template = """<!DOCTYPE html>
         }).join("");
 
         const esc = s => String(s ?? "").replace(/[&<>"']/g, m => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m]));
-        const safeHref = /^https?:\/\//i.test(String(it.w ?? "").trim()) ? it.w.trim() : "";
+        const safeHref = /^https?:\\/\\//i.test(String(it.w ?? "").trim()) ? it.w.trim() : "";
         const card = document.createElement("div");
         card.className = "rounded-xl border border-[var(--border)] bg-[var(--card)] p-4 shadow-sm flex flex-col justify-between gap-3 hover:border-[var(--primary)] transition-all";
         card.innerHTML = `
@@ -464,26 +437,26 @@ html_template = """<!DOCTYPE html>
               ${statusBadge}
             </div>
             <h3 class="text-base font-bold text-[var(--foreground)] leading-snug">${esc(it.n)}</h3>
-            ${it.a ? `<div class="text-xs text-[var(--muted-foreground)]">📍 ${esc(it.a)}</div>` : ""}
+            ${it.a ? `<div class="text-xs text-[var(--muted-foreground)]">${esc(it.a)}</div>` : ""}
             
             <div class="p-2.5 rounded-lg bg-[var(--content)] border border-[var(--border)] space-y-1">
-              <div class="text-xs font-semibold text-[var(--foreground)]">🕒 ${esc(it.o)}</div>
+              <div class="text-xs font-semibold text-[var(--foreground)]">${esc(it.o)}</div>
               <div class="flex items-center gap-1 pt-1">${dayDots}</div>
             </div>
 
-            ${it.e ? `<p class="text-xs text-[var(--muted-foreground)] leading-relaxed">✨ <strong class="text-[var(--foreground)]">Eventi & Servizi:</strong> ${esc(it.e)}</p>` : ""}
-            ${it.p ? `<div class="text-xs px-2.5 py-1 rounded bg-blue-500/10 border border-blue-500/25 text-blue-400 font-medium">🏛️ Personaggio collegato: <strong>${esc(it.p)}</strong></div>` : ""}
+            ${it.e ? `<p class="text-xs text-[var(--muted-foreground)] leading-relaxed"><strong class="text-[var(--foreground)]">Eventi & Servizi:</strong> ${esc(it.e)}</p>` : ""}
+            ${it.p ? `<div class="text-xs px-2.5 py-1 rounded bg-blue-500/10 border border-blue-500/25 text-blue-400 font-medium">Personaggio collegato: <strong>${esc(it.p)}</strong></div>` : ""}
           </div>
 
           <div class="pt-2 border-t border-[var(--border)] flex flex-wrap items-center justify-between gap-2">
             <div class="flex items-center gap-2">
-              ${safeHref ? `<a href="${esc(safeHref)}" target="_blank" rel="noopener" class="px-2.5 py-1 rounded-md text-xs font-semibold bg-[var(--primary)] text-[var(--primary-foreground)] hover:opacity-90">Sito Web ↗</a>` : `<span class="text-xs text-[var(--muted-foreground)]">Sito non censito</span>`}
-              ${it.t ? `<span class="text-xs text-[var(--muted-foreground)] font-mono">📞 ${esc(it.t)}</span>` : ""}
+              ${safeHref ? `<a href="${esc(safeHref)}" target="_blank" rel="noopener" class="px-2.5 py-1 rounded-md text-xs font-semibold bg-[var(--primary)] text-[var(--primary-foreground)] hover:opacity-90">Sito Web</a>` : `<span class="text-xs text-[var(--muted-foreground)]">Sito non censito</span>`}
+              ${it.t ? `<span class="text-xs text-[var(--muted-foreground)] font-mono">Tel: ${esc(it.t)}</span>` : ""}
             </div>
             <button onclick="togglePlanItem(${Number(it.id)})" class="px-2.5 py-1 rounded-md text-xs font-semibold border ${
               inPlan ? 'border-amber-500 bg-amber-500 text-white' : 'border-[var(--border)] bg-[var(--background)] text-[var(--foreground)] hover:bg-[var(--content)]'
             }">
-              ${inPlan ? '✓ Nel Programma' : '+ Programma'}
+              ${inPlan ? 'Nel Programma' : '+ Programma'}
             </button>
           </div>
         `;
@@ -518,10 +491,10 @@ html_template = """<!DOCTYPE html>
           <div class="text-xs font-bold text-[var(--foreground)]">${DAY_NAMES[dIdx]}</div>
           <div class="text-lg font-bold text-emerald-500 mt-0.5">${openItems.length} aperti</div>
           <div class="mt-2 space-y-0.5 text-xs text-[var(--muted-foreground)]">
-            <div>📚 Biblioteche: <strong>${libs}</strong></div>
-            <div>🖼️ Musei: <strong>${mus}</strong></div>
-            <div>🎭 Teatri/Cinema: <strong>${thea}</strong></div>
-            <div>🏺 Botteghe/Locali: <strong>${shops}</strong></div>
+            <div>Biblioteche: <strong>${libs}</strong></div>
+            <div>Musei: <strong>${mus}</strong></div>
+            <div>Teatri/Cinema: <strong>${thea}</strong></div>
+            <div>Botteghe/Locali: <strong>${shops}</strong></div>
           </div>
         `;
         container.appendChild(box);
@@ -562,12 +535,17 @@ html_template = """<!DOCTYPE html>
       `;
     }
 
+    function persistPlan() {
+      try { localStorage.setItem("genova_civica_plan_v1", JSON.stringify(Array.from(savedPlan))); } catch {}
+    }
+
     function togglePlanItem(id) {
       if (savedPlan.has(id)) {
         savedPlan.delete(id);
       } else {
         savedPlan.add(id);
       }
+      persistPlan();
       document.getElementById("plan-count-badge").textContent = savedPlan.size;
       renderCards();
       if (currentHorizon === "plan") renderPlanList();
@@ -575,6 +553,7 @@ html_template = """<!DOCTYPE html>
 
     function clearPlan() {
       savedPlan.clear();
+      persistPlan();
       document.getElementById("plan-count-badge").textContent = "0";
       renderPlanList();
       renderCards();
@@ -590,7 +569,7 @@ html_template = """<!DOCTYPE html>
       const planItems = ITEMS.filter(it => savedPlan.has(it.id));
       planItems.forEach((it, idx) => {
         const esc = s => String(s ?? "").replace(/[&<>"']/g, m => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m]));
-        const safeHref = /^https?:\/\//i.test(String(it.w ?? "").trim()) ? it.w.trim() : "";
+        const safeHref = /^https?:\\/\\//i.test(String(it.w ?? "").trim()) ? it.w.trim() : "";
         const div = document.createElement("div");
         div.className = "p-4 rounded-xl border border-amber-500/40 bg-[var(--card)] flex flex-col justify-between gap-2";
         div.innerHTML = `
@@ -600,13 +579,13 @@ html_template = """<!DOCTYPE html>
               <button onclick="togglePlanItem(${Number(it.id)})" class="text-xs text-red-400 hover:underline">Rimuovi</button>
             </div>
             <h4 class="text-base font-bold text-[var(--foreground)] mt-0.5">${esc(it.n)}</h4>
-            <div class="text-xs text-[var(--muted-foreground)] mt-0.5">📍 ${esc(it.a || it.c)}</div>
-            <div class="text-xs font-semibold text-[var(--foreground)] mt-1.5">🕒 ${esc(it.o)}</div>
+            <div class="text-xs text-[var(--muted-foreground)] mt-0.5">${esc(it.a || it.c)}</div>
+            <div class="text-xs font-semibold text-[var(--foreground)] mt-1.5">${esc(it.o)}</div>
             <p class="text-xs text-[var(--muted-foreground)] mt-1">${esc(it.e)}</p>
-            ${it.p ? `<div class="mt-2 text-xs text-blue-400 font-medium">🏛️ Personaggio per la tua Storia: <strong>${esc(it.p)}</strong></div>` : ""}
+            ${it.p ? `<div class="mt-2 text-xs text-blue-400 font-medium">Personaggio per la tua Storia: <strong>${esc(it.p)}</strong></div>` : ""}
           </div>
           <div class="pt-2 border-t border-[var(--border)] flex items-center justify-between">
-            ${safeHref ? `<a href="${esc(safeHref)}" target="_blank" rel="noopener" class="text-xs font-semibold text-[var(--primary)] underline">Apri Sito Ufficiale ↗</a>` : `<span></span>`}
+            ${safeHref ? `<a href="${esc(safeHref)}" target="_blank" rel="noopener" class="text-xs font-semibold text-[var(--primary)] underline">Apri Sito Ufficiale</a>` : `<span></span>`}
             <span class="text-xs font-mono text-[var(--muted-foreground)]">${esc(it.t || "")}</span>
           </div>
         `;
@@ -614,8 +593,9 @@ html_template = """<!DOCTYPE html>
       });
     }
 
-    initSelects();
+    bootDashboard();
   </script>
+  __PWA_SW__
   <footer class="px-6 py-4 border-t border-[var(--border)] text-center text-xs text-[var(--muted-foreground)]">
     Dati geografici e toponimi: © OpenStreetMap contributors (ODbL 1.0) · Wikidata (CC0).
   </footer>
@@ -624,8 +604,13 @@ html_template = """<!DOCTYPE html>
 """
 
 from genova_outings.vanilla_css import VANILLA_CSS
-from genova_outings.html_utils import render_shared_nav
-final_html = html_template.replace("__VANILLA_CSS__", VANILLA_CSS).replace("__SHARED_NAV__", render_shared_nav("dashboard")).replace("__JSON_PAYLOAD__", json_payload)
+from genova_outings.html_utils import PWA_HEAD_HTML, PWA_SW_SCRIPT, render_shared_nav
+final_html = (
+    html_template.replace("__PWA_HEAD__", PWA_HEAD_HTML)
+    .replace("__PWA_SW__", PWA_SW_SCRIPT)
+    .replace("__VANILLA_CSS__", VANILLA_CSS)
+    .replace("__SHARED_NAV__", render_shared_nav("dashboard"))
+)
 
 with open(f"{_DATA_DIR}/dashboard_genova_provincia.html", "w", encoding="utf-8") as f:
     f.write(final_html)

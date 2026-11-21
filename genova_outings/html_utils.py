@@ -16,6 +16,17 @@ NAV_ITEMS = (
     ("esercenti", "esercenti.html", "Esercenti"),
     ("bussola", "bussola.html", "Bussola"),
     ("dashboard", "dashboard.html", "Dashboard"),
+    ("storie", "storie.html", "Storie dalle Strade"),
+)
+
+PWA_HEAD_HTML = (
+    '<link rel="manifest" href="./manifest.webmanifest">\n'
+    '  <meta name="theme-color" content="#0f4c81">'
+)
+
+PWA_SW_SCRIPT = (
+    '<script>if("serviceWorker"in navigator&&location.protocol.startsWith("http"))'
+    '{window.addEventListener("load",()=>navigator.serviceWorker.register("./sw.js").catch(()=>{}));}</script>'
 )
 
 SHARED_NAV_CSS = """
