@@ -48,7 +48,7 @@ html_template = """<!DOCTYPE html>
 <head>
   <meta charset="UTF-8">
   <title>Genova & Provincia (67 Comuni) — Dashboard Giorno / Settimana / Mese</title>
-  <script src="https://www.gstatic.com/antigravity/web/dev/tailwindcss.min.js"></script>
+  <style>__VANILLA_CSS__</style>
   <style>
     .custom-scroll::-webkit-scrollbar { width: 6px; height: 6px; }
     .custom-scroll::-webkit-scrollbar-track { background: transparent; }
@@ -615,11 +615,15 @@ html_template = """<!DOCTYPE html>
 
     initSelects();
   </script>
+  <footer class="px-6 py-4 border-t border-[var(--border)] text-center text-xs text-[var(--muted-foreground)]">
+    Dati geografici e toponimi: © OpenStreetMap contributors (ODbL 1.0) · Wikidata (CC0).
+  </footer>
 </body>
 </html>
 """
 
-final_html = html_template.replace("__JSON_PAYLOAD__", json_payload)
+from genova_outings.vanilla_css import VANILLA_CSS
+final_html = html_template.replace("__VANILLA_CSS__", VANILLA_CSS).replace("__JSON_PAYLOAD__", json_payload)
 
 with open(f"{_DATA_DIR}/dashboard_genova_provincia.html", "w", encoding="utf-8") as f:
     f.write(final_html)

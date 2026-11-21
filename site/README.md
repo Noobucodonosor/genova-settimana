@@ -19,3 +19,7 @@ Pipeline Python che incrocia i toponimi di **OpenStreetMap** con le relazioni **
 ## Stack Tecnologico
 - **Frontend:** HTML5, CSS3, Vanilla JavaScript (zero dipendenze runtime, funzionamento instant-load offline-friendly)
 - **Data Pipeline:** Python 3, OpenStreetMap Overpass API, Wikidata SPARQL/JSON, CSV/Markdown
+
+## Licenze Open Data
+- Dati geografici e stradario: **© OpenStreetMap contributors (ODbL 1.0)**
+- Dati biografici e collegamenti entità: **Wikidata (CC0)**
