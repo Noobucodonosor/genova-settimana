@@ -13,6 +13,7 @@ from datetime import date, timedelta
 from pathlib import Path
 
 from genova_outings.catalog import get_weekly_catalog
+from genova_outings.html_utils import safe_json_for_script
 from genova_outings.programme import attach_programmes
 
 MESI = ["gennaio", "febbraio", "marzo", "aprile", "maggio", "giugno", "luglio",
@@ -418,8 +419,8 @@ def build(out_dir: Path) -> Path:
     today = date.today()
     end = today + timedelta(days=7)
     rng = f"Dal {today.day} {MESI[today.month-1]} al {end.day} {MESI[end.month-1]}"
-    page = (PAGE.replace("__DATA__", json.dumps(data, ensure_ascii=False).replace("<", "\\u003c"))
-                .replace("__LABELS__", json.dumps(CAT_LABEL, ensure_ascii=False).replace("<", "\\u003c"))
+    page = (PAGE.replace("__DATA__", safe_json_for_script(data))
+                .replace("__LABELS__", safe_json_for_script(CAT_LABEL))
                 .replace("__RANGE__", html.escape(rng))
                 .replace("__UPDATED__", f"{today.day} {MESI[today.month-1]} {today.year}"))
     out_dir.mkdir(parents=True, exist_ok=True)
