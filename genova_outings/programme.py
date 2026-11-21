@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import html
 import json
+import logging
 import re
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor
@@ -17,6 +18,7 @@ from datetime import date, timedelta
 from typing import Callable, Dict, List, Optional
 from urllib.parse import urlparse
 
+logger = logging.getLogger(__name__)
 UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/537.36 Chrome/124 Safari/537.36"
 MAX_ITEMS = 8
 MESI = ["gennaio", "febbraio", "marzo", "aprile", "maggio", "giugno", "luglio",
@@ -490,11 +492,22 @@ def attach_programmes(options, today: Optional[date] = None, workers: int = 8) -
     with ThreadPoolExecutor(max_workers=workers) as ex:
         list(ex.map(lambda p: fetch_programme(p[0], today, p[1]), pairs))
     n = 0
+    empty_urls = []
     for o in targets:
         prog = fetch_programme(o.verified_url, today, f"{o.venue} {o.title}")
         if prog:
             o.raw_metadata["programma"] = prog
             n += 1
+        else:
+            empty_urls.append(o.verified_url)
+    if empty_urls:
+        unique_empty = sorted(set(empty_urls))
+        logger.warning(
+            "Programme extractors returned 0 events for %d/%d target URLs: %s",
+            len(unique_empty),
+            len(pairs),
+            ", ".join(unique_empty[:10]),
+        )
     # Eventi nei luoghi (visite guidate, laboratori, concerti nei musei, tour)
     events = build_venue_events(today or date.today())
     for o in options:
