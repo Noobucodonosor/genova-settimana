@@ -38,8 +38,10 @@ class TestSecurityHardening(unittest.TestCase):
             "generate_navigatore_esercenti.py",
         ):
             src = (root / fname).read_text(encoding="utf-8")
-            self.assertIn('.replace("<", "\\\\u003c")', src, fname)
-            self.assertIn("^https?://", src.replace("\\/", "/"), fname)
+            uses_async_json = 'fetch("./data/' in src
+            has_inline_escape = '.replace("<", "\\\\u003c")' in src or "safe_json_for_script" in src
+            self.assertTrue(uses_async_json or has_inline_escape, fname)
+            self.assertIn("^https?://", src.replace("\\\\", "\\").replace("\\/", "/"), fname)
 
     def test_web_ui_server_cors_and_content_length_limits(self):
         opt = OutingOption(

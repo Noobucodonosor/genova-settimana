@@ -12,6 +12,7 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Bussola del Tempo Libero — Genova & i 67 Comuni della Provincia</title>
+  __PWA_HEAD__
   <style>__VANILLA_CSS__</style>
   <style>
     * { box-sizing: border-box; }
@@ -469,8 +470,8 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
       selectedPlaceId: 1,
       itinerariesCollapsed: false,
       tripStartHour: 9.5,
-      // Trips stored per YYYY-MM-DD so you can plan multiple days across the week/month!
-      tripsByDate: {},
+      // Trips stored per YYYY-MM-DD in localStorage so you can plan multiple days across the week/month!
+      tripsByDate: (() => { try { return JSON.parse(localStorage.getItem("genova_civica_bussola_trips_v1") || "{}") || {}; } catch { return {}; } })(),
       weekMondayStr: null,
       calYear: 2026,
       calMonth: 11, // 1..12
@@ -1851,6 +1852,7 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
     function setTripStartHour(h) {
       STATE.tripStartHour = h;
       renderTripDrawer();
+      try { localStorage.setItem("genova_civica_bussola_trips_v1", JSON.stringify(STATE.tripsByDate)); } catch {}
     }
 
     function moveTripStop(idx, dir) {
@@ -1993,6 +1995,7 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
         renderMonthView();
       }
       renderTripDrawer();
+      try { localStorage.setItem("genova_civica_bussola_trips_v1", JSON.stringify(STATE.tripsByDate)); } catch {}
     }
 
     // Boot
@@ -2000,12 +2003,19 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
     setupMapInteractions();
     refreshAll();
   </script>
+  __PWA_SW__
 </body>
 </html>
 """
 
-from genova_outings.html_utils import render_shared_nav
-final_html = HTML_TEMPLATE.replace("__VANILLA_CSS__", VANILLA_CSS).replace("__SHARED_NAV__", render_shared_nav("bussola")).replace("__PAYLOAD_JSON__", payload_json)
+from genova_outings.html_utils import PWA_HEAD_HTML, PWA_SW_SCRIPT, render_shared_nav
+final_html = (
+    HTML_TEMPLATE.replace("__PWA_HEAD__", PWA_HEAD_HTML)
+    .replace("__PWA_SW__", PWA_SW_SCRIPT)
+    .replace("__VANILLA_CSS__", VANILLA_CSS)
+    .replace("__SHARED_NAV__", render_shared_nav("bussola"))
+    .replace("__PAYLOAD_JSON__", payload_json)
+)
 
 with open(f"{_DATA_DIR}/bussola_tempo_libero_genova.html", "w", encoding="utf-8") as f:
     f.write(final_html)

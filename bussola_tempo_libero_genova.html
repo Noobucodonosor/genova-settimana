@@ -4,6 +4,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Bussola del Tempo Libero — Genova & i 67 Comuni della Provincia</title>
+  <link rel="manifest" href="./manifest.webmanifest">
+  <meta name="theme-color" content="#0f4c81">
   <style>
 .gc-nav {
   background: #ffffff;
@@ -401,7 +403,8 @@ a { color: inherit; text-decoration: none; }
   <nav class="gc-nav" aria-label="Sezioni Genova Civica"><div class="gc-nav-inner"><a class="gc-brand" href="index.html">Genova Civica</a><div class="gc-links"><a class="gc-link" href="index.html">Agenda Settimana</a>
 <a class="gc-link" href="esercenti.html">Esercenti</a>
 <a class="gc-link active" href="bussola.html" aria-current="page">Bussola</a>
-<a class="gc-link" href="dashboard.html">Dashboard</a></div></div></nav>
+<a class="gc-link" href="dashboard.html">Dashboard</a>
+<a class="gc-link" href="storie.html">Storie dalle Strade</a></div></div></nav>
 
   <!-- TOP STICKY HEADER & PERSONAL COMPASS -->
   <header class="sticky top-0 z-30 bg-[var(--background)]/95 backdrop-blur border-b border-[var(--border)]">
@@ -835,8 +838,8 @@ a { color: inherit; text-decoration: none; }
       selectedPlaceId: 1,
       itinerariesCollapsed: false,
       tripStartHour: 9.5,
-      // Trips stored per YYYY-MM-DD so you can plan multiple days across the week/month!
-      tripsByDate: {},
+      // Trips stored per YYYY-MM-DD in localStorage so you can plan multiple days across the week/month!
+      tripsByDate: (() => { try { return JSON.parse(localStorage.getItem("genova_civica_bussola_trips_v1") || "{}") || {}; } catch { return {}; } })(),
       weekMondayStr: null,
       calYear: 2026,
       calMonth: 11, // 1..12
@@ -2217,6 +2220,7 @@ a { color: inherit; text-decoration: none; }
     function setTripStartHour(h) {
       STATE.tripStartHour = h;
       renderTripDrawer();
+      try { localStorage.setItem("genova_civica_bussola_trips_v1", JSON.stringify(STATE.tripsByDate)); } catch {}
     }
 
     function moveTripStop(idx, dir) {
@@ -2359,6 +2363,7 @@ a { color: inherit; text-decoration: none; }
         renderMonthView();
       }
       renderTripDrawer();
+      try { localStorage.setItem("genova_civica_bussola_trips_v1", JSON.stringify(STATE.tripsByDate)); } catch {}
     }
 
     // Boot
@@ -2366,5 +2371,6 @@ a { color: inherit; text-decoration: none; }
     setupMapInteractions();
     refreshAll();
   </script>
+  <script>if("serviceWorker"in navigator&&location.protocol.startsWith("http")){window.addEventListener("load",()=>navigator.serviceWorker.register("./sw.js").catch(()=>{}));}</script>
 </body>
 </html>

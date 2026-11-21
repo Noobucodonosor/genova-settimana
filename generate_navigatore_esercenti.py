@@ -1,38 +1,13 @@
-import json
 import os as _os
 _DATA_DIR = _os.environ.get("GENOVA_DATA_DIR") or _os.path.dirname(_os.path.abspath(__file__))
 
-with open(f"{_DATA_DIR}/esercenti_genova_provincia_db.json") as f:
-    records = json.load(f)
-
-# Compact representation for instant client-side search across all 4,966 records
-compact = []
-for idx, r in enumerate(records, 1):
-    compact.append({
-        "i": idx,
-        "c": r["comune"],
-        "q": r["quartiere_o_zona"],
-        "n": r["nome"],
-        "m": r["macro_settore"],
-        "s": r["categoria_specifica"],
-        "ind": 1 if r["indipendente"] else 0,
-        "a": r["indirizzo"],
-        "t": r["telefono"],
-        "w": r["sito_o_social"],
-        "o": r["orari"],
-        "k": r["cosa_trovi_qui"],
-        "p": r["personaggio_via"],
-        "la": r["lat"],
-        "lo": r["lon"]
-    })
-
-payload_str = json.dumps(compact, ensure_ascii=False).replace("<", "\\u003c")
-
-html_doc = """<!DOCTYPE html>
+html_doc = r"""<!DOCTYPE html>
 <html lang="it">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Genova & Provincia — Navigatore Esercenti, Artigiani e Negozi di Quartiere (4.966 Attività)</title>
+  __PWA_HEAD__
   <style>__VANILLA_CSS__</style>
 </head>
 <body class="min-h-screen flex flex-col antialiased">
@@ -136,10 +111,39 @@ html_doc = """<!DOCTYPE html>
   </main>
 
   <script>
-    const DB = __PAYLOAD__;
+    let DB = [];
     let currentMatches = [];
     let currentPage = 1;
     const PER_PAGE = 30;
+
+    async function bootApp() {
+      const statusEl = document.getElementById("status-bar");
+      try {
+        const resp = await fetch("./data/esercenti.json");
+        if (!resp.ok) throw new Error("HTTP " + resp.status);
+        const raw = await resp.json();
+        DB = raw.map((r, idx) => ({
+          i: idx + 1,
+          c: r.comune || "",
+          q: r.quartiere || "",
+          n: r.nome || "",
+          m: r.macro_settore || "",
+          s: r.categoria || "",
+          ind: r.indipendente ? 1 : 0,
+          a: r.indirizzo || "",
+          t: r.telefono || "",
+          w: r.url || "",
+          o: r.orari || "",
+          k: r.cosa_trovi || "",
+          p: r.personaggio_via || "",
+          la: r.lat,
+          lo: r.lon
+        }));
+        initApp();
+      } catch (err) {
+        statusEl.textContent = "Catalogo esercenti disponibile via HTTP/HTTPS (./data/esercenti.json).";
+      }
+    }
 
     function initApp() {
       // Populate Quartieri / Comuni dropdown grouped nicely
@@ -282,20 +286,20 @@ html_doc = """<!DOCTYPE html>
             </div>
             <h3 class="text-base font-bold text-[var(--foreground)] leading-snug">${esc(r.n)}</h3>
             <div class="text-xs font-semibold text-blue-400">${esc(r.s)}</div>
-            ${r.a ? `<div class="text-xs text-[var(--foreground)]">📍 ${esc(r.a)} (${esc(r.c)})</div>` : `<div class="text-xs text-[var(--muted-foreground)]">📍 ${esc(r.c)}</div>`}
-            ${r.o ? `<div class="text-xs text-emerald-400 font-medium">🕒 Orari: ${esc(r.o)}</div>` : ""}
+            ${r.a ? `<div class="text-xs text-[var(--foreground)]">${esc(r.a)} (${esc(r.c)})</div>` : `<div class="text-xs text-[var(--muted-foreground)]">${esc(r.c)}</div>`}
+            ${r.o ? `<div class="text-xs text-emerald-400 font-medium">Orari: ${esc(r.o)}</div>` : ""}
             <div class="p-2 rounded-lg bg-[var(--content)] border border-[var(--border)] text-xs text-[var(--muted-foreground)]">
-              🔎 <strong class="text-[var(--foreground)]">Cosa trovi / Parole chiave:</strong> ${esc(r.k)}
+              <strong class="text-[var(--foreground)]">Cosa trovi:</strong> ${esc(r.k)}
             </div>
-            ${r.p ? `<div class="text-[11px] text-slate-400">🏛️ Via intitolata a: <strong>${esc(r.p)}</strong></div>` : ""}
+            ${r.p ? `<div class="text-xs text-slate-400">Via intitolata a: <strong>${esc(r.p)}</strong></div>` : ""}
           </div>
 
           <div class="pt-2 border-t border-[var(--border)] flex flex-wrap items-center justify-between gap-2">
             <div class="flex items-center gap-2">
-              ${telClean ? `<a href="tel:${esc(telClean)}" class="px-2.5 py-1 rounded bg-emerald-600/20 border border-emerald-500/40 text-emerald-300 text-xs font-mono font-semibold hover:bg-emerald-600 hover:text-white transition">📞 ${esc(r.t)}</a>` : `<span class="text-xs text-[var(--muted-foreground)]">Tel. non indicato</span>`}
-              ${webHref ? `<a href="${esc(webHref)}" target="_blank" rel="noopener" class="px-2.5 py-1 rounded bg-amber-500 text-slate-950 text-xs font-bold hover:opacity-90">Sito / Social ↗</a>` : ""}
+              ${telClean ? `<a href="tel:${esc(telClean)}" class="px-2.5 py-1 rounded bg-emerald-600/20 border border-emerald-500/40 text-emerald-300 text-xs font-mono font-semibold hover:bg-emerald-600 hover:text-white transition">Tel: ${esc(r.t)}</a>` : `<span class="text-xs text-[var(--muted-foreground)]">Tel. non indicato</span>`}
+              ${webHref ? `<a href="${esc(webHref)}" target="_blank" rel="noopener" class="px-2.5 py-1 rounded bg-amber-500 text-slate-950 text-xs font-bold hover:opacity-90">Sito / Social</a>` : ""}
             </div>
-            <a href="${esc(mapLink)}" target="_blank" rel="noopener" class="text-xs font-semibold text-[var(--muted-foreground)] hover:text-amber-400 underline">Mappa esatta ↗</a>
+            <a href="${esc(mapLink)}" target="_blank" rel="noopener" class="text-xs font-semibold text-[var(--muted-foreground)] hover:text-amber-400 underline">Mappa</a>
           </div>
         `;
         grid.appendChild(card);
@@ -312,8 +316,9 @@ html_doc = """<!DOCTYPE html>
       }
     }
 
-    initApp();
+    bootApp();
   </script>
+  __PWA_SW__
   <footer class="px-6 py-4 border-t border-[var(--border)] text-center text-xs text-[var(--muted-foreground)]">
     Dati geografici e toponimi: © OpenStreetMap contributors (ODbL 1.0) · Wikidata (CC0).
   </footer>
@@ -322,8 +327,13 @@ html_doc = """<!DOCTYPE html>
 """
 
 from genova_outings.vanilla_css import VANILLA_CSS
-from genova_outings.html_utils import render_shared_nav
-final_html = html_doc.replace("__VANILLA_CSS__", VANILLA_CSS).replace("__SHARED_NAV__", render_shared_nav("esercenti")).replace("__PAYLOAD__", payload_str)
+from genova_outings.html_utils import PWA_HEAD_HTML, PWA_SW_SCRIPT, render_shared_nav
+final_html = (
+    html_doc.replace("__PWA_HEAD__", PWA_HEAD_HTML)
+    .replace("__PWA_SW__", PWA_SW_SCRIPT)
+    .replace("__VANILLA_CSS__", VANILLA_CSS)
+    .replace("__SHARED_NAV__", render_shared_nav("esercenti"))
+)
 with open(f"{_DATA_DIR}/navigatore_esercenti_genova_provincia.html", "w", encoding="utf-8") as f:
     f.write(final_html)
 

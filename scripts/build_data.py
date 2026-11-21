@@ -185,6 +185,60 @@ def build_odonomastica(data_dir: Path) -> List[Dict[str, Any]]:
     return out
 
 
+def build_dashboard(data_dir: Path) -> List[Dict[str, Any]]:
+    """Build normalized compact dashboard dataset from dashboard_items.json."""
+    src = data_dir / "dashboard_items.json"
+    if not src.exists():
+        return []
+    items = json.loads(src.read_text(encoding="utf-8"))
+
+    def sort_key(x: Dict[str, Any]):
+        score = 0
+        if x.get("sito_web"):
+            score -= 4
+        if x.get("telefono"):
+            score -= 2
+        if "Bottega Storica" in x.get("sottocategoria", ""):
+            score -= 5
+        orari = x.get("orari_apertura", "")
+        if orari and not orari.startswith("Consultare") and not orari.startswith("Aperto tutti i giorni per visite"):
+            score -= 4
+        if x.get("personaggio"):
+            score -= 1
+        return (score, x.get("comune", ""), x.get("nome", ""))
+
+    out: List[Dict[str, Any]] = []
+    for idx, it in enumerate(sorted(items, key=sort_key), 1):
+        out.append({
+            "id": idx,
+            "c": clean_scraping_text(it.get("comune")),
+            "n": clean_scraping_text(it.get("nome")),
+            "m": clean_scraping_text(it.get("macro_categoria")),
+            "s": clean_scraping_text(it.get("sottocategoria")),
+            "a": clean_scraping_text(it.get("indirizzo")),
+            "t": clean_scraping_text(it.get("telefono")),
+            "w": str(it.get("sito_web") or "").strip(),
+            "o": clean_scraping_text(it.get("orari_apertura")),
+            "e": clean_scraping_text(it.get("eventi_e_servizi_al_pubblico", ""))[:260],
+            "d": it.get("days_open") or [],
+            "h": it.get("hours_range") or [],
+            "sun": 1 if it.get("open_sunday") else 0,
+            "eve": 1 if it.get("open_evening") else 0,
+            "f1": 1 if it.get("free_first_sunday") else 0,
+            "mo": it.get("seasonal_months") or [],
+            "p": clean_scraping_text(it.get("personaggio")),
+        })
+    return out
+
+
+def build_bussola(data_dir: Path) -> Dict[str, Any]:
+    """Load bussola payload if present in data_dir."""
+    src = data_dir / "tempo_libero_payload.json"
+    if not src.exists():
+        return {}
+    return json.loads(src.read_text(encoding="utf-8"))
+
+
 def run_build(
     data_dir: Optional[Path] = None,
     live_verify: bool = False,
@@ -199,6 +253,8 @@ def run_build(
 
     esercenti = build_esercenti(base)
     odonomastica = build_odonomastica(base)
+    dashboard = build_dashboard(base)
+    bussola = build_bussola(base)
 
     targets = [base / "data"]
     if mirror_to_site:
@@ -215,11 +271,20 @@ def run_build(
         (out_dir / "odonomastica.json").write_text(
             json.dumps(odonomastica, ensure_ascii=False) + "\n", encoding="utf-8"
         )
+        if dashboard:
+            (out_dir / "dashboard.json").write_text(
+                json.dumps(dashboard, ensure_ascii=False) + "\n", encoding="utf-8"
+            )
+        if bussola:
+            (out_dir / "bussola.json").write_text(
+                json.dumps(bussola, ensure_ascii=False) + "\n", encoding="utf-8"
+            )
 
     return {
         "events": len(events),
         "esercenti": len(esercenti),
         "odonomastica": len(odonomastica),
+        "dashboard": len(dashboard),
     }
 
 

@@ -1,0 +1,10 @@
+{
+  "name": "Genova Civica — Agenda, Esercenti, Bussola e Storie",
+  "short_name": "Genova Civica",
+  "description": "Suite civica e culturale per Genova e i 67 comuni della Città Metropolitana.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#faf8f4",
+  "theme_color": "#0f4c81",
+  "lang": "it"
+}
