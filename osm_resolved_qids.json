@@ -1,0 +1,890 @@
+{
+  "Q78782": {
+    "label": "Cesare Battisti",
+    "desc": "patriota, giornalista, geografo, politico socialista e irredentista italiano (1875-1916)",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q80561": {
+    "label": "Antiochia",
+    "desc": "città turca",
+    "isHuman": false,
+    "isFamily": false
+  },
+  "Q83003": {
+    "label": "Antonio Gramsci",
+    "desc": "politico, filosofo politologo, giornalista, pedagogista, linguista e critico letterario sardo, segretario generale del Partito Comunista Italiano (1891-1937)",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q38": {
+    "label": "Italia",
+    "desc": "stato dell'Europa meridionale, membro dell'Unione Europea",
+    "isHuman": false,
+    "isFamily": false
+  },
+  "Q220": {
+    "label": "Roma",
+    "desc": "capitale d'Italia, capoluogo dell'omonima città metropolitana e della regione Lazio",
+    "isHuman": false,
+    "isFamily": false
+  },
+  "Q128538": {
+    "label": "Luca",
+    "desc": "uno dei quattro evangelisti",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q131555": {
+    "label": "Dodecaneso",
+    "desc": "arcipelago greco",
+    "isHuman": false,
+    "isFamily": false
+  },
+  "Q158491": {
+    "label": "Feodosia",
+    "desc": "città in Crimea",
+    "isHuman": false,
+    "isFamily": false
+  },
+  "Q164791": {
+    "label": "Carlo Giuliani",
+    "desc": "attivista no-global (1978-2001)",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q168017": {
+    "label": "Giuseppe Sapeto",
+    "desc": "missionario e esploratore italiano",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q168691": {
+    "label": "Vittorio Emanuele II di Savoia",
+    "desc": "ultimo re di Sardegna (r. 1849-1861), poi primo re d'Italia (r. 1861-1878)",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q171834": {
+    "label": "Aldo Moro",
+    "desc": "politico e giurista italiano (1916-1978)",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q267304": {
+    "label": "Giacomo Matteotti",
+    "desc": "politico, giornalista e antifascista italiano (1885-1924)",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q275970": {
+    "label": "Eleonora Duse",
+    "desc": "attrice teatrale italiana (1858-1924)",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q288906": {
+    "label": "Paola Frassinetti",
+    "desc": "religiosa italiana",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q312314": {
+    "label": "Bruno di Colonia",
+    "desc": "monaco e santo tedesco",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q1067": {
+    "label": "Dante Alighieri",
+    "desc": "poeta, scrittore e politico fiorentino, considerato il padre della lingua italiana (1265-1321)",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q1233": {
+    "label": "Sandro Pertini",
+    "desc": "politico, giornalista e partigiano italiano (1896-1990), 7º Presidente della Repubblica Italiana (1978-1985)",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q1001": {
+    "label": "Mahatma Gandhi",
+    "desc": "politico, filosofo e avvocato indiano (1869-1948)",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q172599": {
+    "label": "Giacomo Leopardi",
+    "desc": "poeta, filosofo, scrittore e filologo italiano (1798-1837)",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q178709": {
+    "label": "Giambattista Vico",
+    "desc": "filosofo, storico e giurista italiano",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q186807": {
+    "label": "Josemaría Escrivá de Balaguer",
+    "desc": "sacerdote spagnolo, fondatore dell'Opus Dei",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q187336": {
+    "label": "Giuseppe Mazzini",
+    "desc": "patriota, politico, filosofo e giornalista italiano (1805-1872)",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q1335": {
+    "label": "Montevideo",
+    "desc": "capitale dell'Uruguay",
+    "isHuman": false,
+    "isFamily": false
+  },
+  "Q1401": {
+    "label": "Francesco Petrarca",
+    "desc": "scrittore, filosofo, filologo e poeta italiano (1304-1374)",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q1403": {
+    "label": "Luigi Pirandello",
+    "desc": "drammaturgo, scrittore e poeta italiano (1867-1936)",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q775698": {
+    "label": "Aurelio Saffi",
+    "desc": "patriota e politico italiano",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q786950": {
+    "label": "Eugenia Ravasco",
+    "desc": "religiosa italiana (1845-1900)",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q837148": {
+    "label": "Podgora",
+    "desc": "comuni della Croazia",
+    "isHuman": false,
+    "isFamily": false
+  },
+  "Q867740": {
+    "label": "Lauro De Bosis",
+    "desc": "scrittore, poeta e antifascista italiano (1901-1931)",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q938838": {
+    "label": "Quarnaro",
+    "desc": "braccio di mare del Mare Adriatico",
+    "isHuman": false,
+    "isFamily": false
+  },
+  "Q967032": {
+    "label": "Domenico Fiasella",
+    "desc": "pittore italiano",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q1131281": {
+    "label": "Guido Gozzano",
+    "desc": "poeta e scrittore italiano (1883-1916)",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q1345358": {
+    "label": "Giovanni Amendola",
+    "desc": "politico e giornalista italiano (1882-1926)",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q1353080": {
+    "label": "Gaetano Alimonda",
+    "desc": "cardinale e arcivescovo cattolico italiano (1818-1891)",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q1514544": {
+    "label": "Gerolamo Boccardo",
+    "desc": "economista e politico italiano (1829-1904)",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q1615560": {
+    "label": "Cesarea",
+    "desc": "città in Israele",
+    "isHuman": false,
+    "isFamily": false
+  },
+  "Q191850": {
+    "label": "Tommaso Campanella",
+    "desc": "filosofo, teologo, rivoluzionario e poeta italiano",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q193236": {
+    "label": "Gabriele D'Annunzio",
+    "desc": "scrittore, poeta, drammaturgo, militare, politico, giornalista e patriota italiano (1863-1938)",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q315357": {
+    "label": "Marsilio da Padova",
+    "desc": "filosofo e scrittore italiano",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q333778": {
+    "label": "Armando Diaz",
+    "desc": "primo duca della Vittoria, generale e politico italiano (1861-1928)",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q333809": {
+    "label": "Luigi Cadorna",
+    "desc": "generale e politico italiano (1850-1928)",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q338710": {
+    "label": "Giovan Battista Perasso",
+    "desc": "tintore di velluto, figlio del console dell'Arte genovese",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q346250": {
+    "label": "Ada Negri",
+    "desc": "poetessa, scrittrice e insegnante italiana (1870-1945)",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q17590": {
+    "label": "San Lorenzo",
+    "desc": "martire e santo cristiano",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q25106": {
+    "label": "Fabrizio De André",
+    "desc": "cantautore italiano (1940-1999)",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q33959": {
+    "label": "Nizza",
+    "desc": "comune francese",
+    "isHuman": false,
+    "isFamily": false
+  },
+  "Q8027": {
+    "label": "Martin Luther King",
+    "desc": "attivista, politico e pastore protestante statunitense (1929-1968)",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q13373": {
+    "label": "Lucca",
+    "desc": "comune italiano, capoluogo dell'omonima provincia in Toscana",
+    "isHuman": false,
+    "isFamily": false
+  },
+  "Q3417354": {
+    "label": "Raffaele De Ferrari",
+    "desc": "primo principe di Lucedio, duca di Galliera, filantropo e politico italiano",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q3618882": {
+    "label": "Anton Maria Maragliano",
+    "desc": "scultore italiano (1664-1739)",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q3664070": {
+    "label": "Ceccardo Roccatagliata Ceccardi",
+    "desc": "poeta italiano",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q3665365": {
+    "label": "Cesare Cabella",
+    "desc": "politico italiano",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q3734021": {
+    "label": "Ettore Vernazza",
+    "desc": "notaio e filantropo italiano (1470-1524)",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q3750721": {
+    "label": "Francesco Tarabotto",
+    "desc": "navigatore italiano",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q233": {
+    "label": "Malta",
+    "desc": "stato insulare europeo nel Mediterraneo",
+    "isHuman": false,
+    "isFamily": false
+  },
+  "Q1486": {
+    "label": "Buenos Aires",
+    "desc": "capitale dell'Argentina",
+    "isHuman": false,
+    "isFamily": false
+  },
+  "Q1874": {
+    "label": "Odessa",
+    "desc": "città in Ucraina",
+    "isHuman": false,
+    "isFamily": false
+  },
+  "Q3850125": {
+    "label": "Martin Piaggio",
+    "desc": "poeta italiano",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q3887194": {
+    "label": "Ottavio Assarotti",
+    "desc": "religioso e teologo italiano",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q3894614": {
+    "label": "Paolo da Novi",
+    "desc": "doge della Repubblica di Genova",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q3929361": {
+    "label": "Ragazzi del '99",
+    "desc": "Nati nel 1899 che prestarono il servizio di leva durante la prima guerra mondiale",
+    "isHuman": false,
+    "isFamily": false
+  },
+  "Q3932708": {
+    "label": "Renato Martorelli",
+    "desc": "partigiano italiano",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q3934368": {
+    "label": "Riccardo Banderali",
+    "desc": "partigiano italiano",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q3972413": {
+    "label": "Stefano Castagnola",
+    "desc": "avvocato e politico italiano",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q3992825": {
+    "label": "Tommaso Pendola",
+    "desc": "prete e educatore italiano",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q4212148": {
+    "label": "Michele Giuseppe Canale",
+    "desc": "storico italiano",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q202760": {
+    "label": "Isonzo",
+    "desc": "fiume italo-sloveno",
+    "isHuman": false,
+    "isFamily": false
+  },
+  "Q213462": {
+    "label": "Piave",
+    "desc": "fiume italiano",
+    "isHuman": false,
+    "isFamily": false
+  },
+  "Q214551": {
+    "label": "Brenta",
+    "desc": "fiume italiano",
+    "isHuman": false,
+    "isFamily": false
+  },
+  "Q240576": {
+    "label": "Edmondo De Amicis",
+    "desc": "scrittore italiano (1846-1908)",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q34481": {
+    "label": "Francesco Morosini",
+    "desc": "108° doge della Repubblica di Venezia, dal 1688 al 1694",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q35997": {
+    "label": "Smirne",
+    "desc": "comune turco",
+    "isHuman": false,
+    "isFamily": false
+  },
+  "Q2250278": {
+    "label": "Felice Cavallotti",
+    "desc": "poeta, drammaturgo e politico italiano",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q2604547": {
+    "label": "presa di Roma",
+    "desc": "evento storico del 1870, parte del Risorgimento italiano",
+    "isHuman": false,
+    "isFamily": false
+  },
+  "Q2701986": {
+    "label": "Gioacchino Assereto",
+    "desc": "pittore italiano",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q3165769": {
+    "label": "Niccolò Bacigalupo",
+    "desc": "poeta e drammaturgo italiano",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q3259491": {
+    "label": "Lorenzo Pareto",
+    "desc": "geologo e politico italiano (1800-1865)",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q3417346": {
+    "label": "Raffaele Rubattino",
+    "desc": "imprenditore e armatore italiano",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q3752399": {
+    "label": "fratelli Rosselli",
+    "desc": "i fratelli Carlo e Nello Rosselli",
+    "isHuman": false,
+    "isFamily": true
+  },
+  "Q3766740": {
+    "label": "Giovanni Battista Resasco",
+    "desc": "architetto e docente italiano (1798-1872)",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q3768249": {
+    "label": "Giovanni Torti",
+    "desc": "poeta italiano",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q3770269": {
+    "label": "Giuseppe Casaregi",
+    "desc": "docente, magistrato e giurista italiano",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q3778873": {
+    "label": "Guglielmo Batt",
+    "desc": "nobile inglese",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q3801732": {
+    "label": "Ippolito D'Aste",
+    "desc": "professore di calligrafia, scrittore e drammaturgo italiano",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q3830345": {
+    "label": "Leonardo Cocito",
+    "desc": "insegnante, partigiano e antifascista italiano",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q3836145": {
+    "label": "locomotiva FS 625",
+    "desc": "locomotiva a vapore italiana",
+    "isHuman": false,
+    "isFamily": false
+  },
+  "Q3839280": {
+    "label": "Luigi Arnaldo Vassallo",
+    "desc": "giornalista e scrittore italiano (1852-1906)",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q3839581": {
+    "label": "Luigi Devoto",
+    "desc": "medico, politico e accademico italiano",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q350103": {
+    "label": "Felice Romani",
+    "desc": "librettista, poeta e critico musicale italiano",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q381757": {
+    "label": "Galeazzo Alessi",
+    "desc": "architetto italiano",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q395708": {
+    "label": "Agostino Roscelli",
+    "desc": "presbitero italiano",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q444599": {
+    "label": "Carlo Barabino",
+    "desc": "architetto e urbanista italiano",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q456806": {
+    "label": "Arnaldo da Brescia",
+    "desc": "religioso italiano",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q13375": {
+    "label": "Pisa",
+    "desc": "comune italiano, capoluogo dell'omonima provincia in Toscana",
+    "isHuman": false,
+    "isFamily": false
+  },
+  "Q495": {
+    "label": "Torino",
+    "desc": "comune italiano, capoluogo dell'omonima città metropolitana e della regione Piemonte",
+    "isHuman": false,
+    "isFamily": false
+  },
+  "Q539": {
+    "label": "Giuseppe Garibaldi",
+    "desc": "generale, condottiero, patriota, eroe nazionale italiano (1807-1882)",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q36330": {
+    "label": "Giordano Bruno",
+    "desc": "scrittore e filosofo italiano (1548-1600)",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q36488": {
+    "label": "Guglielmo Marconi",
+    "desc": "inventore, imprenditore e politico italiano (1874-1937)",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q3370": {
+    "label": "Zara",
+    "desc": "città croata",
+    "isHuman": false,
+    "isFamily": false
+  },
+  "Q43440": {
+    "label": "Giosuè Carducci",
+    "desc": "poeta, scrittore e critico letterario italiano (1835-1907)",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q44377": {
+    "label": "galleria",
+    "desc": "perforazione del suolo approssimativamente orizzontale, che mette in comunicazione due luoghi",
+    "isHuman": false,
+    "isFamily": false
+  },
+  "Q45301": {
+    "label": "Trebisonda",
+    "desc": "comune turco",
+    "isHuman": false,
+    "isFamily": false
+  },
+  "Q546": {
+    "label": "Trieste",
+    "desc": "comune italiano, capoluogo del Friuli-Venezia Giulia",
+    "isHuman": false,
+    "isFamily": false
+  },
+  "Q7000212": {
+    "label": "Carlo Garbieri",
+    "desc": "arbitro di calcio, dirigente sportivo e militare italiano",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q18419215": {
+    "label": "Maurizio Sacchi",
+    "desc": "scienziato e esploratore italiano",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q18758546": {
+    "label": "Giovanni Martinez",
+    "desc": "filantropo italiano",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q19655860": {
+    "label": "Filippo Guerrieri",
+    "desc": "politico italiano (1891-1967)",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q19740031": {
+    "label": "Sardegna",
+    "desc": "isola del Mar Mediterraneo",
+    "isHuman": false,
+    "isFamily": false
+  },
+  "Q21587798": {
+    "label": "Francesco Saverio Mosso",
+    "desc": "medico e politico italiano",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q23913689": {
+    "label": "Antonio Cei",
+    "desc": "partigiano italiano",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q31271611": {
+    "label": "Marcello Remondini",
+    "desc": "epigrafista italiano",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q33894057": {
+    "label": "Giuseppe Macaggi",
+    "desc": "politico italiano",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q46522066": {
+    "label": "Vincenzo Capellini",
+    "desc": "avvocato genovese",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q762": {
+    "label": "Leonardo da Vinci",
+    "desc": "scienziato, inventore e artista italiano (1452–1519)",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q471232": {
+    "label": "Paolo Boselli",
+    "desc": "politico italiano (1838-1932)",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q506033": {
+    "label": "Timavo",
+    "desc": "fiume tra Croazia, Slovenia e Italia",
+    "isHuman": false,
+    "isFamily": false
+  },
+  "Q518925": {
+    "label": "Francesco Domenico Guerrazzi",
+    "desc": "politico e scrittore italiano (1804-1873)",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q532852": {
+    "label": "Piero Gobetti",
+    "desc": "giornalista, politico e antifascista italiano",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q558177": {
+    "label": "Niccolò Tommaseo",
+    "desc": "scrittore italiano (1802-1874)",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q589683": {
+    "label": "Anton Giulio Barrili",
+    "desc": "scrittore e politico italiano",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q55943185": {
+    "label": "Giovanni Tommaso Invrea",
+    "desc": "Marchese genovese",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q56085201": {
+    "label": "cedimento del viadotto Polcevera",
+    "desc": "cedimento di un viadotto autostradale a Genova (14 agosto 2018)",
+    "isHuman": false,
+    "isFamily": false
+  },
+  "Q64780837": {
+    "label": "Francesco Pozzo",
+    "desc": "vescovo cattolico",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q68585983": {
+    "label": "Oreste De Gaspari",
+    "desc": "generale del Regno d'Italia",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q53314": {
+    "label": "Pozzuolo del Friuli",
+    "desc": "comune italiano",
+    "isHuman": false,
+    "isFamily": false
+  },
+  "Q107014792": {
+    "label": "Giovanni Battista Marsano",
+    "desc": "matematico italiano (1824-1892)",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q108513515": {
+    "label": "Angelo Orsini",
+    "desc": "vescovo cattolico",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q110863509": {
+    "label": "Aidano Schmuckher",
+    "desc": "scrittore italiano (1921-1996)",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q110880977": {
+    "label": "Fausto Beretta",
+    "desc": "militare e musicista italiano (1898-1936)",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q110943090": {
+    "label": "Alberto Liri",
+    "desc": "militare italiano",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q130386745": {
+    "label": "Monte Zovetto",
+    "desc": "monte delle Prealpi Vicentine",
+    "isHuman": false,
+    "isFamily": false
+  },
+  "Q3376": {
+    "label": "Trento",
+    "desc": "comune italiano, capoluogo dell’omonima provincia autonoma e della regione Trentino-Alto Adige",
+    "isHuman": false,
+    "isFamily": false
+  },
+  "Q4448": {
+    "label": "Papa Benedetto XV",
+    "desc": "258º vescovo di Roma e papa della Chiesa cattolica dal 1914 al 1922",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q6596": {
+    "label": "Gorizia",
+    "desc": "comune italiano",
+    "isHuman": false,
+    "isFamily": false
+  },
+  "Q6761": {
+    "label": "Livorno",
+    "desc": "comune italiano, capoluogo dell'omonima provincia in Toscana",
+    "isHuman": false,
+    "isFamily": false
+  },
+  "Q590512": {
+    "label": "Lorenzo Perosi",
+    "desc": "presbitero e compositore italiano (1872-1956)",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q721738": {
+    "label": "Goffredo Mameli",
+    "desc": "poeta e patriota italiano (1827-1849)",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q723595": {
+    "label": "Carlo Alberto dalla Chiesa",
+    "desc": "generale e prefetto italiano (1920-1982)",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q747929": {
+    "label": "Tagliamento",
+    "desc": "fiume italiano",
+    "isHuman": false,
+    "isFamily": false
+  },
+  "Q749678": {
+    "label": "Giovanni Minzoni",
+    "desc": "presbitero e antifascista italiano (1885-1923)",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q7322": {
+    "label": "Cristoforo Colombo",
+    "desc": "esploratore e navigatore italiano",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q7835": {
+    "label": "Crimea",
+    "desc": "penisola del Mar Nero",
+    "isHuman": false,
+    "isFamily": false
+  },
+  "Q3631002": {
+    "label": "Ave Maria zeneize",
+    "desc": "",
+    "isHuman": false,
+    "isFamily": false
+  },
+  "Q3644629": {
+    "label": "Brigata \"Liguria\"",
+    "desc": "",
+    "isHuman": false,
+    "isFamily": false
+  },
+  "Q9012766": {
+    "label": "Giorgio Borghese",
+    "desc": "",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q114062443": {
+    "label": "Stefanino Curti",
+    "desc": "",
+    "isHuman": true,
+    "isFamily": false
+  },
+  "Q117327696": {
+    "label": "Gildo Cuneo",
+    "desc": "",
+    "isHuman": true,
+    "isFamily": false
+  }
+}

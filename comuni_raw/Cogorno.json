@@ -1,0 +1,1536 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-11-01T21:07:21Z",
+    "timestamp_areas_base": "2026-11-01T18:30:20Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "way",
+  "id": 28055784,
+  "tags": {
+    "alt_name": "SP26 di Valgraveglia",
+    "highway": "tertiary",
+    "name": "Via Mosto (lato fiume)/Via Don B Tiscornia (lato monte)",
+    "ref": "SP26",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 61604845,
+  "tags": {
+    "alt_name": "SP26 di Valgraveglia",
+    "bridge": "yes",
+    "highway": "secondary",
+    "layer": "1",
+    "name": "Strada provinciale della Valgraveglia",
+    "ref": "SP26",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 98524897,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Giorgio Renda",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 98524906,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via degli Ulivi",
+    "ref": "SP34",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 120666932,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via delle Chiappaie"
+  }
+},
+{
+  "type": "way",
+  "id": 120666934,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Co de Villa",
+    "ref": "SP34",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 120666937,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Divisione Coduri",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 154925245,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Bertulla",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 180456992,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via della Madonnetta",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 180457484,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via del Campanile",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 183225481,
+  "tags": {
+    "highway": "unclassified",
+    "maxspeed": "50",
+    "name": "Via Giobatta Ghio"
+  }
+},
+{
+  "type": "way",
+  "id": 183225490,
+  "tags": {
+    "bridge": "yes",
+    "highway": "secondary",
+    "layer": "1",
+    "name": "Corso Giacomo Matteotti",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 183225501,
+  "tags": {
+    "highway": "secondary",
+    "name": "Corso Giacomo Matteotti",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 183225502,
+  "tags": {
+    "highway": "residential",
+    "maxweight": "3.5",
+    "name": "Via Privata Papa Giovanni XXIII"
+  }
+},
+{
+  "type": "way",
+  "id": 183227657,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via San Martino"
+  }
+},
+{
+  "type": "way",
+  "id": 183227658,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Benedetto Chiappe",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 183227662,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Adriano V"
+  }
+},
+{
+  "type": "way",
+  "id": 183227663,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via alla Basilica dei Fieschi",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 183227664,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Liguria"
+  }
+},
+{
+  "type": "way",
+  "id": 183227665,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Bellagamba"
+  }
+},
+{
+  "type": "way",
+  "id": 183227666,
+  "tags": {
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Via alla Basilica dei Fieschi",
+    "surface": "asphalt",
+    "width": "5"
+  }
+},
+{
+  "type": "way",
+  "id": 183793801,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Carozzo",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 186891340,
+  "tags": {
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Via della Fea",
+    "oneway": "no",
+    "surface": "asphalt",
+    "width": "3"
+  }
+},
+{
+  "type": "way",
+  "id": 186891342,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Valparaiso"
+  }
+},
+{
+  "type": "way",
+  "id": 186891345,
+  "tags": {
+    "alt_name": "Via Privata Giovanni Battista Rocca",
+    "highway": "residential",
+    "name": "Via Giovanni Battista Rocca"
+  }
+},
+{
+  "type": "way",
+  "id": 186891348,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Buenos Aires"
+  }
+},
+{
+  "type": "way",
+  "id": 186891351,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Dù Casà"
+  }
+},
+{
+  "type": "way",
+  "id": 186891352,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Privata Simonetti"
+  }
+},
+{
+  "type": "way",
+  "id": 186892326,
+  "tags": {
+    "highway": "residential",
+    "name": "Via San Francisco"
+  }
+},
+{
+  "type": "way",
+  "id": 186892328,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Antonio Gramsci"
+  }
+},
+{
+  "type": "way",
+  "id": 186896404,
+  "tags": {
+    "highway": "residential",
+    "name": "Via degli Ulivi",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 193291491,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "secondary",
+    "lit": "yes",
+    "name": "Strada Provinciale di San Salvatore",
+    "ref": "SP33",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 193291492,
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Corso Venticinque Aprile",
+    "ref": "SP33",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 210509858,
+  "tags": {
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Via Dottor Levaggi",
+    "surface": "asphalt",
+    "width": "4.5"
+  }
+},
+{
+  "type": "way",
+  "id": 210510178,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Antica Romana",
+    "surface": "unhewn_cobblestone"
+  }
+},
+{
+  "type": "way",
+  "id": 210519641,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Monte San Giacomo",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 213509236,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via delle Galle",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 213513757,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Monte San Giacomo",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 238090424,
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "lit": "yes",
+    "name": "Via Nuova Provinciale",
+    "ref": "SP33",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 274611025,
+  "tags": {
+    "bicycle": "no",
+    "highway": "footway",
+    "horse": "yes",
+    "name": "Via Dino Berisso",
+    "sac_scale": "hiking",
+    "ski": "no",
+    "snowmobile": "no",
+    "surface": "paving_stones",
+    "trail_visibility": "good",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 313419914,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via al Castello"
+  }
+},
+{
+  "type": "way",
+  "id": 330823838,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Padre Giuseppe Mazzino"
+  }
+},
+{
+  "type": "way",
+  "id": 332669922,
+  "tags": {
+    "highway": "residential",
+    "name": "Corso 25 Aprile"
+  }
+},
+{
+  "type": "way",
+  "id": 386596488,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Tolceto",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 403908508,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Padre Giuseppe Mazzino"
+  }
+},
+{
+  "type": "way",
+  "id": 403908510,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Costigliolo"
+  }
+},
+{
+  "type": "way",
+  "id": 407885274,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Belvedere",
+    "sac_scale": "hiking"
+  }
+},
+{
+  "type": "way",
+  "id": 431564851,
+  "tags": {
+    "alt_name": "SP26 di Valgraveglia",
+    "highway": "tertiary",
+    "name": "Strada provinciale della Valgraveglia",
+    "oneway": "yes",
+    "ref": "SP26",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 431564855,
+  "tags": {
+    "alt_name": "SP26 di Valgraveglia",
+    "highway": "tertiary",
+    "name": "Strada provinciale della Valgraveglia",
+    "oneway": "yes",
+    "ref": "SP26",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 431564858,
+  "tags": {
+    "alt_name": "SP26 di Valgraveglia",
+    "highway": "secondary",
+    "name": "Strada provinciale della Valgraveglia",
+    "ref": "SP26",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 431564859,
+  "tags": {
+    "highway": "secondary",
+    "name": "Variante di Settembrin",
+    "ref": "SP26",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 481734507,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Monte San Giacomo",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 481735193,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Antica Romana",
+    "sac_scale": "hiking",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 481735864,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via della Fea",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 481736278,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Bertulla",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 481736280,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Maggiolo",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 481738514,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Monte San Giacomo",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 481738516,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Monte San Giacomo",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 481738518,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Monte San Giacomo",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 481738519,
+  "tags": {
+    "highway": "residential",
+    "name": "Via degli Ulivi"
+  }
+},
+{
+  "type": "way",
+  "id": 481738520,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via degli Ulivi",
+    "ref": "SP34",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 481866735,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Maggiolo",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 481866736,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Maggiolo",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 481867301,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via degli Ulivi",
+    "ref": "SP34",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 481867302,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via degli Ulivi",
+    "ref": "SP34",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 481867305,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Monte San Giacomo"
+  }
+},
+{
+  "type": "way",
+  "id": 531149150,
+  "tags": {
+    "bridge": "yes",
+    "highway": "secondary",
+    "layer": "1",
+    "name": "Variante di Settembrin",
+    "ref": "SP26",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 531149152,
+  "tags": {
+    "highway": "secondary",
+    "name": "Variante di Settembrin",
+    "ref": "SP26",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 531149154,
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Variante di Settembrin",
+    "ref": "SP26",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 584958084,
+  "tags": {
+    "alt_name": "Via Costa dei Lando'",
+    "highway": "tertiary",
+    "name": "Viale Costa dei Landò",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 674891880,
+  "tags": {
+    "highway": "residential",
+    "name": "Via alla Croce Rossa"
+  }
+},
+{
+  "type": "way",
+  "id": 739810876,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Goffredo Mameli"
+  }
+},
+{
+  "type": "way",
+  "id": 739813387,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Privata Bancalari"
+  }
+},
+{
+  "type": "way",
+  "id": 739835048,
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Corso Risorgimento",
+    "ref": "SP33",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 739836111,
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Corso Quattro Novembre",
+    "ref": "SP33",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 741641568,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Giuseppe Mazzini"
+  }
+},
+{
+  "type": "way",
+  "id": 741645701,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Antonio Gramsci"
+  }
+},
+{
+  "type": "way",
+  "id": 741648102,
+  "tags": {
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Via della Fea",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 741648103,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Lima",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 741648104,
+  "tags": {
+    "highway": "path",
+    "name": "Via Antica Romana",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 741651302,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Privata Soracco"
+  }
+},
+{
+  "type": "way",
+  "id": 741651303,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Du Cantu"
+  }
+},
+{
+  "type": "way",
+  "id": 741655587,
+  "tags": {
+    "highway": "residential",
+    "name": "Via della Fea",
+    "oneway": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 741662634,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Guglielmo Marconi"
+  }
+},
+{
+  "type": "way",
+  "id": 741664547,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Divisione Coduri",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 741664548,
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Corso Risorgimento",
+    "ref": "SP33",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 741664549,
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Corso Risorgimento",
+    "ref": "SP33",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 750291547,
+  "tags": {
+    "highway": "service",
+    "name": "Via degli Ulivi",
+    "service": "driveway"
+  }
+},
+{
+  "type": "way",
+  "id": 750291568,
+  "tags": {
+    "highway": "service",
+    "name": "Via degli Ulivi",
+    "service": "driveway"
+  }
+},
+{
+  "type": "way",
+  "id": 750291586,
+  "tags": {
+    "access": "private",
+    "highway": "service",
+    "name": "via Parma",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 750302471,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Divisione Coduri",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 750302472,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Divisione Coduri",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 750302473,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Divisione Coduri",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 750302474,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Divisione Coduri",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 753584051,
+  "tags": {
+    "handrail": "no",
+    "highway": "steps",
+    "incline": "up",
+    "name": "Via Antica Romana",
+    "ramp": "no",
+    "surface": "unhewn_cobblestone",
+    "tactile_paving": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 753584053,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Piazza Rosita Devoto Zonini",
+    "place": "square",
+    "surface": "unhewn_cobblestone"
+  }
+},
+{
+  "type": "way",
+  "id": 753584054,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Via alla Basilica dei Fieschi",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 753584055,
+  "tags": {
+    "highway": "service",
+    "name": "Via Bertulla"
+  }
+},
+{
+  "type": "way",
+  "id": 753584058,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Piazza Innocenzo IV",
+    "place": "square"
+  }
+},
+{
+  "type": "way",
+  "id": 753584059,
+  "tags": {
+    "amenity": "parking",
+    "name": "Piazza Aldo Moro",
+    "parking": "surface",
+    "place": "square"
+  }
+},
+{
+  "type": "way",
+  "id": 828059436,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via degli Ulivi",
+    "ref": "SP34",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 828059437,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via degli Ulivi",
+    "ref": "SP34",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 976764774,
+  "tags": {
+    "highway": "secondary",
+    "junction": "roundabout",
+    "name": "Corso 4 Novembre",
+    "ref": "SP33",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1017612810,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via della Fea",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1017612811,
+  "tags": {
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Via della Fea",
+    "surface": "asphalt",
+    "width": "5"
+  }
+},
+{
+  "type": "way",
+  "id": 1031107272,
+  "tags": {
+    "highway": "residential",
+    "name": "Via degli Ulivi",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1031109023,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Giuseppe Raffo"
+  }
+},
+{
+  "type": "way",
+  "id": 1031109024,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Belvedere"
+  }
+},
+{
+  "type": "way",
+  "id": 1086016249,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Giorgio Renda",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1093117374,
+  "tags": {
+    "highway": "unclassified",
+    "maxspeed": "50",
+    "name": "Via Brigata Berto"
+  }
+},
+{
+  "type": "way",
+  "id": 1093117375,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Umberto Vittorio Podestà",
+    "ref": "SP34",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1093117376,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Giobatta Ghio"
+  }
+},
+{
+  "type": "way",
+  "id": 1093398863,
+  "tags": {
+    "access": "private",
+    "highway": "residential",
+    "name": "Via Don Michele Codeviola"
+  }
+},
+{
+  "type": "way",
+  "id": 1093398864,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via delle Galle",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1093398865,
+  "tags": {
+    "highway": "residential",
+    "name": "Via delle Galle"
+  }
+},
+{
+  "type": "way",
+  "id": 1093398866,
+  "tags": {
+    "highway": "residential",
+    "name": "Via delle Galle"
+  }
+},
+{
+  "type": "way",
+  "id": 1093661078,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Belvedere",
+    "ref": "SP34",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1093661079,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Cavalier Felice Cogorno"
+  }
+},
+{
+  "type": "way",
+  "id": 1093661081,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Cavalier Felice Cogorno",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1093661082,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Dino Berisso",
+    "ref": "SP34",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1094401542,
+  "tags": {
+    "highway": "residential",
+    "name": "Corso Giacomo Matteotti"
+  }
+},
+{
+  "type": "way",
+  "id": 1144113972,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Barattina"
+  }
+},
+{
+  "type": "way",
+  "id": 1160225121,
+  "tags": {
+    "highway": "path",
+    "name": "Valle dei Berissi - Crocetta",
+    "sac_scale": "hiking",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 1162841164,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Strada dei Mulini di Cogorno",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1162841205,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Strada dei Mulini di Cogorno",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1162841206,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Strada dei Mulini di Cogorno",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1162982543,
+  "tags": {
+    "bridge": "yes",
+    "highway": "tertiary",
+    "layer": "1",
+    "name": "Strada dei Mulini di Cogorno",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1194225994,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Padre Giuseppe Mazzino"
+  }
+},
+{
+  "type": "way",
+  "id": 1194225996,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Dino Berisso",
+    "ref": "SP34",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1194225997,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Dino Berisso",
+    "ref": "SP34",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1194225998,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Belvedere",
+    "ref": "SP34",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1194225999,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Belvedere",
+    "ref": "SP34",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1208035169,
+  "tags": {
+    "highway": "service",
+    "name": "Via Monte San Giacomo",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1217731272,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Belvedere"
+  }
+},
+{
+  "type": "way",
+  "id": 1217731273,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Giuseppe Raffo",
+    "sac_scale": "hiking",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 1292952691,
+  "tags": {
+    "highway": "secondary",
+    "name": "Corso 4 Novembre",
+    "oneway": "yes",
+    "ref": "SP33",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1292952692,
+  "tags": {
+    "highway": "secondary",
+    "name": "Corso 25 Aprile",
+    "oneway": "yes",
+    "ref": "SP33",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1292952693,
+  "tags": {
+    "highway": "secondary",
+    "name": "Corso 4 Novembre",
+    "oneway": "yes",
+    "ref": "SP33",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1292952694,
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Corso 25 Aprile",
+    "oneway": "yes",
+    "ref": "SP33",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1292954260,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Divisione Coduri",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1292954261,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Divisione Coduri",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1292954262,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Divisione Coduri",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1295724643,
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Corso Risorgimento",
+    "ref": "SP33",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1295724644,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Divisione Coduri",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1295724645,
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Corso Risorgimento",
+    "ref": "SP33",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1295724646,
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Corso Risorgimento",
+    "ref": "SP33",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1295724647,
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Corso Risorgimento",
+    "ref": "SP33",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1295724648,
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Corso 4 Novembre",
+    "ref": "SP33",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1295724649,
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Corso Risorgimento",
+    "ref": "SP33",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1295724650,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Brigata Berto",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1295724651,
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Corso 25 Aprile",
+    "ref": "SP33",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1295724652,
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Corso 25 Aprile",
+    "ref": "SP33",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1295724653,
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Corso 25 Aprile",
+    "ref": "SP33",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1328138217,
+  "tags": {
+    "highway": "secondary",
+    "lit": "yes",
+    "name": "Strada Provinciale di San Salvatore",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1459933380,
+  "tags": {
+    "highway": "secondary",
+    "junction": "roundabout",
+    "name": "Corso 4 Novembre",
+    "ref": "SP33",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1459933381,
+  "tags": {
+    "highway": "secondary",
+    "junction": "roundabout",
+    "name": "Corso 4 Novembre",
+    "ref": "SP33",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1459933382,
+  "tags": {
+    "highway": "secondary",
+    "junction": "roundabout",
+    "name": "Corso 4 Novembre",
+    "ref": "SP33",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1460077913,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Divisione Coduri",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1460077914,
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Corso Risorgimento",
+    "ref": "SP33",
+    "surface": "asphalt"
+  }
+}
+
+  ]
+}

@@ -1,0 +1,1226 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-11-01T21:02:19Z",
+    "timestamp_areas_base": "2026-11-01T18:30:20Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 4031252670,
+  "tags": {
+    "historic": "memorial",
+    "inscription": "Giovanni Cioni di anni 27 partigiano della montagna ucciso dai nazi fascisti il 7.2.45. (l'iscrizione segue con altro testo)",
+    "material": "marble",
+    "name": "Giovanni Cioni partigiano"
+  }
+},
+{
+  "type": "node",
+  "id": 4227163289,
+  "tags": {
+    "historic": "memorial",
+    "name": "Monumento ai caduti"
+  }
+},
+{
+  "type": "node",
+  "id": 4237679865,
+  "tags": {
+    "historic": "memorial",
+    "inscription": "Antico frantoio con abitazione edificato nel 1873 risistemato nel 1907 e definitivamente ristrutturato nel 2010",
+    "memorial": "plaque",
+    "name": "Antico frantoio"
+  }
+},
+{
+  "type": "node",
+  "id": 4240057410,
+  "tags": {
+    "historic": "memorial",
+    "inscription": "Vexina orgogliosa ai suoi figli caduti nella guerra di redenzione 1915 - 1918. Seguono nomi",
+    "memorial": "stele",
+    "name": "Ai caduti 1915-1918",
+    "start_date": "1926-09-26"
+  }
+},
+{
+  "type": "node",
+  "id": 6540642353,
+  "tags": {
+    "historic": "memorial",
+    "memorial": "plaque",
+    "name": "Salto ai suoi caduti",
+    "support": "wall_mounted"
+  }
+},
+{
+  "type": "node",
+  "id": 8567828880,
+  "tags": {
+    "historic": "memorial",
+    "inscription": "Alla memoria di Giuseppe Biginelli qui tragicamente deceduto il 22 agosto 1944",
+    "memorial": "plaque",
+    "name": "Giuseppe Biginelli"
+  }
+},
+{
+  "type": "node",
+  "id": 8568062694,
+  "tags": {
+    "artist_name": "L'amministrazione Comunale",
+    "historic": "memorial",
+    "inscription": "A ricordo di Gaetano Capurro 1925 - 2016 per il gesto compiuto l'11 giugno 1945",
+    "memorial": "plaque",
+    "name": "Gaetano Capurro",
+    "start_date": "2018-04-25"
+  }
+},
+{
+  "type": "way",
+  "id": 48856275,
+  "tags": {
+    "highway": "tertiary",
+    "maxspeed": "30",
+    "name": "Via Cavalli",
+    "ref": "SP22",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 72739356,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via delle Mimose",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 72741164,
+  "tags": {
+    "highway": "path",
+    "name": "segnavia giallo",
+    "sac_scale": "mountain_hiking",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 76254735,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Corticella"
+  }
+},
+{
+  "type": "way",
+  "id": 76256213,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Sepozzo"
+  }
+},
+{
+  "type": "way",
+  "id": 137988757,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via mulinello"
+  }
+},
+{
+  "type": "way",
+  "id": 138375924,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Cristoforo Colombo",
+    "sidewalk": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 138375932,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Don Ansaldo"
+  }
+},
+{
+  "type": "way",
+  "id": 138375935,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Pietrafitta"
+  }
+},
+{
+  "type": "way",
+  "id": 138375939,
+  "tags": {
+    "highway": "residential",
+    "name": "Passo dei Maggioli",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 182745859,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Molino Nuovo"
+  }
+},
+{
+  "type": "way",
+  "id": 204743409,
+  "tags": {
+    "amenity": "townhall",
+    "building": "yes",
+    "name": "Municipio",
+    "source": "Regione Liguria"
+  }
+},
+{
+  "type": "way",
+  "id": 215116943,
+  "tags": {
+    "highway": "residential",
+    "name": "Via del piano",
+    "sidewalk": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 215116953,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Posato"
+  }
+},
+{
+  "type": "way",
+  "id": 222147858,
+  "tags": {
+    "bridge": "yes",
+    "highway": "path",
+    "layer": "1",
+    "name": "Colle Caprile - Ruta",
+    "sac_scale": "mountain_hiking",
+    "surface": "dirt",
+    "trail_visibility": "good"
+  }
+},
+{
+  "type": "way",
+  "id": 223241635,
+  "tags": {
+    "highway": "residential",
+    "name": "Via dell'Artigianato",
+    "oneway": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 224527850,
+  "tags": {
+    "highway": "path",
+    "name": "Salita Pietrafitta"
+  }
+},
+{
+  "type": "way",
+  "id": 224527851,
+  "tags": {
+    "highway": "footway",
+    "name": "Salita Pietrafitta"
+  }
+},
+{
+  "type": "way",
+  "id": 250220924,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Cò di Serro"
+  }
+},
+{
+  "type": "way",
+  "id": 250625210,
+  "tags": {
+    "highway": "footway",
+    "name": "Passo del Consiglio"
+  }
+},
+{
+  "type": "way",
+  "id": 250625211,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Camoglino"
+  }
+},
+{
+  "type": "way",
+  "id": 250625213,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Rosaguta"
+  }
+},
+{
+  "type": "way",
+  "id": 260594200,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via San Lorenzo"
+  }
+},
+{
+  "type": "way",
+  "id": 299749693,
+  "tags": {
+    "highway": "residential",
+    "lanes": "1",
+    "lit": "no",
+    "name": "via degli archi",
+    "smoothness": "intermediate",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 400577035,
+  "tags": {
+    "highway": "footway",
+    "name": "Passo Selvatico",
+    "sac_scale": "hiking",
+    "trail_visibility": "excellent"
+  }
+},
+{
+  "type": "way",
+  "id": 401036973,
+  "tags": {
+    "highway": "path",
+    "name": "via passo del solco",
+    "sac_scale": "hiking",
+    "service": "driveway",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 401036980,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Antica Romana"
+  }
+},
+{
+  "type": "way",
+  "id": 404752672,
+  "tags": {
+    "highway": "steps",
+    "incline": "up",
+    "lit": "yes",
+    "name": "Salita Soprano"
+  }
+},
+{
+  "type": "way",
+  "id": 404752673,
+  "tags": {
+    "highway": "steps",
+    "incline": "up",
+    "lit": "yes",
+    "name": "Salita Soprano"
+  }
+},
+{
+  "type": "way",
+  "id": 414761470,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via ponte di Salto",
+    "sidewalk": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 419885657,
+  "tags": {
+    "highway": "path",
+    "name": "Salita Soprano",
+    "surface": "pebblestone"
+  }
+},
+{
+  "type": "way",
+  "id": 419885661,
+  "tags": {
+    "highway": "steps",
+    "incline": "down",
+    "name": "Salita Soprano",
+    "surface": "pebblestone"
+  }
+},
+{
+  "type": "way",
+  "id": 419885663,
+  "tags": {
+    "highway": "footway",
+    "incline": "up",
+    "lit": "yes",
+    "name": "Salita Soprano"
+  }
+},
+{
+  "type": "way",
+  "id": 419885666,
+  "tags": {
+    "highway": "steps",
+    "incline": "down",
+    "name": "Salita Soprano"
+  }
+},
+{
+  "type": "way",
+  "id": 422992395,
+  "tags": {
+    "highway": "footway",
+    "name": "Passo Selvatico",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 422992396,
+  "tags": {
+    "bridge": "yes",
+    "highway": "footway",
+    "layer": "1",
+    "name": "Passo Selvatico"
+  }
+},
+{
+  "type": "way",
+  "id": 422992397,
+  "tags": {
+    "highway": "steps",
+    "name": "Passo Selvatico",
+    "ramp": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 423004207,
+  "tags": {
+    "highway": "footway",
+    "name": "Passo della ciliegia",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 423004208,
+  "tags": {
+    "highway": "steps",
+    "incline": "up",
+    "name": "Passo della ciliegia",
+    "ramp": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 424173093,
+  "tags": {
+    "highway": "residential",
+    "name": "Passo Maggi",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 424180590,
+  "tags": {
+    "highway": "residential",
+    "inscription": "Chirurgo emerito benefattore",
+    "name": "Piazzale prof. Nicolò Maggi",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 424182284,
+  "tags": {
+    "highway": "residential",
+    "name": "Via del poggio",
+    "width": "2"
+  }
+},
+{
+  "type": "way",
+  "id": 424185068,
+  "tags": {
+    "area": "yes",
+    "highway": "footway",
+    "name": "Area per le sagre"
+  }
+},
+{
+  "type": "way",
+  "id": 424325081,
+  "tags": {
+    "highway": "footway",
+    "name": "Via del poggio"
+  }
+},
+{
+  "type": "way",
+  "id": 424374067,
+  "tags": {
+    "highway": "residential",
+    "name": "Via banchi",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 428331970,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Pian dei mulini",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 428614593,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Porta d'Aia"
+  }
+},
+{
+  "type": "way",
+  "id": 429504147,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via delle cabanne"
+  }
+},
+{
+  "type": "way",
+  "id": 429504942,
+  "tags": {
+    "highway": "residential",
+    "name": "Via dei maxi"
+  }
+},
+{
+  "type": "way",
+  "id": 429513528,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via delle novelle"
+  }
+},
+{
+  "type": "way",
+  "id": 429521217,
+  "tags": {
+    "highway": "footway",
+    "name": "Passo Sepozzo inferiore",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 429521218,
+  "tags": {
+    "highway": "residential",
+    "name": "Via del castello"
+  }
+},
+{
+  "type": "way",
+  "id": 429521220,
+  "tags": {
+    "highway": "footway",
+    "name": "Passo Sepozzo inferiore",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 429998878,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Fontanella"
+  }
+},
+{
+  "type": "way",
+  "id": 429998879,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via dei maxi"
+  }
+},
+{
+  "type": "way",
+  "id": 430007829,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via dei Turchi"
+  }
+},
+{
+  "type": "way",
+  "id": 433999727,
+  "tags": {
+    "highway": "steps",
+    "incline": "up",
+    "name": "Via colle degli ulivi",
+    "ramp": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 433999730,
+  "tags": {
+    "highway": "steps",
+    "name": "Via colle degli ulivi",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 435055186,
+  "tags": {
+    "highway": "steps",
+    "name": "Via antica",
+    "sac_scale": "hiking",
+    "surface": "paving_stones",
+    "trail_visibility": "good"
+  }
+},
+{
+  "type": "way",
+  "id": 435055187,
+  "tags": {
+    "highway": "path",
+    "name": "Via antica",
+    "sac_scale": "hiking",
+    "surface": "paving_stones",
+    "trail_visibility": "good"
+  }
+},
+{
+  "type": "way",
+  "id": 435055188,
+  "tags": {
+    "area": "yes",
+    "highway": "pedestrian",
+    "name": "Piazza Cav. Stefano Lagomarsino"
+  }
+},
+{
+  "type": "way",
+  "id": 436062089,
+  "tags": {
+    "highway": "footway",
+    "name": "Passo Sepozzo Superiore",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 436062090,
+  "tags": {
+    "highway": "steps",
+    "name": "Passo Sepozzo Superiore",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 438245430,
+  "tags": {
+    "highway": "path",
+    "name": "segnavia giallo",
+    "sac_scale": "mountain_hiking"
+  }
+},
+{
+  "type": "way",
+  "id": 443221301,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via dei maxi"
+  }
+},
+{
+  "type": "way",
+  "id": 445980532,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via San Lorenzo",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 481794647,
+  "tags": {
+    "addr:city": "Avegno",
+    "addr:country": "IT",
+    "addr:housenumber": "9",
+    "addr:place": "Avegno",
+    "addr:postcode": "16036",
+    "addr:street": "via dell'Artigianato",
+    "contact:phone": "+39 335 7481186",
+    "name": "Museo delle Campane-Antica fonderia Picasso",
+    "opening_hours": "Sa 10:00-12:00,15:00-18:00 || \"by appointment\"",
+    "operator": "Comune di Avegno",
+    "phone": "+39 0185 7999",
+    "tourism": "museum",
+    "website": "http://www.turismoinliguria.com/it/riviere-liguri/riviera-del-levante/golfo-paradiso/avegno/museo-delle-campane-di-avegno.html"
+  }
+},
+{
+  "type": "way",
+  "id": 498042912,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Leonardo da Vinci",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 516268181,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Gilberto Govi"
+  }
+},
+{
+  "type": "way",
+  "id": 541611081,
+  "tags": {
+    "highway": "footway",
+    "name": "Passo Soprano",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 541611082,
+  "tags": {
+    "highway": "footway",
+    "lit": "yes",
+    "name": "Passo Soprano",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 549979820,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Serro"
+  }
+},
+{
+  "type": "way",
+  "id": 549979822,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Serro Antico",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 550956842,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Rosaguta"
+  }
+},
+{
+  "type": "way",
+  "id": 551976974,
+  "tags": {
+    "highway": "footway",
+    "lit": "yes",
+    "name": "Passo Soprano",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 561101032,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Molino Nuovo",
+    "surface": "ground"
+  }
+},
+{
+  "type": "way",
+  "id": 561101037,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Molino Nuovo",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 562904757,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Cappelletta",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 579391396,
+  "tags": {
+    "highway": "footway",
+    "layer": "-1",
+    "name": "Passo Sepozzo inferiore",
+    "surface": "concrete",
+    "tunnel": "building_passage"
+  }
+},
+{
+  "type": "way",
+  "id": 579391397,
+  "tags": {
+    "highway": "footway",
+    "name": "Passo Sepozzo inferiore",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 631102728,
+  "tags": {
+    "highway": "footway",
+    "name": "Passo del Consiglio"
+  }
+},
+{
+  "type": "way",
+  "id": 631102729,
+  "tags": {
+    "highway": "footway",
+    "name": "Passo del Consiglio"
+  }
+},
+{
+  "type": "way",
+  "id": 648716624,
+  "tags": {
+    "amenity": "school",
+    "building": "school",
+    "isced:level": "1",
+    "name": "Scuola Fabrizio De André",
+    "operator": "Istituto Comprensivo Avegno Camogli Recco Uscio"
+  }
+},
+{
+  "type": "way",
+  "id": 653565620,
+  "tags": {
+    "highway": "footway",
+    "name": "Saltia Novelle"
+  }
+},
+{
+  "type": "way",
+  "id": 653565621,
+  "tags": {
+    "highway": "steps",
+    "name": "Saltia Novelle",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 659184924,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Sepozzo"
+  }
+},
+{
+  "type": "way",
+  "id": 659184925,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Sepozzo"
+  }
+},
+{
+  "type": "way",
+  "id": 659708735,
+  "tags": {
+    "highway": "residential",
+    "name": "Passo Maggi",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 659708736,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via A. Casareto"
+  }
+},
+{
+  "type": "way",
+  "id": 659720713,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via dei Turchi"
+  }
+},
+{
+  "type": "way",
+  "id": 689360316,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Romana",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 695724777,
+  "tags": {
+    "highway": "footway",
+    "lit": "yes",
+    "name": "Via Rosaiuolo",
+    "surface": "ground"
+  }
+},
+{
+  "type": "way",
+  "id": 695724780,
+  "tags": {
+    "highway": "steps",
+    "name": "Via Rosaiolo"
+  }
+},
+{
+  "type": "way",
+  "id": 695727401,
+  "tags": {
+    "highway": "footway",
+    "lit": "yes",
+    "name": "Via Rosaiolo",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 696493971,
+  "tags": {
+    "highway": "steps",
+    "name": "Salita Sant'Antonio",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 696493975,
+  "tags": {
+    "highway": "footway",
+    "name": "Salita Sant'Antonio",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 696493976,
+  "tags": {
+    "highway": "steps",
+    "name": "Salita Sant'Antonio",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 696493977,
+  "tags": {
+    "highway": "steps",
+    "name": "Salita della Costa",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 696493978,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Salita della Costa",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 697566982,
+  "tags": {
+    "highway": "footway",
+    "name": "Passo Stuggia"
+  }
+},
+{
+  "type": "way",
+  "id": 697568164,
+  "tags": {
+    "highway": "footway",
+    "name": "Passo Maggioli",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 697568165,
+  "tags": {
+    "highway": "footway",
+    "name": "Passo Maggioli",
+    "surface": "ground"
+  }
+},
+{
+  "type": "way",
+  "id": 697569984,
+  "tags": {
+    "highway": "footway",
+    "name": "Passo Maggioli",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 708222664,
+  "tags": {
+    "highway": "footway",
+    "name": "Passo Ciain",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 708222665,
+  "tags": {
+    "highway": "steps",
+    "name": "Passo Ciain"
+  }
+},
+{
+  "type": "way",
+  "id": 708222666,
+  "tags": {
+    "highway": "footway",
+    "name": "Passo Ciain",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 708222667,
+  "tags": {
+    "highway": "steps",
+    "name": "Passo Crosa"
+  }
+},
+{
+  "type": "way",
+  "id": 710672130,
+  "tags": {
+    "highway": "footway",
+    "name": "Salita della Costa",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 910379136,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via della Rovere"
+  }
+},
+{
+  "type": "way",
+  "id": 910379137,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Porta d'Aia"
+  }
+},
+{
+  "type": "way",
+  "id": 910379138,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Porta d'Aia"
+  }
+},
+{
+  "type": "way",
+  "id": 919751716,
+  "tags": {
+    "highway": "steps",
+    "name": "via passo del solco",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 919751718,
+  "tags": {
+    "highway": "footway",
+    "name": "via passo del solco",
+    "service": "driveway",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 919751719,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "via passo del solco",
+    "service": "driveway",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 919751720,
+  "tags": {
+    "highway": "residential",
+    "lanes": "1",
+    "lit": "no",
+    "name": "via dell'industria",
+    "smoothness": "intermediate",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 922960520,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Piazza Paolo Borsellino"
+  }
+},
+{
+  "type": "way",
+  "id": 922960521,
+  "tags": {
+    "highway": "path",
+    "name": "Salita Pietrafitta"
+  }
+},
+{
+  "type": "way",
+  "id": 922960522,
+  "tags": {
+    "description": "Mulattiera con fondo in pietra.",
+    "highway": "path",
+    "historic": "mule_path",
+    "name": "Salita Pietrafitta",
+    "sac_scale": "mountain_hiking",
+    "surface": "paving_stones",
+    "survey:date": "2017-08-14",
+    "trail_visibility": "excellent"
+  }
+},
+{
+  "type": "way",
+  "id": 1011836408,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Strada della Spinarola",
+    "ref": "SP22",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1024313990,
+  "tags": {
+    "highway": "path",
+    "name": "T2",
+    "sac_scale": "hiking",
+    "surface": "ground"
+  }
+},
+{
+  "type": "way",
+  "id": 1247662389,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Porta d'Aia"
+  }
+},
+{
+  "type": "way",
+  "id": 1247662390,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via della Rovere"
+  }
+},
+{
+  "type": "way",
+  "id": 1247662391,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via della Rovere"
+  }
+},
+{
+  "type": "way",
+  "id": 1258540080,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via delle Rondini",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1258540081,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Steneri",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1442773001,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Cò di Serro"
+  }
+}
+
+  ]
+}

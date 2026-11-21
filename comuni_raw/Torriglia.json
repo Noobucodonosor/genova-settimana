@@ -1,0 +1,2991 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-11-01T20:55:14Z",
+    "timestamp_areas_base": "2026-11-01T18:30:20Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 213194783,
+  "tags": {
+    "amenity": "school",
+    "name": "Istituto Comprensivo \"Val Trebbia\""
+  }
+},
+{
+  "type": "node",
+  "id": 228960370,
+  "tags": {
+    "historic": "memorial",
+    "name": "memoria ai partigiani caduti"
+  }
+},
+{
+  "type": "node",
+  "id": 237234215,
+  "tags": {
+    "amenity": "library",
+    "created_by": "JOSM",
+    "name": "Biblioteca Popolare di Torriglia"
+  }
+},
+{
+  "type": "node",
+  "id": 1829083361,
+  "tags": {
+    "historic": "memorial",
+    "inscription": "\"La vita non è scaricare lo zaino sul compagno di viaggio ma alternarsi nel portarlo\" - L'oratorio Don Bosco di Sampierdarena ricorda il tuo zaino, le passeggiate dalla colonia Piaggio, la tua giovinezza",
+    "memorial": "plaque",
+    "name": "Cima Mauro Selvetti",
+    "start_date": "1985"
+  }
+},
+{
+  "type": "node",
+  "id": 1829091501,
+  "tags": {
+    "ele": "1150",
+    "historic": "memorial",
+    "name": "Monte Scietto",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 4054098219,
+  "tags": {
+    "historic": "memorial",
+    "memorial": "war_memorial",
+    "name": "Monumento ai caduti"
+  }
+},
+{
+  "type": "node",
+  "id": 9956666659,
+  "tags": {
+    "amenity": "school",
+    "name": "Scuola dell'infanzia paritaria Beata Maria Teresa Fasce"
+  }
+},
+{
+  "type": "way",
+  "id": 7874377,
+  "tags": {
+    "cycleway:right": "no",
+    "highway": "secondary",
+    "lane_markings": "no",
+    "lit": "yes",
+    "name": "Strada provinciale 62 Franco Rolandi",
+    "oneway": "yes",
+    "ref": "SP62",
+    "sidewalk:left": "no",
+    "sidewalk:right": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 7972127,
+  "tags": {
+    "alt_name": "Via IV Novembre",
+    "check_date:cycleway": "2026-08-03",
+    "cycleway:both": "no",
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Via Quattro Novembre",
+    "short_name": "Via 4 Novembre",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 7972244,
+  "tags": {
+    "bridge": "viaduct",
+    "highway": "trunk_link",
+    "layer": "1",
+    "maxspeed": "50",
+    "name": "Strada Provinciale della Valle Scrivia",
+    "nat_name": "Strada Provinciale della Valle Scrivia",
+    "ref": "SP226",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 8883953,
+  "tags": {
+    "alt_name": "Strada provinciale 62 Franco Rolandi",
+    "cycleway:both": "no",
+    "highway": "secondary",
+    "lane_markings": "no",
+    "name": "Via Giacomo Matteotti",
+    "ref": "SP62",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 8884163,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada provinciale 62 Franco Rolandi",
+    "ref": "SP62",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 8884172,
+  "tags": {
+    "alt_name": "Strada provinciale 62 Franco Rolandi",
+    "highway": "secondary",
+    "layer": "-1",
+    "name": "Buffalora",
+    "ref": "SP62",
+    "surface": "asphalt",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 8884657,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada provinciale 62 Franco Rolandi",
+    "oneway": "yes",
+    "ref": "SP62",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 16077110,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "secondary",
+    "name": "Strada provinciale 62 Franco Rolandi",
+    "ref": "SP62",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 19126415,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "secondary",
+    "lanes": "2",
+    "maxspeed": "40",
+    "name": "Strada provinciale 62 Franco Rolandi",
+    "ref": "SP62",
+    "sidewalk:both": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 19848000,
+  "tags": {
+    "name": "Piazza Felice Cavallotti",
+    "place": "square",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 19848299,
+  "tags": {
+    "bicycle": "yes",
+    "foot": "no",
+    "highway": "trunk",
+    "lanes": "2",
+    "layer": "-1",
+    "maxspeed": "70",
+    "name": "Strada Statale di Val Trebbia",
+    "oneway": "no",
+    "ref": "SS45",
+    "surface": "asphalt",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 19871166,
+  "tags": {
+    "highway": "unclassified",
+    "lanes": "1",
+    "name": "Strada comunale Marzano - Olcesi",
+    "surface": "ground"
+  }
+},
+{
+  "type": "way",
+  "id": 19871508,
+  "tags": {
+    "highway": "residential",
+    "lanes": "1",
+    "lit": "no",
+    "name": "Via Chistane",
+    "oneway": "no",
+    "parking:both": "no",
+    "sidewalk": "no",
+    "source:maxspeed": "IT:urban",
+    "surface": "compacted"
+  }
+},
+{
+  "type": "way",
+  "id": 19871902,
+  "tags": {
+    "alt_name": "Madonna di Montebruno",
+    "bicycle": "yes",
+    "foot": "no",
+    "highway": "trunk",
+    "lanes": "2",
+    "layer": "-1",
+    "length": "1700",
+    "maxspeed": "70",
+    "name": "Galleria Madonna di Montebruno",
+    "oneway": "no",
+    "ref": "SS45",
+    "surface": "asphalt",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 19872488,
+  "tags": {
+    "bicycle": "yes",
+    "bridge": "viaduct",
+    "foot": "no",
+    "highway": "trunk_link",
+    "layer": "1",
+    "name": "Strada Statale di Val Trebbia",
+    "oneway": "yes",
+    "ref": "SS45",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 19872489,
+  "tags": {
+    "bridge": "viaduct",
+    "highway": "trunk",
+    "lanes": "2",
+    "layer": "1",
+    "maxspeed": "50",
+    "name": "Strada Statale di Val Trebbia",
+    "ref": "SS45",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 19872491,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada provinciale 62 Franco Rolandi",
+    "ref": "SP62",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 19872986,
+  "tags": {
+    "highway": "secondary",
+    "maxheight": "default",
+    "name": "Strada provinciale 62 Franco Rolandi",
+    "ref": "SP62",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 19872989,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada provinciale 62 Franco Rolandi",
+    "ref": "SP62",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 19881436,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Piazza Posteggio",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 20151021,
+  "tags": {
+    "area": "yes",
+    "highway": "pedestrian",
+    "lit": "yes",
+    "name": "Piazza della Chiesa",
+    "place": "square",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 20151022,
+  "tags": {
+    "alt_name": "Via XXV Aprile",
+    "highway": "residential",
+    "name": "Via Venticinque Aprile",
+    "oneway": "yes",
+    "sidewalk": "no",
+    "surface": "sett"
+  }
+},
+{
+  "type": "way",
+  "id": 20154176,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "unclassified",
+    "name": "Via Colomba",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 20156085,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "unclassified",
+    "name": "Piazza Erasmo Piaggio",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 20157370,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Aldo Guano",
+    "oneway": "yes",
+    "sidewalk": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 20159957,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Via Guani",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 20159959,
+  "tags": {
+    "cycleway:right": "no",
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Via Ponte Nuovo",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 20159960,
+  "tags": {
+    "area": "yes",
+    "highway": "pedestrian",
+    "lit": "yes",
+    "name": "Piazza Cavour",
+    "surface": "sett"
+  }
+},
+{
+  "type": "way",
+  "id": 20159963,
+  "tags": {
+    "highway": "residential",
+    "name": "Via al Campo",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 20159966,
+  "tags": {
+    "access": "private",
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "residential",
+    "horse": "no",
+    "motor_vehicle": "private",
+    "name": "Via al Campo",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 20160822,
+  "tags": {
+    "alt_name": "Piazza Battaglini Tosa",
+    "highway": "service",
+    "name": "Piazza Battaglini Vittorio e Tosa Mario",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 20161715,
+  "tags": {
+    "highway": "pedestrian",
+    "lit": "yes",
+    "name": "Via Mangioncalda",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 20179300,
+  "tags": {
+    "alt_name": "Strada provinciale 62 Franco Rolandi",
+    "bridge": "yes",
+    "cycleway:both": "no",
+    "highway": "secondary",
+    "lanes": "2",
+    "layer": "1",
+    "name": "Via Mario Costa",
+    "oneway": "no",
+    "ref": "SP62",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 20179301,
+  "tags": {
+    "alt_name": "Strada provinciale 62 Franco Rolandi",
+    "highway": "secondary",
+    "name": "Via Nostra Signora della Provvidenza",
+    "ref": "SP62",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 20179305,
+  "tags": {
+    "alt_name": "Strada provinciale 62 Franco Rolandi",
+    "cycleway:both": "no",
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Via Mario Costa",
+    "oneway": "no",
+    "ref": "SP62",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 20179306,
+  "tags": {
+    "alt_name": "Strada provinciale 62 Franco Rolandi",
+    "bridge": "yes",
+    "highway": "secondary",
+    "layer": "1",
+    "name": "Via Giuseppe Rosciano",
+    "ref": "SP62",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 20181773,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Colomba",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 20295031,
+  "tags": {
+    "highway": "trunk",
+    "lanes": "2",
+    "name": "Strada Statale di Val Trebbia",
+    "ref": "SS45",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 21033226,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Vignale",
+    "surface": "mixed",
+    "width": "2"
+  }
+},
+{
+  "type": "way",
+  "id": 21249227,
+  "tags": {
+    "alt_name": "Strada provinciale 62 Franco Rolandi",
+    "cycleway:both": "no",
+    "highway": "secondary",
+    "lanes": "2",
+    "lit": "yes",
+    "name": "Via Giuseppe Rosciano",
+    "ref": "SP62",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 21842179,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "residential",
+    "lane_markings": "no",
+    "lit": "yes",
+    "name": "Piazza Felice Cavallotti",
+    "sidewalk": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 21842183,
+  "tags": {
+    "highway": "living_street",
+    "lanes": "1",
+    "lit": "yes",
+    "name": "Via Monte Moro",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 21842191,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "residential",
+    "lanes": "1",
+    "lit": "yes",
+    "name": "Via Chistane",
+    "oneway": "no",
+    "parking:both": "no",
+    "sidewalk": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 22492515,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "secondary",
+    "layer": "-1",
+    "name": "Strada provinciale 62 Franco Rolandi",
+    "ref": "SP62",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 23027848,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Strada della Valle Pentemina"
+  }
+},
+{
+  "type": "way",
+  "id": 23772146,
+  "tags": {
+    "highway": "trunk",
+    "lanes": "2",
+    "name": "Strada Statale di Val Trebbia",
+    "ref": "SS45",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 23772147,
+  "tags": {
+    "alt_name": "Prato",
+    "highway": "trunk",
+    "lanes": "2",
+    "layer": "-1",
+    "length": "135",
+    "name": "Strada Statale di Val Trebbia",
+    "oneway": "no",
+    "ref": "SS45",
+    "surface": "asphalt",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 23772157,
+  "tags": {
+    "alt_name": "Casabianca",
+    "bicycle": "yes",
+    "foot": "no",
+    "highway": "trunk",
+    "lanes": "2",
+    "layer": "-1",
+    "length": "120",
+    "name": "Strada Statale di Val Trebbia",
+    "oneway": "no",
+    "ref": "SS45",
+    "surface": "asphalt",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 23772158,
+  "tags": {
+    "highway": "trunk",
+    "lanes": "2",
+    "name": "Strada Statale di Val Trebbia",
+    "ref": "SS45",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 24202541,
+  "tags": {
+    "alt_name": "Laccio",
+    "bicycle": "yes",
+    "foot": "no",
+    "highway": "trunk",
+    "lanes": "2",
+    "layer": "-1",
+    "length": "362",
+    "name": "Strada Statale di Val Trebbia",
+    "oneway": "no",
+    "ref": "SS45",
+    "surface": "asphalt",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 24202542,
+  "tags": {
+    "highway": "trunk",
+    "lanes": "2",
+    "name": "Strada Statale di Val Trebbia",
+    "ref": "SS45",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 24202547,
+  "tags": {
+    "highway": "trunk",
+    "lanes": "2",
+    "name": "Strada Statale di Val Trebbia",
+    "ref": "SS45",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 24202548,
+  "tags": {
+    "alt_name": "Poggio Pezzato",
+    "bicycle": "yes",
+    "foot": "no",
+    "highway": "trunk",
+    "lanes": "2",
+    "layer": "-1",
+    "length": "475",
+    "maxheight:signed": "no",
+    "name": "Strada Statale di Val Trebbia",
+    "oneway": "no",
+    "ref": "SS45",
+    "surface": "asphalt",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 24202564,
+  "tags": {
+    "alt_name": "Marzano",
+    "bicycle": "yes",
+    "foot": "no",
+    "highway": "trunk",
+    "lanes": "2",
+    "layer": "-1",
+    "length": "260",
+    "name": "Strada Statale di Val Trebbia",
+    "oneway": "no",
+    "ref": "SS45",
+    "surface": "asphalt",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 24202565,
+  "tags": {
+    "highway": "trunk",
+    "lanes": "2",
+    "name": "Strada Statale di Val Trebbia",
+    "oneway": "no",
+    "ref": "SS45",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 24202570,
+  "tags": {
+    "highway": "trunk",
+    "lanes": "2",
+    "name": "Strada Statale di Val Trebbia",
+    "ref": "SS45",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 24202578,
+  "tags": {
+    "bridge": "yes",
+    "highway": "trunk",
+    "lanes": "2",
+    "layer": "1",
+    "name": "Strada Statale di Val Trebbia",
+    "ref": "SS45",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 24581416,
+  "tags": {
+    "bridge": "yes",
+    "highway": "unclassified",
+    "layer": "1",
+    "motorcar": "yes",
+    "name": "Strada per Albora",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 24594622,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada Provinciale di Neirone",
+    "ref": "SP21",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 25310952,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada provinciale 62 Franco Rolandi",
+    "ref": "SP62",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 25310955,
+  "tags": {
+    "bridge": "yes",
+    "cycleway": "yes",
+    "highway": "secondary",
+    "layer": "1",
+    "name": "Strada provinciale 62 Franco Rolandi",
+    "ref": "SP62",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 27187375,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Strada Statale di Val Trebbia",
+    "ref": "SS45",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 27187376,
+  "tags": {
+    "bridge": "yes",
+    "highway": "primary",
+    "lanes": "2",
+    "layer": "1",
+    "name": "Strada Statale di Val Trebbia",
+    "ref": "SS45",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 29279343,
+  "tags": {
+    "highway": "unclassified",
+    "maxspeed": "30",
+    "name": "Via Tercesi"
+  }
+},
+{
+  "type": "way",
+  "id": 34283807,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Strada Provinciale della Valle Scrivia",
+    "nat_name": "Strada Provinciale della Valle Scrivia",
+    "ref": "SP226",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 34481980,
+  "tags": {
+    "bicycle": "no",
+    "foot": "yes",
+    "highway": "path",
+    "horse": "yes",
+    "motorcar": "no",
+    "name": "Strada di Runcavà",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 34481981,
+  "tags": {
+    "access": "agricultural",
+    "check_date:surface": "2023-09-10",
+    "highway": "track",
+    "motorcar": "agricultural",
+    "name": "Strada di Runcavà",
+    "surface": "dirt",
+    "tracktype": "grade5"
+  }
+},
+{
+  "type": "way",
+  "id": 34497196,
+  "tags": {
+    "highway": "residential",
+    "name": "via Municipio",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 34596560,
+  "tags": {
+    "highway": "pedestrian",
+    "lit": "yes",
+    "name": "Piazza Fieschi",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 34646227,
+  "tags": {
+    "alt_name": "Via IV Novembre",
+    "cycleway:both": "no",
+    "highway": "residential",
+    "lane_markings": "no",
+    "lit": "no",
+    "name": "Via Quattro Novembre",
+    "short_name": "Via 4 Novembre",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 35402501,
+  "tags": {
+    "bridge": "yes",
+    "highway": "unclassified",
+    "layer": "1",
+    "name": "Via Fallarosa",
+    "surface": "compacted"
+  }
+},
+{
+  "type": "way",
+  "id": 36811677,
+  "tags": {
+    "leisure": "park",
+    "name": "Parco del Castello"
+  }
+},
+{
+  "type": "way",
+  "id": 46420895,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada provinciale 62 Franco Rolandi",
+    "ref": "SP62",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 60672818,
+  "tags": {
+    "access": "forestry",
+    "cycleway:both": "no",
+    "highway": "residential",
+    "lane_markings": "no",
+    "lit": "yes",
+    "name": "Via Vecchia Marzano",
+    "sidewalk": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 61638851,
+  "tags": {
+    "bridge": "yes",
+    "highway": "trunk",
+    "lanes": "2",
+    "layer": "1",
+    "name": "Strada Statale di Val Trebbia",
+    "ref": "SS45",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 61638852,
+  "tags": {
+    "bridge": "yes",
+    "highway": "trunk",
+    "lanes": "2",
+    "layer": "1",
+    "name": "Strada Statale di Val Trebbia",
+    "ref": "SS45",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 61638855,
+  "tags": {
+    "highway": "trunk",
+    "lanes": "2",
+    "name": "Strada Statale di Val Trebbia",
+    "ref": "SS45",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 61638856,
+  "tags": {
+    "bridge": "yes",
+    "highway": "trunk",
+    "lanes": "2",
+    "layer": "1",
+    "name": "Strada Statale di Val Trebbia",
+    "ref": "SS45",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 61638867,
+  "tags": {
+    "highway": "trunk",
+    "lanes": "2",
+    "name": "Strada Statale di Val Trebbia",
+    "ref": "SS45",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 61638874,
+  "tags": {
+    "highway": "trunk",
+    "lanes": "2",
+    "name": "Strada Statale di Val Trebbia",
+    "ref": "SS45",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 73881498,
+  "tags": {
+    "highway": "unclassified",
+    "motorcar": "yes",
+    "name": "Strada per Albora",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 89207324,
+  "tags": {
+    "highway": "secondary",
+    "layer": "-1",
+    "length": "82",
+    "name": "Garaventa",
+    "surface": "asphalt",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 139193399,
+  "tags": {
+    "cycleway:right": "no",
+    "highway": "trunk_link",
+    "lane_markings": "no",
+    "name": "Rolandi",
+    "oneway": "yes",
+    "ref": "SP63",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 139193400,
+  "tags": {
+    "check_date:cycleway": "2026-08-12",
+    "cycleway:right": "no",
+    "highway": "secondary",
+    "lane_markings": "no",
+    "name": "Strada provinciale 62 Franco Rolandi",
+    "oneway": "yes",
+    "ref": "SP62",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 139193401,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Strada provinciale 62 Franco Rolandi",
+    "oneway": "no",
+    "ref": "SP62",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 170775767,
+  "tags": {
+    "amenity": "cinema",
+    "name": "Cinema di Torriglia"
+  }
+},
+{
+  "type": "way",
+  "id": 171949007,
+  "tags": {
+    "cycleway": "no",
+    "highway": "unclassified",
+    "name": "Via al Prato",
+    "oneway": "no",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 172997736,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "path",
+    "mtb:scale": "2",
+    "name": "Spigo - Panteca",
+    "sac_scale": "mountain_hiking",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 182726010,
+  "tags": {
+    "bridge": "yes",
+    "highway": "primary",
+    "lanes": "2",
+    "layer": "1",
+    "name": "Strada Statale di Val Trebbia",
+    "ref": "SS45",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 182726012,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Strada Statale di Val Trebbia",
+    "ref": "SS45",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 182726022,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "layer": "-1",
+    "name": "Strada Statale di Val Trebbia",
+    "ref": "SS45",
+    "surface": "asphalt",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 185353993,
+  "tags": {
+    "cycleway:both": "no",
+    "fixme": "no GPS data",
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Via Giuseppe Rosciano",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 186031698,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Donetta-Pentema",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 186137527,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Tercesi"
+  }
+},
+{
+  "type": "way",
+  "id": 186137528,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Tercesi",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 193289700,
+  "tags": {
+    "bridge": "yes",
+    "cycleway": "yes",
+    "highway": "primary",
+    "layer": "1",
+    "maxspeed": "50",
+    "name": "Strada Provinciale della Valle Scrivia",
+    "nat_name": "Strada Provinciale della Valle Scrivia",
+    "ref": "SP226",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 193289701,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada provinciale 62 Franco Rolandi",
+    "ref": "SP62",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 204458719,
+  "tags": {
+    "addr:city": "Torriglia",
+    "addr:postcode": "16029",
+    "amenity": "townhall",
+    "building": "yes",
+    "name": "Municipio di Torriglia",
+    "source": "Regione Liguria"
+  }
+},
+{
+  "type": "way",
+  "id": 204467510,
+  "tags": {
+    "highway": "residential",
+    "lit": "yes",
+    "name": "Via Roma",
+    "sidewalk": "no",
+    "surface": "sett"
+  }
+},
+{
+  "type": "way",
+  "id": 221530558,
+  "tags": {
+    "highway": "unclassified",
+    "motorcar": "yes",
+    "name": "Strada per Albora"
+  }
+},
+{
+  "type": "way",
+  "id": 257103005,
+  "tags": {
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "track",
+    "incline": "down",
+    "mtb:scale": "1",
+    "name": "11"
+  }
+},
+{
+  "type": "way",
+  "id": 262602071,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Strada Provinciale della Valle Scrivia",
+    "nat_name": "Strada Provinciale della Valle Scrivia",
+    "ref": "SP226",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 262602553,
+  "tags": {
+    "highway": "trunk",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Strada Statale di Val Trebbia",
+    "ref": "SS45",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 275166514,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Ponte Nuovo",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 277122052,
+  "tags": {
+    "bridge": "viaduct",
+    "highway": "trunk_link",
+    "layer": "1",
+    "maxspeed": "50",
+    "name": "Strada Provinciale della Valle Scrivia",
+    "nat_name": "Strada Provinciale della Valle Scrivia",
+    "oneway": "no",
+    "ref": "SP226",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 277122053,
+  "tags": {
+    "highway": "trunk",
+    "lanes": "2",
+    "layer": "1",
+    "maxspeed": "50",
+    "name": "Strada Statale di Val Trebbia",
+    "ref": "SS45",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 277123180,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Strada Statale di Val Trebbia",
+    "oneway": "no",
+    "ref": "SS45",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 277123181,
+  "tags": {
+    "bridge": "yes",
+    "highway": "primary",
+    "lanes": "2",
+    "layer": "1",
+    "maxspeed": "50",
+    "name": "Strada Statale di Val Trebbia",
+    "ref": "SS45",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 277123183,
+  "tags": {
+    "bridge": "yes",
+    "highway": "trunk",
+    "lanes": "2",
+    "layer": "1",
+    "maxspeed": "50",
+    "name": "Strada Statale di Val Trebbia",
+    "ref": "SS45",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 281421858,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Strada Provinciale della Valle Scrivia",
+    "nat_name": "Strada Provinciale della Valle Scrivia",
+    "ref": "SP226",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 307219470,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Via Tercesi"
+  }
+},
+{
+  "type": "way",
+  "id": 310709454,
+  "tags": {
+    "highway": "track",
+    "name": "Via Tercesi",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 310709456,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Igino Musante",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 310709457,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Privata Casa'",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 320231581,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada provinciale 62 Franco Rolandi",
+    "ref": "SP62",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 320231583,
+  "tags": {
+    "bridge": "yes",
+    "cycleway": "yes",
+    "highway": "secondary",
+    "layer": "1",
+    "name": "Strada provinciale 62 Franco Rolandi",
+    "ref": "SP62",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 336754410,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "primary",
+    "maxspeed": "50",
+    "name": "Strada Provinciale della Valle Scrivia",
+    "nat_name": "Strada Provinciale della Valle Scrivia",
+    "ref": "SP226",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 336754412,
+  "tags": {
+    "highway": "trunk_link",
+    "name": "Strada Statale di Val Trebbia",
+    "oneway": "yes",
+    "ref": "SS45",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 353328348,
+  "tags": {
+    "check_date:cycleway": "2026-08-03",
+    "cycleway:both": "no",
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Piazza Felice Cavallotti",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 353328349,
+  "tags": {
+    "check_date:cycleway": "2026-08-03",
+    "cycleway:both": "no",
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Piazza Felice Cavallotti",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 353328511,
+  "tags": {
+    "highway": "living_street",
+    "lit": "yes",
+    "name": "Via Pontelli",
+    "oneway": "no",
+    "surface": "unhewn_cobblestone"
+  }
+},
+{
+  "type": "way",
+  "id": 353328512,
+  "tags": {
+    "check_date:cycleway": "2026-08-03",
+    "cycleway:both": "no",
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Via Fallarosa",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 353328513,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "residential",
+    "lane_markings": "no",
+    "name": "Via Bosco",
+    "sidewalk": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 371889436,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "secondary",
+    "name": "Strada provinciale 62 Franco Rolandi",
+    "ref": "SP62",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 401767202,
+  "tags": {
+    "highway": "steps",
+    "name": "Via Antola",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 402193289,
+  "tags": {
+    "highway": "primary",
+    "maxspeed": "50",
+    "name": "Strada Provinciale della Valle Scrivia",
+    "nat_name": "Strada Provinciale della Valle Scrivia",
+    "ref": "SP226",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 402193290,
+  "tags": {
+    "highway": "primary",
+    "maxspeed": "50",
+    "name": "Strada Provinciale della Valle Scrivia",
+    "nat_name": "Strada Provinciale della Valle Scrivia",
+    "ref": "SP226",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 407976282,
+  "tags": {
+    "alt_name": "Strada provinciale 62 Franco Rolandi",
+    "cycleway:both": "no",
+    "highway": "secondary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Via Bobbio",
+    "ref": "SP62",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 407976283,
+  "tags": {
+    "alt_name": "Strada provinciale 62 Franco Rolandi",
+    "cycleway:both": "no",
+    "highway": "secondary",
+    "name": "Via Giacomo Buranello",
+    "ref": "SP62",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 436299093,
+  "tags": {
+    "access": "private",
+    "handrail": "yes",
+    "highway": "steps",
+    "name": "accesso al ponte",
+    "note": "corrimano solo da un lato",
+    "surface": "metal",
+    "width": "1.5"
+  }
+},
+{
+  "type": "way",
+  "id": 460941172,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Donetta",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 474819536,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Strada Statale di Val Trebbia",
+    "ref": "SS45",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 488892497,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "residential",
+    "lane_markings": "no",
+    "lit": "yes",
+    "name": "Via Chistane",
+    "parking:both": "no",
+    "sidewalk": "no",
+    "source:maxspeed": "IT:urban",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 488892499,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Strada provinciale 62 Franco Rolandi",
+    "ref": "SP62",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 488896602,
+  "tags": {
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "maxspeed": "30",
+    "name": "Via Tercesi",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 488896607,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada provinciale 62 Franco Rolandi",
+    "ref": "SP62",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 498857650,
+  "tags": {
+    "cycleway": "no",
+    "highway": "unclassified",
+    "name": "Via al Prato",
+    "oneway": "no",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 501451645,
+  "tags": {
+    "highway": "residential",
+    "name": "Via al Castello"
+  }
+},
+{
+  "type": "way",
+  "id": 502731636,
+  "tags": {
+    "alt_name": "Strada provinciale 62 Franco Rolandi",
+    "highway": "secondary",
+    "name": "Via Antonio Canale",
+    "ref": "SP62",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 502731639,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Colomba",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 503330769,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Pietra",
+    "sac_scale": "hiking"
+  }
+},
+{
+  "type": "way",
+  "id": 505325854,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "primary",
+    "maxspeed": "50",
+    "name": "Strada Provinciale della Valle Scrivia",
+    "nat_name": "Strada Provinciale della Valle Scrivia",
+    "ref": "SP226",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 505325855,
+  "tags": {
+    "highway": "primary",
+    "maxspeed": "50",
+    "name": "Strada Provinciale della Valle Scrivia",
+    "nat_name": "Strada Provinciale della Valle Scrivia",
+    "ref": "SP226",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 507022235,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Via Fornace Prato",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 520540904,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "primary",
+    "maxspeed": "50",
+    "name": "Strada Provinciale della Valle Scrivia",
+    "nat_name": "Strada Provinciale della Valle Scrivia",
+    "ref": "SP226",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 520540907,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada provinciale 62 Franco Rolandi",
+    "ref": "SP62",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 520540908,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "secondary",
+    "maxheight": "default",
+    "name": "Strada provinciale 62 Franco Rolandi",
+    "ref": "SP62",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 520540909,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "secondary",
+    "maxheight": "default",
+    "name": "Strada provinciale 62 Franco Rolandi",
+    "ref": "SP62",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 520540910,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada provinciale 62 Franco Rolandi",
+    "ref": "SP62",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 520540911,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada provinciale della Scoffera",
+    "ref": "SP62",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 520540913,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "secondary",
+    "maxheight": "default",
+    "name": "Strada provinciale 62 Franco Rolandi",
+    "ref": "SP62",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 543257703,
+  "tags": {
+    "access": "yes",
+    "bicycle": "yes",
+    "cycleway": "no",
+    "highway": "track",
+    "layer": "1",
+    "name": "Via al Prato",
+    "oneway": "no",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 560776268,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Privata Casa'",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 560776269,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Privata Casa'",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 618222275,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Giuseppe Garibaldi",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 667328049,
+  "tags": {
+    "highway": "path",
+    "name": "Costa della Gallina",
+    "sac_scale": "mountain_hiking"
+  }
+},
+{
+  "type": "way",
+  "id": 836122533,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Strada provinciale 62 Franco Rolandi",
+    "oneway": "no",
+    "ref": "SP62",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 836122534,
+  "tags": {
+    "bridge": "yes",
+    "cycleway:both": "no",
+    "highway": "secondary",
+    "lanes": "2",
+    "layer": "1",
+    "name": "Strada provinciale 62 Franco Rolandi",
+    "oneway": "no",
+    "ref": "SP62",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 836122535,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "secondary",
+    "lane_markings": "yes",
+    "lanes": "2",
+    "name": "Strada provinciale 62 Franco Rolandi",
+    "oneway": "no",
+    "ref": "SP62",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 836122536,
+  "tags": {
+    "bridge": "yes",
+    "check_date:cycleway": "2026-08-03",
+    "cycleway:both": "no",
+    "highway": "secondary",
+    "lanes": "2",
+    "layer": "1",
+    "maxweight:signed": "no",
+    "name": "Strada provinciale 62 Franco Rolandi",
+    "oneway": "no",
+    "ref": "SP62",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 863549644,
+  "tags": {
+    "check_date:cycleway": "2026-08-03",
+    "cycleway:both": "no",
+    "highway": "unclassified",
+    "lanes": "1",
+    "maxheight": "4",
+    "name": "Via Fallarosa",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 863549645,
+  "tags": {
+    "check_date:cycleway": "2026-08-03",
+    "cycleway:both": "no",
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Via Fallarosa",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 863550561,
+  "tags": {
+    "alt_name": "Via IV Novembre",
+    "cycleway:both": "no",
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "lit": "yes",
+    "name": "Via Quattro Novembre",
+    "parking:both": "lane",
+    "parking:both:orientation": "parallel",
+    "parking:both:staggered": "yes",
+    "short_name": "Via 4 Novembre",
+    "sidewalk": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 863550562,
+  "tags": {
+    "alt_name": "Via IV Novembre",
+    "bridge": "yes",
+    "check_date:cycleway": "2026-08-03",
+    "cycleway:both": "no",
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "layer": "1",
+    "maxweight:signed": "no",
+    "name": "Via Quattro Novembre",
+    "oneway": "no",
+    "short_name": "Via 4 Novembre",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 863718261,
+  "tags": {
+    "highway": "living_street",
+    "lanes": "1",
+    "lit": "yes",
+    "name": "Via Monte Moro",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 864070977,
+  "tags": {
+    "highway": "living_street",
+    "lit": "yes",
+    "name": "Via degli Alpini",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 868995538,
+  "tags": {
+    "check_date:cycleway": "2026-08-03",
+    "cycleway:both": "no",
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Piazza Felice Cavallotti",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 868995544,
+  "tags": {
+    "highway": "living_street",
+    "lit": "yes",
+    "name": "Via Pontelli",
+    "oneway": "no",
+    "surface": "fine_gravel"
+  }
+},
+{
+  "type": "way",
+  "id": 870771139,
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "Piscina di Torriglia"
+  }
+},
+{
+  "type": "way",
+  "id": 882546428,
+  "tags": {
+    "check_date:cycleway": "2026-08-03",
+    "cycleway:both": "no",
+    "highway": "unclassified",
+    "lanes": "1",
+    "maxheight": "4",
+    "name": "Via Fallarosa",
+    "oneway": "no",
+    "shoulder": "no",
+    "surface": "asphalt",
+    "tunnel": "building_passage"
+  }
+},
+{
+  "type": "way",
+  "id": 882547941,
+  "tags": {
+    "check_date:cycleway": "2026-08-12",
+    "cycleway:right": "no",
+    "highway": "secondary",
+    "lane_markings": "no",
+    "name": "Rolandi",
+    "oneway": "yes",
+    "ref": "SP63",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 882555155,
+  "tags": {
+    "alt_name": "Piazza Battaglini Tosa",
+    "highway": "service",
+    "name": "Piazza Battaglini Vittorio e Tosa Mario",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 882555157,
+  "tags": {
+    "highway": "pedestrian",
+    "lit": "yes",
+    "name": "Piazza della Chiesa",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 882555520,
+  "tags": {
+    "area": "yes",
+    "highway": "pedestrian",
+    "lit": "yes",
+    "name": "Piazza Aldo Gastaldi",
+    "place": "square",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 937725854,
+  "tags": {
+    "alt_name": "Strada provinciale 62 Franco Rolandi",
+    "highway": "secondary",
+    "name": "Via Antonio Canale",
+    "ref": "SP62",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 937725855,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "secondary",
+    "name": "Via Antonio Canale",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 959987912,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Piazza Fieschi",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 959988425,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Vico Tassoni"
+  }
+},
+{
+  "type": "way",
+  "id": 959990460,
+  "tags": {
+    "highway": "steps",
+    "name": "Via Guani",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 960016067,
+  "tags": {
+    "highway": "service",
+    "name": "Via Vignale"
+  }
+},
+{
+  "type": "way",
+  "id": 960039720,
+  "tags": {
+    "highway": "residential",
+    "lane_markings": "no",
+    "name": "Via alla Palestra",
+    "sidewalk": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 960039721,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Giuseppe Garibaldi",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 963995189,
+  "tags": {
+    "highway": "primary",
+    "layer": "-1",
+    "name": "Strada Statale di Val Trebbia",
+    "ref": "SS45",
+    "surface": "asphalt",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 963995190,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Strada Statale di Val Trebbia",
+    "ref": "SS45",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 963995191,
+  "tags": {
+    "highway": "primary",
+    "name": "Strada Statale di Val Trebbia",
+    "ref": "SS45",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 963995192,
+  "tags": {
+    "embankment": "left",
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Strada Statale di Val Trebbia",
+    "ref": "SS45",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 963995193,
+  "tags": {
+    "bridge": "yes",
+    "highway": "primary",
+    "layer": "1",
+    "name": "Strada Statale di Val Trebbia",
+    "ref": "SS45",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 985554478,
+  "tags": {
+    "name": "Piazza Battaglini-Tosa",
+    "place": "square"
+  }
+},
+{
+  "type": "way",
+  "id": 1000800721,
+  "tags": {
+    "bridge": "viaduct",
+    "highway": "trunk_link",
+    "layer": "1",
+    "maxspeed": "50",
+    "name": "Strada Provinciale della Valle Scrivia",
+    "nat_name": "Strada Provinciale della Valle Scrivia",
+    "oneway": "no",
+    "ref": "SP226",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1000800722,
+  "tags": {
+    "bridge": "viaduct",
+    "highway": "trunk",
+    "lanes": "2",
+    "layer": "1",
+    "maxspeed": "50",
+    "name": "Strada Statale di Val Trebbia",
+    "ref": "SS45",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1000800723,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "primary",
+    "maxspeed": "50",
+    "name": "Strada Provinciale della Valle Scrivia",
+    "nat_name": "Strada Provinciale della Valle Scrivia",
+    "ref": "SP226",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1000823276,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada provinciale 62 Franco Rolandi",
+    "oneway": "yes",
+    "ref": "SP62",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1000823277,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Strada Statale di Val Trebbia",
+    "ref": "SS45",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1000823279,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada provinciale 62 Franco Rolandi",
+    "ref": "SP62",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1000823280,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada provinciale 62 Franco Rolandi",
+    "oneway": "yes",
+    "ref": "SP62",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1000823285,
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "primary",
+    "highway": "construction",
+    "layer": "1",
+    "name": "Strada Statale di Val Trebbia",
+    "ref": "SS45",
+    "source": "https://va.minambiente.it/File/Documento/384159"
+  }
+},
+{
+  "type": "way",
+  "id": 1000823287,
+  "tags": {
+    "construction": "primary",
+    "highway": "construction",
+    "name": "Strada Statale di Val Trebbia",
+    "ref": "SS45",
+    "source": "https://va.minambiente.it/File/Documento/384159"
+  }
+},
+{
+  "type": "way",
+  "id": 1000823288,
+  "tags": {
+    "construction": "primary",
+    "highway": "construction",
+    "name": "Strada Statale di Val Trebbia",
+    "ref": "SS45",
+    "source": "https://va.minambiente.it/File/Documento/384159",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1000828592,
+  "tags": {
+    "bridge": "yes",
+    "highway": "primary",
+    "lanes": "2",
+    "layer": "1",
+    "maxspeed": "50",
+    "name": "Strada Statale di Val Trebbia",
+    "ref": "SS45",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1031141767,
+  "tags": {
+    "check_date:cycleway": "2026-08-16",
+    "cycleway:both": "no",
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Via Fallarosa",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1031141768,
+  "tags": {
+    "bridge": "yes",
+    "cycleway:both": "no",
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "layer": "1",
+    "maxweight:signed": "no",
+    "name": "Via Fallarosa",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1085778120,
+  "tags": {
+    "highway": "living_street",
+    "lit": "yes",
+    "name": "Via Pontelli",
+    "oneway": "no",
+    "surface": "unhewn_cobblestone"
+  }
+},
+{
+  "type": "way",
+  "id": 1106094614,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Via Fallarosa",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1116302843,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "secondary",
+    "name": "Strada provinciale 62 Franco Rolandi",
+    "ref": "SP62",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1116302844,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada provinciale 62 Franco Rolandi",
+    "ref": "SP62",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1279656994,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Strada Statale di Val Trebbia",
+    "ref": "SS45",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1279656995,
+  "tags": {
+    "bridge": "yes",
+    "highway": "primary",
+    "lanes": "2",
+    "layer": "1",
+    "maxspeed": "50",
+    "name": "Strada Statale di Val Trebbia",
+    "ref": "SS45",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1295724668,
+  "tags": {
+    "highway": "trunk_link",
+    "name": "Strada Statale di Val Trebbia",
+    "oneway": "yes",
+    "ref": "SS45",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1318115071,
+  "tags": {
+    "bridge": "yes",
+    "highway": "primary",
+    "lanes": "2",
+    "layer": "1",
+    "maxspeed": "50",
+    "name": "Strada Statale di Val Trebbia",
+    "ref": "SS45",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1318115072,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Strada Statale di Val Trebbia",
+    "ref": "SS45",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1354751426,
+  "tags": {
+    "highway": "path",
+    "name": "Sentiero delle vacche",
+    "surface": "ground",
+    "width": "1.5"
+  }
+},
+{
+  "type": "way",
+  "id": 1355001111,
+  "tags": {
+    "highway": "path",
+    "layer": "-1",
+    "name": "Sentiero botanico di Vì Superiore",
+    "surface": "concrete",
+    "width": "1.5"
+  }
+},
+{
+  "type": "way",
+  "id": 1366536005,
+  "tags": {
+    "highway": "footway",
+    "name": "via privata cacciattori",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 1413935415,
+  "tags": {
+    "highway": "trunk",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Strada Statale di Val Trebbia",
+    "ref": "SS45",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1413935416,
+  "tags": {
+    "bridge": "yes",
+    "highway": "trunk",
+    "lanes": "2",
+    "layer": "1",
+    "maxspeed": "50",
+    "name": "Strada Statale di Val Trebbia",
+    "ref": "SS45",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1413935417,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada provinciale 62 Franco Rolandi",
+    "ref": "SP62",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1413935418,
+  "tags": {
+    "bridge": "yes",
+    "highway": "secondary",
+    "layer": "1",
+    "name": "Strada provinciale 62 Franco Rolandi",
+    "ref": "SP62",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1416925946,
+  "tags": {
+    "highway": "trunk_link",
+    "maxspeed": "50",
+    "name": "Strada Provinciale della Valle Scrivia",
+    "nat_name": "Strada Provinciale della Valle Scrivia",
+    "oneway": "no",
+    "ref": "SP226",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1416925974,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Strada Provinciale della Valle Scrivia",
+    "nat_name": "Strada Provinciale della Valle Scrivia",
+    "ref": "SP226",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1416925975,
+  "tags": {
+    "bridge": "yes",
+    "highway": "primary",
+    "lanes": "2",
+    "layer": "1",
+    "maxspeed": "50",
+    "name": "Strada Provinciale della Valle Scrivia",
+    "nat_name": "Strada Provinciale della Valle Scrivia",
+    "ref": "SP226",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1416926067,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Strada Provinciale della Valle Scrivia",
+    "nat_name": "Strada Provinciale della Valle Scrivia",
+    "ref": "SP226",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1416926068,
+  "tags": {
+    "bridge": "yes",
+    "highway": "primary",
+    "lanes": "2",
+    "layer": "1",
+    "name": "Strada Provinciale della Valle Scrivia",
+    "nat_name": "Strada Provinciale della Valle Scrivia",
+    "ref": "SP226",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1416926069,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Strada Provinciale della Valle Scrivia",
+    "nat_name": "Strada Provinciale della Valle Scrivia",
+    "ref": "SP226",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1416926070,
+  "tags": {
+    "bridge": "yes",
+    "highway": "primary",
+    "lanes": "2",
+    "layer": "1",
+    "maxspeed": "50",
+    "name": "Strada Provinciale della Valle Scrivia",
+    "nat_name": "Strada Provinciale della Valle Scrivia",
+    "ref": "SP226",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1416926089,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Strada Provinciale della Valle Scrivia",
+    "nat_name": "Strada Provinciale della Valle Scrivia",
+    "ref": "SP226",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1416926090,
+  "tags": {
+    "bridge": "yes",
+    "highway": "primary",
+    "lanes": "2",
+    "layer": "1",
+    "name": "Strada Provinciale della Valle Scrivia",
+    "nat_name": "Strada Provinciale della Valle Scrivia",
+    "ref": "SP226",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1416926108,
+  "tags": {
+    "highway": "primary",
+    "maxspeed": "50",
+    "name": "Strada Provinciale della Valle Scrivia",
+    "nat_name": "Strada Provinciale della Valle Scrivia",
+    "ref": "SP226",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1416926109,
+  "tags": {
+    "bridge": "yes",
+    "highway": "primary",
+    "layer": "1",
+    "maxspeed": "50",
+    "name": "Strada Provinciale della Valle Scrivia",
+    "nat_name": "Strada Provinciale della Valle Scrivia",
+    "ref": "SP226",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1431145115,
+  "tags": {
+    "highway": "trunk",
+    "lanes": "2",
+    "name": "Strada Statale di Val Trebbia",
+    "ref": "SS45",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1431145116,
+  "tags": {
+    "highway": "trunk",
+    "lanes": "2",
+    "name": "Strada Statale di Val Trebbia",
+    "ref": "SS45",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1431145117,
+  "tags": {
+    "highway": "trunk",
+    "lanes": "2",
+    "name": "Strada Statale di Val Trebbia",
+    "ref": "SS45",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1431145118,
+  "tags": {
+    "highway": "trunk",
+    "lanes": "2",
+    "name": "Strada Statale di Val Trebbia",
+    "ref": "SS45",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1436986700,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada provinciale 62 Franco Rolandi",
+    "ref": "SP62",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1443092692,
+  "tags": {
+    "alt_name": "Strada provinciale 62 Franco Rolandi",
+    "cycleway:both": "no",
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Via Mario Costa",
+    "oneway": "no",
+    "ref": "SP62",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1443092693,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "secondary",
+    "name": "Strada provinciale 62 Franco Rolandi",
+    "ref": "SP62",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1447802562,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Strada Statale di Val Trebbia",
+    "oneway": "no",
+    "ref": "SS45",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1474503530,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada provinciale 62 Franco Rolandi",
+    "ref": "SP62",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1509763639,
+  "tags": {
+    "construction": "primary",
+    "highway": "construction",
+    "name": "Strada Statale di Val Trebbia",
+    "ref": "SS45",
+    "source": "https://va.minambiente.it/File/Documento/384159"
+  }
+},
+{
+  "type": "way",
+  "id": 1509763642,
+  "tags": {
+    "construction": "primary",
+    "highway": "construction",
+    "name": "Strada Statale di Val Trebbia",
+    "ref": "SS45",
+    "source": "https://va.minambiente.it/File/Documento/384159"
+  }
+},
+{
+  "type": "way",
+  "id": 1509763643,
+  "tags": {
+    "construction": "primary",
+    "highway": "construction",
+    "name": "Strada Statale di Val Trebbia",
+    "ref": "SS45",
+    "source": "https://va.minambiente.it/File/Documento/384159"
+  }
+},
+{
+  "type": "way",
+  "id": 1518597139,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada provinciale 62 Franco Rolandi",
+    "ref": "SP62",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1518597140,
+  "tags": {
+    "bridge": "yes",
+    "highway": "secondary",
+    "layer": "1",
+    "name": "Strada provinciale 62 Franco Rolandi",
+    "ref": "SP62",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1527764301,
+  "tags": {
+    "highway": "trunk",
+    "lanes": "2",
+    "layer": "1",
+    "maxspeed": "50",
+    "name": "Strada Statale di Val Trebbia",
+    "ref": "SS45",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1527764302,
+  "tags": {
+    "bridge": "yes",
+    "highway": "trunk",
+    "lanes": "2",
+    "layer": "1",
+    "maxspeed": "50",
+    "name": "Strada Statale di Val Trebbia",
+    "ref": "SS45",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1540060681,
+  "tags": {
+    "highway": "unclassified",
+    "maxspeed": "30",
+    "name": "Via Tercesi"
+  }
+},
+{
+  "type": "way",
+  "id": 1560585693,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "secondary",
+    "name": "Strada provinciale 62 Franco Rolandi",
+    "ref": "SP62",
+    "surface": "asphalt"
+  }
+}
+
+  ]
+}

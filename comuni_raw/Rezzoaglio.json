@@ -1,0 +1,1777 @@
+{
+  "version": 0.6,
+  "generator": "OpenStreetMap v0.6 API",
+  "comune": "Rezzoaglio",
+  "elements": [
+    {
+      "type": "node",
+      "id": 66586484,
+      "tags": {
+        "gfoss_id": "1305",
+        "name": "Rezzoaglio",
+        "place": "village",
+        "population": "1248",
+        "source": "geodati.gfoss.it",
+        "wikidata": "Q267022",
+        "addr:city_extracted": "Rezzoaglio"
+      },
+      "lat": 44.5259967,
+      "lon": 9.387267
+    },
+    {
+      "type": "node",
+      "id": 316050410,
+      "tags": {
+        "ele": "749",
+        "gfoss_id": "36319",
+        "istat_id": "1004810001",
+        "name": "Brignole",
+        "place": "hamlet",
+        "population": "29",
+        "source": "Istat 2001 - geodati.gfoss.it",
+        "wikidata": "Q508052",
+        "wikipedia": "it:Brignole (Rezzoaglio)",
+        "addr:city_extracted": "Rezzoaglio"
+      },
+      "lat": 44.5183877,
+      "lon": 9.3692036
+    },
+    {
+      "type": "node",
+      "id": 316050412,
+      "tags": {
+        "ele": "762",
+        "gfoss_id": "36330",
+        "istat_id": "1004820002",
+        "name": "Casaleggio",
+        "place": "hamlet",
+        "population": "29",
+        "source": "Istat 2001 - geodati.gfoss.it",
+        "wikidata": "Q18456818",
+        "addr:city_extracted": "Rezzoaglio"
+      },
+      "lat": 44.5346759,
+      "lon": 9.3967444
+    },
+    {
+      "type": "node",
+      "id": 316050416,
+      "tags": {
+        "ele": "758",
+        "gfoss_id": "36332",
+        "istat_id": "1004820004",
+        "name": "Cerro",
+        "place": "hamlet",
+        "population": "24",
+        "source": "Istat 2001 - geodati.gfoss.it",
+        "wikidata": "Q18457075",
+        "addr:city_extracted": "Rezzoaglio"
+      },
+      "lat": 44.523604,
+      "lon": 9.3949147
+    },
+    {
+      "type": "node",
+      "id": 316050419,
+      "tags": {
+        "ele": "783",
+        "gfoss_id": "36334",
+        "istat_id": "1004820006",
+        "name": "Ertola",
+        "place": "hamlet",
+        "population": "29",
+        "source": "Istat 2001 - geodati.gfoss.it",
+        "wikidata": "Q18457489",
+        "addr:city_extracted": "Rezzoaglio"
+      },
+      "lat": 44.5329123,
+      "lon": 9.3897876
+    },
+    {
+      "type": "node",
+      "id": 316050423,
+      "tags": {
+        "ele": "698",
+        "gfoss_id": "36339",
+        "istat_id": "1004820011",
+        "name": "Isolarotonda",
+        "place": "hamlet",
+        "population": "8",
+        "source": "Istat 2001 - geodati.gfoss.it",
+        "wikidata": "Q18457866",
+        "addr:city_extracted": "Rezzoaglio"
+      },
+      "lat": 44.5237029,
+      "lon": 9.3817063
+    },
+    {
+      "type": "node",
+      "id": 316050426,
+      "tags": {
+        "ele": "823",
+        "gfoss_id": "36322",
+        "istat_id": "1004810004",
+        "name": "Magnasco",
+        "place": "hamlet",
+        "population": "87",
+        "source": "Istat 2001 - geodati.gfoss.it",
+        "wikidata": "Q18458039",
+        "addr:city_extracted": "Rezzoaglio"
+      },
+      "lat": 44.5168577,
+      "lon": 9.4036093
+    },
+    {
+      "type": "node",
+      "id": 316050427,
+      "tags": {
+        "ele": "730",
+        "gfoss_id": "36351",
+        "istat_id": "1004824914",
+        "name": "Molini",
+        "place": "hamlet",
+        "population": "8",
+        "source": "Istat 2001 - geodati.gfoss.it",
+        "wikidata": "Q18458169",
+        "addr:city_extracted": "Rezzoaglio"
+      },
+      "lat": 44.5163426,
+      "lon": 9.3709883
+    },
+    {
+      "type": "node",
+      "id": 316050432,
+      "tags": {
+        "ele": "812",
+        "gfoss_id": "36341",
+        "istat_id": "1004820015",
+        "name": "Pian di fontana",
+        "place": "hamlet",
+        "population": "14",
+        "source": "Istat 2001 - geodati.gfoss.it",
+        "addr:city_extracted": "Rezzoaglio"
+      },
+      "lat": 44.5171979,
+      "lon": 9.3964309
+    },
+    {
+      "type": "node",
+      "id": 374482790,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Molini bivio Brignole",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "5787",
+        "zone_id": "124",
+        "addr:city_extracted": "Rezzoaglio"
+      },
+      "lat": 44.5185647,
+      "lon": 9.3722037
+    },
+    {
+      "type": "node",
+      "id": 374482805,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Molini",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "5786",
+        "zone_id": "124",
+        "addr:city_extracted": "Rezzoaglio"
+      },
+      "lat": 44.5161693,
+      "lon": 9.3715031
+    },
+    {
+      "type": "node",
+      "id": 374482837,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Isola Rotonda - Rezzoaglio",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "5788",
+        "zone_id": "124",
+        "addr:city_extracted": "Rezzoaglio"
+      },
+      "lat": 44.523716,
+      "lon": 9.3819862
+    },
+    {
+      "type": "node",
+      "id": 374482850,
+      "tags": {
+        "bench": "no",
+        "bin": "no",
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Rezzoaglio centro",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "5789",
+        "shelter": "no",
+        "tactile_paving": "no",
+        "zone_id": "124",
+        "addr:city_extracted": "Rezzoaglio"
+      },
+      "lat": 44.5257854,
+      "lon": 9.386258
+    },
+    {
+      "type": "node",
+      "id": 374484480,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Villa Cerro",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "5791",
+        "zone_id": "124",
+        "addr:city_extracted": "Rezzoaglio"
+      },
+      "lat": 44.523434,
+      "lon": 9.3950852
+    },
+    {
+      "type": "node",
+      "id": 374573163,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Magnasco centro",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "5823",
+        "zone_id": "127",
+        "addr:city_extracted": "Rezzoaglio"
+      },
+      "lat": 44.516689,
+      "lon": 9.4042273
+    },
+    {
+      "type": "node",
+      "id": 374573190,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Pian di Fontana",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "5824",
+        "zone_id": "127",
+        "addr:city_extracted": "Rezzoaglio"
+      },
+      "lat": 44.5170856,
+      "lon": 9.3969113
+    },
+    {
+      "type": "node",
+      "id": 440621259,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Molini bivio Brignole",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "5859",
+        "wheelchair": "yes",
+        "zone_id": "124",
+        "addr:city_extracted": "Rezzoaglio"
+      },
+      "lat": 44.5182922,
+      "lon": 9.3720276
+    },
+    {
+      "type": "node",
+      "id": 440621867,
+      "tags": {
+        "name": "Esola",
+        "place": "hamlet",
+        "wikidata": "Q18457495",
+        "addr:city_extracted": "Rezzoaglio"
+      },
+      "lat": 44.5303152,
+      "lon": 9.3851378
+    },
+    {
+      "type": "node",
+      "id": 440629894,
+      "tags": {
+        "amenity": "bar",
+        "name": "Bar degli amici",
+        "addr:city_extracted": "Rezzoaglio"
+      },
+      "lat": 44.5261422,
+      "lon": 9.3859911
+    },
+    {
+      "type": "node",
+      "id": 440629895,
+      "tags": {
+        "amenity": "bank",
+        "atm": "yes",
+        "name": "Carige",
+        "addr:city_extracted": "Rezzoaglio"
+      },
+      "lat": 44.5260742,
+      "lon": 9.3861032
+    },
+    {
+      "type": "node",
+      "id": 440629897,
+      "tags": {
+        "old_name": "Ristorante Pizzeria Americano",
+        "shop": "vacant",
+        "was:amenity": "restaurant",
+        "addr:city_extracted": "Rezzoaglio"
+      },
+      "lat": 44.5259341,
+      "lon": 9.386226
+    },
+    {
+      "type": "node",
+      "id": 440629900,
+      "tags": {
+        "shop": "butcher",
+        "addr:city_extracted": "Rezzoaglio"
+      },
+      "lat": 44.5259983,
+      "lon": 9.3851068
+    },
+    {
+      "type": "node",
+      "id": 440629902,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Tamoil",
+        "brand:wikidata": "Q706793",
+        "brand:wikipedia": "fr:Tamoil",
+        "fuel:diesel": "yes",
+        "fuel:octane_95": "yes",
+        "name": "Tamoil",
+        "operator": "Fugazzi Silvano",
+        "ref:mise": "17896",
+        "addr:city_extracted": "Rezzoaglio"
+      },
+      "lat": 44.525845,
+      "lon": 9.3849517
+    },
+    {
+      "type": "node",
+      "id": 440629905,
+      "tags": {
+        "name": "Tabacchi",
+        "shop": "newsagent",
+        "addr:city_extracted": "Rezzoaglio"
+      },
+      "lat": 44.5258893,
+      "lon": 9.3849405
+    },
+    {
+      "type": "node",
+      "id": 440629906,
+      "tags": {
+        "amenity": "bank",
+        "atm": "yes",
+        "name": "Banca di Piacenza",
+        "addr:city_extracted": "Rezzoaglio"
+      },
+      "lat": 44.5257473,
+      "lon": 9.385126
+    },
+    {
+      "type": "node",
+      "id": 440629915,
+      "tags": {
+        "name": "Alimentari Adriana Teresa",
+        "shop": "convenience",
+        "addr:city_extracted": "Rezzoaglio"
+      },
+      "lat": 44.5260818,
+      "lon": 9.3857185
+    },
+    {
+      "type": "node",
+      "id": 440629935,
+      "tags": {
+        "addr:city": "Rezzoaglio",
+        "addr:housenumber": "5",
+        "addr:postcode": "16048",
+        "addr:street": "Via Roma",
+        "amenity": "post_office",
+        "atm": "yes",
+        "brand": "Poste Italiane",
+        "brand:wikidata": "Q495026",
+        "brand:wikipedia": "en:Poste italiane",
+        "name": "Poste Italiane",
+        "opening_hours": "Mo-Fr 08:20-13:45; Sa 08:20-12:45; Su,PH off",
+        "operator": "Poste Italiane",
+        "operator:wikidata": "Q495026",
+        "phone": "+39 0185 870004",
+        "source": "https://www.lavocedigenova.it/2025/11/12/amp/argomenti/economia-2/articolo/poste-italiane-corre-il-progetto-polis-a-genova-e-nel-levante-al-servizio-delle-comunita-locali.html",
+        "addr:city_extracted": "Rezzoaglio"
+      },
+      "lat": 44.525655,
+      "lon": 9.3876777
+    },
+    {
+      "type": "node",
+      "id": 440629936,
+      "tags": {
+        "addr:city": "Rezzoaglio",
+        "addr:housenumber": "50",
+        "addr:postcode": "16048",
+        "addr:street": "Via Capoluogo",
+        "amenity": "pharmacy",
+        "contact:facebook": "https://www.facebook.com/FARMACIA-REZZOAGLIO-185359328161523/",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Rezzoaglio",
+        "phone": "+39 0185 870019",
+        "ref:msal": "6309",
+        "addr:city_extracted": "Rezzoaglio"
+      },
+      "lat": 44.5256039,
+      "lon": 9.3873129
+    },
+    {
+      "type": "node",
+      "id": 440631832,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Isola Rotonda - Rezzoaglio",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "5858",
+        "zone_id": "124",
+        "addr:city_extracted": "Rezzoaglio"
+      },
+      "lat": 44.5241521,
+      "lon": 9.3817395
+    },
+    {
+      "type": "node",
+      "id": 440631833,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Molini",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "5880",
+        "zone_id": "124",
+        "addr:city_extracted": "Rezzoaglio"
+      },
+      "lat": 44.5159576,
+      "lon": 9.3709849
+    },
+    {
+      "type": "node",
+      "id": 443652321,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Magnasco chiesa",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "5822",
+        "url": "http://www.atp-spa.it/cartina.php",
+        "zone_id": "127",
+        "addr:city_extracted": "Rezzoaglio"
+      },
+      "lat": 44.5167836,
+      "lon": 9.4042318
+    },
+    {
+      "type": "node",
+      "id": 443652324,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Pian di Fontana",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "5825",
+        "url": "http://www.atp-spa.it/cartina.php",
+        "zone_id": "127",
+        "addr:city_extracted": "Rezzoaglio"
+      },
+      "lat": 44.517458,
+      "lon": 9.3969954
+    },
+    {
+      "type": "node",
+      "id": 443652325,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Villa Cerro",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "5826",
+        "zone_id": "124",
+        "addr:city_extracted": "Rezzoaglio"
+      },
+      "lat": 44.5236397,
+      "lon": 9.3952299
+    },
+    {
+      "type": "node",
+      "id": 443652326,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Ospedaletto croce rossa - Rezzoaglio",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "5790",
+        "zone_id": "124",
+        "addr:city_extracted": "Rezzoaglio"
+      },
+      "lat": 44.5256586,
+      "lon": 9.3906373
+    },
+    {
+      "type": "node",
+      "id": 443652327,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Ospedaletto croce rossa - Rezzoaglio",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "5827",
+        "zone_id": "124",
+        "addr:city_extracted": "Rezzoaglio"
+      },
+      "lat": 44.5258948,
+      "lon": 9.3905314
+    },
+    {
+      "type": "node",
+      "id": 472929496,
+      "tags": {
+        "name": "Ferramenta Mazza",
+        "shop": "hardware",
+        "addr:city_extracted": "Rezzoaglio"
+      },
+      "lat": 44.5263725,
+      "lon": 9.3900883
+    },
+    {
+      "type": "node",
+      "id": 472929502,
+      "tags": {
+        "name": "Albergo Ristorante La Pineta",
+        "stars": "1",
+        "tourism": "hotel",
+        "addr:city_extracted": "Rezzoaglio"
+      },
+      "lat": 44.5165954,
+      "lon": 9.4036905
+    },
+    {
+      "type": "node",
+      "id": 472929505,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "La Pineta",
+        "addr:city_extracted": "Rezzoaglio"
+      },
+      "lat": 44.5165999,
+      "lon": 9.4037247
+    },
+    {
+      "type": "node",
+      "id": 2423195685,
+      "tags": {
+        "addr:housenumber": "4",
+        "addr:street": "Via Roma",
+        "name": "Panificio U Furnà",
+        "opening_hours": "Mo-Sa 06:30-12:30,15:15-19:00",
+        "shop": "convenience",
+        "addr:city_extracted": "Rezzoaglio"
+      },
+      "lat": 44.525834,
+      "lon": 9.3848667
+    },
+    {
+      "type": "node",
+      "id": 4099284834,
+      "tags": {
+        "name": "Brusa",
+        "place": "locality",
+        "addr:city_extracted": "Rezzoaglio"
+      },
+      "lat": 44.5297932,
+      "lon": 9.3705332
+    },
+    {
+      "type": "node",
+      "id": 4099284838,
+      "tags": {
+        "name": "Colture",
+        "place": "locality",
+        "addr:city_extracted": "Rezzoaglio"
+      },
+      "lat": 44.5354011,
+      "lon": 9.3751118
+    },
+    {
+      "type": "node",
+      "id": 4099284839,
+      "tags": {
+        "name": "Croaia",
+        "place": "locality",
+        "addr:city_extracted": "Rezzoaglio"
+      },
+      "lat": 44.5271907,
+      "lon": 9.3773004
+    },
+    {
+      "type": "node",
+      "id": 4099284840,
+      "tags": {
+        "name": "Favale",
+        "place": "locality",
+        "addr:city_extracted": "Rezzoaglio"
+      },
+      "lat": 44.5345063,
+      "lon": 9.3850574
+    },
+    {
+      "type": "node",
+      "id": 4099284845,
+      "tags": {
+        "name": "Osina",
+        "place": "locality",
+        "addr:city_extracted": "Rezzoaglio"
+      },
+      "lat": 44.5371352,
+      "lon": 9.3701792
+    },
+    {
+      "type": "node",
+      "id": 4099284847,
+      "tags": {
+        "name": "Pianura",
+        "place": "locality",
+        "addr:city_extracted": "Rezzoaglio"
+      },
+      "lat": 44.5332062,
+      "lon": 9.3754712
+    },
+    {
+      "type": "node",
+      "id": 4099284852,
+      "tags": {
+        "name": "Tre Fontane",
+        "place": "locality",
+        "addr:city_extracted": "Rezzoaglio"
+      },
+      "lat": 44.5363647,
+      "lon": 9.3855241
+    },
+    {
+      "type": "node",
+      "id": 4114298089,
+      "tags": {
+        "name": "Calcinara",
+        "place": "isolated_dwelling",
+        "addr:city_extracted": "Rezzoaglio"
+      },
+      "lat": 44.5181339,
+      "lon": 9.3746316
+    },
+    {
+      "type": "node",
+      "id": 4307715368,
+      "tags": {
+        "amenity": "bar",
+        "name": "Bar Val D'Aveto",
+        "addr:city_extracted": "Rezzoaglio"
+      },
+      "lat": 44.5261711,
+      "lon": 9.3854846
+    },
+    {
+      "type": "node",
+      "id": 4307715369,
+      "tags": {
+        "information": "office",
+        "name": "Centro Visite Parco Aveto",
+        "tourism": "information",
+        "addr:city_extracted": "Rezzoaglio"
+      },
+      "lat": 44.5256652,
+      "lon": 9.390961
+    },
+    {
+      "type": "node",
+      "id": 4307715370,
+      "tags": {
+        "name": "Pro Loco",
+        "office": "government",
+        "addr:city_extracted": "Rezzoaglio"
+      },
+      "lat": 44.5257284,
+      "lon": 9.3866259
+    },
+    {
+      "type": "node",
+      "id": 4629935789,
+      "tags": {
+        "amenity": "bar",
+        "name": "american",
+        "addr:city_extracted": "Rezzoaglio"
+      },
+      "lat": 44.5260476,
+      "lon": 9.3861978
+    },
+    {
+      "type": "node",
+      "id": 4987723580,
+      "tags": {
+        "name": "Roncazzi",
+        "place": "locality",
+        "addr:city_extracted": "Rezzoaglio"
+      },
+      "lat": 44.5215361,
+      "lon": 9.3890941
+    },
+    {
+      "type": "node",
+      "id": 4987723581,
+      "tags": {
+        "name": "Pianone",
+        "place": "locality",
+        "addr:city_extracted": "Rezzoaglio"
+      },
+      "lat": 44.519922,
+      "lon": 9.3858701
+    },
+    {
+      "type": "node",
+      "id": 4987723582,
+      "tags": {
+        "name": "Barbetta",
+        "place": "locality",
+        "addr:city_extracted": "Rezzoaglio"
+      },
+      "lat": 44.5177896,
+      "lon": 9.3849367
+    },
+    {
+      "type": "node",
+      "id": 5211141753,
+      "tags": {
+        "name": "Cannelle",
+        "place": "locality",
+        "addr:city_extracted": "Rezzoaglio"
+      },
+      "lat": 44.5198494,
+      "lon": 9.4011694
+    },
+    {
+      "type": "node",
+      "id": 5211141799,
+      "tags": {
+        "name": "Rezzoaglio basso",
+        "place": "hamlet",
+        "wikidata": "Q18458818",
+        "addr:city_extracted": "Rezzoaglio"
+      },
+      "lat": 44.5299309,
+      "lon": 9.3967867
+    },
+    {
+      "type": "node",
+      "id": 5562903419,
+      "tags": {
+        "name": "Prato",
+        "place": "locality",
+        "addr:city_extracted": "Rezzoaglio"
+      },
+      "lat": 44.5378656,
+      "lon": 9.3902636
+    },
+    {
+      "type": "node",
+      "id": 13204937423,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Rezzoaglio centro",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "network:wikipedia": "it:AMT (Genova)",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "5828",
+        "zone_id": "124",
+        "addr:city_extracted": "Rezzoaglio"
+      },
+      "lat": 44.5260239,
+      "lon": 9.3859873
+    },
+    {
+      "type": "node",
+      "id": 13204937426,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Rezzoaglio Basso",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "5835",
+        "zone_id": "124",
+        "addr:city_extracted": "Rezzoaglio"
+      },
+      "lat": 44.5301361,
+      "lon": 9.3953533
+    },
+    {
+      "type": "node",
+      "id": 13204937427,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Rezzoaglio Basso",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "5836",
+        "zone_id": "124",
+        "addr:city_extracted": "Rezzoaglio"
+      },
+      "lat": 44.5302172,
+      "lon": 9.3952956
+    },
+    {
+      "type": "node",
+      "id": 13204937428,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Ex Ambulatorio medico",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "5857",
+        "zone_id": "124",
+        "addr:city_extracted": "Rezzoaglio"
+      },
+      "lat": 44.5262184,
+      "lon": 9.3880644
+    },
+    {
+      "type": "node",
+      "id": 13204937429,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Ex Ambulatorio medico",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "5856",
+        "zone_id": "124",
+        "addr:city_extracted": "Rezzoaglio"
+      },
+      "lat": 44.5263023,
+      "lon": 9.3879728
+    },
+    {
+      "type": "node",
+      "id": 13230587509,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Rezzoaglio scuola SCOL",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "9195",
+        "addr:city_extracted": "Rezzoaglio"
+      },
+      "lat": 44.5283813,
+      "lon": 9.3873177
+    },
+    {
+      "type": "node",
+      "id": 13230587510,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Ertola",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "5834",
+        "zone_id": "124",
+        "addr:city_extracted": "Rezzoaglio"
+      },
+      "lat": 44.5328045,
+      "lon": 9.3904303
+    },
+    {
+      "type": "node",
+      "id": 13230587511,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Esola paese",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "5831",
+        "zone_id": "124",
+        "addr:city_extracted": "Rezzoaglio"
+      },
+      "lat": 44.5295792,
+      "lon": 9.3870449
+    },
+    {
+      "type": "node",
+      "id": 13230587512,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Esola - punto di inversione",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "5829",
+        "zone_id": "124",
+        "addr:city_extracted": "Rezzoaglio"
+      },
+      "lat": 44.5307007,
+      "lon": 9.383379
+    },
+    {
+      "type": "node",
+      "id": 13230587513,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Casaleggio - punto di inversione",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "5833",
+        "zone_id": "124",
+        "addr:city_extracted": "Rezzoaglio"
+      },
+      "lat": 44.5346489,
+      "lon": 9.3971014
+    },
+    {
+      "type": "node",
+      "id": 13230587514,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Esola paese",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "5830",
+        "zone_id": "124",
+        "addr:city_extracted": "Rezzoaglio"
+      },
+      "lat": 44.5295296,
+      "lon": 9.3869572
+    },
+    {
+      "type": "node",
+      "id": 13230587515,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Ertola",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "5832",
+        "zone_id": "124",
+        "addr:city_extracted": "Rezzoaglio"
+      },
+      "lat": 44.5327531,
+      "lon": 9.3905441
+    },
+    {
+      "type": "node",
+      "id": 13232724036,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Strada Provinciale 586 - Rezzoaglio",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "8697",
+        "zone_id": "124",
+        "addr:city_extracted": "Rezzoaglio"
+      },
+      "lat": 44.5247917,
+      "lon": 9.3780231
+    },
+    {
+      "type": "node",
+      "id": 13612578701,
+      "tags": {
+        "addr:housenumber": "33",
+        "addr:postcode": "16048",
+        "addr:street": "Magnasco",
+        "check_date": "2026-03-02",
+        "craft": "beekeeper",
+        "name": "Apicoltura Trentin",
+        "addr:city_extracted": "Rezzoaglio"
+      },
+      "lat": 44.5171422,
+      "lon": 9.4026913
+    },
+    {
+      "type": "way",
+      "id": 33191228,
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Via Capoluogo",
+        "nat_name": "Strada statale 654 di Val Nure",
+        "ref": "SS654",
+        "surface": "asphalt",
+        "addr:city_extracted": "Rezzoaglio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 37587348,
+      "tags": {
+        "bridge": "yes",
+        "highway": "unclassified",
+        "layer": "1",
+        "name": "Ponte Cavalier Sbertoli Francesco",
+        "surface": "asphalt",
+        "addr:city_extracted": "Rezzoaglio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 37588344,
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Strada provinciale 586 della Valle dell'Aveto",
+        "oneway": "no",
+        "ref": "SP586",
+        "surface": "asphalt",
+        "addr:city_extracted": "Rezzoaglio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 38098539,
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Strada statale 654 di Val Nure",
+        "ref": "SS654",
+        "surface": "asphalt",
+        "addr:city_extracted": "Rezzoaglio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 38098541,
+      "tags": {
+        "bridge": "yes",
+        "highway": "primary",
+        "layer": "1",
+        "name": "Strada statale 654 di Val Nure",
+        "ref": "SS654",
+        "surface": "asphalt",
+        "addr:city_extracted": "Rezzoaglio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 39483744,
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Strada statale 654 di Val Nure",
+        "ref": "SS654",
+        "surface": "asphalt",
+        "addr:city_extracted": "Rezzoaglio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 39483745,
+      "tags": {
+        "bridge": "yes",
+        "highway": "primary",
+        "layer": "1",
+        "name": "Strada statale 654 di Val Nure",
+        "ref": "SS654",
+        "surface": "asphalt",
+        "addr:city_extracted": "Rezzoaglio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 39483746,
+      "tags": {
+        "bridge": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "layer": "1",
+        "name": "Strada statale 654 di Val Nure",
+        "ref": "SS654",
+        "surface": "asphalt",
+        "addr:city_extracted": "Rezzoaglio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 39483747,
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Strada statale 654 di Val Nure",
+        "ref": "SS654",
+        "surface": "asphalt",
+        "addr:city_extracted": "Rezzoaglio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 58986152,
+      "tags": {
+        "intermittent": "no",
+        "name": "Torrente Aveto",
+        "waterway": "stream",
+        "addr:city_extracted": "Rezzoaglio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 62002454,
+      "tags": {
+        "bridge": "yes",
+        "highway": "primary",
+        "layer": "1",
+        "name": "Strada statale 654 di Val Nure",
+        "ref": "SS654",
+        "surface": "asphalt",
+        "addr:city_extracted": "Rezzoaglio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 62002460,
+      "tags": {
+        "highway": "primary",
+        "name": "Strada statale 654 di Val Nure",
+        "ref": "SS654",
+        "surface": "asphalt",
+        "addr:city_extracted": "Rezzoaglio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 234013553,
+      "tags": {
+        "building": "yes",
+        "name": "Caseificio Val D'Aveto",
+        "shop": "deli",
+        "website": "https://www.caseificiovaldaveto.com/",
+        "addr:city_extracted": "Rezzoaglio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 234013554,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "church",
+        "denomination": "catholic",
+        "name": "Parrocchia di San Michele Arcangelo",
+        "religion": "christian",
+        "wikidata": "Q3671309",
+        "wikipedia": "it:Chiesa di San Michele Arcangelo (Rezzoaglio)",
+        "addr:city_extracted": "Rezzoaglio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 234013556,
+      "tags": {
+        "bridge": "yes",
+        "highway": "secondary",
+        "layer": "1",
+        "name": "Strada provinciale 586 della Valle dell'Aveto",
+        "oneway": "no",
+        "ref": "SP586",
+        "surface": "asphalt",
+        "addr:city_extracted": "Rezzoaglio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 234013557,
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Strada statale 586 della Valle dell'Aveto",
+        "ref": "SS586",
+        "surface": "asphalt",
+        "addr:city_extracted": "Rezzoaglio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 234013558,
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Via Roma",
+        "nat_name": "Strada statale 586 della Valle dell'Aveto",
+        "ref": "SS586",
+        "surface": "asphalt",
+        "addr:city_extracted": "Rezzoaglio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 254522259,
+      "tags": {
+        "bridge": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "layer": "1",
+        "name": "Strada statale 586 della Valle dell'Aveto",
+        "ref": "SS586",
+        "surface": "asphalt",
+        "addr:city_extracted": "Rezzoaglio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 254522262,
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Strada statale 586 della Valle dell'Aveto",
+        "ref": "SS586",
+        "surface": "asphalt",
+        "addr:city_extracted": "Rezzoaglio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 281558723,
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Strada statale 654 di Val Nure",
+        "ref": "SS654",
+        "surface": "asphalt",
+        "addr:city_extracted": "Rezzoaglio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 287702481,
+      "tags": {
+        "highway": "primary",
+        "name": "Strada statale 586 della Valle dell'Aveto",
+        "ref": "SS586",
+        "surface": "asphalt",
+        "addr:city_extracted": "Rezzoaglio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 287702482,
+      "tags": {
+        "bridge": "yes",
+        "highway": "primary",
+        "layer": "1",
+        "name": "Strada statale 586 della Valle dell'Aveto",
+        "ref": "SS586",
+        "surface": "asphalt",
+        "addr:city_extracted": "Rezzoaglio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 299417396,
+      "tags": {
+        "highway": "secondary",
+        "name": "Strada provinciale 586 della Valle dell'Aveto",
+        "oneway": "no",
+        "ref": "SP586",
+        "surface": "asphalt",
+        "addr:city_extracted": "Rezzoaglio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 334333245,
+      "tags": {
+        "name": "San Colombano-Salsominore",
+        "power": "line",
+        "ref": "23.499",
+        "voltage": "132000",
+        "addr:city_extracted": "Rezzoaglio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 343929584,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "church",
+        "denomination": "catholic",
+        "name": "Chiesa di San Bartolomeo",
+        "religion": "christian",
+        "wikidata": "Q3669522",
+        "wikipedia": "it:Chiesa di San Bartolomeo (Rezzoaglio)",
+        "addr:city_extracted": "Rezzoaglio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 352669597,
+      "tags": {
+        "highway": "secondary",
+        "name": "Strada provinciale 586 della Valle dell'Aveto",
+        "oneway": "no",
+        "ref": "SP586",
+        "surface": "asphalt",
+        "addr:city_extracted": "Rezzoaglio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 352670274,
+      "tags": {
+        "building": "yes",
+        "name": "Centro Polifunzionale di Rezzoaglio",
+        "addr:city_extracted": "Rezzoaglio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 365382127,
+      "tags": {
+        "name": "Torrente Rezzoaglio",
+        "waterway": "stream",
+        "addr:city_extracted": "Rezzoaglio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 447018200,
+      "tags": {
+        "boundary": "protected_area",
+        "name": "Lago Marcotto - Roccabruna - Gifarco - Lago della Nave",
+        "protect_class": "97",
+        "ref": "IT1331012",
+        "ref:inspire": "IT.RLIG.SIC-IT1331012",
+        "wikidata": "Q55317026",
+        "addr:city_extracted": "Rezzoaglio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 448013793,
+      "tags": {
+        "name": "Rio Crosa",
+        "ref": "215052_105580",
+        "waterway": "stream",
+        "addr:city_extracted": "Rezzoaglio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1017427646,
+      "tags": {
+        "cycleway:both": "no",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Strada statale 654 di Val Nure",
+        "ref": "SS654",
+        "surface": "asphalt",
+        "addr:city_extracted": "Rezzoaglio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1219777032,
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Strada statale 586 della Valle dell'Aveto",
+        "ref": "SS586",
+        "surface": "asphalt",
+        "addr:city_extracted": "Rezzoaglio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1219777033,
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Strada statale 586 della Valle dell'Aveto",
+        "ref": "SS586",
+        "surface": "asphalt",
+        "addr:city_extracted": "Rezzoaglio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1436699203,
+      "tags": {
+        "highway": "primary",
+        "name": "Via Roma",
+        "nat_name": "Strada statale 586 della Valle dell'Aveto",
+        "ref": "SS586",
+        "surface": "asphalt",
+        "addr:city_extracted": "Rezzoaglio"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 43168,
+      "tags": {
+        "admin_level": "8",
+        "boundary": "administrative",
+        "name": "Rezzoaglio",
+        "population": "863",
+        "population:date": "2026-08-27",
+        "ref:catasto": "H258",
+        "ref:ISTAT": "010048",
+        "type": "boundary",
+        "wikidata": "Q267022",
+        "wikipedia": "it:Rezzoaglio",
+        "addr:city_extracted": "Rezzoaglio"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 43207,
+      "tags": {
+        "admin_level": "8",
+        "boundary": "administrative",
+        "name": "Santo Stefano d'Aveto",
+        "population": "967",
+        "population:date": "2026-08-28",
+        "ref:catasto": "I368",
+        "ref:ISTAT": "010056",
+        "source:population": "ANPR 2026",
+        "type": "boundary",
+        "wikidata": "Q267032",
+        "wikipedia": "it:Santo Stefano d'Aveto",
+        "addr:city_extracted": "Rezzoaglio"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 962652,
+      "tags": {
+        "cai_scale": "E",
+        "name": "Magnasco - Monte Aiona",
+        "network": "lwn",
+        "note:project_page": "http://wiki.openstreetmap.org/wiki/Liguria/Sentieri",
+        "osmc:symbol": "red:green::=:yellow",
+        "ref": "351C",
+        "ref:FIE": "08GES11",
+        "ref:REI": "GGEB351C",
+        "reg_ref": "GGEB35101CE",
+        "route": "hiking",
+        "rwn:name": "Rete Escursionistica Ligure (REL)",
+        "source": "Regione Liguria;survey:CAI",
+        "symbol:it": "due linee gialle orizzontali parallele",
+        "type": "route",
+        "addr:city_extracted": "Rezzoaglio"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 2235479,
+      "tags": {
+        "destination": "Trebbia",
+        "name": "Aveto",
+        "type": "waterway",
+        "waterway": "river",
+        "wikidata": "Q3631051",
+        "wikipedia": "it:Aveto",
+        "addr:city_extracted": "Rezzoaglio"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 7187763,
+      "tags": {
+        "cai_scale": "E",
+        "name": "Sentiero della Resistenza",
+        "network": "lwn",
+        "note:project_page": "http://wiki.openstreetmap.org/wiki/Liguria/Sentieri",
+        "ref": "313",
+        "ref:REI": "GGEB3130",
+        "reg_ref": "GGEB31312PE",
+        "route": "hiking",
+        "rwn:name": "Rete Escursionistica Ligure (REL)",
+        "source": "Regione Liguria;survey:CAI",
+        "state": "proposed",
+        "symbol:it": "cerchio rosso da Borzonasca al Passo delle Rocche, cerchio giallo dal Passo delle Rocche a Rezzoaglio",
+        "type": "route",
+        "addr:city_extracted": "Rezzoaglio"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 13624275,
+      "tags": {
+        "cai_scale": "E",
+        "name": "Sentiero della Resistenza: Passo delle Rocche - Rezzoaglio",
+        "network": "lwn",
+        "osmc:symbol": "red:green:yellow_dot",
+        "route": "hiking",
+        "source": "survey",
+        "type": "route",
+        "addr:city_extracted": "Rezzoaglio"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 16829379,
+      "tags": {
+        "name": "Strada statale 654 di Val Nure",
+        "ref": "SS 654",
+        "route": "road",
+        "type": "route",
+        "wikidata": "Q3975417",
+        "wikipedia": "it:Strada statale 654 di Val Nure",
+        "addr:city_extracted": "Rezzoaglio"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 16829429,
+      "tags": {
+        "name": "Strada statale 586 della Valle dell'Aveto",
+        "ref": "SS 586",
+        "route": "road",
+        "type": "route",
+        "wikidata": "Q3975327",
+        "wikipedia": "it:Strada statale 586 della Valle dell'Aveto",
+        "addr:city_extracted": "Rezzoaglio"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 16832645,
+      "tags": {
+        "name": "Strada provinciale 586 della Valle dell'Aveto",
+        "network": "IT:GE",
+        "ref": "SP586",
+        "route": "road",
+        "type": "route",
+        "wikidata": "Q123900728",
+        "addr:city_extracted": "Rezzoaglio"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 19694303,
+      "tags": {
+        "bus": "yes",
+        "colour": "green",
+        "description": "911 Rezzoaglio - Vicosoprano",
+        "from": "Rezzoaglio",
+        "name": "911 Vicosoprano",
+        "network": "AMT Linee Provinciali",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "911",
+        "route": "bus",
+        "to": "Vicosoprano",
+        "type": "route",
+        "addr:city_extracted": "Rezzoaglio"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 19694304,
+      "tags": {
+        "bus": "yes",
+        "colour": "green",
+        "description": "911 Rezzoaglio - Vicosoprano (limitata ad Alpepiana)",
+        "from": "Rezzoaglio",
+        "name": "911 Alpepiana",
+        "network": "AMT Linee Provinciali",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "911",
+        "route": "bus",
+        "to": "Alpepiana",
+        "type": "route",
+        "addr:city_extracted": "Rezzoaglio"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 19708107,
+      "tags": {
+        "bus": "yes",
+        "colour": "green",
+        "description": "711 Borzonasca - Santo Stefano d'Aveto",
+        "from": "Borzonasca",
+        "name": "711 Santo Stefano d'Aveto",
+        "network": "AMT Linee Provinciali",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "711",
+        "route": "bus",
+        "to": "Santo Stefano d'Aveto",
+        "type": "route",
+        "addr:city_extracted": "Rezzoaglio"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 19708178,
+      "tags": {
+        "bus": "yes",
+        "colour": "green",
+        "description": "913 Casaleggio - Rezzoaglio",
+        "from": "Casaleggio",
+        "name": "913 Rezzoaglio",
+        "network": "AMT Linee Provinciali",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "913",
+        "route": "bus",
+        "to": "Rezzoaglio",
+        "type": "route",
+        "addr:city_extracted": "Rezzoaglio"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 20150568,
+      "tags": {
+        "bus": "yes",
+        "colour": "green",
+        "description": "711 Santo Stefano d'Aveto - Chiavari Nassiriya",
+        "from": "Santo Stefano d'Aveto",
+        "name": "711 Chiavari Nassiriya",
+        "network": "AMT Linee Provinciali",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "711",
+        "route": "bus",
+        "to": "Chiavari Nassiriya",
+        "type": "route",
+        "addr:city_extracted": "Rezzoaglio"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 21824338,
+      "tags": {
+        "name": "Antica Via del Cifalco - deviazione Ertola-Rezzoaglio",
+        "network": "nwn",
+        "ref": "AVCd",
+        "route": "hiking",
+        "type": "route",
+        "addr:city_extracted": "Rezzoaglio"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 21824348,
+      "tags": {
+        "from": "Ponte Organasco",
+        "name": "Antica Via del Cifalco",
+        "network": "nwn",
+        "ref": "AVC",
+        "route": "hiking",
+        "to": "Camogli",
+        "type": "superroute",
+        "addr:city_extracted": "Rezzoaglio"
+      }
+    }
+  ]
+}

@@ -1,0 +1,3538 @@
+{
+  "version": 0.6,
+  "generator": "OpenStreetMap v0.6 API",
+  "comune": "Serra Riccò",
+  "elements": [
+    {
+      "type": "node",
+      "id": 66586587,
+      "tags": {
+        "name": "Pedemonte",
+        "place": "village",
+        "population": "5824",
+        "addr:city_extracted": "Serra Riccò"
+      },
+      "lat": 44.5092506,
+      "lon": 8.9372544
+    },
+    {
+      "type": "node",
+      "id": 169631383,
+      "tags": {
+        "name": "Pedemonte",
+        "traffic_sign": "city_limit",
+        "addr:city_extracted": "Serra Riccò"
+      },
+      "lat": 44.5057215,
+      "lon": 8.9306315
+    },
+    {
+      "type": "node",
+      "id": 169631400,
+      "tags": {
+        "name": "Castagna",
+        "traffic_sign": "city_limit",
+        "addr:city_extracted": "Serra Riccò"
+      },
+      "lat": 44.4919846,
+      "lon": 8.9217828
+    },
+    {
+      "type": "node",
+      "id": 1913407857,
+      "tags": {
+        "addr:city": "Serra Riccò",
+        "addr:postcode": "16010",
+        "addr:street": "Via Caffaro",
+        "description": "Cappelletta",
+        "name": "Croce di Vie",
+        "operator": "asd Croce di Vie",
+        "tourism": "picnic_site",
+        "addr:city_extracted": "Serra Riccò"
+      },
+      "lat": 44.5191694,
+      "lon": 8.9288295
+    },
+    {
+      "type": "node",
+      "id": 3203018144,
+      "tags": {
+        "ele": "549",
+        "name": "Monte Rostegasso",
+        "natural": "peak",
+        "source": "CTR Regione Liguria",
+        "addr:city_extracted": "Serra Riccò"
+      },
+      "lat": 44.4952971,
+      "lon": 8.9523812
+    },
+    {
+      "type": "node",
+      "id": 3845503681,
+      "tags": {
+        "colour": "black",
+        "historic": "memorial",
+        "inscription": "Dino Mencaraglia | Barbaramente assasinato dai nazifascisti | 31 - 3 - 1945",
+        "material": "marble",
+        "memorial": "plaque",
+        "name": "A Dino Mencaraglia",
+        "name:en": "To Dino Mencaraglia",
+        "addr:city_extracted": "Serra Riccò"
+      },
+      "lat": 44.5091392,
+      "lon": 8.921578
+    },
+    {
+      "type": "node",
+      "id": 4426825673,
+      "tags": {
+        "name": "Castagna",
+        "place": "village",
+        "addr:city_extracted": "Serra Riccò"
+      },
+      "lat": 44.498208,
+      "lon": 8.9214429
+    },
+    {
+      "type": "node",
+      "id": 4426825717,
+      "tags": {
+        "name": "Serra Riccò",
+        "place": "municipality",
+        "population": "7885",
+        "addr:city_extracted": "Serra Riccò"
+      },
+      "lat": 44.5188233,
+      "lon": 8.9516139
+    },
+    {
+      "type": "node",
+      "id": 4427335714,
+      "tags": {
+        "addr:city": "Serra Riccò",
+        "addr:housenumber": "59 D",
+        "addr:postcode": "16010",
+        "addr:street": "Via Caffaro",
+        "description": "Località Bochettino",
+        "ele": "368",
+        "name": "Serra Riccò",
+        "addr:city_extracted": "Serra Riccò"
+      },
+      "lat": 44.5157743,
+      "lon": 8.9283141
+    },
+    {
+      "type": "node",
+      "id": 4427335715,
+      "tags": {
+        "addr:city": "Serra Riccò",
+        "addr:housenumber": "59",
+        "addr:postcode": "16010",
+        "addr:street": "Via Caffaro",
+        "ele": "340",
+        "name": "Serra Riccò",
+        "addr:city_extracted": "Serra Riccò"
+      },
+      "lat": 44.5149557,
+      "lon": 8.9246663
+    },
+    {
+      "type": "node",
+      "id": 4437507133,
+      "tags": {
+        "ele": "390",
+        "name": "Località Bochettino",
+        "place": "hamlet",
+        "addr:city_extracted": "Serra Riccò"
+      },
+      "lat": 44.5168327,
+      "lon": 8.9268329
+    },
+    {
+      "type": "node",
+      "id": 5731970706,
+      "tags": {
+        "addr:housenumber": "98",
+        "addr:street": "Via Antonio Medicina",
+        "amenity": "pharmacy",
+        "contact:phone": "+39 010 750221",
+        "dispensing": "yes",
+        "name": "Farmacia Dottor Laini",
+        "ref:msal": "6237",
+        "addr:city_extracted": "Serra Riccò"
+      },
+      "lat": 44.5077367,
+      "lon": 8.9355802
+    },
+    {
+      "type": "node",
+      "id": 5731970709,
+      "tags": {
+        "amenity": "fast_food",
+        "name": "Focacceria Atria",
+        "addr:city_extracted": "Serra Riccò"
+      },
+      "lat": 44.5083272,
+      "lon": 8.9371406
+    },
+    {
+      "type": "node",
+      "id": 5731970710,
+      "tags": {
+        "name": "Superfrutta",
+        "shop": "greengrocer",
+        "addr:city_extracted": "Serra Riccò"
+      },
+      "lat": 44.5088155,
+      "lon": 8.9372633
+    },
+    {
+      "type": "node",
+      "id": 5731970711,
+      "tags": {
+        "amenity": "bar",
+        "name": "Gilda Caffè",
+        "addr:city_extracted": "Serra Riccò"
+      },
+      "lat": 44.5090924,
+      "lon": 8.9373766
+    },
+    {
+      "type": "node",
+      "id": 5731970712,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Medicina 1 Di Piazza Poggi",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "3494",
+        "zone_id": "64",
+        "addr:city_extracted": "Serra Riccò"
+      },
+      "lat": 44.5094113,
+      "lon": 8.9375161
+    },
+    {
+      "type": "node",
+      "id": 5731970716,
+      "tags": {
+        "shop": "stationery",
+        "addr:city_extracted": "Serra Riccò"
+      },
+      "lat": 44.5100167,
+      "lon": 8.9378567
+    },
+    {
+      "type": "node",
+      "id": 5731970718,
+      "tags": {
+        "name": "Genoa Club Serra Riccò",
+        "office": "association",
+        "addr:city_extracted": "Serra Riccò"
+      },
+      "lat": 44.5106087,
+      "lon": 8.9384508
+    },
+    {
+      "type": "node",
+      "id": 5731970720,
+      "tags": {
+        "amenity": "library",
+        "name": "Biblioteca Edoardo Firpo",
+        "addr:city_extracted": "Serra Riccò"
+      },
+      "lat": 44.511938,
+      "lon": 8.9398938
+    },
+    {
+      "type": "node",
+      "id": 5731970921,
+      "tags": {
+        "amenity": "school",
+        "isced:level": "2",
+        "name": "Scuola media Giuseppe Ungaretti",
+        "addr:city_extracted": "Serra Riccò"
+      },
+      "lat": 44.5118395,
+      "lon": 8.9394701
+    },
+    {
+      "type": "node",
+      "id": 5731970922,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Medicina F. Scuola Media",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "3491",
+        "shelter": "yes",
+        "zone_id": "64",
+        "addr:city_extracted": "Serra Riccò"
+      },
+      "lat": 44.5117822,
+      "lon": 8.9399991
+    },
+    {
+      "type": "node",
+      "id": 5731970923,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Medicina 40 Scuola Media",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "3493",
+        "shelter": "yes",
+        "zone_id": "64",
+        "addr:city_extracted": "Serra Riccò"
+      },
+      "lat": 44.5119007,
+      "lon": 8.940099
+    },
+    {
+      "type": "node",
+      "id": 5731970962,
+      "tags": {
+        "addr:housenumber": "30",
+        "addr:street": "Via Angelo Pelissa",
+        "amenity": "restaurant",
+        "name": "Trattoria Lavagetto",
+        "addr:city_extracted": "Serra Riccò"
+      },
+      "lat": 44.5138478,
+      "lon": 8.9401661
+    },
+    {
+      "type": "node",
+      "id": 5731970964,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Ghiglino Ex rimessa AMT",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "3525",
+        "zone_id": "64",
+        "addr:city_extracted": "Serra Riccò"
+      },
+      "lat": 44.5125797,
+      "lon": 8.9420155
+    },
+    {
+      "type": "node",
+      "id": 5731970966,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Medicina Piazza Poggi 54",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "3490",
+        "shelter": "yes",
+        "zone_id": "64",
+        "addr:city_extracted": "Serra Riccò"
+      },
+      "lat": 44.5091416,
+      "lon": 8.9375442
+    },
+    {
+      "type": "node",
+      "id": 5731970967,
+      "tags": {
+        "amenity": "restaurant",
+        "contact:phone": "+39 010 751722",
+        "cuisine": "pizza",
+        "name": "Pizzoteca",
+        "addr:city_extracted": "Serra Riccò"
+      },
+      "lat": 44.5092392,
+      "lon": 8.9373162
+    },
+    {
+      "type": "node",
+      "id": 5731970968,
+      "tags": {
+        "amenity": "atm",
+        "brand": "Postamat",
+        "brand:wikidata": "Q3909447",
+        "name": "Postamat",
+        "operator": "Poste Italiane",
+        "operator:wikidata": "Q495026",
+        "addr:city_extracted": "Serra Riccò"
+      },
+      "lat": 44.5078533,
+      "lon": 8.936753
+    },
+    {
+      "type": "node",
+      "id": 5731970969,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Medicina 88 Municipio",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "3495",
+        "zone_id": "64",
+        "addr:city_extracted": "Serra Riccò"
+      },
+      "lat": 44.507742,
+      "lon": 8.9359114
+    },
+    {
+      "type": "node",
+      "id": 5731970970,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Medicina F. 94 F. Municipio",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "3489",
+        "zone_id": "64",
+        "addr:city_extracted": "Serra Riccò"
+      },
+      "lat": 44.5076362,
+      "lon": 8.9356533
+    },
+    {
+      "type": "node",
+      "id": 5731970971,
+      "tags": {
+        "amenity": "bank",
+        "atm": "yes",
+        "name": "Banca Carige",
+        "addr:city_extracted": "Serra Riccò"
+      },
+      "lat": 44.5076812,
+      "lon": 8.9350216
+    },
+    {
+      "type": "node",
+      "id": 5731970972,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Medicina F. 158 Via Ronco",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "3488",
+        "shelter": "yes",
+        "zone_id": "64",
+        "addr:city_extracted": "Serra Riccò"
+      },
+      "lat": 44.5072498,
+      "lon": 8.9337744
+    },
+    {
+      "type": "node",
+      "id": 5731970973,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Medicina F. Pi D7",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "3496",
+        "shelter": "yes",
+        "zone_id": "64",
+        "addr:city_extracted": "Serra Riccò"
+      },
+      "lat": 44.5068582,
+      "lon": 8.9326436
+    },
+    {
+      "type": "node",
+      "id": 5731970974,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Medicina",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "3497",
+        "shelter": "yes",
+        "zone_id": "64",
+        "addr:city_extracted": "Serra Riccò"
+      },
+      "lat": 44.5058491,
+      "lon": 8.9307656
+    },
+    {
+      "type": "node",
+      "id": 5731970975,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Medicina F. 208",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "3487",
+        "shelter": "yes",
+        "zone_id": "64",
+        "addr:city_extracted": "Serra Riccò"
+      },
+      "lat": 44.5058037,
+      "lon": 8.9309098
+    },
+    {
+      "type": "node",
+      "id": 5731970976,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via F.Lli Canepa Via Priv. Alla Pineta",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "3498",
+        "shelter": "yes",
+        "zone_id": "64",
+        "addr:city_extracted": "Serra Riccò"
+      },
+      "lat": 44.5042207,
+      "lon": 8.9282839
+    },
+    {
+      "type": "node",
+      "id": 5731970977,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via F.Lli Canepa F. Via Priv. Alla Pineta",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "3486",
+        "shelter": "yes",
+        "zone_id": "64",
+        "addr:city_extracted": "Serra Riccò"
+      },
+      "lat": 44.5042284,
+      "lon": 8.9284489
+    },
+    {
+      "type": "node",
+      "id": 5731970978,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via F.Lli Canepa F. 8 Lincoln",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "3485",
+        "zone_id": "64",
+        "addr:city_extracted": "Serra Riccò"
+      },
+      "lat": 44.501687,
+      "lon": 8.9260027
+    },
+    {
+      "type": "node",
+      "id": 5731970979,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via F.Lli Canepa 34",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "3500",
+        "shelter": "no",
+        "zone_id": "64",
+        "addr:city_extracted": "Serra Riccò"
+      },
+      "lat": 44.4994124,
+      "lon": 8.9236417
+    },
+    {
+      "type": "node",
+      "id": 5731970980,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via F.Lli Canepa F. 32",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "3484",
+        "shelter": "yes",
+        "zone_id": "64",
+        "addr:city_extracted": "Serra Riccò"
+      },
+      "lat": 44.4994262,
+      "lon": 8.9237295
+    },
+    {
+      "type": "node",
+      "id": 5731970981,
+      "tags": {
+        "addr:housenumber": "40",
+        "addr:street": "Via Fratelli Canepa",
+        "amenity": "restaurant",
+        "contact:phone": "+39 010 751581",
+        "name": "Antica Osteria La Nina",
+        "addr:city_extracted": "Serra Riccò"
+      },
+      "lat": 44.4989092,
+      "lon": 8.9230375
+    },
+    {
+      "type": "node",
+      "id": 5731970982,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "IP",
+        "brand:wikidata": "Q3788748",
+        "fuel:diesel": "yes",
+        "fuel:octane_95": "yes",
+        "name": "IP",
+        "operator": "La Rocca Davide",
+        "ref:mise": "39227",
+        "addr:city_extracted": "Serra Riccò"
+      },
+      "lat": 44.4985371,
+      "lon": 8.9226821
+    },
+    {
+      "type": "node",
+      "id": 5731970983,
+      "tags": {
+        "addr:city": "Serra Riccò",
+        "addr:housenumber": "1",
+        "addr:postcode": "16010",
+        "addr:street": "Via Fratelli Canepa",
+        "contact:phone": "+39 010 751065",
+        "emergency": "ambulance_station",
+        "name": "Pubblica Assistenza Croce Bianca Valsecca",
+        "website": "https://www.crocebiancavalsecca.it/",
+        "addr:city_extracted": "Serra Riccò"
+      },
+      "lat": 44.4980617,
+      "lon": 8.9222436
+    },
+    {
+      "type": "node",
+      "id": 5731970984,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via F.Lli Canepa 60",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "3501",
+        "zone_id": "64",
+        "addr:city_extracted": "Serra Riccò"
+      },
+      "lat": 44.4977754,
+      "lon": 8.922082
+    },
+    {
+      "type": "node",
+      "id": 5731970985,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via F.Lli Canepa F. 60A Loc. Castagna",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "3483",
+        "zone_id": "64",
+        "addr:city_extracted": "Serra Riccò"
+      },
+      "lat": 44.4976628,
+      "lon": 8.9220692
+    },
+    {
+      "type": "node",
+      "id": 5731970987,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via F.Lli Canepa 94",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "3502",
+        "shelter": "no",
+        "zone_id": "64",
+        "addr:city_extracted": "Serra Riccò"
+      },
+      "lat": 44.4948432,
+      "lon": 8.920356
+    },
+    {
+      "type": "node",
+      "id": 5731970988,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via F.Lli Canepa F. 94 Loc. Castagna",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "3482",
+        "shelter": "yes",
+        "zone_id": "64",
+        "addr:city_extracted": "Serra Riccò"
+      },
+      "lat": 44.4948796,
+      "lon": 8.9204197
+    },
+    {
+      "type": "node",
+      "id": 5748431826,
+      "tags": {
+        "shop": "bakery",
+        "addr:city_extracted": "Serra Riccò"
+      },
+      "lat": 44.4968337,
+      "lon": 8.9210271
+    },
+    {
+      "type": "node",
+      "id": 5749359918,
+      "tags": {
+        "addr:housenumber": "48",
+        "addr:postcode": "16010",
+        "addr:street": "Via Fratelli Canepa",
+        "amenity": "pharmacy",
+        "contact:phone": "+39 010 751969",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Farmacia nuova",
+        "ref:msal": "6281",
+        "addr:city_extracted": "Serra Riccò"
+      },
+      "lat": 44.4988186,
+      "lon": 8.9226991
+    },
+    {
+      "type": "node",
+      "id": 5749359919,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via F.Lli Canepa 8 B Lincoln",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "3499",
+        "shelter": "no",
+        "zone_id": "64",
+        "addr:city_extracted": "Serra Riccò"
+      },
+      "lat": 44.5015706,
+      "lon": 8.9257653
+    },
+    {
+      "type": "node",
+      "id": 5749360624,
+      "tags": {
+        "name": "Bocciofila Serra Riccò",
+        "sport": "boules",
+        "addr:city_extracted": "Serra Riccò"
+      },
+      "lat": 44.4977635,
+      "lon": 8.9235482
+    },
+    {
+      "type": "node",
+      "id": 5879462118,
+      "tags": {
+        "ele": "407",
+        "man_made": "monitoring_station",
+        "monitoring:weather": "yes",
+        "name": "Valleregia",
+        "operator": "ARPAL",
+        "recording:automated": "yes",
+        "recording:remote": "yes",
+        "ref": "VREGI",
+        "weather:ombrometer": "yes",
+        "weather:thermometer": "yes",
+        "website": "https://omirl.regione.liguria.it/",
+        "addr:city_extracted": "Serra Riccò"
+      },
+      "lat": 44.52038,
+      "lon": 8.94744
+    },
+    {
+      "type": "node",
+      "id": 6536818247,
+      "tags": {
+        "addr:city": "Serra Riccò",
+        "addr:housenumber": "5",
+        "addr:postcode": "16010",
+        "addr:street": "Piazza Santo Poggi",
+        "alt_name": "Croce Rossa - Serra Ricco' -",
+        "brand": "Croce Rossa Italiana",
+        "brand:wikidata": "Q913903",
+        "emergency": "ambulance_station",
+        "healthcare": "hospital",
+        "name": "Croce Rossa Italiana - Comitato di Serra Riccò",
+        "phone": "+39 010 751930",
+        "website": "https://www.criserraricco.it",
+        "addr:city_extracted": "Serra Riccò"
+      },
+      "lat": 44.5098269,
+      "lon": 8.9373131
+    },
+    {
+      "type": "node",
+      "id": 7729239078,
+      "tags": {
+        "name": "Pista da cross di Panigà",
+        "place": "locality",
+        "addr:city_extracted": "Serra Riccò"
+      },
+      "lat": 44.4961456,
+      "lon": 8.9487693
+    },
+    {
+      "type": "node",
+      "id": 11884223290,
+      "tags": {
+        "name": "Campi",
+        "place": "locality",
+        "addr:city_extracted": "Serra Riccò"
+      },
+      "lat": 44.5199538,
+      "lon": 8.9243731
+    },
+    {
+      "type": "node",
+      "id": 11884223291,
+      "tags": {
+        "name": "Case Banchieri",
+        "place": "isolated_dwelling",
+        "addr:city_extracted": "Serra Riccò"
+      },
+      "lat": 44.514919,
+      "lon": 8.9182263
+    },
+    {
+      "type": "node",
+      "id": 11884223292,
+      "tags": {
+        "name": "Case Pozzuoli",
+        "place": "hamlet",
+        "addr:city_extracted": "Serra Riccò"
+      },
+      "lat": 44.5139804,
+      "lon": 8.9255918
+    },
+    {
+      "type": "node",
+      "id": 11884223293,
+      "tags": {
+        "name": "Roncolin",
+        "place": "isolated_dwelling",
+        "addr:city_extracted": "Serra Riccò"
+      },
+      "lat": 44.5151985,
+      "lon": 8.931286
+    },
+    {
+      "type": "node",
+      "id": 11884223294,
+      "tags": {
+        "name": "Cantafico",
+        "place": "hamlet",
+        "addr:city_extracted": "Serra Riccò"
+      },
+      "lat": 44.5102041,
+      "lon": 8.9217197
+    },
+    {
+      "type": "node",
+      "id": 11884223295,
+      "tags": {
+        "name": "Favareto",
+        "place": "hamlet",
+        "wikidata": "Q108916612",
+        "addr:city_extracted": "Serra Riccò"
+      },
+      "lat": 44.5068235,
+      "lon": 8.9198121
+    },
+    {
+      "type": "node",
+      "id": 12783606285,
+      "tags": {
+        "addr:housenumber": "24d",
+        "addr:street": "Via Pernecco inferiore",
+        "amenity": "restaurant",
+        "cuisine": "barbecue;italian;pizza",
+        "name": "Al mulino di Fondo",
+        "short_name": "Al mulino",
+        "toilets:wheelchair": "yes",
+        "website": "https://almulinodifondo.it/",
+        "wheelchair": "yes",
+        "addr:city_extracted": "Serra Riccò"
+      },
+      "lat": 44.5071317,
+      "lon": 8.9442967
+    },
+    {
+      "type": "way",
+      "id": 10800554,
+      "tags": {
+        "highway": "motorway",
+        "int_ref": "E 62",
+        "lanes": "2",
+        "layer": "-1",
+        "length": "120",
+        "lit": "24/7",
+        "maxspeed": "80",
+        "name": "Galleria Balletto",
+        "oneway": "yes",
+        "operator": "Autostrade per l'Italia S.p.A.",
+        "ref": "A7",
+        "surface": "asphalt",
+        "toll": "yes",
+        "tunnel": "yes",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 10800557,
+      "tags": {
+        "highway": "motorway",
+        "int_ref": "E 62",
+        "lanes": "2",
+        "lit": "no",
+        "maxspeed": "80",
+        "name": "A7 dir. Genova - Busalla/Genova Bolzaneto",
+        "oneway": "yes",
+        "operator": "Autostrade per l'Italia S.p.A.",
+        "ref": "A7",
+        "surface": "asphalt",
+        "toll": "yes",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 10800569,
+      "tags": {
+        "highway": "motorway",
+        "int_ref": "E 62",
+        "lanes": "2",
+        "lit": "no",
+        "maxspeed": "110",
+        "name": "A7 dir. Milano - Genova Bolzaneto/Busalla",
+        "oneway": "yes",
+        "operator": "Autostrade per l'Italia S.p.A.",
+        "ref": "A7",
+        "surface": "asphalt",
+        "toll": "yes",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 10800570,
+      "tags": {
+        "highway": "motorway",
+        "int_ref": "E 62",
+        "lanes": "2",
+        "layer": "-1",
+        "length": "107",
+        "lit": "24/7",
+        "maxspeed": "110",
+        "name": "Galleria delle Piane",
+        "oneway": "yes",
+        "operator": "Autostrade per l'Italia S.p.A.",
+        "ref": "A7",
+        "surface": "asphalt",
+        "toll": "yes",
+        "tunnel": "yes",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 10800575,
+      "tags": {
+        "highway": "motorway",
+        "int_ref": "E 62",
+        "lanes": "2",
+        "layer": "-1",
+        "length": "221",
+        "lit": "24/7",
+        "maxspeed": "80",
+        "name": "Galleria delle Piane",
+        "oneway": "yes",
+        "operator": "Autostrade per l'Italia S.p.A.",
+        "ref": "A7",
+        "surface": "asphalt",
+        "toll": "yes",
+        "tunnel": "yes",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 10800576,
+      "tags": {
+        "highway": "motorway",
+        "int_ref": "E 62",
+        "lanes": "2",
+        "lit": "no",
+        "maxspeed": "80",
+        "name": "A7 dir. Genova - Busalla/Genova Bolzaneto",
+        "oneway": "yes",
+        "operator": "Autostrade per l'Italia S.p.A.",
+        "ref": "A7",
+        "surface": "asphalt",
+        "toll": "yes",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 10800593,
+      "tags": {
+        "highway": "motorway",
+        "int_ref": "E 62",
+        "lanes": "2",
+        "layer": "-1",
+        "length": "83",
+        "lit": "24/7",
+        "maxspeed": "80",
+        "name": "Galleria Fondega",
+        "oneway": "yes",
+        "operator": "Autostrade per l'Italia S.p.A.",
+        "ref": "A7",
+        "surface": "asphalt",
+        "toll": "yes",
+        "tunnel": "yes",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 10800597,
+      "tags": {
+        "highway": "motorway",
+        "int_ref": "E 62",
+        "lanes": "2",
+        "lit": "no",
+        "maxspeed": "80",
+        "name": "A7 dir. Genova - Busalla/Genova Bolzaneto",
+        "oneway": "yes",
+        "operator": "Autostrade per l'Italia S.p.A.",
+        "ref": "A7",
+        "surface": "asphalt",
+        "toll": "yes",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 12894388,
+      "tags": {
+        "boat": "no",
+        "name": "Torrente Riccò",
+        "short_name": "Riccò",
+        "waterway": "stream",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 12897276,
+      "tags": {
+        "boat": "no",
+        "name": "Torrente Secca",
+        "waterway": "stream",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 18002421,
+      "tags": {
+        "boat": "no",
+        "name": "Rio Pernecco",
+        "waterway": "stream",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 25011760,
+      "tags": {
+        "highway": "motorway",
+        "int_ref": "E 62",
+        "lanes": "2",
+        "lit": "no",
+        "maxspeed": "110",
+        "name": "A7 dir. Milano - Genova Bolzaneto/Busalla",
+        "oneway": "yes",
+        "operator": "Autostrade per l'Italia S.p.A.",
+        "ref": "A7",
+        "surface": "asphalt",
+        "toll": "yes",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 25011761,
+      "tags": {
+        "bridge": "yes",
+        "bridge:name": "Balletto",
+        "highway": "motorway",
+        "int_ref": "E 62",
+        "lanes": "2",
+        "layer": "1",
+        "lit": "no",
+        "maxspeed": "110",
+        "name": "A7 dir. Milano - Genova Bolzaneto/Busalla",
+        "oneway": "yes",
+        "operator": "Autostrade per l'Italia S.p.A.",
+        "ref": "A7",
+        "surface": "asphalt",
+        "toll": "yes",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 25215166,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Via Caffaro",
+        "oneway": "no",
+        "surface": "asphalt",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 25215167,
+      "tags": {
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Via Giovanni Caminata",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 25215168,
+      "tags": {
+        "highway": "residential",
+        "name": "Via Fontane Costa Favareto",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 25215302,
+      "tags": {
+        "bridge": "yes",
+        "highway": "residential",
+        "layer": "1",
+        "maxspeed": "30",
+        "maxweight": "8",
+        "name": "Via Giovanni Caminata",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 30917483,
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Via Serra",
+        "surface": "asphalt",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 38666239,
+      "tags": {
+        "bridge": "yes",
+        "highway": "motorway",
+        "int_ref": "E 62",
+        "lanes": "2",
+        "layer": "1",
+        "lit": "no",
+        "maxspeed": "110",
+        "name": "A7 dir. Milano - Genova Bolzaneto/Busalla",
+        "oneway": "yes",
+        "operator": "Autostrade per l'Italia S.p.A.",
+        "ref": "A7",
+        "surface": "asphalt",
+        "toll": "yes",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 38666240,
+      "tags": {
+        "highway": "motorway",
+        "int_ref": "E 62",
+        "lanes": "2",
+        "lit": "no",
+        "maxspeed": "110",
+        "name": "A7 dir. Milano - Genova Bolzaneto/Busalla",
+        "oneway": "yes",
+        "operator": "Autostrade per l'Italia S.p.A.",
+        "ref": "A7",
+        "surface": "asphalt",
+        "toll": "yes",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 38666243,
+      "tags": {
+        "highway": "motorway",
+        "int_ref": "E 62",
+        "lanes": "2",
+        "lit": "no",
+        "maxspeed": "80",
+        "name": "A7 dir. Genova - Busalla/Genova Bolzaneto",
+        "oneway": "yes",
+        "operator": "Autostrade per l'Italia S.p.A.",
+        "ref": "A7",
+        "surface": "asphalt",
+        "toll": "yes",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 46981496,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Via Luigi Pelissa",
+        "surface": "asphalt",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 46981498,
+      "tags": {
+        "highway": "residential",
+        "name": "Via Giovanni Caminata",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 73290730,
+      "tags": {
+        "bridge": "yes",
+        "highway": "unclassified",
+        "layer": "1",
+        "name": "Ponte della Pace",
+        "source": "PCN 2006 aerial",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 73290732,
+      "tags": {
+        "bridge": "yes",
+        "highway": "unclassified",
+        "layer": "1",
+        "name": "Via Pernecco Inferiore",
+        "oneway": "no",
+        "source": "PCN 2006 aerial",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 73290734,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Pernecco Inferiore",
+        "oneway": "no",
+        "source": "PCN 2006 aerial",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 73290736,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Pernecco Inferiore",
+        "oneway": "no",
+        "source": "PCN 2006 aerial",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 138159146,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Fratelli Canepa",
+        "oneway": "yes",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 138159150,
+      "tags": {
+        "highway": "residential",
+        "name": "Via Privata Giuseppe Carbone",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 138159151,
+      "tags": {
+        "highway": "residential",
+        "name": "Via T. Delle Piane",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 138159155,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Eugenio Divano",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 138164166,
+      "tags": {
+        "bridge": "yes",
+        "cycleway": "yes",
+        "highway": "secondary",
+        "lanes": "2",
+        "layer": "1",
+        "name": "Strada Provinciale Genova-Casella",
+        "ref": "SP70",
+        "surface": "asphalt",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 138338217,
+      "tags": {
+        "highway": "residential",
+        "name": "Via Medicina",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 138338227,
+      "tags": {
+        "highway": "unclassified",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Via Fico Ruemà",
+        "oneway": "no",
+        "surface": "asphalt",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 138348909,
+      "tags": {
+        "bridge": "yes",
+        "highway": "unclassified",
+        "layer": "1",
+        "name": "Ponte Battaglione Alpini Pieve di Teco",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 140065195,
+      "tags": {
+        "name": "Morigallo – Busalla",
+        "power": "line",
+        "ref": "23.876",
+        "voltage": "132000",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 182256186,
+      "tags": {
+        "highway": "unclassified",
+        "layer": "-1",
+        "maxheight": "2.5",
+        "maxspeed": "20",
+        "name": "Via Giovanni Caminata",
+        "tunnel": "yes",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 182256188,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Giovanni Caminata",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 182256272,
+      "tags": {
+        "access": "private",
+        "highway": "path",
+        "name": "Via A. Ferrando",
+        "surface": "ground",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 203853705,
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Via Valleregia",
+        "surface": "asphalt",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 203855526,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Besasco Corte",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 203856717,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Noli",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204216863,
+      "tags": {
+        "amenity": "police",
+        "building": "yes",
+        "name": "Carabinieri",
+        "operator": "Arma dei Carabinieri",
+        "operator:short": "Carabinieri",
+        "operator:wikidata": "Q54852",
+        "source": "Regione Liguria",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204218469,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "church",
+        "denomination": "catholic",
+        "name": "Chiesa della Santissima Annunziata",
+        "religion": "christian",
+        "source": "Regione Liguria",
+        "wikidata": "Q3669185",
+        "wikipedia": "it:Chiesa della Santissima Annunziata (Serra Riccò)",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204219185,
+      "tags": {
+        "addr:city": "Serra Riccò",
+        "addr:postcode": "16010",
+        "addr:street": "Via Caffaro",
+        "building": "yes",
+        "denomination": "catholic",
+        "description": "Località Croce di Vie",
+        "ele": "380",
+        "name": "San Giovanni Battista",
+        "religion": "christian",
+        "source": "Regione Liguria",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204221388,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "roman_catholic",
+        "name": "Cappella di San Michele di Castrofino",
+        "religion": "christian",
+        "wikidata": "Q3657611",
+        "wikipedia": "it:Cappella di San Michele di Castrofino",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204230810,
+      "tags": {
+        "building": "retail",
+        "name": "Carrefour",
+        "source": "Regione Liguria",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204231849,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "church",
+        "denomination": "catholic",
+        "name": "Santuario di San Rocco",
+        "religion": "christian",
+        "source": "Regione Liguria",
+        "wikidata": "Q3950031",
+        "wikipedia": "it:Santuario di San Rocco (Serra Riccò)",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204234200,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "church",
+        "denomination": "catholic",
+        "name": "Chiesa della Natività di Maria Santissima",
+        "religion": "christian",
+        "source": "Regione Liguria",
+        "wikidata": "Q3669102",
+        "wikipedia": "it:Chiesa della Natività di Maria Santissima (Serra Riccò)",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 251916008,
+      "tags": {
+        "bicycle": "no",
+        "bridge": "yes",
+        "highway": "pedestrian",
+        "horse": "no",
+        "layer": "1",
+        "motor_vehicle": "no",
+        "name": "Passerella",
+        "surface": "asphalt",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 251916011,
+      "tags": {
+        "bicycle": "no",
+        "highway": "pedestrian",
+        "horse": "no",
+        "motor_vehicle": "no",
+        "name": "Passerella",
+        "surface": "asphalt",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 268096408,
+      "tags": {
+        "highway": "residential",
+        "name": "Via Rivo Rocca Chiesa",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 268096412,
+      "tags": {
+        "highway": "residential",
+        "name": "Via Ronco",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 268096414,
+      "tags": {
+        "highway": "residential",
+        "name": "Via F. Pedemonte",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 268096415,
+      "tags": {
+        "highway": "residential",
+        "name": "Via Angelo Pelissa",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 272090780,
+      "tags": {
+        "cycleway": "yes",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Via Cavalier Agostino Pedemonte",
+        "surface": "asphalt",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 307379547,
+      "tags": {
+        "cycleway": "yes",
+        "fixme": "Carreggiata strada franata, alluvione 11/10/2014",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Via Eugenio Ghighlino",
+        "ref": "SP70",
+        "surface": "asphalt",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 307379548,
+      "tags": {
+        "cycleway": "yes",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Via Antonio Medicina",
+        "nat_name": "Strada Provinciale Genova-Casella",
+        "oneway": "no",
+        "ref": "SP70",
+        "surface": "asphalt",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 344457801,
+      "tags": {
+        "highway": "residential",
+        "name": "Via Giuseppe Bonifacini",
+        "surface": "asphalt",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 344457814,
+      "tags": {
+        "bridge": "yes",
+        "highway": "motorway",
+        "int_ref": "E 62",
+        "lanes": "2",
+        "layer": "1",
+        "lit": "no",
+        "maxspeed": "80",
+        "name": "A7 dir. Genova - Busalla/Genova Bolzaneto",
+        "oneway": "yes",
+        "operator": "Autostrade per l'Italia S.p.A.",
+        "ref": "A7",
+        "surface": "asphalt",
+        "toll": "yes",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 344457820,
+      "tags": {
+        "highway": "motorway",
+        "int_ref": "E 62",
+        "lanes": "2",
+        "lit": "no",
+        "maxspeed": "80",
+        "name": "A7 dir. Genova - Busalla/Genova Bolzaneto",
+        "oneway": "yes",
+        "operator": "Autostrade per l'Italia S.p.A.",
+        "ref": "A7",
+        "surface": "asphalt",
+        "toll": "yes",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 344457829,
+      "tags": {
+        "highway": "motorway",
+        "int_ref": "E 62",
+        "lanes": "2",
+        "lit": "no",
+        "maxspeed": "110",
+        "name": "A7 dir. Milano - Genova Bolzaneto/Busalla",
+        "oneway": "yes",
+        "operator": "Autostrade per l'Italia S.p.A.",
+        "ref": "A7",
+        "surface": "asphalt",
+        "toll": "yes",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 350809403,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Andrea Parodi",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 350809404,
+      "tags": {
+        "highway": "residential",
+        "name": "Via Tommaso Cassissa",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 363721718,
+      "tags": {
+        "highway": "service",
+        "name": "Via Pernecco Superiore",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 397491110,
+      "tags": {
+        "highway": "residential",
+        "name": "Salita Napoli",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 397491402,
+      "tags": {
+        "highway": "residential",
+        "name": "Salita Napoli",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 397491405,
+      "tags": {
+        "highway": "residential",
+        "name": "Salita Napoli",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 397491408,
+      "tags": {
+        "highway": "residential",
+        "name": "Salita Napoli",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 397681186,
+      "tags": {
+        "highway": "path",
+        "layer": "1",
+        "name": "Sentiero Pedemonte-Ciaé",
+        "sac_scale": "mountain_hiking",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 447017508,
+      "tags": {
+        "boundary": "protected_area",
+        "name": "Rio Ciaè",
+        "protect_class": "97",
+        "ref": "IT1330893",
+        "ref:inspire": "IT.RLIG.SIC-IT1330893",
+        "wikidata": "Q55317022",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 485667113,
+      "tags": {
+        "highway": "service",
+        "name": "Via Fico Ruemà",
+        "oneway": "no",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 603984087,
+      "tags": {
+        "highway": "residential",
+        "name": "Via Porcile",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 603984088,
+      "tags": {
+        "highway": "residential",
+        "name": "Piazza Santo Poggi",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 603984089,
+      "tags": {
+        "highway": "residential",
+        "name": "Via Liquara",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 603984093,
+      "tags": {
+        "cycleway:both": "no",
+        "highway": "tertiary",
+        "lanes": "2",
+        "lit": "no",
+        "maxspeed": "40",
+        "name": "Via Angelo Pelissa",
+        "surface": "asphalt",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 603984094,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Via Valleregia",
+        "surface": "asphalt",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 603984097,
+      "tags": {
+        "cycleway": "yes",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Via Eugenio Ghighlino",
+        "nat_name": "Strada Provinciale Genova-Casella",
+        "oneway": "no",
+        "ref": "SP70",
+        "surface": "asphalt",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 603984099,
+      "tags": {
+        "cycleway": "yes",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Via Fratelli Canepa",
+        "nat_name": "Strada Provinciale Genova-Casella",
+        "oneway": "no",
+        "ref": "SP70",
+        "surface": "asphalt",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 606240445,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Fratelli Canepa",
+        "oneway": "no",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 606240449,
+      "tags": {
+        "contact:phone": "+39 010 7548008",
+        "leisure": "sports_centre",
+        "name": "Sporting Club Serra Riccò",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 606240453,
+      "tags": {
+        "highway": "unclassified",
+        "lanes": "2",
+        "maxspeed": "10",
+        "name": "Via Valle",
+        "oneway": "no",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 606386569,
+      "tags": {
+        "highway": "unclassified",
+        "lanes": "2",
+        "name": "Via Valle",
+        "oneway": "no",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 607278136,
+      "tags": {
+        "highway": "service",
+        "name": "Via Pernecco Superiore",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 607278137,
+      "tags": {
+        "highway": "service",
+        "name": "Via Pernecco Superiore",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 657158693,
+      "tags": {
+        "bridge": "yes",
+        "highway": "residential",
+        "layer": "1",
+        "name": "Via Campi",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 657158695,
+      "tags": {
+        "highway": "residential",
+        "name": "Via Campi",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 657158697,
+      "tags": {
+        "highway": "residential",
+        "name": "Via Campi",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 674966792,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Piazza Padre Luigi Risso",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 674966793,
+      "tags": {
+        "highway": "service",
+        "name": "Via Chiesa Cassina",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 674966794,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Via San Martino",
+        "surface": "asphalt",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 681842982,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via al Boschetto",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 681842983,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Giuseppe Cassissa",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 681866797,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Privata Don Mario Bordo",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 681866798,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Giuseppe Meirana",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 681866799,
+      "tags": {
+        "name": "Piazza Santo Poggi",
+        "place": "square",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 682454847,
+      "tags": {
+        "highway": "residential",
+        "name": "Via Rivo Rocca Corte",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 703929777,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Campo Poggio",
+        "source": "PCN 2006 aerial",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 957093845,
+      "tags": {
+        "amenity": "parking",
+        "name": "Piazza XXV Aprile",
+        "parking": "surface",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 957094851,
+      "tags": {
+        "highway": "residential",
+        "lanes": "1",
+        "maxspeed": "30",
+        "name": "Via Chiappella",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 973592190,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Giuseppe Cassissa",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1012056110,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Via Caffaro",
+        "oneway": "no",
+        "surface": "asphalt",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1012056111,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Via Caffaro",
+        "oneway": "no",
+        "surface": "asphalt",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1012056115,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Via Caffaro",
+        "oneway": "no",
+        "surface": "asphalt",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1012056116,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Via Caffaro",
+        "oneway": "no",
+        "surface": "asphalt",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1012056511,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Via Bellavista",
+        "surface": "asphalt",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1090234561,
+      "tags": {
+        "industrial": "warehouse",
+        "landuse": "industrial",
+        "name": "Due Esse",
+        "website": "https://www.duesse.eu",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1103390607,
+      "tags": {
+        "name": "Morigallo – Busalla",
+        "power": "line",
+        "ref": "23.876",
+        "voltage": "132000",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1103390608,
+      "tags": {
+        "name": "Morigallo – Busalla",
+        "power": "line",
+        "ref": "23.876",
+        "voltage": "132000",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1200874043,
+      "tags": {
+        "highway": "service",
+        "name": "Via Pernecco Superiore",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1200891694,
+      "tags": {
+        "highway": "residential",
+        "name": "Via F. Pedemonte",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1200891695,
+      "tags": {
+        "highway": "residential",
+        "name": "Via F. Pedemonte",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1200891707,
+      "tags": {
+        "name": "Piazza XXV Aprile",
+        "place": "square",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1228521205,
+      "tags": {
+        "landuse": "industrial",
+        "name": "Timossi SRL",
+        "note": "https://www.timossi.it",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1380839260,
+      "tags": {
+        "bridge": "yes",
+        "highway": "unclassified",
+        "layer": "1",
+        "name": "Via Pernecco Inferiore",
+        "oneway": "no",
+        "source": "PCN 2006 aerial",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1380839261,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Pernecco Inferiore",
+        "oneway": "no",
+        "source": "PCN 2006 aerial",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1393881719,
+      "tags": {
+        "cycleway:both": "no",
+        "highway": "tertiary",
+        "lanes": "2",
+        "lit": "no",
+        "maxspeed": "40",
+        "name": "Via Serra",
+        "surface": "asphalt",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1453677099,
+      "tags": {
+        "cycleway": "yes",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Via Eugenio Ghighlino",
+        "nat_name": "Strada Provinciale Genova-Casella",
+        "oneway": "no",
+        "ref": "SP70",
+        "surface": "asphalt",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 43212,
+      "tags": {
+        "admin_level": "8",
+        "boundary": "administrative",
+        "gfoss_id": "1312",
+        "name": "Sant'Olcese",
+        "population": "5604",
+        "population:date": "2026-08-28",
+        "ref:catasto": "I346",
+        "ref:ISTAT": "010055",
+        "source:population": "ANPR 2026",
+        "type": "boundary",
+        "wikidata": "Q265539",
+        "wikipedia": "it:Sant'Olcese",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 43251,
+      "tags": {
+        "admin_level": "8",
+        "boundary": "administrative",
+        "gfoss_id": "1315",
+        "name": "Serra Riccò",
+        "population": "7603",
+        "population:date": "2026-08-28",
+        "ref:catasto": "I640",
+        "ref:ISTAT": "010058",
+        "source": "geodati.gfoss.it",
+        "source:population": "ANPR 2026",
+        "type": "boundary",
+        "wikidata": "Q265528",
+        "wikipedia": "it:Serra Riccò",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 43257,
+      "tags": {
+        "admin_level": "8",
+        "boundary": "administrative",
+        "gfoss_id": "1292",
+        "name": "Mignanego",
+        "name:ru": "Миньянего",
+        "population": "3532",
+        "population:date": "2026-08-27",
+        "ref:catasto": "F202",
+        "ref:ISTAT": "010035",
+        "type": "boundary",
+        "wikidata": "Q265514",
+        "wikipedia": "it:Mignanego",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 373883,
+      "tags": {
+        "name": "Autostrada dei Giovi - Serravalle",
+        "network": "IT:A-road",
+        "operator": "Milano Serravalle - Autostrade per l'Italia",
+        "ref": "A7",
+        "route": "road",
+        "type": "route",
+        "wikidata": "Q430025",
+        "wikipedia": "it:Autostrada A7 (Italia)",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 2440683,
+      "tags": {
+        "name": "Strada Provinciale di Crocetta d'Orero",
+        "ref": "SP3",
+        "route": "road",
+        "type": "route",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 3529513,
+      "tags": {
+        "distance": "1270",
+        "from": "Nantes",
+        "name": "European route E62",
+        "name:en": "European route E62",
+        "name:fr": "Route européenne E62",
+        "name:it": "Strada europea E62",
+        "name:nl": "Europese route E62",
+        "name:sk": "Európska cesta E62",
+        "network": "e-road",
+        "operator": "United Nations Economic Commission for Europe",
+        "operator:short": "UNECE",
+        "operator:type": "public",
+        "operator:wikidata": "Q659012",
+        "ref": "E 62",
+        "route": "road",
+        "to": "Genova",
+        "type": "superroute",
+        "wikidata": "Q665254",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 6088003,
+      "tags": {
+        "from": "Genua, Piazza della Vittoria",
+        "name": "Flixbus 481: Genua, Piazza della Vittoria => Venezia, Tronchetto",
+        "name:de": "Flixbus 481: Genua, Piazza della Vittoria => Venedig, Tronchetto",
+        "name:it": "Flixbus 481: Genova, Piazza della Vittoria => Venezia, Tronchetto",
+        "network": "Flixbus",
+        "network:website": "https://www.flixbus.it/",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "note": "Linie wurde eingestellt",
+        "note:en": "Not available anymore",
+        "operator": "Flixbus",
+        "public_transport:version": "2",
+        "ref": "481",
+        "route": "bus",
+        "to": "Venezia, Tronchetto",
+        "type": "route",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 6387586,
+      "tags": {
+        "from": "Bolzano",
+        "name": "Flixbus 494: Bolzano => Cannes, Le Cannet",
+        "name:de": "Flixbus 494: Bozen => Cannes, Le Cannet",
+        "name:fr": "Flixbus 494: Bolzano => Cannes, Le Cannet",
+        "name:it": "Flixbus 494: Bolzano => Cannes, Le Cannet",
+        "network": "Flixbus",
+        "network:website": "https://global.flixbus.com/",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "operator": "Flixbus",
+        "public_transport:version": "2",
+        "ref": "494",
+        "route": "bus",
+        "to": "Cannes, Le Cannet",
+        "type": "route",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 9039031,
+      "tags": {
+        "from": "Venezia, Tronchetto",
+        "name": "Flixbus 481: Venezia, Tronchetto => Genua, Piazza della Vittoria",
+        "name:de": "Flixbus 481: Venedig, Tronchetto => Genua, Piazza della Vittoria",
+        "name:it": "Flixbus 481: Venezia, Tronchetto => Genua, Piazza della Vittoria",
+        "network": "Flixbus",
+        "network:website": "https://www.flixbus.it/",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "note": "Linie wurde eingestellt",
+        "note:en": "Not available anymore",
+        "operator": "Flixbus",
+        "public_transport:version": "2",
+        "ref": "481",
+        "route": "bus",
+        "to": "Genua, Piazza della Vittoria",
+        "type": "route",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 9039038,
+      "tags": {
+        "from": "Genua, Piazza della Vittoria",
+        "name": "Flixbus 481: Genua <=> Venezia",
+        "name:de": "Flixbus 481: Genua <=> Venedig",
+        "name:it": "Flixbus 481: Genua <=> Venezia",
+        "network": "Flixbus",
+        "network:website": "https://www.flixbus.it/",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "note": "Linie wurde eingestellt",
+        "note:en": "Not available anymore",
+        "operator": "Flixbus",
+        "ref": "481",
+        "route_master": "bus",
+        "to": "Venezia, Tronchetto",
+        "type": "route_master",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 9214646,
+      "tags": {
+        "from": "Cannes, Le Cannet",
+        "name": "Flixbus 494: Cannes, Le Cannet => Bolzano",
+        "name:de": "Flixbus 494: Cannes, Le Cannet => Bozen",
+        "name:fr": "Flixbus 494: Cannes, Le Cannet => Bolzano",
+        "name:it": "Flixbus 494: Cannes, Le Cannet => Bolzano",
+        "network": "Flixbus",
+        "network:website": "https://global.flixbus.com/",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "operator": "Flixbus",
+        "public_transport:version": "2",
+        "ref": "494",
+        "route": "bus",
+        "to": "Bolzano",
+        "type": "route",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 9214647,
+      "tags": {
+        "from": "Bolzano",
+        "name": "Flixbus 494: Bolzano => Cannes und zurück",
+        "name:de": "Flixbus 494: Bozen => Cannes und zurück",
+        "name:fr": "Flixbus 494: Bolzano => Cannes et retour",
+        "name:it": "Flixbus 494: Bolzano => Cannes e ritorno",
+        "network": "Flixbus",
+        "network:website": "https://global.flixbus.com/",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "operator": "Flixbus",
+        "ref": "494",
+        "route_master": "bus",
+        "to": "Cannes, Le Cannet",
+        "type": "route_master",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 9214772,
+      "tags": {
+        "from": "Bolzano",
+        "name": "Flixbus 408: Bolzano => Genova, Fanti d'Italia/Principe",
+        "name:de": "Flixbus 408: Bozen => Genua, Fanti d'Italia/Principe",
+        "name:it": "Flixbus 408: Bolzano => Genova, Fanti d'Italia/Principe",
+        "network": "Flixbus",
+        "network:website": "https://www.flixbus.it/",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "operator": "Morandi Tour",
+        "public_transport:version": "2",
+        "ref": "408",
+        "route": "bus",
+        "to": "Genova, Fanti d'Italia/Principe",
+        "type": "route",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 9214827,
+      "tags": {
+        "from": "Genova, Fanti d'Italia/Principe",
+        "name": "Flixbus 408: Genova, Fanti d'Italia/Principe => Bolzano",
+        "name:de": "Flixbus 408: Genua, Fanti d'Italia/Principe => Bozen",
+        "name:it": "Flixbus 408: Genova, Fanti d'Italia/Principe => Bolzano",
+        "network": "Flixbus",
+        "network:website": "https://www.flixbus.it/",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "operator": "Morandi Tour",
+        "public_transport:version": "2",
+        "ref": "408",
+        "route": "bus",
+        "to": "Bolzano",
+        "type": "route",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 9214828,
+      "tags": {
+        "from": "Bolzano",
+        "name": "Flixbus 408: Bolzano <=> Genova",
+        "name:de": "Flixbus 408: Bozen <=> Genua",
+        "name:it": "Flixbus 408: Bolzano <=> Genova",
+        "network": "Flixbus",
+        "network:website": "https://www.flixbus.it/",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "operator": "Morandi Tour",
+        "ref": "408",
+        "route_master": "bus",
+        "to": "Genua, Fanti d'Italia/Principe",
+        "type": "route_master",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 9369542,
+      "tags": {
+        "from": "Nice, Aéroport Terminal 2",
+        "name": "Flixbus N507: Nice, Aéroport Terminal 2 => Stuttgart Airport Busterminal (SAB)",
+        "name:fr": "Flixbus N507: Nice, Aéroport Terminal 2 => Terminal de bus de l'aéroport de Stuttgart (SAB)",
+        "name:it": "Flixbus N507: Nizza, Aeroporto Terminal 2 => terminal degli autobus per l'aeroporto di Stoccarda (SAB)",
+        "network": "Flixbus",
+        "network:website": "https://global.flixbus.com/",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "note": "Tübingen: Detour via 'Hegelstraße' because of construction on 'Friedrichstraße'.",
+        "note:de": "Buslinie wurde eingestellt",
+        "note:en": "Not available anymore",
+        "operator": "Dibiasi Bus",
+        "public_transport:version": "2",
+        "ref": "N507",
+        "route": "bus",
+        "to": "Stuttgart Airport Busterminal (SAB)",
+        "type": "route",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 9369543,
+      "tags": {
+        "disused": "yes",
+        "from": "Stuttgart Airport Busterminal (SAB)",
+        "name": "Flixbus N507: Stuttgart Airport Busterminal (SAB) → Nice, Aéroport Terminal 2",
+        "name:de": "Flixbus N507: Stuttgart Airport Busterminal (SAB) => Nizza, Flughafen Terminal 2",
+        "name:fr": "Flixbus N507: Terminal de bus de l'aéroport de Stuttgart (SAB) => Nice, Aéroport Terminal 2",
+        "name:it": "Flixbus N507: terminal degli autobus per l'aeroporto di Stoccarda (SAB) => Nizza, Aeroporto Terminal 2",
+        "network": "Flixbus",
+        "network:website": "https://global.flixbus.com/",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "note": "Tübingen: Detour via 'Hegelstraße' because of construction on 'Friedrichstraße'.",
+        "note:de": "Buslinie wurde eingestellt",
+        "note:en": "Not available anymore",
+        "operator": "Dibiasi Bus",
+        "public_transport:version": "2",
+        "ref": "N507",
+        "route_master": "bus",
+        "to": "Nice, Aéroport Terminal 2",
+        "type": "route_master",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 9369548,
+      "tags": {
+        "from": "Stuttgart Airport Busterminal (SAB)",
+        "name": "Flixbus N507: Stuttgart <=> Nice",
+        "name:de": "Flixbus N507: Stuttgart <=> Nizza",
+        "name:fr": "Flixbus N507: Stuttgart <=> Nice",
+        "name:it": "Flixbus N507: Stoccarda <=> Nizza",
+        "network": "Flixbus",
+        "network:website": "https://global.flixbus.com/",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "note": "Linie wurde eingestellt",
+        "note:en": "Not available anymore",
+        "operator": "Dibiasi Bus",
+        "ref": "N507",
+        "route_master": "bus",
+        "to": "Nice, Aéroport Terminal 2",
+        "type": "route_master",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 9381490,
+      "tags": {
+        "from": "Marseille, Gare Saint-Charles",
+        "name": "Flixbus 798: Marseille, Gare Saint-Charles => Milano, Lampugnano",
+        "name:de": "Flixbus 798: Marseille, Bahnhof Saint-Charles => Mailand, Lampugnano",
+        "name:fr": "Flixbus 798: Marseille, Gare Saint-Charles => Milan, Lampugnano",
+        "name:it": "Flixbus 798: Marsiglia, Stazione San Carlo => Milano, Lampugnano",
+        "network": "Flixbus",
+        "network:website": "https://global.flixbus.com/",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "operator": "Flixbus",
+        "public_transport:version": "2",
+        "ref": "798",
+        "route": "bus",
+        "to": "Milano, Lampugnano",
+        "type": "route",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 9381491,
+      "tags": {
+        "from": "Milano, Lampugnano",
+        "name": "Flixbus 798: Milano, Lampugnano => Marseille, Gare Saint-Charles",
+        "name:de": "Flixbus 798: Mailand, Lampugnano => Marseille, Bahnhof Saint-Charles",
+        "name:fr": "Flixbus 798: Milan, Lampugnano => Marseille, Gare Saint-Charles",
+        "name:it": "Flixbus 798: Milano, Lampugnano => Marsiglia, Stazione San Carlo",
+        "network": "Flixbus",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "operator": "Flixbus",
+        "public_transport:version": "2",
+        "ref": "798",
+        "route": "bus",
+        "to": "Marseille, Gare Saint-Charles",
+        "type": "route",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 9381492,
+      "tags": {
+        "from": "Milano, Lampugnano",
+        "name": "Flixbus 798: Milano <=> Marseille",
+        "name:de": "Flixbus 798: Mailand <=> Marseille",
+        "name:fr": "Flixbus 798: Milan <=> Marseille",
+        "name:it": "Flixbus 798: Milano <=> Marsiglia",
+        "network": "Flixbus",
+        "network:website": "https://global.flixbus.com/",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "operator": "Flixbus",
+        "ref": "798",
+        "route_master": "bus",
+        "to": "Marseille, Gare Saint-Charles",
+        "type": "route_master",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 9716793,
+      "tags": {
+        "from": "Cannes, Le Cannet",
+        "name": "Flixbus 492: Cannes, Le Cannet => München, ZOB",
+        "name:de": "Flixbus 492: Cannes, Le Cannet => München, ZOB",
+        "name:fr": "Flixbus 492: Cannes, Le Cannet => Munich, gare routière centrale",
+        "name:it": "Flixbus 492: Cannes, Le Cannet => Monaco di Baviera, Autostazione centrale",
+        "network": "Flixbus",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "operator": "Gruppo STAT Turismo",
+        "public_transport:version": "2",
+        "ref": "492",
+        "route": "bus",
+        "to": "München, ZOB",
+        "type": "route",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 9716794,
+      "tags": {
+        "description": "Start, end, and stop locations have not been verified. This route may be out of service long-term and may not match the actual route (2026)",
+        "from": "München, ZOB",
+        "name": "Flixbus 492: München, ZOB => Cannes, Le Cannet",
+        "name:de": "Flixbus 492: München, ZOB => Cannes, Le Cannet",
+        "name:fr": "Flixbus 492: Munich, gare routière centrale => Cannes, Le Cannet",
+        "name:it": "Flixbus 492: Monaco di Baviera, Autostazione centrale => Cannes, Le Cannet",
+        "network": "Flixbus",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "operator": "Gruppo STAT Turismo",
+        "public_transport:version": "2",
+        "ref": "492",
+        "route": "bus",
+        "to": "Cannes, Le Cannet",
+        "type": "route",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 9716795,
+      "tags": {
+        "from": "München ZOB",
+        "name": "Flixbus 492: München <=> Cannes",
+        "name:de": "Flixbus 492: München <=> Cannes",
+        "name:fr": "Flixbus 492: Munich <=> Cannes",
+        "name:it": "Flixbus 492: Monaco di Baviera <=> Cannes",
+        "network": "Flixbus",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "operator": "Gruppo STAT Turismo",
+        "ref": "492",
+        "route_master": "bus",
+        "to": "Cannes, Le Cannet",
+        "type": "route_master",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 9716909,
+      "tags": {
+        "from": "Bolzano",
+        "name": "Flixbus N494: Bolzano => Cannes, Le Cannet",
+        "name:de": "Flixbus N494: Bozen => Cannes, Le Cannet",
+        "name:fr": "Flixbus N494: Bolzano => Cannes, Le Cannet",
+        "name:it": "Flixbus N494: Bolzano => Cannes, Le Cannet",
+        "network": "Flixbus",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "operator": "Flixbus",
+        "public_transport:version": "2",
+        "ref": "N494",
+        "route": "bus",
+        "to": "Cannes, Le Cannet",
+        "type": "route",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 9716910,
+      "tags": {
+        "from": "Cannes, Le Cannet",
+        "name": "Flixbus N494: Cannes, Le Cannet => Bolzano",
+        "name:de": "Flixbus N494: Cannes, Le Cannet => Bozen",
+        "name:fr": "Flixbus N494: Cannes, Le Cannet => Bolzano",
+        "name:it": "Flixbus N494: Cannes, Le Cannet => Bolzano",
+        "network": "Flixbus",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "operator": "Flixbus",
+        "public_transport:version": "2",
+        "ref": "N494",
+        "route": "bus",
+        "to": "Bolzano",
+        "type": "route",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 9716911,
+      "tags": {
+        "from": "Bolzano",
+        "name": "Flixbus N494: Bolzano => Cannes",
+        "name:de": "Flixbus N494: Bozen => Cannes",
+        "name:fr": "Flixbus N494: Bolzano => Cannes",
+        "name:it": "Flixbus N494: Bolzano => Cannes",
+        "network": "Flixbus",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "operator": "Flixbus",
+        "ref": "N494",
+        "route_master": "bus",
+        "to": "Cannes, Le Cannet",
+        "type": "route_master",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 9850347,
+      "tags": {
+        "from": "Barcelona Nord, Estació d'autobusos",
+        "name": "Flixbus N728: Barcelona Nord, Estació d'autobusos => München, ZOB",
+        "name:ca": "Flixbus N728: Barcelona Nord, estació d'autobusos => Munic, estació central d'autobusos",
+        "name:de": "Flixbus N728: Barcelona Nord, Estació d'autobusos => München, ZOB",
+        "name:es": "Flixbus N728: Barcelona Nord, Estació d'autobusos => Munich, estación central de autobuses",
+        "name:fr": "Flixbus N728: Barcelona Nord, Estació d'autobusos => Munich, gare routière centrale",
+        "name:it": "Flixbus N728: Barcellona Nord, Estació d'autobusos => Monaco, stazione centrale degli autobus",
+        "network": "Flixbus",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "operator": "Gruppo STAT Turismo",
+        "public_transport:version": "2",
+        "ref": "N728",
+        "route": "bus",
+        "to": "München, ZOB",
+        "type": "route",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 9850348,
+      "tags": {
+        "from": "München, ZOB",
+        "name": "Flixbus N728: München, ZOB → Barcelona Nord, Estació d'autobusos",
+        "name:ca": "Flixbus N728: Munic, estació central d'autobusos => Barcelona Nord, estació d'autobusos",
+        "name:de": "Flixbus N728: München, ZOB => Barcelona Nord, Estació d'autobusos",
+        "name:es": "Flixbus N728: Munich, estación central de autobuses => Barcelona Nord, Estació d'autobusos",
+        "name:fr": "Flixbus N728: Munich, gare routière centrale => Barcelona Nord, Estació d'autobusos",
+        "name:it": "Flixbus N728: Monaco, stazione centrale degli autobus => Barcellona Nord, Estació d'autobusos",
+        "network": "Flixbus",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "operator": "Gruppo STAT Turismo",
+        "public_transport:version": "2",
+        "ref": "N728",
+        "route_master": "bus",
+        "to": "Barcelona Nord, Estació d'autobusos",
+        "type": "route_master",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 9850349,
+      "tags": {
+        "from": "München, ZOB",
+        "name": "Flixbus N728: Munich <=> Barcelone",
+        "name:ca": "Flixbus N728: Munich <=> Barcelona",
+        "name:de": "Flixbus N728: München <=> Barcelona",
+        "name:es": "Flixbus N728: Munich <=> Barcelona",
+        "name:fr": "Flixbus N728: Munich <=> Barcelone",
+        "name:it": "Flixbus N728: Monaco di Baviera<=> Barcellona",
+        "network": "Flixbus",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "operator": "Gruppo STAT Turismo",
+        "ref": "N728",
+        "route_master": "bus",
+        "to": "Barcelona Nord, Estació d'autobusos",
+        "type": "route_master",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 9881564,
+      "tags": {
+        "from": "Savona, Piazza, Aldo Moro",
+        "name": "Flixbus 495: Savona, Piazza, Aldo Moro => Zürich HB, Carpark Sihlquai",
+        "name:it": "Flixbus 495: Savona, Piazza, Aldo Moro => Stazione centrale di Zurigo, parcheggio Sihlquai",
+        "network": "Flixbus",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "operator": "Flixbus",
+        "public_transport:version": "2",
+        "ref": "495",
+        "route": "bus",
+        "to": "Zürich HB, Carpark Sihlquai",
+        "type": "route",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 9881565,
+      "tags": {
+        "from": "Zürich HB, Carpark Sihlquai",
+        "name": "Flixbus 495: Zürich HB, Carpark Sihlquai => Savona, Piazza Aldo Moro",
+        "name:de": "Flixbus 495: Zürich HB, Carpark Sihlquai => Savona, Piazza Aldo Moro",
+        "name:it": "Flixbus 495: stazione centrale di Zurigo, parcheggio Sihlquai => Savona, Piazza Aldo Moro",
+        "network": "Flixbus",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "operator": "Flixbus",
+        "public_transport:version": "2",
+        "ref": "495",
+        "route": "bus",
+        "to": "Savona, Piazza Aldo Moro",
+        "type": "route",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 9881566,
+      "tags": {
+        "from": "Zürich HB, Carpark Sihlquai",
+        "name": "Flixbus 495: Zürich <=> Savona",
+        "name:de": "Flixbus 495: Zürich <=> Savona",
+        "name:it": "Flixbus 495: Zurigo <=> Savona",
+        "network": "Flixbus",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "operator": "Flixbus",
+        "ref": "495",
+        "route_master": "bus",
+        "to": "Savona, Piazza Aldo Moro",
+        "type": "route_master",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 9881636,
+      "tags": {
+        "from": "Genova, Fanti d'Italia / Principe",
+        "name": "Flixbus 474: Genova, Fanti d'Italia/Principe => Lugano, Via Ciani",
+        "name:de": "Flixbus 474: Genua, Fanti d'Italia/Principe => Lugano, Via Ciani",
+        "name:en": "Flixbus 474: Genoa, Fanti d'Italia/Principe => Lugano, Via Ciani",
+        "name:it": "Flixbus 474: Genova, Fanti d'Italia/Principe => Stazione centrale di Zurigo, parcheggio Sihlquai",
+        "network": "Flixbus",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "operator": "Flixbus",
+        "public_transport:version": "2",
+        "ref": "474",
+        "route": "bus",
+        "to": "Lugano, Via Ciani",
+        "type": "route",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 9881637,
+      "tags": {
+        "from": "Lugano, Via Ciani",
+        "name": "Flixbus 474: Lugano, Via Ciani => Genova, Fanti d'Italia / Principe",
+        "name:de": "Flixbus 474: Lugano, Via Ciani => Genua, Fanti d'Italia/Principe",
+        "name:en": "Flixbus 474: Lugano, Via Ciani => Genoa, Fanti d'Italia/Principe",
+        "name:it": "Flixbus 474: Lugano, Via Ciani => Genova, Fanti d'Italia / Principe",
+        "network": "Flixbus",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "operator": "Flixbus",
+        "public_transport:version": "2",
+        "ref": "474",
+        "route": "bus",
+        "to": "Genova, Fanti d'Italia / Principe",
+        "type": "route",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 9881638,
+      "tags": {
+        "from": "Lugano, Via Ciani",
+        "name": "Flixbus 474: Lugano <=> Genova",
+        "name:de": "Flixbus 474: Lugano <=> Genua",
+        "name:it": "Flixbus 474: Lugano <=> Genova",
+        "network": "Flixbus",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "operator": "Flixbus",
+        "ref": "474",
+        "route_master": "bus",
+        "to": "Genova, Fanti d'Italia / Principe",
+        "type": "route_master",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 9907294,
+      "tags": {
+        "from": "Savona, Piazza Aldo Moro",
+        "name": "Flixbus 464: Savona, Piazza Aldo Moro => Bergamo, Orio al serio Aeroporto",
+        "network": "Flixbus",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "operator": "Flixbus",
+        "public_transport:version": "2",
+        "ref": "464",
+        "route": "bus",
+        "to": "Bergamo, Orio al serio Aeroporto",
+        "type": "route",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 9907295,
+      "tags": {
+        "from": "Bergamo, Orio al serio Aeroporto",
+        "name": "Flixbus 464: Bergamo, Orio al serio Aeroporto => Savona, Piazza Aldo Moro",
+        "network": "Flixbus",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "operator": "Flixbus",
+        "public_transport:version": "2",
+        "ref": "464",
+        "route": "bus",
+        "to": "Savona, Piazza Aldo Moro",
+        "type": "route",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 9907296,
+      "tags": {
+        "from": "Savona, Piazza, Aldo Moro",
+        "name": "Flixbus 464: Savona <=> Bergamo, Orio al serio Aeroporto",
+        "network": "Flixbus",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "operator": "Flixbus",
+        "ref": "464",
+        "route_master": "bus",
+        "to": "Bergamo, Orio al serio Aeroporto",
+        "type": "route_master",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 9917017,
+      "tags": {
+        "description": "Saisonbus von Juni bis September",
+        "description:it": "Autobus stagionale da giugno a settembre",
+        "from": "Bergamo, Autostazione",
+        "name": "Flixbus 514: Bergamo, Autostazione => Sanremo",
+        "network": "Flixbus",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "operator": "Flixbus",
+        "public_transport:version": "2",
+        "ref": "514",
+        "route": "bus",
+        "to": "Sanremo",
+        "type": "route",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 9917018,
+      "tags": {
+        "description": "Saisonbus von Juni bis September",
+        "description:it": "Autobus stagionale da giugno a settembre",
+        "from": "Sanremo",
+        "name": "Flixbus 514: Sanremo => Bergamo, Autostazione",
+        "network": "Flixbus",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "operator": "Flixbus",
+        "public_transport:version": "2",
+        "ref": "514",
+        "route": "bus",
+        "to": "Bergamo, Autostazione",
+        "type": "route",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 9917019,
+      "tags": {
+        "from": "Bergamo, Autostazione",
+        "name": "Flixbus 514: Bergamo <=> Sanremo",
+        "network": "Flixbus",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "operator": "Flixbus",
+        "ref": "514",
+        "route_master": "bus",
+        "to": "Sanremo",
+        "type": "route_master",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 9921003,
+      "tags": {
+        "description": "The start, end, and stop locations have not been verified. This route may be out of service for an extended period and may not match the actual route (2026)",
+        "from": "Savona, Piazza Aldo Moro",
+        "name": "Flixbus N404: Savona, Piazza Aldo Moro => Wien Erdberg, Busterminal VIB",
+        "name:de": "Flixbus N404: Savona, Piazza Aldo Moro => Wien Erdberg, Busterminal VIB",
+        "name:it": "Flixbus N404: Savona, Piazza Aldo Moro => Vienna Erdberg, Bus Terminal VIB",
+        "network": "Flixbus",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "operator": "Flixbus",
+        "public_transport:version": "2",
+        "ref": "N404",
+        "route": "bus",
+        "to": "Wien Erdberg, Busterminal VIB",
+        "type": "route",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 9921004,
+      "tags": {
+        "description": "The start, end, and stop locations have not been verified. This route may be out of service for an extended period and may not match the actual route (2026)",
+        "from": "Wien Erdberg, Busterminal VIB",
+        "name": "Flixbus N404: Wien Erdberg, Busterminal VIB => Savona, Piazza Aldo Moro",
+        "name:de": "Flixbus N404: Wien Erdberg, Busterminal VIB => Savona, Piazza Aldo Moro",
+        "name:it": "Flixbus N404: Vienna Erdberg, Bus Terminal VIB => Savona, Piazza Aldo Moro",
+        "network": "Flixbus",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "operator": "Flixbus",
+        "public_transport:version": "2",
+        "ref": "N404",
+        "route": "bus",
+        "to": "Savona, Piazza Aldo Moro",
+        "type": "route",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 9921005,
+      "tags": {
+        "from": "Wien Erdberg, Busterminal VIB",
+        "name": "Flixbus N404: Wien <=> Savona",
+        "name:de": "Flixbus N404: Wien <=> Savona",
+        "name:it": "Flixbus N404: Vienna <=> Savona",
+        "network": "Flixbus",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "operator": "Flixbus",
+        "ref": "N404",
+        "route_master": "bus",
+        "to": "Savona, Piazza Aldo Moro",
+        "type": "route_master",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 10041157,
+      "tags": {
+        "from": "Genua, Fanti d'Italia/Principe",
+        "name": "Flixbus N177: Genua, Fanti d'Italia/Principe => Düsseldorf ZOB",
+        "name:de": "Flixbus N177: Genua, Fanti d'Italia/Principe => Düsseldorf ZOB",
+        "name:it": "Flixbus N177:Genova, Fanti d'Italia/Principe => Düsseldorf ZOB",
+        "network": "Flixbus",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "note": "Tübingen: Detour via 'Hegelstraße' because of construction on 'Friedrichstraße'.",
+        "operator": "STAV Vigevano SPA",
+        "public_transport:version": "2",
+        "ref": "N177",
+        "route": "bus",
+        "to": "Düsseldorf ZOB",
+        "type": "route",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 10041158,
+      "tags": {
+        "from": "Düsseldorf ZOB",
+        "name": "Flixbus N177: Düsseldorf ZOB => Genua, Fanti d'Italia/Principe",
+        "name:de": "Flixbus N177: Düsseldorf ZOB => Genua, Fanti d'Italia/Principe",
+        "name:it": "Flixbus N177: Düsseldorf ZOB => Genova, Fanti d'Italia/Principe",
+        "network": "Flixbus",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "note": "Tübingen: Detour via 'Hegelstraße' because of construction on 'Friedrichstraße'.",
+        "operator": "STAV Vigevano SPA",
+        "public_transport:version": "2",
+        "ref": "N177",
+        "route": "bus",
+        "to": "Genua, Fanti d'Italia/Principe",
+        "type": "route",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 10041159,
+      "tags": {
+        "from": "Genua, Fanti d'Italia/Principe",
+        "name": "Flixbus N177: Genua, Fanti d'Italia/Principe <=> Düsseldorf ZOB",
+        "name:de": "Flixbus N177: Genua, Fanti d'Italia/Principe <=> Düsseldorf ZOB",
+        "name:it": "Flixbus N177: Genova, Fanti d'Italia/Principe <=> Düsseldorf ZOB",
+        "network": "Flixbus",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "operator": "STAV Vigevano SPA",
+        "ref": "N177",
+        "route_master": "bus",
+        "to": "Düsseldorf ZOB",
+        "type": "route_master",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 13549571,
+      "tags": {
+        "cai_scale": "E",
+        "name": "Ponte X - Serra Riccò - Santuario della Vittoria",
+        "network": "lwn",
+        "osmc:symbol": "red:white:red_triangle_line",
+        "route": "hiking",
+        "source": "FIE",
+        "type": "route",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 13558346,
+      "tags": {
+        "cai_scale": "E",
+        "name": "Pedemonte - Crocetta d'Orero",
+        "network": "lwn",
+        "osmc:symbol": "red:white::A:red",
+        "route": "hiking",
+        "source": "survey",
+        "type": "route",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 13568913,
+      "tags": {
+        "cai_scale": "E",
+        "name": "Circuito della Dominante - Nordic Walking Croce di Vie",
+        "network": "lwn",
+        "osmc:symbol": "red:white:blue_hiker",
+        "route": "hiking",
+        "type": "route",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 13577298,
+      "tags": {
+        "cai_scale": "E",
+        "name": "Collegamento \"A\" - Nordic Walking Croce di Vie",
+        "network": "lwn",
+        "osmc:symbol": "red:white:blue_circle:w:blue",
+        "route": "hiking",
+        "type": "route",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 13577332,
+      "tags": {
+        "cai_scale": "E",
+        "name": "Collegamento \"B\" - Nordic Walking Croce di Vie",
+        "network": "lwn",
+        "osmc:symbol": "red:white:blue_circle:w:blue",
+        "route": "hiking",
+        "type": "route",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 15963492,
+      "tags": {
+        "destination": "Torrente Polcevera",
+        "name": "Torrente Riccò",
+        "short_name": "Riccò",
+        "type": "waterway",
+        "waterway": "stream",
+        "wikidata": "Q3934693",
+        "wikipedia": "it:Riccò",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 19719193,
+      "tags": {
+        "name": "Torrente Secca",
+        "type": "waterway",
+        "waterway": "stream",
+        "wikidata": "Q3953842",
+        "wikipedia": "it:Secca (torrente)",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 19793721,
+      "tags": {
+        "bus": "yes",
+        "colour": "green",
+        "description": "Genova Brignole-A7-Busalla-Casella-Bromia",
+        "from": "Genova Brignole (v.Caviglia)",
+        "name": "727 A7-Casella-Bromia",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "network:wikipedia": "it:AMT (Genova)",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "727",
+        "route": "bus",
+        "to": "Bromia",
+        "type": "route",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 19882755,
+      "tags": {
+        "bus": "yes",
+        "colour": "green",
+        "description": "Bolzaneto-Pedemonte",
+        "from": "Genova Bolzaneto",
+        "name": "735 Bolzaneto Pedemonte",
+        "network": "AMT Linee Provinciali",
+        "network:wikidata": "Q295335",
+        "network:wikipedia": "it:AMT (Genova)",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "735",
+        "route": "bus",
+        "to": "Pedemonte (Serra Riccò)",
+        "type": "route",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 20115627,
+      "tags": {
+        "bus": "yes",
+        "colour": "green",
+        "description": "Bromia - Casella - Busalla - A7 - Sampierdarena - Genova Brignole",
+        "duration": "1:10",
+        "from": "Bromia",
+        "name": "727 Casella-A7 - Genova Brignole",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "network:wikipedia": "it:AMT (Genova)",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "727",
+        "route": "bus",
+        "to": "Genova Brignole",
+        "type": "route",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 20148852,
+      "tags": {
+        "bus": "yes",
+        "colour": "green",
+        "description": "Pedemonte-Bolzaneto",
+        "duration": "0:23",
+        "from": "Pedemonte (Serra Riccò)",
+        "name": "735 Bolzaneto",
+        "network": "AMT Linee Provinciali",
+        "network:wikidata": "Q295335",
+        "network:wikipedia": "it:AMT (Genova)",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "735",
+        "route": "bus",
+        "to": "Bolzaneto",
+        "type": "route",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 21057133,
+      "tags": {
+        "from": "Milano Lampugnano",
+        "name": "Flixbus N728: Milano → Genova",
+        "network": "Flixbus",
+        "network:wikidata": "Q15712258",
+        "public_transport:version": "2",
+        "ref": "N728",
+        "route": "bus",
+        "to": "Fanti d'Italia, Genova",
+        "type": "route",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 21057144,
+      "tags": {
+        "from": "Milano Lampugnano",
+        "name": "Flixbus N507: Milano → Genova",
+        "network": "Flixbus",
+        "network:wikidata": "Q15712258",
+        "public_transport:version": "2",
+        "ref": "N507",
+        "route": "bus",
+        "to": "Fanti d'Italia, Genova",
+        "type": "route",
+        "addr:city_extracted": "Serra Riccò"
+      }
+    }
+  ]
+}

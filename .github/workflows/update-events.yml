@@ -1,0 +1,44 @@
+name: Weekly Events Update & QA
+
+on:
+  schedule:
+    # Every Monday at 06:00 UTC (07:00/08:00 Europe/Rome)
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-events:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run unit and E2E tests
+        run: |
+          python3 -m unittest discover -s tests
+          python3 run_tests.py
+
+      - name: Regenerate weekly static agenda and normalized JSON datasets
+        run: |
+          python3 scripts/build_data.py --live
+          python3 -m genova_outings.export_static site
+
+      - name: Commit updated site and data if changed
+        run: |
+          if git diff --quiet site/index.html data/events.json site/data/events.json; then
+            echo "No changes to site/index.html or events.json"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/index.html data/events.json site/data/events.json
+          git commit -m "chore(ci): weekly refresh of events.json and site/index.html"
+          git push

@@ -1,0 +1,3334 @@
+{
+  "version": 0.6,
+  "generator": "OpenStreetMap v0.6 API",
+  "comune": "Moconesi",
+  "elements": [
+    {
+      "type": "node",
+      "id": 316029603,
+      "tags": {
+        "ele": "340",
+        "gfoss_id": "36195",
+        "istat_id": "1003620001",
+        "name": "Campopiano",
+        "place": "hamlet",
+        "population": "97",
+        "source": "Istat 2001 - geodati.gfoss.it",
+        "wikidata": "Q18456593",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.4295174,
+      "lon": 9.2075265
+    },
+    {
+      "type": "node",
+      "id": 316029613,
+      "tags": {
+        "ele": "287",
+        "gfoss_id": "36197",
+        "istat_id": "1003620003",
+        "name": "Lavaggi",
+        "place": "hamlet",
+        "population": "64",
+        "source": "Istat 2001 - geodati.gfoss.it",
+        "wikidata": "Q18457939",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.4290317,
+      "lon": 9.2007955
+    },
+    {
+      "type": "node",
+      "id": 316029619,
+      "tags": {
+        "ele": "344",
+        "gfoss_id": "36198",
+        "istat_id": "1003620004",
+        "name": "Linaro",
+        "place": "hamlet",
+        "population": "44",
+        "source": "Istat 2001 - geodati.gfoss.it",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.4311311,
+      "lon": 9.2007525
+    },
+    {
+      "type": "node",
+      "id": 316029668,
+      "tags": {
+        "ele": "135",
+        "gfoss_id": "36194",
+        "istat_id": "1003610007",
+        "name": "Terrarossa Colombo",
+        "place": "hamlet",
+        "population": "204",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.4236334,
+      "lon": 9.2002175
+    },
+    {
+      "type": "node",
+      "id": 316030269,
+      "tags": {
+        "ele": "319",
+        "gfoss_id": "36569",
+        "istat_id": "1006310001",
+        "name": "Aveno",
+        "place": "hamlet",
+        "population": "55",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.4099432,
+      "lon": 9.195225
+    },
+    {
+      "type": "node",
+      "id": 316030286,
+      "tags": {
+        "ele": "279",
+        "gfoss_id": "36572",
+        "istat_id": "1006310004",
+        "name": "Garbarini",
+        "place": "hamlet",
+        "population": "102",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.4157224,
+      "lon": 9.1950848
+    },
+    {
+      "type": "node",
+      "id": 316030290,
+      "tags": {
+        "ele": "116",
+        "gfoss_id": "36574",
+        "istat_id": "1006310006",
+        "name": "Lamaneigra",
+        "place": "locality",
+        "population": "0",
+        "source": "Istat 2001 - geodati.gfoss.it",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.4221035,
+      "lon": 9.2043165
+    },
+    {
+      "type": "node",
+      "id": 316109138,
+      "tags": {
+        "ele": "132",
+        "gfoss_id": "36189",
+        "istat_id": "1003610002",
+        "name": "Ferrada",
+        "place": "village",
+        "population": "621",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.4209126,
+      "lon": 9.2104303
+    },
+    {
+      "type": "node",
+      "id": 316109139,
+      "tags": {
+        "ele": "100",
+        "gfoss_id": "36190",
+        "istat_id": "1003610003",
+        "name": "Gallinaria",
+        "place": "hamlet",
+        "population": "104",
+        "source": "Istat 2001 - geodati.gfoss.it",
+        "wikidata": "Q18457671",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.4134738,
+      "lon": 9.2215389
+    },
+    {
+      "type": "node",
+      "id": 316109141,
+      "tags": {
+        "ele": "110",
+        "gfoss_id": "35935",
+        "istat_id": "1001620005",
+        "name": "Quartaie",
+        "place": "hamlet",
+        "population": "53",
+        "source": "Istat 2001 - geodati.gfoss.it",
+        "wikidata": "Q18458790",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.4159472,
+      "lon": 9.2156929
+    },
+    {
+      "type": "node",
+      "id": 374472818,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Terrarossa - Moconesi",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6267",
+        "zone_id": "104",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.4232805,
+      "lon": 9.1995125
+    },
+    {
+      "type": "node",
+      "id": 374472837,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Terrarossa civ. 5 - Moconesi",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6268",
+        "zone_id": "104",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.4241865,
+      "lon": 9.2028323
+    },
+    {
+      "type": "node",
+      "id": 374473449,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Gallinaria - Monte Balano",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6273",
+        "zone_id": "104",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.4131285,
+      "lon": 9.2186218
+    },
+    {
+      "type": "node",
+      "id": 374473467,
+      "tags": {
+        "bench": "no",
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Gallinaria",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6274",
+        "shelter": "no",
+        "zone_id": "104",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.4118493,
+      "lon": 9.2209883
+    },
+    {
+      "type": "node",
+      "id": 374473581,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Dragonaria",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6275",
+        "url": "http://www.atp-spa.it/cartina.php",
+        "zone_id": "104",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.412044,
+      "lon": 9.2247987
+    },
+    {
+      "type": "node",
+      "id": 619845620,
+      "tags": {
+        "ele": "641",
+        "mountain_pass": "yes",
+        "name": "Passo Serra",
+        "natural": "saddle",
+        "source": "GPS",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.3962308,
+      "lon": 9.199695
+    },
+    {
+      "type": "node",
+      "id": 766533968,
+      "tags": {
+        "name": "Aveno",
+        "traffic_sign": "city_limit",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.4138296,
+      "lon": 9.1951227
+    },
+    {
+      "type": "node",
+      "id": 1260931270,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Gallinaria",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6188",
+        "zone_id": "104",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.4121398,
+      "lon": 9.2205113
+    },
+    {
+      "type": "node",
+      "id": 1260931327,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Ponte Rimassa",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6269",
+        "zone_id": "104",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.4232363,
+      "lon": 9.2055458
+    },
+    {
+      "type": "node",
+      "id": 1260931344,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Ferrada",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6270",
+        "zone_id": "104",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.4202676,
+      "lon": 9.208534
+    },
+    {
+      "type": "node",
+      "id": 1260931348,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Terrarossa - Moconesi",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6194",
+        "zone_id": "104",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.4235426,
+      "lon": 9.1988879
+    },
+    {
+      "type": "node",
+      "id": 1260931359,
+      "tags": {
+        "bench": "no",
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Ferrada - bivio Tribogna",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6271",
+        "shelter": "no",
+        "zone_id": "104",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.4188667,
+      "lon": 9.2115373
+    },
+    {
+      "type": "node",
+      "id": 1260931366,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Terrarossa civ. 18 - Moconesi",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6193",
+        "zone_id": "104",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.4241231,
+      "lon": 9.2023953
+    },
+    {
+      "type": "node",
+      "id": 1260931378,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Dragonaria",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6187",
+        "zone_id": "104",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.4120444,
+      "lon": 9.2242155
+    },
+    {
+      "type": "node",
+      "id": 1260931418,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Carpenete",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6186",
+        "zone_id": "105",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.4114303,
+      "lon": 9.2285621
+    },
+    {
+      "type": "node",
+      "id": 1922056741,
+      "tags": {
+        "name": "Supermarket",
+        "shop": "supermarket",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.4219939,
+      "lon": 9.223425
+    },
+    {
+      "type": "node",
+      "id": 1922075255,
+      "tags": {
+        "name": "Cornia",
+        "place": "hamlet",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.4225633,
+      "lon": 9.2241006
+    },
+    {
+      "type": "node",
+      "id": 1930812760,
+      "tags": {
+        "ele": "213",
+        "gfoss_id": "36196",
+        "istat_id": "1003620002",
+        "name": "Casareggio",
+        "place": "hamlet",
+        "population": "51",
+        "source": "Istat 2001 - geodati.gfoss.it",
+        "wikidata": "Q18456847",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.4224714,
+      "lon": 9.2147889
+    },
+    {
+      "type": "node",
+      "id": 1930812770,
+      "tags": {
+        "ele": "198",
+        "gfoss_id": "35934",
+        "istat_id": "1001620003",
+        "name": "Chichizzola",
+        "place": "hamlet",
+        "population": "11",
+        "source": "Istat 2001 - geodati.gfoss.it",
+        "wikidata": "Q18457100",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.4068509,
+      "lon": 9.2151477
+    },
+    {
+      "type": "node",
+      "id": 1930812850,
+      "tags": {
+        "ele": "294",
+        "gfoss_id": "35932",
+        "istat_id": "1001610003",
+        "name": "Serra",
+        "place": "hamlet",
+        "population": "107",
+        "source": "Istat 2001 - geodati.gfoss.it",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.4113966,
+      "lon": 9.2107327
+    },
+    {
+      "type": "node",
+      "id": 1930812900,
+      "tags": {
+        "ele": "296",
+        "gfoss_id": "36192",
+        "istat_id": "1003610005",
+        "name": "Villa di Cornia",
+        "place": "hamlet",
+        "population": "153",
+        "source": "Istat 2001 - geodati.gfoss.it",
+        "wikidata": "Q18459460",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.4254746,
+      "lon": 9.2282797
+    },
+    {
+      "type": "node",
+      "id": 2321580491,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Quartaie",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6272",
+        "zone_id": "104",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.4167465,
+      "lon": 9.2182419
+    },
+    {
+      "type": "node",
+      "id": 2577644326,
+      "tags": {
+        "name": "Costa",
+        "place": "hamlet",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.4280768,
+      "lon": 9.2084672
+    },
+    {
+      "type": "node",
+      "id": 2577644375,
+      "tags": {
+        "name": "Pian di Croce",
+        "place": "hamlet",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.4317237,
+      "lon": 9.2114069
+    },
+    {
+      "type": "node",
+      "id": 2577644377,
+      "tags": {
+        "name": "Serra",
+        "place": "hamlet",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.432689,
+      "lon": 9.2102052
+    },
+    {
+      "type": "node",
+      "id": 2633749343,
+      "tags": {
+        "name": "Posetto",
+        "place": "hamlet",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.429967,
+      "lon": 9.2019105
+    },
+    {
+      "type": "node",
+      "id": 2633749345,
+      "tags": {
+        "name": "Spinetta",
+        "place": "hamlet",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.4279566,
+      "lon": 9.2021658
+    },
+    {
+      "type": "node",
+      "id": 2633749349,
+      "tags": {
+        "name": "Riassu",
+        "place": "hamlet",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.4307715,
+      "lon": 9.2083478
+    },
+    {
+      "type": "node",
+      "id": 2633749350,
+      "tags": {
+        "name": "Bandie",
+        "place": "hamlet",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.429944,
+      "lon": 9.2052579
+    },
+    {
+      "type": "node",
+      "id": 2633767971,
+      "tags": {
+        "name": "Albareto Alto",
+        "place": "isolated_dwelling",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.4325623,
+      "lon": 9.2256072
+    },
+    {
+      "type": "node",
+      "id": 2633768082,
+      "tags": {
+        "name": "Albareto Basso",
+        "place": "isolated_dwelling",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.4295819,
+      "lon": 9.2247013
+    },
+    {
+      "type": "node",
+      "id": 4358958829,
+      "tags": {
+        "addr:city": "Moconesi",
+        "addr:housenumber": "57",
+        "addr:postcode": "16047",
+        "addr:street": "Strada Statale della Fontana Buona",
+        "name": "Ostello Fontanabuona;Hostel",
+        "operator": "AIG Hostel",
+        "phone": "+39 340 360 4504",
+        "tourism": "hostel",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.4204666,
+      "lon": 9.2068899
+    },
+    {
+      "type": "node",
+      "id": 4426825689,
+      "tags": {
+        "name": "Garbarini",
+        "traffic_sign": "city_limit",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.4138788,
+      "lon": 9.1950206
+    },
+    {
+      "type": "node",
+      "id": 4426825690,
+      "tags": {
+        "name": "Garbarini",
+        "traffic_sign": "city_limit",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.4179557,
+      "lon": 9.2102942
+    },
+    {
+      "type": "node",
+      "id": 4493069937,
+      "tags": {
+        "name": "Cortino",
+        "place": "locality",
+        "population": "5",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.4152563,
+      "lon": 9.2015632
+    },
+    {
+      "type": "node",
+      "id": 4493069938,
+      "tags": {
+        "name": "Gai",
+        "place": "locality",
+        "population": "2",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.4168275,
+      "lon": 9.2039647
+    },
+    {
+      "type": "node",
+      "id": 4493069939,
+      "tags": {
+        "name": "Cerropiano",
+        "place": "locality",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.4173463,
+      "lon": 9.1989107
+    },
+    {
+      "type": "node",
+      "id": 4496863094,
+      "tags": {
+        "name": "Codavilla",
+        "place": "locality",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.410789,
+      "lon": 9.1950873
+    },
+    {
+      "type": "node",
+      "id": 4496872111,
+      "tags": {
+        "name": "Geppotti",
+        "place": "locality",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.4093375,
+      "lon": 9.1971378
+    },
+    {
+      "type": "node",
+      "id": 4496872112,
+      "tags": {
+        "name": "Stuggia",
+        "place": "locality",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.411291,
+      "lon": 9.2023185
+    },
+    {
+      "type": "node",
+      "id": 4497196675,
+      "tags": {
+        "name": "Pozza",
+        "place": "locality",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.4146892,
+      "lon": 9.195396
+    },
+    {
+      "type": "node",
+      "id": 4506732447,
+      "tags": {
+        "bench": "yes",
+        "bus": "yes",
+        "covered": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Capolinea Piazza Soracco 61 - Comune",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "8062",
+        "shelter": "yes",
+        "zone_id": "99",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.4161583,
+      "lon": 9.1955358
+    },
+    {
+      "type": "node",
+      "id": 4797400404,
+      "tags": {
+        "name": "Prè",
+        "place": "locality",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.4128667,
+      "lon": 9.2009202
+    },
+    {
+      "type": "node",
+      "id": 4797400405,
+      "tags": {
+        "name": "Fondovilla",
+        "place": "locality",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.4147498,
+      "lon": 9.1972165
+    },
+    {
+      "type": "node",
+      "id": 6427983482,
+      "tags": {
+        "historic": "memorial",
+        "inscription": "Caddero gloriosi nell'immane guerra pugnando fidenti in Dio per la grandezza d'Italia i giovani Tribognesi\n\nInvocano preci ardenti\nperpetuo ricordo della memore Patria\n29 ottobre 1922\n1915     1918",
+        "name": "Monumento ai Caduti Prima Guerra Mondiale",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.4135248,
+      "lon": 9.1967983
+    },
+    {
+      "type": "node",
+      "id": 6428010653,
+      "tags": {
+        "amenity": "clock",
+        "display": "analog",
+        "faces": "1",
+        "name": "Orologio civico",
+        "support": "wall_mounted",
+        "visibility": "street",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.4162788,
+      "lon": 9.1955286
+    },
+    {
+      "type": "node",
+      "id": 6428015663,
+      "tags": {
+        "addr:city": "Tribogna",
+        "addr:housenumber": "61",
+        "addr:postcode": "16030",
+        "addr:street": "Piazza Nando Soracco",
+        "amenity": "post_office",
+        "brand": "Poste Italiane",
+        "brand:wikidata": "Q495026",
+        "brand:wikipedia": "en:Poste italiane",
+        "name": "Poste Italiane",
+        "wheelchair": "yes",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.41625,
+      "lon": 9.1956677
+    },
+    {
+      "type": "node",
+      "id": 6428023325,
+      "tags": {
+        "amenity": "clock",
+        "display": "sundial",
+        "ele": "329",
+        "inscription": "TRANSIT HORA MANENT OPERA",
+        "name": "Meridiana",
+        "start_date": "2004",
+        "support": "wall_mounted",
+        "visibility": "house",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.4162288,
+      "lon": 9.1956704
+    },
+    {
+      "type": "node",
+      "id": 6449228350,
+      "tags": {
+        "ele": "329",
+        "name": "Tribogna",
+        "place": "hamlet",
+        "population": "617",
+        "website": "https://www.comune.tribogna.ge.it/",
+        "wikidata": "Q267342",
+        "wikipedia": "it:Tribogna",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.4161462,
+      "lon": 9.1955867
+    },
+    {
+      "type": "node",
+      "id": 6449387215,
+      "tags": {
+        "name": "L'Oasi di Tribogna",
+        "tourism": "guest_house",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.4095127,
+      "lon": 9.1974814
+    },
+    {
+      "type": "node",
+      "id": 9880376446,
+      "tags": {
+        "addr:city": "Cicagna",
+        "addr:housenumber": "4",
+        "addr:postcode": "16044",
+        "addr:street": "Via Canivella",
+        "amenity": "restaurant",
+        "name": "La Novelina",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.408524,
+      "lon": 9.2302839
+    },
+    {
+      "type": "node",
+      "id": 9882296949,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Ponte Rimassa",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6192",
+        "zone_id": "104",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.4235185,
+      "lon": 9.2055471
+    },
+    {
+      "type": "node",
+      "id": 10239834180,
+      "tags": {
+        "historic": "monument",
+        "name": "Monumento ai Caduti",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.4105733,
+      "lon": 9.2087355
+    },
+    {
+      "type": "node",
+      "id": 13236744527,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "civ. 21 - Moconesi",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6511",
+        "zone_id": "104",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.4290237,
+      "lon": 9.207572
+    },
+    {
+      "type": "node",
+      "id": 13236744529,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "civ. 21 - Moconesi",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6512",
+        "zone_id": "104",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.4289694,
+      "lon": 9.2076829
+    },
+    {
+      "type": "node",
+      "id": 13236744530,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Linaro civ. 20",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6507",
+        "zone_id": "104",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.4299532,
+      "lon": 9.2023748
+    },
+    {
+      "type": "node",
+      "id": 13236744532,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Campo Piano",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6514",
+        "zone_id": "104",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.4281639,
+      "lon": 9.208727
+    },
+    {
+      "type": "node",
+      "id": 13236744537,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Bivio Lavaggi - Pozzetto",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6505",
+        "zone_id": "104",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.4301977,
+      "lon": 9.201132
+    },
+    {
+      "type": "node",
+      "id": 13236744538,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Costa - bivio sotto la Chiesa",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6516",
+        "zone_id": "104",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.4304657,
+      "lon": 9.2106466
+    },
+    {
+      "type": "node",
+      "id": 13236744539,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Fior di Roccia",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6509",
+        "zone_id": "104",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.4300078,
+      "lon": 9.2051203
+    },
+    {
+      "type": "node",
+      "id": 13236744540,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Lavaggi SCOL",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "9177",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.4293147,
+      "lon": 9.2016193
+    },
+    {
+      "type": "node",
+      "id": 13236744541,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Bivio Baracchi",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6503",
+        "zone_id": "104",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.4298077,
+      "lon": 9.1952304
+    },
+    {
+      "type": "node",
+      "id": 13236744542,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Fior di Roccia",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6510",
+        "zone_id": "104",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.4300241,
+      "lon": 9.2050363
+    },
+    {
+      "type": "node",
+      "id": 13236744548,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Moconesi chiesa",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6517",
+        "zone_id": "104",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.4311523,
+      "lon": 9.2132406
+    },
+    {
+      "type": "node",
+      "id": 13236744550,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Costa - bivio sotto la Chiesa",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6515",
+        "zone_id": "104",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.4304314,
+      "lon": 9.2107687
+    },
+    {
+      "type": "node",
+      "id": 13236744551,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Linaro civ. 20",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6508",
+        "zone_id": "104",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.429966,
+      "lon": 9.202487
+    },
+    {
+      "type": "node",
+      "id": 13236744553,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Bivio Lavaggi - Pozzetto",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6506",
+        "zone_id": "104",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.4301968,
+      "lon": 9.2010395
+    },
+    {
+      "type": "node",
+      "id": 13236744555,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Bivio Baracchi",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6504",
+        "zone_id": "104",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.4298401,
+      "lon": 9.195364
+    },
+    {
+      "type": "node",
+      "id": 13236744556,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Campo Piano",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6513",
+        "zone_id": "104",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.4282051,
+      "lon": 9.2088262
+    },
+    {
+      "type": "node",
+      "id": 13236744557,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Castagneto",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6524",
+        "zone_id": "104",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.4327545,
+      "lon": 9.211771
+    },
+    {
+      "type": "node",
+      "id": 13236744558,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Moconesi chiesa",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6518",
+        "zone_id": "104",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.4311256,
+      "lon": 9.2131319
+    },
+    {
+      "type": "node",
+      "id": 13268658497,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Carpenete",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6276",
+        "url": "http://www.atp-spa.it/cartina.php",
+        "zone_id": "105",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.4113155,
+      "lon": 9.2280539
+    },
+    {
+      "type": "node",
+      "id": 13362549454,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Piazza De Ferrari 6",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4983",
+        "zone_id": "104",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.4200726,
+      "lon": 9.2122062
+    },
+    {
+      "type": "node",
+      "id": 13362549462,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Ferrada Posta",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6190",
+        "zone_id": "104",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.4200973,
+      "lon": 9.2121252
+    },
+    {
+      "type": "node",
+      "id": 13442975503,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Quartaie",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6189",
+        "zone_id": "104",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.4166679,
+      "lon": 9.21838
+    },
+    {
+      "type": "node",
+      "id": 13463129290,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Ferrada capolinea",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6191",
+        "zone_id": "104",
+        "addr:city_extracted": "Moconesi"
+      },
+      "lat": 44.4207338,
+      "lon": 9.2094099
+    },
+    {
+      "type": "way",
+      "id": 9220214,
+      "tags": {
+        "bridge": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "layer": "1",
+        "name": "Strada statale 225 della Fontanabuona",
+        "ref": "SS225",
+        "surface": "asphalt",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 9220279,
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Strada statale 225 della Fontanabuona",
+        "ref": "SS225",
+        "surface": "asphalt",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 9220543,
+      "tags": {
+        "boat": "no",
+        "name": "Torrente Lavagna",
+        "waterway": "stream",
+        "wikidata": "Q3827996",
+        "wikipedia": "it:Lavagna (torrente)",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 34283808,
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Strada statale 225 della Fontanabuona",
+        "oneway": "no",
+        "ref": "SS225",
+        "surface": "asphalt",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 110317833,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Via Sopra la Chiesa",
+        "surface": "asphalt",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 110412371,
+      "tags": {
+        "cycleway": "yes",
+        "highway": "unclassified",
+        "name": "Via Lamaneigra",
+        "surface": "asphalt",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 110412377,
+      "tags": {
+        "bridge": "yes",
+        "cycleway": "yes",
+        "highway": "unclassified",
+        "layer": "1",
+        "name": "Ponte Rimassa",
+        "surface": "asphalt",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 111538926,
+      "tags": {
+        "name": "Quartaie",
+        "operator": "Enel Distribuzione",
+        "power": "substation",
+        "ref:terna": "TTORQUTT",
+        "substation": "distribution",
+        "voltage": "132000",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 181227517,
+      "tags": {
+        "amenity": "grave_yard",
+        "denomination": "catholic",
+        "name": "Cimitero di Tribogna",
+        "religion": "christian",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 181229497,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Lavaggi",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 181229503,
+      "tags": {
+        "cycleway": "yes",
+        "highway": "unclassified",
+        "lane_markings": "no",
+        "name": "Via De Barbieri",
+        "surface": "asphalt",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 182761932,
+      "tags": {
+        "highway": "service",
+        "name": "Via Lamaneigra",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 182761934,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Cortino",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 182761942,
+      "tags": {
+        "highway": "service",
+        "name": "Via Lamaneigra",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 182761944,
+      "tags": {
+        "highway": "service",
+        "name": "Via Lamaneigra",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 182761945,
+      "tags": {
+        "highway": "residential",
+        "name": "Via Serra",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 182761991,
+      "tags": {
+        "highway": "residential",
+        "name": "Via Rossaia",
+        "surface": "asphalt",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 182762002,
+      "tags": {
+        "highway": "residential",
+        "name": "Via Gai",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 193290144,
+      "tags": {
+        "cycleway": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Strada statale 225 della Fontanabuona",
+        "oneway": "no",
+        "ref": "SS225",
+        "surface": "asphalt",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 193290146,
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Strada statale 225 della Fontanabuona",
+        "ref": "SS225",
+        "surface": "asphalt",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 193290147,
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Strada statale 225 della Fontanabuona",
+        "ref": "SS225",
+        "surface": "asphalt",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 197249912,
+      "tags": {
+        "cycleway": "yes",
+        "highway": "primary",
+        "name": "Strada statale 225 della Fontanabuona",
+        "oneway": "no",
+        "ref": "SS225",
+        "surface": "asphalt",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 197249913,
+      "tags": {
+        "bridge": "yes",
+        "cycleway": "yes",
+        "highway": "primary",
+        "layer": "1",
+        "name": "Strada statale 225 della Fontanabuona",
+        "oneway": "no",
+        "ref": "SS225",
+        "surface": "asphalt",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 197494414,
+      "tags": {
+        "highway": "residential",
+        "name": "Via Fondovilla",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 197494416,
+      "tags": {
+        "highway": "residential",
+        "name": "Via Prè",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 197494421,
+      "tags": {
+        "access": "private",
+        "highway": "service",
+        "name": "Via Casali",
+        "service": "driveway",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 197494427,
+      "tags": {
+        "highway": "service",
+        "name": "Via Pozza",
+        "service": "driveway",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 199288415,
+      "tags": {
+        "cables": "3",
+        "name": "Morigallo – San Colombano Certenoli",
+        "power": "line",
+        "ref": "22.278",
+        "voltage": "220000",
+        "wires": "double",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204739460,
+      "tags": {
+        "amenity": "place_of_worship",
+        "denomination": "catholic",
+        "name": "Decor Carmeli",
+        "religion": "christian",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204740383,
+      "tags": {
+        "building": "yes",
+        "name": "Centro Mobili Ferrada",
+        "opening_hours": "closed",
+        "shop": "furniture",
+        "source": "Regione Liguria",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204740661,
+      "tags": {
+        "building": "industrial",
+        "name": "Dresser Rand - Siemens",
+        "source": "Regione Liguria",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204741027,
+      "tags": {
+        "amenity": "school",
+        "name": "Scuola Primaria di Ferrada",
+        "source": "Regione Liguria",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204741755,
+      "tags": {
+        "addr:street": "Via Piazzetta",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "catholic",
+        "name": "Cappella di Santa Croce",
+        "religion": "christian",
+        "source": "Regione Liguria",
+        "start_date": "XVII secolo",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204742285,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "catholic",
+        "name": "Parrocchia di San Martino di Tribogna",
+        "religion": "christian",
+        "source": "Regione Liguria",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204742312,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "church",
+        "denomination": "catholic",
+        "name": "Chiesa del Sacro Cuore di Gesù",
+        "religion": "christian",
+        "source": "Regione Liguria",
+        "wikidata": "Q3668605",
+        "wikipedia": "it:Chiesa del Sacro Cuore di Gesù (Moconesi)",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204742484,
+      "tags": {
+        "building": "yes",
+        "name": "Cucina e Dintorni Lube Concept Store",
+        "operator": "Lube Cucine",
+        "shop": "furniture",
+        "source": "Regione Liguria",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204751720,
+      "tags": {
+        "amenity": "school",
+        "name": "Scuola dell'Infanzia di Ferrada",
+        "source": "Regione Liguria",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204752340,
+      "tags": {
+        "building": "house",
+        "name": "Casa museo Cristoforo Colombo",
+        "source": "Regione Liguria",
+        "tourism": "museum",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204753056,
+      "tags": {
+        "amenity": "social_facility",
+        "building": "yes",
+        "name": "Il Castagno",
+        "social_facility": "group_home",
+        "social_facility:for": "senior",
+        "source": "Regione Liguria",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204754795,
+      "tags": {
+        "amenity": "townhall",
+        "building": "yes",
+        "name": "Comune di Tribogna",
+        "source": "Regione Liguria",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204755396,
+      "tags": {
+        "building": "civic",
+        "name": "Orologio del Municipio",
+        "source": "Regione Liguria",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204788381,
+      "tags": {
+        "amenity": "place_of_worship",
+        "denomination": "catholic",
+        "name": "Chiesa di San Giuseppe e Santa Margherita",
+        "religion": "christian",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204793728,
+      "tags": {
+        "amenity": "place_of_worship",
+        "denomination": "catholic",
+        "name": "Chiesa di San Bartolomeo Apostolo",
+        "religion": "christian",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204798550,
+      "tags": {
+        "amenity": "place_of_worship",
+        "denomination": "catholic",
+        "name": "Chiesa di Sant'Anna",
+        "religion": "christian",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 223170684,
+      "tags": {
+        "highway": "unclassified",
+        "lane_markings": "no",
+        "name": "Via De Barbieri",
+        "surface": "asphalt",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 223170695,
+      "tags": {
+        "highway": "residential",
+        "name": "Freccio",
+        "surface": "ground",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 223240881,
+      "tags": {
+        "name": "Cassanesi-Quartaie",
+        "power": "line",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 225465306,
+      "tags": {
+        "cables": "3",
+        "name": "Molassana-San Colombano",
+        "power": "line",
+        "ref": "23.842",
+        "voltage": "132000",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 251558371,
+      "tags": {
+        "highway": "unclassified",
+        "maxweight": "24",
+        "name": "Via Campopiano",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 299753898,
+      "tags": {
+        "foot": "designated",
+        "highway": "path",
+        "name": "Itinerario Storico Colombiano",
+        "sac_scale": "mountain_hiking",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 309658262,
+      "tags": {
+        "building": "yes",
+        "industrial": "slaughterhouse",
+        "name": "BLM Carni",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 335576388,
+      "tags": {
+        "cables": "3",
+        "name": "Vignole-La Spezia",
+        "power": "line",
+        "voltage": "380000",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 364574820,
+      "tags": {
+        "highway": "steps",
+        "name": "Via Ballatoio",
+        "sac_scale": "hiking",
+        "surface": "concrete",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 382637170,
+      "tags": {
+        "cables": "3",
+        "name": "Molassana-San Colombano",
+        "power": "line",
+        "ref": "23.842",
+        "voltage": "132000",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 450060248,
+      "tags": {
+        "name": "Torrente Litteglia",
+        "waterway": "stream",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 450060263,
+      "tags": {
+        "name": "Torrente Litteglia",
+        "waterway": "stream",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 450060265,
+      "tags": {
+        "name": "Torrente Litteglia",
+        "waterway": "stream",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 450060308,
+      "tags": {
+        "name": "Torrente Litteglia",
+        "waterway": "stream",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 450060322,
+      "tags": {
+        "name": "Torrente Litteglia",
+        "waterway": "stream",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 450060349,
+      "tags": {
+        "name": "Torrente Litteglia",
+        "waterway": "stream",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 450060379,
+      "tags": {
+        "name": "Torrente Litteglia",
+        "waterway": "stream",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 450060380,
+      "tags": {
+        "name": "Torrente Litteglia",
+        "waterway": "stream",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 450060417,
+      "tags": {
+        "name": "Torrente Litteglia",
+        "waterway": "stream",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 450060439,
+      "tags": {
+        "name": "Torrente Litteglia",
+        "waterway": "stream",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 450060447,
+      "tags": {
+        "name": "Torrente Litteglia",
+        "waterway": "stream",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 450060451,
+      "tags": {
+        "name": "Torrente Litteglia",
+        "waterway": "stream",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 452510828,
+      "tags": {
+        "highway": "residential",
+        "maxspeed": "20",
+        "name": "Via Loia",
+        "surface": "asphalt",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 453568170,
+      "tags": {
+        "highway": "residential",
+        "name": "Via Geppotti",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 453568172,
+      "tags": {
+        "highway": "residential",
+        "name": "Via Geppotti",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 453568173,
+      "tags": {
+        "highway": "residential",
+        "name": "Via Geppotti",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 453568743,
+      "tags": {
+        "highway": "track",
+        "name": "Via Geppotti",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 453568746,
+      "tags": {
+        "highway": "track",
+        "name": "Via Geppotti",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 453701596,
+      "tags": {
+        "highway": "residential",
+        "name": "Via Codavilla",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 454302147,
+      "tags": {
+        "highway": "residential",
+        "name": "Via Sopra la Chiesa",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 454337943,
+      "tags": {
+        "leisure": "park",
+        "name": "\"Giardinetti\" della chiesa di Tribogna",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 521158264,
+      "tags": {
+        "cycleway": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Strada Statale della Fontanabuona",
+        "ref": "SS225",
+        "surface": "asphalt",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 521158265,
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Strada statale 225 della Fontanabuona",
+        "oneway": "no",
+        "ref": "SS225",
+        "surface": "asphalt",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 521165832,
+      "tags": {
+        "cycleway": "proposed",
+        "highway": "tertiary",
+        "name": "Via Nuova Spinarola",
+        "surface": "asphalt",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 586335314,
+      "tags": {
+        "foot": "yes",
+        "highway": "track",
+        "name": "Itinerario Storico Colombiano",
+        "tracktype": "grade2",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 586342651,
+      "tags": {
+        "highway": "residential",
+        "name": "Via Croce",
+        "sac_scale": "hiking",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 586342654,
+      "tags": {
+        "highway": "residential",
+        "name": "Via Croce",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 626179813,
+      "tags": {
+        "access": "no",
+        "highway": "path",
+        "horse": "no",
+        "name": "Costa-Ferrada chiuso no bici",
+        "trail_visibility": "horrible",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 685665782,
+      "tags": {
+        "highway": "footway",
+        "name": "Via Ballatoio",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 685666710,
+      "tags": {
+        "highway": "footway",
+        "name": "Via Costa",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 685676112,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Ballatoio",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 685676113,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Ballatoio",
+        "tunnel": "yes",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 685676114,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Ballatoio",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 685811311,
+      "tags": {
+        "highway": "footway",
+        "name": "Via Ballatoio",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 685811312,
+      "tags": {
+        "highway": "footway",
+        "name": "Via Ballatoio",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 685811313,
+      "tags": {
+        "highway": "footway",
+        "name": "Via Roccone",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 685813230,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Piazze",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687311788,
+      "tags": {
+        "boules": "petanque",
+        "leisure": "pitch",
+        "lit": "yes",
+        "name": "Luca Carbone",
+        "sport": "boules",
+        "surface": "gravel",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687312216,
+      "tags": {
+        "highway": "footway",
+        "name": "Via Sopra la Chiesa",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687312226,
+      "tags": {
+        "highway": "footway",
+        "name": "Via Sopra la Chiesa",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687312909,
+      "tags": {
+        "highway": "footway",
+        "name": "Via Sopra la Chiesa",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687312910,
+      "tags": {
+        "highway": "footway",
+        "layer": "-1",
+        "name": "Via Sopra la Chiesa",
+        "tunnel": "yes",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687312911,
+      "tags": {
+        "highway": "residential",
+        "name": "Via Sopra la Chiesa",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687314286,
+      "tags": {
+        "highway": "path",
+        "name": "Via Cà dei Martin",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687405142,
+      "tags": {
+        "highway": "footway",
+        "name": "Via Pozza",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687405144,
+      "tags": {
+        "highway": "footway",
+        "name": "Via Casetto",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687405588,
+      "tags": {
+        "highway": "footway",
+        "name": "Via Costa",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687407268,
+      "tags": {
+        "highway": "footway",
+        "name": "Via Pozza",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687407269,
+      "tags": {
+        "highway": "footway",
+        "name": "Via Pozza",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687536303,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Casetto",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687536304,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Costa della Valle",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687536305,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Cerropiano",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687536521,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Strada Provinciale 22 di Tribogna",
+        "ref": "SP22",
+        "surface": "asphalt",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687547123,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Via Sotto la Chiesa",
+        "surface": "asphalt",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687547125,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Strada Provinciale 22 di Tribogna",
+        "surface": "asphalt",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687549303,
+      "tags": {
+        "highway": "service",
+        "name": "Via Piazzetta",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687549304,
+      "tags": {
+        "highway": "footway",
+        "name": "Via Piazzetta",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687553531,
+      "tags": {
+        "highway": "footway",
+        "name": "Via Piazzetta",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687553532,
+      "tags": {
+        "foot": "yes",
+        "highway": "footway",
+        "name": "Via Piazzetta",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687553534,
+      "tags": {
+        "highway": "footway",
+        "name": "Via Codavilla",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687553535,
+      "tags": {
+        "highway": "footway",
+        "name": "Via Codavilla",
+        "surface": "concrete",
+        "width": "1",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687553536,
+      "tags": {
+        "highway": "footway",
+        "layer": "-1",
+        "name": "Via Codavilla",
+        "surface": "concrete",
+        "tunnel": "yes",
+        "width": "1",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687553537,
+      "tags": {
+        "highway": "footway",
+        "name": "Via Codavilla",
+        "surface": "concrete",
+        "width": "1",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687553538,
+      "tags": {
+        "highway": "footway",
+        "layer": "-1",
+        "name": "Via Codavilla",
+        "surface": "concrete",
+        "tunnel": "yes",
+        "width": "1",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687553539,
+      "tags": {
+        "highway": "footway",
+        "name": "Via Codavilla",
+        "surface": "concrete",
+        "width": "1",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687553992,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Strada della Spinarola",
+        "ref": "SP22",
+        "surface": "asphalt",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687640210,
+      "tags": {
+        "name": "Piazza Nando Soracco",
+        "place": "square",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687640211,
+      "tags": {
+        "highway": "footway",
+        "name": "Via Costa",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687927905,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Via Nuova Spinarola",
+        "surface": "asphalt",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687927906,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Via Brughiera",
+        "surface": "asphalt",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687928614,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Via Stuggia",
+        "surface": "asphalt",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687928615,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Strada Provinciale 22 di Tribogna",
+        "surface": "asphalt",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687931005,
+      "tags": {
+        "highway": "service",
+        "name": "Via Piandestelli",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 689475390,
+      "tags": {
+        "access": "private",
+        "highway": "footway",
+        "name": "Via Pantalei",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 689475391,
+      "tags": {
+        "access": "private",
+        "highway": "service",
+        "name": "Via Pantalei",
+        "service": "driveway",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 689478557,
+      "tags": {
+        "fixme": "approssimativa",
+        "highway": "footway",
+        "name": "Via Piazzetta",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 689478558,
+      "tags": {
+        "highway": "steps",
+        "name": "Via Roccone",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 689478559,
+      "tags": {
+        "highway": "footway",
+        "name": "Via Roccone",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 751167400,
+      "tags": {
+        "name": "Rio Ferre",
+        "ref": "214153_291816",
+        "waterway": "stream",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 751167402,
+      "tags": {
+        "name": "Rio Ferre",
+        "ref": "214153_291846",
+        "waterway": "stream",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 751167403,
+      "tags": {
+        "name": "Rio Ferre",
+        "ref": "214153_291848",
+        "waterway": "stream",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 751167404,
+      "tags": {
+        "name": "Rio Ferre",
+        "ref": "214153_291529",
+        "waterway": "stream",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 961681859,
+      "tags": {
+        "bridge": "yes",
+        "highway": "service",
+        "layer": "1",
+        "name": "Via Rossaia",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 961681860,
+      "tags": {
+        "highway": "service",
+        "name": "Via Rossaia",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 964825973,
+      "tags": {
+        "highway": "unclassified",
+        "maxweight": "24",
+        "name": "Via Chiose",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 964836731,
+      "tags": {
+        "highway": "service",
+        "name": "Via Rossaia",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 964836732,
+      "tags": {
+        "highway": "service",
+        "name": "Via Rossaia",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 964836733,
+      "tags": {
+        "highway": "service",
+        "name": "Via Rossaia",
+        "surface": "asphalt",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 964839958,
+      "tags": {
+        "highway": "unclassified",
+        "maxweight": "24",
+        "name": "Via Casella",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 964840835,
+      "tags": {
+        "highway": "unclassified",
+        "maxweight": "24",
+        "name": "Via Bandie",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1010973798,
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Strada statale 225 della Fontanabuona",
+        "ref": "SS225",
+        "surface": "asphalt",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1010975125,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Strada Provinciale 22 di Tribogna",
+        "ref": "SP22",
+        "surface": "asphalt",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1010975126,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Strada Provinciale 22 di Tribogna",
+        "ref": "SP22",
+        "surface": "asphalt",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1077849141,
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Strada statale 225 della Fontanabuona",
+        "oneway": "no",
+        "ref": "SS225",
+        "surface": "asphalt",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1077849142,
+      "tags": {
+        "bridge": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "50",
+        "name": "Strada statale 225 della Fontanabuona",
+        "ref": "SS225",
+        "surface": "asphalt",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1077849154,
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Strada statale 225 della Fontanabuona",
+        "ref": "SS225",
+        "surface": "asphalt",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1457011005,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Strada Provinciale 22 di Tribogna",
+        "ref": "SP22",
+        "surface": "asphalt",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1465654798,
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Strada statale 225 della Fontanabuona",
+        "ref": "SS225",
+        "surface": "asphalt",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1465654799,
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Strada statale 225 della Fontanabuona",
+        "ref": "SS225",
+        "surface": "asphalt",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1553295889,
+      "tags": {
+        "layer": "-1",
+        "name": "Rio Ferre",
+        "ref": "214153_291846",
+        "tunnel": "culvert",
+        "waterway": "stream",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1553295890,
+      "tags": {
+        "layer": "-1",
+        "name": "Rio Ferre",
+        "ref": "214153_291846",
+        "tunnel": "culvert",
+        "waterway": "stream",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1553497136,
+      "tags": {
+        "layer": "-1",
+        "name": "Rio Ferre",
+        "ref": "214153_291846",
+        "tunnel": "culvert",
+        "waterway": "stream",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1553497137,
+      "tags": {
+        "name": "Rio Ferre",
+        "ref": "214153_291846",
+        "waterway": "stream",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1553497138,
+      "tags": {
+        "name": "Rio Ferre",
+        "ref": "214153_291846",
+        "waterway": "stream",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1553497139,
+      "tags": {
+        "layer": "-1",
+        "name": "Rio Ferre",
+        "ref": "214153_291846",
+        "tunnel": "culvert",
+        "waterway": "stream",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 43128,
+      "tags": {
+        "admin_level": "8",
+        "boundary": "administrative",
+        "gfoss_id": "1320",
+        "name": "Tribogna",
+        "population": "607",
+        "population:date": "2026-08-27",
+        "ref:catasto": "L416",
+        "ref:ISTAT": "010063",
+        "type": "boundary",
+        "wikidata": "Q267342",
+        "wikipedia": "it:Tribogna",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 43130,
+      "tags": {
+        "admin_level": "8",
+        "boundary": "administrative",
+        "name": "Cicagna",
+        "population": "2358",
+        "population:date": "2026-08-28",
+        "ref:catasto": "C673",
+        "ref:ISTAT": "010016",
+        "type": "boundary",
+        "wikidata": "Q267199",
+        "wikipedia": "it:Cicagna",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 44876,
+      "tags": {
+        "admin_level": "8",
+        "boundary": "administrative",
+        "gfoss_id": "1293",
+        "name": "Moconesi",
+        "population": "2433",
+        "population:date": "2026-08-28",
+        "ref:catasto": "F256",
+        "ref:ISTAT": "010036",
+        "source": "geodati.gfoss.it",
+        "source:population": "ANPR 2026",
+        "type": "boundary",
+        "wikidata": "Q267284",
+        "wikipedia": "it:Moconesi",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 1782624,
+      "tags": {
+        "cycle_network": "Bicitalia",
+        "description": "Proposed National Cycleway BI-19 Ciclovia Tirrenica",
+        "from": "Ventimiglia",
+        "name": "Ciclovia Tirrenica",
+        "network": "ncn",
+        "note": "please do not modify without consulting with www.bicitalia.it",
+        "operator": "FIAB",
+        "ref": "BI-19",
+        "route": "bicycle",
+        "to": "Latina",
+        "type": "route",
+        "url": "https://www.bicitalia.org/it/bicitalia/gli-itinerari-bicitalia/193-bi19-ciclovia-tirrenica",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 2562291,
+      "tags": {
+        "cycle_network": "Bicitalia",
+        "name": "Ciclovia Francigena - variante Moncenisio",
+        "network": "ncn",
+        "note": "Please do not modify without consulting with www.bicitalia.org",
+        "operator": "Bicitalia",
+        "ref": "BI-3 var. Moncenisio",
+        "route": "bicycle",
+        "source": "http://www.bicitalia.org/",
+        "type": "route",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 13509451,
+      "tags": {
+        "cai_scale": "E",
+        "name": "Cicagna - Acquapendente - Monte Caucaso - Barbagelata",
+        "network": "lwn",
+        "osmc:symbol": "red:white:red_triangle",
+        "route": "hiking",
+        "source": "FIE",
+        "type": "route",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 13535544,
+      "tags": {
+        "cai_scale": "E",
+        "from": "Terrarossa Colombo",
+        "name": "Itinerario Storico Colombiano (ISC)",
+        "network": "lwn",
+        "osmc:symbol": "red:white:red_corner:ISC:black",
+        "route": "hiking",
+        "source": "FIE",
+        "to": "Nervi",
+        "type": "route",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 13546483,
+      "tags": {
+        "cai_scale": "E",
+        "from": "terrarossa colombo",
+        "name": "Itinerario dei 2 Golfi",
+        "network": "lwn",
+        "osmc:symbol": "red:red::2G:white",
+        "route": "hiking",
+        "source": "survey",
+        "to": "portofino mare",
+        "type": "route",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 16829453,
+      "tags": {
+        "name": "Strada statale 225 della Fontanabuona",
+        "ref": "SS 225",
+        "route": "road",
+        "type": "route",
+        "wikidata": "Q3542120",
+        "wikipedia": "it:Strada statale 225 della Val Fontanabuona",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 18827498,
+      "tags": {
+        "description": "La ciclovia dell’Ardesia (o dell'Entella) è un percorso ciclabile che risale il fiume Entella, alla scoperta della natura e della storia della Val Fontanabuona. Nei pressi di Cogorno da vedere la Basilica dei Fieschi, antica cattedrale medioevale.",
+        "distance": "33",
+        "from": "Lavagna",
+        "name": "Ciclovia dell'Ardesia",
+        "network": "rcn",
+        "route": "bicycle",
+        "to": "Gattorna",
+        "type": "route",
+        "website": "https://lamialiguria.it/2023/03/ciclovia-ardesia/",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 19721088,
+      "tags": {
+        "colour": "green",
+        "description": "991 Gattorna - Moconesi alto",
+        "fee": "yes",
+        "from": "Gattorna",
+        "name": "991 Gattorna - Moconesi alto",
+        "network": "AMT Linee Provinciali",
+        "network:wikidata": "Q295335",
+        "network:wikipedia": "it:AMT (Genova)",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "991",
+        "route": "bus",
+        "to": "Moconesi alto",
+        "type": "route",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 19772404,
+      "tags": {
+        "bus": "yes",
+        "colour": "green",
+        "description": "Genova Brignole - Bargagli - Gattorna - Carasco - Chiavari",
+        "from": "Genova Brignole (v.Caviglia)",
+        "name": "715 Chiavari Nassiriya",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "network:wikipedia": "it:AMT (Genova)",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "715",
+        "route": "bus",
+        "to": "Chiavari Nassiriya",
+        "type": "route",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 19935586,
+      "tags": {
+        "bus": "yes",
+        "colour": "green",
+        "description": "869 Calcinara - Tribogna - Gattorna",
+        "from": "Calcinara",
+        "name": "869 Gattorna",
+        "network": "AMT Linee Provinciali",
+        "network:wikipedia": "it:AMT (Genova)",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "869",
+        "route": "bus",
+        "to": "Gattorna",
+        "type": "route",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 19940351,
+      "tags": {
+        "bus": "yes",
+        "colour": "green",
+        "description": "869 Gattorna - Tribogna - Calcinara",
+        "from": "Gattorna",
+        "name": "869 Calcinara",
+        "network": "AMT Linee Provinciali",
+        "network:wikipedia": "it:AMT (Genova)",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "869",
+        "route": "bus",
+        "to": "Calcinara",
+        "type": "route",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 20063787,
+      "tags": {
+        "bus": "yes",
+        "colour": "green",
+        "description": "935 Calvari - Gattorna",
+        "from": "Calvari",
+        "name": "935 Gattorna",
+        "network": "AMT Linee Provinciali",
+        "network:wikipedia": "it:AMT (Genova)",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "935",
+        "route": "bus",
+        "to": "Gattorna",
+        "type": "route",
+        "addr:city_extracted": "Moconesi"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 20103013,
+      "tags": {
+        "bus": "yes",
+        "colour": "green",
+        "description": "Chiavari - Carasco - Gattorna - Bargagli - Genova Brignole",
+        "duration": "1:59",
+        "from": "Chiavari Nassiriya",
+        "name": "715 Genova Brignole",
+        "network": "AMT Linee Provinciali",
+        "network:wikidata": "Q295335",
+        "network:wikipedia": "it:AMT (Genova)",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "715",
+        "route": "bus",
+        "to": "Genova Brignole (v.Caviglia)",
+        "type": "route",
+        "addr:city_extracted": "Moconesi"
+      }
+    }
+  ]
+}

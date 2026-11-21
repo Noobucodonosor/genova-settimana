@@ -1,0 +1,769 @@
+{
+  "version": 0.6,
+  "generator": "OpenStreetMap v0.6 API",
+  "comune": "Rovegno",
+  "elements": [
+    {
+      "type": "node",
+      "id": 66586505,
+      "tags": {
+        "gfoss_id": "1309",
+        "name": "Rovegno",
+        "place": "village",
+        "population": "558",
+        "source": "geodati.gfoss.it",
+        "wikidata": "Q266441",
+        "wikipedia": "it:Rovegno",
+        "addr:city_extracted": "Rovegno"
+      },
+      "lat": 44.5767478,
+      "lon": 9.2791616
+    },
+    {
+      "type": "node",
+      "id": 374371628,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Fraz. Isola Centro",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4712",
+        "zone_id": "92",
+        "addr:city_extracted": "Rovegno"
+      },
+      "lat": 44.5749284,
+      "lon": 9.2716616
+    },
+    {
+      "type": "node",
+      "id": 433467562,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Fraz. Isola civ. 2 Centro",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4711",
+        "zone_id": "92",
+        "addr:city_extracted": "Rovegno"
+      },
+      "lat": 44.5750999,
+      "lon": 9.2712173
+    },
+    {
+      "type": "node",
+      "id": 1675607531,
+      "tags": {
+        "amenity": "post_office",
+        "name": "Rovegno",
+        "ref": "28332",
+        "addr:city_extracted": "Rovegno"
+      },
+      "lat": 44.5769058,
+      "lon": 9.2787784
+    },
+    {
+      "type": "node",
+      "id": 1675608450,
+      "tags": {
+        "amenity": "school",
+        "name": "Istituto Comprensivo Val Trebbia",
+        "website": "www.icvaltrebbia.gov.it",
+        "addr:city_extracted": "Rovegno"
+      },
+      "lat": 44.5770969,
+      "lon": 9.2786389
+    },
+    {
+      "type": "node",
+      "id": 1675608799,
+      "tags": {
+        "amenity": "bar",
+        "name": "Bar Biasotti",
+        "addr:city_extracted": "Rovegno"
+      },
+      "lat": 44.5768294,
+      "lon": 9.278596
+    },
+    {
+      "type": "node",
+      "id": 1896395666,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Pizzeria Trattoria Alimentari Isola",
+        "addr:city_extracted": "Rovegno"
+      },
+      "lat": 44.5752296,
+      "lon": 9.2711669
+    },
+    {
+      "type": "node",
+      "id": 1930812796,
+      "tags": {
+        "ele": "580",
+        "gfoss_id": "36382",
+        "istat_id": "1005220004",
+        "name": "Isola",
+        "place": "hamlet",
+        "population": "42",
+        "source": "Istat 2001 - geodati.gfoss.it",
+        "wikidata": "Q18457857",
+        "addr:city_extracted": "Rovegno"
+      },
+      "lat": 44.5754478,
+      "lon": 9.270423
+    },
+    {
+      "type": "node",
+      "id": 1930812813,
+      "tags": {
+        "ele": "635",
+        "gfoss_id": "36385",
+        "istat_id": "1005220007",
+        "name": "Poggio-Valle",
+        "place": "hamlet",
+        "population": "46",
+        "source": "Istat 2001 - geodati.gfoss.it",
+        "wikidata": "Q18458666",
+        "addr:city_extracted": "Rovegno"
+      },
+      "lat": 44.571614,
+      "lon": 9.2792476
+    },
+    {
+      "type": "node",
+      "id": 2338632864,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Della Baracchina F. Campeggio",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4663",
+        "zone_id": "93",
+        "addr:city_extracted": "Rovegno"
+      },
+      "lat": 44.5839347,
+      "lon": 9.2747246
+    },
+    {
+      "type": "node",
+      "id": 2454001177,
+      "tags": {
+        "name": "Moglia",
+        "place": "hamlet",
+        "addr:city_extracted": "Rovegno"
+      },
+      "lat": 44.5701896,
+      "lon": 9.2664528
+    },
+    {
+      "type": "node",
+      "id": 2454035454,
+      "tags": {
+        "name": "Ca' dei Giambin",
+        "place": "isolated_dwelling",
+        "addr:city_extracted": "Rovegno"
+      },
+      "lat": 44.5878083,
+      "lon": 9.2731258
+    },
+    {
+      "type": "node",
+      "id": 2524231465,
+      "tags": {
+        "name": "Fonte del Galetto",
+        "natural": "spring",
+        "addr:city_extracted": "Rovegno"
+      },
+      "lat": 44.5840172,
+      "lon": 9.2849978
+    },
+    {
+      "type": "node",
+      "id": 4300597533,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Della Baracchina Campeggio",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4644",
+        "zone_id": "93",
+        "addr:city_extracted": "Rovegno"
+      },
+      "lat": 44.5841538,
+      "lon": 9.2749401
+    },
+    {
+      "type": "node",
+      "id": 4359224705,
+      "tags": {
+        "name": "Punto panoramico",
+        "tourism": "viewpoint",
+        "addr:city_extracted": "Rovegno"
+      },
+      "lat": 44.5736216,
+      "lon": 9.2608526
+    },
+    {
+      "type": "node",
+      "id": 4377936028,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Bivio Isola",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4665",
+        "zone_id": "92",
+        "addr:city_extracted": "Rovegno"
+      },
+      "lat": 44.5656251,
+      "lon": 9.2810275
+    },
+    {
+      "type": "node",
+      "id": 4377936029,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Loc. Valle F. 36 Fr. Di Rovegno",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4664",
+        "zone_id": "92",
+        "addr:city_extracted": "Rovegno"
+      },
+      "lat": 44.5713194,
+      "lon": 9.2788897
+    },
+    {
+      "type": "node",
+      "id": 8754707555,
+      "tags": {
+        "historic": "memorial",
+        "inscription": "A BISAGNO AI CADUTI DELLE FORMAZIONI CICHERO ALLE POPOLAZIONI DI QUESTE VALLATE",
+        "name": "Memoriale a Aldo Gastaldi",
+        "addr:city_extracted": "Rovegno"
+      },
+      "lat": 44.5656185,
+      "lon": 9.2813918
+    },
+    {
+      "type": "node",
+      "id": 9544762984,
+      "tags": {
+        "name": "Costa Ciamparin",
+        "place": "locality",
+        "addr:city_extracted": "Rovegno"
+      },
+      "lat": 44.5870251,
+      "lon": 9.2674291
+    },
+    {
+      "type": "node",
+      "id": 11181154838,
+      "tags": {
+        "name": "cascata",
+        "name:en": "waterfall",
+        "waterway": "waterfall",
+        "addr:city_extracted": "Rovegno"
+      },
+      "lat": 44.5826384,
+      "lon": 9.2852364
+    },
+    {
+      "type": "node",
+      "id": 12331216325,
+      "tags": {
+        "historic": "monument",
+        "material": "marble",
+        "name": "San Giovanni",
+        "addr:city_extracted": "Rovegno"
+      },
+      "lat": 44.5851718,
+      "lon": 9.2629458
+    },
+    {
+      "type": "node",
+      "id": 13205298693,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Capolinea Piazza Carbone 151",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4643",
+        "zone_id": "92",
+        "addr:city_extracted": "Rovegno"
+      },
+      "lat": 44.5757867,
+      "lon": 9.279265
+    },
+    {
+      "type": "node",
+      "id": 13295342586,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "F. Bivio Isola",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4641",
+        "zone_id": "92",
+        "addr:city_extracted": "Rovegno"
+      },
+      "lat": 44.566142,
+      "lon": 9.280147
+    },
+    {
+      "type": "node",
+      "id": 13295342587,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Bivio Rovegno",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4710",
+        "zone_id": "92",
+        "addr:city_extracted": "Rovegno"
+      },
+      "lat": 44.565776,
+      "lon": 9.2811332
+    },
+    {
+      "type": "node",
+      "id": 13305470386,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Loc. Valle 36 Fr. Di Rovegno",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4642",
+        "zone_id": "92",
+        "addr:city_extracted": "Rovegno"
+      },
+      "lat": 44.5713693,
+      "lon": 9.2791319
+    },
+    {
+      "type": "node",
+      "id": 13305470391,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Bivio Isola",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4713",
+        "zone_id": "92",
+        "addr:city_extracted": "Rovegno"
+      },
+      "lat": 44.566019,
+      "lon": 9.2805535
+    },
+    {
+      "type": "way",
+      "id": 74338325,
+      "tags": {
+        "highway": "secondary",
+        "name": "Via Relama",
+        "ref": "SP18",
+        "surface": "asphalt",
+        "addr:city_extracted": "Rovegno"
+      }
+    },
+    {
+      "type": "way",
+      "id": 183896904,
+      "tags": {
+        "landuse": "cemetery",
+        "name": "Cimitero di Rovegno",
+        "wikidata": "Q107003001",
+        "addr:city_extracted": "Rovegno"
+      }
+    },
+    {
+      "type": "way",
+      "id": 183896995,
+      "tags": {
+        "amenity": "place_of_worship",
+        "denomination": "catholic",
+        "name": "San Giovanni Evangelista",
+        "religion": "christian",
+        "wikidata": "Q3670521",
+        "wikipedia": "it:Chiesa di San Giovanni Evangelista (Rovegno)",
+        "addr:city_extracted": "Rovegno"
+      }
+    },
+    {
+      "type": "way",
+      "id": 200164464,
+      "tags": {
+        "boundary": "protected_area",
+        "hunting": "no",
+        "leisure": "nature_reserve",
+        "name": "Parco Regionale dell'Antola",
+        "protect_class": "2",
+        "protection_code": "EUAP0965",
+        "protection_title": "Area Protetta Regionale",
+        "site_zone": "5.0",
+        "source": "Dai dati realizzati da Regione Liguria \"Aree Protette e relativi piani\" Anno 01/10/2012 scala 1:25000",
+        "addr:city_extracted": "Rovegno"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204443998,
+      "tags": {
+        "amenity": "townhall",
+        "building": "yes",
+        "name": "Municipio",
+        "source": "Regione Liguria",
+        "website": "https://www.comune.rovegno.ge.it/",
+        "addr:city_extracted": "Rovegno"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204446012,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "chapel",
+        "denomination": "catholic",
+        "name": "Chiesa di Santo Stefano",
+        "religion": "christian",
+        "source": "Regione Liguria",
+        "wikidata": "Q3674288",
+        "wikipedia": "it:Chiesa di Santo Stefano (Gorreto)",
+        "addr:city_extracted": "Rovegno"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204446055,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "La Taverna",
+        "source": "Regione Liguria",
+        "addr:city_extracted": "Rovegno"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204446227,
+      "tags": {
+        "addr:city": "Rovegno",
+        "addr:postcode": "16028",
+        "addr:street": "Piazza Valerio Carboni",
+        "amenity": "post_office",
+        "atm": "yes",
+        "building": "yes",
+        "name": "Poste Italiane",
+        "operator": "Poste Italiane",
+        "operator:wikidata": "Q495026",
+        "source": "https://www.lavocedigenova.it/2025/11/12/amp/argomenti/economia-2/articolo/poste-italiane-corre-il-progetto-polis-a-genova-e-nel-levante-al-servizio-delle-comunita-locali.html",
+        "addr:city_extracted": "Rovegno"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204483468,
+      "tags": {
+        "amenity": "place_of_worship",
+        "denomination": "catholic",
+        "name": "Chiesa di San Matteo",
+        "religion": "christian",
+        "addr:city_extracted": "Rovegno"
+      }
+    },
+    {
+      "type": "way",
+      "id": 347276706,
+      "tags": {
+        "denomination": "catholic",
+        "landuse": "cemetery",
+        "name": "Cimitero di Fontanarossa",
+        "religion": "christian",
+        "wikidata": "Q107002860",
+        "addr:city_extracted": "Rovegno"
+      }
+    },
+    {
+      "type": "way",
+      "id": 366998052,
+      "tags": {
+        "area": "yes",
+        "highway": "residential",
+        "name": "Piazza del paese",
+        "addr:city_extracted": "Rovegno"
+      }
+    },
+    {
+      "type": "way",
+      "id": 366999077,
+      "tags": {
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "track",
+        "horse": "yes",
+        "mtb:scale": "2",
+        "mtb:scale:uphill": "1",
+        "name": "Sentiero Spescia - Borgo (fraz. di Fontanarossa)",
+        "note": "Dal lato di Fontanarossa il sentiero è mangiato dagli alberi, urgente manutenzione (roncola)",
+        "sac_scale": "hiking",
+        "surface": "ground",
+        "tracktype": "grade3",
+        "trail_visibility": "excellent",
+        "addr:city_extracted": "Rovegno"
+      }
+    },
+    {
+      "type": "way",
+      "id": 367001032,
+      "tags": {
+        "building": "chapel",
+        "name": "Cappella fatiscente",
+        "addr:city_extracted": "Rovegno"
+      }
+    },
+    {
+      "type": "way",
+      "id": 430790711,
+      "tags": {
+        "addr:city": "Rovegno",
+        "addr:housenumber": "17",
+        "addr:street": "Via alla Baracchina",
+        "cabins": "yes",
+        "caravans": "yes",
+        "dog": "yes",
+        "email": "info@campeggiofontanelle.it",
+        "fee": "yes",
+        "motorhome": "yes",
+        "name": "Camping le Fontanelle",
+        "phone": "+39 010 955114",
+        "power_supply": "yes",
+        "socket:cee_blue": "yes",
+        "tents": "yes",
+        "tourism": "camp_site",
+        "website": "https://www.campeggiolefontanelle.it/",
+        "addr:city_extracted": "Rovegno"
+      }
+    },
+    {
+      "type": "way",
+      "id": 447915298,
+      "tags": {
+        "name": "Fosso della Vecchia Chiesa",
+        "waterway": "stream",
+        "addr:city_extracted": "Rovegno"
+      }
+    },
+    {
+      "type": "way",
+      "id": 481026342,
+      "tags": {
+        "highway": "track",
+        "name": "Strada della Colonia",
+        "surface": "gravel",
+        "tracktype": "grade2",
+        "addr:city_extracted": "Rovegno"
+      }
+    },
+    {
+      "type": "way",
+      "id": 968782519,
+      "tags": {
+        "boat": "no",
+        "name": "Trebbia",
+        "waterway": "river",
+        "width": "200",
+        "addr:city_extracted": "Rovegno"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 34933,
+      "tags": {
+        "alt_name": "Strada statale 45 di Val Trebbia e del Caffaro",
+        "name": "Strada Statale 45 di Val Trebbia",
+        "ref": "SS45",
+        "route": "road",
+        "type": "route",
+        "wikidata": "Q3975172",
+        "wikipedia": "it:Strada statale 45 di Val Trebbia",
+        "addr:city_extracted": "Rovegno"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 43295,
+      "tags": {
+        "admin_level": "8",
+        "boundary": "administrative",
+        "name": "Rovegno",
+        "population": "476",
+        "population:date": "2026-08-28",
+        "ref:catasto": "H599",
+        "ref:ISTAT": "010052",
+        "source:population": "ANPR 2026",
+        "type": "boundary",
+        "wikidata": "Q266441",
+        "wikipedia": "it:Rovegno",
+        "addr:city_extracted": "Rovegno"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 43358,
+      "tags": {
+        "admin_level": "8",
+        "boundary": "administrative",
+        "name": "Gorreto",
+        "population": "86",
+        "population:date": "2026-08-28",
+        "ref:catasto": "E109",
+        "ref:ISTAT": "010026",
+        "source:population": "ANPR 2026",
+        "type": "boundary",
+        "wikidata": "Q266338",
+        "wikipedia": "it:Gorreto",
+        "addr:city_extracted": "Rovegno"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 2235489,
+      "tags": {
+        "destination": "Po",
+        "name": "Trebbia",
+        "type": "waterway",
+        "waterway": "river",
+        "wikidata": "Q732587",
+        "wikipedia": "it:Trebbia",
+        "addr:city_extracted": "Rovegno"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 19695087,
+      "tags": {
+        "bus": "yes",
+        "colour": "green",
+        "description": "925 Ottone - Gorreto - Rovegno",
+        "from": "Ottone",
+        "name": "925 Ottone - Rovegno",
+        "network": "AMT Linee Provinciali",
+        "network:wikidata": "Q295335",
+        "network:wikipedia": "it:AMT (Genova)",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "925",
+        "route": "bus",
+        "to": "Rovegno",
+        "type": "route",
+        "addr:city_extracted": "Rovegno"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 19838932,
+      "tags": {
+        "bus": "yes",
+        "colour": "green",
+        "description": "925 Torriglia (Loc. Laccetto) - Montebruno - Loco - Rovegno - Ottone",
+        "from": "Torriglia (Laccetto)",
+        "name": "925 Torriglia - Ottone",
+        "network": "AMT Linee Provinciali",
+        "network:wikidata": "Q295335",
+        "network:wikipedia": "it:AMT (Genova)",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "925",
+        "route": "bus",
+        "to": "Ottone",
+        "type": "route",
+        "addr:city_extracted": "Rovegno"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 19838933,
+      "tags": {
+        "bus": "yes",
+        "colour": "green",
+        "description": "926 Torriglia (Laccetto) - Casoni - Fontanigorda - Rovegno",
+        "from": "Torriglia",
+        "name": "926 Torriglia (Laccetto) - Rovegno (via Fontanigorda)",
+        "network": "AMT Linee Provinciali",
+        "network:wikidata": "Q295335",
+        "network:wikipedia": "it:AMT (Genova)",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "926",
+        "route": "bus",
+        "to": "Rovegno",
+        "type": "route",
+        "addr:city_extracted": "Rovegno"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 19918392,
+      "tags": {
+        "bus": "yes",
+        "colour": "green",
+        "description": "925 Ottone Torriglia (Loc. Laccetto) - Montebruno - Loco - Rovegno -",
+        "from": "Ottone",
+        "name": "925 Ottone - Torriglia",
+        "network": "AMT Linee Provinciali",
+        "network:wikidata": "Q295335",
+        "network:wikipedia": "it:AMT (Genova)",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "925",
+        "route": "bus",
+        "to": "Torriglia (Laccetto)",
+        "type": "route",
+        "addr:city_extracted": "Rovegno"
+      }
+    }
+  ]
+}

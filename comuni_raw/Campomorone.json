@@ -1,0 +1,2528 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-11-01T21:05:21Z",
+    "timestamp_areas_base": "2026-11-01T18:30:20Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 1239114591,
+  "tags": {
+    "historic": "memorial",
+    "name": "Sacrario dei martiri di Passo Mezzano"
+  }
+},
+{
+  "type": "node",
+  "id": 3916064542,
+  "tags": {
+    "historic": "memorial",
+    "memorial": "plaque",
+    "name": "Lapide partigiana"
+  }
+},
+{
+  "type": "node",
+  "id": 3932263953,
+  "tags": {
+    "historic": "memorial",
+    "memorial": "plaque",
+    "name": "Targa alla visita di Pio VII"
+  }
+},
+{
+  "type": "node",
+  "id": 5390811630,
+  "tags": {
+    "denomination": "catholic",
+    "historic": "wayside_shrine",
+    "name": "Edicola votiva itineraria del Segnü Neigro",
+    "religion": "christian",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 7154494032,
+  "tags": {
+    "contact:city": "Campomorone",
+    "contact:housenumber": "14 rosso",
+    "contact:postcode": "16014",
+    "contact:street": "Via Primo Cavallieri",
+    "museum": "history",
+    "name": "Museo storico della Croce Rossa",
+    "operator": "Croce Rossa Italiana",
+    "operator:wikidata": "Q913903",
+    "operator:wikipedia": "it:Croce Rossa Italiana",
+    "tourism": "museum",
+    "wikidata": "Q55348183"
+  }
+},
+{
+  "type": "node",
+  "id": 9366047744,
+  "tags": {
+    "addr:city": "Campomorone",
+    "addr:postcode": "16014",
+    "addr:street": "Via Antonio Gavino",
+    "museum": "children",
+    "name": "Museo delle Marionette",
+    "operator": "Comune di Campomorone",
+    "operator:type": "public",
+    "phone": "+39 010 7224312",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 9366051767,
+  "tags": {
+    "addr:city": "Campomorone",
+    "addr:postcode": "16014",
+    "addr:street": "Via Antonio Gavino",
+    "fee": "no",
+    "museum": "nature",
+    "name": "Museo di Paleontologia e Mineralogia",
+    "opening_hours": "Mo-Fr 09:00-12:00; Tu, Th 14:30-17:30; Sa, Su, PH off",
+    "operator": "Comune di Campomorone",
+    "operator:type": "public",
+    "phone": "+39 010 7224314",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 13242853462,
+  "tags": {
+    "historic": "memorial",
+    "memorial": "stele",
+    "name": "Memoriale Albo d'Oro del Giro dell'Appennino"
+  }
+},
+{
+  "type": "node",
+  "id": 14315779367,
+  "tags": {
+    "historic": "memorial",
+    "inscription": "Ti pensiamo mentre percorri sentieri sconosciuti. Ciao Paolo...",
+    "material": "metal",
+    "memorial": "plaque",
+    "name": "A Paolo",
+    "support": "rock"
+  }
+},
+{
+  "type": "way",
+  "id": 26286459,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "secondary",
+    "lane_markings": "no",
+    "name": "SP5 della Bocchetta (Antica Via Postumia)",
+    "ref": "SP5",
+    "sidewalk": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 26286548,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "secondary",
+    "name": "Via Martiri della Libertà",
+    "ref": "SP6",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 26286841,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "secondary",
+    "lane_markings": "no",
+    "lit": "no",
+    "name": "Via dei Marmi SP5 della Bocchetta (Antica Via Postumia)",
+    "parking:both": "no",
+    "ref": "SP5",
+    "sidewalk": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 26602792,
+  "tags": {
+    "highway": "secondary",
+    "name": "Via Bartolomeo Parodi",
+    "ref": "SP4",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 26602847,
+  "tags": {
+    "bicycle": "designated",
+    "highway": "track",
+    "name": "Sterrata dei Laghi",
+    "oneway": "no",
+    "surface": "dirt",
+    "tracktype": "grade2",
+    "trail_visibility": "excellent"
+  }
+},
+{
+  "type": "way",
+  "id": 26602927,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "track",
+    "name": "Sterrata dei Laghi",
+    "oneway": "no",
+    "ref": "AVML - Alta Via dei Monti Liguri - Tappa 23",
+    "tracktype": "grade2",
+    "trail_visibility": "excellent"
+  }
+},
+{
+  "type": "way",
+  "id": 26619836,
+  "tags": {
+    "highway": "service",
+    "name": "Via Sotto la Chiesa",
+    "service": "driveway"
+  }
+},
+{
+  "type": "way",
+  "id": 40696256,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Cielmezzano",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 40696258,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "secondary",
+    "lane_markings": "no",
+    "name": "Via Marianna Pizzorni",
+    "ref": "SP5",
+    "sidewalk": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 52520836,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Stefano Pittaluga",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 52520951,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Rutta",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 52587373,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Chiappa",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 52587459,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "tertiary",
+    "name": "Via alla Caffarella",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 59449574,
+  "tags": {
+    "highway": "tertiary",
+    "lane_markings": "no",
+    "name": "Via Antonio Pacinotti",
+    "surface": "asphalt",
+    "width": "10"
+  }
+},
+{
+  "type": "way",
+  "id": 59449577,
+  "tags": {
+    "bridge": "yes",
+    "highway": "tertiary",
+    "layer": "1",
+    "name": "Via Antonio Pacinotti",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 59449578,
+  "tags": {
+    "highway": "tertiary",
+    "lanes": "2",
+    "name": "Via 2 Agosto 1980",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 59460319,
+  "tags": {
+    "access": "yes",
+    "bicycle": "yes",
+    "cycleway": "yes",
+    "highway": "tertiary",
+    "name": "Via alla Caffarella",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 74795271,
+  "tags": {
+    "fixme": "check if is it only footway",
+    "highway": "residential",
+    "name": "Via Battista Trucco"
+  }
+},
+{
+  "type": "way",
+  "id": 74795284,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "tertiary",
+    "name": "Via Martiri della Libertà",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 74795344,
+  "tags": {
+    "bridge": "yes",
+    "highway": "unclassified",
+    "layer": "1",
+    "name": "Ponte della Ferriera"
+  }
+},
+{
+  "type": "way",
+  "id": 74795351,
+  "tags": {
+    "bridge": "yes",
+    "highway": "secondary",
+    "layer": "1",
+    "name": "Via Bartolomeo Parodi",
+    "ref": "SP4 Dir",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 74795397,
+  "tags": {
+    "alt_name": "Via Lombardo Conte Ernesto",
+    "highway": "secondary",
+    "name": "Via Conte E. Lombardo",
+    "ref": "SP4",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 75275743,
+  "tags": {
+    "access": "yes",
+    "bicycle": "yes",
+    "cycleway": "yes",
+    "highway": "tertiary",
+    "name": "Via alla Caffarella",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 75406239,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Villa Berrone",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 75406241,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Villa Berrone",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 118927741,
+  "tags": {
+    "access": "private",
+    "highway": "unclassified",
+    "name": "Via Montagnola"
+  }
+},
+{
+  "type": "way",
+  "id": 118929660,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Lastrico",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 119772517,
+  "tags": {
+    "access": "yes",
+    "highway": "unclassified",
+    "name": "Via Montagnola",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 119772518,
+  "tags": {
+    "access": "yes",
+    "bicycle": "yes",
+    "bridge": "yes",
+    "cycleway": "no",
+    "highway": "unclassified",
+    "layer": "1",
+    "name": "Via Montagnola",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 161585998,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "secondary",
+    "name": "Via Antonio Gavino",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 169593067,
+  "tags": {
+    "amenity": "arts_centre",
+    "building": "yes",
+    "name": "Cabannun"
+  }
+},
+{
+  "type": "way",
+  "id": 169830437,
+  "tags": {
+    "amenity": "school",
+    "name": "Scuola Secondaria di Primo Grado \"Alice Noli\""
+  }
+},
+{
+  "type": "way",
+  "id": 169832985,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Mario Zino",
+    "oneway": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 169832987,
+  "tags": {
+    "highway": "unclassified",
+    "maxweight": "7",
+    "name": "Via Viola Pallavicino Spinola",
+    "oneway": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 169832989,
+  "tags": {
+    "highway": "residential",
+    "maxspeed": "30",
+    "motor_vehicle": "private",
+    "name": "Via Mario Zino"
+  }
+},
+{
+  "type": "way",
+  "id": 169834068,
+  "tags": {
+    "name": "Piazzale Giacomo Rivera",
+    "place": "square"
+  }
+},
+{
+  "type": "way",
+  "id": 169834359,
+  "tags": {
+    "highway": "residential",
+    "name": "Via al Bricco"
+  }
+},
+{
+  "type": "way",
+  "id": 170268958,
+  "tags": {
+    "highway": "tertiary_link",
+    "name": "Ponte della Ferriera",
+    "oneway": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 170268959,
+  "tags": {
+    "highway": "tertiary_link",
+    "name": "Via Rapallo",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 179411181,
+  "tags": {
+    "access": "private",
+    "highway": "track",
+    "name": "Sterrata dei Laghi",
+    "sac_scale": "mountain_hiking",
+    "surface": "paved",
+    "tracktype": "grade3"
+  }
+},
+{
+  "type": "way",
+  "id": 180209594,
+  "tags": {
+    "highway": "service",
+    "name": "Piazza Guglielmo Marconi",
+    "service": "parking_aisle",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 180209595,
+  "tags": {
+    "highway": "service",
+    "name": "Piazza Guglielmo Marconi",
+    "service": "parking_aisle",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 183575917,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Stefano Pittaluga"
+  }
+},
+{
+  "type": "way",
+  "id": 183577285,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Castellaro"
+  }
+},
+{
+  "type": "way",
+  "id": 183579903,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via della Chiesa (Antica Via Postumia)"
+  }
+},
+{
+  "type": "way",
+  "id": 183579918,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Madonna delle Vigne (Antica Via Postumia)"
+  }
+},
+{
+  "type": "way",
+  "id": 184465892,
+  "tags": {
+    "bridge": "yes",
+    "highway": "secondary",
+    "layer": "1",
+    "name": "Via Bartolomeo Parodi",
+    "ref": "SP4",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 184467343,
+  "tags": {
+    "highway": "residential",
+    "lane_markings": "no",
+    "name": "Piazza Guglielmo Marconi",
+    "service": "parking_aisle",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 185529586,
+  "tags": {
+    "highway": "track",
+    "name": "Via Lavaggi e Berche"
+  }
+},
+{
+  "type": "way",
+  "id": 185993814,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Madonna delle Vigne (Antica Via Postumia)"
+  }
+},
+{
+  "type": "way",
+  "id": 185994613,
+  "tags": {
+    "highway": "track",
+    "name": "Via Augusto Cavenna",
+    "surface": "asphalt",
+    "tracktype": "grade1"
+  }
+},
+{
+  "type": "way",
+  "id": 190977121,
+  "tags": {
+    "highway": "path",
+    "name": "Antica Via Postumia",
+    "surface": "dirt",
+    "tracktype": "grade4"
+  }
+},
+{
+  "type": "way",
+  "id": 190980360,
+  "tags": {
+    "highway": "path",
+    "name": "Tre bolli rossi",
+    "sac_scale": "mountain_hiking",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 193947629,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Brenia",
+    "sac_scale": "hiking",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 204216879,
+  "tags": {
+    "alt_name": "Palazzo Pinelli Balbi",
+    "amenity": "townhall",
+    "building": "yes",
+    "name": "Comune di Campomorone",
+    "source": "Regione Liguria",
+    "start_date": "sec. XVI"
+  }
+},
+{
+  "type": "way",
+  "id": 204218251,
+  "tags": {
+    "amenity": "school",
+    "building": "yes",
+    "name": "Scuola Elementare San Giovanni Bosco",
+    "source": "Regione Liguria"
+  }
+},
+{
+  "type": "way",
+  "id": 204223897,
+  "tags": {
+    "amenity": "theatre",
+    "building": "house",
+    "check_date": "2025-08-26",
+    "name": "Teatro",
+    "source": "Regione Liguria"
+  }
+},
+{
+  "type": "way",
+  "id": 204230822,
+  "tags": {
+    "building": "yes",
+    "leisure": "sports_centre",
+    "name": "Palestra",
+    "source": "Regione Liguria"
+  }
+},
+{
+  "type": "way",
+  "id": 208860953,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Pace",
+    "oneway": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 211917282,
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Strada Provinciale 6 di Isoverde",
+    "ref": "SP6",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 211917283,
+  "tags": {
+    "highway": "tertiary",
+    "lanes": "2",
+    "name": "Via Antonio Pacinotti",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 211917285,
+  "tags": {
+    "alt_name": "Strada Provinciale 6 di Isoverde",
+    "highway": "secondary",
+    "lane_markings": "no",
+    "name": "Via Clemente Rebora",
+    "oneway": "yes",
+    "ref": "SP6",
+    "surface": "asphalt",
+    "width": "3"
+  }
+},
+{
+  "type": "way",
+  "id": 211917286,
+  "tags": {
+    "highway": "residential",
+    "lane_markings": "no",
+    "name": "Via Ennio Del Monte",
+    "oneway": "no",
+    "surface": "asphalt",
+    "width": "3.5"
+  }
+},
+{
+  "type": "way",
+  "id": 211917288,
+  "tags": {
+    "alt_name": "Strada Provinciale 6 di Isoverde",
+    "highway": "secondary",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Via Isoverde",
+    "oneway": "no",
+    "ref": "SP6",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 212487749,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Rapallo",
+    "oneway": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 212487756,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Bianchini"
+  }
+},
+{
+  "type": "way",
+  "id": 212487760,
+  "tags": {
+    "access": "private",
+    "highway": "residential",
+    "name": "Via Cilli"
+  }
+},
+{
+  "type": "way",
+  "id": 219092438,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Villa Piana",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 219092440,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via del Mercato",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 220640154,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "secondary",
+    "name": "Via Antonio Gavino",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 220640160,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Giovanni Campora",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 220640164,
+  "tags": {
+    "highway": "residential",
+    "name": "Vicolo della Saliera"
+  }
+},
+{
+  "type": "way",
+  "id": 220640169,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Piazza Guglielmo Marconi"
+  }
+},
+{
+  "type": "way",
+  "id": 220640172,
+  "tags": {
+    "highway": "residential",
+    "lane_markings": "no",
+    "name": "Via Villa Piana",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 220642728,
+  "tags": {
+    "area": "yes",
+    "highway": "pedestrian",
+    "name": "Piazza Don Giovanni Verardo"
+  }
+},
+{
+  "type": "way",
+  "id": 220642729,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "tertiary",
+    "name": "Via Antonio Gavino",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 220642730,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Torino"
+  }
+},
+{
+  "type": "way",
+  "id": 220642731,
+  "tags": {
+    "highway": "residential",
+    "name": "Via del Molino"
+  }
+},
+{
+  "type": "way",
+  "id": 220642732,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via dell'Asilo",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 220660416,
+  "tags": {
+    "bridge": "yes",
+    "highway": "footway",
+    "layer": "1",
+    "name": "Ponte di Santa Marta"
+  }
+},
+{
+  "type": "way",
+  "id": 220660417,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "secondary",
+    "name": "Via Alcide De Gasperi",
+    "oneway": "yes",
+    "ref": "SP6",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 220660418,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Alcide De Gasperi"
+  }
+},
+{
+  "type": "way",
+  "id": 220660423,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Martiri della Libertà"
+  }
+},
+{
+  "type": "way",
+  "id": 220660424,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Villa Piana",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 220660426,
+  "tags": {
+    "highway": "residential",
+    "name": "Vicolo della Villa"
+  }
+},
+{
+  "type": "way",
+  "id": 222919483,
+  "tags": {
+    "highway": "secondary",
+    "lane_markings": "no",
+    "name": "Strada provinciale 160 di Val Lemme",
+    "ref": "SP160",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 224854108,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Sentiero di Langonaggia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 224854109,
+  "tags": {
+    "highway": "path",
+    "name": "Antica Via Postumia"
+  }
+},
+{
+  "type": "way",
+  "id": 224854111,
+  "tags": {
+    "alt_name": "Antica Via Postumia",
+    "highway": "residential",
+    "name": "Via Giuseppe Di Vittorio"
+  }
+},
+{
+  "type": "way",
+  "id": 240691721,
+  "tags": {
+    "access": "private",
+    "bridge": "yes",
+    "highway": "track",
+    "layer": "1",
+    "name": "Sterrata dei Laghi",
+    "surface": "dirt",
+    "tracktype": "grade3"
+  }
+},
+{
+  "type": "way",
+  "id": 243400041,
+  "tags": {
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "track",
+    "motor_vehicle": "no",
+    "name": "Sterrata dei Laghi",
+    "surface": "dirt",
+    "tracktype": "grade3"
+  }
+},
+{
+  "type": "way",
+  "id": 243400052,
+  "tags": {
+    "access": "permissive",
+    "highway": "track",
+    "name": "Sterrata dei Laghi",
+    "surface": "dirt",
+    "tracktype": "grade3"
+  }
+},
+{
+  "type": "way",
+  "id": 244255781,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Pescheria"
+  }
+},
+{
+  "type": "way",
+  "id": 244255859,
+  "tags": {
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "unclassified",
+    "name": "Via Volpe",
+    "ref": "Prato Perseghin-Cravasco n°19",
+    "surface": "unpaved"
+  }
+},
+{
+  "type": "way",
+  "id": 244256313,
+  "tags": {
+    "highway": "path",
+    "name": "x palestra di roccia"
+  }
+},
+{
+  "type": "way",
+  "id": 250938229,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Cà di Sole"
+  }
+},
+{
+  "type": "way",
+  "id": 250940039,
+  "tags": {
+    "highway": "residential",
+    "lane_markings": "no",
+    "name": "Via Rutta",
+    "oneway": "no",
+    "surface": "asphalt",
+    "width": "4"
+  }
+},
+{
+  "type": "way",
+  "id": 250942781,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Campasso"
+  }
+},
+{
+  "type": "way",
+  "id": 253585730,
+  "tags": {
+    "highway": "path",
+    "name": "Giogo di Paravanico-Anello 7 neviere"
+  }
+},
+{
+  "type": "way",
+  "id": 253585906,
+  "tags": {
+    "bicycle": "dismount",
+    "foot": "designated",
+    "highway": "track",
+    "name": "Sentiero Naturalistico - Sbarra sulla sterrata Laghi",
+    "note": "Percorso il 11 ottobre 2017: non esiste assolutamente in questo luogo qualcosa che si possa chiamare strada. Dato da eliminare."
+  }
+},
+{
+  "type": "way",
+  "id": 269739603,
+  "tags": {
+    "bridge": "yes",
+    "highway": "tertiary",
+    "layer": "1",
+    "name": "Via 2 Agosto 1980",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 270797252,
+  "tags": {
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "residential",
+    "maxspeed": "30",
+    "maxweight": "7",
+    "motor_vehicle": "private",
+    "name": "Via Circonvallazione",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 275157851,
+  "tags": {
+    "highway": "unclassified",
+    "maxweight": "7",
+    "name": "Via Villa Berrone",
+    "oneway": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 276102965,
+  "tags": {
+    "area": "yes",
+    "highway": "residential",
+    "name": "Piazza San Rocco"
+  }
+},
+{
+  "type": "way",
+  "id": 276102972,
+  "tags": {
+    "highway": "secondary",
+    "name": "Via Bartolomeo Parodi",
+    "ref": "SP4",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 276103003,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Rapallo",
+    "oneway": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 276103005,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Torino"
+  }
+},
+{
+  "type": "way",
+  "id": 276103010,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Liguria"
+  }
+},
+{
+  "type": "way",
+  "id": 276748907,
+  "tags": {
+    "bridge": "yes",
+    "highway": "residential",
+    "layer": "1",
+    "name": "Via Piane"
+  }
+},
+{
+  "type": "way",
+  "id": 276748914,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Piane"
+  }
+},
+{
+  "type": "way",
+  "id": 276748919,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Novena"
+  }
+},
+{
+  "type": "way",
+  "id": 293585919,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Cravasco"
+  }
+},
+{
+  "type": "way",
+  "id": 299756795,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Trieste"
+  }
+},
+{
+  "type": "way",
+  "id": 299760770,
+  "tags": {
+    "access": "permissive",
+    "bridge": "yes",
+    "highway": "track",
+    "layer": "1",
+    "name": "Sterrata dei Laghi",
+    "surface": "concrete",
+    "tracktype": "grade3"
+  }
+},
+{
+  "type": "way",
+  "id": 299760774,
+  "tags": {
+    "highway": "track",
+    "name": "Sterrata dei Laghi",
+    "surface": "dirt",
+    "tracktype": "grade3"
+  }
+},
+{
+  "type": "way",
+  "id": 313995838,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Alpicella"
+  }
+},
+{
+  "type": "way",
+  "id": 314000556,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Martiri di Passo Mezzano"
+  }
+},
+{
+  "type": "way",
+  "id": 342729367,
+  "tags": {
+    "leisure": "garden",
+    "name": "Giardini Giuseppe Dossetti"
+  }
+},
+{
+  "type": "way",
+  "id": 360339835,
+  "tags": {
+    "highway": "residential",
+    "name": "Piazza San Rocco"
+  }
+},
+{
+  "type": "way",
+  "id": 360339862,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Lastrico",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 372271283,
+  "tags": {
+    "highway": "path",
+    "name": "Via Vixella",
+    "sac_scale": "mountain_hiking"
+  }
+},
+{
+  "type": "way",
+  "id": 372637780,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Via dei Marmi SP5 della Bocchetta (Antica Via Postumia)",
+    "ref": "SP5",
+    "sidewalk": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 372639437,
+  "tags": {
+    "highway": "secondary",
+    "name": "Via dei Marmi",
+    "ref": "SP5",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 385979493,
+  "tags": {
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "tertiary",
+    "horse": "yes",
+    "name": "Via Lastrico",
+    "surface": "gravel"
+  }
+},
+{
+  "type": "way",
+  "id": 385979494,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Lastrico",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 390073398,
+  "tags": {
+    "area": "yes",
+    "highway": "pedestrian",
+    "name": "Piazzetta Francesco Mora"
+  }
+},
+{
+  "type": "way",
+  "id": 392834779,
+  "tags": {
+    "highway": "service",
+    "name": "Via Laboi",
+    "service": "driveway"
+  }
+},
+{
+  "type": "way",
+  "id": 392837326,
+  "tags": {
+    "highway": "service",
+    "name": "Via Trasta",
+    "service": "driveway",
+    "tracktype": "grade2"
+  }
+},
+{
+  "type": "way",
+  "id": 411304417,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Sotto la Chiesa"
+  }
+},
+{
+  "type": "way",
+  "id": 439858643,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "secondary",
+    "lane_markings": "no",
+    "name": "Via Primo Cavallieri",
+    "ref": "SP5",
+    "sidewalk": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 439860056,
+  "tags": {
+    "highway": "tertiary",
+    "lane_markings": "no",
+    "name": "Via Caduti di Isoverde",
+    "oneway": "no",
+    "surface": "asphalt",
+    "width": "4"
+  }
+},
+{
+  "type": "way",
+  "id": 477550340,
+  "tags": {
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "unclassified",
+    "name": "Via Volpe",
+    "ref": "Prato Perseghin-Cravasco n°19",
+    "surface": "unpaved"
+  }
+},
+{
+  "type": "way",
+  "id": 477550345,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada Provinciale 6 di Isoverde",
+    "ref": "SP6",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 477550351,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada Provinciale 6 di Isoverde",
+    "ref": "SP6",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 477550361,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Pescheria"
+  }
+},
+{
+  "type": "way",
+  "id": 477550363,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada Provinciale 6 di Isoverde",
+    "ref": "SP6",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 504743639,
+  "tags": {
+    "bicycle": "designated",
+    "highway": "track",
+    "name": "Sterrata dei Laghi",
+    "oneway": "no",
+    "surface": "dirt",
+    "tracktype": "grade2",
+    "trail_visibility": "excellent"
+  }
+},
+{
+  "type": "way",
+  "id": 504743864,
+  "tags": {
+    "highway": "track",
+    "name": "Sterrata dei Laghi",
+    "surface": "dirt",
+    "tracktype": "grade3"
+  }
+},
+{
+  "type": "way",
+  "id": 504743865,
+  "tags": {
+    "highway": "track",
+    "name": "Sterrata dei Laghi",
+    "surface": "dirt",
+    "tracktype": "grade3"
+  }
+},
+{
+  "type": "way",
+  "id": 504757560,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "secondary",
+    "name": "Via San Martino",
+    "ref": "SP4",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 504761236,
+  "tags": {
+    "highway": "tertiary",
+    "lane_markings": "no",
+    "name": "Via Antonio Pacinotti",
+    "surface": "asphalt",
+    "width": "6"
+  }
+},
+{
+  "type": "way",
+  "id": 504764370,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Paveto",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 510751810,
+  "tags": {
+    "highway": "tertiary",
+    "lane_markings": "no",
+    "name": "Via Antonio Pacinotti",
+    "surface": "asphalt",
+    "width": "5"
+  }
+},
+{
+  "type": "way",
+  "id": 511017688,
+  "tags": {
+    "access": "permissive",
+    "highway": "track",
+    "name": "Sterrata dei Laghi",
+    "surface": "paved",
+    "tracktype": "grade3"
+  }
+},
+{
+  "type": "way",
+  "id": 521857440,
+  "tags": {
+    "bridge": "yes",
+    "cycleway": "yes",
+    "highway": "secondary",
+    "layer": "1",
+    "name": "Via Antonio Gavino",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 521857441,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "secondary",
+    "lane_markings": "no",
+    "name": "Via Alcide De Gasperi",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 540986216,
+  "tags": {
+    "highway": "residential",
+    "lane_markings": "no",
+    "name": "Via Caduti di Isoverde",
+    "oneway": "no",
+    "surface": "asphalt",
+    "width": "4"
+  }
+},
+{
+  "type": "way",
+  "id": 657154672,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Fosso"
+  }
+},
+{
+  "type": "way",
+  "id": 670262918,
+  "tags": {
+    "alt_name": "Strada Provinciale 6 di Isoverde",
+    "highway": "secondary",
+    "lane_markings": "no",
+    "name": "Piazza Nicolo' Bruno",
+    "ref": "SP6",
+    "surface": "asphalt",
+    "width": "6"
+  }
+},
+{
+  "type": "way",
+  "id": 670262919,
+  "tags": {
+    "alt_name": "Strada Provinciale 6 di Isoverde",
+    "highway": "secondary",
+    "lane_markings": "no",
+    "name": "Via Ennio Del Monte",
+    "ref": "SP6",
+    "surface": "asphalt",
+    "width": "6"
+  }
+},
+{
+  "type": "way",
+  "id": 670262920,
+  "tags": {
+    "highway": "residential",
+    "lane_markings": "no",
+    "name": "Via Noceto",
+    "oneway": "no",
+    "surface": "asphalt",
+    "width": "4"
+  }
+},
+{
+  "type": "way",
+  "id": 670262921,
+  "tags": {
+    "highway": "tertiary",
+    "lane_markings": "no",
+    "name": "Via Caduti di Isoverde",
+    "surface": "asphalt",
+    "width": "5"
+  }
+},
+{
+  "type": "way",
+  "id": 670264503,
+  "tags": {
+    "highway": "unclassified",
+    "maxweight": "7",
+    "name": "Via Circonvallazione",
+    "oneway": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 670669094,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Benedetta Cambiagio"
+  }
+},
+{
+  "type": "way",
+  "id": 670669095,
+  "tags": {
+    "highway": "residential",
+    "lane_markings": "no",
+    "name": "Via Bessega",
+    "oneway": "no",
+    "surface": "asphalt",
+    "width": "4"
+  }
+},
+{
+  "type": "way",
+  "id": 670669096,
+  "tags": {
+    "highway": "residential",
+    "lane_markings": "no",
+    "name": "Via Bessega",
+    "surface": "asphalt",
+    "width": "5"
+  }
+},
+{
+  "type": "way",
+  "id": 670669097,
+  "tags": {
+    "bridge": "yes",
+    "highway": "residential",
+    "layer": "1",
+    "name": "Via Bessega"
+  }
+},
+{
+  "type": "way",
+  "id": 670693078,
+  "tags": {
+    "highway": "secondary",
+    "name": "Via Vixella",
+    "ref": "SP6",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 670693080,
+  "tags": {
+    "highway": "secondary",
+    "name": "Via dei Marmi",
+    "ref": "SP5",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 670714910,
+  "tags": {
+    "highway": "residential",
+    "lane_markings": "no",
+    "name": "Via Gaetano Cambiaso",
+    "surface": "asphalt",
+    "width": "5"
+  }
+},
+{
+  "type": "way",
+  "id": 670714916,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Loi"
+  }
+},
+{
+  "type": "way",
+  "id": 670714919,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Monte Carlo",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 670725812,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Tirassi"
+  }
+},
+{
+  "type": "way",
+  "id": 670725813,
+  "tags": {
+    "highway": "residential",
+    "name": "Via San Giuseppe"
+  }
+},
+{
+  "type": "way",
+  "id": 670725814,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "secondary",
+    "name": "Via Val Verde",
+    "ref": "SP6",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 671563019,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "tertiary",
+    "name": "Via Larvego",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 671563021,
+  "tags": {
+    "highway": "track",
+    "name": "Via Fontana",
+    "surface": "unpaved",
+    "tracktype": "grade3"
+  }
+},
+{
+  "type": "way",
+  "id": 679530150,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Nuova ai Villini"
+  }
+},
+{
+  "type": "way",
+  "id": 679530153,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Brico Bastia"
+  }
+},
+{
+  "type": "way",
+  "id": 686079074,
+  "tags": {
+    "highway": "track",
+    "name": "Via Caduti di Isoverde",
+    "tracktype": "grade4"
+  }
+},
+{
+  "type": "way",
+  "id": 686079076,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Inavalle",
+    "surface": "asphalt",
+    "tracktype": "grade2"
+  }
+},
+{
+  "type": "way",
+  "id": 835448484,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "path",
+    "mtb:scale": "1",
+    "name": "Pietralavezzara - Vigne",
+    "sac_scale": "mountain_hiking",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 1014129378,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Giuseppe Di Vittorio"
+  }
+},
+{
+  "type": "way",
+  "id": 1014129379,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Madonna delle Vigne (Antica Via Postumia)"
+  }
+},
+{
+  "type": "way",
+  "id": 1014129380,
+  "tags": {
+    "highway": "secondary",
+    "name": "Via dei Marmi",
+    "ref": "SP5",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1014129381,
+  "tags": {
+    "highway": "secondary",
+    "name": "Via dei Marmi",
+    "ref": "SP5",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1014153717,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Chiappa",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1016076299,
+  "tags": {
+    "access": "permissive",
+    "highway": "track",
+    "name": "Sterrata dei Laghi",
+    "surface": "dirt",
+    "tracktype": "grade3"
+  }
+},
+{
+  "type": "way",
+  "id": 1025125179,
+  "tags": {
+    "alt_name": "Strada Provinciale 6 di Isoverde",
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Piazza Nicolo' Bruno",
+    "ref": "SP6",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1025126961,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada Provinciale 6 di Isoverde",
+    "ref": "SP6",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1025126962,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada Provinciale 6 di Isoverde",
+    "ref": "SP6",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1025183354,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Cà di Sole"
+  }
+},
+{
+  "type": "way",
+  "id": 1025183355,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Cà di Sole"
+  }
+},
+{
+  "type": "way",
+  "id": 1025185446,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Rutta",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1025195792,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Lastrico",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1025195793,
+  "tags": {
+    "access": "yes",
+    "bicycle": "yes",
+    "cycleway": "yes",
+    "highway": "tertiary",
+    "name": "Via alla Caffarella",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1025195794,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Fontana",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1025195796,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "secondary",
+    "name": "Via San Martino",
+    "ref": "SP4",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1025195797,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "secondary",
+    "name": "Via San Martino",
+    "ref": "SP4",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1051743952,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Brenia",
+    "sac_scale": "hiking",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1051743953,
+  "tags": {
+    "highway": "path",
+    "name": "Via Brenia",
+    "sac_scale": "hiking",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 1055082678,
+  "tags": {
+    "bicycle": "designated",
+    "highway": "track",
+    "name": "Sterrata dei Laghi",
+    "oneway": "no",
+    "surface": "dirt",
+    "tracktype": "grade2",
+    "trail_visibility": "excellent"
+  }
+},
+{
+  "type": "way",
+  "id": 1055082679,
+  "tags": {
+    "bicycle": "designated",
+    "highway": "track",
+    "name": "Sterrata dei Laghi",
+    "oneway": "no",
+    "surface": "dirt",
+    "tracktype": "grade2",
+    "trail_visibility": "excellent"
+  }
+},
+{
+  "type": "way",
+  "id": 1064187900,
+  "tags": {
+    "fixme": "check if is it only footway",
+    "highway": "footway",
+    "name": "Via Battista Trucco"
+  }
+},
+{
+  "type": "way",
+  "id": 1064187917,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Stefano Pittaluga"
+  }
+},
+{
+  "type": "way",
+  "id": 1064187986,
+  "tags": {
+    "name": "Piazza Paolo Bottero",
+    "place": "square"
+  }
+},
+{
+  "type": "way",
+  "id": 1082325212,
+  "tags": {
+    "amenity": "school",
+    "grades": "1-5",
+    "isced:level": "1",
+    "name": "Scuola primaria \"Giovanni XXIII",
+    "operator": "Comune di Campomorone",
+    "website": "https://www.iccampomoroneceranesi.edu.it/"
+  }
+},
+{
+  "type": "way",
+  "id": 1116240423,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Chiappa",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1116240424,
+  "tags": {
+    "highway": "secondary",
+    "name": "Via dei Marmi",
+    "ref": "SP5",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1136448069,
+  "tags": {
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "layer": "-1",
+    "name": "Strada privata",
+    "surface": "asphalt",
+    "width": "4"
+  }
+},
+{
+  "type": "way",
+  "id": 1136448071,
+  "tags": {
+    "highway": "living_street",
+    "name": "Via Isoverde",
+    "oneway": "no",
+    "surface": "asphalt",
+    "width": "4"
+  }
+},
+{
+  "type": "way",
+  "id": 1163710074,
+  "tags": {
+    "amenity": "school",
+    "name": "Scuola Elementare E. De Amicis",
+    "operator": "Comune di Campomorone"
+  }
+},
+{
+  "type": "way",
+  "id": 1165934275,
+  "tags": {
+    "highway": "unclassified",
+    "lanes": "1",
+    "maxspeed": "5",
+    "name": "Via Ennio Del Monte",
+    "oneway": "no",
+    "surface": "asphalt",
+    "width": "2"
+  }
+},
+{
+  "type": "way",
+  "id": 1181992070,
+  "tags": {
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "maxspeed": "5",
+    "name": "Via Bessga",
+    "oneway": "no",
+    "surface": "asphalt",
+    "width": "4"
+  }
+},
+{
+  "type": "way",
+  "id": 1181992071,
+  "tags": {
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Via Isoverde",
+    "oneway": "yes",
+    "surface": "asphalt",
+    "width": "4"
+  }
+},
+{
+  "type": "way",
+  "id": 1181992072,
+  "tags": {
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Via Isoverde",
+    "surface": "asphalt",
+    "width": "4"
+  }
+},
+{
+  "type": "way",
+  "id": 1185768964,
+  "tags": {
+    "handrail": "no",
+    "highway": "steps",
+    "name": "Via Bessega",
+    "ramp": "no",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 1185768965,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Bessega",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 1185768966,
+  "tags": {
+    "handrail": "yes",
+    "highway": "steps",
+    "name": "Via Bessega",
+    "ramp": "no",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 1185768967,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Bessega",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 1185768972,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Bessega",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1185768976,
+  "tags": {
+    "highway": "track",
+    "maxspeed": "5",
+    "name": "Via Bessega",
+    "oneway": "no",
+    "surface": "asphalt",
+    "tracktype": "grade1"
+  }
+},
+{
+  "type": "way",
+  "id": 1185768977,
+  "tags": {
+    "highway": "living_street",
+    "layer": "-1",
+    "name": "Via Bessega",
+    "oneway": "no",
+    "surface": "asphalt",
+    "width": "4"
+  }
+},
+{
+  "type": "way",
+  "id": 1185768980,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Bessega",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1185768981,
+  "tags": {
+    "bridge": "yes",
+    "highway": "footway",
+    "layer": "1",
+    "name": "Via Bessega",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1185768992,
+  "tags": {
+    "highway": "living_street",
+    "name": "Via Isoverde",
+    "surface": "asphalt",
+    "width": "4"
+  }
+},
+{
+  "type": "way",
+  "id": 1244056276,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Stefano Pittaluga",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1244145985,
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Strada Provinciale 6 di Isoverde",
+    "ref": "SP6",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1244145986,
+  "tags": {
+    "alt_name": "Strada Provinciale 6 di Isoverde",
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Via Clemente Rebora",
+    "oneway": "yes",
+    "ref": "SP6",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1244997093,
+  "tags": {
+    "highway": "residential",
+    "lane_markings": "no",
+    "name": "Via Ennio Del Monte",
+    "surface": "asphalt",
+    "width": "3"
+  }
+},
+{
+  "type": "way",
+  "id": 1284416310,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Fontana",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1316874447,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "secondary",
+    "maxspeed": "50",
+    "name": "Via Campomorone",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1319616064,
+  "tags": {
+    "access": "no",
+    "bicycle": "yes",
+    "foot": "no",
+    "highway": "unclassified",
+    "horse": "yes",
+    "lanes": "1",
+    "maxspeed": "5",
+    "motor_vehicle": "no",
+    "name": "Via Gaetano Cambiaso",
+    "surface": "unpaved"
+  }
+},
+{
+  "type": "way",
+  "id": 1321225459,
+  "tags": {
+    "highway": "unclassified",
+    "maxspeed": "10",
+    "name": "Via Gaetano Cambiaso",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 1321225460,
+  "tags": {
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "maxspeed": "10",
+    "name": "Via Gaetano Cambiaso",
+    "surface": "concrete",
+    "width": "2.5"
+  }
+},
+{
+  "type": "way",
+  "id": 1321225461,
+  "tags": {
+    "bridge": "yes",
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "layer": "1",
+    "maxspeed": "5",
+    "maxweightrating": "3.5",
+    "name": "Via Gaetano Cambiaso",
+    "oneway": "no",
+    "surface": "concrete",
+    "width": "2.5"
+  }
+},
+{
+  "type": "way",
+  "id": 1321225462,
+  "tags": {
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "maxspeed": "10",
+    "name": "Via Gaetano Cambiaso",
+    "oneway": "no",
+    "surface": "concrete",
+    "width": "2.5"
+  }
+},
+{
+  "type": "way",
+  "id": 1321258610,
+  "tags": {
+    "highway": "unclassified",
+    "maxspeed": "5",
+    "name": "Via Gaetano Cambiaso",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 1321258611,
+  "tags": {
+    "highway": "unclassified",
+    "maxspeed": "5",
+    "name": "Via Gaetano Cambiaso",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 1321258612,
+  "tags": {
+    "bridge": "yes",
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "layer": "1",
+    "maxspeed": "5",
+    "maxweightrating": "3.5",
+    "name": "Via Gaetano Cambiaso",
+    "oneway": "no",
+    "surface": "concrete",
+    "width": "2.5"
+  }
+},
+{
+  "type": "way",
+  "id": 1329609801,
+  "tags": {
+    "highway": "service",
+    "name": "Accesso mezzi di soccorso diga Badana"
+  }
+},
+{
+  "type": "way",
+  "id": 1339785661,
+  "tags": {
+    "access": "private",
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "unclassified",
+    "name": "Via Paveto",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1453978786,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada Provinciale 6 di Isoverde",
+    "ref": "SP6",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1464417168,
+  "tags": {
+    "highway": "secondary",
+    "name": "Via dei Marmi",
+    "ref": "SP5",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1473377990,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "tertiary",
+    "name": "Via Martiri della Libertà",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1495559940,
+  "tags": {
+    "bridge": "yes",
+    "highway": "service",
+    "material": "steel",
+    "name": "Sentiero di Langonaggia"
+  }
+},
+{
+  "type": "way",
+  "id": 1567577105,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Montagnola"
+  }
+}
+
+  ]
+}

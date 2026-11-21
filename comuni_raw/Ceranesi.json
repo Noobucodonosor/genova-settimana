@@ -1,0 +1,2784 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-11-01T20:12:28Z",
+    "timestamp_areas_base": "2026-11-01T18:30:20Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 3953789383,
+  "tags": {
+    "historic": "memorial",
+    "memorial": "stele",
+    "name": "Lapide partigiana Giuseppe Gallesi"
+  }
+},
+{
+  "type": "node",
+  "id": 12726016335,
+  "tags": {
+    "artist_name": "Agostino Dodero",
+    "historic": "memorial",
+    "inscription": "\"Capanna che ti seunni in mezo ao verde... in questa paxe l'anima a se perde, e i to rintocchi invitan a prega\"",
+    "material": "plastic",
+    "memorial": "plaque",
+    "name": "Poesia alla cappella"
+  }
+},
+{
+  "type": "node",
+  "id": 12726016336,
+  "tags": {
+    "historic": "memorial",
+    "inscription": "Nel primo centenario della cappella della Madonna della Guardia la parrocchia di San Lorenzo di Torbi innalza il piccolo campanile",
+    "material": "plastic",
+    "memorial": "plaque",
+    "name": "Centenario della capella della Madonna della Guardia",
+    "start_date": "2006-06-02"
+  }
+},
+{
+  "type": "node",
+  "id": 12726016337,
+  "tags": {
+    "alt_name": "Cappella di Rocca Maya",
+    "historic": "memorial",
+    "material": "marble",
+    "memorial": "plaque",
+    "name": "Cappella di Roccamaya"
+  }
+},
+{
+  "type": "node",
+  "id": 12726016339,
+  "tags": {
+    "historic": "memorial",
+    "material": "ceramic",
+    "memorial": "plaque",
+    "name": "In memoria di Renzo \"Marsen\""
+  }
+},
+{
+  "type": "way",
+  "id": 26598984,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Monte Pennello",
+    "surface": "dirt",
+    "trail_visibility": "excellent"
+  }
+},
+{
+  "type": "way",
+  "id": 26602809,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "secondary",
+    "name": "Strada Provinciale Capanne di Marcarolo - Piani di Praglia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 26602927,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "track",
+    "name": "Sterrata dei Laghi",
+    "oneway": "no",
+    "ref": "AVML - Alta Via dei Monti Liguri - Tappa 23",
+    "tracktype": "grade2",
+    "trail_visibility": "excellent"
+  }
+},
+{
+  "type": "way",
+  "id": 26603061,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Monte Pennello",
+    "ref": "Alta Via dei Monti Liguri",
+    "surface": "asphalt",
+    "trail_visibility": "excellent"
+  }
+},
+{
+  "type": "way",
+  "id": 26603092,
+  "tags": {
+    "highway": "living_street",
+    "name": "Via Monte Pennello",
+    "service": "driveway"
+  }
+},
+{
+  "type": "way",
+  "id": 27485189,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Lencisa",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 27485864,
+  "tags": {
+    "highway": "tertiary",
+    "lane_markings": "no",
+    "name": "Via Bossaro",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 27491193,
+  "tags": {
+    "bridge": "yes",
+    "highway": "secondary",
+    "layer": "1",
+    "name": "Via al Santuario di Nostra Signora della Guardia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 27594872,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Vaccarezza",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 27850455,
+  "tags": {
+    "highway": "service",
+    "name": "Piazza del Santuario di Nostra Signora della Guardia",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 34503504,
+  "tags": {
+    "highway": "secondary",
+    "name": "Via Gaiazza",
+    "ref": "SP51",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 35884348,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Lincio",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 35914913,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Lencisa",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 35914914,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Ca' Di Bruzzi"
+  }
+},
+{
+  "type": "way",
+  "id": 36131145,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Vaccarezza Superiore"
+  }
+},
+{
+  "type": "way",
+  "id": 36218426,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Lencisa",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 36218428,
+  "tags": {
+    "bridge": "yes",
+    "highway": "tertiary",
+    "layer": "1",
+    "maxweight": "7.5",
+    "name": "Via Torbi",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 36218429,
+  "tags": {
+    "highway": "tertiary",
+    "maxweight": "7.5",
+    "name": "Via Torbi",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 36218430,
+  "tags": {
+    "highway": "secondary",
+    "name": "Via San Martino",
+    "ref": "SP4",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 51044536,
+  "tags": {
+    "highway": "residential",
+    "maxspeed": "30",
+    "maxweight": "4",
+    "name": "Via Sareto"
+  }
+},
+{
+  "type": "way",
+  "id": 52587459,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "tertiary",
+    "name": "Via alla Caffarella",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 71438394,
+  "tags": {
+    "access": "private",
+    "highway": "residential",
+    "name": "Salita Guardia"
+  }
+},
+{
+  "type": "way",
+  "id": 72350843,
+  "tags": {
+    "bicycle": "yes",
+    "description": "Old tramway - Essendo un percorso aperto ad Escursionisti i Bikers che lo percorrono prestino attenzione",
+    "foot": "yes",
+    "highway": "track",
+    "horse": "yes",
+    "mtb:scale:uphill": "1",
+    "name": "Percorso verde ex Guidovia",
+    "surface": "gravel"
+  }
+},
+{
+  "type": "way",
+  "id": 72350844,
+  "tags": {
+    "bicycle": "yes",
+    "description": "Old tramway",
+    "highway": "footway",
+    "horse": "yes",
+    "layer": "-1",
+    "mtb:scale:uphill": "1",
+    "name": "Ex guidovia",
+    "surface": "gravel",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 72352101,
+  "tags": {
+    "alt_name": "Via SS nome di Gesù",
+    "highway": "residential",
+    "lit": "yes",
+    "name": "Via Santissimo Nome di Gesù"
+  }
+},
+{
+  "type": "way",
+  "id": 72352102,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Fasti"
+  }
+},
+{
+  "type": "way",
+  "id": 72352103,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Galinin"
+  }
+},
+{
+  "type": "way",
+  "id": 72352104,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Zuccarello",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 74795296,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Ponte della Ferriera"
+  }
+},
+{
+  "type": "way",
+  "id": 74795344,
+  "tags": {
+    "bridge": "yes",
+    "highway": "unclassified",
+    "layer": "1",
+    "name": "Ponte della Ferriera"
+  }
+},
+{
+  "type": "way",
+  "id": 74795351,
+  "tags": {
+    "bridge": "yes",
+    "highway": "secondary",
+    "layer": "1",
+    "name": "Via Bartolomeo Parodi",
+    "ref": "SP4 Dir",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 74795410,
+  "tags": {
+    "highway": "secondary",
+    "name": "Via Bartolomeo Parodi",
+    "ref": "SP4",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 74997071,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via San Pietro",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 74997082,
+  "tags": {
+    "highway": "residential",
+    "name": "Via San Bernardo",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 74997090,
+  "tags": {
+    "highway": "secondary",
+    "name": "Via Livellato",
+    "ref": "SP51",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 74997091,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Codevilla",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 75278408,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Inopozzolo",
+    "oneway": "no",
+    "sac_scale": "mountain_hiking",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 75278411,
+  "tags": {
+    "fixme": "is it a path? Looks like a track",
+    "highway": "path",
+    "name": "Via alla Grilla",
+    "oneway": "no",
+    "sac_scale": "mountain_hiking",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 79386725,
+  "tags": {
+    "area": "yes",
+    "highway": "residential",
+    "name": "Piazza Beato Pareto",
+    "place": "square"
+  }
+},
+{
+  "type": "way",
+  "id": 93096178,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Lencisa",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 95257892,
+  "tags": {
+    "highway": "secondary",
+    "name": "Salita alla Guardia",
+    "ref": "SP52",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 118927739,
+  "tags": {
+    "access": "yes",
+    "bicycle": "yes",
+    "cycleway": "no",
+    "highway": "unclassified",
+    "name": "Via Montagnola",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 119772518,
+  "tags": {
+    "access": "yes",
+    "bicycle": "yes",
+    "bridge": "yes",
+    "cycleway": "no",
+    "highway": "unclassified",
+    "layer": "1",
+    "name": "Via Montagnola",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 124794632,
+  "tags": {
+    "highway": "path",
+    "mtb:scale": "1",
+    "name": "sentiero di piano lupino",
+    "surface": "ground",
+    "tracktype": "grade2"
+  }
+},
+{
+  "type": "way",
+  "id": 136015053,
+  "tags": {
+    "bridge": "yes",
+    "highway": "service",
+    "layer": "1",
+    "name": "Via Molinassi di Ceranesi"
+  }
+},
+{
+  "type": "way",
+  "id": 136015054,
+  "tags": {
+    "highway": "service",
+    "name": "Via Molinassi di Ceranesi"
+  }
+},
+{
+  "type": "way",
+  "id": 136015084,
+  "tags": {
+    "bridge": "yes",
+    "highway": "service",
+    "layer": "1",
+    "name": "Via Burba",
+    "service": "driveway"
+  }
+},
+{
+  "type": "way",
+  "id": 136015085,
+  "tags": {
+    "highway": "service",
+    "name": "Via Burba",
+    "service": "driveway"
+  }
+},
+{
+  "type": "way",
+  "id": 136015087,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Trofi",
+    "surface": "asphalt",
+    "tracktype": "grade2"
+  }
+},
+{
+  "type": "way",
+  "id": 136015089,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Spinola"
+  }
+},
+{
+  "type": "way",
+  "id": 136015094,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Spinasso"
+  }
+},
+{
+  "type": "way",
+  "id": 136015098,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Spinasso"
+  }
+},
+{
+  "type": "way",
+  "id": 136015104,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Pozzo"
+  }
+},
+{
+  "type": "way",
+  "id": 136015107,
+  "tags": {
+    "highway": "track",
+    "mtb:scale": "2",
+    "name": "Via Codevilla",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 142804188,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Isorella Inferiore"
+  }
+},
+{
+  "type": "way",
+  "id": 142804190,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Livellato",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 142804191,
+  "tags": {
+    "highway": "steps",
+    "name": "Via Livellato",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 150676191,
+  "tags": {
+    "highway": "residential",
+    "name": "Via dei Bernardi"
+  }
+},
+{
+  "type": "way",
+  "id": 150676194,
+  "tags": {
+    "highway": "residential",
+    "name": "Via dei Bernardi"
+  }
+},
+{
+  "type": "way",
+  "id": 150676201,
+  "tags": {
+    "bicycle": "yes",
+    "description": "Old tramway - Essendo un percorso aperto ad Escursionisti i Bikers che lo percorrono prestino attenzione",
+    "foot": "yes",
+    "highway": "track",
+    "horse": "yes",
+    "mtb:scale:uphill": "1",
+    "name": "Percorso verde ex Guidovia",
+    "surface": "gravel"
+  }
+},
+{
+  "type": "way",
+  "id": 150975658,
+  "tags": {
+    "highway": "service",
+    "name": "Via Casane",
+    "service": "driveway",
+    "width": "1.5"
+  }
+},
+{
+  "type": "way",
+  "id": 150988337,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Borlo superiore",
+    "surface": "unpaved"
+  }
+},
+{
+  "type": "way",
+  "id": 150988347,
+  "tags": {
+    "highway": "service",
+    "name": "Via Scotti",
+    "service": "driveway"
+  }
+},
+{
+  "type": "way",
+  "id": 150988359,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Costa di Sareto"
+  }
+},
+{
+  "type": "way",
+  "id": 150988362,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Scotti"
+  }
+},
+{
+  "type": "way",
+  "id": 150988364,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Scotti",
+    "surface": "ground"
+  }
+},
+{
+  "type": "way",
+  "id": 150988369,
+  "tags": {
+    "embankment": "yes",
+    "highway": "residential",
+    "name": "Via San Pietro",
+    "surface": "unpaved"
+  }
+},
+{
+  "type": "way",
+  "id": 151415971,
+  "tags": {
+    "highway": "residential",
+    "maxweight": "2 t",
+    "name": "Via Carli"
+  }
+},
+{
+  "type": "way",
+  "id": 153679331,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Marseno"
+  }
+},
+{
+  "type": "way",
+  "id": 153679332,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Marseno",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 166534062,
+  "tags": {
+    "bridge": "yes",
+    "highway": "tertiary",
+    "layer": "1",
+    "name": "Via Cian De Vi",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 166534063,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Lincio",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 166534064,
+  "tags": {
+    "bridge": "yes",
+    "highway": "tertiary",
+    "layer": "1",
+    "name": "Via Lincio",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 166534065,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Vaccarezza",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 166534066,
+  "tags": {
+    "bridge": "yes",
+    "highway": "tertiary",
+    "layer": "1",
+    "name": "Via Vaccarezza",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 170270178,
+  "tags": {
+    "highway": "path",
+    "name": "Sentiero \"Pilastrino\"",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 172583548,
+  "tags": {
+    "highway": "track",
+    "name": "Via Maiana"
+  }
+},
+{
+  "type": "way",
+  "id": 172583551,
+  "tags": {
+    "highway": "track",
+    "name": "Via Orditano",
+    "tracktype": "grade3"
+  }
+},
+{
+  "type": "way",
+  "id": 177661522,
+  "tags": {
+    "highway": "residential",
+    "name": "PIazza Chiesa Livellato"
+  }
+},
+{
+  "type": "way",
+  "id": 177661527,
+  "tags": {
+    "highway": "steps",
+    "name": "Via Casane"
+  }
+},
+{
+  "type": "way",
+  "id": 177666816,
+  "tags": {
+    "area": "yes",
+    "bicycle": "yes",
+    "highway": "pedestrian",
+    "name": "Piazza del Santuario di Nostra Signora della Guardia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 184464675,
+  "tags": {
+    "highway": "service",
+    "name": "Via Vecchia Strada di Praglia",
+    "service": "driveway"
+  }
+},
+{
+  "type": "way",
+  "id": 184465276,
+  "tags": {
+    "highway": "secondary",
+    "name": "Via Paravanico",
+    "ref": "SP4",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 184465279,
+  "tags": {
+    "bridge": "yes",
+    "highway": "secondary",
+    "layer": "1",
+    "name": "Via Paravanico",
+    "ref": "SP4",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 184465302,
+  "tags": {
+    "highway": "service",
+    "name": "Piazza Molino Alto",
+    "service": "parking_aisle"
+  }
+},
+{
+  "type": "way",
+  "id": 184465892,
+  "tags": {
+    "bridge": "yes",
+    "highway": "secondary",
+    "layer": "1",
+    "name": "Via Bartolomeo Parodi",
+    "ref": "SP4",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 184465893,
+  "tags": {
+    "highway": "secondary",
+    "name": "Via Bartolomeo Parodi",
+    "ref": "SP4",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 185160773,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Bartolomeo Parodi",
+    "oneway": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 185693283,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Pareti",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 185693285,
+  "tags": {
+    "bicycle": "yes",
+    "description": "Old tramway - Essendo un percorso aperto ad Escursionisti i Bikers che lo percorrono prestino attenzione",
+    "foot": "yes",
+    "highway": "track",
+    "horse": "yes",
+    "mtb:scale:uphill": "1",
+    "name": "Percorso verde ex Guidovia",
+    "surface": "gravel",
+    "tracktype": "grade3"
+  }
+},
+{
+  "type": "way",
+  "id": 194524148,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Praglie Grandi"
+  }
+},
+{
+  "type": "way",
+  "id": 199478939,
+  "tags": {
+    "highway": "tertiary",
+    "maxweight": "6",
+    "name": "Via Lavaggi",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 203170310,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Bartolomeo Parodi"
+  }
+},
+{
+  "type": "way",
+  "id": 203170311,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Bartolomeo Parodi"
+  }
+},
+{
+  "type": "way",
+  "id": 204216890,
+  "tags": {
+    "highway": "track",
+    "name": "Via Monte Pennello"
+  }
+},
+{
+  "type": "way",
+  "id": 204216891,
+  "tags": {
+    "highway": "track",
+    "name": "Via Monte Pennello",
+    "tracktype": "grade3"
+  }
+},
+{
+  "type": "way",
+  "id": 204216892,
+  "tags": {
+    "fixme": "questionable sac_scale",
+    "highway": "residential",
+    "name": "Via alla Grilla",
+    "oneway": "no",
+    "sac_scale": "mountain_hiking",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 204217243,
+  "tags": {
+    "amenity": "townhall",
+    "building": "yes",
+    "name": "Municipio di Ceranesi",
+    "source": "Regione Liguria"
+  }
+},
+{
+  "type": "way",
+  "id": 204231798,
+  "tags": {
+    "amenity": "arts_centre",
+    "building": "yes",
+    "denomination": "catholic",
+    "name": "Oratorio della Chiesa di Santa Maria Assunta",
+    "source": "Regione Liguria;Parroco"
+  }
+},
+{
+  "type": "way",
+  "id": 204232260,
+  "tags": {
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "track",
+    "horse": "yes",
+    "name": "Percorso verde ex Guidovia",
+    "surface": "gravel",
+    "tracktype": "grade3"
+  }
+},
+{
+  "type": "way",
+  "id": 204232263,
+  "tags": {
+    "highway": "path",
+    "name": "Sentiero \"Pilastrino\"",
+    "surface": "dirt",
+    "trail_visibility": "bad"
+  }
+},
+{
+  "type": "way",
+  "id": 213202475,
+  "tags": {
+    "highway": "path",
+    "name": "Triangolo rosso"
+  }
+},
+{
+  "type": "way",
+  "id": 220660416,
+  "tags": {
+    "bridge": "yes",
+    "highway": "footway",
+    "layer": "1",
+    "name": "Ponte di Santa Marta"
+  }
+},
+{
+  "type": "way",
+  "id": 220660422,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Marseno",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 220660431,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Bartolomeo Parodi",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 223645459,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Cavero",
+    "oneway": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 223646002,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "path",
+    "mtb:scale": "2",
+    "mtb:scale:uphill": "2",
+    "name": "Via Cavero"
+  }
+},
+{
+  "type": "way",
+  "id": 250856161,
+  "tags": {
+    "highway": "tertiary",
+    "maxweight": "6",
+    "name": "Via Lavaggi",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 250956073,
+  "tags": {
+    "highway": "tertiary",
+    "maxweight": "6",
+    "name": "via Marseno",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 250957508,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Nostra Signora dell'orto"
+  }
+},
+{
+  "type": "way",
+  "id": 253585730,
+  "tags": {
+    "highway": "path",
+    "name": "Giogo di Paravanico-Anello 7 neviere"
+  }
+},
+{
+  "type": "way",
+  "id": 253585906,
+  "tags": {
+    "bicycle": "dismount",
+    "foot": "designated",
+    "highway": "track",
+    "name": "Sentiero Naturalistico - Sbarra sulla sterrata Laghi",
+    "note": "Percorso il 11 ottobre 2017: non esiste assolutamente in questo luogo qualcosa che si possa chiamare strada. Dato da eliminare."
+  }
+},
+{
+  "type": "way",
+  "id": 262253360,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "path",
+    "mtb:scale": "0+",
+    "name": "By Pass Pilastrino",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 262276165,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "path",
+    "mtb:scale": "2",
+    "name": "Madonna dell'Orto",
+    "surface": "dirt",
+    "width": "1560"
+  }
+},
+{
+  "type": "way",
+  "id": 274217619,
+  "tags": {
+    "highway": "service",
+    "name": "Via Fasti",
+    "service": "driveway"
+  }
+},
+{
+  "type": "way",
+  "id": 276102968,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Badelli"
+  }
+},
+{
+  "type": "way",
+  "id": 276102976,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Bartolomeo Parodi"
+  }
+},
+{
+  "type": "way",
+  "id": 276102979,
+  "tags": {
+    "highway": "secondary",
+    "name": "Via Gaiazza",
+    "ref": "SP51",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 276102988,
+  "tags": {
+    "highway": "unclassified",
+    "maxspeed": "30",
+    "maxweight": "3.5",
+    "maxwidth": "1.8",
+    "name": "Via Campolungo",
+    "oneway": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 276102995,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Gaiazza"
+  }
+},
+{
+  "type": "way",
+  "id": 276102997,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Gaiazza"
+  }
+},
+{
+  "type": "way",
+  "id": 276102999,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Gaiazza"
+  }
+},
+{
+  "type": "way",
+  "id": 276103000,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Gaiazza"
+  }
+},
+{
+  "type": "way",
+  "id": 276103002,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Gaiazza"
+  }
+},
+{
+  "type": "way",
+  "id": 276147946,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Rampin"
+  }
+},
+{
+  "type": "way",
+  "id": 276147954,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Rampin"
+  }
+},
+{
+  "type": "way",
+  "id": 276748906,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Piane"
+  }
+},
+{
+  "type": "way",
+  "id": 276748907,
+  "tags": {
+    "bridge": "yes",
+    "highway": "residential",
+    "layer": "1",
+    "name": "Via Piane"
+  }
+},
+{
+  "type": "way",
+  "id": 276748908,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Nuova al Borgo"
+  }
+},
+{
+  "type": "way",
+  "id": 276748910,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Crovera"
+  }
+},
+{
+  "type": "way",
+  "id": 276748912,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Quiassi"
+  }
+},
+{
+  "type": "way",
+  "id": 287314853,
+  "tags": {
+    "highway": "secondary",
+    "name": "Via San Martino",
+    "ref": "SP4",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 287314854,
+  "tags": {
+    "bridge": "yes",
+    "highway": "secondary",
+    "layer": "1",
+    "name": "Via San Martino",
+    "ref": "SP4",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 289611054,
+  "tags": {
+    "access": "private",
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "residential",
+    "name": "Via Pietragrande"
+  }
+},
+{
+  "type": "way",
+  "id": 289611055,
+  "tags": {
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "track",
+    "name": "Via Pietragrande"
+  }
+},
+{
+  "type": "way",
+  "id": 289611056,
+  "tags": {
+    "highway": "residential",
+    "name": "Via antica Strada della Guardia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 289611057,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Serelli"
+  }
+},
+{
+  "type": "way",
+  "id": 289611058,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Bacillà"
+  }
+},
+{
+  "type": "way",
+  "id": 289611059,
+  "tags": {
+    "highway": "residential",
+    "name": "Via antica Strada della Guardia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 289611061,
+  "tags": {
+    "highway": "residential",
+    "name": "Via antica Strada della Guardia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 289611063,
+  "tags": {
+    "access": "private",
+    "bicycle": "permissive",
+    "foot": "permissive",
+    "highway": "residential",
+    "name": "Salita Guardia"
+  }
+},
+{
+  "type": "way",
+  "id": 313218909,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Zuccarello",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 313218911,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Zuccarello",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 313218912,
+  "tags": {
+    "highway": "unclassified",
+    "motor_vehicle": "no",
+    "name": "Via Zuccarello",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 313218913,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Marseno"
+  }
+},
+{
+  "type": "way",
+  "id": 313218914,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Zuccarello",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 313993090,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Scotti",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 343751307,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Fossato"
+  }
+},
+{
+  "type": "way",
+  "id": 343947489,
+  "tags": {
+    "highway": "tertiary",
+    "maxspeed": "30",
+    "maxweight": "3.5",
+    "name": "Via ex Strada Guidovia",
+    "surface": "asphalt",
+    "width": "2"
+  }
+},
+{
+  "type": "way",
+  "id": 360284618,
+  "tags": {
+    "highway": "secondary",
+    "name": "Via Gaiazza",
+    "ref": "SP51",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 360339860,
+  "tags": {
+    "highway": "secondary",
+    "name": "Via Borlo",
+    "ref": "SP51",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 362599533,
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Salita alla Guardia",
+    "ref": "SP52",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 374911936,
+  "tags": {
+    "highway": "path",
+    "mtb:scale": "2",
+    "mtb:scale:uphill": "5",
+    "name": "Sentiero \"Acque Minerali\""
+  }
+},
+{
+  "type": "way",
+  "id": 375603159,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "path",
+    "mtb:scale": "0",
+    "name": "Bossaro Alto",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 376048957,
+  "tags": {
+    "highway": "service",
+    "name": "Salita alla Guardia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 376341228,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Campolungo"
+  }
+},
+{
+  "type": "way",
+  "id": 382100089,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Frascaro"
+  }
+},
+{
+  "type": "way",
+  "id": 382112600,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Repai"
+  }
+},
+{
+  "type": "way",
+  "id": 386691014,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "path",
+    "mtb:scale": "1",
+    "mtb:scale:uphill": "1",
+    "name": "Via Cavero"
+  }
+},
+{
+  "type": "way",
+  "id": 396667706,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Calcinara di San Martino",
+    "sac_scale": "mountain_hiking",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 401932720,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Sareto",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 450123418,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Cascinetta"
+  }
+},
+{
+  "type": "way",
+  "id": 450123420,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Ca'"
+  }
+},
+{
+  "type": "way",
+  "id": 450123421,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Montescioro"
+  }
+},
+{
+  "type": "way",
+  "id": 450123429,
+  "tags": {
+    "highway": "service",
+    "name": "Via Borgo"
+  }
+},
+{
+  "type": "way",
+  "id": 450123431,
+  "tags": {
+    "highway": "service",
+    "name": "Piazza Chiesa di Torbi"
+  }
+},
+{
+  "type": "way",
+  "id": 450123434,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Inopiano"
+  }
+},
+{
+  "type": "way",
+  "id": 450123439,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Inestre"
+  }
+},
+{
+  "type": "way",
+  "id": 463421003,
+  "tags": {
+    "highway": "track",
+    "name": "Via Piancraiolo"
+  }
+},
+{
+  "type": "way",
+  "id": 463421004,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Piancraiolo"
+  }
+},
+{
+  "type": "way",
+  "id": 470142062,
+  "tags": {
+    "highway": "track",
+    "name": "Via Campopiano"
+  }
+},
+{
+  "type": "way",
+  "id": 504041629,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Lencisa",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 504041634,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Bossaro",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 504060719,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Salita alla Guardia",
+    "ref": "SP52",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 504062177,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Salita alla Guardia",
+    "ref": "SP52",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 504062178,
+  "tags": {
+    "highway": "secondary",
+    "name": "Salita alla Guardia",
+    "ref": "SP52",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 504062179,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Livellato",
+    "ref": "SP51",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 504062180,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Livellato",
+    "ref": "SP51",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 504062181,
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Salita alla Guardia",
+    "ref": "SP52",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 504062182,
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Salita alla Guardia",
+    "ref": "SP52",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 504062188,
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Salita alla Guardia",
+    "ref": "SP52",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 504062668,
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Salita alla Guardia",
+    "ref": "SP52",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 504068140,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Livellato",
+    "ref": "SP51",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 504068141,
+  "tags": {
+    "highway": "secondary",
+    "name": "Via Livellato",
+    "ref": "SP51",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 504068824,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Scotti",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 504211354,
+  "tags": {
+    "bicycle": "yes",
+    "description": "Old tramway - Essendo un percorso aperto ad Escursionisti i Bikers che lo percorrono prestino attenzione",
+    "foot": "yes",
+    "highway": "track",
+    "horse": "yes",
+    "mtb:scale:uphill": "1",
+    "name": "Percorso verde ex Guidovia",
+    "surface": "gravel",
+    "tracktype": "grade3"
+  }
+},
+{
+  "type": "way",
+  "id": 504212175,
+  "tags": {
+    "bicycle": "yes",
+    "description": "Old tramway - Essendo un percorso aperto ad Escursionisti i Bikers che lo percorrono prestino attenzione",
+    "highway": "track",
+    "horse": "yes",
+    "mtb:scale:uphill": "1",
+    "name": "Percorso verde ex Guidovia",
+    "surface": "gravel",
+    "tracktype": "grade3"
+  }
+},
+{
+  "type": "way",
+  "id": 504212180,
+  "tags": {
+    "highway": "secondary",
+    "name": "Via Gaiazza",
+    "ref": "SP51",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 504212182,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Nostra Signora dell'orto",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 504757560,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "secondary",
+    "name": "Via San Martino",
+    "ref": "SP4",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 504757561,
+  "tags": {
+    "highway": "secondary",
+    "name": "Via Paravanico",
+    "ref": "SP4",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 504757985,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via alla Grilla",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 504764099,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Piazza Lencisa",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 504764104,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Monte Pennello",
+    "surface": "dirt",
+    "trail_visibility": "excellent"
+  }
+},
+{
+  "type": "way",
+  "id": 504764106,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "secondary",
+    "name": "Strada Provinciale Capanne di Marcarolo - Piani di Praglia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 504764107,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "secondary",
+    "name": "Strada Provinciale Capanne di Marcarolo - Piani di Praglia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 510761323,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada Provinciale Capanne di Marcarolo - Piani di Praglia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 511019128,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Piazza Lencisa",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 520532799,
+  "tags": {
+    "highway": "secondary",
+    "name": "Via Paravanico",
+    "ref": "SP4",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 520533825,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "secondary",
+    "name": "Strada Provinciale Capanne di Marcarolo - Piani di Praglia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 529666362,
+  "tags": {
+    "fixme": "resurvey",
+    "ford": "yes",
+    "highway": "path",
+    "name": "Segnavia cerchio giallo",
+    "sac_scale": "mountain_hiking",
+    "surface": "sentiero",
+    "trail_visibility": "intermediate"
+  }
+},
+{
+  "type": "way",
+  "id": 536210095,
+  "tags": {
+    "highway": "residential",
+    "mtb:scale": "2",
+    "name": "Via Lavaggi"
+  }
+},
+{
+  "type": "way",
+  "id": 544985409,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "secondary",
+    "name": "Strada Provinciale Capanne di Marcarolo - Piani di Praglia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 552910029,
+  "tags": {
+    "highway": "secondary",
+    "maxspeed": "40",
+    "name": "Via Bartolomeo Parodi",
+    "ref": "SP4",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 552910033,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Gaiazza"
+  }
+},
+{
+  "type": "way",
+  "id": 552910035,
+  "tags": {
+    "highway": "secondary",
+    "maxspeed": "40",
+    "name": "Via Gaiazza",
+    "ref": "SP51",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 552910036,
+  "tags": {
+    "highway": "secondary",
+    "name": "Via Gaiazza",
+    "ref": "SP51",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 598589571,
+  "tags": {
+    "bicycle": "private",
+    "cycleway": "lane",
+    "highway": "track",
+    "name": "Sterrata dei Laghi",
+    "oneway": "no",
+    "ref": "AVML - Alta Via dei Monti Liguri - Tappa 23",
+    "tracktype": "grade1",
+    "trail_visibility": "excellent"
+  }
+},
+{
+  "type": "way",
+  "id": 616103500,
+  "tags": {
+    "bridge": "yes",
+    "highway": "footway",
+    "layer": "1",
+    "name": "Via Burba"
+  }
+},
+{
+  "type": "way",
+  "id": 616103501,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Burba"
+  }
+},
+{
+  "type": "way",
+  "id": 633680998,
+  "tags": {
+    "highway": "residential",
+    "lit": "yes",
+    "name": "Via Villa Lidia"
+  }
+},
+{
+  "type": "way",
+  "id": 658160560,
+  "tags": {
+    "bridge": "yes",
+    "highway": "residential",
+    "layer": "1",
+    "name": "Via Santissimo Nome di Gesù"
+  }
+},
+{
+  "type": "way",
+  "id": 658160561,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Santissimo Nome di Gesù"
+  }
+},
+{
+  "type": "way",
+  "id": 658160562,
+  "tags": {
+    "alt_name": "Via SS nome di Gesù",
+    "highway": "service",
+    "name": "Via Santissimo Nome di Gesù",
+    "service": "driveway"
+  }
+},
+{
+  "type": "way",
+  "id": 658160563,
+  "tags": {
+    "highway": "residential",
+    "lit": "yes",
+    "name": "Piazza Canonero"
+  }
+},
+{
+  "type": "way",
+  "id": 658160564,
+  "tags": {
+    "highway": "steps",
+    "name": "Salita a Livellato"
+  }
+},
+{
+  "type": "way",
+  "id": 658160565,
+  "tags": {
+    "highway": "residential",
+    "name": "Salita Livellato"
+  }
+},
+{
+  "type": "way",
+  "id": 670741832,
+  "tags": {
+    "area": "yes",
+    "highway": "pedestrian",
+    "name": "Piazza Chiesa di Ceranesi"
+  }
+},
+{
+  "type": "way",
+  "id": 670741833,
+  "tags": {
+    "highway": "residential",
+    "name": "Via alle Tine"
+  }
+},
+{
+  "type": "way",
+  "id": 671295524,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Ca' di Chilli"
+  }
+},
+{
+  "type": "way",
+  "id": 671563008,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Garzanara"
+  }
+},
+{
+  "type": "way",
+  "id": 671563010,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Grattin"
+  }
+},
+{
+  "type": "way",
+  "id": 671563011,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Borgo Ferrandi"
+  }
+},
+{
+  "type": "way",
+  "id": 671563012,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Borgo Ratti"
+  }
+},
+{
+  "type": "way",
+  "id": 671563013,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Borgo Ratti"
+  }
+},
+{
+  "type": "way",
+  "id": 671563014,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Piazza Chiesa di San Martino"
+  }
+},
+{
+  "type": "way",
+  "id": 671563015,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Borgo Rossi"
+  }
+},
+{
+  "type": "way",
+  "id": 671563016,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Monte Comego"
+  }
+},
+{
+  "type": "way",
+  "id": 671563017,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Casale di San Martino"
+  }
+},
+{
+  "type": "way",
+  "id": 671563018,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Costa di San Martino"
+  }
+},
+{
+  "type": "way",
+  "id": 671563019,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "tertiary",
+    "name": "Via Larvego",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 672838077,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Borgo Frattunini"
+  }
+},
+{
+  "type": "way",
+  "id": 672838078,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Brugallo",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 672838079,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Anti"
+  }
+},
+{
+  "type": "way",
+  "id": 672838080,
+  "tags": {
+    "highway": "service",
+    "name": "Via Ca' Bianca"
+  }
+},
+{
+  "type": "way",
+  "id": 672838081,
+  "tags": {
+    "highway": "service",
+    "name": "Via Ca' Bianca",
+    "service": "driveway"
+  }
+},
+{
+  "type": "way",
+  "id": 809992100,
+  "tags": {
+    "bicycle": "no",
+    "highway": "path",
+    "horse": "no",
+    "name": "Sentero escursionistico per Rocca Maia"
+  }
+},
+{
+  "type": "way",
+  "id": 840986058,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Pareti",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 873152378,
+  "tags": {
+    "bicycle": "yes",
+    "description": "Old tramway - Essendo un percorso aperto ad Escursionisti i Bikers che lo percorrono prestino attenzione",
+    "foot": "yes",
+    "highway": "track",
+    "horse": "yes",
+    "mtb:scale:uphill": "1",
+    "name": "Percorso verde ex Guidovia",
+    "surface": "gravel",
+    "tracktype": "grade3"
+  }
+},
+{
+  "type": "way",
+  "id": 873156482,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "path",
+    "mtb:scale": "1",
+    "name": "il Pollaio",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 875819018,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Bossaro",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 877936497,
+  "tags": {
+    "highway": "path",
+    "name": "Sentiero \"Pilastrino\"",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 971291738,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Galinin"
+  }
+},
+{
+  "type": "way",
+  "id": 971291739,
+  "tags": {
+    "highway": "service",
+    "name": "Via Fossato",
+    "service": "driveway"
+  }
+},
+{
+  "type": "way",
+  "id": 971291740,
+  "tags": {
+    "highway": "service",
+    "name": "Via Fossato"
+  }
+},
+{
+  "type": "way",
+  "id": 971291741,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Fossato"
+  }
+},
+{
+  "type": "way",
+  "id": 1015009800,
+  "tags": {
+    "highway": "secondary",
+    "name": "Via Gaiazza",
+    "ref": "SP51",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1015009801,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Sareto",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1025195795,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "secondary",
+    "name": "Via San Martino",
+    "ref": "SP4",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1025195796,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "secondary",
+    "name": "Via San Martino",
+    "ref": "SP4",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1050980611,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Fossato"
+  }
+},
+{
+  "type": "way",
+  "id": 1050980612,
+  "tags": {
+    "bridge": "yes",
+    "highway": "residential",
+    "layer": "1",
+    "name": "Via Fossato"
+  }
+},
+{
+  "type": "way",
+  "id": 1062578398,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Repai"
+  }
+},
+{
+  "type": "way",
+  "id": 1064187824,
+  "tags": {
+    "highway": "service",
+    "mtb:scale": "2",
+    "mtb:scale:uphill": "5",
+    "name": "Via Sareto",
+    "service": "driveway"
+  }
+},
+{
+  "type": "way",
+  "id": 1064187825,
+  "tags": {
+    "highway": "service",
+    "name": "Via Sareto",
+    "service": "driveway"
+  }
+},
+{
+  "type": "way",
+  "id": 1064187832,
+  "tags": {
+    "highway": "residential",
+    "name": "Via dei Bernardi"
+  }
+},
+{
+  "type": "way",
+  "id": 1064187833,
+  "tags": {
+    "highway": "residential",
+    "name": "Via dei Bernardi"
+  }
+},
+{
+  "type": "way",
+  "id": 1064187839,
+  "tags": {
+    "highway": "residential",
+    "name": "Via dei Bernardi"
+  }
+},
+{
+  "type": "way",
+  "id": 1064187855,
+  "tags": {
+    "highway": "service",
+    "name": "Via Lavaggi",
+    "service": "alley"
+  }
+},
+{
+  "type": "way",
+  "id": 1064187865,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Chiapparo",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1067031710,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Borlo"
+  }
+},
+{
+  "type": "way",
+  "id": 1083968264,
+  "tags": {
+    "highway": "residential",
+    "name": "Salita alla Guardia"
+  }
+},
+{
+  "type": "way",
+  "id": 1083968265,
+  "tags": {
+    "highway": "residential",
+    "name": "Salita alla Guardia"
+  }
+},
+{
+  "type": "way",
+  "id": 1083968266,
+  "tags": {
+    "bridge": "yes",
+    "highway": "residential",
+    "layer": "1",
+    "name": "Via Galinin"
+  }
+},
+{
+  "type": "way",
+  "id": 1083968270,
+  "tags": {
+    "name": "Piazza Canonero",
+    "place": "square"
+  }
+},
+{
+  "type": "way",
+  "id": 1083968271,
+  "tags": {
+    "highway": "residential",
+    "lit": "yes",
+    "name": "Piazza Canonero"
+  }
+},
+{
+  "type": "way",
+  "id": 1116227465,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "secondary",
+    "name": "Strada Provinciale Capanne di Marcarolo - Piani di Praglia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1202819928,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Bartolomeo Parodi"
+  }
+},
+{
+  "type": "way",
+  "id": 1227237751,
+  "tags": {
+    "access": "private",
+    "highway": "residential",
+    "name": "Salita Guardia"
+  }
+},
+{
+  "type": "way",
+  "id": 1227237753,
+  "tags": {
+    "access": "private",
+    "highway": "service",
+    "name": "Salita Guardia",
+    "service": "driveway"
+  }
+},
+{
+  "type": "way",
+  "id": 1243250948,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "secondary",
+    "name": "Strada Provinciale Capanne di Marcarolo - Piani di Praglia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1244036813,
+  "tags": {
+    "highway": "secondary",
+    "name": "Salita alla Guardia",
+    "ref": "SP52",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1244036814,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Bacillà"
+  }
+},
+{
+  "type": "way",
+  "id": 1244040460,
+  "tags": {
+    "highway": "service",
+    "name": "Via Inopozzolo",
+    "oneway": "no",
+    "sac_scale": "mountain_hiking",
+    "service": "driveway",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 1329609422,
+  "tags": {
+    "access": "no",
+    "highway": "service",
+    "name": "Accesso mezzi soccorso diga Badana",
+    "service": "accesso_di_emergenza"
+  }
+},
+{
+  "type": "way",
+  "id": 1352624171,
+  "tags": {
+    "bridge": "yes",
+    "highway": "tertiary",
+    "layer": "1",
+    "maxweight": "6",
+    "name": "Via Lavaggi",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1352624172,
+  "tags": {
+    "highway": "tertiary",
+    "maxweight": "6",
+    "name": "Via Lavaggi",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1460612365,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "secondary",
+    "name": "Via San Martino",
+    "ref": "SP4",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1463220617,
+  "tags": {
+    "highway": "residential",
+    "name": "Via dei Bernardi"
+  }
+},
+{
+  "type": "way",
+  "id": 1463220618,
+  "tags": {
+    "highway": "secondary",
+    "name": "Via Gaiazza",
+    "ref": "SP51",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1463220619,
+  "tags": {
+    "highway": "secondary",
+    "name": "Via Gaiazza",
+    "ref": "SP51",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1463220620,
+  "tags": {
+    "highway": "secondary",
+    "name": "Via Bartolomeo Parodi",
+    "ref": "SP4",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1494646626,
+  "tags": {
+    "highway": "tertiary",
+    "maxweight": "6",
+    "name": "Via Chiapparo",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1498776157,
+  "tags": {
+    "alt_name": "Sentiero Mariano",
+    "handrail": "right",
+    "highway": "path",
+    "name": "Sentiero Mariano alla Croce",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 1532824099,
+  "tags": {
+    "emergency": "yes",
+    "highway": "unclassified",
+    "maxspeed": "30",
+    "maxweight": "3.5",
+    "maxwidth": "1.8",
+    "motor_vehicle:conditional": "destination @ (08:00-20:00 Mo-Fr)",
+    "name": "Via Campolungo",
+    "oneway": "no"
+  }
+}
+
+  ]
+}

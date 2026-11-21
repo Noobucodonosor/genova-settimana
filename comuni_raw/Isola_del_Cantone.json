@@ -1,0 +1,2461 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-11-01T21:13:22Z",
+    "timestamp_areas_base": "2026-11-01T18:30:20Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 10268455339,
+  "tags": {
+    "historic": "memorial",
+    "inscription": "A.N.P.I.\nIPPOLITO MARIO\n-PARTIGIANO-\nTRUCIDATO DAL PIOMBO NAZISTA\nIL 24 APRILE 1945\nA.N.P.I. VALLE SCRIVIA 23-4-1978",
+    "memorial": "plaque",
+    "name": "Mario Ippolito"
+  }
+},
+{
+  "type": "node",
+  "id": 11392717792,
+  "tags": {
+    "historic": "memorial",
+    "memorial": "plaque",
+    "name": "Carlo Malinverni"
+  }
+},
+{
+  "type": "node",
+  "id": 11392717798,
+  "tags": {
+    "historic": "memorial",
+    "memorial": "plaque",
+    "name": "Nicolò Casassa"
+  }
+},
+{
+  "type": "node",
+  "id": 14024199802,
+  "tags": {
+    "addr:city": "Isola del Cantone",
+    "addr:housenumber": "6",
+    "addr:postcode": "16017",
+    "addr:street": "Piazza Vittorio Veneto",
+    "amenity": "school",
+    "name": "Scuola Secondaria di I° Ugo Foscolo",
+    "operator": "Istituto Omnicomprensivo \"Vallescrivia\"",
+    "website": "https://www.iovallescrivia.edu.it/luoghi?id=1597"
+  }
+},
+{
+  "type": "way",
+  "id": 9222708,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "80",
+    "name": "Autostrada dei Giovi - Serravalle",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 26689199,
+  "tags": {
+    "destination": "ISOLA DEL CANTONE",
+    "highway": "motorway_link",
+    "lanes": "1",
+    "maxspeed": "40",
+    "name": "A7 dir. Milano - Svincolo di Isola del Cantone",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 26689200,
+  "tags": {
+    "highway": "motorway_link",
+    "lanes": "1",
+    "maxspeed": "40",
+    "name": "A7 dir. Genova - Svincolo di Isola del Cantone",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 38663533,
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "90",
+    "name": "Autostrada dei Giovi - Serravalle",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 38663534,
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "80",
+    "name": "Autostrada dei Giovi - Serravalle",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 38663535,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "lit": "no",
+    "maxspeed": "80",
+    "name": "Autostrada dei Giovi - Serravalle",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 38663537,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "lit": "no",
+    "maxspeed": "90",
+    "name": "Autostrada dei Giovi - Serravalle",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 38663539,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "layer": "-1",
+    "lit": "24/7",
+    "maxspeed": "90",
+    "name": "Autostrada dei Giovi - Serravalle",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes",
+    "tunnel": "yes",
+    "tunnel:name": "Galleria Prodonno"
+  }
+},
+{
+  "type": "way",
+  "id": 38663540,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "layer": "-1",
+    "length": "1160",
+    "lit": "24/7",
+    "maxspeed": "90",
+    "name": "Galleria Gabbia",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes",
+    "tunnel": "yes",
+    "wikidata": "Q122087809"
+  }
+},
+{
+  "type": "way",
+  "id": 38663544,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "lit": "no",
+    "maxspeed": "80",
+    "name": "Autostrada dei Giovi - Serravalle",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 38663545,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "lit": "no",
+    "maxspeed": "90",
+    "name": "Autostrada dei Giovi - Serravalle",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 38663679,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "lit": "no",
+    "maxspeed": "90",
+    "name": "Autostrada dei Giovi - Serravalle",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 38663680,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "lit": "no",
+    "maxspeed": "90",
+    "name": "Autostrada dei Giovi - Serravalle",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 38663681,
+  "tags": {
+    "bridge": "yes",
+    "bridge:name": "Viadotto Vobbia",
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "layer": "2",
+    "lit": "no",
+    "maxspeed": "90",
+    "name": "Autostrada dei Giovi - Serravalle",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 38663682,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "lit": "no",
+    "maxspeed": "80",
+    "name": "Autostrada dei Giovi - Serravalle",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 38663685,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "lit": "no",
+    "maxspeed": "80",
+    "name": "Autostrada dei Giovi - Serravalle",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 38663687,
+  "tags": {
+    "bridge": "yes",
+    "bridge:name": "Galleria Rio Cagnola",
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "80",
+    "name": "Autostrada dei Giovi - Serravalle",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 38663688,
+  "tags": {
+    "bridge": "yes",
+    "bridge:name": "Galleria Rio Cagnola",
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "90",
+    "name": "Autostrada dei Giovi - Serravalle",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 38663868,
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "90",
+    "name": "Autostrada dei Giovi - Serravalle",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 38663870,
+  "tags": {
+    "destination": "ISOLA DEL CANTONE",
+    "highway": "motorway_link",
+    "lanes": "1",
+    "maxspeed": "40",
+    "name": "A7 dir. Genova - Svincolo di Isola del Cantone",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 38663871,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "80",
+    "name": "Autostrada dei Giovi - Serravalle",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 38663872,
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "80",
+    "name": "Autostrada dei Giovi - Serravalle",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 38663874,
+  "tags": {
+    "highway": "motorway_link",
+    "lanes": "1",
+    "maxspeed": "40",
+    "name": "A7 dir. Milano - Svincolo di Isola del Cantone",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 38664241,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "lit": "no",
+    "maxspeed": "90",
+    "name": "A7 dir. Genova - Isola del Cantone/Ronco Scrivia",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 38664244,
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "80",
+    "name": "A7 dir. Genova - Isola del Cantone/Ronco Scrivia",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 38664245,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "lit": "no",
+    "maxspeed": "90",
+    "name": "A7 dir. Genova - Isola del Cantone/Ronco Scrivia",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 38664246,
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "90",
+    "name": "A7 dir. Genova - Isola del Cantone/Ronco Scrivia",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes",
+    "wikidata": "Q137711230"
+  }
+},
+{
+  "type": "way",
+  "id": 47254203,
+  "tags": {
+    "highway": "motorway_link",
+    "lanes": "2",
+    "maxspeed": "40",
+    "name": "A7 dir. Milano - Svincolo di Isola del Cantone",
+    "oneway": "no",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 54939005,
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "80",
+    "name": "Viadotto Scrivia Pietrabissara",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes",
+    "wikidata": "Q128082566"
+  }
+},
+{
+  "type": "way",
+  "id": 54939006,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "lit": "no",
+    "maxspeed": "80",
+    "name": "Autostrada dei Giovi - Serravalle",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 54939007,
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "80",
+    "name": "Viadotto Pietrabissara",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 54939008,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "lit": "no",
+    "maxspeed": "80",
+    "name": "Autostrada dei Giovi - Serravalle",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 54961464,
+  "tags": {
+    "highway": "secondary",
+    "maxspeed": "50",
+    "name": "Strada provinciale 8 di Vobbia",
+    "oneway": "no",
+    "ref": "SP8",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 54961467,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada provinciale 8 di Vobbia",
+    "oneway": "no",
+    "ref": "SP8",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 54961468,
+  "tags": {
+    "bridge": "yes",
+    "highway": "secondary",
+    "layer": "1",
+    "name": "Strada provinciale 8 di Vobbia",
+    "oneway": "no",
+    "ref": "SP8",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 54961469,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada provinciale 8 di Vobbia",
+    "oneway": "no",
+    "ref": "SP8",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 54961470,
+  "tags": {
+    "bridge": "yes",
+    "highway": "secondary",
+    "layer": "1",
+    "name": "Strada provinciale 8 di Vobbia",
+    "oneway": "no",
+    "ref": "SP8",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 54961475,
+  "tags": {
+    "bridge": "yes",
+    "bridge:name": "Ponte di Zan",
+    "highway": "secondary",
+    "layer": "1",
+    "name": "Strada provinciale 8 di Vobbia",
+    "oneway": "no",
+    "ref": "SP8",
+    "surface": "asphalt",
+    "wikidata": "Q3908159",
+    "wikipedia": "it:Ponte di Zan"
+  }
+},
+{
+  "type": "way",
+  "id": 54970207,
+  "tags": {
+    "highway": "tertiary",
+    "maxweight": "14",
+    "name": "Strada provinciale 46 di Montessoro",
+    "oneway": "no",
+    "ref": "SP46",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 54970211,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Strada provinciale 46 di Montessoro",
+    "oneway": "no",
+    "ref": "SP46",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 54970213,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Strada provinciale 46 di Montessoro",
+    "oneway": "no",
+    "ref": "SP46",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 54970214,
+  "tags": {
+    "bridge": "yes",
+    "highway": "tertiary",
+    "layer": "1",
+    "name": "Strada provinciale 46 di Montessoro",
+    "oneway": "no",
+    "ref": "SP46",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 54970216,
+  "tags": {
+    "bridge": "yes",
+    "highway": "tertiary",
+    "layer": "1",
+    "maxweight": "14",
+    "name": "Strada provinciale 46 di Montessoro",
+    "oneway": "no",
+    "ref": "SP46",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 59132694,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "layer": "-1",
+    "name": "Strada statale dei Giovi",
+    "ref": "SS35",
+    "surface": "asphalt",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 59132696,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Strada statale dei Giovi",
+    "ref": "SS35",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 59135412,
+  "tags": {
+    "bridge": "yes",
+    "highway": "secondary",
+    "lanes": "2",
+    "layer": "2",
+    "maxspeed": "50",
+    "name": "Strada provinciale 8 di Vobbia",
+    "oneway": "no",
+    "ref": "SP8",
+    "surface": "asphalt",
+    "wikidata": "Q137713233"
+  }
+},
+{
+  "type": "way",
+  "id": 59135415,
+  "tags": {
+    "highway": "secondary",
+    "maxspeed": "50",
+    "name": "Strada provinciale 8 di Vobbia",
+    "oneway": "yes",
+    "ref": "SP8",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 61404186,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "lit": "no",
+    "maxspeed": "80",
+    "name": "Autostrada dei Giovi - Serravalle",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 61406475,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "layer": "-1",
+    "lit": "24/7",
+    "maxheight": "default",
+    "maxspeed": "90",
+    "name": "Autostrada dei Giovi - Serravalle",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 61406477,
+  "tags": {
+    "highway": "motorway_link",
+    "lanes": "1",
+    "maxspeed": "40",
+    "name": "A7 dir. Genova - Svincolo di Isola del Cantone",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 69488669,
+  "tags": {
+    "highway": "secondary",
+    "maxspeed": "50",
+    "name": "Strada provinciale 8 di Vobbia",
+    "ref": "SP8",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 109862062,
+  "tags": {
+    "highway": "secondary",
+    "maxspeed": "50",
+    "name": "Strada provinciale 8 di Vobbia",
+    "oneway": "yes",
+    "ref": "SP8",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 109862063,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Fornace",
+    "oneway": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 109862064,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Fornace",
+    "oneway": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 111301478,
+  "tags": {
+    "highway": "tertiary",
+    "maxweight": "14",
+    "name": "Strada provinciale 46 di Montessoro",
+    "oneway": "no",
+    "ref": "SP46",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 111301484,
+  "tags": {
+    "highway": "tertiary",
+    "maxweight": "14",
+    "name": "Strada provinciale 46 di Montessoro",
+    "oneway": "no",
+    "ref": "SP46",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 111301491,
+  "tags": {
+    "highway": "tertiary",
+    "maxweight": "14",
+    "name": "Strada provinciale 46 di Montessoro",
+    "oneway": "no",
+    "ref": "SP46",
+    "surface": "gravel"
+  }
+},
+{
+  "type": "way",
+  "id": 111301492,
+  "tags": {
+    "highway": "tertiary",
+    "maxweight": "14",
+    "name": "Strada provinciale 46 di Montessoro",
+    "oneway": "no",
+    "ref": "SP46",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 204303418,
+  "tags": {
+    "amenity": "townhall",
+    "building": "public",
+    "name": "Municipio di Isola del Cantone"
+  }
+},
+{
+  "type": "way",
+  "id": 210442919,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Ferrea"
+  }
+},
+{
+  "type": "way",
+  "id": 244497786,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "90",
+    "name": "Strada statale 35 dei Giovi",
+    "oneway": "no",
+    "ref": "SS35",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 244497787,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Strada statale 35 dei Giovi",
+    "oneway": "no",
+    "ref": "SS35",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 244497789,
+  "tags": {
+    "bridge": "yes",
+    "highway": "primary",
+    "lanes": "2",
+    "layer": "1",
+    "name": "Strada statale dei Giovi",
+    "ref": "SS35",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 244497820,
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "80",
+    "name": "Autostrada dei Giovi - Serravalle",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 244497821,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "lit": "no",
+    "maxspeed": "80",
+    "name": "Autostrada dei Giovi - Serravalle",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 268457855,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "lit": "no",
+    "maxspeed": "90",
+    "name": "A7 dir. Milano - Ronco Scrivia/Isola del Cantone",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 268457868,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "lit": "no",
+    "maxheight": "default",
+    "maxspeed": "90",
+    "name": "A7 dir. Milano - Ronco Scrivia/Isola del Cantone",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 281423871,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "lit": "no",
+    "maxspeed": "80",
+    "name": "Autostrada dei Giovi - Serravalle",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 281423872,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "lit": "no",
+    "maxspeed": "80",
+    "name": "A7 dir. Genova - Isola del Cantone/Ronco Scrivia",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 281425388,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "lit": "no",
+    "maxspeed": "80",
+    "name": "Autostrada dei Giovi - Serravalle",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 291986502,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "lit": "no",
+    "maxspeed": "90",
+    "name": "Autostrada dei Giovi - Serravalle",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 299755421,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "lit": "no",
+    "maxspeed": "90",
+    "name": "Autostrada dei Giovi - Serravalle",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 299755423,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Asilo"
+  }
+},
+{
+  "type": "way",
+  "id": 299927548,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Strada statale 35 dei Giovi",
+    "oneway": "no",
+    "ref": "SS35",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 299927549,
+  "tags": {
+    "bridge": "yes",
+    "highway": "primary",
+    "lanes": "2",
+    "layer": "1",
+    "name": "Strada statale dei Giovi",
+    "ref": "SS35",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 299927750,
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "80",
+    "name": "Autostrada dei Giovi - Serravalle",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 299927751,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "lit": "no",
+    "maxspeed": "80",
+    "name": "Autostrada dei Giovi - Serravalle",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 312411891,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada provinciale 8 di Vobbia",
+    "oneway": "no",
+    "ref": "SP8",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 312411898,
+  "tags": {
+    "bridge": "yes",
+    "highway": "secondary",
+    "layer": "1",
+    "name": "Strada provinciale 8 di Vobbia",
+    "oneway": "no",
+    "ref": "SP8",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 312411899,
+  "tags": {
+    "bridge": "yes",
+    "highway": "secondary",
+    "layer": "1",
+    "name": "Strada provinciale 8 di Vobbia",
+    "oneway": "no",
+    "ref": "SP8",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 312411900,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada provinciale 8 di Vobbia",
+    "oneway": "no",
+    "ref": "SP8",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 353314995,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "90",
+    "name": "Strada statale 35 dei Giovi",
+    "oneway": "no",
+    "ref": "SS35",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 365170032,
+  "tags": {
+    "historic": "castle",
+    "name": "Castello degli Spinola di Montessoro",
+    "ruins": "yes",
+    "tourism": "attraction",
+    "wikidata": "Q3662744",
+    "wikipedia": "it:Castello di Montessoro"
+  }
+},
+{
+  "type": "way",
+  "id": 466642786,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "footway",
+    "name": "Lungo Torrente Scrivia Nicolò Casassa"
+  }
+},
+{
+  "type": "way",
+  "id": 466642791,
+  "tags": {
+    "highway": "service",
+    "name": "Via Ponte Vecchio",
+    "oneway": "no",
+    "service": "alley"
+  }
+},
+{
+  "type": "way",
+  "id": 466643696,
+  "tags": {
+    "hgv": "no",
+    "highway": "unclassified",
+    "maxheight": "2.5",
+    "maxspeed": "20",
+    "name": "Strada Zuncrì"
+  }
+},
+{
+  "type": "way",
+  "id": 466643704,
+  "tags": {
+    "highway": "service",
+    "name": "Via Ponte Vecchio",
+    "service": "alley"
+  }
+},
+{
+  "type": "way",
+  "id": 466643705,
+  "tags": {
+    "highway": "service",
+    "name": "Via Ponte Vecchio",
+    "oneway": "no",
+    "service": "alley",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 466643708,
+  "tags": {
+    "highway": "residential",
+    "name": "Piazza Giuseppe Mazzini",
+    "oneway": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 466643712,
+  "tags": {
+    "highway": "service",
+    "name": "Via Egidio Dedè",
+    "oneway": "yes",
+    "service": "alley",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 466643733,
+  "tags": {
+    "hgv": "no",
+    "highway": "unclassified",
+    "layer": "-1",
+    "maxheight": "2.5",
+    "maxspeed": "20",
+    "name": "Strada Zuncrì",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 466643734,
+  "tags": {
+    "hgv": "no",
+    "highway": "unclassified",
+    "maxspeed": "20",
+    "name": "Strada Zuncrì"
+  }
+},
+{
+  "type": "way",
+  "id": 466643740,
+  "tags": {
+    "highway": "secondary",
+    "maxspeed": "50",
+    "name": "Strada provinciale 8 di Vobbia",
+    "oneway": "yes",
+    "ref": "SP8",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 466643741,
+  "tags": {
+    "highway": "secondary",
+    "maxspeed": "50",
+    "name": "Strada provinciale 8 di Vobbia",
+    "oneway": "yes",
+    "ref": "SP8",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 617514723,
+  "tags": {
+    "bridge": "yes",
+    "bridge:name": "Viadotto Scrivia",
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "90",
+    "name": "Autostrada dei Giovi - Serravalle",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 617514724,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "lit": "no",
+    "maxspeed": "90",
+    "name": "Autostrada dei Giovi - Serravalle",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 696145197,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Campolungo"
+  }
+},
+{
+  "type": "way",
+  "id": 965361180,
+  "tags": {
+    "leisure": "park",
+    "name": "Area Pic-Nic"
+  }
+},
+{
+  "type": "way",
+  "id": 1200849449,
+  "tags": {
+    "bridge": "viaduct",
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "90",
+    "name": "Autostrada dei Giovi - Serravalle",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1200849450,
+  "tags": {
+    "bridge": "viaduct",
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "80",
+    "name": "Autostrada dei Giovi - Serravalle",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1200849451,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "lit": "no",
+    "maxspeed": "80",
+    "name": "Autostrada dei Giovi - Serravalle",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1200849452,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "lit": "no",
+    "maxspeed": "90",
+    "name": "Autostrada dei Giovi - Serravalle",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1200849453,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "lit": "no",
+    "maxspeed": "90",
+    "name": "Autostrada dei Giovi - Serravalle",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1201545936,
+  "tags": {
+    "highway": "service",
+    "name": "Via Postumia",
+    "oneway": "yes",
+    "service": "alley"
+  }
+},
+{
+  "type": "way",
+  "id": 1201548276,
+  "tags": {
+    "highway": "service",
+    "name": "Salita Piazzo",
+    "service": "alley"
+  }
+},
+{
+  "type": "way",
+  "id": 1201548277,
+  "tags": {
+    "highway": "service",
+    "name": "Via Postumia",
+    "oneway": "yes",
+    "service": "alley"
+  }
+},
+{
+  "type": "way",
+  "id": 1201548278,
+  "tags": {
+    "highway": "service",
+    "name": "Piazza Vittorio Veneto"
+  }
+},
+{
+  "type": "way",
+  "id": 1201548282,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Piazza Vittorio Veneto"
+  }
+},
+{
+  "type": "way",
+  "id": 1201548283,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Postumia",
+    "oneway": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 1201548284,
+  "tags": {
+    "highway": "service",
+    "layer": "-1",
+    "name": "Via Postumia",
+    "oneway": "yes",
+    "service": "alley",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1201548285,
+  "tags": {
+    "highway": "service",
+    "name": "Piazza Giacomo Matteotti",
+    "oneway": "yes",
+    "service": "alley"
+  }
+},
+{
+  "type": "way",
+  "id": 1201553745,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "lit": "no",
+    "maxspeed": "90",
+    "name": "Autostrada dei Giovi - Serravalle",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1201553746,
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "90",
+    "name": "Autostrada dei Giovi - Serravalle",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1201777764,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Via Roma",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1201777770,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Via Serri",
+    "oneway": "no",
+    "ref": "SS35",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1201777771,
+  "tags": {
+    "bridge": "yes",
+    "highway": "primary",
+    "lanes": "2",
+    "layer": "1",
+    "maxspeed": "50",
+    "name": "Via Serri",
+    "oneway": "no",
+    "ref": "SS35",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1201777775,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Via Serri",
+    "oneway": "no",
+    "ref": "SS35",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1201777776,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "90",
+    "name": "Strada statale 35 dei Giovi",
+    "oneway": "no",
+    "ref": "SS35",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1201801211,
+  "tags": {
+    "building": "yes",
+    "castle_type": "stately",
+    "historic": "castle",
+    "name": "Castello Spinola-Mignacco",
+    "wikidata": "Q3662379",
+    "wikipedia": "it:Castello Spinola-Mignacco"
+  }
+},
+{
+  "type": "way",
+  "id": 1201801212,
+  "tags": {
+    "building": "yes",
+    "castle_type": "defensive",
+    "historic": "castle",
+    "name": "Castello Spinola",
+    "wikidata": "Q3662637"
+  }
+},
+{
+  "type": "way",
+  "id": 1202608293,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "lit": "no",
+    "maxspeed": "80",
+    "name": "Autostrada dei Giovi - Serravalle",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1202608294,
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "80",
+    "name": "Autostrada dei Giovi - Serravalle",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1202608295,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "lit": "no",
+    "maxspeed": "90",
+    "name": "Autostrada dei Giovi - Serravalle",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1202608296,
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "90",
+    "name": "Autostrada dei Giovi - Serravalle",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1202608302,
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "80",
+    "name": "Autostrada dei Giovi - Serravalle",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1202608303,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "lit": "no",
+    "maxspeed": "90",
+    "name": "Autostrada dei Giovi - Serravalle",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1202608304,
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "90",
+    "name": "Autostrada dei Giovi - Serravalle",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1202608719,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "lit": "no",
+    "maxspeed": "90",
+    "name": "Autostrada dei Giovi - Serravalle",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1202608720,
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "90",
+    "name": "Autostrada dei Giovi - Serravalle",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1202608721,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "lit": "no",
+    "maxspeed": "80",
+    "name": "Autostrada dei Giovi - Serravalle",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1202608722,
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "80",
+    "name": "Autostrada dei Giovi - Serravalle",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1208501455,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "lit": "no",
+    "maxspeed": "80",
+    "name": "Autostrada dei Giovi - Serravalle",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1208501456,
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "80",
+    "name": "Autostrada dei Giovi - Serravalle",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1208501459,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "80",
+    "name": "Autostrada dei Giovi - Serravalle",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1208501460,
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "80",
+    "name": "Autostrada dei Giovi - Serravalle",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1208501461,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "lit": "no",
+    "maxspeed": "90",
+    "name": "Autostrada dei Giovi - Serravalle",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1208501462,
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "90",
+    "name": "Autostrada dei Giovi - Serravalle",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1228495422,
+  "tags": {
+    "highway": "service",
+    "name": "Via Postumia",
+    "oneway": "no",
+    "service": "alley"
+  }
+},
+{
+  "type": "way",
+  "id": 1228504600,
+  "tags": {
+    "highway": "service",
+    "name": "Via Postumia",
+    "oneway": "no",
+    "service": "alley",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1228504601,
+  "tags": {
+    "highway": "service",
+    "name": "Via Postumia",
+    "oneway": "yes",
+    "service": "alley"
+  }
+},
+{
+  "type": "way",
+  "id": 1228510845,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Ospedale - Ente morale Isola del Cantone ONLUS"
+  }
+},
+{
+  "type": "way",
+  "id": 1228657841,
+  "tags": {
+    "bridge": "yes",
+    "bridge:name": "Viadotto Vobbia",
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "layer": "2",
+    "lit": "no",
+    "maxspeed": "80",
+    "name": "Autostrada dei Giovi - Serravalle",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "surface": "asphalt",
+    "toll": "yes",
+    "wikidata": "Q137720756"
+  }
+},
+{
+  "type": "way",
+  "id": 1228657842,
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "layer": "2",
+    "lit": "no",
+    "maxspeed": "80",
+    "name": "Autostrada dei Giovi - Serravalle",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1228661447,
+  "tags": {
+    "highway": "unclassified",
+    "layer": "-1",
+    "maxheight": "2.1",
+    "name": "Via Fornace",
+    "oneway": "no",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1228664123,
+  "tags": {
+    "highway": "motorway_link",
+    "lanes": "2",
+    "maxspeed": "40",
+    "name": "A7 dir. Milano - Svincolo di Isola del Cantone",
+    "oneway": "no",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1273371461,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "90",
+    "name": "Strada statale 35 dei Giovi",
+    "oneway": "no",
+    "ref": "SS35",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1273371462,
+  "tags": {
+    "bridge": "yes",
+    "highway": "primary",
+    "lanes": "2",
+    "layer": "1",
+    "maxspeed": "90",
+    "name": "Strada statale 35 dei Giovi",
+    "oneway": "no",
+    "ref": "SS35",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1273371466,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "90",
+    "name": "Strada statale 35 dei Giovi",
+    "oneway": "no",
+    "ref": "SS35",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1273371467,
+  "tags": {
+    "bridge": "yes",
+    "highway": "primary",
+    "lanes": "2",
+    "layer": "1",
+    "maxspeed": "90",
+    "name": "Strada statale 35 dei Giovi",
+    "oneway": "no",
+    "ref": "SS35",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1293694723,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "lit": "no",
+    "maxheight": "default",
+    "maxspeed": "90",
+    "name": "A7 dir. Milano - Ronco Scrivia/Isola del Cantone",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1293694724,
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxheight": "default",
+    "maxspeed": "90",
+    "name": "A7 dir. Milano - Ronco Scrivia/Isola del Cantone",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1299047037,
+  "tags": {
+    "highway": "secondary",
+    "maxspeed": "50",
+    "name": "Strada provinciale 8 di Vobbia",
+    "oneway": "yes",
+    "ref": "SP8",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1299047039,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "90",
+    "name": "Strada statale 35 dei Giovi",
+    "oneway": "no",
+    "ref": "SS35",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1299047040,
+  "tags": {
+    "highway": "secondary",
+    "maxspeed": "50",
+    "name": "Strada provinciale 8 di Vobbia",
+    "oneway": "no",
+    "ref": "SP8",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1308434311,
+  "tags": {
+    "destination": "GENOVA",
+    "highway": "motorway_link",
+    "lanes": "1",
+    "maxspeed": "40",
+    "name": "A7 dir. Genova - Svincolo di Isola del Cantone",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1316627269,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "90",
+    "name": "Strada statale 35 dei Giovi",
+    "oneway": "no",
+    "ref": "SS35",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1316627270,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "90",
+    "name": "Strada statale 35 dei Giovi",
+    "oneway": "no",
+    "ref": "SS35",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1316627271,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "90",
+    "name": "Strada statale 35 dei Giovi",
+    "oneway": "no",
+    "ref": "SS35",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1316627272,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "90",
+    "name": "Strada statale 35 dei Giovi",
+    "oneway": "no",
+    "ref": "SS35",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1316627273,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "90",
+    "name": "Strada statale 35 dei Giovi",
+    "oneway": "no",
+    "ref": "SS35",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1316627274,
+  "tags": {
+    "highway": "secondary",
+    "maxspeed": "50",
+    "name": "Strada provinciale 8 di Vobbia",
+    "oneway": "yes",
+    "ref": "SP8",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1391308397,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "lit": "no",
+    "maxheight": "default",
+    "maxspeed": "90",
+    "name": "Autostrada dei Giovi - Serravalle",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1391308398,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "80",
+    "name": "A7 dir. Genova - Isola del Cantone/Ronco Scrivia",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1459100114,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "90",
+    "name": "Strada statale 35 dei Giovi",
+    "oneway": "no",
+    "ref": "SS35",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1463958844,
+  "tags": {
+    "access": "yes",
+    "leisure": "garden",
+    "name": "Giardini Ventuno Madri Costituenti"
+  }
+},
+{
+  "type": "way",
+  "id": 1472996145,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "90",
+    "name": "Strada statale 35 dei Giovi",
+    "oneway": "no",
+    "ref": "SS35",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1540256964,
+  "tags": {
+    "name": "Piazza Vittorio Veneto",
+    "place": "square"
+  }
+}
+
+  ]
+}

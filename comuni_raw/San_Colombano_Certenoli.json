@@ -1,0 +1,819 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-11-01T20:48:05Z",
+    "timestamp_areas_base": "2026-11-01T18:30:20Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "way",
+  "id": 61188778,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada Provinciale 42 di Romaggi",
+    "ref": "SP42",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 83508727,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "unclassified",
+    "name": "Corso Europa",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 104255755,
+  "tags": {
+    "highway": "primary",
+    "name": "Strada statale 225 della Fontanabuona",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 124034086,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "path",
+    "mtb:scale": "3",
+    "name": "sentiero la Colla",
+    "sac_scale": "mountain_hiking",
+    "surface": "ground",
+    "trail_visibility": "good"
+  }
+},
+{
+  "type": "way",
+  "id": 154349997,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Giuseppe Antonio Norero",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 154350309,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Cademartori",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 154350310,
+  "tags": {
+    "highway": "track",
+    "name": "Via Panoramica Romaggi",
+    "surface": "unpaved"
+  }
+},
+{
+  "type": "way",
+  "id": 154350311,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Lanà",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 154350312,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via del Vecchio Mulino",
+    "surface": "unpaved"
+  }
+},
+{
+  "type": "way",
+  "id": 155326440,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via dei Monti"
+  }
+},
+{
+  "type": "way",
+  "id": 155326451,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "track",
+    "name": "Lanà - Romaggi",
+    "surface": "unpaved",
+    "tracktype": "grade3"
+  }
+},
+{
+  "type": "way",
+  "id": 155326456,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "track",
+    "name": "Lanà - Romaggi",
+    "surface": "unpaved",
+    "tracktype": "grade3"
+  }
+},
+{
+  "type": "way",
+  "id": 155326461,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Carpenissone",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 155326466,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Maggio",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 155326472,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Giuseppe Antonio Norero",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 155326477,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Perazzo",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 155326928,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Barbarasco"
+  }
+},
+{
+  "type": "way",
+  "id": 155326929,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Castellaro"
+  }
+},
+{
+  "type": "way",
+  "id": 155326933,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Gotelli",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 155326936,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via del Fossato"
+  }
+},
+{
+  "type": "way",
+  "id": 156983035,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Castello di Vignale",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 183786899,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Domenico Norero"
+  }
+},
+{
+  "type": "way",
+  "id": 193290400,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Strada statale 225 della Fontanabuona",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 195587186,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via dei Monti"
+  }
+},
+{
+  "type": "way",
+  "id": 202163922,
+  "tags": {
+    "amenity": "school",
+    "name": "Scuola Primaria di Calvari",
+    "source": "Regione Liguria"
+  }
+},
+{
+  "type": "way",
+  "id": 204607904,
+  "tags": {
+    "highway": "track",
+    "name": "Via Carpenissone"
+  }
+},
+{
+  "type": "way",
+  "id": 204607905,
+  "tags": {
+    "highway": "service",
+    "name": "Via Perazzo",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 227541149,
+  "tags": {
+    "email": "segreteria@mccalvari.it",
+    "leisure": "sports_centre",
+    "name": "Motocross Calvari Roberto Parodi",
+    "phone": "+39 3292615734",
+    "sport": "motocross"
+  }
+},
+{
+  "type": "way",
+  "id": 302792792,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "secondary",
+    "name": "Via Giovanni Daveggio",
+    "ref": "SP32",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 312392191,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Lanà",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 312547526,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Villa Oneto",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 317923704,
+  "tags": {
+    "bridge": "yes",
+    "highway": "tertiary",
+    "layer": "1",
+    "name": "Via Gotelli",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 317923706,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Gotelli",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 317927502,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada Provinciale 42 di Romaggi",
+    "ref": "SP42",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 317927503,
+  "tags": {
+    "bridge": "yes",
+    "highway": "secondary",
+    "layer": "1",
+    "name": "Strada Provinciale 42 di Romaggi",
+    "ref": "SP42",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 317989637,
+  "tags": {
+    "highway": "service",
+    "name": "Via Castello di Vignale",
+    "service": "driveway",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 319671673,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada Provinciale 42 di Romaggi",
+    "ref": "SP42",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 319671674,
+  "tags": {
+    "bridge": "yes",
+    "highway": "secondary",
+    "layer": "1",
+    "name": "Strada Provinciale 42 di Romaggi",
+    "ref": "SP42",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 348680850,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Gian Maria Solari",
+    "oneway": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 355359371,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Strada statale 225 della Fontanabuona",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 355359376,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Via Domenico Cuneo",
+    "nat_name": "Strada statale 225 della Fontanabuona",
+    "oneway": "no",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 441642014,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Cademartori",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 445227484,
+  "tags": {
+    "highway": "secondary",
+    "name": "Via Giovanni Daveggio",
+    "ref": "SP32",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 445227492,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "tertiary",
+    "name": "Via Vittorio Aste",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 499085935,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "track",
+    "name": "Lanà - Romaggi",
+    "surface": "unpaved",
+    "tracktype": "grade3"
+  }
+},
+{
+  "type": "way",
+  "id": 499095600,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Giuseppe Antonio Norero",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 499096354,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Castello di Vignale",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 499096355,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Giuseppe Antonio Norero",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 499096356,
+  "tags": {
+    "highway": "service",
+    "name": "Via Castello di Vignale",
+    "service": "driveway"
+  }
+},
+{
+  "type": "way",
+  "id": 499096357,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Giuseppe Antonio Norero",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 499096358,
+  "tags": {
+    "foot": "yes",
+    "highway": "residential",
+    "name": "Via Castello di Vignale"
+  }
+},
+{
+  "type": "way",
+  "id": 499096359,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Giuseppe Antonio Norero",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 580126192,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Castellaro"
+  }
+},
+{
+  "type": "way",
+  "id": 640377150,
+  "tags": {
+    "highway": "residential",
+    "lanes": "1",
+    "maxspeed": "20",
+    "name": "Salita Carruggio",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1011046840,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Perazzo",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 1011046841,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Perazzo",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 1040908596,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "path",
+    "mtb:scale": "3",
+    "name": "Calvari Trail",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 1040909217,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "path",
+    "mtb:scale": "3",
+    "name": "Calvari Trail",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 1049129073,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "unclassified",
+    "name": "Corso Europa",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1049129074,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "unclassified",
+    "name": "Corso Europa",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1194004870,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "path",
+    "mtb:scale": "3",
+    "name": "sentiero la Colla",
+    "sac_scale": "mountain_hiking",
+    "surface": "ground",
+    "trail_visibility": "good"
+  }
+},
+{
+  "type": "way",
+  "id": 1234036910,
+  "tags": {
+    "name": "Piazza San Colombano",
+    "place": "square"
+  }
+},
+{
+  "type": "way",
+  "id": 1234036914,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Giuseppe Antonio Norero",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 1234036915,
+  "tags": {
+    "bridge": "yes",
+    "highway": "tertiary",
+    "layer": "1",
+    "name": "Via Giuseppe Antonio Norero",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 1234036916,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Giuseppe Antonio Norero",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1234036917,
+  "tags": {
+    "bridge": "yes",
+    "highway": "tertiary",
+    "layer": "1",
+    "name": "Via Giuseppe Antonio Norero",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1235221017,
+  "tags": {
+    "highway": "service",
+    "name": "Piazza San Colombano"
+  }
+},
+{
+  "type": "way",
+  "id": 1235221018,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Domenico Norero",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1458166771,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Domenico Norero",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1458166783,
+  "tags": {
+    "bridge": "yes",
+    "cycleway": "yes",
+    "highway": "tertiary",
+    "layer": "1",
+    "name": "Via Vittorio Aste",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1458166823,
+  "tags": {
+    "highway": "primary",
+    "maxspeed": "50",
+    "name": "Strada statale 225 della Fontanabuona",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1459399960,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada Provinciale 42 di Romaggi",
+    "ref": "SP42",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1465437178,
+  "tags": {
+    "highway": "primary",
+    "maxspeed": "50",
+    "name": "Strada statale 225 della Fontanabuona",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1465437181,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Strada statale 225 della Fontanabuona",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1465437182,
+  "tags": {
+    "highway": "primary",
+    "maxspeed": "50",
+    "name": "Strada statale 225 della Fontanabuona",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1465654800,
+  "tags": {
+    "highway": "primary",
+    "maxspeed": "50",
+    "name": "Strada statale 225 della Fontanabuona",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1481567261,
+  "tags": {
+    "highway": "secondary",
+    "name": "Via Giovanni Daveggio",
+    "ref": "SP32",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1483342022,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada Provinciale 42 di Romaggi",
+    "ref": "SP42",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1483342023,
+  "tags": {
+    "bridge": "yes",
+    "highway": "secondary",
+    "name": "Strada Provinciale 42 di Romaggi",
+    "ref": "SP42",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1483365431,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada Provinciale 42 di Romaggi",
+    "ref": "SP42",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1483365432,
+  "tags": {
+    "highway": "primary",
+    "maxspeed": "50",
+    "name": "Strada statale 225 della Fontanabuona",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1484800017,
+  "tags": {
+    "highway": "unclassified",
+    "name": "via Domenico Cuneo"
+  }
+}
+
+  ]
+}

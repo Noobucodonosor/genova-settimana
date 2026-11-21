@@ -1,0 +1,4424 @@
+{
+  "version": 0.6,
+  "generator": "OpenStreetMap v0.6 API",
+  "comune": "Tribogna",
+  "elements": [
+    {
+      "type": "node",
+      "id": 66586575,
+      "tags": {
+        "name": "Tribogna",
+        "place": "municipality",
+        "population": "617",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4199527,
+      "lon": 9.1902231
+    },
+    {
+      "type": "node",
+      "id": 316029601,
+      "tags": {
+        "ele": "150",
+        "gfoss_id": "36570",
+        "istat_id": "1006310002",
+        "name": "Bassi",
+        "place": "hamlet",
+        "population": "120",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4273067,
+      "lon": 9.1888908
+    },
+    {
+      "type": "node",
+      "id": 316029613,
+      "tags": {
+        "ele": "287",
+        "gfoss_id": "36197",
+        "istat_id": "1003620003",
+        "name": "Lavaggi",
+        "place": "hamlet",
+        "population": "64",
+        "source": "Istat 2001 - geodati.gfoss.it",
+        "wikidata": "Q18457939",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4290317,
+      "lon": 9.2007955
+    },
+    {
+      "type": "node",
+      "id": 316029668,
+      "tags": {
+        "ele": "135",
+        "gfoss_id": "36194",
+        "istat_id": "1003610007",
+        "name": "Terrarossa Colombo",
+        "place": "hamlet",
+        "population": "204",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4236334,
+      "lon": 9.2002175
+    },
+    {
+      "type": "node",
+      "id": 316030269,
+      "tags": {
+        "ele": "319",
+        "gfoss_id": "36569",
+        "istat_id": "1006310001",
+        "name": "Aveno",
+        "place": "hamlet",
+        "population": "55",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4099432,
+      "lon": 9.195225
+    },
+    {
+      "type": "node",
+      "id": 316030273,
+      "tags": {
+        "ele": "279",
+        "gfoss_id": "36571",
+        "istat_id": "1006310003",
+        "name": "Cassanesi",
+        "place": "hamlet",
+        "population": "146",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4219731,
+      "lon": 9.1824217
+    },
+    {
+      "type": "node",
+      "id": 316030286,
+      "tags": {
+        "ele": "279",
+        "gfoss_id": "36572",
+        "istat_id": "1006310004",
+        "name": "Garbarini",
+        "place": "hamlet",
+        "population": "102",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4157224,
+      "lon": 9.1950848
+    },
+    {
+      "type": "node",
+      "id": 316030290,
+      "tags": {
+        "ele": "116",
+        "gfoss_id": "36574",
+        "istat_id": "1006310006",
+        "name": "Lamaneigra",
+        "place": "locality",
+        "population": "0",
+        "source": "Istat 2001 - geodati.gfoss.it",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4221035,
+      "lon": 9.2043165
+    },
+    {
+      "type": "node",
+      "id": 316030297,
+      "tags": {
+        "ele": "146",
+        "gfoss_id": "36193",
+        "istat_id": "1003610006",
+        "name": "Pezzonasca",
+        "place": "hamlet",
+        "population": "103",
+        "source": "Istat 2001 - geodati.gfoss.it",
+        "wikidata": "Q18509463",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4249362,
+      "lon": 9.1932343
+    },
+    {
+      "type": "node",
+      "id": 316109138,
+      "tags": {
+        "ele": "132",
+        "gfoss_id": "36189",
+        "istat_id": "1003610002",
+        "name": "Ferrada",
+        "place": "village",
+        "population": "621",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4209126,
+      "lon": 9.2104303
+    },
+    {
+      "type": "node",
+      "id": 374472745,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Gattorna - ponte Bassi",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6265",
+        "zone_id": "104",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4265621,
+      "lon": 9.1905086
+    },
+    {
+      "type": "node",
+      "id": 374472786,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Pezzonasca",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6266",
+        "zone_id": "104",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4249799,
+      "lon": 9.1941128
+    },
+    {
+      "type": "node",
+      "id": 374472818,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Terrarossa - Moconesi",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6267",
+        "zone_id": "104",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4232805,
+      "lon": 9.1995125
+    },
+    {
+      "type": "node",
+      "id": 374472837,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Terrarossa civ. 5 - Moconesi",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6268",
+        "zone_id": "104",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4241865,
+      "lon": 9.2028323
+    },
+    {
+      "type": "node",
+      "id": 619845620,
+      "tags": {
+        "ele": "641",
+        "mountain_pass": "yes",
+        "name": "Passo Serra",
+        "natural": "saddle",
+        "source": "GPS",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.3962308,
+      "lon": 9.199695
+    },
+    {
+      "type": "node",
+      "id": 766533765,
+      "tags": {
+        "name": "Cassanesi",
+        "traffic_sign": "Cassanesi",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4159924,
+      "lon": 9.1830467
+    },
+    {
+      "type": "node",
+      "id": 766533832,
+      "tags": {
+        "name": "Garbarini",
+        "traffic_sign": "city_limit",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4155744,
+      "lon": 9.1919315
+    },
+    {
+      "type": "node",
+      "id": 766533968,
+      "tags": {
+        "name": "Aveno",
+        "traffic_sign": "city_limit",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4138296,
+      "lon": 9.1951227
+    },
+    {
+      "type": "node",
+      "id": 1260931319,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Gattorna - ponte Bassi",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6196",
+        "zone_id": "104",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4265178,
+      "lon": 9.1905686
+    },
+    {
+      "type": "node",
+      "id": 1260931327,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Ponte Rimassa",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6269",
+        "zone_id": "104",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4232363,
+      "lon": 9.2055458
+    },
+    {
+      "type": "node",
+      "id": 1260931344,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Ferrada",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6270",
+        "zone_id": "104",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4202676,
+      "lon": 9.208534
+    },
+    {
+      "type": "node",
+      "id": 1260931348,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Terrarossa - Moconesi",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6194",
+        "zone_id": "104",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4235426,
+      "lon": 9.1988879
+    },
+    {
+      "type": "node",
+      "id": 1260931359,
+      "tags": {
+        "bench": "no",
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Ferrada - bivio Tribogna",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6271",
+        "shelter": "no",
+        "zone_id": "104",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4188667,
+      "lon": 9.2115373
+    },
+    {
+      "type": "node",
+      "id": 1260931366,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Terrarossa civ. 18 - Moconesi",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6193",
+        "zone_id": "104",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4241231,
+      "lon": 9.2023953
+    },
+    {
+      "type": "node",
+      "id": 1260931416,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Pezzonasca",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6195",
+        "zone_id": "104",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4249537,
+      "lon": 9.193714
+    },
+    {
+      "type": "node",
+      "id": 1930812850,
+      "tags": {
+        "ele": "294",
+        "gfoss_id": "35932",
+        "istat_id": "1001610003",
+        "name": "Serra",
+        "place": "hamlet",
+        "population": "107",
+        "source": "Istat 2001 - geodati.gfoss.it",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4113966,
+      "lon": 9.2107327
+    },
+    {
+      "type": "node",
+      "id": 2311218929,
+      "tags": {
+        "ele": "546",
+        "mountain_pass": "yes",
+        "name": "Passo della Spinarola",
+        "natural": "saddle",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4040118,
+      "lon": 9.1827006
+    },
+    {
+      "type": "node",
+      "id": 2321580590,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Fraz. Cassanesi F. Scalinata",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4991",
+        "zone_id": "99",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4209723,
+      "lon": 9.1806654
+    },
+    {
+      "type": "node",
+      "id": 2321580601,
+      "tags": {
+        "bench": "no",
+        "bus": "yes",
+        "covered": "no",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Fraz. Cassanesi F. Bivio Tribogna",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4992",
+        "shelter": "no",
+        "zone_id": "99",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4212365,
+      "lon": 9.1790746
+    },
+    {
+      "type": "node",
+      "id": 2321580708,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Fraz. Cassanesi Loc. Montane`",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4990",
+        "zone_id": "104",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4259135,
+      "lon": 9.184017
+    },
+    {
+      "type": "node",
+      "id": 2419991223,
+      "tags": {
+        "addr:city": "Uscio",
+        "addr:postcode": "16030",
+        "email": "colonia-arnaldi@libero.it",
+        "internet_access": "yes",
+        "name": "Colonia Arnaldi",
+        "operator": "Centro Arnaldi Uscio S.R.L.",
+        "phone": "+39 018 5919406",
+        "tourism": "hotel",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4072873,
+      "lon": 9.180216
+    },
+    {
+      "type": "node",
+      "id": 2577644326,
+      "tags": {
+        "name": "Costa",
+        "place": "hamlet",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4280768,
+      "lon": 9.2084672
+    },
+    {
+      "type": "node",
+      "id": 2633749345,
+      "tags": {
+        "name": "Spinetta",
+        "place": "hamlet",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4279566,
+      "lon": 9.2021658
+    },
+    {
+      "type": "node",
+      "id": 3200980964,
+      "tags": {
+        "name": "Cascina",
+        "place": "hamlet",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4063548,
+      "lon": 9.1793127
+    },
+    {
+      "type": "node",
+      "id": 3203018150,
+      "tags": {
+        "ele": "677",
+        "name": "Monte Tugio",
+        "natural": "peak",
+        "source": "CTR Regione Liguria",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.409812,
+      "lon": 9.1821719
+    },
+    {
+      "type": "node",
+      "id": 3485945154,
+      "tags": {
+        "name": "Moin",
+        "place": "locality",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4197839,
+      "lon": 9.181198
+    },
+    {
+      "type": "node",
+      "id": 3609806328,
+      "tags": {
+        "name": "Isolani",
+        "shop": "optician",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4288889,
+      "lon": 9.1855849
+    },
+    {
+      "type": "node",
+      "id": 4187189905,
+      "tags": {
+        "name": "Gattorna",
+        "place": "village",
+        "population": "672",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4292049,
+      "lon": 9.1842098
+    },
+    {
+      "type": "node",
+      "id": 4358958829,
+      "tags": {
+        "addr:city": "Moconesi",
+        "addr:housenumber": "57",
+        "addr:postcode": "16047",
+        "addr:street": "Strada Statale della Fontana Buona",
+        "name": "Ostello Fontanabuona;Hostel",
+        "operator": "AIG Hostel",
+        "phone": "+39 340 360 4504",
+        "tourism": "hostel",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4204666,
+      "lon": 9.2068899
+    },
+    {
+      "type": "node",
+      "id": 4426825689,
+      "tags": {
+        "name": "Garbarini",
+        "traffic_sign": "city_limit",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4138788,
+      "lon": 9.1950206
+    },
+    {
+      "type": "node",
+      "id": 4426825690,
+      "tags": {
+        "name": "Garbarini",
+        "traffic_sign": "city_limit",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4179557,
+      "lon": 9.2102942
+    },
+    {
+      "type": "node",
+      "id": 4426825693,
+      "tags": {
+        "name": "Liteggia",
+        "place": "locality",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.404332,
+      "lon": 9.1855044
+    },
+    {
+      "type": "node",
+      "id": 4493036530,
+      "tags": {
+        "name": "Cave Storiche d'ardesia di Aveno",
+        "tourism": "viewpoint",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4100977,
+      "lon": 9.1875496
+    },
+    {
+      "type": "node",
+      "id": 4493069937,
+      "tags": {
+        "name": "Cortino",
+        "place": "locality",
+        "population": "5",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4152563,
+      "lon": 9.2015632
+    },
+    {
+      "type": "node",
+      "id": 4493069938,
+      "tags": {
+        "name": "Gai",
+        "place": "locality",
+        "population": "2",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4168275,
+      "lon": 9.2039647
+    },
+    {
+      "type": "node",
+      "id": 4493069939,
+      "tags": {
+        "name": "Cerropiano",
+        "place": "locality",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4173463,
+      "lon": 9.1989107
+    },
+    {
+      "type": "node",
+      "id": 4493069940,
+      "tags": {
+        "name": "Massalupo",
+        "place": "locality",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4174914,
+      "lon": 9.1866502
+    },
+    {
+      "type": "node",
+      "id": 4496863094,
+      "tags": {
+        "name": "Codavilla",
+        "place": "locality",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.410789,
+      "lon": 9.1950873
+    },
+    {
+      "type": "node",
+      "id": 4496872111,
+      "tags": {
+        "name": "Geppotti",
+        "place": "locality",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4093375,
+      "lon": 9.1971378
+    },
+    {
+      "type": "node",
+      "id": 4496872112,
+      "tags": {
+        "name": "Stuggia",
+        "place": "locality",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.411291,
+      "lon": 9.2023185
+    },
+    {
+      "type": "node",
+      "id": 4497196675,
+      "tags": {
+        "name": "Pozza",
+        "place": "locality",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4146892,
+      "lon": 9.195396
+    },
+    {
+      "type": "node",
+      "id": 4502904306,
+      "tags": {
+        "name": "Ciacà",
+        "place": "locality",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4212579,
+      "lon": 9.178666
+    },
+    {
+      "type": "node",
+      "id": 4506732447,
+      "tags": {
+        "bench": "yes",
+        "bus": "yes",
+        "covered": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Capolinea Piazza Soracco 61 - Comune",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "8062",
+        "shelter": "yes",
+        "zone_id": "99",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4161583,
+      "lon": 9.1955358
+    },
+    {
+      "type": "node",
+      "id": 4506732448,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Loc. Piano F. 2",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "8063",
+        "zone_id": "99",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4156432,
+      "lon": 9.1919813
+    },
+    {
+      "type": "node",
+      "id": 4506732449,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Loc. Massalupo",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "8060",
+        "zone_id": "99",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4171157,
+      "lon": 9.186867
+    },
+    {
+      "type": "node",
+      "id": 4506732451,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Fraz. Cassanesi 7",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "8065",
+        "zone_id": "99",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4196672,
+      "lon": 9.1806347
+    },
+    {
+      "type": "node",
+      "id": 4797400404,
+      "tags": {
+        "name": "Prè",
+        "place": "locality",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4128667,
+      "lon": 9.2009202
+    },
+    {
+      "type": "node",
+      "id": 4797400405,
+      "tags": {
+        "name": "Fondovilla",
+        "place": "locality",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4147498,
+      "lon": 9.1972165
+    },
+    {
+      "type": "node",
+      "id": 4797400407,
+      "tags": {
+        "leisure": "stadium",
+        "name": "Campo dei Bassi",
+        "sport": "soccer",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4283015,
+      "lon": 9.1891111
+    },
+    {
+      "type": "node",
+      "id": 5234733521,
+      "tags": {
+        "addr:city": "Gattorna",
+        "addr:housenumber": "78",
+        "addr:postcode": "16047",
+        "addr:street": "Via del Commercio",
+        "air_conditioning": "yes",
+        "amenity": "fuel",
+        "brand": "Carrefour Express",
+        "brand:wikidata": "Q2940190",
+        "brand:wikipedia": "fr:Carrefour Express",
+        "name": "Carrefour Express",
+        "opening_hours": "Mo-Sa 08:00-20:00",
+        "operator": "Carrefour",
+        "payment:cards": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "phone": "+39 0185 934387",
+        "shop": "convenience",
+        "stroller": "yes",
+        "wheelchair": "yes",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.429289,
+      "lon": 9.1839397
+    },
+    {
+      "type": "node",
+      "id": 5234803721,
+      "tags": {
+        "amenity": "bar",
+        "name": "Alzati - Lazzaro",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4290414,
+      "lon": 9.1838433
+    },
+    {
+      "type": "node",
+      "id": 5485770665,
+      "tags": {
+        "addr:city": "Tribogna",
+        "addr:housenumber": "18a",
+        "addr:postcode": "16030",
+        "addr:street": "Via Travilla",
+        "email": "lerondini.federica@libero.it",
+        "name": "Le Rondini",
+        "source": "local knowledge",
+        "tourism": "guest_house",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4205904,
+      "lon": 9.1810707
+    },
+    {
+      "type": "node",
+      "id": 6427983482,
+      "tags": {
+        "historic": "memorial",
+        "inscription": "Caddero gloriosi nell'immane guerra pugnando fidenti in Dio per la grandezza d'Italia i giovani Tribognesi\n\nInvocano preci ardenti\nperpetuo ricordo della memore Patria\n29 ottobre 1922\n1915     1918",
+        "name": "Monumento ai Caduti Prima Guerra Mondiale",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4135248,
+      "lon": 9.1967983
+    },
+    {
+      "type": "node",
+      "id": 6428010653,
+      "tags": {
+        "amenity": "clock",
+        "display": "analog",
+        "faces": "1",
+        "name": "Orologio civico",
+        "support": "wall_mounted",
+        "visibility": "street",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4162788,
+      "lon": 9.1955286
+    },
+    {
+      "type": "node",
+      "id": 6428015663,
+      "tags": {
+        "addr:city": "Tribogna",
+        "addr:housenumber": "61",
+        "addr:postcode": "16030",
+        "addr:street": "Piazza Nando Soracco",
+        "amenity": "post_office",
+        "brand": "Poste Italiane",
+        "brand:wikidata": "Q495026",
+        "brand:wikipedia": "en:Poste italiane",
+        "name": "Poste Italiane",
+        "wheelchair": "yes",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.41625,
+      "lon": 9.1956677
+    },
+    {
+      "type": "node",
+      "id": 6428023325,
+      "tags": {
+        "amenity": "clock",
+        "display": "sundial",
+        "ele": "329",
+        "inscription": "TRANSIT HORA MANENT OPERA",
+        "name": "Meridiana",
+        "start_date": "2004",
+        "support": "wall_mounted",
+        "visibility": "house",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4162288,
+      "lon": 9.1956704
+    },
+    {
+      "type": "node",
+      "id": 6433943674,
+      "tags": {
+        "addr:street": "Via Spagnola",
+        "amenity": "place_of_worship",
+        "name": "Tempio Hare Krishna",
+        "religion": "hindu",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.415595,
+      "lon": 9.189788
+    },
+    {
+      "type": "node",
+      "id": 6444863810,
+      "tags": {
+        "name": "Cassanesi",
+        "traffic_sign": "Cassanesi",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4259004,
+      "lon": 9.1839299
+    },
+    {
+      "type": "node",
+      "id": 6444863811,
+      "tags": {
+        "name": "Montanari",
+        "name:lij": "Muntanè",
+        "place": "hamlet",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4263378,
+      "lon": 9.1843684
+    },
+    {
+      "type": "node",
+      "id": 6444986654,
+      "tags": {
+        "name": "Viacolvento",
+        "tourism": "guest_house",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4151518,
+      "lon": 9.1941747
+    },
+    {
+      "type": "node",
+      "id": 6444992899,
+      "tags": {
+        "name": "Noxe Grossa",
+        "place": "locality",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4183977,
+      "lon": 9.1899624
+    },
+    {
+      "type": "node",
+      "id": 6444996124,
+      "tags": {
+        "name": "Simabaggiu",
+        "place": "locality",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4219958,
+      "lon": 9.1878925
+    },
+    {
+      "type": "node",
+      "id": 6445266433,
+      "tags": {
+        "name": "Corsiglia",
+        "shop": "garden_centre",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4246232,
+      "lon": 9.190856
+    },
+    {
+      "type": "node",
+      "id": 6449228350,
+      "tags": {
+        "ele": "329",
+        "name": "Tribogna",
+        "place": "hamlet",
+        "population": "617",
+        "website": "https://www.comune.tribogna.ge.it/",
+        "wikidata": "Q267342",
+        "wikipedia": "it:Tribogna",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4161462,
+      "lon": 9.1955867
+    },
+    {
+      "type": "node",
+      "id": 6449246860,
+      "tags": {
+        "name": "Zona di caccia al cinghiale",
+        "traffic_sign": "yes",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4154231,
+      "lon": 9.1917196
+    },
+    {
+      "type": "node",
+      "id": 6449246942,
+      "tags": {
+        "name": "Crocetta",
+        "place": "locality",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4145532,
+      "lon": 9.1926196
+    },
+    {
+      "type": "node",
+      "id": 6449387215,
+      "tags": {
+        "name": "L'Oasi di Tribogna",
+        "tourism": "guest_house",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4095127,
+      "lon": 9.1974814
+    },
+    {
+      "type": "node",
+      "id": 6449399063,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Loc. Garbarini 3",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "8061",
+        "zone_id": "99",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4155584,
+      "lon": 9.1919336
+    },
+    {
+      "type": "node",
+      "id": 6449684039,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Murtà e Pestellu",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.421274,
+      "lon": 9.1785168
+    },
+    {
+      "type": "node",
+      "id": 6534993834,
+      "tags": {
+        "addr:housenumber": "31",
+        "addr:street": "Via del Commercio",
+        "brand": "Croce Rossa Italiana",
+        "brand:wikidata": "Q913903",
+        "emergency": "ambulance_station",
+        "healthcare": "hospital",
+        "name": "Croce Rossa - Gattorna -",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4290987,
+      "lon": 9.1865627
+    },
+    {
+      "type": "node",
+      "id": 6681505172,
+      "tags": {
+        "amenity": "drinking_water",
+        "name": "Acqua della fonte Liteggia",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4080187,
+      "lon": 9.1807468
+    },
+    {
+      "type": "node",
+      "id": 6681505176,
+      "tags": {
+        "hiking": "yes",
+        "information": "board",
+        "name": "Itinerario dei 2 Golfi",
+        "tourism": "information",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4039909,
+      "lon": 9.1827417
+    },
+    {
+      "type": "node",
+      "id": 7512413592,
+      "tags": {
+        "highway": "turning_circle",
+        "name": "Piazza Primo Maggio",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4280726,
+      "lon": 9.1766707
+    },
+    {
+      "type": "node",
+      "id": 7816089598,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "fish",
+        "name": "Osteria centrale da Baldo",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4293008,
+      "lon": 9.1856901
+    },
+    {
+      "type": "node",
+      "id": 9882271316,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Gattorna - croce rossa",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6264",
+        "zone_id": "104",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4292579,
+      "lon": 9.1866226
+    },
+    {
+      "type": "node",
+      "id": 9882296949,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Ponte Rimassa",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6192",
+        "zone_id": "104",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4235185,
+      "lon": 9.2055471
+    },
+    {
+      "type": "node",
+      "id": 10239834180,
+      "tags": {
+        "historic": "monument",
+        "name": "Monumento ai Caduti",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4105733,
+      "lon": 9.2087355
+    },
+    {
+      "type": "node",
+      "id": 13094428914,
+      "tags": {
+        "name": "RistiMacelleria f.lli Basso",
+        "shop": "butcher",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.428703,
+      "lon": 9.1856524
+    },
+    {
+      "type": "node",
+      "id": 13236744527,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "civ. 21 - Moconesi",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6511",
+        "zone_id": "104",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4290237,
+      "lon": 9.207572
+    },
+    {
+      "type": "node",
+      "id": 13236744529,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "civ. 21 - Moconesi",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6512",
+        "zone_id": "104",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4289694,
+      "lon": 9.2076829
+    },
+    {
+      "type": "node",
+      "id": 13236744532,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Campo Piano",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6514",
+        "zone_id": "104",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4281639,
+      "lon": 9.208727
+    },
+    {
+      "type": "node",
+      "id": 13236744540,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Lavaggi SCOL",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "9177",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4293147,
+      "lon": 9.2016193
+    },
+    {
+      "type": "node",
+      "id": 13236744543,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Gattorna",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "7969",
+        "zone_id": "104",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4290758,
+      "lon": 9.1841684
+    },
+    {
+      "type": "node",
+      "id": 13236744544,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Gattorna",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6197",
+        "zone_id": "104",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4291513,
+      "lon": 9.1851953
+    },
+    {
+      "type": "node",
+      "id": 13236744556,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Campo Piano",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6513",
+        "zone_id": "104",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4282051,
+      "lon": 9.2088262
+    },
+    {
+      "type": "node",
+      "id": 13362549451,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Loc. Massalupo",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "8064",
+        "zone_id": "99",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4170155,
+      "lon": 9.1865317
+    },
+    {
+      "type": "node",
+      "id": 13362549452,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Fraz. Cassanesi F. 5",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "8059",
+        "zone_id": "99",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4194717,
+      "lon": 9.1809034
+    },
+    {
+      "type": "node",
+      "id": 13362549454,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Piazza De Ferrari 6",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4983",
+        "zone_id": "104",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4200726,
+      "lon": 9.2122062
+    },
+    {
+      "type": "node",
+      "id": 13362549455,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Gattorna Ponte - Centro",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4964",
+        "zone_id": "104",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4287685,
+      "lon": 9.1857867
+    },
+    {
+      "type": "node",
+      "id": 13362549457,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Fraz. Bassi Bivio Per Loc. Bassi",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4963",
+        "zone_id": "104",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4279288,
+      "lon": 9.1856802
+    },
+    {
+      "type": "node",
+      "id": 13362549459,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Gattorna capolinea",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "7970",
+        "zone_id": "104",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4287453,
+      "lon": 9.1855971
+    },
+    {
+      "type": "node",
+      "id": 13362549460,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Fraz. Cassanesi Scalinata",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4960",
+        "zone_id": "99",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4214516,
+      "lon": 9.1811056
+    },
+    {
+      "type": "node",
+      "id": 13362549461,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Loc. Piano F. 2",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "8063",
+        "zone_id": "99",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4156532,
+      "lon": 9.192009
+    },
+    {
+      "type": "node",
+      "id": 13362549462,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Ferrada Posta",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6190",
+        "zone_id": "104",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4200973,
+      "lon": 9.2121252
+    },
+    {
+      "type": "node",
+      "id": 13362549463,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Fraz. Cassanesi Loc. Montane",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4961",
+        "zone_id": "104",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4257164,
+      "lon": 9.1844807
+    },
+    {
+      "type": "node",
+      "id": 13362549465,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Fraz. Cassanesi F. 86 Bivio Tribogna",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4959",
+        "zone_id": "99",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4211699,
+      "lon": 9.1785569
+    },
+    {
+      "type": "node",
+      "id": 13364748182,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Del Commercio Gattorna Ponte - Centro",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4988",
+        "zone_id": "104",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4288139,
+      "lon": 9.1856861
+    },
+    {
+      "type": "node",
+      "id": 13463129290,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Ferrada capolinea",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6191",
+        "zone_id": "104",
+        "addr:city_extracted": "Tribogna"
+      },
+      "lat": 44.4207338,
+      "lon": 9.2094099
+    },
+    {
+      "type": "way",
+      "id": 9220279,
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Strada statale 225 della Fontanabuona",
+        "ref": "SS225",
+        "surface": "asphalt",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 9220543,
+      "tags": {
+        "boat": "no",
+        "name": "Torrente Lavagna",
+        "waterway": "stream",
+        "wikidata": "Q3827996",
+        "wikipedia": "it:Lavagna (torrente)",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 15529551,
+      "tags": {
+        "cycleway": "yes",
+        "highway": "secondary",
+        "maxspeed": "50",
+        "name": "Via Ventitre Settembre",
+        "surface": "asphalt",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 25654367,
+      "tags": {
+        "highway": "residential",
+        "name": "Piazza Basso Vittorio",
+        "surface": "paving_stones",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 48856275,
+      "tags": {
+        "highway": "tertiary",
+        "maxspeed": "30",
+        "name": "Via Cavalli",
+        "ref": "SP22",
+        "surface": "asphalt",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 48856278,
+      "tags": {
+        "highway": "residential",
+        "name": "Via Carlo Arnaldi",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 61382936,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Strada della Spinarola",
+        "ref": "SP22",
+        "surface": "asphalt",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 110317833,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Via Sopra la Chiesa",
+        "surface": "asphalt",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 110412371,
+      "tags": {
+        "cycleway": "yes",
+        "highway": "unclassified",
+        "name": "Via Lamaneigra",
+        "surface": "asphalt",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 110412377,
+      "tags": {
+        "bridge": "yes",
+        "cycleway": "yes",
+        "highway": "unclassified",
+        "layer": "1",
+        "name": "Ponte Rimassa",
+        "surface": "asphalt",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 155220980,
+      "tags": {
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "path",
+        "motor_vehicle": "no",
+        "name": "Itinerario Storico Colombiano",
+        "sac_scale": "mountain_hiking",
+        "surface": "dirt",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 181227517,
+      "tags": {
+        "amenity": "grave_yard",
+        "denomination": "catholic",
+        "name": "Cimitero di Tribogna",
+        "religion": "christian",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 181229497,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Lavaggi",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 181229503,
+      "tags": {
+        "cycleway": "yes",
+        "highway": "unclassified",
+        "lane_markings": "no",
+        "name": "Via De Barbieri",
+        "surface": "asphalt",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 182761932,
+      "tags": {
+        "highway": "service",
+        "name": "Via Lamaneigra",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 182761934,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Cortino",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 182761942,
+      "tags": {
+        "highway": "service",
+        "name": "Via Lamaneigra",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 182761944,
+      "tags": {
+        "highway": "service",
+        "name": "Via Lamaneigra",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 182761976,
+      "tags": {
+        "highway": "residential",
+        "name": "Via Massalupo",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 182762002,
+      "tags": {
+        "highway": "residential",
+        "name": "Via Gai",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 187694476,
+      "tags": {
+        "highway": "residential",
+        "name": "Via Musanti",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 193290145,
+      "tags": {
+        "cycleway": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "maxspeed:type": "IT:urban",
+        "name": "Via del Commercio",
+        "nat_name": "Strada statale 225 della Fontanabuona",
+        "ref": "SS225",
+        "surface": "asphalt",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 193290146,
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Strada statale 225 della Fontanabuona",
+        "ref": "SS225",
+        "surface": "asphalt",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 193290147,
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Strada statale 225 della Fontanabuona",
+        "ref": "SS225",
+        "surface": "asphalt",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 197494414,
+      "tags": {
+        "highway": "residential",
+        "name": "Via Fondovilla",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 197494416,
+      "tags": {
+        "highway": "residential",
+        "name": "Via Prè",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 197494419,
+      "tags": {
+        "highway": "service",
+        "name": "Via Piani",
+        "service": "driveway",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 197494421,
+      "tags": {
+        "access": "private",
+        "highway": "service",
+        "name": "Via Casali",
+        "service": "driveway",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 197494427,
+      "tags": {
+        "highway": "service",
+        "name": "Via Pozza",
+        "service": "driveway",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204740257,
+      "tags": {
+        "addr:street": "Via Piani",
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "regional",
+        "name": "La Madia",
+        "source": "Regione Liguria",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204740383,
+      "tags": {
+        "building": "yes",
+        "name": "Centro Mobili Ferrada",
+        "opening_hours": "closed",
+        "shop": "furniture",
+        "source": "Regione Liguria",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204740661,
+      "tags": {
+        "building": "industrial",
+        "name": "Dresser Rand - Siemens",
+        "source": "Regione Liguria",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204741027,
+      "tags": {
+        "amenity": "school",
+        "name": "Scuola Primaria di Ferrada",
+        "source": "Regione Liguria",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204741755,
+      "tags": {
+        "addr:street": "Via Piazzetta",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "catholic",
+        "name": "Cappella di Santa Croce",
+        "religion": "christian",
+        "source": "Regione Liguria",
+        "start_date": "XVII secolo",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204742285,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "catholic",
+        "name": "Parrocchia di San Martino di Tribogna",
+        "religion": "christian",
+        "source": "Regione Liguria",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204742312,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "church",
+        "denomination": "catholic",
+        "name": "Chiesa del Sacro Cuore di Gesù",
+        "religion": "christian",
+        "source": "Regione Liguria",
+        "wikidata": "Q3668605",
+        "wikipedia": "it:Chiesa del Sacro Cuore di Gesù (Moconesi)",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204742484,
+      "tags": {
+        "building": "yes",
+        "name": "Cucina e Dintorni Lube Concept Store",
+        "operator": "Lube Cucine",
+        "shop": "furniture",
+        "source": "Regione Liguria",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204749039,
+      "tags": {
+        "building": "house",
+        "name": "Casa del Prete (o Casa dai sette tetti)",
+        "source": "Regione Liguria",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204750749,
+      "tags": {
+        "addr:city": "Moconesi",
+        "addr:housenumber": "1845",
+        "addr:postcode": "16047",
+        "addr:street": "Via XXIII Settembre",
+        "image": "https://www.google.com/maps/uv?pb=!1s0x12d3589ea271b4cf%3A0x94704493ecf9f2c0!3m1!7e115!4s%2Fmaps%2Fplace%2Fpasta%2Bfresca%2Bgattorna%2F%4044.4286997%2C9.1857467%2C3a%2C75y%2C254.15h%2C90t%2Fdata%3D*213m4*211e1*213m2*211sQRd3fgnRRQmQ0YEjlD33sQ*212e0*214m2*",
+        "landuse": "retail",
+        "name": "Pasta fresca da Giovanna",
+        "source": "Regione Liguria",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204751720,
+      "tags": {
+        "amenity": "school",
+        "name": "Scuola dell'Infanzia di Ferrada",
+        "source": "Regione Liguria",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204752340,
+      "tags": {
+        "building": "house",
+        "name": "Casa museo Cristoforo Colombo",
+        "source": "Regione Liguria",
+        "tourism": "museum",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204753056,
+      "tags": {
+        "amenity": "social_facility",
+        "building": "yes",
+        "name": "Il Castagno",
+        "social_facility": "group_home",
+        "social_facility:for": "senior",
+        "source": "Regione Liguria",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204753527,
+      "tags": {
+        "building": "house",
+        "name": "Reception",
+        "source": "Regione Liguria",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204754795,
+      "tags": {
+        "amenity": "townhall",
+        "building": "yes",
+        "name": "Comune di Tribogna",
+        "source": "Regione Liguria",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204755396,
+      "tags": {
+        "building": "civic",
+        "name": "Orologio del Municipio",
+        "source": "Regione Liguria",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204793728,
+      "tags": {
+        "amenity": "place_of_worship",
+        "denomination": "catholic",
+        "name": "Chiesa di San Bartolomeo Apostolo",
+        "religion": "christian",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204798550,
+      "tags": {
+        "amenity": "place_of_worship",
+        "denomination": "catholic",
+        "name": "Chiesa di Sant'Anna",
+        "religion": "christian",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204798609,
+      "tags": {
+        "amenity": "place_of_worship",
+        "denomination": "catholic",
+        "name": "Cappella dei Bassi",
+        "religion": "christian",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 222147858,
+      "tags": {
+        "bridge": "yes",
+        "highway": "path",
+        "layer": "1",
+        "name": "Colle Caprile - Ruta",
+        "sac_scale": "mountain_hiking",
+        "surface": "dirt",
+        "trail_visibility": "good",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 223170684,
+      "tags": {
+        "highway": "unclassified",
+        "lane_markings": "no",
+        "name": "Via De Barbieri",
+        "surface": "asphalt",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 223170695,
+      "tags": {
+        "highway": "residential",
+        "name": "Freccio",
+        "surface": "ground",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 223240878,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Reisci",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 223240881,
+      "tags": {
+        "name": "Cassanesi-Quartaie",
+        "power": "line",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 225465306,
+      "tags": {
+        "cables": "3",
+        "name": "Molassana-San Colombano",
+        "power": "line",
+        "ref": "23.842",
+        "voltage": "132000",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 251558371,
+      "tags": {
+        "highway": "unclassified",
+        "maxweight": "24",
+        "name": "Via Campopiano",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 299753898,
+      "tags": {
+        "foot": "designated",
+        "highway": "path",
+        "name": "Itinerario Storico Colombiano",
+        "sac_scale": "mountain_hiking",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 309658262,
+      "tags": {
+        "building": "yes",
+        "industrial": "slaughterhouse",
+        "name": "BLM Carni",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 335576388,
+      "tags": {
+        "cables": "3",
+        "name": "Vignole-La Spezia",
+        "power": "line",
+        "voltage": "380000",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 355359378,
+      "tags": {
+        "highway": "residential",
+        "name": "Via Don Luigi Egiziano",
+        "note": "oneway",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 355359380,
+      "tags": {
+        "highway": "residential",
+        "name": "Via Don Luigi Egiziano",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 355359382,
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "maxspeed:type": "IT:urban",
+        "name": "Via del Commercio",
+        "nat_name": "Strada statale 225 della Fontanabuona",
+        "ref": "SS225",
+        "surface": "asphalt",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 364574818,
+      "tags": {
+        "highway": "service",
+        "name": "Via Crocetta",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 364574819,
+      "tags": {
+        "foot": "yes",
+        "highway": "service",
+        "name": "Via Crocetta",
+        "sac_scale": "hiking",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 364574820,
+      "tags": {
+        "highway": "steps",
+        "name": "Via Ballatoio",
+        "sac_scale": "hiking",
+        "surface": "concrete",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 364574825,
+      "tags": {
+        "highway": "footway",
+        "name": "Itinerario Storico Colombiano",
+        "sac_scale": "hiking",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 364574826,
+      "tags": {
+        "highway": "service",
+        "name": "Via Spagnola",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 364574827,
+      "tags": {
+        "highway": "service",
+        "name": "Via Spagnola",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 364574828,
+      "tags": {
+        "highway": "path",
+        "name": "Itinerario dei Due Golfi",
+        "sac_scale": "mountain_hiking",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 450060248,
+      "tags": {
+        "name": "Torrente Litteglia",
+        "waterway": "stream",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 450060263,
+      "tags": {
+        "name": "Torrente Litteglia",
+        "waterway": "stream",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 450060265,
+      "tags": {
+        "name": "Torrente Litteglia",
+        "waterway": "stream",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 450060308,
+      "tags": {
+        "name": "Torrente Litteglia",
+        "waterway": "stream",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 450060322,
+      "tags": {
+        "name": "Torrente Litteglia",
+        "waterway": "stream",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 450060349,
+      "tags": {
+        "name": "Torrente Litteglia",
+        "waterway": "stream",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 450060379,
+      "tags": {
+        "name": "Torrente Litteglia",
+        "waterway": "stream",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 450060380,
+      "tags": {
+        "name": "Torrente Litteglia",
+        "waterway": "stream",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 450060417,
+      "tags": {
+        "name": "Torrente Litteglia",
+        "waterway": "stream",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 450060439,
+      "tags": {
+        "name": "Torrente Litteglia",
+        "waterway": "stream",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 450060447,
+      "tags": {
+        "name": "Torrente Litteglia",
+        "waterway": "stream",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 450060451,
+      "tags": {
+        "name": "Torrente Litteglia",
+        "waterway": "stream",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 452510828,
+      "tags": {
+        "highway": "residential",
+        "maxspeed": "20",
+        "name": "Via Loia",
+        "surface": "asphalt",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 453568170,
+      "tags": {
+        "highway": "residential",
+        "name": "Via Geppotti",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 453568172,
+      "tags": {
+        "highway": "residential",
+        "name": "Via Geppotti",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 453568173,
+      "tags": {
+        "highway": "residential",
+        "name": "Via Geppotti",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 453568743,
+      "tags": {
+        "highway": "track",
+        "name": "Via Geppotti",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 453568746,
+      "tags": {
+        "highway": "track",
+        "name": "Via Geppotti",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 453701596,
+      "tags": {
+        "highway": "residential",
+        "name": "Via Codavilla",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 453703717,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Reisci",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 453745945,
+      "tags": {
+        "name": "Rio Pegneu",
+        "waterway": "stream",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 453786385,
+      "tags": {
+        "name": "Cassanesi-Quartaie",
+        "power": "line",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 453799053,
+      "tags": {
+        "name": "Rio Molini",
+        "waterway": "stream",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 453799058,
+      "tags": {
+        "name": "Rio Rosso",
+        "waterway": "stream",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 454033613,
+      "tags": {
+        "historic": "ruins",
+        "name": "Baluardo Antico",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 454302147,
+      "tags": {
+        "highway": "residential",
+        "name": "Via Sopra la Chiesa",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 454337943,
+      "tags": {
+        "leisure": "park",
+        "name": "\"Giardinetti\" della chiesa di Tribogna",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 521158264,
+      "tags": {
+        "cycleway": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Strada Statale della Fontanabuona",
+        "ref": "SS225",
+        "surface": "asphalt",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 521158265,
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Strada statale 225 della Fontanabuona",
+        "oneway": "no",
+        "ref": "SS225",
+        "surface": "asphalt",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 521165832,
+      "tags": {
+        "cycleway": "proposed",
+        "highway": "tertiary",
+        "name": "Via Nuova Spinarola",
+        "surface": "asphalt",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 540160148,
+      "tags": {
+        "highway": "path",
+        "name": "Colle Caprile - Ruta",
+        "tracktype": "grade3",
+        "trail_visibility": "good",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 570590439,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Travilla",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 586335314,
+      "tags": {
+        "foot": "yes",
+        "highway": "track",
+        "name": "Itinerario Storico Colombiano",
+        "tracktype": "grade2",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 586342642,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Strada Provinciale 22 di Tribogna",
+        "ref": "SP22",
+        "surface": "asphalt",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 586342646,
+      "tags": {
+        "bridge": "yes",
+        "highway": "tertiary",
+        "layer": "1",
+        "name": "Strada Provinciale 22 di Tribogna",
+        "ref": "SP22",
+        "surface": "asphalt",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 586342651,
+      "tags": {
+        "highway": "residential",
+        "name": "Via Croce",
+        "sac_scale": "hiking",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 586342654,
+      "tags": {
+        "highway": "residential",
+        "name": "Via Croce",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 626179813,
+      "tags": {
+        "access": "no",
+        "highway": "path",
+        "horse": "no",
+        "name": "Costa-Ferrada chiuso no bici",
+        "trail_visibility": "horrible",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 677924966,
+      "tags": {
+        "highway": "footway",
+        "name": "Via Carlo Arnaldi",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 685665782,
+      "tags": {
+        "highway": "footway",
+        "name": "Via Ballatoio",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 685666710,
+      "tags": {
+        "highway": "footway",
+        "name": "Via Costa",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 685676112,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Ballatoio",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 685676113,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Ballatoio",
+        "tunnel": "yes",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 685676114,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Ballatoio",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 685811311,
+      "tags": {
+        "highway": "footway",
+        "name": "Via Ballatoio",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 685811312,
+      "tags": {
+        "highway": "footway",
+        "name": "Via Ballatoio",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 685811313,
+      "tags": {
+        "highway": "footway",
+        "name": "Via Roccone",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 685813230,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Piazze",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 686479307,
+      "tags": {
+        "highway": "service",
+        "name": "Via Spagnola",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 686479308,
+      "tags": {
+        "bridge": "yes",
+        "highway": "service",
+        "layer": "1",
+        "name": "Via Spagnola",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 686479309,
+      "tags": {
+        "highway": "service",
+        "name": "Via Spagnola",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687311788,
+      "tags": {
+        "boules": "petanque",
+        "leisure": "pitch",
+        "lit": "yes",
+        "name": "Luca Carbone",
+        "sport": "boules",
+        "surface": "gravel",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687312216,
+      "tags": {
+        "highway": "footway",
+        "name": "Via Sopra la Chiesa",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687312226,
+      "tags": {
+        "highway": "footway",
+        "name": "Via Sopra la Chiesa",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687312909,
+      "tags": {
+        "highway": "footway",
+        "name": "Via Sopra la Chiesa",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687312910,
+      "tags": {
+        "highway": "footway",
+        "layer": "-1",
+        "name": "Via Sopra la Chiesa",
+        "tunnel": "yes",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687312911,
+      "tags": {
+        "highway": "residential",
+        "name": "Via Sopra la Chiesa",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687314286,
+      "tags": {
+        "highway": "path",
+        "name": "Via Cà dei Martin",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687405142,
+      "tags": {
+        "highway": "footway",
+        "name": "Via Pozza",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687405144,
+      "tags": {
+        "highway": "footway",
+        "name": "Via Casetto",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687405588,
+      "tags": {
+        "highway": "footway",
+        "name": "Via Costa",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687407268,
+      "tags": {
+        "highway": "footway",
+        "name": "Via Pozza",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687407269,
+      "tags": {
+        "highway": "footway",
+        "name": "Via Pozza",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687535258,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Strada Provinciale 22 di Tribogna",
+        "ref": "SP22",
+        "surface": "asphalt",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687536302,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Strada Provinciale 22 di Tribogna",
+        "ref": "SP22",
+        "surface": "asphalt",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687536303,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Casetto",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687536304,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Costa della Valle",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687536305,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Cerropiano",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687536521,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Strada Provinciale 22 di Tribogna",
+        "ref": "SP22",
+        "surface": "asphalt",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687546699,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Via Piano",
+        "ref": "SP22",
+        "surface": "asphalt",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687547123,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Via Sotto la Chiesa",
+        "surface": "asphalt",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687547125,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Strada Provinciale 22 di Tribogna",
+        "surface": "asphalt",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687549303,
+      "tags": {
+        "highway": "service",
+        "name": "Via Piazzetta",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687549304,
+      "tags": {
+        "highway": "footway",
+        "name": "Via Piazzetta",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687553531,
+      "tags": {
+        "highway": "footway",
+        "name": "Via Piazzetta",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687553532,
+      "tags": {
+        "foot": "yes",
+        "highway": "footway",
+        "name": "Via Piazzetta",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687553534,
+      "tags": {
+        "highway": "footway",
+        "name": "Via Codavilla",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687553535,
+      "tags": {
+        "highway": "footway",
+        "name": "Via Codavilla",
+        "surface": "concrete",
+        "width": "1",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687553536,
+      "tags": {
+        "highway": "footway",
+        "layer": "-1",
+        "name": "Via Codavilla",
+        "surface": "concrete",
+        "tunnel": "yes",
+        "width": "1",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687553537,
+      "tags": {
+        "highway": "footway",
+        "name": "Via Codavilla",
+        "surface": "concrete",
+        "width": "1",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687553538,
+      "tags": {
+        "highway": "footway",
+        "layer": "-1",
+        "name": "Via Codavilla",
+        "surface": "concrete",
+        "tunnel": "yes",
+        "width": "1",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687553539,
+      "tags": {
+        "highway": "footway",
+        "name": "Via Codavilla",
+        "surface": "concrete",
+        "width": "1",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687553991,
+      "tags": {
+        "bridge": "yes",
+        "highway": "tertiary",
+        "layer": "1",
+        "name": "Strada della Spinarola",
+        "ref": "SP22",
+        "surface": "asphalt",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687553992,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Strada della Spinarola",
+        "ref": "SP22",
+        "surface": "asphalt",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687640210,
+      "tags": {
+        "name": "Piazza Nando Soracco",
+        "place": "square",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687640211,
+      "tags": {
+        "highway": "footway",
+        "name": "Via Costa",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687927905,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Via Nuova Spinarola",
+        "surface": "asphalt",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687927906,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Via Brughiera",
+        "surface": "asphalt",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687928614,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Via Stuggia",
+        "surface": "asphalt",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687928615,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Strada Provinciale 22 di Tribogna",
+        "surface": "asphalt",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687931005,
+      "tags": {
+        "highway": "service",
+        "name": "Via Piandestelli",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687937910,
+      "tags": {
+        "name": "Rio Pegneu",
+        "waterway": "stream",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687937914,
+      "tags": {
+        "name": "Rio Pegneu",
+        "waterway": "stream",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687938708,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Via Massalupo",
+        "ref": "SP22",
+        "surface": "asphalt",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687938709,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Strada Provinciale 22 di Tribogna",
+        "ref": "SP22",
+        "surface": "asphalt",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 689475390,
+      "tags": {
+        "access": "private",
+        "highway": "footway",
+        "name": "Via Pantalei",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 689475391,
+      "tags": {
+        "access": "private",
+        "highway": "service",
+        "name": "Via Pantalei",
+        "service": "driveway",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 689478557,
+      "tags": {
+        "fixme": "approssimativa",
+        "highway": "footway",
+        "name": "Via Piazzetta",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 689478558,
+      "tags": {
+        "highway": "steps",
+        "name": "Via Roccone",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 689478559,
+      "tags": {
+        "highway": "footway",
+        "name": "Via Roccone",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 749602285,
+      "tags": {
+        "name": "Rio Molini",
+        "waterway": "stream",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 749612153,
+      "tags": {
+        "layer": "-1",
+        "name": "Rio Rosso",
+        "tunnel": "culvert",
+        "waterway": "stream",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 749612154,
+      "tags": {
+        "name": "Rio Rosso",
+        "waterway": "stream",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 750931530,
+      "tags": {
+        "name": "Rio Pegneu",
+        "ref": "214153_291857",
+        "waterway": "stream",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 750931531,
+      "tags": {
+        "name": "Rio Pegneu",
+        "ref": "214153_291958",
+        "waterway": "stream",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 750931532,
+      "tags": {
+        "name": "Rio Pegneu",
+        "ref": "214153_291909",
+        "waterway": "stream",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 750931533,
+      "tags": {
+        "name": "Rio Pegneu",
+        "ref": "214153_291810",
+        "waterway": "stream",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 750931535,
+      "tags": {
+        "name": "Rio Pegneu",
+        "ref": "214153_291530",
+        "waterway": "stream",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 750931536,
+      "tags": {
+        "layer": "-1",
+        "name": "Rio Pegneu",
+        "ref": "214153_291467",
+        "tunnel": "culvert",
+        "waterway": "stream",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 750931537,
+      "tags": {
+        "layer": "-1",
+        "name": "Rio Pegneu",
+        "ref": "214153_291825",
+        "tunnel": "culvert",
+        "waterway": "stream",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 750931538,
+      "tags": {
+        "name": "Rio Pegneu",
+        "ref": "214153_291826",
+        "waterway": "stream",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 750931539,
+      "tags": {
+        "name": "Rio Pegneu",
+        "ref": "214153_291828",
+        "waterway": "stream",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 751167400,
+      "tags": {
+        "name": "Rio Ferre",
+        "ref": "214153_291816",
+        "waterway": "stream",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 751167401,
+      "tags": {
+        "name": "Rio Ferre",
+        "ref": "214153_291990",
+        "waterway": "stream",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 751167402,
+      "tags": {
+        "name": "Rio Ferre",
+        "ref": "214153_291846",
+        "waterway": "stream",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 751167403,
+      "tags": {
+        "name": "Rio Ferre",
+        "ref": "214153_291848",
+        "waterway": "stream",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 751167404,
+      "tags": {
+        "name": "Rio Ferre",
+        "ref": "214153_291529",
+        "waterway": "stream",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 923432551,
+      "tags": {
+        "bicycle": "yes",
+        "highway": "path",
+        "mtb:scale": "2",
+        "name": "Colonia Arnaldi",
+        "surface": "dirt",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 923432843,
+      "tags": {
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "path",
+        "name": "Passo Spinarola",
+        "sac_scale": "mountain_hiking",
+        "surface": "dirt",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1010973798,
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Strada statale 225 della Fontanabuona",
+        "ref": "SS225",
+        "surface": "asphalt",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1010975125,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Strada Provinciale 22 di Tribogna",
+        "ref": "SP22",
+        "surface": "asphalt",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1010975126,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Strada Provinciale 22 di Tribogna",
+        "ref": "SP22",
+        "surface": "asphalt",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1010975128,
+      "tags": {
+        "highway": "service",
+        "name": "Via Crocetta",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1011836407,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Strada della Spinarola",
+        "ref": "SP22",
+        "surface": "asphalt",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1011836408,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Strada della Spinarola",
+        "ref": "SP22",
+        "surface": "asphalt",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1077849127,
+      "tags": {
+        "addr:street": "Piazza dei Pescatori",
+        "branch": "Moconesi",
+        "brand": "Dpiù",
+        "brand:wikidata": "Q3709955",
+        "building": "yes",
+        "name": "Dpiù",
+        "operator": "Dpiù",
+        "shop": "supermarket",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1077849134,
+      "tags": {
+        "highway": "pedestrian",
+        "name": "Via dei Caduti",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1077849141,
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Strada statale 225 della Fontanabuona",
+        "oneway": "no",
+        "ref": "SS225",
+        "surface": "asphalt",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1077849142,
+      "tags": {
+        "bridge": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "50",
+        "name": "Strada statale 225 della Fontanabuona",
+        "ref": "SS225",
+        "surface": "asphalt",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1077849154,
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Strada statale 225 della Fontanabuona",
+        "ref": "SS225",
+        "surface": "asphalt",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1227131385,
+      "tags": {
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "path",
+        "name": "Colonia Arnaldi",
+        "sac_scale": "mountain_hiking",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1290332453,
+      "tags": {
+        "highway": "residential",
+        "name": "Via Capella",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1442612438,
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "maxspeed:type": "IT:urban",
+        "name": "Via del Commercio",
+        "nat_name": "Strada statale 225 della Fontanabuona",
+        "ref": "SS225",
+        "surface": "asphalt",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1457011005,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Strada Provinciale 22 di Tribogna",
+        "ref": "SP22",
+        "surface": "asphalt",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1457195636,
+      "tags": {
+        "area": "yes",
+        "highway": "pedestrian",
+        "name": "Piazza Basso Vittorio",
+        "place": "square",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1465654798,
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Strada statale 225 della Fontanabuona",
+        "ref": "SS225",
+        "surface": "asphalt",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1493039809,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Reisci",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1493039810,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Reisci",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1493039817,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Travilla",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1493039818,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Strada Provinciale 22 di Tribogna",
+        "ref": "SP22",
+        "surface": "asphalt",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1493039819,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Strada Provinciale 22 di Tribogna",
+        "ref": "SP22",
+        "surface": "asphalt",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1548259192,
+      "tags": {
+        "name": "Rio Pegneu",
+        "ref": "214153_291825",
+        "waterway": "stream",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1553295889,
+      "tags": {
+        "layer": "-1",
+        "name": "Rio Ferre",
+        "ref": "214153_291846",
+        "tunnel": "culvert",
+        "waterway": "stream",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1553295890,
+      "tags": {
+        "layer": "-1",
+        "name": "Rio Ferre",
+        "ref": "214153_291846",
+        "tunnel": "culvert",
+        "waterway": "stream",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1553497136,
+      "tags": {
+        "layer": "-1",
+        "name": "Rio Ferre",
+        "ref": "214153_291846",
+        "tunnel": "culvert",
+        "waterway": "stream",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1553497137,
+      "tags": {
+        "name": "Rio Ferre",
+        "ref": "214153_291846",
+        "waterway": "stream",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1553497138,
+      "tags": {
+        "name": "Rio Ferre",
+        "ref": "214153_291846",
+        "waterway": "stream",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1553497139,
+      "tags": {
+        "layer": "-1",
+        "name": "Rio Ferre",
+        "ref": "214153_291846",
+        "tunnel": "culvert",
+        "waterway": "stream",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1559335977,
+      "tags": {
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "path",
+        "motor_vehicle": "no",
+        "name": "Itinerario Storico Colombiano",
+        "sac_scale": "mountain_hiking",
+        "surface": "dirt",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 43116,
+      "tags": {
+        "admin_level": "8",
+        "boundary": "administrative",
+        "gfoss_id": "1259",
+        "name": "Avegno",
+        "population": "2553",
+        "population:date": "2026-08-27",
+        "ref:catasto": "A506",
+        "ref:ISTAT": "010002",
+        "type": "boundary",
+        "wikidata": "Q266580",
+        "wikipedia": "it:Avegno",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 43128,
+      "tags": {
+        "admin_level": "8",
+        "boundary": "administrative",
+        "gfoss_id": "1320",
+        "name": "Tribogna",
+        "population": "607",
+        "population:date": "2026-08-27",
+        "ref:catasto": "L416",
+        "ref:ISTAT": "010063",
+        "type": "boundary",
+        "wikidata": "Q267342",
+        "wikipedia": "it:Tribogna",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 43130,
+      "tags": {
+        "admin_level": "8",
+        "boundary": "administrative",
+        "name": "Cicagna",
+        "population": "2358",
+        "population:date": "2026-08-28",
+        "ref:catasto": "C673",
+        "ref:ISTAT": "010016",
+        "type": "boundary",
+        "wikidata": "Q267199",
+        "wikipedia": "it:Cicagna",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 43139,
+      "tags": {
+        "admin_level": "8",
+        "boundary": "administrative",
+        "name": "Uscio",
+        "population": "2155",
+        "population:date": "2026-08-28",
+        "ref:catasto": "L507",
+        "ref:ISTAT": "010064",
+        "source:population": "ANPR 2026",
+        "type": "boundary",
+        "wikidata": "Q266666",
+        "wikipedia": "it:Uscio",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 44876,
+      "tags": {
+        "admin_level": "8",
+        "boundary": "administrative",
+        "gfoss_id": "1293",
+        "name": "Moconesi",
+        "population": "2433",
+        "population:date": "2026-08-28",
+        "ref:catasto": "F256",
+        "ref:ISTAT": "010036",
+        "source": "geodati.gfoss.it",
+        "source:population": "ANPR 2026",
+        "type": "boundary",
+        "wikidata": "Q267284",
+        "wikipedia": "it:Moconesi",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 1782624,
+      "tags": {
+        "cycle_network": "Bicitalia",
+        "description": "Proposed National Cycleway BI-19 Ciclovia Tirrenica",
+        "from": "Ventimiglia",
+        "name": "Ciclovia Tirrenica",
+        "network": "ncn",
+        "note": "please do not modify without consulting with www.bicitalia.it",
+        "operator": "FIAB",
+        "ref": "BI-19",
+        "route": "bicycle",
+        "to": "Latina",
+        "type": "route",
+        "url": "https://www.bicitalia.org/it/bicitalia/gli-itinerari-bicitalia/193-bi19-ciclovia-tirrenica",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 2562291,
+      "tags": {
+        "cycle_network": "Bicitalia",
+        "name": "Ciclovia Francigena - variante Moncenisio",
+        "network": "ncn",
+        "note": "Please do not modify without consulting with www.bicitalia.org",
+        "operator": "Bicitalia",
+        "ref": "BI-3 var. Moncenisio",
+        "route": "bicycle",
+        "source": "http://www.bicitalia.org/",
+        "type": "route",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 8825535,
+      "tags": {
+        "name": "Via del Mare",
+        "network": "rwn",
+        "osmc:symbol": "red:red:white_stripe:VM:black",
+        "route": "hiking",
+        "type": "route",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 13500500,
+      "tags": {
+        "cai_scale": "EE",
+        "name": "Passo Spinarola - Passo Serra",
+        "network": "lwn",
+        "osmc:symbol": "red:white::XX:red",
+        "route": "hiking",
+        "source": "Federazione Italiana Escursionismo",
+        "type": "route",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 13535544,
+      "tags": {
+        "cai_scale": "E",
+        "from": "Terrarossa Colombo",
+        "name": "Itinerario Storico Colombiano (ISC)",
+        "network": "lwn",
+        "osmc:symbol": "red:white:red_corner:ISC:black",
+        "route": "hiking",
+        "source": "FIE",
+        "to": "Nervi",
+        "type": "route",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 13546483,
+      "tags": {
+        "cai_scale": "E",
+        "from": "terrarossa colombo",
+        "name": "Itinerario dei 2 Golfi",
+        "network": "lwn",
+        "osmc:symbol": "red:red::2G:white",
+        "route": "hiking",
+        "source": "survey",
+        "to": "portofino mare",
+        "type": "route",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 14346184,
+      "tags": {
+        "colour": "green",
+        "description": "817 Roccatagliata - Gattorna",
+        "fee": "yes",
+        "from": "Roccatagliata",
+        "name": "817 Gattorna",
+        "network": "AMT Linee Provinciali",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "817",
+        "route": "bus",
+        "to": "Gattorna",
+        "type": "route",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 16829453,
+      "tags": {
+        "name": "Strada statale 225 della Fontanabuona",
+        "ref": "SS 225",
+        "route": "road",
+        "type": "route",
+        "wikidata": "Q3542120",
+        "wikipedia": "it:Strada statale 225 della Val Fontanabuona",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 18827498,
+      "tags": {
+        "description": "La ciclovia dell’Ardesia (o dell'Entella) è un percorso ciclabile che risale il fiume Entella, alla scoperta della natura e della storia della Val Fontanabuona. Nei pressi di Cogorno da vedere la Basilica dei Fieschi, antica cattedrale medioevale.",
+        "distance": "33",
+        "from": "Lavagna",
+        "name": "Ciclovia dell'Ardesia",
+        "network": "rcn",
+        "route": "bicycle",
+        "to": "Gattorna",
+        "type": "route",
+        "website": "https://lamialiguria.it/2023/03/ciclovia-ardesia/",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 19721088,
+      "tags": {
+        "colour": "green",
+        "description": "991 Gattorna - Moconesi alto",
+        "fee": "yes",
+        "from": "Gattorna",
+        "name": "991 Gattorna - Moconesi alto",
+        "network": "AMT Linee Provinciali",
+        "network:wikidata": "Q295335",
+        "network:wikipedia": "it:AMT (Genova)",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "991",
+        "route": "bus",
+        "to": "Moconesi alto",
+        "type": "route",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 19772404,
+      "tags": {
+        "bus": "yes",
+        "colour": "green",
+        "description": "Genova Brignole - Bargagli - Gattorna - Carasco - Chiavari",
+        "from": "Genova Brignole (v.Caviglia)",
+        "name": "715 Chiavari Nassiriya",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "network:wikipedia": "it:AMT (Genova)",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "715",
+        "route": "bus",
+        "to": "Chiavari Nassiriya",
+        "type": "route",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 19935586,
+      "tags": {
+        "bus": "yes",
+        "colour": "green",
+        "description": "869 Calcinara - Tribogna - Gattorna",
+        "from": "Calcinara",
+        "name": "869 Gattorna",
+        "network": "AMT Linee Provinciali",
+        "network:wikipedia": "it:AMT (Genova)",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "869",
+        "route": "bus",
+        "to": "Gattorna",
+        "type": "route",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 19940351,
+      "tags": {
+        "bus": "yes",
+        "colour": "green",
+        "description": "869 Gattorna - Tribogna - Calcinara",
+        "from": "Gattorna",
+        "name": "869 Calcinara",
+        "network": "AMT Linee Provinciali",
+        "network:wikipedia": "it:AMT (Genova)",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "869",
+        "route": "bus",
+        "to": "Calcinara",
+        "type": "route",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 19940352,
+      "tags": {
+        "bus": "yes",
+        "colour": "green",
+        "description": "869 Calcinara - Gattorna (diretta)",
+        "from": "Calcinara",
+        "name": "869 Gattorna",
+        "network": "AMT Linee Provinciali",
+        "network:wikipedia": "it:AMT (Genova)",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "869",
+        "route": "bus",
+        "to": "Gattorna",
+        "type": "route",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 19968938,
+      "tags": {
+        "colour": "green",
+        "description": "817 Neirone - Gattorna",
+        "fee": "yes",
+        "from": "Neirone",
+        "name": "817 Gattorna",
+        "network": "AMT Linee Provinciali",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "817",
+        "route": "bus",
+        "to": "Gattorna",
+        "type": "route",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 20063787,
+      "tags": {
+        "bus": "yes",
+        "colour": "green",
+        "description": "935 Calvari - Gattorna",
+        "from": "Calvari",
+        "name": "935 Gattorna",
+        "network": "AMT Linee Provinciali",
+        "network:wikipedia": "it:AMT (Genova)",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "935",
+        "route": "bus",
+        "to": "Gattorna",
+        "type": "route",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 20103013,
+      "tags": {
+        "bus": "yes",
+        "colour": "green",
+        "description": "Chiavari - Carasco - Gattorna - Bargagli - Genova Brignole",
+        "duration": "1:59",
+        "from": "Chiavari Nassiriya",
+        "name": "715 Genova Brignole",
+        "network": "AMT Linee Provinciali",
+        "network:wikidata": "Q295335",
+        "network:wikipedia": "it:AMT (Genova)",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "715",
+        "route": "bus",
+        "to": "Genova Brignole (v.Caviglia)",
+        "type": "route",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 20250966,
+      "tags": {
+        "bus": "yes",
+        "colour": "green",
+        "description": "819 San Marco D'Urri - Acqua di Ognio - Gattorna",
+        "from": "San Marco D'Urri",
+        "name": "819 Gattorna",
+        "network": "AMT Linee Provinciali",
+        "network:wikipedia": "it:AMT (Genova)",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "819",
+        "route": "bus",
+        "to": "Gattorna",
+        "type": "route",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 20250967,
+      "tags": {
+        "bus": "yes",
+        "colour": "green",
+        "description": "819 Gattorna - Acqua di Ognio - San Marco D'Urri",
+        "from": "Gattorna",
+        "name": "819 San Marco D'Urri",
+        "network": "AMT Linee Provinciali",
+        "network:wikipedia": "it:AMT (Genova)",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "819",
+        "route": "bus",
+        "to": "San Marco D'Urri",
+        "type": "route",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 20251884,
+      "tags": {
+        "bus": "yes",
+        "colour": "green",
+        "description": "819 Ognio - Gattorna",
+        "from": "Ognio",
+        "name": "819 Gattorna",
+        "network": "AMT Linee Provinciali",
+        "network:wikipedia": "it:AMT (Genova)",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "819",
+        "route": "bus",
+        "to": "Gattorna",
+        "type": "route",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 20377677,
+      "tags": {
+        "cai_scale": "E",
+        "name": "Gattorna - Innesto Itinerario Storico Colombiano",
+        "network": "lwn",
+        "osmc:symbol": "red:white::❚●:red",
+        "route": "hiking",
+        "source": "survey",
+        "symbol:it": "cerchio e linea verticale rossi",
+        "type": "route",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 21215319,
+      "tags": {
+        "from": "Ponte Organasco",
+        "name": "Antica Via del Cifalco - Percorso principale",
+        "network": "nwn",
+        "network:type": "lwn",
+        "official_name": "Antica Via del Cifalco",
+        "ref": "AVC",
+        "route": "hiking",
+        "to": "Portofino Mare",
+        "type": "route",
+        "addr:city_extracted": "Tribogna"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 21824348,
+      "tags": {
+        "from": "Ponte Organasco",
+        "name": "Antica Via del Cifalco",
+        "network": "nwn",
+        "ref": "AVC",
+        "route": "hiking",
+        "to": "Camogli",
+        "type": "superroute",
+        "addr:city_extracted": "Tribogna"
+      }
+    }
+  ]
+}

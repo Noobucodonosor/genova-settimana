@@ -1,0 +1,453 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-11-01T20:13:28Z",
+    "timestamp_areas_base": "2026-11-01T18:30:20Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 1775828189,
+  "tags": {
+    "name": "Ponte sospeso Monleone",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 4442381208,
+  "tags": {
+    "name": "Ecomuseo dell'Ardesia - La Via della Pietra Nera",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 10239834180,
+  "tags": {
+    "historic": "monument",
+    "name": "Monumento ai Caduti"
+  }
+},
+{
+  "type": "node",
+  "id": 13936401789,
+  "tags": {
+    "amenity": "theatre",
+    "name": "Teatro di Cicagna"
+  }
+},
+{
+  "type": "way",
+  "id": 9220214,
+  "tags": {
+    "bridge": "yes",
+    "highway": "primary",
+    "lanes": "2",
+    "layer": "1",
+    "name": "Strada statale 225 della Fontanabuona",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 34283808,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Strada statale 225 della Fontanabuona",
+    "oneway": "no",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 43000917,
+  "tags": {
+    "highway": "secondary",
+    "name": "Viale Italia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 181234502,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via San Giovanni Gualberto"
+  }
+},
+{
+  "type": "way",
+  "id": 181234503,
+  "tags": {
+    "highway": "service",
+    "name": "Piazza della Libertà",
+    "service": "parking_aisle"
+  }
+},
+{
+  "type": "way",
+  "id": 183642697,
+  "tags": {
+    "highway": "residential",
+    "name": "Via privata Casassa"
+  }
+},
+{
+  "type": "way",
+  "id": 187285646,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Strada statale 225 della Fontanabuona",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 187285657,
+  "tags": {
+    "bridge": "yes",
+    "highway": "primary",
+    "layer": "1",
+    "name": "Strada statale 225 della Fontanabuona",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 193290143,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Via Pian Mercato",
+    "nat_name": "Strada statale 225 della Fontanabuona",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 193290144,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Strada statale 225 della Fontanabuona",
+    "oneway": "no",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 193290293,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Dezerega",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 197249913,
+  "tags": {
+    "bridge": "yes",
+    "cycleway": "yes",
+    "highway": "primary",
+    "layer": "1",
+    "name": "Strada statale 225 della Fontanabuona",
+    "oneway": "no",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 204739965,
+  "tags": {
+    "amenity": "school",
+    "name": "Scuola Primaria e Secondaria di 1°grado A.P Giannini",
+    "source": "Regione Liguria"
+  }
+},
+{
+  "type": "way",
+  "id": 204753291,
+  "tags": {
+    "amenity": "school",
+    "name": "Scuola dell'Infanzia di Cicagna",
+    "source": "Regione Liguria"
+  }
+},
+{
+  "type": "way",
+  "id": 204754159,
+  "tags": {
+    "amenity": "school",
+    "name": "Scuola Primaria Monleone",
+    "source": "Regione Liguria"
+  }
+},
+{
+  "type": "way",
+  "id": 521172276,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "primary",
+    "name": "Strada statale 225 della Fontanabuona",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1346205205,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Mortasco",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1346205206,
+  "tags": {
+    "access": "private",
+    "highway": "unclassified",
+    "name": "Via Morino",
+    "surface": "gravel"
+  }
+},
+{
+  "type": "way",
+  "id": 1346205207,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Mortasco",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1346205208,
+  "tags": {
+    "access": "private",
+    "bridge": "yes",
+    "highway": "unclassified",
+    "layer": "1",
+    "name": "Via Morino",
+    "surface": "gravel"
+  }
+},
+{
+  "type": "way",
+  "id": 1346205209,
+  "tags": {
+    "access": "private",
+    "highway": "unclassified",
+    "name": "Via Morino",
+    "surface": "gravel"
+  }
+},
+{
+  "type": "way",
+  "id": 1346205210,
+  "tags": {
+    "access": "private",
+    "bridge": "yes",
+    "highway": "unclassified",
+    "layer": "1",
+    "name": "Via Morino",
+    "surface": "gravel"
+  }
+},
+{
+  "type": "way",
+  "id": 1346205211,
+  "tags": {
+    "access": "private",
+    "highway": "unclassified",
+    "name": "Via Morino",
+    "surface": "gravel"
+  }
+},
+{
+  "type": "way",
+  "id": 1346205212,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Mortasco",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1346205213,
+  "tags": {
+    "access": "private",
+    "highway": "residential",
+    "name": "Via Morino",
+    "surface": "gravel"
+  }
+},
+{
+  "type": "way",
+  "id": 1346205214,
+  "tags": {
+    "access": "private",
+    "highway": "residential",
+    "name": "Via Morino",
+    "surface": "gravel"
+  }
+},
+{
+  "type": "way",
+  "id": 1442283692,
+  "tags": {
+    "highway": "primary",
+    "maxspeed": "50",
+    "name": "Strada statale 225 della Fontanabuona",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1455531888,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada Provinciale della Scoglina",
+    "oneway": "yes",
+    "ref": "SP23",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1455531889,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada Provinciale della Scoglina",
+    "oneway": "yes",
+    "ref": "SP23",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1457812878,
+  "tags": {
+    "highway": "residential",
+    "name": "Via privata Casassa"
+  }
+},
+{
+  "type": "way",
+  "id": 1457812879,
+  "tags": {
+    "highway": "service",
+    "name": "Via Dante Alighieri"
+  }
+},
+{
+  "type": "way",
+  "id": 1478604848,
+  "tags": {
+    "highway": "primary",
+    "name": "Strada statale 225 della Fontanabuona",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1478622150,
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Strada Provinciale della Scoglina",
+    "ref": "SP23",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1478622151,
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Strada Provinciale della Scoglina",
+    "ref": "SP23",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1478622152,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada Provinciale della Scoglina",
+    "oneway": "yes",
+    "ref": "SP23",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1478622153,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Strada statale 225 della Fontanabuona",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1529041305,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Strada statale 225 della Fontanabuona",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1529152967,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Via Pian Mercato",
+    "nat_name": "Strada statale 225 della Fontanabuona",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1529152968,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Via Giovanni Battista Valente",
+    "nat_name": "Strada statale 225 della Fontanabuona",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+}
+
+  ]
+}

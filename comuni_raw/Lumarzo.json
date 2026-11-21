@@ -1,0 +1,673 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-11-01T21:15:28Z",
+    "timestamp_areas_base": "2026-11-01T18:30:20Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "way",
+  "id": 20289729,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "secondary",
+    "name": "Strada provinciale 77 di Boasi",
+    "oneway": "no",
+    "ref": "SP77",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 21848440,
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Strada Provinciale 19",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 24522486,
+  "tags": {
+    "highway": "trunk",
+    "lanes": "2",
+    "name": "Strada statale 225 della Fontanabuona",
+    "old_ref": "T3",
+    "oneway": "yes",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 51852596,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via E. Giacomazzi"
+  }
+},
+{
+  "type": "way",
+  "id": 52338931,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Pannesi"
+  }
+},
+{
+  "type": "way",
+  "id": 52338932,
+  "tags": {
+    "bridge": "yes",
+    "highway": "unclassified",
+    "layer": "1",
+    "name": "Via Pannesi",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 52338934,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Pannesi",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 52408003,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Strada Comunale Pannesi Cornua",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 52477187,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Pannesi",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 63205251,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "secondary",
+    "layer": "-1",
+    "length": "165",
+    "name": "Strada provinciale 77 di Boasi",
+    "oneway": "no",
+    "ref": "SP77",
+    "surface": "asphalt",
+    "tunnel": "yes",
+    "tunnel:name": "Galleria Sottocolle"
+  }
+},
+{
+  "type": "way",
+  "id": 110412373,
+  "tags": {
+    "bicycle": "no",
+    "foot": "no",
+    "highway": "trunk",
+    "lanes": "2",
+    "maxspeed": "90",
+    "mofa": "no",
+    "moped": "no",
+    "motorcycle:conditional": "no @ (displacement<=124 cc)",
+    "name": "Strada statale 225 della Fontanabuona",
+    "old_ref": "T3",
+    "oneway": "yes",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 110412374,
+  "tags": {
+    "highway": "trunk",
+    "lanes": "2",
+    "name": "Strada statale 225 della Fontanabuona",
+    "old_ref": "T3",
+    "oneway": "yes",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 110412375,
+  "tags": {
+    "highway": "trunk",
+    "lanes": "2",
+    "name": "Strada statale 225 della Fontanabuona",
+    "old_ref": "T3",
+    "oneway": "yes",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 110412376,
+  "tags": {
+    "highway": "trunk",
+    "lanes": "2",
+    "name": "Strada statale 225 della Fontanabuona",
+    "old_ref": "T3",
+    "oneway": "yes",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 110412378,
+  "tags": {
+    "highway": "trunk",
+    "name": "Strada statale 225 della Fontanabuona",
+    "old_ref": "T3",
+    "oneway": "yes",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 115407501,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Strada Comunale Pannesi Cornua",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 183582426,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Castello"
+  }
+},
+{
+  "type": "way",
+  "id": 183582431,
+  "tags": {
+    "name": "Piazza Piandelmelo",
+    "place": "square"
+  }
+},
+{
+  "type": "way",
+  "id": 183582433,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Gattorne"
+  }
+},
+{
+  "type": "way",
+  "id": 196283354,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Strada della Resa -Tecosa",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 204463528,
+  "tags": {
+    "amenity": "townhall",
+    "building": "yes",
+    "name": "Municipio",
+    "source": "Regione Liguria"
+  }
+},
+{
+  "type": "way",
+  "id": 220888889,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Via Ferriere"
+  }
+},
+{
+  "type": "way",
+  "id": 220888890,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Via Ferriere"
+  }
+},
+{
+  "type": "way",
+  "id": 220888891,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Via Ferriere"
+  }
+},
+{
+  "type": "way",
+  "id": 253970937,
+  "tags": {
+    "highway": "trunk",
+    "lanes": "2",
+    "name": "Strada statale 225 della Fontanabuona",
+    "old_ref": "T3",
+    "oneway": "yes",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 257980215,
+  "tags": {
+    "highway": "track",
+    "name": "Strada delle Mogge"
+  }
+},
+{
+  "type": "way",
+  "id": 299753892,
+  "tags": {
+    "bridge": "yes",
+    "cycleway": "yes",
+    "highway": "primary",
+    "lanes": "2",
+    "layer": "1",
+    "maxweight:signed": "no",
+    "name": "Strada statale 225 della Fontanabuona",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 299753893,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Strada statale 225 della Fontanabuona",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 405904638,
+  "tags": {
+    "fixme": "resurvey",
+    "highway": "path",
+    "mtb:name": "Madonna del Bosco",
+    "name": "Madonna del Bosco",
+    "sac_scale": "mountain_hiking"
+  }
+},
+{
+  "type": "way",
+  "id": 421966750,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "path",
+    "mtb:name": "Costa Lunga",
+    "mtb:scale": "1",
+    "name": "Chiapparino Ognio",
+    "surface": "ground"
+  }
+},
+{
+  "type": "way",
+  "id": 472402569,
+  "tags": {
+    "leisure": "park",
+    "name": "Parco pubblico-Area Giochi"
+  }
+},
+{
+  "type": "way",
+  "id": 529500831,
+  "tags": {
+    "historic": "monument",
+    "name": "Monumento ai Caduti"
+  }
+},
+{
+  "type": "way",
+  "id": 529686378,
+  "tags": {
+    "highway": "residential",
+    "lanes": "1",
+    "name": "Via Gattorne",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 529696675,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "path",
+    "mtb:scale": "0",
+    "name": "Sentiero di Gagginea",
+    "sac_scale": "hiking",
+    "surface": "ground",
+    "width": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 529701105,
+  "tags": {
+    "highway": "path",
+    "mtb:scale": "2",
+    "mtb:scale:uphill": "4",
+    "name": "Sentiero di Ria Neigra",
+    "oneway:bicycle": "yes",
+    "sac_scale": "hiking",
+    "surface": "ground"
+  }
+},
+{
+  "type": "way",
+  "id": 529701106,
+  "tags": {
+    "highway": "path",
+    "mtb:scale": "2",
+    "name": "Sentiero di Ria Neigra",
+    "surface": "ground"
+  }
+},
+{
+  "type": "way",
+  "id": 530311877,
+  "tags": {
+    "highway": "residential",
+    "name": "Piazzale Parrocchiale",
+    "place": "square"
+  }
+},
+{
+  "type": "way",
+  "id": 554812422,
+  "tags": {
+    "highway": "path",
+    "incline": "down",
+    "mtb:scale": "5",
+    "name": "Bragalla-Vallebona",
+    "sac_scale": "demanding_mountain_hiking",
+    "surface": "ground",
+    "trail_visibility": "intermediate"
+  }
+},
+{
+  "type": "way",
+  "id": 558776471,
+  "tags": {
+    "highway": "path",
+    "mtb:scale": "2",
+    "name": "Crovara",
+    "sac_scale": "hiking",
+    "trail_visibility": "good"
+  }
+},
+{
+  "type": "way",
+  "id": 558776472,
+  "tags": {
+    "highway": "path",
+    "mtb:scale": "2",
+    "name": "Crovara",
+    "sac_scale": "hiking",
+    "trail_visibility": "good"
+  }
+},
+{
+  "type": "way",
+  "id": 558776473,
+  "tags": {
+    "highway": "path",
+    "mtb:scale": "2",
+    "name": "Crovara",
+    "sac_scale": "hiking",
+    "trail_visibility": "good"
+  }
+},
+{
+  "type": "way",
+  "id": 566357920,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Strada statale 225 della Fontanabuona",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 635349517,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada Provinciale del Monte Fasce",
+    "ref": "SP67",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1195271616,
+  "tags": {
+    "highway": "track",
+    "name": "collegamento"
+  }
+},
+{
+  "type": "way",
+  "id": 1195271958,
+  "tags": {
+    "highway": "track",
+    "name": "collegamento"
+  }
+},
+{
+  "type": "way",
+  "id": 1213519484,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada Provinciale 19",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1213519485,
+  "tags": {
+    "bridge": "yes",
+    "highway": "secondary",
+    "layer": "1",
+    "name": "Strada Provinciale 19",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1213519486,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada Provinciale 19",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1213519487,
+  "tags": {
+    "bridge": "yes",
+    "highway": "secondary",
+    "layer": "1",
+    "name": "Strada Provinciale 19",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1279653359,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "secondary",
+    "name": "Strada provinciale 77 di Boasi",
+    "oneway": "no",
+    "ref": "SP77",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1279653360,
+  "tags": {
+    "bridge": "yes",
+    "cycleway": "yes",
+    "highway": "secondary",
+    "layer": "1",
+    "name": "Strada provinciale 77 di Boasi",
+    "oneway": "no",
+    "ref": "SP77",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1292861479,
+  "tags": {
+    "bridge": "yes",
+    "highway": "service",
+    "layer": "1",
+    "name": "Ponte di Lagomarsino"
+  }
+},
+{
+  "type": "way",
+  "id": 1295724661,
+  "tags": {
+    "highway": "trunk",
+    "lanes": "2",
+    "name": "Strada statale 225 della Fontanabuona",
+    "old_ref": "T3",
+    "oneway": "yes",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1295724662,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Strada statale 225 della Fontanabuona",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1295724663,
+  "tags": {
+    "highway": "trunk",
+    "lanes": "2",
+    "name": "Strada statale 225 della Fontanabuona",
+    "old_ref": "T3",
+    "oneway": "yes",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1295724664,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "secondary",
+    "name": "Strada provinciale 77 di Boasi",
+    "oneway": "no",
+    "ref": "SP77",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1295724665,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "secondary",
+    "name": "Strada provinciale 77 di Boasi",
+    "oneway": "no",
+    "ref": "SP77",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1415200281,
+  "tags": {
+    "bicycle": "no",
+    "foot": "no",
+    "highway": "trunk",
+    "maxspeed": "90",
+    "mofa": "no",
+    "moped": "no",
+    "motorcycle:conditional": "no @ (displacement<=124 cc)",
+    "name": "Strada statale 225 della Fontanabuona",
+    "old_ref": "T3",
+    "oneway": "yes",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1454486813,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Strada statale 225 della Fontanabuona",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1484324686,
+  "tags": {
+    "bicycle": "no",
+    "foot": "no",
+    "highway": "trunk",
+    "lanes": "2",
+    "maxspeed": "90",
+    "name": "Strada Statale 225 della Fontanabuona",
+    "oneway": "yes",
+    "ref": "SS 225",
+    "surface": "asphalt"
+  }
+}
+
+  ]
+}

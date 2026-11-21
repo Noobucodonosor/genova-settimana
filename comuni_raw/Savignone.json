@@ -1,0 +1,3443 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-11-01T20:51:06Z",
+    "timestamp_areas_base": "2026-11-01T18:30:20Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 2917360451,
+  "tags": {
+    "historic": "monument",
+    "name": "MOnumento ai Caduti della Resistenza"
+  }
+},
+{
+  "type": "node",
+  "id": 3450444309,
+  "tags": {
+    "addr:city": "Savignone",
+    "addr:housenumber": "12",
+    "addr:postcode": "16010",
+    "addr:street": "Via Angelo Caprile",
+    "name": "Museo degli Alpini",
+    "operator": "Grupo Alpini Savignone",
+    "phone": "+39 010 9360103",
+    "tourism": "museum",
+    "website": "http://www.museoalpini.com",
+    "wikidata": "Q55348676"
+  }
+},
+{
+  "type": "node",
+  "id": 3768634244,
+  "tags": {
+    "amenity": "school",
+    "name": "Scuola Elementare Sandro Gherardi"
+  }
+},
+{
+  "type": "node",
+  "id": 3783194857,
+  "tags": {
+    "name": "Pontepietra",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 4442370139,
+  "tags": {
+    "name": "Museo Civico Archeologico di Savignone",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "way",
+  "id": 19850949,
+  "tags": {
+    "bridge": "yes",
+    "cycleway": "proposed",
+    "highway": "primary",
+    "layer": "1",
+    "maxspeed": "50",
+    "name": "Strada Provinciale della Valle Scrivia",
+    "nat_name": "Strada Provinciale della Valle Scrivia",
+    "oneway": "no",
+    "ref": "SP226",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 19850950,
+  "tags": {
+    "highway": "primary",
+    "maxspeed": "50",
+    "name": "Via Natale Gallino",
+    "nat_name": "Strada Provinciale della Valle Scrivia",
+    "oneway": "no",
+    "ref": "SP226",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 21288676,
+  "tags": {
+    "highway": "secondary",
+    "name": "Via Firpo",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 23174589,
+  "tags": {
+    "cycleway": "proposed",
+    "highway": "residential",
+    "name": "Località Canalbolzone",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 23174590,
+  "tags": {
+    "access": "designated",
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "tertiary",
+    "horse": "yes",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Via alla Chiesa",
+    "oneway": "no",
+    "ref": "SP47",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 23174591,
+  "tags": {
+    "access": "designated",
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "residential",
+    "horse": "yes",
+    "maxspeed": "50",
+    "name": "Località Prelo",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 23970084,
+  "tags": {
+    "cycleway": "proposed",
+    "highway": "secondary",
+    "layer": "1",
+    "maxspeed": "50",
+    "name": "Via degli Alpini",
+    "oneway": "no",
+    "ref": "SP10",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 24551266,
+  "tags": {
+    "access": "designated",
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "secondary",
+    "horse": "yes",
+    "maxspeed": "50",
+    "name": "Via Gustavo Ragnoli",
+    "ref": "SP63",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 24760674,
+  "tags": {
+    "bridge": "yes",
+    "highway": "secondary",
+    "layer": "1",
+    "maxspeed": "50",
+    "name": "Via degli Alpini",
+    "oneway": "yes",
+    "ref": "SP10",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 24760675,
+  "tags": {
+    "highway": "secondary",
+    "maxspeed": "50",
+    "name": "Via degli Alpini",
+    "oneway": "no",
+    "ref": "SP10",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 25008348,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Cappelletta di Renesso"
+  }
+},
+{
+  "type": "way",
+  "id": 25008351,
+  "tags": {
+    "name": "Piazzetta Camozzi",
+    "place": "square"
+  }
+},
+{
+  "type": "way",
+  "id": 25008423,
+  "tags": {
+    "highway": "residential",
+    "name": "Località Montemaggio"
+  }
+},
+{
+  "type": "way",
+  "id": 25039257,
+  "tags": {
+    "highway": "residential",
+    "maxspeed": "50",
+    "name": "Via Forni Antichi",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 25039285,
+  "tags": {
+    "bridge": "yes",
+    "cycleway": "proposed",
+    "highway": "secondary",
+    "layer": "1",
+    "maxspeed": "50",
+    "name": "Via degli Alpini",
+    "oneway": "yes",
+    "ref": "SP10",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 25039292,
+  "tags": {
+    "highway": "secondary",
+    "maxspeed": "50",
+    "name": "Via degli Alpini",
+    "oneway": "no",
+    "ref": "SP10",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 25039452,
+  "tags": {
+    "highway": "tertiary",
+    "maxspeed": "50",
+    "name": "Via Vaccarezza",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 26288843,
+  "tags": {
+    "access": "designated",
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "tertiary",
+    "horse": "yes",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Via alla Vittoria",
+    "oneway": "no",
+    "ref": "SP47",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 58872681,
+  "tags": {
+    "highway": "tertiary",
+    "maxspeed": "50",
+    "name": "Piazza Italo Ghelfi",
+    "old_name": "Piazza della Chiesa",
+    "oneway": "yes",
+    "ref": "SP63",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 59171390,
+  "tags": {
+    "cycleway": "proposed",
+    "highway": "unclassified",
+    "maxspeed": "50",
+    "name": "Via Padre Attilio Garrè",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 59172080,
+  "tags": {
+    "highway": "residential",
+    "maxspeed": "50",
+    "name": "Via Fornace del Ponte",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 59172081,
+  "tags": {
+    "cycleway": "proposed",
+    "highway": "residential",
+    "name": "Via Ponte di Savignone",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 59172082,
+  "tags": {
+    "highway": "residential",
+    "name": "Località Canalbolzone"
+  }
+},
+{
+  "type": "way",
+  "id": 59172083,
+  "tags": {
+    "cycleway": "proposed",
+    "foot": "yes",
+    "highway": "residential",
+    "maxspeed": "50",
+    "name": "Via Giovanni Scala",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 68446852,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via alla Colonia di Montemaggio",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 69432530,
+  "tags": {
+    "highway": "residential",
+    "name": "Località Sorrivi"
+  }
+},
+{
+  "type": "way",
+  "id": 69432589,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Località Nastrà di Montemaggio"
+  }
+},
+{
+  "type": "way",
+  "id": 69432757,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Località Iesi",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 92483071,
+  "tags": {
+    "alt_name": "Piazza della Chiesa",
+    "highway": "tertiary",
+    "name": "Piazza Italo Ghelfi",
+    "old_name": "Piazza della Chiesa",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 115794523,
+  "tags": {
+    "highway": "residential",
+    "maxspeed": "50",
+    "name": "Via Giovanni Scala",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 161447060,
+  "tags": {
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Via Pratogrande Filanda",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 161447064,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Giovanni Garrè"
+  }
+},
+{
+  "type": "way",
+  "id": 161511863,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "track",
+    "name": "Monte Pianetto",
+    "surface": "gravel"
+  }
+},
+{
+  "type": "way",
+  "id": 161536083,
+  "tags": {
+    "leisure": "park",
+    "name": "Piazza Italo Ghelfi",
+    "old_name": "Piazza della Chiesa"
+  }
+},
+{
+  "type": "way",
+  "id": 161536084,
+  "tags": {
+    "highway": "residential",
+    "maxspeed": "20",
+    "name": "Viale della Rimembranza",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 161542465,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Località Costalovaia"
+  }
+},
+{
+  "type": "way",
+  "id": 161545096,
+  "tags": {
+    "highway": "residential",
+    "name": "Località Castellorosso"
+  }
+},
+{
+  "type": "way",
+  "id": 161545098,
+  "tags": {
+    "highway": "path",
+    "name": "Rio Maggione - Bivio Case Crosi",
+    "surface": "dirt",
+    "trail_visibility": "bad"
+  }
+},
+{
+  "type": "way",
+  "id": 161548643,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "path",
+    "incline": "20%",
+    "mtb:name": "croce gialla",
+    "mtb:scale": "1",
+    "name": "Sentiero FIE Savignone Monte Maggio ( I I giallo )",
+    "surface": "dirt",
+    "trail_visibility": "excellent"
+  }
+},
+{
+  "type": "way",
+  "id": 180212873,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "tertiary",
+    "name": "Via al Santuario",
+    "oneway": "no",
+    "ref": "SP47",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 180212966,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Località Cereta"
+  }
+},
+{
+  "type": "way",
+  "id": 183331457,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada provinciale 10 di Savignone",
+    "oneway": "yes",
+    "ref": "SP10",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 183331458,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada provinciale 10 di Savignone",
+    "ref": "SP10",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 183331459,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada provinciale 10 di Savignone",
+    "oneway": "yes",
+    "ref": "SP10",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 183331460,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada provinciale 10 di Savignone",
+    "oneway": "yes",
+    "ref": "SP10",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 183331461,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada provinciale 10 di Savignone",
+    "oneway": "yes",
+    "ref": "SP10",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 185946411,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Carlo Caprile"
+  }
+},
+{
+  "type": "way",
+  "id": 185949005,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "path",
+    "mtb:scale": "1",
+    "name": "Q8",
+    "surface": "dirt",
+    "tracktype": "grade3"
+  }
+},
+{
+  "type": "way",
+  "id": 185991794,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Giovanni Garrè"
+  }
+},
+{
+  "type": "way",
+  "id": 186393749,
+  "tags": {
+    "bridge": "yes",
+    "highway": "unclassified",
+    "layer": "1",
+    "name": "Località Vagge"
+  }
+},
+{
+  "type": "way",
+  "id": 186393750,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Località Vagge"
+  }
+},
+{
+  "type": "way",
+  "id": 186393751,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Località Olmi"
+  }
+},
+{
+  "type": "way",
+  "id": 186393752,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Località Casoni"
+  }
+},
+{
+  "type": "way",
+  "id": 187867134,
+  "tags": {
+    "highway": "residential",
+    "name": "Località Prato"
+  }
+},
+{
+  "type": "way",
+  "id": 187867135,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Virginia Grendi",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 193288785,
+  "tags": {
+    "highway": "unclassified",
+    "maxspeed": "50",
+    "name": "Salita al Sambuco",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 193289393,
+  "tags": {
+    "cycleway": "proposed",
+    "highway": "primary",
+    "maxspeed": "50",
+    "name": "Via Guglielmo Marconi",
+    "nat_name": "Strada Provinciale della Valle Scrivia",
+    "ref": "SP226",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 193289569,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Zumè",
+    "oneway": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 197818071,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Località Bosco"
+  }
+},
+{
+  "type": "way",
+  "id": 197818425,
+  "tags": {
+    "highway": "residential",
+    "name": "Via generale Francesco Strata"
+  }
+},
+{
+  "type": "way",
+  "id": 197818555,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Località Prato"
+  }
+},
+{
+  "type": "way",
+  "id": 197818625,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Vittorio Veneto"
+  }
+},
+{
+  "type": "way",
+  "id": 197819094,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Vittorio Veneto"
+  }
+},
+{
+  "type": "way",
+  "id": 199985374,
+  "tags": {
+    "highway": "residential",
+    "name": "Via generale Francesco Strata"
+  }
+},
+{
+  "type": "way",
+  "id": 199985375,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "path",
+    "mtb:scale": "4",
+    "name": "Castello Nero",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 199996001,
+  "tags": {
+    "bridge": "yes",
+    "highway": "residential",
+    "layer": "1",
+    "name": "Località Campogrande"
+  }
+},
+{
+  "type": "way",
+  "id": 199996077,
+  "tags": {
+    "highway": "residential",
+    "maxspeed": "30",
+    "name": "Via Angelo Caprile",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 199997222,
+  "tags": {
+    "highway": "residential",
+    "name": "Vico dritto Giuseppe Zullo in arte Pippo dei Trilli",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 199997223,
+  "tags": {
+    "highway": "residential",
+    "name": "Viale della Rimembranza",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 200039750,
+  "tags": {
+    "alt_name": "Via IV Novembre",
+    "highway": "residential",
+    "maxspeed": "50",
+    "name": "Via Quattro Novembre",
+    "short_name": "Via 4 Novembre",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 200039751,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Vecchia Filanda",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 200039754,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Sottopasso Filanda",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 204284804,
+  "tags": {
+    "highway": "primary",
+    "maxspeed": "50",
+    "name": "Via Guglielmo Marconi",
+    "nat_name": "Strada Provinciale della Valle Scrivia",
+    "oneway": "no",
+    "ref": "SP226",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 204288100,
+  "tags": {
+    "building": "yes",
+    "historic": "castle",
+    "name": "Castello dei Fieschi",
+    "phone": "+39 010 9360103",
+    "source": "Comune di Savignone",
+    "wikidata": "Q3662887",
+    "wikipedia": "it:Castello di Savignone"
+  }
+},
+{
+  "type": "way",
+  "id": 204299262,
+  "tags": {
+    "building": "yes",
+    "leisure": "sports_centre",
+    "name": "Palazzetto dello Sport di Savignone",
+    "source": "Regione Liguria"
+  }
+},
+{
+  "type": "way",
+  "id": 204304135,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via generale Francesco Strata"
+  }
+},
+{
+  "type": "way",
+  "id": 204304146,
+  "tags": {
+    "highway": "residential",
+    "name": "Via generale Francesco Strata"
+  }
+},
+{
+  "type": "way",
+  "id": 204304162,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Carlo Garrè"
+  }
+},
+{
+  "type": "way",
+  "id": 204840158,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Località Cerisola"
+  }
+},
+{
+  "type": "way",
+  "id": 219111827,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "path",
+    "mtb:scale": "2",
+    "name": "Monte Pianetto - Monte Brughea - Pendici Monte Crosi - Bivio Case Crosi",
+    "sac_scale": "demanding_mountain_hiking",
+    "surface": "dirt",
+    "trail_visibility": "intermediate"
+  }
+},
+{
+  "type": "way",
+  "id": 222674336,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Località Costalovaia"
+  }
+},
+{
+  "type": "way",
+  "id": 222699730,
+  "tags": {
+    "cutting": "yes",
+    "highway": "unclassified",
+    "lanes": "1",
+    "motor_vehicle": "designated",
+    "name": "Località Inastrà",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 222890315,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Località Costalovaia"
+  }
+},
+{
+  "type": "way",
+  "id": 222891230,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Località Costalovaia"
+  }
+},
+{
+  "type": "way",
+  "id": 222892668,
+  "tags": {
+    "access": "no",
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "service",
+    "horse": "yes",
+    "motor_vehicle": "yes",
+    "name": "Via Al Mulino del Ponte",
+    "surface": "unpaved"
+  }
+},
+{
+  "type": "way",
+  "id": 222893244,
+  "tags": {
+    "highway": "service",
+    "lanes": "1",
+    "name": "Lungotorrente Scrivia"
+  }
+},
+{
+  "type": "way",
+  "id": 222904662,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Ramà"
+  }
+},
+{
+  "type": "way",
+  "id": 253908458,
+  "tags": {
+    "access": "designated",
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "residential",
+    "horse": "yes",
+    "motor_vehicle": "no",
+    "name": "Via F. Brown (già Via Luigi Grosso)",
+    "oneway": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 253908459,
+  "tags": {
+    "access": "designated",
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "residential",
+    "horse": "yes",
+    "motor_vehicle": "no",
+    "name": "Via F. Brown"
+  }
+},
+{
+  "type": "way",
+  "id": 253908460,
+  "tags": {
+    "access": "designated",
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "residential",
+    "horse": "yes",
+    "maxspeed": "50",
+    "name": "Località Prelo",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 253908461,
+  "tags": {
+    "access": "designated",
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "residential",
+    "horse": "yes",
+    "motor_vehicle": "no",
+    "name": "Via Frederic Brown",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 253908462,
+  "tags": {
+    "access": "designated",
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "tertiary",
+    "horse": "yes",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Via alla Chiesa",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 253908470,
+  "tags": {
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "secondary",
+    "horse": "yes",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Via Crosa di Vergagni",
+    "oneway": "yes",
+    "ref": "SP10",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 253908471,
+  "tags": {
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "secondary",
+    "horse": "yes",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Via Gustavo Ragnoli",
+    "oneway": "no",
+    "ref": "SP10",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 253908472,
+  "tags": {
+    "access": "designated",
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "secondary",
+    "horse": "yes",
+    "maxspeed": "50",
+    "name": "Via Garibaldi",
+    "oneway": "yes",
+    "ref": "SP63",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 253908473,
+  "tags": {
+    "highway": "residential",
+    "name": "Viale della Rimembranza",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 253908474,
+  "tags": {
+    "highway": "tertiary",
+    "maxspeed": "50",
+    "name": "Via Papa Giovanni XXIII",
+    "oneway": "no",
+    "ref": "SP63",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 253908475,
+  "tags": {
+    "access": "designated",
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "secondary",
+    "horse": "yes",
+    "maxspeed": "50",
+    "name": "Piazza Italo Ghelfi",
+    "old_name": "Piazza della Chiesa",
+    "ref": "SP63",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 253908477,
+  "tags": {
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "secondary",
+    "horse": "yes",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Località Sementella",
+    "oneway": "no",
+    "ref": "SP10",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 253909084,
+  "tags": {
+    "addr:city": "Savignone",
+    "addr:housenumber": "1",
+    "addr:postcode": "16010",
+    "addr:street": "Via Garibaldi",
+    "amenity": "theatre",
+    "building": "yes",
+    "name": "Sala della Comunità Paolo Botto"
+  }
+},
+{
+  "type": "way",
+  "id": 257352248,
+  "tags": {
+    "alt_name": "Via IV Novembre",
+    "highway": "residential",
+    "maxspeed": "50",
+    "name": "Via Quattro Novembre",
+    "short_name": "Via 4 Novembre",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 257352249,
+  "tags": {
+    "alt_name": "Via IV Novembre",
+    "highway": "residential",
+    "maxspeed": "50",
+    "name": "Via Quattro Novembre",
+    "short_name": "Via 4 Novembre",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 257352250,
+  "tags": {
+    "alt_name": "Via IV Novembre",
+    "highway": "residential",
+    "maxspeed": "50",
+    "name": "Via Quattro Novembre",
+    "short_name": "Via 4 Novembre",
+    "surface": "asphalt",
+    "tunnel": "building_passage"
+  }
+},
+{
+  "type": "way",
+  "id": 257352251,
+  "tags": {
+    "alt_name": "Via IV Novembre",
+    "highway": "residential",
+    "maxspeed": "50",
+    "name": "Via Quattro Novembre",
+    "short_name": "Via 4 Novembre",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 270805683,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "secondary",
+    "horse": "yes",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Località Montemaggio",
+    "oneway": "no",
+    "ref": "SP10",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 270805684,
+  "tags": {
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "secondary",
+    "horse": "yes",
+    "lanes": "2",
+    "layer": "1",
+    "maxspeed": "50",
+    "name": "Strada provinciale 10 di Savignone",
+    "oneway": "no",
+    "ref": "SP10",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 270805685,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via alla Colonia di Montemaggio"
+  }
+},
+{
+  "type": "way",
+  "id": 270805686,
+  "tags": {
+    "highway": "residential",
+    "name": "Località Montemaggio",
+    "sidewalk": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 270806674,
+  "tags": {
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "secondary",
+    "horse": "yes",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Strada provinciale 10 di Savignone",
+    "oneway": "no",
+    "ref": "SP10",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 270806675,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via alla Colonia di Montemaggio",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 274500706,
+  "tags": {
+    "access": "designated",
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "residential",
+    "horse": "yes",
+    "motor_vehicle": "no",
+    "name": "Via Frederic Brown (già Via Luigi Grosso)",
+    "oneway": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 274500714,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Località Prato"
+  }
+},
+{
+  "type": "way",
+  "id": 276242632,
+  "tags": {
+    "bridge": "yes",
+    "highway": "service",
+    "lanes": "1",
+    "layer": "1",
+    "name": "Lungotorrente Scrivia"
+  }
+},
+{
+  "type": "way",
+  "id": 285900717,
+  "tags": {
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "track",
+    "horse": "yes",
+    "lit": "yes",
+    "motor_vehicle": "yes",
+    "name": "Strada Vicinale della Garbeà",
+    "surface": "paved",
+    "tracktype": "grade1",
+    "width": "2"
+  }
+},
+{
+  "type": "way",
+  "id": 285900719,
+  "tags": {
+    "highway": "path",
+    "name": "Strada Vicinale della Garbeà",
+    "surface": "ground",
+    "width": "2"
+  }
+},
+{
+  "type": "way",
+  "id": 285900720,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Vico della Fortuna",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 286516543,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "steps",
+    "horse": "yes",
+    "lit": "yes",
+    "name": "Strada Vicinale della Garbeà",
+    "surface": "paved",
+    "width": "2"
+  }
+},
+{
+  "type": "way",
+  "id": 286516545,
+  "tags": {
+    "highway": "residential",
+    "maxspeed": "50",
+    "name": "Via Padre Attilio Garrè",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 286902736,
+  "tags": {
+    "access": "permissive",
+    "bridge": "yes",
+    "highway": "path",
+    "layer": "1",
+    "name": "Pontepietra",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 286961744,
+  "tags": {
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "track",
+    "horse": "yes",
+    "motor_vehicle": "permissive",
+    "name": "Vico della Fortuna",
+    "surface": "ground"
+  }
+},
+{
+  "type": "way",
+  "id": 287417058,
+  "tags": {
+    "access": "designated",
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "residential",
+    "horse": "yes",
+    "maxspeed": "50",
+    "name": "Località Prelo",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 287417359,
+  "tags": {
+    "access": "designated",
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "residential",
+    "horse": "yes",
+    "maxspeed": "50",
+    "name": "Località Prelo",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 287417360,
+  "tags": {
+    "access": "designated",
+    "bicycle": "yes",
+    "bridge": "yes",
+    "foot": "yes",
+    "highway": "residential",
+    "horse": "yes",
+    "layer": "1",
+    "maxspeed": "50",
+    "name": "Località Prelo",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 287417361,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Via Natale Gallino",
+    "nat_name": "Strada Provinciale della Valle Scrivia",
+    "oneway": "no",
+    "ref": "SP226",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 287417362,
+  "tags": {
+    "bridge": "yes",
+    "highway": "primary",
+    "layer": "1",
+    "maxspeed": "50",
+    "name": "Via Natale Gallino",
+    "nat_name": "Strada Provinciale della Valle Scrivia",
+    "ref": "SP226",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 287417363,
+  "tags": {
+    "bridge": "yes",
+    "highway": "primary",
+    "layer": "1",
+    "maxspeed": "50",
+    "name": "Via Natale Gallino",
+    "nat_name": "Strada Provinciale della Valle Scrivia",
+    "ref": "SP226",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 287417364,
+  "tags": {
+    "highway": "primary",
+    "lanes": "1",
+    "maxspeed": "50",
+    "name": "Via Natale Gallino",
+    "nat_name": "Strada Provinciale della Valle Scrivia",
+    "oneway": "no",
+    "ref": "SP226",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 287696499,
+  "tags": {
+    "access": "designated",
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "tertiary",
+    "horse": "yes",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Via alla Chiesa",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 287696500,
+  "tags": {
+    "access": "designated",
+    "bicycle": "yes",
+    "bridge": "yes",
+    "foot": "yes",
+    "highway": "tertiary",
+    "horse": "yes",
+    "lanes": "2",
+    "layer": "1",
+    "maxspeed": "50",
+    "name": "Via alla Chiesa",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 288186328,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Giovanni Brandi",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 288186329,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "track",
+    "mtb:scale": "3",
+    "name": "Castello Rosso",
+    "surface": "gravel",
+    "tracktype": "grade2"
+  }
+},
+{
+  "type": "way",
+  "id": 299917661,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "pedestrian",
+    "horse": "yes",
+    "lit": "yes",
+    "name": "Crêuza Fabrizio De Andrè",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 299917662,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via generale Francesco Strata"
+  }
+},
+{
+  "type": "way",
+  "id": 299917663,
+  "tags": {
+    "bridge": "yes",
+    "highway": "unclassified",
+    "layer": "1",
+    "name": "Via generale Francesco Strata"
+  }
+},
+{
+  "type": "way",
+  "id": 319515385,
+  "tags": {
+    "highway": "residential",
+    "name": "Località Vaccarezza"
+  }
+},
+{
+  "type": "way",
+  "id": 319860887,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "path",
+    "mtb:scale": "3",
+    "name": "Trail Vacca",
+    "sac_scale": "mountain_hiking",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 333591689,
+  "tags": {
+    "access": "designated",
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "secondary",
+    "horse": "yes",
+    "maxspeed": "50",
+    "name": "Via Roma",
+    "oneway": "yes",
+    "ref": "SP63",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 333597121,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Vittorio Veneto"
+  }
+},
+{
+  "type": "way",
+  "id": 333597124,
+  "tags": {
+    "highway": "residential",
+    "name": "Piazza Italo Ghelfi (Già Piazza della Chiesa)",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 333597126,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "footway",
+    "horse": "yes",
+    "name": "Via Ettore Pietra",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 334298131,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "footway",
+    "horse": "yes",
+    "name": "Via Fante Luigi Lombardo",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 334298132,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "footway",
+    "horse": "yes",
+    "name": "Via Fante Luigi Lombardo",
+    "surface": "paved",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 334298133,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "footway",
+    "horse": "yes",
+    "name": "Via Fante Luigi Lombardo",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 334298134,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "footway",
+    "horse": "yes",
+    "name": "Via Fante Luigi Lombardo",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 334298135,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "footway",
+    "horse": "yes",
+    "name": "Via Fante Luigi Lombardo",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 334298136,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "footway",
+    "horse": "yes",
+    "name": "Via Fante Luigi Lombardo",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 334298137,
+  "tags": {
+    "bicycle": "no",
+    "foot": "yes",
+    "highway": "steps",
+    "horse": "no",
+    "motor_vehicle": "no",
+    "name": "Via Fante Luigi Lombardo",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 334305382,
+  "tags": {
+    "highway": "residential",
+    "maxspeed": "50",
+    "name": "Via Giovanni Scala",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 334319987,
+  "tags": {
+    "highway": "residential",
+    "maxspeed": "50",
+    "name": "Via Stefano Garrè",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 334319990,
+  "tags": {
+    "cycleway": "proposed",
+    "highway": "residential",
+    "maxspeed": "50",
+    "name": "Via Forni Antichi",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 334319991,
+  "tags": {
+    "cycleway": "proposed",
+    "highway": "footway",
+    "name": "Via Forni Antichi",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 334319992,
+  "tags": {
+    "highway": "residential",
+    "maxspeed": "50",
+    "name": "Località Gualdrà",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 334320950,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Vaccarezza"
+  }
+},
+{
+  "type": "way",
+  "id": 334320951,
+  "tags": {
+    "highway": "residential",
+    "incline": "10%",
+    "name": "Località Vaccarezza",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 334320953,
+  "tags": {
+    "highway": "residential",
+    "name": "Località Vaccarezza"
+  }
+},
+{
+  "type": "way",
+  "id": 334324825,
+  "tags": {
+    "highway": "residential",
+    "name": "Località Costalovaia"
+  }
+},
+{
+  "type": "way",
+  "id": 334324827,
+  "tags": {
+    "highway": "residential",
+    "name": "Località Costalovaia"
+  }
+},
+{
+  "type": "way",
+  "id": 334324828,
+  "tags": {
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "track",
+    "horse": "yes",
+    "motor_vehicle": "yes",
+    "name": "Bosco - Sambuco",
+    "surface": "unpaved"
+  }
+},
+{
+  "type": "way",
+  "id": 334324829,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Località Bosco"
+  }
+},
+{
+  "type": "way",
+  "id": 334324830,
+  "tags": {
+    "bicycle": "yes",
+    "cutting": "yes",
+    "foot": "yes",
+    "highway": "unclassified",
+    "horse": "yes",
+    "lanes": "1",
+    "motor_vehicle": "yes",
+    "name": "Via Carlo Garrè",
+    "surface": "asphalt",
+    "width": "2"
+  }
+},
+{
+  "type": "way",
+  "id": 334324832,
+  "tags": {
+    "highway": "residential",
+    "name": "Località Achiera"
+  }
+},
+{
+  "type": "way",
+  "id": 334326095,
+  "tags": {
+    "highway": "residential",
+    "name": "Località Sotta"
+  }
+},
+{
+  "type": "way",
+  "id": 334326096,
+  "tags": {
+    "highway": "residential",
+    "name": "Località Sotta"
+  }
+},
+{
+  "type": "way",
+  "id": 334326565,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Carlo Caprile"
+  }
+},
+{
+  "type": "way",
+  "id": 334326566,
+  "tags": {
+    "highway": "tertiary",
+    "maxspeed": "50",
+    "name": "Via Giovanni Garrè",
+    "ref": "SP63",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 334326567,
+  "tags": {
+    "highway": "tertiary",
+    "maxspeed": "50",
+    "name": "Località Ronchetto",
+    "ref": "SP63",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 334326695,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Località Chioso",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 334327250,
+  "tags": {
+    "highway": "residential",
+    "name": "Località Bosco"
+  }
+},
+{
+  "type": "way",
+  "id": 334328111,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Località Aschiera"
+  }
+},
+{
+  "type": "way",
+  "id": 334328113,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Località Inastrà"
+  }
+},
+{
+  "type": "way",
+  "id": 334328116,
+  "tags": {
+    "highway": "secondary",
+    "maxspeed": "50",
+    "name": "Via degli Alpini",
+    "oneway": "no",
+    "ref": "SP10",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 334328117,
+  "tags": {
+    "highway": "secondary",
+    "name": "Località Inastrà",
+    "oneway": "no",
+    "ref": "SP10",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 334328118,
+  "tags": {
+    "cycleway": "proposed",
+    "highway": "residential",
+    "maxspeed": "50",
+    "name": "Via Ponte di Savignone",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 334328119,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Vecchia Ponte"
+  }
+},
+{
+  "type": "way",
+  "id": 334328120,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Vecchia Ponte"
+  }
+},
+{
+  "type": "way",
+  "id": 334328122,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Ponte di Savignone"
+  }
+},
+{
+  "type": "way",
+  "id": 334328354,
+  "tags": {
+    "cycleway": "proposed",
+    "highway": "residential",
+    "name": "Via Forni Antichi",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 334328355,
+  "tags": {
+    "highway": "residential",
+    "name": "Località Canalbolzone"
+  }
+},
+{
+  "type": "way",
+  "id": 334328356,
+  "tags": {
+    "bridge": "yes",
+    "highway": "residential",
+    "layer": "1",
+    "name": "Località Canalbolzone"
+  }
+},
+{
+  "type": "way",
+  "id": 334328357,
+  "tags": {
+    "highway": "residential",
+    "name": "Località Canalbolzone"
+  }
+},
+{
+  "type": "way",
+  "id": 334540086,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Località Prelo"
+  }
+},
+{
+  "type": "way",
+  "id": 334541813,
+  "tags": {
+    "highway": "track",
+    "name": "Località Costa di Montemaggio"
+  }
+},
+{
+  "type": "way",
+  "id": 334543270,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Ramà"
+  }
+},
+{
+  "type": "way",
+  "id": 334697447,
+  "tags": {
+    "highway": "residential",
+    "name": "Via dell'Alberghino"
+  }
+},
+{
+  "type": "way",
+  "id": 334697448,
+  "tags": {
+    "highway": "residential",
+    "name": "Salita Castagnetto di Isorelle"
+  }
+},
+{
+  "type": "way",
+  "id": 334697449,
+  "tags": {
+    "highway": "residential",
+    "name": "Salita Castagnetto di Isorelle"
+  }
+},
+{
+  "type": "way",
+  "id": 334697450,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Villa Gemma"
+  }
+},
+{
+  "type": "way",
+  "id": 334699670,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Paverano",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 334699671,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Paverano"
+  }
+},
+{
+  "type": "way",
+  "id": 334699673,
+  "tags": {
+    "cycleway": "proposed",
+    "highway": "primary",
+    "maxspeed": "50",
+    "name": "Via Isorelle",
+    "nat_name": "Strada Provinciale della Valle Scrivia",
+    "oneway": "no",
+    "ref": "SP226",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 334699674,
+  "tags": {
+    "highway": "primary",
+    "maxspeed": "50",
+    "name": "Località Birra",
+    "nat_name": "Strada Provinciale della Valle Scrivia",
+    "ref": "SP226",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 334717390,
+  "tags": {
+    "highway": "secondary",
+    "name": "Località Olmi",
+    "ref": "SP12",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 334717396,
+  "tags": {
+    "highway": "secondary",
+    "name": "Località Moglia",
+    "ref": "SP12",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 334717402,
+  "tags": {
+    "highway": "tertiary",
+    "lane_markings": "no",
+    "maxspeed": "50",
+    "name": "Località Ronchetto",
+    "ref": "SP63",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 334845184,
+  "tags": {
+    "highway": "residential",
+    "name": "Salita Villa Migone",
+    "oneway": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 334845277,
+  "tags": {
+    "highway": "residential",
+    "name": "Vico Stretto del Prato"
+  }
+},
+{
+  "type": "way",
+  "id": 337770711,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Palazzine Vittoria"
+  }
+},
+{
+  "type": "way",
+  "id": 337771537,
+  "tags": {
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "secondary",
+    "horse": "yes",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Via Padre Basilio Schenone",
+    "oneway": "no",
+    "ref": "SP10",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 337771538,
+  "tags": {
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "secondary",
+    "horse": "yes",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Via Padre Basilio Schenone",
+    "oneway": "no",
+    "ref": "SP10",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 337771539,
+  "tags": {
+    "highway": "secondary",
+    "name": "Località Pochettini",
+    "ref": "SP12",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 337771540,
+  "tags": {
+    "highway": "secondary",
+    "name": "Località Sorrivi",
+    "ref": "SP12",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 337771753,
+  "tags": {
+    "highway": "residential",
+    "name": "Località Vagge"
+  }
+},
+{
+  "type": "way",
+  "id": 337771754,
+  "tags": {
+    "highway": "residential",
+    "name": "Località Vagge"
+  }
+},
+{
+  "type": "way",
+  "id": 337772032,
+  "tags": {
+    "access": "designated",
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "tertiary",
+    "horse": "yes",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Località Vallecalda",
+    "oneway": "no",
+    "ref": "SP47",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 337974204,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Virginia Grendi",
+    "oneway": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 337976080,
+  "tags": {
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "secondary",
+    "horse": "yes",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Via Crosa di Vergagni",
+    "oneway": "yes",
+    "ref": "SP10",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 337976082,
+  "tags": {
+    "bicycle": "yes",
+    "bridge": "yes",
+    "foot": "yes",
+    "highway": "secondary",
+    "horse": "yes",
+    "lanes": "2",
+    "layer": "1",
+    "maxspeed": "50",
+    "name": "Via Crosa di Vergagni",
+    "oneway": "yes",
+    "ref": "SP10",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 337976083,
+  "tags": {
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "secondary",
+    "horse": "yes",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Via Crosa di Vergagni",
+    "oneway": "yes",
+    "ref": "SP10",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 337976084,
+  "tags": {
+    "bicycle": "yes",
+    "bridge": "yes",
+    "foot": "yes",
+    "highway": "secondary",
+    "horse": "yes",
+    "lanes": "2",
+    "layer": "1",
+    "maxspeed": "50",
+    "name": "Via Crosa di Vergagni",
+    "oneway": "yes",
+    "ref": "SP10",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 338658920,
+  "tags": {
+    "access": "designated",
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "tertiary",
+    "horse": "yes",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Strada provinciale 47 del Santuario di Nostra Signora della Vittoria",
+    "oneway": "no",
+    "ref": "SP47",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 338800144,
+  "tags": {
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "secondary",
+    "horse": "yes",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Località Renesso",
+    "oneway": "no",
+    "ref": "SP10",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 338800188,
+  "tags": {
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "secondary",
+    "horse": "yes",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Località Montemaggio",
+    "oneway": "no",
+    "ref": "SP10",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 338802297,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Località Posà"
+  }
+},
+{
+  "type": "way",
+  "id": 338819312,
+  "tags": {
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "secondary",
+    "horse": "yes",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Strada provinciale 10 di Savignone",
+    "oneway": "no",
+    "ref": "SP10",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 338833342,
+  "tags": {
+    "highway": "footway",
+    "name": "Vico Stretto del Prato"
+  }
+},
+{
+  "type": "way",
+  "id": 338833343,
+  "tags": {
+    "highway": "residential",
+    "name": "Salita Villa Migone",
+    "oneway": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 340962629,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Fante Luigi Lombardo",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 340962630,
+  "tags": {
+    "highway": "steps",
+    "name": "Via Fante Luigi Lombardo",
+    "surface": "paved",
+    "tunnel": "building_passage"
+  }
+},
+{
+  "type": "way",
+  "id": 340963688,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Fante Luigi Lombardo",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 340963690,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Fante Luigi Lombardo",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 340963692,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Fante Luigi Lombardo",
+    "surface": "paved",
+    "tunnel": "building_passage"
+  }
+},
+{
+  "type": "way",
+  "id": 340965086,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Fante Luigi Lombardo",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 340965089,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Fante Luigi Lombardo",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 353323596,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Fante Luigi Lombardo",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 353323597,
+  "tags": {
+    "highway": "steps",
+    "name": "Via Fante Luigi Lombardo",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 353323598,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Giovanni Garrè"
+  }
+},
+{
+  "type": "way",
+  "id": 355296622,
+  "tags": {
+    "highway": "path",
+    "incline": "up",
+    "layer": "-1",
+    "mtb:scale": "6",
+    "mtb:scale:uphill": "3",
+    "name": "Santuario della Vittoria - Monte Fuea",
+    "sac_scale": "demanding_mountain_hiking",
+    "surface": "unpaved",
+    "trail_visibility": "horrible"
+  }
+},
+{
+  "type": "way",
+  "id": 355301899,
+  "tags": {
+    "highway": "path",
+    "horse": "no",
+    "name": "Allacciamento Pianetto - Croce Isolata - Strade Costalovaia",
+    "sac_scale": "demanding_mountain_hiking",
+    "surface": "unpaved",
+    "trail_visibility": "bad"
+  }
+},
+{
+  "type": "way",
+  "id": 363574916,
+  "tags": {
+    "highway": "path",
+    "incline": "up",
+    "mtb:name": "Monte Capanna - Besolagno",
+    "mtb:scale": "1",
+    "name": "variante besolagno fontanini",
+    "sac_scale": "hiking",
+    "surface": "unpaved",
+    "trail_visibility": "good"
+  }
+},
+{
+  "type": "way",
+  "id": 363578675,
+  "tags": {
+    "highway": "path",
+    "incline": "up",
+    "mtb:scale": "0",
+    "name": "Variante Est Monte Capanne",
+    "sac_scale": "hiking",
+    "surface": "unpaved",
+    "trail_visibility": "excellent"
+  }
+},
+{
+  "type": "way",
+  "id": 363580722,
+  "tags": {
+    "highway": "path",
+    "incline": "down",
+    "mtb:scale": "1",
+    "name": "Allacciamento Prelo Sentiero Cerisola-Gualdrà",
+    "surface": "unpaved",
+    "trail_visibility": "good"
+  }
+},
+{
+  "type": "way",
+  "id": 363753941,
+  "tags": {
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "path",
+    "horse": "yes",
+    "lit": "no",
+    "mtb:scale": "3",
+    "name": "Downhill Yellow Cross Allacciamento",
+    "sac_scale": "demanding_mountain_hiking",
+    "surface": "gravel",
+    "trail_visibility": "good",
+    "width": "0.5"
+  }
+},
+{
+  "type": "way",
+  "id": 363972365,
+  "tags": {
+    "highway": "path",
+    "mtb:scale": "0",
+    "mtb:scale:uphill": "0",
+    "name": "colonia renesso",
+    "sac_scale": "mountain_hiking",
+    "surface": "unpaved",
+    "trail_visibility": "excellent",
+    "width": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 364063921,
+  "tags": {
+    "highway": "path",
+    "horse": "no",
+    "name": "Olmi - Vaccarezza ( FIE barra due palle gialle)",
+    "sac_scale": "mountain_hiking",
+    "trail_visibility": "excellent"
+  }
+},
+{
+  "type": "way",
+  "id": 364063922,
+  "tags": {
+    "bicycle": "no",
+    "highway": "path",
+    "horse": "no",
+    "name": "Olmi - Vaccarezza ( FIE barra due palle gialle)",
+    "trail_visibility": "excellent"
+  }
+},
+{
+  "type": "way",
+  "id": 364157090,
+  "tags": {
+    "highway": "path",
+    "incline": "down",
+    "mtb:scale": "3",
+    "mtb:scale:uphill": "3",
+    "name": "Allacciamento Freeride Colonia Monte Maggio-Sentiero Case Monetaggio - Recesso",
+    "sac_scale": "demanding_mountain_hiking",
+    "surface": "unpaved",
+    "trail_visibility": "intermediate",
+    "width": "0.4"
+  }
+},
+{
+  "type": "way",
+  "id": 364376499,
+  "tags": {
+    "highway": "path",
+    "name": "Variante di crinale",
+    "sac_scale": "demanding_mountain_hiking",
+    "surface": "gravel",
+    "trail_visibility": "bad",
+    "width": "0.4"
+  }
+},
+{
+  "type": "way",
+  "id": 365598630,
+  "tags": {
+    "highway": "path",
+    "name": "variante sopra frana"
+  }
+},
+{
+  "type": "way",
+  "id": 365598631,
+  "tags": {
+    "highway": "path",
+    "incline": "up",
+    "mtb:scale": "5",
+    "mtb:scale:uphill": "3",
+    "name": "Santuario della Vittoria - Monte Fuea",
+    "sac_scale": "demanding_mountain_hiking",
+    "surface": "unpaved",
+    "trail_visibility": "intermediate"
+  }
+},
+{
+  "type": "way",
+  "id": 365761789,
+  "tags": {
+    "access": "designated",
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "tertiary",
+    "horse": "yes",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Strada provinciale 47 del Santuario di Nostra Signora della Vittoria",
+    "oneway": "no",
+    "ref": "SP47",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 365761790,
+  "tags": {
+    "bicycle": "no",
+    "highway": "path",
+    "horse": "no",
+    "incline": "up",
+    "mtb:scale": "3",
+    "name": "San Bartolomeo di Vallecalda - Monte Brichetto - Santuario della Vittoria",
+    "sac_scale": "demanding_mountain_hiking",
+    "surface": "unpaved",
+    "trail_visibility": "bad",
+    "width": "4000"
+  }
+},
+{
+  "type": "way",
+  "id": 366505761,
+  "tags": {
+    "highway": "path",
+    "incline": "up",
+    "mtb:scale": "5",
+    "mtb:scale:uphill": "3",
+    "name": "Santuario della Vittoria - Monte Fuea",
+    "sac_scale": "demanding_mountain_hiking",
+    "surface": "unpaved",
+    "trail_visibility": "bad"
+  }
+},
+{
+  "type": "way",
+  "id": 374910903,
+  "tags": {
+    "highway": "path",
+    "incline": "up",
+    "name": "Segnavia \"+\" giallo",
+    "sac_scale": "demanding_mountain_hiking",
+    "surface": "unpaved",
+    "trail_visibility": "excellent",
+    "width": "0.5"
+  }
+},
+{
+  "type": "way",
+  "id": 428712296,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "path",
+    "mtb:scale": "1",
+    "name": "Monte Carmo",
+    "sac_scale": "mountain_hiking",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 496330525,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Sottopasso Filanda",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 503796448,
+  "tags": {
+    "cycleway": "proposed",
+    "highway": "unclassified",
+    "maxspeed": "50",
+    "name": "Via Padre Attilio Garrè",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 503861145,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "residential",
+    "name": "Salita Maggetta",
+    "sac_scale": "hiking",
+    "surface": "asphalt",
+    "trail_visibility": "excellent"
+  }
+},
+{
+  "type": "way",
+  "id": 507773873,
+  "tags": {
+    "bicycle": "no",
+    "highway": "path",
+    "horse": "no",
+    "name": "Panchina Lincia - Trattorabile Fuea",
+    "sac_scale": "demanding_mountain_hiking",
+    "surface": "ground",
+    "trail_visibility": "bad",
+    "width": "0.5"
+  }
+},
+{
+  "type": "way",
+  "id": 507776342,
+  "tags": {
+    "highway": "path",
+    "name": "Allacciamento Cisterna Gualdrà - Monte Fuea - Monte Vittoria",
+    "sac_scale": "hiking",
+    "surface": "ground",
+    "trail_visibility": "excellent",
+    "width": "1.5"
+  }
+},
+{
+  "type": "way",
+  "id": 509971613,
+  "tags": {
+    "highway": "path",
+    "mtb:name": "old",
+    "mtb:scale": "3",
+    "name": "Sentiero FIE Savignone Monte Maggio ( I I giallo )",
+    "sac_scale": "demanding_mountain_hiking",
+    "surface": "unpaved",
+    "trail_visibility": "excellent",
+    "width": "0.7"
+  }
+},
+{
+  "type": "way",
+  "id": 509971615,
+  "tags": {
+    "highway": "path",
+    "incline": "up",
+    "mtb:scale": "1",
+    "mtb:scale:uphill": "0",
+    "name": "Verso Località Monte Maggio",
+    "sac_scale": "mountain_hiking",
+    "surface": "unpaved",
+    "trail_visibility": "excellent",
+    "width": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 520501322,
+  "tags": {
+    "cycleway": "proposed",
+    "highway": "primary",
+    "maxspeed": "50",
+    "name": "Via Natale Gallino",
+    "nat_name": "Strada Provinciale della Valle Scrivia",
+    "oneway": "no",
+    "ref": "SP226",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 520503415,
+  "tags": {
+    "highway": "primary",
+    "maxspeed": "50",
+    "name": "Via Isorelle",
+    "nat_name": "Strada Provinciale della Valle Scrivia",
+    "oneway": "no",
+    "ref": "SP226",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 520503416,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Via Isorelle",
+    "nat_name": "Strada Provinciale della Valle Scrivia",
+    "oneway": "no",
+    "ref": "SP226",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 520503417,
+  "tags": {
+    "cycleway": "proposed",
+    "highway": "primary",
+    "maxspeed": "50",
+    "name": "Via Guglielmo Marconi",
+    "nat_name": "Strada Provinciale della Valle Scrivia",
+    "oneway": "no",
+    "ref": "SP226",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 520503419,
+  "tags": {
+    "cycleway": "proposed",
+    "highway": "secondary",
+    "maxspeed": "50",
+    "name": "Via degli Alpini",
+    "oneway": "yes",
+    "ref": "SP10",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 550173125,
+  "tags": {
+    "highway": "service",
+    "name": "Località Sotta",
+    "service": "driveway"
+  }
+},
+{
+  "type": "way",
+  "id": 611203160,
+  "tags": {
+    "highway": "residential",
+    "name": "Località Broglio",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 611203161,
+  "tags": {
+    "highway": "tertiary",
+    "maxspeed": "50",
+    "name": "Via Papa Giovanni XXIII",
+    "oneway": "no",
+    "ref": "SP63",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 670056826,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "path",
+    "mtb:scale": "2",
+    "name": "Bibì e Bibò",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 682845848,
+  "tags": {
+    "highway": "residential",
+    "name": "Località Campogrande"
+  }
+},
+{
+  "type": "way",
+  "id": 682845851,
+  "tags": {
+    "highway": "residential",
+    "name": "Località Campogrande"
+  }
+},
+{
+  "type": "way",
+  "id": 698869632,
+  "tags": {
+    "highway": "service",
+    "name": "Lungotorrente Scrivia"
+  }
+},
+{
+  "type": "way",
+  "id": 770091481,
+  "tags": {
+    "bridge": "yes",
+    "cycleway": "proposed",
+    "highway": "primary",
+    "layer": "1",
+    "maxspeed": "50",
+    "name": "Via Natale Gallino",
+    "nat_name": "Strada Provinciale della Valle Scrivia",
+    "oneway": "no",
+    "ref": "SP226",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 770091482,
+  "tags": {
+    "cycleway": "proposed",
+    "highway": "primary",
+    "maxspeed": "50",
+    "name": "Via Natale Gallino",
+    "nat_name": "Strada Provinciale della Valle Scrivia",
+    "oneway": "no",
+    "ref": "SP226",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 788198328,
+  "tags": {
+    "highway": "residential",
+    "incline": "25%",
+    "name": "Via Vaccarezza"
+  }
+},
+{
+  "type": "way",
+  "id": 788198330,
+  "tags": {
+    "highway": "tertiary",
+    "maxspeed": "40",
+    "name": "Via Vaccarezza",
+    "oneway": "no",
+    "ref": "SP61",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 788198331,
+  "tags": {
+    "highway": "residential",
+    "incline": "15%",
+    "name": "Via Vaccarezza",
+    "surface": "asphalt",
+    "width": "2"
+  }
+},
+{
+  "type": "way",
+  "id": 793380954,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "da Via Strata a Loc. Posà - migliorato da Iren 2019",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 793381386,
+  "tags": {
+    "highway": "steps",
+    "incline": "up",
+    "name": "da termine Via Strata a Loc. Bosco (croce) - migliorato da Iren 2018",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 793382450,
+  "tags": {
+    "highway": "footway",
+    "name": "da Via Strata a Via G. Garrè (migliorato da Iren 2019)",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 803808678,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Località Iesi",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 865022170,
+  "tags": {
+    "highway": "path",
+    "name": "Monte Pianetto - Monte Brughea - Pendici Monte Crosi - Bivio Case Crosi",
+    "sac_scale": "demanding_mountain_hiking",
+    "surface": "dirt",
+    "trail_visibility": "intermediate"
+  }
+},
+{
+  "type": "way",
+  "id": 865716084,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "path",
+    "horse": "no",
+    "mtb:scale": "1",
+    "name": "Monte Carmo",
+    "sac_scale": "mountain_hiking",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 865716387,
+  "tags": {
+    "highway": "path",
+    "mtb:name": "croce gialla",
+    "mtb:scale": "3",
+    "name": "Sentiero FIE Savignone Monte Maggio ( I I giallo )",
+    "surface": "dirt",
+    "trail_visibility": "excellent"
+  }
+},
+{
+  "type": "way",
+  "id": 868674219,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "path",
+    "mtb:scale": "1",
+    "name": "Q8",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 914485595,
+  "tags": {
+    "bicycle": "designated",
+    "dog": "yes",
+    "foot": "yes",
+    "highway": "path",
+    "incline": "-10%",
+    "motor_vehicle": "no",
+    "name": "Monte Sella-Isorelle",
+    "smoothness": "very_bad",
+    "surface": "ground",
+    "wheelchair": "no",
+    "width": "1.50"
+  }
+},
+{
+  "type": "way",
+  "id": 1016679201,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Vaccarezza"
+  }
+},
+{
+  "type": "way",
+  "id": 1016679202,
+  "tags": {
+    "highway": "residential",
+    "name": "Località Vaccarezza"
+  }
+},
+{
+  "type": "way",
+  "id": 1016679203,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Località Casoni"
+  }
+},
+{
+  "type": "way",
+  "id": 1017137553,
+  "tags": {
+    "highway": "tertiary",
+    "maxspeed": "40",
+    "name": "Via Vaccarezza",
+    "oneway": "no",
+    "ref": "SP61",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1017141404,
+  "tags": {
+    "highway": "tertiary",
+    "maxspeed": "40",
+    "name": "Via Vaccarezza",
+    "oneway": "no",
+    "ref": "SP61",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1017141514,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via alla Colonia di Montemaggio"
+  }
+},
+{
+  "type": "way",
+  "id": 1017192984,
+  "tags": {
+    "access": "designated",
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "secondary",
+    "horse": "yes",
+    "maxspeed": "50",
+    "name": "Piazza Italo Ghelfi",
+    "old_name": "Piazza della Chiesa",
+    "ref": "SP63",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1017192985,
+  "tags": {
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "secondary",
+    "horse": "yes",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Via Gustavo Ragnoli",
+    "oneway": "no",
+    "ref": "SP10",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1097909461,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Palazzine Vittoria"
+  }
+},
+{
+  "type": "way",
+  "id": 1110203407,
+  "tags": {
+    "highway": "path",
+    "incline": "up",
+    "layer": "-1",
+    "mtb:scale": "6",
+    "mtb:scale:uphill": "3",
+    "name": "Santuario della Vittoria - Monte Fuea",
+    "sac_scale": "demanding_mountain_hiking",
+    "surface": "unpaved",
+    "trail_visibility": "horrible"
+  }
+},
+{
+  "type": "way",
+  "id": 1114754980,
+  "tags": {
+    "highway": "service",
+    "name": "Salita Palazzine Vittoria",
+    "service": "alley"
+  }
+},
+{
+  "type": "way",
+  "id": 1182527876,
+  "tags": {
+    "highway": "path",
+    "incline": "up",
+    "mtb:scale": "0",
+    "name": "Variante Est Monte Capanne",
+    "sac_scale": "hiking",
+    "surface": "unpaved",
+    "trail_visibility": "excellent"
+  }
+},
+{
+  "type": "way",
+  "id": 1416925985,
+  "tags": {
+    "highway": "tertiary",
+    "maxspeed": "40",
+    "name": "Via Vaccarezza",
+    "oneway": "no",
+    "ref": "SP61",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1416925986,
+  "tags": {
+    "bridge": "yes",
+    "highway": "tertiary",
+    "layer": "1",
+    "maxspeed": "40",
+    "name": "Via Vaccarezza",
+    "oneway": "no",
+    "ref": "SP61",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1416925987,
+  "tags": {
+    "highway": "tertiary",
+    "maxspeed": "40",
+    "name": "Via Vaccarezza",
+    "oneway": "no",
+    "ref": "SP61",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1416925988,
+  "tags": {
+    "bridge": "yes",
+    "highway": "tertiary",
+    "layer": "1",
+    "maxspeed": "40",
+    "name": "Via Vaccarezza",
+    "oneway": "no",
+    "ref": "SP61",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1416925989,
+  "tags": {
+    "highway": "tertiary",
+    "maxspeed": "40",
+    "name": "Via Vaccarezza",
+    "oneway": "no",
+    "ref": "SP61",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1416925990,
+  "tags": {
+    "bridge": "yes",
+    "highway": "tertiary",
+    "layer": "1",
+    "maxspeed": "40",
+    "name": "Via Vaccarezza",
+    "oneway": "no",
+    "ref": "SP61",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1464886511,
+  "tags": {
+    "access": "designated",
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "secondary",
+    "horse": "yes",
+    "maxspeed": "50",
+    "name": "Piazza Italo Ghelfi",
+    "old_name": "Piazza della Chiesa",
+    "ref": "SP63",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1519562045,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "residential",
+    "name": "Bibì e Bibò",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 1519671709,
+  "tags": {
+    "name": "Piazetta i Gabbiani",
+    "place": "square"
+  }
+},
+{
+  "type": "way",
+  "id": 1519671718,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "unclassified",
+    "name": "Monte Pianetto",
+    "surface": "gravel"
+  }
+},
+{
+  "type": "way",
+  "id": 1519671722,
+  "tags": {
+    "name": "Piazza Francesco Garrè",
+    "place": "square"
+  }
+},
+{
+  "type": "way",
+  "id": 1519671740,
+  "tags": {
+    "highway": "residential",
+    "name": "Località Sotta"
+  }
+},
+{
+  "type": "way",
+  "id": 1519715651,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Crosa di Vergagni"
+  }
+},
+{
+  "type": "way",
+  "id": 1539903733,
+  "tags": {
+    "highway": "residential",
+    "layer": "-1",
+    "name": "Via Sottopasso Filanda",
+    "oneway": "yes",
+    "tunnel": "yes"
+  }
+}
+
+  ]
+}

@@ -1,0 +1,332 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-11-01T20:29:49Z",
+    "timestamp_areas_base": "2026-11-01T18:30:20Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 1396421841,
+  "tags": {
+    "artist_name": "Luigi Santini",
+    "historic": "memorial",
+    "inscription": "WW108 a Wouter con l'affetto di tutti",
+    "material": "stone",
+    "memorial": "stele",
+    "name": "Memorial Wouter Weylandt",
+    "start_date": "2012"
+  }
+},
+{
+  "type": "way",
+  "id": 34424056,
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Strada Provinciale 26bis di Valmogliana",
+    "ref": "SP26BIS",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 51593973,
+  "tags": {
+    "highway": "secondary",
+    "name": "SP27 di Cassego",
+    "ref": "SP27",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 154999794,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Località Case Zatta"
+  }
+},
+{
+  "type": "way",
+  "id": 182520527,
+  "tags": {
+    "fee": "no",
+    "garden:type": "botanical",
+    "leisure": "garden",
+    "name": "Giardino Botanico \"Federico Delpino\""
+  }
+},
+{
+  "type": "way",
+  "id": 195593200,
+  "tags": {
+    "bridge": "yes",
+    "highway": "secondary",
+    "layer": "1",
+    "name": "Strada Provinciale 42 di Romaggi",
+    "ref": "SP42",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 204598785,
+  "tags": {
+    "highway": "primary",
+    "layer": "-1",
+    "name": "Strada statale 586 della Valle dell'Aveto",
+    "ref": "SS586",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 204607558,
+  "tags": {
+    "amenity": "townhall",
+    "building": "yes",
+    "name": "Municipio di Mezzanego",
+    "source": "Regione Liguria",
+    "url": "https://www.comune.mezzanego.ge.it/"
+  }
+},
+{
+  "type": "way",
+  "id": 258537069,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Località Case Zatta"
+  }
+},
+{
+  "type": "way",
+  "id": 312189941,
+  "tags": {
+    "2": "2",
+    "highway": "primary",
+    "name": "Strada statale 586 della Valle dell'Aveto",
+    "ref": "SS586",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 312189942,
+  "tags": {
+    "2": "2",
+    "bridge": "yes",
+    "highway": "primary",
+    "layer": "1",
+    "name": "Strada statale 586 della Valle dell'Aveto",
+    "ref": "SS586",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 312189943,
+  "tags": {
+    "highway": "primary",
+    "name": "Strada statale 586 della Valle dell'Aveto",
+    "ref": "SS586",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 317927502,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada Provinciale 42 di Romaggi",
+    "ref": "SP42",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1017314678,
+  "tags": {
+    "highway": "track",
+    "name": "Via Picchetti",
+    "smoothness": "very_bad",
+    "surface": "unpaved",
+    "tracktype": "grade2"
+  }
+},
+{
+  "type": "way",
+  "id": 1085311446,
+  "tags": {
+    "bridge": "yes",
+    "highway": "primary",
+    "layer": "1",
+    "name": "Strada statale 586 della Valle dell'Aveto",
+    "ref": "SS586",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1085311447,
+  "tags": {
+    "highway": "primary",
+    "name": "Strada statale 586 della Valle dell'Aveto",
+    "ref": "SS586",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1085311448,
+  "tags": {
+    "bridge": "yes",
+    "highway": "secondary",
+    "lanes": "2",
+    "layer": "1",
+    "name": "Strada Provinciale 26bis di Valmogliana",
+    "ref": "SP26BIS",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1085311449,
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Strada Provinciale 26bis di Valmogliana",
+    "ref": "SP26BIS",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1085325932,
+  "tags": {
+    "bridge": "yes",
+    "highway": "secondary",
+    "lanes": "2",
+    "layer": "1",
+    "name": "Strada Provinciale 26bis di Valmogliana",
+    "ref": "SP26BIS",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1085325933,
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Strada Provinciale 26bis di Valmogliana",
+    "ref": "SP26BIS",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1085325936,
+  "tags": {
+    "bridge": "yes",
+    "highway": "secondary",
+    "lanes": "2",
+    "layer": "1",
+    "name": "Strada Provinciale 26bis di Valmogliana",
+    "ref": "SP26BIS",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1085325937,
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Strada Provinciale 26bis di Valmogliana",
+    "ref": "SP26BIS",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1260538622,
+  "tags": {
+    "highway": "secondary",
+    "name": "SP27 di Cassego",
+    "ref": "SP27",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1360894641,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "primary",
+    "name": "Strada statale 586 della Valle dell'Aveto",
+    "ref": "SS586",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1360894642,
+  "tags": {
+    "bridge": "yes",
+    "highway": "primary",
+    "layer": "1",
+    "name": "Strada statale 586 della Valle dell'Aveto",
+    "ref": "SS586",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1459399959,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Strada statale 586 della Valle dell'Aveto",
+    "ref": "SS586",
+    "smoothness": "excellent",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1462772017,
+  "tags": {
+    "amenity": "school",
+    "building": "yes",
+    "name": "Scuola Comunale Davide Spinetto"
+  }
+},
+{
+  "type": "way",
+  "id": 1471741057,
+  "tags": {
+    "highway": "primary",
+    "name": "Strada statale 586 della Valle dell'Aveto",
+    "ref": "SS586",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1471741059,
+  "tags": {
+    "2": "2",
+    "highway": "primary",
+    "name": "Strada statale 586 della Valle dell'Aveto",
+    "ref": "SS586",
+    "surface": "asphalt"
+  }
+}
+
+  ]
+}

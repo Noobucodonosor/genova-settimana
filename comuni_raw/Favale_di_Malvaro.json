@@ -1,0 +1,165 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-11-01T21:11:21Z",
+    "timestamp_areas_base": "2026-11-01T18:30:20Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 4442381209,
+  "tags": {
+    "name": "Monteghirfo: il museo etnografico",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 4442381211,
+  "tags": {
+    "addr:housenumber": "16",
+    "addr:street": "Località Acereto",
+    "name": "Museo Casa Giannini o Museo dell'Emigrante",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "way",
+  "id": 257831301,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada Provinciale di Barbagelata",
+    "ref": "SP56",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 257831911,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada Provinciale della Scoglina",
+    "ref": "SP23",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 257834052,
+  "tags": {
+    "bridge": "yes",
+    "highway": "secondary",
+    "layer": "1",
+    "name": "Strada Provinciale SP 56 di Barbagelata",
+    "ref": "SP56",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 312196763,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada Provinciale SP 56 di Barbagelata",
+    "ref": "SP56",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 345202532,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada Provinciale SP 56 di Barbagelata",
+    "ref": "SP56",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 422004750,
+  "tags": {
+    "highway": "path",
+    "mtb:scale": "3",
+    "name": "Monte Ghirfo - Castagnelo"
+  }
+},
+{
+  "type": "way",
+  "id": 498839085,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada Provinciale della Scoglina",
+    "ref": "SP23",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 498840487,
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Strada Provinciale della Scoglina",
+    "ref": "SP23",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 498845026,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada Provinciale di Barbagelata",
+    "ref": "SP56",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 612193692,
+  "tags": {
+    "highway": "path",
+    "mtb:scale": "3",
+    "mtb:scale:uphill": "1",
+    "name": "Collegamone casoni di Arena",
+    "sac_scale": "mountain_hiking",
+    "trail_visibility": "intermediate"
+  }
+},
+{
+  "type": "way",
+  "id": 612195043,
+  "tags": {
+    "highway": "path",
+    "name": "Collegamoento casoni di Arena"
+  }
+},
+{
+  "type": "way",
+  "id": 976766182,
+  "tags": {
+    "highway": "secondary",
+    "maxspeed": "40",
+    "name": "Strada Provinciale della Scoglina",
+    "ref": "SP23",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1455531884,
+  "tags": {
+    "highway": "secondary",
+    "maxspeed": "40",
+    "name": "Strada Provinciale della Scoglina",
+    "ref": "SP23",
+    "surface": "asphalt"
+  }
+}
+
+  ]
+}

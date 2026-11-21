@@ -1,0 +1,1112 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-11-01T21:07:21Z",
+    "timestamp_areas_base": "2026-11-01T18:30:20Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 2475817865,
+  "tags": {
+    "description": "Visitabile con prenotazione",
+    "name": "Museo archeominerario",
+    "phone": "+39 0185 469139",
+    "tourism": "museum",
+    "wikidata": "Q34191455"
+  }
+},
+{
+  "type": "node",
+  "id": 13422139728,
+  "tags": {
+    "addr:housenumber": "1",
+    "addr:street": "Via Sciaccona",
+    "amenity": "library",
+    "name": "Biblioteca comunale di Castiglione Chiavarese",
+    "phone": "+39 0185 1908115",
+    "url": "https://anagrafe.iccu.sbn.it/isil/IT-GE0453"
+  }
+},
+{
+  "type": "way",
+  "id": 26497240,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "-1",
+    "lit": "24/7",
+    "maxspeed": "110",
+    "name": "Galleria Giovannella",
+    "nat_ref": "A12",
+    "oneway": "yes",
+    "operator": "Concessioni del Tirreno S.p.A.",
+    "surface": "asphalt",
+    "toll": "yes",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 46995010,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "A12 dir. Genova - Deiva Marina/Sestri Levante",
+    "oneway": "yes",
+    "operator": "Concessioni del Tirreno S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 61636627,
+  "tags": {
+    "highway": "primary",
+    "layer": "-1",
+    "length": "2126",
+    "name": "Galleria Madonna della Guardia",
+    "ref": "SS523",
+    "surface": "asphalt",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 61636631,
+  "tags": {
+    "bridge": "yes",
+    "highway": "primary",
+    "layer": "1",
+    "name": "Strada statale 523 del Colle di Cento Croci",
+    "ref": "SS523",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 61636632,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Strada statale 523 del Colle di Cento Croci",
+    "ref": "SS523",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 70686961,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "path",
+    "mtb:scale": "2",
+    "name": "Bocco di Bargone-Colello",
+    "sac_scale": "mountain_hiking",
+    "surface": "dirt",
+    "trail_visibility": "good"
+  }
+},
+{
+  "type": "way",
+  "id": 71396788,
+  "tags": {
+    "highway": "unclassified",
+    "lanes": "1",
+    "name": "Via Fiume",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 81163536,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "A12 dir. Livorno - Sestri Levante/Deiva Marina",
+    "oneway": "yes",
+    "operator": "Concessioni del Tirreno S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 109139281,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Panoramica del Santuario",
+    "service": "driveway",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 109141485,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "path",
+    "horse": "no",
+    "mtb:scale": "1",
+    "name": "Bocco di Bargone-Colello",
+    "sac_scale": "mountain_hiking",
+    "surface": "dirt",
+    "trail_visibility": "excellent"
+  }
+},
+{
+  "type": "way",
+  "id": 112052372,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada Provinciale di Velva",
+    "old_ref": "SS523",
+    "oneway": "yes",
+    "ref": "SP40",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 118825517,
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Strada Provinciale di Velva",
+    "old_ref": "SS523",
+    "ref": "SP40",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 118825526,
+  "tags": {
+    "highway": "tertiary",
+    "maxspeed": "50",
+    "name": "Via Giovanni XXIII",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 120689676,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "residential",
+    "name": "Via al Conio"
+  }
+},
+{
+  "type": "way",
+  "id": 161074176,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "path",
+    "mtb:scale": "2",
+    "mtb:scale:uphill": "2",
+    "name": "Mola-Vasca",
+    "sac_scale": "mountain_hiking",
+    "surface": "dirt",
+    "trail_visibility": "good"
+  }
+},
+{
+  "type": "way",
+  "id": 167686239,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via dell'Abbazia"
+  }
+},
+{
+  "type": "way",
+  "id": 181674533,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Maria Montessori"
+  }
+},
+{
+  "type": "way",
+  "id": 190849190,
+  "tags": {
+    "bicycle": "no",
+    "foot": "yes",
+    "highway": "path",
+    "horse": "no",
+    "motor_vehicle": "no",
+    "name": "traversata Pietra di Vasca",
+    "sac_scale": "demanding_mountain_hiking",
+    "surface": "earth",
+    "trail_visibility": "intermediate"
+  }
+},
+{
+  "type": "way",
+  "id": 193294998,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "maxspeed:source": "sign",
+    "name": "Via Aurelia",
+    "nat_ref": "SS1",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 194655322,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "track",
+    "horse": "no",
+    "name": "Bocco di Bargone-Colello",
+    "sac_scale": "mountain_hiking",
+    "surface": "ground",
+    "tracktype": "grade3",
+    "trail_visibility": "good"
+  }
+},
+{
+  "type": "way",
+  "id": 196860461,
+  "tags": {
+    "highway": "primary",
+    "name": "Strada statale 523 del Colle di Cento Croci",
+    "ref": "SS523",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 196860463,
+  "tags": {
+    "bridge": "yes",
+    "highway": "primary",
+    "layer": "1",
+    "name": "Strada statale 523 del Colle di Cento Croci",
+    "ref": "SS523",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 196860955,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada Provinciale di Velva",
+    "old_ref": "SS523",
+    "oneway": "yes",
+    "ref": "SP40",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 210583460,
+  "tags": {
+    "bicycle": "no",
+    "foot": "yes",
+    "highway": "path",
+    "horse": "no",
+    "motor_vehicle": "no",
+    "name": "Traversata Pietra di Vasca",
+    "sac_scale": "demanding_mountain_hiking",
+    "surface": "earth",
+    "trail_visibility": "intermediate"
+  }
+},
+{
+  "type": "way",
+  "id": 219191937,
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Strada Provinciale di Velva",
+    "old_ref": "SS523",
+    "ref": "SP40",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 226589723,
+  "tags": {
+    "addr:housenumber": "26",
+    "addr:street": "Via Antonio Canzio",
+    "amenity": "townhall",
+    "building": "yes",
+    "name": "Municipio Castiglione Chiavarese",
+    "source": "Regione Liguria",
+    "url": "https://www.comune.castiglione-chiavarese.ge.it/"
+  }
+},
+{
+  "type": "way",
+  "id": 226589750,
+  "tags": {
+    "amenity": "school",
+    "building": "school",
+    "name": "Scuola elementare Fabrizio De André",
+    "source": "Regione Liguria"
+  }
+},
+{
+  "type": "way",
+  "id": 251985162,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Panoramica del Santuario"
+  }
+},
+{
+  "type": "way",
+  "id": 267482347,
+  "tags": {
+    "bridge": "yes",
+    "highway": "path",
+    "layer": "1",
+    "name": "Val Frascarese"
+  }
+},
+{
+  "type": "way",
+  "id": 267482348,
+  "tags": {
+    "ford": "yes",
+    "highway": "path",
+    "name": "Val Frascarese"
+  }
+},
+{
+  "type": "way",
+  "id": 267484313,
+  "tags": {
+    "highway": "track",
+    "name": "Val Frascarese",
+    "smoothness": "very_bad",
+    "surface": "ground",
+    "tracktype": "grade2"
+  }
+},
+{
+  "type": "way",
+  "id": 273339998,
+  "tags": {
+    "bicycle": "yes",
+    "bridge": "yes",
+    "highway": "path",
+    "layer": "1",
+    "mtb:scale": "2",
+    "name": "Sentiero delle Carbonaie",
+    "sac_scale": "hiking"
+  }
+},
+{
+  "type": "way",
+  "id": 283851032,
+  "tags": {
+    "bridge": "yes",
+    "highway": "track",
+    "layer": "1",
+    "name": "Val Frascarese",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 288228482,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Maria Montessori",
+    "service": "driveway"
+  }
+},
+{
+  "type": "way",
+  "id": 295114853,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "track",
+    "name": "Mola-Vasca",
+    "smoothness": "very_bad",
+    "surface": "gravel",
+    "tracktype": "grade3"
+  }
+},
+{
+  "type": "way",
+  "id": 297325398,
+  "tags": {
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "service",
+    "horse": "yes",
+    "name": "strada vicinale mondizze",
+    "service": "alley"
+  }
+},
+{
+  "type": "way",
+  "id": 315775467,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada Provinciale di Velva",
+    "old_ref": "SS523",
+    "ref": "SP40",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 315775471,
+  "tags": {
+    "bridge": "yes",
+    "highway": "secondary",
+    "layer": "1",
+    "name": "Strada Provinciale di Velva",
+    "old_ref": "SS523",
+    "ref": "SP40",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 325037957,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "path",
+    "motor_vehicle": "no",
+    "mtb:scale": "2",
+    "name": "Bocco di Bargone-Colello",
+    "sac_scale": "mountain_hiking",
+    "surface": "dirt",
+    "trail_visibility": "good"
+  }
+},
+{
+  "type": "way",
+  "id": 333062943,
+  "tags": {
+    "bridge": "viaduct",
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "A12 dir. Livorno - Sestri Levante/Deiva Marina",
+    "oneway": "yes",
+    "operator": "Concessioni del Tirreno S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 333062946,
+  "tags": {
+    "bridge": "viaduct",
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "A12 dir. Genova - Deiva Marina/Sestri Levante",
+    "oneway": "yes",
+    "operator": "Concessioni del Tirreno S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 333062948,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "A12 dir. Livorno - Sestri Levante/Deiva Marina",
+    "oneway": "yes",
+    "operator": "Concessioni del Tirreno S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 333062951,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "A12 dir. Genova - Deiva Marina/Sestri Levante",
+    "oneway": "yes",
+    "operator": "Concessioni del Tirreno S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 461461696,
+  "tags": {
+    "highway": "unclassified",
+    "lanes": "1",
+    "name": "Via Fiume",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 461461697,
+  "tags": {
+    "highway": "unclassified",
+    "lanes": "1",
+    "name": "Via Fiume",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 461462277,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Antica Romana",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 461472869,
+  "tags": {
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "primary",
+    "horse": "yes",
+    "lanes": "2",
+    "maxspeed": "90",
+    "name": "Via Aurelia",
+    "nat_ref": "SS1",
+    "oneway": "no",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 461566193,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada Provinciale di Velva",
+    "old_ref": "SS523",
+    "ref": "SP40",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 461566194,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada Provinciale di Velva",
+    "old_ref": "SS523",
+    "ref": "SP40",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 470066550,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada Provinciale di Velva",
+    "old_ref": "SS523",
+    "ref": "SP40",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 545735367,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Panoramica del Santuario",
+    "service": "driveway",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 545735369,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada Provinciale di Velva",
+    "old_ref": "SS523",
+    "ref": "SP40",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 560665663,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "-1",
+    "lit": "24/7",
+    "maxspeed": "110",
+    "name": "Galleria Giovannella",
+    "oneway": "yes",
+    "operator": "Concessioni del Tirreno S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes",
+    "tunnel": "yes",
+    "tunnel:length": "771",
+    "tunnel:name": "Galleria Giovannella"
+  }
+},
+{
+  "type": "way",
+  "id": 631396498,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Via Aurelia",
+    "nat_ref": "SS1",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 631396499,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Via Aurelia",
+    "nat_ref": "SS1",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 842013722,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "path",
+    "mtb:scale": "1+",
+    "name": "Mola-Vasca",
+    "sac_scale": "mountain_hiking",
+    "surface": "dirt",
+    "trail_visibility": "good"
+  }
+},
+{
+  "type": "way",
+  "id": 978936235,
+  "tags": {
+    "bicycle": "designated",
+    "highway": "path",
+    "mtb:scale": "2",
+    "name": "Sentiero delle Carbonaie",
+    "sac_scale": "mountain_hiking",
+    "surface": "ground",
+    "trail_visibility": "good"
+  }
+},
+{
+  "type": "way",
+  "id": 1017883626,
+  "tags": {
+    "highway": "unclassified",
+    "lanes": "1",
+    "name": "Via Fiume",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 1018228573,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada Provinciale di Velva",
+    "old_ref": "SS523",
+    "ref": "SP40",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1018228574,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada Provinciale di Velva",
+    "old_ref": "SS523",
+    "ref": "SP40",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1018278748,
+  "tags": {
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "primary",
+    "horse": "yes",
+    "lanes": "2",
+    "maxspeed": "90",
+    "name": "Via Aurelia",
+    "nat_ref": "SS1",
+    "oneway": "no",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1127677046,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Panoramica del Santuario",
+    "service": "driveway",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1127677047,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Panoramica del Santuario",
+    "service": "driveway",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1243998162,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Via Loreto"
+  }
+},
+{
+  "type": "way",
+  "id": 1244103781,
+  "tags": {
+    "highway": "path",
+    "name": "giunto",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1300373508,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "residential",
+    "name": "Via al Conio"
+  }
+},
+{
+  "type": "way",
+  "id": 1300373509,
+  "tags": {
+    "bicycle": "yes",
+    "bridge": "yes",
+    "highway": "residential",
+    "layer": "1",
+    "name": "Via al Conio"
+  }
+},
+{
+  "type": "way",
+  "id": 1300373510,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "residential",
+    "name": "Via al Conio"
+  }
+},
+{
+  "type": "way",
+  "id": 1300373511,
+  "tags": {
+    "bicycle": "yes",
+    "bridge": "yes",
+    "highway": "residential",
+    "layer": "1",
+    "name": "Via al Conio"
+  }
+},
+{
+  "type": "way",
+  "id": 1317415774,
+  "tags": {
+    "bridge": "yes",
+    "highway": "primary",
+    "layer": "1",
+    "name": "Strada statale 523 del Colle di Cento Croci",
+    "ref": "SS523",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1317415775,
+  "tags": {
+    "highway": "primary",
+    "name": "Strada statale 523 del Colle di Cento Croci",
+    "ref": "SS523",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1339863925,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Strada statale 523 del Colle di Cento Croci",
+    "ref": "SS523",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1339863926,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Strada statale 523 del Colle di Cento Croci",
+    "ref": "SS523",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1339863929,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Strada statale 523 del Colle di Cento Croci",
+    "ref": "SS523",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1339863934,
+  "tags": {
+    "highway": "secondary",
+    "junction": "circular",
+    "name": "Strada Provinciale di Velva",
+    "old_ref": "SS523",
+    "ref": "SP40",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1450117485,
+  "tags": {
+    "bridge": "yes",
+    "highway": "secondary",
+    "lanes": "2",
+    "layer": "1",
+    "name": "Strada Provinciale di Velva",
+    "old_ref": "SS523",
+    "ref": "SP40",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1450117486,
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Strada Provinciale di Velva",
+    "old_ref": "SS523",
+    "ref": "SP40",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1451460432,
+  "tags": {
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "primary",
+    "horse": "yes",
+    "lanes": "2",
+    "maxspeed": "90",
+    "name": "Via Aurelia",
+    "nat_ref": "SS1",
+    "oneway": "no",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1455208139,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Località Forte",
+    "surface": "unpaved"
+  }
+},
+{
+  "type": "way",
+  "id": 1455208140,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada Provinciale di Velva",
+    "old_ref": "SS523",
+    "ref": "SP40",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1457167629,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Via Aurelia",
+    "nat_ref": "SS1",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1463242689,
+  "tags": {
+    "highway": "primary",
+    "name": "Via Antonio Canzio",
+    "ref": "SP523",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1463242690,
+  "tags": {
+    "highway": "primary",
+    "name": "Strada statale 523 del Colle di Cento Croci",
+    "ref": "SS523",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1464454320,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada Provinciale di Velva",
+    "old_ref": "SS523",
+    "ref": "SP40",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1464454321,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Strada statale 523 del Colle di Cento Croci",
+    "ref": "SS523",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1464454322,
+  "tags": {
+    "highway": "secondary",
+    "junction": "circular",
+    "name": "Strada Provinciale di Velva",
+    "old_ref": "SS523",
+    "ref": "SP40",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1464454323,
+  "tags": {
+    "highway": "secondary",
+    "junction": "circular",
+    "name": "Strada Provinciale di Velva",
+    "old_ref": "SS523",
+    "ref": "SP40",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1464454324,
+  "tags": {
+    "highway": "secondary",
+    "junction": "circular",
+    "name": "Strada Provinciale di Velva",
+    "old_ref": "SS523",
+    "ref": "SP40",
+    "surface": "asphalt"
+  }
+}
+
+  ]
+}
