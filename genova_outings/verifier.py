@@ -28,49 +28,26 @@ _PROBE_CACHE: Dict[str, Tuple[bool, int, str]] = {}
 _CRAWLED_CACHE_LOADED = False
 _CRAWLED_CACHE_DATA: Dict[str, dict] = {}
 
-# Explicitly blacklisted venue keywords and names
-# Villa Croce is closed to the public for PNRR works until further notice.
-BLACKLISTED_SUBSTRINGS: List[str] = [
-    "villa croce",
-    "villa-croce",
-    "villa_croce",
-    "museo d'arte contemporanea di villa croce",
-    "museo d'arte contemporanea villa croce",
-    "biblioteca del museo civico di arte contemporanea di villa croce",
-    # Permanently closed venues
-    "teatro cantero",
-    "cantero chiavari",
-    "cinema teatro cantero",
-    "teatro cinema cantero",
-    "cantero.it",
-    # Inactive summer seasonal arenas in November
-    "circuito sul mare",
-    "circuito-sul-mare",
-    "arena sturla",
-    "arena-sturla",
-    # Medical, ambulance and emergency services with 'croce'
-    "croce verde",
-    "croce rossa",
-    "croce bianca",
-    "croce d'oro",
-    "pubblica assistenza",
-    # Sports pitches / arenas
-    "stadio beppe croce",
-    "stadio giuseppe sivori",
-    "impianto di calcio",
-    "campo sportivo",
-    # Administrative, institutional, medical, non-informal venues
-    "ospedale",
-    "carcere",
-    "tribunale",
-    "cimitero monumentale",
-    "autofficina",
-    "elettrauto",
-    "scuola dell'infanzia",
-    "scuola primaria",
-    "scuola secondaria",
-    "liceo artistico emanuele luzzati",
-]
+def _load_closed_venues_config() -> Tuple[List[str], Set[str]]:
+    """Load blacklist substrings and Monday-closed museums from data/config/closed_venues.json."""
+    data_dir = Path(os.environ.get("GENOVA_DATA_DIR") or Path(__file__).resolve().parent.parent)
+    cfg_path = data_dir / "data" / "config" / "closed_venues.json"
+    if cfg_path.exists():
+        try:
+            data = json.loads(cfg_path.read_text(encoding="utf-8"))
+            substrings = [str(s).lower() for s in data.get("blacklisted_substrings", [])]
+            monday_closed = {str(s).lower() for s in data.get("monday_closed_museums", [])}
+            if substrings and monday_closed:
+                return substrings, monday_closed
+        except Exception:
+            pass
+    return (
+        ["villa croce", "villa-croce", "villa_croce", "teatro cantero", "cantero.it"],
+        {"musei di strada nuova", "palazzo rosso", "palazzo bianco", "palazzo tursi"},
+    )
+
+
+BLACKLISTED_SUBSTRINGS, MONDAY_CLOSED_MUSEUMS = _load_closed_venues_config()
 
 # Regex patterns for Villa Croce, permanently closed venues, and seasonal arenas
 VILLA_CROCE_PATTERN = re.compile(r"villa[\s_\-\.\/%+]*croce", re.IGNORECASE)
@@ -101,13 +78,7 @@ WEATHER_KEYWORDS: Set[str] = {
     "scogliera", "creusa", "porticciolo", "anita garibaldi", "righi"
 }
 
-# Civic museums strictly closed on Mondays in Genova
-MONDAY_CLOSED_MUSEUMS: Set[str] = {
-    "musei di strada nuova", "palazzo rosso", "palazzo bianco", "palazzo tursi",
-    "castello d'albertis", "gam galleria d'arte moderna", "wolfsoniana",
-    "museo d'arte orientale chiossone", "museo civico di storia naturale giacomo doria",
-    "museo del risorgimento", "raccolte frugone"
-}
+# Civic museums strictly closed on Mondays in Genova (loaded from data/config/closed_venues.json)
 
 
 @dataclass
