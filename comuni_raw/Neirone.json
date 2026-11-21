@@ -1,0 +1,1489 @@
+{
+  "version": 0.6,
+  "generator": "OpenStreetMap v0.6 API",
+  "comune": "Neirone",
+  "elements": [
+    {
+      "type": "node",
+      "id": 66586438,
+      "tags": {
+        "gfoss_id": "1298",
+        "name": "Neirone",
+        "place": "village",
+        "population": "939",
+        "source": "geodati.gfoss.it",
+        "wikidata": "Q267294",
+        "addr:city_extracted": "Neirone"
+      },
+      "lat": 44.4546639,
+      "lon": 9.1905114
+    },
+    {
+      "type": "node",
+      "id": 316029604,
+      "tags": {
+        "ele": "320",
+        "gfoss_id": "36276",
+        "istat_id": "1004120002",
+        "name": "Carpeneto",
+        "place": "hamlet",
+        "population": "24",
+        "source": "Istat 2001 - geodati.gfoss.it",
+        "addr:city_extracted": "Neirone"
+      },
+      "lat": 44.4517982,
+      "lon": 9.1918311
+    },
+    {
+      "type": "node",
+      "id": 316029649,
+      "tags": {
+        "ele": "322",
+        "gfoss_id": "36278",
+        "istat_id": "1004120008",
+        "name": "Rosasco",
+        "place": "hamlet",
+        "population": "36",
+        "source": "Istat 2001 - geodati.gfoss.it",
+        "wikidata": "Q18458859",
+        "addr:city_extracted": "Neirone"
+      },
+      "lat": 44.4508757,
+      "lon": 9.1862206
+    },
+    {
+      "type": "node",
+      "id": 1988158546,
+      "tags": {
+        "addr:city": "Neirone",
+        "amenity": "post_office",
+        "atm": "yes",
+        "name": "Poste Italiane",
+        "operator": "Poste Italiane",
+        "operator:wikidata": "Q495026",
+        "source": "https://www.lavocedigenova.it/2025/11/12/amp/argomenti/economia-2/articolo/poste-italiane-corre-il-progetto-polis-a-genova-e-nel-levante-al-servizio-delle-comunita-locali.html",
+        "addr:city_extracted": "Neirone"
+      },
+      "lat": 44.4552802,
+      "lon": 9.1896993
+    },
+    {
+      "type": "node",
+      "id": 2566695393,
+      "tags": {
+        "ele": "907",
+        "name": "Monte Carpena",
+        "natural": "peak",
+        "addr:city_extracted": "Neirone"
+      },
+      "lat": 44.4670696,
+      "lon": 9.1739681
+    },
+    {
+      "type": "node",
+      "id": 2577545621,
+      "tags": {
+        "name": "Pian del Pero",
+        "place": "isolated_dwelling",
+        "addr:city_extracted": "Neirone"
+      },
+      "lat": 44.4544355,
+      "lon": 9.2058598
+    },
+    {
+      "type": "node",
+      "id": 2577650652,
+      "tags": {
+        "mountain_pass": "yes",
+        "name": "Passo Pietra Cavallina",
+        "natural": "saddle",
+        "place": "locality",
+        "addr:city_extracted": "Neirone"
+      },
+      "lat": 44.4605923,
+      "lon": 9.210006
+    },
+    {
+      "type": "node",
+      "id": 2577658477,
+      "tags": {
+        "ele": "834",
+        "mountain_pass": "yes",
+        "name": "Passo Croci",
+        "natural": "saddle",
+        "addr:city_extracted": "Neirone"
+      },
+      "lat": 44.4494047,
+      "lon": 9.2107658
+    },
+    {
+      "type": "node",
+      "id": 2577680974,
+      "tags": {
+        "name": "Faggio Rotondo",
+        "place": "isolated_dwelling",
+        "addr:city_extracted": "Neirone"
+      },
+      "lat": 44.4586577,
+      "lon": 9.2078299
+    },
+    {
+      "type": "node",
+      "id": 2584547067,
+      "tags": {
+        "ele": "777",
+        "name": "Zuccarello",
+        "natural": "peak",
+        "addr:city_extracted": "Neirone"
+      },
+      "lat": 44.4555971,
+      "lon": 9.176285
+    },
+    {
+      "type": "node",
+      "id": 2589611910,
+      "tags": {
+        "ele": "852",
+        "name": "Monte Rocio",
+        "natural": "peak",
+        "addr:city_extracted": "Neirone"
+      },
+      "lat": 44.4417787,
+      "lon": 9.2053108
+    },
+    {
+      "type": "node",
+      "id": 2632793364,
+      "tags": {
+        "name": "Cugno",
+        "place": "locality",
+        "addr:city_extracted": "Neirone"
+      },
+      "lat": 44.4641593,
+      "lon": 9.2084042
+    },
+    {
+      "type": "node",
+      "id": 2633699351,
+      "tags": {
+        "name": "Malsalato",
+        "place": "isolated_dwelling",
+        "addr:city_extracted": "Neirone"
+      },
+      "lat": 44.4657707,
+      "lon": 9.2046109
+    },
+    {
+      "type": "node",
+      "id": 2633699353,
+      "tags": {
+        "name": "Arsena",
+        "place": "isolated_dwelling",
+        "addr:city_extracted": "Neirone"
+      },
+      "lat": 44.4532228,
+      "lon": 9.2015671
+    },
+    {
+      "type": "node",
+      "id": 3203055570,
+      "tags": {
+        "ele": "743",
+        "name": "Monte Spina",
+        "natural": "peak",
+        "addr:city_extracted": "Neirone"
+      },
+      "lat": 44.4450045,
+      "lon": 9.1991551
+    },
+    {
+      "type": "node",
+      "id": 3203113408,
+      "tags": {
+        "ele": "1110",
+        "name": "Rocca Cavallina",
+        "natural": "peak",
+        "source": "CTR Regione Liguria",
+        "addr:city_extracted": "Neirone"
+      },
+      "lat": 44.4611566,
+      "lon": 9.206708
+    },
+    {
+      "type": "node",
+      "id": 4869416204,
+      "tags": {
+        "name": "Spina",
+        "place": "locality",
+        "addr:city_extracted": "Neirone"
+      },
+      "lat": 44.4455553,
+      "lon": 9.2033105
+    },
+    {
+      "type": "node",
+      "id": 8925333495,
+      "tags": {
+        "name": "Arinari",
+        "place": "hamlet",
+        "addr:city_extracted": "Neirone"
+      },
+      "lat": 44.4581822,
+      "lon": 9.1934471
+    },
+    {
+      "type": "node",
+      "id": 8925333496,
+      "tags": {
+        "name": "Colonia",
+        "place": "hamlet",
+        "addr:city_extracted": "Neirone"
+      },
+      "lat": 44.4577074,
+      "lon": 9.1955983
+    },
+    {
+      "type": "node",
+      "id": 8991381804,
+      "tags": {
+        "addr:city": "Neirone",
+        "addr:housenumber": "58 C",
+        "addr:postcode": "16040",
+        "addr:street": "Via Neirone",
+        "name": "Alimentari Rovegno",
+        "shop": "convenience",
+        "addr:city_extracted": "Neirone"
+      },
+      "lat": 44.4555676,
+      "lon": 9.1893355
+    },
+    {
+      "type": "node",
+      "id": 9207130347,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Bivio Arinari",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6545",
+        "zone_id": "102",
+        "addr:city_extracted": "Neirone"
+      },
+      "lat": 44.4605249,
+      "lon": 9.1912022
+    },
+    {
+      "type": "node",
+      "id": 9207130477,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Pezze",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6564",
+        "zone_id": "102",
+        "addr:city_extracted": "Neirone"
+      },
+      "lat": 44.4572039,
+      "lon": 9.1909293
+    },
+    {
+      "type": "node",
+      "id": 9207130478,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Lima",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6543",
+        "zone_id": "102",
+        "addr:city_extracted": "Neirone"
+      },
+      "lat": 44.4559485,
+      "lon": 9.1910881
+    },
+    {
+      "type": "node",
+      "id": 9207130479,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Borgo civ. 107",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6541",
+        "zone_id": "102",
+        "addr:city_extracted": "Neirone"
+      },
+      "lat": 44.4540506,
+      "lon": 9.1927757
+    },
+    {
+      "type": "node",
+      "id": 9207130480,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Borgo civ. 82",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6539",
+        "zone_id": "102",
+        "addr:city_extracted": "Neirone"
+      },
+      "lat": 44.4538584,
+      "lon": 9.1924651
+    },
+    {
+      "type": "node",
+      "id": 9207130482,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Neirone",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6533",
+        "zone_id": "102",
+        "addr:city_extracted": "Neirone"
+      },
+      "lat": 44.4541296,
+      "lon": 9.1906722
+    },
+    {
+      "type": "node",
+      "id": 9207130483,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Dal Molino",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6531",
+        "zone_id": "102",
+        "addr:city_extracted": "Neirone"
+      },
+      "lat": 44.4524608,
+      "lon": 9.1899384
+    },
+    {
+      "type": "node",
+      "id": 9207130485,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Bivio Carpaneto",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6529",
+        "zone_id": "102",
+        "addr:city_extracted": "Neirone"
+      },
+      "lat": 44.4495397,
+      "lon": 9.1881512
+    },
+    {
+      "type": "node",
+      "id": 9207130486,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Bivio per Centrale",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6527",
+        "zone_id": "102",
+        "addr:city_extracted": "Neirone"
+      },
+      "lat": 44.4455456,
+      "lon": 9.1887503
+    },
+    {
+      "type": "node",
+      "id": 9882271279,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Neirone posta",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6535",
+        "zone_id": "102",
+        "addr:city_extracted": "Neirone"
+      },
+      "lat": 44.4553493,
+      "lon": 9.1895465
+    },
+    {
+      "type": "node",
+      "id": 9882271280,
+      "tags": {
+        "name": "Cerisola",
+        "place": "hamlet",
+        "addr:city_extracted": "Neirone"
+      },
+      "lat": 44.4437681,
+      "lon": 9.1864795
+    },
+    {
+      "type": "node",
+      "id": 11963434555,
+      "tags": {
+        "name": "Casserina",
+        "place": "locality",
+        "addr:city_extracted": "Neirone"
+      },
+      "lat": 44.458066,
+      "lon": 9.1774343
+    },
+    {
+      "type": "node",
+      "id": 13076081306,
+      "tags": {
+        "amenity": "doctors",
+        "name": "ASL 4 Neirone in Salute",
+        "addr:city_extracted": "Neirone"
+      },
+      "lat": 44.4531239,
+      "lon": 9.189
+    },
+    {
+      "type": "node",
+      "id": 13094790008,
+      "tags": {
+        "description": "Itinerario dei Feudi Fliscani",
+        "destination": "Roccatagliata km 2,450;Siestri km 4,500;Torriglia km 12,570",
+        "ele": "368",
+        "hiking": "yes",
+        "information": "guidepost",
+        "name": "Neirone",
+        "support": "pole",
+        "tourism": "information",
+        "addr:city_extracted": "Neirone"
+      },
+      "lat": 44.4557184,
+      "lon": 9.1904269
+    },
+    {
+      "type": "node",
+      "id": 13094790010,
+      "tags": {
+        "description": "Itinerario dei Feudi Fliscani",
+        "destination": "Roccatagliata km 2,650;Siestri km 4,700;Gattorna km 3,150",
+        "ele": "342",
+        "hiking": "yes",
+        "information": "guidepost",
+        "name": "Neirone Chiesa",
+        "support": "pole",
+        "tourism": "information",
+        "addr:city_extracted": "Neirone"
+      },
+      "lat": 44.4541846,
+      "lon": 9.1906331
+    },
+    {
+      "type": "node",
+      "id": 13094790011,
+      "tags": {
+        "description": "Itinerario dei Feudi Fliscani",
+        "ele": "15",
+        "hiking": "yes",
+        "information": "guidepost",
+        "name": "Neirono Molini",
+        "support": "pole",
+        "tourism": "information",
+        "addr:city_extracted": "Neirone"
+      },
+      "lat": 44.4532043,
+      "lon": 9.1894472
+    },
+    {
+      "type": "node",
+      "id": 13094790012,
+      "tags": {
+        "description": "Itinerario dei Feudi Fliscani",
+        "destination": "Neirone km 1,160;Roccatagliata km 3,260;Siestri km 5,310",
+        "hiking": "yes",
+        "information": "guidepost",
+        "name": "Bivio Carpeneto",
+        "support": "pole",
+        "tourism": "information",
+        "addr:city_extracted": "Neirone"
+      },
+      "lat": 44.4500855,
+      "lon": 9.1883355
+    },
+    {
+      "type": "node",
+      "id": 13094790014,
+      "tags": {
+        "description": "Itinerario dei Feudi Fliscani",
+        "destination": "Gattorna km 1,990;Neirone km 1,160;Torriglia km 13,930",
+        "ele": "300",
+        "hiking": "yes",
+        "information": "guidepost",
+        "name": "Bivio Centrale",
+        "support": "pole",
+        "tourism": "information",
+        "addr:city_extracted": "Neirone"
+      },
+      "lat": 44.4455417,
+      "lon": 9.1887728
+    },
+    {
+      "type": "node",
+      "id": 13094790019,
+      "tags": {
+        "description": "Itinerario dei Feudi Fliscani",
+        "destination": "Neirone,km 1,530;Roccatagliata,km 4,180;Gattorna km 1,620",
+        "ele": "250",
+        "hiking": "yes",
+        "information": "guidepost",
+        "name": "Beo Grande",
+        "support": "pole",
+        "tourism": "information",
+        "addr:city_extracted": "Neirone"
+      },
+      "lat": 44.4427228,
+      "lon": 9.1895306
+    },
+    {
+      "type": "node",
+      "id": 13382155931,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Neirone posta",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6534",
+        "zone_id": "102",
+        "addr:city_extracted": "Neirone"
+      },
+      "lat": 44.4553838,
+      "lon": 9.1895755
+    },
+    {
+      "type": "node",
+      "id": 13382155933,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Borgo civ. 107",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6540",
+        "zone_id": "102",
+        "addr:city_extracted": "Neirone"
+      },
+      "lat": 44.4541484,
+      "lon": 9.1927107
+    },
+    {
+      "type": "node",
+      "id": 13382155935,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Dal Molino",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6530",
+        "zone_id": "102",
+        "addr:city_extracted": "Neirone"
+      },
+      "lat": 44.4524926,
+      "lon": 9.1900117
+    },
+    {
+      "type": "node",
+      "id": 13382155936,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Bivio Carpeneto",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6528",
+        "zone_id": "102",
+        "addr:city_extracted": "Neirone"
+      },
+      "lat": 44.4495811,
+      "lon": 9.1882181
+    },
+    {
+      "type": "node",
+      "id": 13382155937,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Borgo civ. 82",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6538",
+        "zone_id": "102",
+        "addr:city_extracted": "Neirone"
+      },
+      "lat": 44.453914,
+      "lon": 9.1924705
+    },
+    {
+      "type": "node",
+      "id": 13382155938,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Bivio per Centrale",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6526",
+        "zone_id": "102",
+        "addr:city_extracted": "Neirone"
+      },
+      "lat": 44.4456092,
+      "lon": 9.1887104
+    },
+    {
+      "type": "node",
+      "id": 13382155939,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Pezze",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6563",
+        "zone_id": "102",
+        "addr:city_extracted": "Neirone"
+      },
+      "lat": 44.4573029,
+      "lon": 9.1909248
+    },
+    {
+      "type": "node",
+      "id": 13382155940,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Neirone comune",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6532",
+        "zone_id": "102",
+        "addr:city_extracted": "Neirone"
+      },
+      "lat": 44.4541497,
+      "lon": 9.1907256
+    },
+    {
+      "type": "node",
+      "id": 13382155941,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Bivio Arinari",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6544",
+        "zone_id": "102",
+        "addr:city_extracted": "Neirone"
+      },
+      "lat": 44.4605456,
+      "lon": 9.1913093
+    },
+    {
+      "type": "node",
+      "id": 13382155943,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Lima",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6542",
+        "zone_id": "102",
+        "addr:city_extracted": "Neirone"
+      },
+      "lat": 44.4559897,
+      "lon": 9.1911448
+    },
+    {
+      "type": "way",
+      "id": 21255883,
+      "tags": {
+        "highway": "secondary",
+        "name": "Strada Provinciale di Neirone",
+        "ref": "SP21",
+        "surface": "asphalt",
+        "addr:city_extracted": "Neirone"
+      }
+    },
+    {
+      "type": "way",
+      "id": 25659200,
+      "tags": {
+        "boat": "no",
+        "name": "Torrente Neirone",
+        "waterway": "stream",
+        "addr:city_extracted": "Neirone"
+      }
+    },
+    {
+      "type": "way",
+      "id": 61638853,
+      "tags": {
+        "bridge": "yes",
+        "highway": "secondary",
+        "layer": "1",
+        "name": "Strada Provinciale di Neirone",
+        "ref": "SP21",
+        "surface": "asphalt",
+        "addr:city_extracted": "Neirone"
+      }
+    },
+    {
+      "type": "way",
+      "id": 61638863,
+      "tags": {
+        "highway": "secondary",
+        "name": "Strada Provinciale di Neirone",
+        "ref": "SP21",
+        "surface": "asphalt",
+        "addr:city_extracted": "Neirone"
+      }
+    },
+    {
+      "type": "way",
+      "id": 61638864,
+      "tags": {
+        "bridge": "yes",
+        "highway": "secondary",
+        "layer": "1",
+        "name": "Strada Provinciale di Neirone",
+        "ref": "SP21",
+        "surface": "asphalt",
+        "addr:city_extracted": "Neirone"
+      }
+    },
+    {
+      "type": "way",
+      "id": 61638869,
+      "tags": {
+        "highway": "secondary",
+        "name": "Strada Provinciale di Neirone",
+        "ref": "SP21",
+        "surface": "asphalt",
+        "addr:city_extracted": "Neirone"
+      }
+    },
+    {
+      "type": "way",
+      "id": 183630664,
+      "tags": {
+        "destination": "Neirone",
+        "highway": "secondary",
+        "name": "SP 20",
+        "ref": "SP20",
+        "surface": "asphalt",
+        "addr:city_extracted": "Neirone"
+      }
+    },
+    {
+      "type": "way",
+      "id": 188187877,
+      "tags": {
+        "amenity": "grave_yard",
+        "denomination": "catholic",
+        "name": "Cimitero",
+        "religion": "christian",
+        "addr:city_extracted": "Neirone"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204444006,
+      "tags": {
+        "amenity": "place_of_worship",
+        "denomination": "catholic",
+        "name": "San Maurizio martire",
+        "religion": "christian",
+        "addr:city_extracted": "Neirone"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204446533,
+      "tags": {
+        "building": "house",
+        "guest_house": "bed_and_breakfast",
+        "internet_access": "yes",
+        "name": "B&B da Beppe",
+        "operator": "Paola",
+        "phone": "+39 366 7104660",
+        "source": "Regione Liguria",
+        "tourism": "guest_house",
+        "addr:city_extracted": "Neirone"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204446617,
+      "tags": {
+        "building": "house",
+        "leisure": "summer_camp",
+        "name": "Casa Alpina Santa Sabina",
+        "source": "Regione Liguria",
+        "addr:city_extracted": "Neirone"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204458291,
+      "tags": {
+        "landuse": "industrial",
+        "name": "Centrale Idroelettrica di Neirone",
+        "plant:output:electricity": "yes",
+        "plant:source": "hydro",
+        "power": "plant",
+        "source": "Regione Liguria",
+        "addr:city_extracted": "Neirone"
+      }
+    },
+    {
+      "type": "way",
+      "id": 329004216,
+      "tags": {
+        "name": "Torrente Serre",
+        "waterway": "stream",
+        "addr:city_extracted": "Neirone"
+      }
+    },
+    {
+      "type": "way",
+      "id": 335576388,
+      "tags": {
+        "cables": "3",
+        "name": "Vignole-La Spezia",
+        "power": "line",
+        "voltage": "380000",
+        "addr:city_extracted": "Neirone"
+      }
+    },
+    {
+      "type": "way",
+      "id": 336730509,
+      "tags": {
+        "bridge": "yes",
+        "highway": "secondary",
+        "layer": "1",
+        "name": "SP 20",
+        "ref": "SP20",
+        "surface": "asphalt",
+        "addr:city_extracted": "Neirone"
+      }
+    },
+    {
+      "type": "way",
+      "id": 336730510,
+      "tags": {
+        "highway": "secondary",
+        "name": "SP 20",
+        "ref": "SP20",
+        "surface": "asphalt",
+        "addr:city_extracted": "Neirone"
+      }
+    },
+    {
+      "type": "way",
+      "id": 499145619,
+      "tags": {
+        "highway": "secondary",
+        "name": "Strada Provinciale di Neirone",
+        "ref": "SP21",
+        "surface": "asphalt",
+        "addr:city_extracted": "Neirone"
+      }
+    },
+    {
+      "type": "way",
+      "id": 499145620,
+      "tags": {
+        "highway": "secondary",
+        "name": "Strada Provinciale di Neirone",
+        "ref": "SP21",
+        "surface": "asphalt",
+        "addr:city_extracted": "Neirone"
+      }
+    },
+    {
+      "type": "way",
+      "id": 499145624,
+      "tags": {
+        "highway": "secondary",
+        "name": "Strada Provinciale di Neirone",
+        "ref": "SP21",
+        "surface": "asphalt",
+        "addr:city_extracted": "Neirone"
+      }
+    },
+    {
+      "type": "way",
+      "id": 937725847,
+      "tags": {
+        "highway": "secondary",
+        "name": "Strada Provinciale di Neirone",
+        "ref": "SP21",
+        "surface": "asphalt",
+        "addr:city_extracted": "Neirone"
+      }
+    },
+    {
+      "type": "way",
+      "id": 937725848,
+      "tags": {
+        "highway": "secondary",
+        "name": "Strada Provinciale di Neirone",
+        "ref": "SP21",
+        "surface": "asphalt",
+        "addr:city_extracted": "Neirone"
+      }
+    },
+    {
+      "type": "way",
+      "id": 964806837,
+      "tags": {
+        "bridge": "yes",
+        "highway": "secondary",
+        "layer": "1",
+        "name": "Strada Provinciale di Neirone",
+        "ref": "SP21",
+        "surface": "asphalt",
+        "addr:city_extracted": "Neirone"
+      }
+    },
+    {
+      "type": "way",
+      "id": 964846581,
+      "tags": {
+        "highway": "secondary",
+        "name": "Strada Provinciale di Neirone",
+        "ref": "SP21",
+        "surface": "asphalt",
+        "addr:city_extracted": "Neirone"
+      }
+    },
+    {
+      "type": "way",
+      "id": 964846582,
+      "tags": {
+        "bridge": "yes",
+        "highway": "secondary",
+        "layer": "1",
+        "name": "Strada Provinciale di Neirone",
+        "ref": "SP21",
+        "surface": "asphalt",
+        "addr:city_extracted": "Neirone"
+      }
+    },
+    {
+      "type": "way",
+      "id": 964846589,
+      "tags": {
+        "highway": "secondary",
+        "name": "Strada Provinciale di Neirone",
+        "ref": "SP21",
+        "surface": "asphalt",
+        "addr:city_extracted": "Neirone"
+      }
+    },
+    {
+      "type": "way",
+      "id": 964846590,
+      "tags": {
+        "bridge": "yes",
+        "highway": "secondary",
+        "layer": "1",
+        "name": "Strada Provinciale di Neirone",
+        "ref": "SP21",
+        "surface": "asphalt",
+        "addr:city_extracted": "Neirone"
+      }
+    },
+    {
+      "type": "way",
+      "id": 964846591,
+      "tags": {
+        "highway": "secondary",
+        "name": "Strada Provinciale di Neirone",
+        "ref": "SP21",
+        "surface": "asphalt",
+        "addr:city_extracted": "Neirone"
+      }
+    },
+    {
+      "type": "way",
+      "id": 964846592,
+      "tags": {
+        "bridge": "yes",
+        "highway": "secondary",
+        "name": "Strada Provinciale di Neirone",
+        "ref": "SP21",
+        "surface": "asphalt",
+        "addr:city_extracted": "Neirone"
+      }
+    },
+    {
+      "type": "way",
+      "id": 964849604,
+      "tags": {
+        "highway": "secondary",
+        "name": "SP 20",
+        "ref": "SP20",
+        "surface": "asphalt",
+        "addr:city_extracted": "Neirone"
+      }
+    },
+    {
+      "type": "way",
+      "id": 964853870,
+      "tags": {
+        "highway": "secondary",
+        "maxspeed": "40",
+        "name": "SP 20",
+        "ref": "SP20",
+        "surface": "asphalt",
+        "addr:city_extracted": "Neirone"
+      }
+    },
+    {
+      "type": "way",
+      "id": 964853871,
+      "tags": {
+        "bridge": "yes",
+        "highway": "secondary",
+        "layer": "1",
+        "maxspeed": "40",
+        "name": "SP 20",
+        "ref": "SP20",
+        "surface": "asphalt",
+        "addr:city_extracted": "Neirone"
+      }
+    },
+    {
+      "type": "way",
+      "id": 964856856,
+      "tags": {
+        "destination": "Neirone",
+        "highway": "secondary",
+        "name": "SP 20",
+        "ref": "SP20",
+        "surface": "asphalt",
+        "addr:city_extracted": "Neirone"
+      }
+    },
+    {
+      "type": "way",
+      "id": 964856857,
+      "tags": {
+        "bridge": "yes",
+        "destination": "Neirone",
+        "highway": "secondary",
+        "layer": "1",
+        "name": "SP 20",
+        "ref": "SP20",
+        "surface": "asphalt",
+        "addr:city_extracted": "Neirone"
+      }
+    },
+    {
+      "type": "way",
+      "id": 964880973,
+      "tags": {
+        "name": "Piazza Padre Basilio",
+        "place": "square",
+        "addr:city_extracted": "Neirone"
+      }
+    },
+    {
+      "type": "way",
+      "id": 964907746,
+      "tags": {
+        "amenity": "bar",
+        "building": "cabin",
+        "material": "wood",
+        "name": "Circolo Acli Corsiglia",
+        "addr:city_extracted": "Neirone"
+      }
+    },
+    {
+      "type": "way",
+      "id": 974897812,
+      "tags": {
+        "historic": "memorial",
+        "name": "Monumento ai caduti",
+        "addr:city_extracted": "Neirone"
+      }
+    },
+    {
+      "type": "way",
+      "id": 975499291,
+      "tags": {
+        "highway": "secondary",
+        "name": "Strada Provinciale di Neirone",
+        "ref": "SP21",
+        "surface": "asphalt",
+        "addr:city_extracted": "Neirone"
+      }
+    },
+    {
+      "type": "way",
+      "id": 975499292,
+      "tags": {
+        "bridge": "yes",
+        "highway": "secondary",
+        "layer": "1",
+        "name": "Strada Provinciale di Neirone",
+        "ref": "SP21",
+        "surface": "asphalt",
+        "addr:city_extracted": "Neirone"
+      }
+    },
+    {
+      "type": "way",
+      "id": 997138606,
+      "tags": {
+        "destination": "Neirone",
+        "highway": "secondary",
+        "maxspeed": "40",
+        "name": "SP 20",
+        "ref": "SP20",
+        "surface": "asphalt",
+        "addr:city_extracted": "Neirone"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1249489250,
+      "tags": {
+        "highway": "secondary",
+        "name": "Strada Provinciale di Neirone",
+        "ref": "SP21",
+        "surface": "asphalt",
+        "addr:city_extracted": "Neirone"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1249489251,
+      "tags": {
+        "highway": "secondary",
+        "name": "Strada Provinciale di Neirone",
+        "ref": "SP21",
+        "surface": "asphalt",
+        "addr:city_extracted": "Neirone"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1459138772,
+      "tags": {
+        "highway": "secondary",
+        "name": "Strada Provinciale di Neirone",
+        "ref": "SP21",
+        "surface": "asphalt",
+        "addr:city_extracted": "Neirone"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1559304374,
+      "tags": {
+        "highway": "secondary",
+        "name": "Strada Provinciale di Neirone",
+        "ref": "SP21",
+        "surface": "asphalt",
+        "addr:city_extracted": "Neirone"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 43165,
+      "tags": {
+        "admin_level": "8",
+        "boundary": "administrative",
+        "name": "Neirone",
+        "population": "890",
+        "population:date": "2026-08-28",
+        "ref:catasto": "F862",
+        "ref:ISTAT": "010041",
+        "source:population": "ANPR 2026",
+        "type": "boundary",
+        "wikidata": "Q267294",
+        "wikipedia": "it:Neirone",
+        "addr:city_extracted": "Neirone"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 44876,
+      "tags": {
+        "admin_level": "8",
+        "boundary": "administrative",
+        "gfoss_id": "1293",
+        "name": "Moconesi",
+        "population": "2433",
+        "population:date": "2026-08-28",
+        "ref:catasto": "F256",
+        "ref:ISTAT": "010036",
+        "source": "geodati.gfoss.it",
+        "source:population": "ANPR 2026",
+        "type": "boundary",
+        "wikidata": "Q267284",
+        "wikipedia": "it:Moconesi",
+        "addr:city_extracted": "Neirone"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 12654745,
+      "tags": {
+        "cai_scale": "E",
+        "from": "Gattorna",
+        "name": "I Feudi Fliscani",
+        "network": "lwn",
+        "operator": "CAI Chiavari",
+        "osmc:symbol": "red:blue::IFF:white",
+        "ref": "IFF",
+        "route": "hiking",
+        "source": "survey;gps",
+        "symbol": "rectangle diagoanlly split into blue and white triangles with text IFF",
+        "symbol:it": "rettangolo diviso diagonalmente in triangoli blu e bianchi con testo IFF",
+        "to": "Torriglia",
+        "type": "route",
+        "addr:city_extracted": "Neirone"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 12655158,
+      "tags": {
+        "alt_ref": "223C",
+        "ascent": "200",
+        "cai_scale": "EE",
+        "descent": "0",
+        "distance": "2.065",
+        "duration:backward": "30:00",
+        "duration:forward": "45:00",
+        "from": "Bivio Crocetta",
+        "name": "I Feudi Fliscani - variante",
+        "network": "lwn",
+        "operator": "CAI Chiavari",
+        "osmc:symbol": "blue:blue::IFFv:white",
+        "ref": "IFF-var",
+        "ref:REI": "GGEB223C",
+        "reg_ref": "GGEB22392CE",
+        "source": "Regione Liguria;survey:CAI",
+        "to": "Roccatagliata",
+        "type": "route",
+        "addr:city_extracted": "Neirone"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 13503993,
+      "tags": {
+        "cai_scale": "E",
+        "name": "Gattorna - Ogno - Monte Lavagnola",
+        "network": "lwn",
+        "osmc:symbol": "red:white:red_triangle_line",
+        "route": "hiking",
+        "source": "FIE",
+        "type": "route",
+        "addr:city_extracted": "Neirone"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 13504009,
+      "tags": {
+        "cai_scale": "E",
+        "name": "Neirone - Passo del Portello - Monte Lavagnola",
+        "network": "lwn",
+        "osmc:symbol": "red:white:red_circle",
+        "route": "hiking",
+        "source": "FIE",
+        "type": "route",
+        "addr:city_extracted": "Neirone"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 14346184,
+      "tags": {
+        "colour": "green",
+        "description": "817 Roccatagliata - Gattorna",
+        "fee": "yes",
+        "from": "Roccatagliata",
+        "name": "817 Gattorna",
+        "network": "AMT Linee Provinciali",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "817",
+        "route": "bus",
+        "to": "Gattorna",
+        "type": "route",
+        "addr:city_extracted": "Neirone"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 19968938,
+      "tags": {
+        "colour": "green",
+        "description": "817 Neirone - Gattorna",
+        "fee": "yes",
+        "from": "Neirone",
+        "name": "817 Gattorna",
+        "network": "AMT Linee Provinciali",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "817",
+        "route": "bus",
+        "to": "Gattorna",
+        "type": "route",
+        "addr:city_extracted": "Neirone"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 21215319,
+      "tags": {
+        "from": "Ponte Organasco",
+        "name": "Antica Via del Cifalco - Percorso principale",
+        "network": "nwn",
+        "network:type": "lwn",
+        "official_name": "Antica Via del Cifalco",
+        "ref": "AVC",
+        "route": "hiking",
+        "to": "Portofino Mare",
+        "type": "route",
+        "addr:city_extracted": "Neirone"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 21824334,
+      "tags": {
+        "name": "Antica Via del Cifalco - deviazione Ca' Da Nonna",
+        "network": "nwn",
+        "ref": "AVCd",
+        "route": "hiking",
+        "type": "route",
+        "addr:city_extracted": "Neirone"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 21824348,
+      "tags": {
+        "from": "Ponte Organasco",
+        "name": "Antica Via del Cifalco",
+        "network": "nwn",
+        "ref": "AVC",
+        "route": "hiking",
+        "to": "Camogli",
+        "type": "superroute",
+        "addr:city_extracted": "Neirone"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 21824426,
+      "tags": {
+        "name": "Antica Via del Cifalco - variante asfalto Neirone/Gattorna 1",
+        "network": "nwn",
+        "ref": "AVCv",
+        "route": "hiking",
+        "type": "route",
+        "addr:city_extracted": "Neirone"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 21824427,
+      "tags": {
+        "name": "Antica Via del Cifalco - variante asfalto Nairone/Gattorna 2",
+        "network": "nwn",
+        "ref": "AVCv",
+        "route": "hiking",
+        "type": "route",
+        "addr:city_extracted": "Neirone"
+      }
+    }
+  ]
+}

@@ -1,0 +1,5179 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-11-01T21:03:20Z",
+    "timestamp_areas_base": "2026-11-01T18:30:20Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 1028660553,
+  "tags": {
+    "addr:city": "Camogli",
+    "addr:postcode": "16032",
+    "addr:street": "Via Giovanni Bettolo",
+    "amenity": "school",
+    "name": "Istituto nautico \"San Giorgio\""
+  }
+},
+{
+  "type": "node",
+  "id": 3349730184,
+  "tags": {
+    "historic": "memorial",
+    "inscription:url": "http://openplaques.org/plaques/50141",
+    "memorial": "plaque",
+    "name": "Targa vecchio acquedotto",
+    "openplaques:id": "50141"
+  }
+},
+{
+  "type": "node",
+  "id": 3610387991,
+  "tags": {
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Fido"
+  }
+},
+{
+  "type": "node",
+  "id": 3882439973,
+  "tags": {
+    "historic": "memorial",
+    "inscription": "Nato a Camogli addi XVI febbraio MDCCCXXXV si votava alla patria il XV maggio MDCCCLX Visse abbastanza chi morì per la patria.",
+    "memorial": "statue",
+    "name": "Simone Schiaffino"
+  }
+},
+{
+  "type": "node",
+  "id": 3882439974,
+  "tags": {
+    "name": "Padella della Sagra del Pesce",
+    "tourism": "attraction",
+    "wikimedia_commons": "File:Padella Camogli.JPG"
+  }
+},
+{
+  "type": "node",
+  "id": 3942483410,
+  "tags": {
+    "addr:city": "Camogli",
+    "addr:housenumber": "41",
+    "addr:postcode": "16032",
+    "addr:street": "Via Gio Bono Ferrari",
+    "amenity": "library",
+    "check_date": "2024-10-17",
+    "contact:email": "biblioteca@comune.camogli.ge.it",
+    "contact:phone": "+39 0185 729048",
+    "name": "Biblioteca civica Niccolò Cuneo",
+    "website": "https://www.comune.camogli.ge.it/c010007/zf/index.php/servizi-aggiuntivi/index/index/idtesto/20008",
+    "wheelchair": "yes",
+    "wikidata": "Q112893599"
+  }
+},
+{
+  "type": "node",
+  "id": 3942491058,
+  "tags": {
+    "addr:city": "Camogli",
+    "addr:housenumber": "42",
+    "addr:postcode": "16032",
+    "addr:street": "Via Gio Bono Ferrari",
+    "check_date": "2024-10-17",
+    "name": "Museo Marinaro Gio Bono Ferrari",
+    "tourism": "museum",
+    "website": "https://www.museomarinaro.it/",
+    "wheelchair": "no",
+    "wikidata": "Q3868402",
+    "wikipedia": "it:Museo marinaro di Camogli"
+  }
+},
+{
+  "type": "node",
+  "id": 3942501175,
+  "tags": {
+    "addr:city": "Camogli",
+    "addr:housenumber": "41",
+    "addr:postcode": "16032",
+    "addr:street": "Via Gio Bono Ferrari",
+    "contact:phone": "+39 0185 729048",
+    "name": "Sala archeologica",
+    "tourism": "museum",
+    "website": "https://www.comune.camogli.ge.it/c010007/zf/index.php/musei-monumenti/index/dettaglio-museo/museo/6",
+    "wheelchair": "no",
+    "wikidata": "Q54873227"
+  }
+},
+{
+  "type": "node",
+  "id": 3942517480,
+  "tags": {
+    "addr:city": "Camogli",
+    "addr:postcode": "16032",
+    "addr:street": "Via Garibaldi",
+    "leisure": "sports_centre",
+    "name": "Palestra",
+    "sport": "gymnastics"
+  }
+},
+{
+  "type": "node",
+  "id": 3946562798,
+  "tags": {
+    "addr:city": "Camogli",
+    "addr:postcode": "16032",
+    "addr:street": "Largo Tristan da Cunha",
+    "amenity": "school",
+    "contact:phone": "+39 0185 724092",
+    "name": "Scuola secondaria di primo grado",
+    "operator": "Istituto Comprensivo Avegno Camogli Recco Uscio"
+  }
+},
+{
+  "type": "node",
+  "id": 4128612643,
+  "tags": {
+    "historic": "memorial",
+    "name": "Monumento ai Caduti di Camogli"
+  }
+},
+{
+  "type": "node",
+  "id": 4216259615,
+  "tags": {
+    "description": "Nella targa seguono otto nomi.",
+    "historic": "memorial",
+    "inscription": "A perenne ricordo della resa del presidio tedesco avvenuta in questo palazzo il 25 aprile 1945 auspice il Comitato di Liberazione Nazionale CAMOGLI a gloria imperitura dei suoi figli migliori caduti per la libertà",
+    "memorial": "plaque",
+    "name": "Resa del presidio tedesco",
+    "start_date": "1948-04-25",
+    "support": "wall_mounted"
+  }
+},
+{
+  "type": "node",
+  "id": 4217782656,
+  "tags": {
+    "amenity": "school",
+    "check_date": "2024-10-17",
+    "name": "Scuola Primaria Stella Maris",
+    "operator": "Istituto Comprensivo Avegno Camogli Recco Uscio"
+  }
+},
+{
+  "type": "node",
+  "id": 4221188450,
+  "tags": {
+    "description": "Statua con basamento con iscrizione",
+    "historic": "memorial",
+    "inscription": "Perchè la magnanima liberalità dell'illustre concittadina Felicina Casabona vedova di Domenico cav. Ferrari ecciti gli emuli nella beneficenza in pro di questo Gli amministratori (...) MDCCCCVII XVIII giugno decretarono concordi questa memoria",
+    "name": "Felicina Casabona"
+  }
+},
+{
+  "type": "node",
+  "id": 4247362154,
+  "tags": {
+    "historic": "memorial",
+    "inscription": "Simbolo purissimo della lotta antifascista Medaglia d'argento Caduto combattendo per la libertà d'Italia 1906 - 1945",
+    "memorial": "plaque",
+    "name": "Prospero Castelletto Baciccia",
+    "support": "wall_mounted"
+  }
+},
+{
+  "type": "node",
+  "id": 4247419849,
+  "tags": {
+    "artist_name": "Dal Pozzo",
+    "historic": "memorial",
+    "memorial": "stele",
+    "name": "Antico forno Oneto",
+    "start_date": "1954"
+  }
+},
+{
+  "type": "node",
+  "id": 4252263836,
+  "tags": {
+    "artist_name": "A cura Centro studi e Italia nostra",
+    "historic": "memorial",
+    "memorial": "plaque",
+    "name": "Piazza già detta palma secca",
+    "start_date": "1989"
+  }
+},
+{
+  "type": "node",
+  "id": 4261694183,
+  "tags": {
+    "amenity": "school",
+    "name": "Istituto alberghiero Marco Polo"
+  }
+},
+{
+  "type": "node",
+  "id": 4272285252,
+  "tags": {
+    "amenity": "theatre",
+    "name": "Salone parrocchiale S. Maria Assunta",
+    "old_name": "Casa del popolo Bendetto 16"
+  }
+},
+{
+  "type": "node",
+  "id": 4272327225,
+  "tags": {
+    "artist_name": "Balàzs Berzsenyi",
+    "historic": "memorial",
+    "inscription": "A periculis libera nos semper virgo gloriosa et benedicta - Sub tuum praesidium confugimus sancta dei genetrix",
+    "memorial": "statue",
+    "name": "Madonna del Boschetto",
+    "start_date": "2011-07"
+  }
+},
+{
+  "type": "node",
+  "id": 4278751963,
+  "tags": {
+    "historic": "memorial",
+    "inscription": "Guardia di finanza qui cadde il 25 settembre 1915 nell'adempimento del proprio dovere",
+    "memorial": "plaque",
+    "name": "Francesco Salaris"
+  }
+},
+{
+  "type": "node",
+  "id": 4356538594,
+  "tags": {
+    "historic": "memorial",
+    "inscription": "Qui dimostrando la potenza dell'associazione iniziatore e primo direttore della mutua assicurazione camogliese modello alle altre tutte e onorata in Parigi di plauso europeo visse Nicolò Schiaffino...",
+    "memorial": "plaque",
+    "name": "Nicolò Schiaffino",
+    "start_date": "1882-01-31",
+    "support": "wall_mounted"
+  }
+},
+{
+  "type": "node",
+  "id": 4358577663,
+  "tags": {
+    "historic": "memorial",
+    "inscription": "In questa casa addi 16 febbraio 1835 nacque Simone Schiaffino volontario di Garibaldi alfiere dei mille eroe di Calatafimi martire della patria",
+    "memorial": "plaque",
+    "name": "Simone Schiaffino",
+    "plaque": "here_was_born",
+    "start_date": "1902-05-15",
+    "subject:wikidata": "Q1564330",
+    "subject:wikipedia": "it:Simone Schiaffino",
+    "support": "wall_mounted"
+  }
+},
+{
+  "type": "node",
+  "id": 4450073627,
+  "tags": {
+    "historic": "memorial",
+    "inscription": "Vittima di guerra Per non dimenticare 14-11-1935 - 15-12-1944",
+    "memorial": "plaque",
+    "name": "Vimercati Ernesto",
+    "support": "wall_mounted"
+  }
+},
+{
+  "type": "node",
+  "id": 7093156045,
+  "tags": {
+    "historic": "memorial",
+    "inscription": "Qui morì il 21-12-1991 la mia adorata Pieranna. A ricordo il marito Luigi",
+    "memorial": "plaque",
+    "name": "Pieranna",
+    "plaque": "here_died",
+    "support": "wall_mounted"
+  }
+},
+{
+  "type": "node",
+  "id": 7214787966,
+  "tags": {
+    "historic": "memorial",
+    "inscription": "Ida Maria Botto Chiola che dedicò a tante giovani vite la sua esistenza nell'educazione morale civile religiosa. La popolazione di Ruta riconoscente",
+    "memorial": "plaque",
+    "name": "Ida Maria Botto Chiola",
+    "start_date": "1985-01-27",
+    "support": "wall_mounted"
+  }
+},
+{
+  "type": "node",
+  "id": 7214787967,
+  "tags": {
+    "historic": "memorial",
+    "inscription": "22.X.1881-0.I.1954 Per cinquanta anni esercitò qui nobilmente l'arte salutare. I suoi concittadini vollero qui ricordata la generosa opera sua",
+    "memorial": "plaque",
+    "name": "Dottor Carlo De Gregori",
+    "start_date": "1954-04-25",
+    "support": "wall_mounted"
+  }
+},
+{
+  "type": "node",
+  "id": 7481729957,
+  "tags": {
+    "historic": "memorial",
+    "material": "metal",
+    "memorial": "plaque",
+    "name": "Sportello dell'antico forno dell'Isola",
+    "support": "wall_mounted"
+  }
+},
+{
+  "type": "node",
+  "id": 7481729959,
+  "tags": {
+    "artist_name": "Centro Studi Camogliesi",
+    "historic": "memorial",
+    "inscription": "Qui riposava e pensava lo scrittore Enrico Bassano.",
+    "memorial": "plaque",
+    "name": "Enrico Bassano",
+    "start_date": "1984"
+  }
+},
+{
+  "type": "node",
+  "id": 7514740134,
+  "tags": {
+    "historic": "memorial",
+    "inscription": "Angela Schiaffino qui vide la Madonna il 2 luglio 1518",
+    "memorial": "plaque",
+    "name": "Angela Schiaffino"
+  }
+},
+{
+  "type": "node",
+  "id": 7572361493,
+  "tags": {
+    "artist_name": "Centro Studi Camogli",
+    "historic": "memorial",
+    "inscription": "Località Fontanella",
+    "memorial": "plaque",
+    "name": "Località Fontanella",
+    "start_date": "1989"
+  }
+},
+{
+  "type": "node",
+  "id": 7572361496,
+  "tags": {
+    "artist_name": "Centro Studi Camogliesi",
+    "historic": "memorial",
+    "inscription": "Ospitale S. Prospero 1690 - 1873",
+    "memorial": "plaque",
+    "name": "Ospitale",
+    "start_date": "1982"
+  }
+},
+{
+  "type": "node",
+  "id": 7578682869,
+  "tags": {
+    "historic": "memorial",
+    "inscription": "Affinchè sia sempre viva ed onorata la memoria delle sorelle Caterina e Maria Avegno le quali emulando il virile ardimento che si tempra nelle lette del mare il 24 aprile 1855 ...",
+    "material": "granite",
+    "memorial": "plaque",
+    "name": "Caterina e Maria Avegno",
+    "start_date": "1905",
+    "support": "wall_mounted"
+  }
+},
+{
+  "type": "node",
+  "id": 8264958823,
+  "tags": {
+    "historic": "memorial",
+    "inscription": "E' la Liguria una terra leggiadra, il sasso ardente e l'argilla pulita, s'avvivano i pampini al sole. E' gigante l'ulivo.",
+    "name": "La Liguria",
+    "support": "wall_mounted"
+  }
+},
+{
+  "type": "node",
+  "id": 9984031569,
+  "tags": {
+    "historic": "memorial",
+    "inscription": "A ricordo di Ido Battistone 1938 - 2005 Il camogliese che partendo da questi scogli ha guidato il suo Dragun sulle acque del mondo. I ragazzi del Gragun",
+    "memorial": "plaque",
+    "name": "Ido Battistone",
+    "start_date": "2006/08/06",
+    "support": "wall_mounted"
+  }
+},
+{
+  "type": "node",
+  "id": 13511612446,
+  "tags": {
+    "historic": "memorial",
+    "inscription": "All'\"angelo\" custode di San Nicolò Maria Antonietta Gelosi \"Tonia\" | 8-4-1916 23-10-2004",
+    "material": "plastic",
+    "memorial": "plaque",
+    "name": "A Maria Antonietta Gelosi",
+    "operator": "Gruppo San Nicolò",
+    "start_date": "2011-12-4"
+  }
+},
+{
+  "type": "node",
+  "id": 13511612447,
+  "tags": {
+    "historic": "memorial",
+    "inscription:1": "Restauro della Chiesa di San Nicolò di Capodimonte / 2010 - 2011 | Realizzato con il patrocinio del Gruppo San Nicolò il generoso contributo finanziario di Regione Liguria, Fondazione Carige, Marina Porto Antico di Genova",
+    "inscription:2": "e di quanti in questi anni hanno sostenuto il suo recupero",
+    "material": "plastic",
+    "memorial": "plaque",
+    "name": "Restauro della chiesa"
+  }
+},
+{
+  "type": "node",
+  "id": 13511612448,
+  "tags": {
+    "historic": "memorial",
+    "inscription": "Restauro della Chiesa di San Nicolò di Capodimonte / 2010 - 2011 | Bruno Sirletti 5-2-1893 12-2-1945 Maria Pugno Sirletti 21-6-1901 28-12-1978 Avv. Bruno Barbagelata 24-8-1948 14-11-2010 | Benefattori",
+    "material": "plastic",
+    "memorial": "plaque",
+    "name": "Ai benefattori del restauro",
+    "operator": "Gruppo San Nicolò"
+  }
+},
+{
+  "type": "node",
+  "id": 13532037274,
+  "tags": {
+    "historic": "memorial",
+    "material": "marble",
+    "memorial": "plaque",
+    "name": "In ricordo dei ragazzi della guerra"
+  }
+},
+{
+  "type": "node",
+  "id": 13532037275,
+  "tags": {
+    "historic": "memorial",
+    "inscription": "A ricordo di Ido Battistone | 1938 - 2005 | Il camogliese che partendo da questi scogli ha guidato il suo dragún sulle acque del mondo | I ragazzi del dragún",
+    "material": "marble",
+    "memorial": "plaque",
+    "name": "A Ido Battistone",
+    "start_date": "2006-08-06"
+  }
+},
+{
+  "type": "node",
+  "id": 13590670108,
+  "tags": {
+    "name": "Piazza Nostra Signora del Boschetto",
+    "place": "square",
+    "short_name": "Piazza N.S. del Boschetto"
+  }
+},
+{
+  "type": "way",
+  "id": 11704194,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "primary",
+    "lanes": "2",
+    "layer": "-1",
+    "maxspeed": "50",
+    "name": "Strada statale 1 Via Aurelia",
+    "nat_ref": "SS1",
+    "oneway": "no",
+    "ref": "SS1",
+    "surface": "asphalt",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 11704203,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Via Aurelia",
+    "nat_name": "Aurelia",
+    "nat_ref": "SS1",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 12900671,
+  "tags": {
+    "alt_name": "Strada Provinciale di Camogli",
+    "highway": "secondary",
+    "name": "Via Enrico Figari",
+    "ref": "SP30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 12901519,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Franco Molfino",
+    "oneway": "no",
+    "sidewalk": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 13856970,
+  "tags": {
+    "highway": "residential",
+    "loc_name": "Viale dei cipressi",
+    "name": "Via San Rocco"
+  }
+},
+{
+  "type": "way",
+  "id": 13856981,
+  "tags": {
+    "foot": "yes",
+    "highway": "unclassified",
+    "name": "Viale Bernardo Gaggini",
+    "sidewalk": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 15528345,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "residential",
+    "lane_markings": "no",
+    "name": "Via Castagneto Seià",
+    "sidewalk": "right",
+    "sidewalk:right:surface": "paving_stones",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 19796997,
+  "tags": {
+    "highway": "secondary",
+    "name": "Corso Giuseppe Mazzini",
+    "ref": "SP30",
+    "sidewalk": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 23266054,
+  "tags": {
+    "highway": "residential",
+    "lane_markings": "no",
+    "name": "Via San Rocco",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 23266141,
+  "tags": {
+    "handrail": "no",
+    "highway": "steps",
+    "incline": "up",
+    "name": "Via Galletti",
+    "ramp": "no",
+    "surface": "concrete",
+    "tactile_paving": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 23266473,
+  "tags": {
+    "bicycle": "no",
+    "highway": "path",
+    "name": "Fornelli - San Rocco",
+    "sac_scale": "hiking",
+    "surface": "dirt",
+    "trail_visibility": "excellent"
+  }
+},
+{
+  "type": "way",
+  "id": 23267493,
+  "tags": {
+    "highway": "pedestrian",
+    "lit": "yes",
+    "name": "Via Giuseppe Garibaldi",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 23267502,
+  "tags": {
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Via Niccolò Cuneo",
+    "oneway": "yes",
+    "sidewalk": "left",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 23267504,
+  "tags": {
+    "highway": "residential",
+    "lit": "yes",
+    "name": "Via Giuseppe Garibaldi"
+  }
+},
+{
+  "type": "way",
+  "id": 23267507,
+  "tags": {
+    "foot": "yes",
+    "highway": "unclassified",
+    "lanes": "1",
+    "name": "Via Gio Bono Ferrari",
+    "oneway": "yes",
+    "sidewalk": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 23267511,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Piazza Colombo",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 23267522,
+  "tags": {
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "lit": "yes",
+    "name": "Via Piero Schiaffino",
+    "sidewalk": "right",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 23267547,
+  "tags": {
+    "highway": "pedestrian",
+    "lit": "yes",
+    "name": "Piazza Colombo",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 23762901,
+  "tags": {
+    "bicycle": "no",
+    "highway": "path",
+    "name": "Fornelli - Batterie",
+    "ref": "GPS",
+    "sac_scale": "hiking",
+    "source": "survey",
+    "surface": "dirt",
+    "trail_visibility": "excellent"
+  }
+},
+{
+  "type": "way",
+  "id": 23763830,
+  "tags": {
+    "highway": "footway",
+    "name": "Via San Nicolò",
+    "sac_scale": "hiking",
+    "surface": "rock"
+  }
+},
+{
+  "type": "way",
+  "id": 23773650,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Franco Molfino",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 23773750,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Franco Molfino",
+    "oneway": "yes",
+    "sidewalk": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 23773752,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "tertiary",
+    "lane_markings": "no",
+    "name": "Via Franco Molfino",
+    "sidewalk": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 23775123,
+  "tags": {
+    "access": "destination",
+    "highway": "residential",
+    "name": "Via Franco Molfino",
+    "sidewalk": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 23775134,
+  "tags": {
+    "highway": "residential",
+    "lane_markings": "no",
+    "lit": "yes",
+    "name": "Via Franco Molfino",
+    "sidewalk": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 24009896,
+  "tags": {
+    "access": "no",
+    "highway": "path",
+    "name": "Sentiero dei Tubi",
+    "note:it": "Prenotazione obbligatoria min. di 8 persone",
+    "phone": "+39 0102345636",
+    "sac_scale": "demanding_mountain_hiking",
+    "surface": "dirt",
+    "trail_visibility": "excellent"
+  }
+},
+{
+  "type": "way",
+  "id": 24009897,
+  "tags": {
+    "access": "no",
+    "highway": "path",
+    "layer": "-1",
+    "name": "Sentiero dei Tubi - Galleria di Pertusi",
+    "note:it": "Prenotazione obbligatoria min. di 8 persone",
+    "phone": "+39 0102345636",
+    "sac_scale": "mountain_hiking",
+    "surface": "dirt",
+    "trail_visibility": "excellent",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 25591612,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "unclassified",
+    "lanes": "1",
+    "maxspeed": "50",
+    "name": "Via Romana",
+    "oneway": "no",
+    "sidewalk": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 25591613,
+  "tags": {
+    "highway": "path",
+    "name": "Via Gaixella",
+    "sac_scale": "hiking",
+    "surface": "paved",
+    "trail_visibility": "excellent"
+  }
+},
+{
+  "type": "way",
+  "id": 25591617,
+  "tags": {
+    "highway": "path",
+    "name": "Porcile - Pian Lungo",
+    "sac_scale": "mountain_hiking",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 25593156,
+  "tags": {
+    "highway": "path",
+    "name": "Ruta - Portofino Vetta",
+    "sac_scale": "hiking",
+    "surface": "dirt",
+    "trail_visibility": "excellent"
+  }
+},
+{
+  "type": "way",
+  "id": 26347872,
+  "tags": {
+    "alt_name": "Via di Fuga",
+    "handrail": "yes",
+    "highway": "steps",
+    "incline": "down",
+    "name": "Scalinata Martiri delle Foibe",
+    "ramp": "no",
+    "surface": "concrete",
+    "tactile_paving": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 26347874,
+  "tags": {
+    "highway": "steps",
+    "name": "Salita San Prospero"
+  }
+},
+{
+  "type": "way",
+  "id": 26347876,
+  "tags": {
+    "highway": "unclassified",
+    "maxspeed": "20",
+    "maxwidth": "1.7",
+    "name": "Via Romana",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 26347877,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Fasceto",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 26440989,
+  "tags": {
+    "access": "private",
+    "foot": "yes",
+    "highway": "residential",
+    "name": "Via Chiesa Vecchia Bana",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 26490700,
+  "tags": {
+    "highway": "footway",
+    "name": "Salita Prione"
+  }
+},
+{
+  "type": "way",
+  "id": 26490701,
+  "tags": {
+    "highway": "steps",
+    "name": "Via Maggiolo",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 26490823,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Castagneto",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 26490826,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Pietro Risso",
+    "oneway": "yes",
+    "sidewalk": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 26490843,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Fratelli Rosselli",
+    "oneway": "yes",
+    "sidewalk": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 26490878,
+  "tags": {
+    "leisure": "garden",
+    "name": "Giardini Ruggero Chiesa"
+  }
+},
+{
+  "type": "way",
+  "id": 39221466,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Angela Schiaffino",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 39221467,
+  "tags": {
+    "highway": "steps",
+    "name": "Scalinata Priaro",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 43106470,
+  "tags": {
+    "foot": "yes",
+    "highway": "steps",
+    "name": "Via Migliaro"
+  }
+},
+{
+  "type": "way",
+  "id": 43106699,
+  "tags": {
+    "foot": "designated",
+    "highway": "steps",
+    "incline": "up",
+    "name": "Via a Sant'Anna",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 43106700,
+  "tags": {
+    "foot": "yes",
+    "handrail": "no",
+    "highway": "steps",
+    "incline": "down",
+    "name": "Via al Porto",
+    "ramp": "no",
+    "step_count": "102",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 54935771,
+  "tags": {
+    "highway": "footway",
+    "name": "Via di Mezzo"
+  }
+},
+{
+  "type": "way",
+  "id": 54936802,
+  "tags": {
+    "highway": "residential",
+    "lanes": "1",
+    "name": "Via Montesecco",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 54936808,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Saccomanno",
+    "sidewalk": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 73553669,
+  "tags": {
+    "alt_name": "Via XX Settembre",
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Via Venti Settembre",
+    "short_name": "Via 20 Settembre",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 73553670,
+  "tags": {
+    "area": "yes",
+    "highway": "pedestrian",
+    "name": "Largo in memoria dei costruttori e caduti per la pace",
+    "note": "l'area è da modificare lato Genova previa osservazione sul posto"
+  }
+},
+{
+  "type": "way",
+  "id": 73553671,
+  "tags": {
+    "access": "designated",
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "residential",
+    "name": "Piazza Simone Schiaffino",
+    "oneway": "yes",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 73553672,
+  "tags": {
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "lit": "yes",
+    "name": "Via della Repubblica",
+    "old_name": "Corso Vittorio Emanuele II",
+    "oneway": "yes",
+    "surface": "sett",
+    "width": "5"
+  }
+},
+{
+  "type": "way",
+  "id": 77195086,
+  "tags": {
+    "area": "yes",
+    "highway": "pedestrian",
+    "name": "Piazza Simone Schiaffino",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 77195087,
+  "tags": {
+    "handrail": "yes",
+    "highway": "steps",
+    "incline": "down",
+    "name": "Salita Pinetto",
+    "ramp": "no",
+    "surface": "paving_stones",
+    "tactile_paving": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 79379864,
+  "tags": {
+    "highway": "footway",
+    "name": "Salita Giacomo Favale",
+    "ramp": "no",
+    "step_count": "50",
+    "surface": "concrete:plates",
+    "tactile_paving": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 79379867,
+  "tags": {
+    "handrail": "yes",
+    "highway": "steps",
+    "incline": "down",
+    "name": "Salita Don Francesco Ansaldo",
+    "ramp": "no",
+    "surface": "paving_stones",
+    "tactile_paving": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 79379868,
+  "tags": {
+    "area": "yes",
+    "highway": "pedestrian",
+    "layer": "1",
+    "name": "Terrazza Miramare",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 88572848,
+  "tags": {
+    "highway": "steps",
+    "name": "Scalinata Gente di Mare"
+  }
+},
+{
+  "type": "way",
+  "id": 88572862,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Sego",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 88572865,
+  "tags": {
+    "highway": "steps",
+    "name": "Via nella Valle",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 88572868,
+  "tags": {
+    "highway": "residential",
+    "name": "Piazza Giacomo Matteotti",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 88572889,
+  "tags": {
+    "area": "yes",
+    "highway": "pedestrian",
+    "lit": "yes",
+    "name": "Piazza Sebastiano Gaggini",
+    "surface": "sett"
+  }
+},
+{
+  "type": "way",
+  "id": 88572933,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Fratelli Rosselli"
+  }
+},
+{
+  "type": "way",
+  "id": 88572940,
+  "tags": {
+    "highway": "steps",
+    "name": "Salita Prione",
+    "ramp": "no",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 88572960,
+  "tags": {
+    "highway": "footway",
+    "name": "Salita Prione",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 139505257,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Migliaro"
+  }
+},
+{
+  "type": "way",
+  "id": 139505259,
+  "tags": {
+    "highway": "residential",
+    "maxwidth": "1.8",
+    "name": "Via Romana",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 139505262,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Migliaro",
+    "sidewalk": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 139538998,
+  "tags": {
+    "highway": "footway",
+    "name": "Via San Rocco",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 139539002,
+  "tags": {
+    "alt_name": "Via XXV Aprile",
+    "cycleway:both": "no",
+    "highway": "tertiary",
+    "name": "Via Venticinque Aprile",
+    "oneway": "no",
+    "ref": "SP31",
+    "short_name": "Via 25 Aprile",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 139539012,
+  "tags": {
+    "highway": "footway",
+    "name": "Salita Prione"
+  }
+},
+{
+  "type": "way",
+  "id": 139539016,
+  "tags": {
+    "handrail": "yes",
+    "highway": "steps",
+    "incline": "up",
+    "lit": "yes",
+    "name": "Scalinata Don G.B. Calvi",
+    "ramp": "no",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 139539019,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Livello",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 139539020,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Castagneto",
+    "oneway": "yes",
+    "sidewalk": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 139540825,
+  "tags": {
+    "access": "private",
+    "highway": "residential",
+    "name": "Via San Lazzaro"
+  }
+},
+{
+  "type": "way",
+  "id": 165217268,
+  "tags": {
+    "highway": "steps",
+    "layer": "-1",
+    "name": "Scalinata Priaro"
+  }
+},
+{
+  "type": "way",
+  "id": 165217269,
+  "tags": {
+    "handrail": "yes",
+    "highway": "steps",
+    "name": "Scalinata Priaro",
+    "ramp": "no",
+    "surface": "concrete",
+    "tactile_paving": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 172065945,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Cristoforo Colombo",
+    "sidewalk": "right",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 172065947,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Niccolò Cuneo"
+  }
+},
+{
+  "type": "way",
+  "id": 178135005,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "residential",
+    "lane_markings": "no",
+    "name": "Via Lorenzo Bozzo",
+    "oneway": "no",
+    "sidewalk:both": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 180227137,
+  "tags": {
+    "highway": "footway",
+    "name": "Via San Giovanni Bono"
+  }
+},
+{
+  "type": "way",
+  "id": 182656876,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Castagneto"
+  }
+},
+{
+  "type": "way",
+  "id": 182656878,
+  "tags": {
+    "highway": "footway",
+    "lit": "yes",
+    "name": "Via Castagneto"
+  }
+},
+{
+  "type": "way",
+  "id": 182656880,
+  "tags": {
+    "highway": "footway",
+    "lit": "yes",
+    "name": "Via Castagneto",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 182656887,
+  "tags": {
+    "handrail": "yes",
+    "highway": "steps",
+    "name": "Via Castagneto",
+    "ramp": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 183775617,
+  "tags": {
+    "highway": "service",
+    "name": "Via San Bartolomeo",
+    "service": "alley",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 183775618,
+  "tags": {
+    "bridge": "yes",
+    "cycleway:both": "no",
+    "highway": "residential",
+    "lane_markings": "no",
+    "layer": "1",
+    "lit": "yes",
+    "maxweight:signed": "no",
+    "name": "Ponte di Cò",
+    "sidewalk": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 184196387,
+  "tags": {
+    "highway": "path",
+    "mtb:scale": "2",
+    "name": "Via Caravaggio",
+    "sac_scale": "hiking",
+    "surface": "cobblestone",
+    "symbol:it": "Due cerchi rossi vuoti",
+    "trail_visibility": "excellent"
+  }
+},
+{
+  "type": "way",
+  "id": 190258603,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Montesecco",
+    "note": "questo tratto è intervallato da qualche gradino ogni tanto."
+  }
+},
+{
+  "type": "way",
+  "id": 199056822,
+  "tags": {
+    "bicycle": "no",
+    "highway": "footway",
+    "lit": "yes",
+    "name": "Via Mortola",
+    "surface": "sett"
+  }
+},
+{
+  "type": "way",
+  "id": 199288363,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "residential",
+    "lane_markings": "no",
+    "motor_vehicle": "destination",
+    "name": "Via Lorenzo Bozzo",
+    "oneway": "no",
+    "sidewalk": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 199288364,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "residential",
+    "lane_markings": "no",
+    "layer": "-1",
+    "name": "Via Lorenzo Bozzo",
+    "oneway": "no",
+    "sidewalk:both": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 199288400,
+  "tags": {
+    "bridge": "viaduct",
+    "highway": "footway",
+    "layer": "1",
+    "name": "Salita Giuliano Capece",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 199288413,
+  "tags": {
+    "highway": "footway",
+    "name": "Salita Giuliano Capece",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 200437499,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Mortola",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 204658204,
+  "tags": {
+    "highway": "footway",
+    "name": "Salita Bastia"
+  }
+},
+{
+  "type": "way",
+  "id": 204658470,
+  "tags": {
+    "alt_name": "Via del Dazio",
+    "highway": "footway",
+    "name": "Via San Giacomo Inferiore"
+  }
+},
+{
+  "type": "way",
+  "id": 204658775,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Migliaro"
+  }
+},
+{
+  "type": "way",
+  "id": 204658934,
+  "tags": {
+    "highway": "footway",
+    "name": "Via San Giacomo"
+  }
+},
+{
+  "type": "way",
+  "id": 204658935,
+  "tags": {
+    "highway": "footway",
+    "name": "Via San Giacomo"
+  }
+},
+{
+  "type": "way",
+  "id": 204658974,
+  "tags": {
+    "highway": "steps",
+    "name": "Via San Giacomo"
+  }
+},
+{
+  "type": "way",
+  "id": 204658975,
+  "tags": {
+    "highway": "steps",
+    "name": "Via San Giacomo"
+  }
+},
+{
+  "type": "way",
+  "id": 204693123,
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "church",
+    "check_date": "2025-08-01",
+    "denomination": "catholic",
+    "layer": "1",
+    "level": "1;2;3",
+    "name": "Abbazia di San Fruttuoso",
+    "operator": "FAI",
+    "operator:wikidata": "Q838266",
+    "religion": "christian",
+    "tourism": "attraction",
+    "website": "https://fondoambiente.it/luoghi/abbazia-di-san-fruttuoso",
+    "wikidata": "Q334365",
+    "wikimedia_commons": "Category:Abbazia di San Fruttuoso (Camogli)",
+    "wikipedia": "it:Abbazia di San Fruttuoso"
+  }
+},
+{
+  "type": "way",
+  "id": 204693140,
+  "tags": {
+    "amenity": "townhall",
+    "building": "yes",
+    "name": "Municipio di Camogli",
+    "source": "Regione Liguria"
+  }
+},
+{
+  "type": "way",
+  "id": 204693151,
+  "tags": {
+    "building": "yes",
+    "historic": "yes",
+    "man_made": "tower",
+    "name": "Torre Doria",
+    "source": "Regione Liguria",
+    "tourism": "attraction",
+    "tower:type": "defensive"
+  }
+},
+{
+  "type": "way",
+  "id": 204693153,
+  "tags": {
+    "highway": "pedestrian",
+    "lit": "yes",
+    "name": "Via Giuseppe Garibaldi",
+    "oneway": "yes",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 204693154,
+  "tags": {
+    "fixme": "verificare sul posto",
+    "highway": "pedestrian",
+    "name": "Via Giuseppe Garibaldi",
+    "surface": "sett"
+  }
+},
+{
+  "type": "way",
+  "id": 204693781,
+  "tags": {
+    "building": "yes",
+    "castle_type": "fortress",
+    "historic": "castle",
+    "name": "Castello della Dragonara",
+    "tourism": "attraction",
+    "wikidata": "Q3662434",
+    "wikipedia": "it:Castello della Dragonara"
+  }
+},
+{
+  "type": "way",
+  "id": 204696087,
+  "tags": {
+    "addr:street": "Piazza Giacomo Matteotti",
+    "amenity": "theatre",
+    "building": "yes",
+    "historic": "yes",
+    "name": "Teatro Sociale",
+    "source": "Regione Liguria"
+  }
+},
+{
+  "type": "way",
+  "id": 204697473,
+  "tags": {
+    "addr:city": "Camogli",
+    "addr:housenumber": "171",
+    "addr:postcode": "16032",
+    "addr:street": "Via Romana",
+    "amenity": "library",
+    "building": "yes",
+    "email": "bibliotecalamillenaria@yahoo.it",
+    "name": "La Millenaria",
+    "opening_hours": "Tu, Fr 09:00-12:00, 16:00-18:00",
+    "phone": "+39 334 707 0768",
+    "source": "Regione Liguria",
+    "website": "https://sites.google.com/site/bibliotecadiruta/",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 204698949,
+  "tags": {
+    "addr:housenumber": "153",
+    "addr:street": "Via Romana",
+    "amenity": "cinema",
+    "building": "yes",
+    "name": "San Giuseppe",
+    "source": "Regione Liguria"
+  }
+},
+{
+  "type": "way",
+  "id": 204700538,
+  "tags": {
+    "building": "yes",
+    "leisure": "sports_centre",
+    "name": "Piscina Comunale G. Baldini",
+    "source": "Regione Liguria",
+    "sport": "swimming"
+  }
+},
+{
+  "type": "way",
+  "id": 204954145,
+  "tags": {
+    "description": "Sindaco di Camogli dal 1907 al 1926",
+    "highway": "steps",
+    "name": "Salita Davide Olivari"
+  }
+},
+{
+  "type": "way",
+  "id": 204954260,
+  "tags": {
+    "highway": "residential",
+    "name": "Piazza Don Giovanni Minzoni",
+    "old_name": "Piazza Tripoli"
+  }
+},
+{
+  "type": "way",
+  "id": 205797357,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Mortola",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 206728801,
+  "tags": {
+    "highway": "footway",
+    "name": "Via San Rocco",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 206728807,
+  "tags": {
+    "foot": "yes",
+    "highway": "footway",
+    "name": "Via San Rocco",
+    "surface": "sett"
+  }
+},
+{
+  "type": "way",
+  "id": 216659320,
+  "tags": {
+    "check_date:surface": "2025-04-02",
+    "highway": "footway",
+    "name": "Via San Rocco",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 216659322,
+  "tags": {
+    "highway": "footway",
+    "lit": "yes",
+    "name": "Via San Rocco",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 216659323,
+  "tags": {
+    "highway": "footway",
+    "lit": "yes",
+    "name": "Via San Rocco",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 216659324,
+  "tags": {
+    "handrail": "no",
+    "highway": "steps",
+    "incline": "up",
+    "lit": "yes",
+    "name": "Via San Rocco",
+    "ramp": "no",
+    "surface": "concrete",
+    "tactile_paving": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 216659325,
+  "tags": {
+    "handrail": "no",
+    "highway": "steps",
+    "incline": "up",
+    "name": "Via San Rocco",
+    "ramp": "no",
+    "surface": "concrete",
+    "tactile_paving": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 216659326,
+  "tags": {
+    "handrail": "no",
+    "highway": "steps",
+    "incline": "up",
+    "name": "Via San Rocco",
+    "ramp": "no",
+    "surface": "concrete",
+    "tactile_paving": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 216659327,
+  "tags": {
+    "check_date:surface": "2025-04-02",
+    "highway": "footway",
+    "name": "Via San Rocco",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 216659328,
+  "tags": {
+    "handrail": "no",
+    "highway": "steps",
+    "incline": "up",
+    "name": "Via San Rocco",
+    "ramp": "no",
+    "surface": "concrete",
+    "tactile_paving": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 216659329,
+  "tags": {
+    "highway": "footway",
+    "lit": "yes",
+    "name": "Via San Rocco",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 216659330,
+  "tags": {
+    "handrail": "no",
+    "highway": "steps",
+    "incline": "up",
+    "name": "Via San Rocco",
+    "ramp": "no",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 216659341,
+  "tags": {
+    "highway": "footway",
+    "name": "Via San Rocco",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 216659343,
+  "tags": {
+    "access": "no",
+    "bicycle": "no",
+    "highway": "path",
+    "horse": "no",
+    "motor_vehicle": "no",
+    "name": "Sentiero dei tubi",
+    "note:it": "Prenotazione obbligatoria min. di 8 persone",
+    "phone": "+39 0102345636",
+    "sac_scale": "demanding_mountain_hiking",
+    "trail_visibility": "intermediate"
+  }
+},
+{
+  "type": "way",
+  "id": 243697414,
+  "tags": {
+    "highway": "path",
+    "name": "Sentiero di servizio",
+    "sac_scale": "mountain_hiking"
+  }
+},
+{
+  "type": "way",
+  "id": 258564220,
+  "tags": {
+    "highway": "footway",
+    "lit": "yes",
+    "name": "Via San Bartolomeo",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 258564221,
+  "tags": {
+    "bridge": "yes",
+    "highway": "service",
+    "layer": "1",
+    "maxweight:signed": "no",
+    "name": "Via San Bartolomeo",
+    "service": "alley",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 266536091,
+  "tags": {
+    "foot": "yes",
+    "highway": "steps",
+    "name": "Salita Priaro",
+    "step_count": "325",
+    "surface": "cobblestone"
+  }
+},
+{
+  "type": "way",
+  "id": 266537598,
+  "tags": {
+    "foot": "yes",
+    "highway": "steps",
+    "name": "Via Nella Valle"
+  }
+},
+{
+  "type": "way",
+  "id": 266537911,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "footway",
+    "incline": "0%",
+    "motor_vehicle": "permit",
+    "name": "Piazza Nostra Signora del Boschetto",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 266538274,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Scalette"
+  }
+},
+{
+  "type": "way",
+  "id": 266538275,
+  "tags": {
+    "highway": "steps",
+    "name": "Via Scalette"
+  }
+},
+{
+  "type": "way",
+  "id": 266538587,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Torrasco"
+  }
+},
+{
+  "type": "way",
+  "id": 266538689,
+  "tags": {
+    "highway": "steps",
+    "name": "Salita Don Francesco Ansaldo",
+    "step_count": "91",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 269740268,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Franco Molfino",
+    "sidewalk": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 270575284,
+  "tags": {
+    "highway": "path",
+    "name": "Sentiero di servizio Semaforo nuovo - Monte Campana",
+    "ref": "GPS",
+    "sac_scale": "mountain_hiking",
+    "surface": "ground",
+    "trail_visibility": "good"
+  }
+},
+{
+  "type": "way",
+  "id": 300207262,
+  "tags": {
+    "highway": "steps",
+    "name": "Via Torrasco"
+  }
+},
+{
+  "type": "way",
+  "id": 300207263,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Torrasco",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 300207264,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Torrasco",
+    "surface": "paved",
+    "tunnel": "building_passage",
+    "width": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 300211343,
+  "tags": {
+    "highway": "footway",
+    "name": "Via dell'Isola",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 300211344,
+  "tags": {
+    "highway": "footway",
+    "name": "Via dell'Isola",
+    "surface": "pebblestone"
+  }
+},
+{
+  "type": "way",
+  "id": 300211345,
+  "tags": {
+    "highway": "footway",
+    "name": "Via dell'Isola",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 300211349,
+  "tags": {
+    "foot": "designated",
+    "handrail": "no",
+    "highway": "steps",
+    "incline": "down",
+    "layer": "-1",
+    "lit": "yes",
+    "name": "Via dell'Isola",
+    "tunnel": "building_passage"
+  }
+},
+{
+  "type": "way",
+  "id": 300211353,
+  "tags": {
+    "highway": "footway",
+    "name": "Via dell'Isola",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 300211357,
+  "tags": {
+    "highway": "footway",
+    "name": "Via dell'Isola",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 300211364,
+  "tags": {
+    "highway": "footway",
+    "name": "Piazza Colombo",
+    "old_name": "Ghiccio"
+  }
+},
+{
+  "type": "way",
+  "id": 300213855,
+  "tags": {
+    "highway": "footway",
+    "name": "Via San Bartolomeo",
+    "surface": "sett"
+  }
+},
+{
+  "type": "way",
+  "id": 300213856,
+  "tags": {
+    "foot": "designated",
+    "highway": "steps",
+    "name": "Via San Bartolomeo",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 300218420,
+  "tags": {
+    "access": "yes",
+    "handrail": "yes",
+    "highway": "steps",
+    "incline": "down",
+    "lit": "yes",
+    "name": "Salita Priaro",
+    "ramp": "no",
+    "surface": "paved",
+    "tactile_paving": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 300218421,
+  "tags": {
+    "highway": "footway",
+    "lit": "yes",
+    "name": "Salita Priaro",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 300218423,
+  "tags": {
+    "highway": "footway",
+    "name": "Salita Priaro",
+    "surface": "paved",
+    "tunnel": "building_passage"
+  }
+},
+{
+  "type": "way",
+  "id": 300218424,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Giuseppe Garibaldi",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 300218426,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Giuseppe Garibaldi",
+    "surface": "sett",
+    "tunnel": "building_passage"
+  }
+},
+{
+  "type": "way",
+  "id": 300218433,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Tommaso Racca",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 300218435,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Tommaso Racca",
+    "surface": "paving_stones",
+    "tunnel": "building_passage"
+  }
+},
+{
+  "type": "way",
+  "id": 300218439,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Tommaso Racca",
+    "surface": "paved",
+    "tunnel": "building_passage"
+  }
+},
+{
+  "type": "way",
+  "id": 300218455,
+  "tags": {
+    "foot": "designated",
+    "handrail": "yes",
+    "highway": "steps",
+    "incline": "up",
+    "name": "Via Scalo",
+    "ramp": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 300240478,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "loc_name": "Rampa",
+    "name": "Via San Fortunato",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 300240479,
+  "tags": {
+    "foot": "yes",
+    "highway": "living_street",
+    "motor_vehicle": "destination",
+    "name": "Via al Porto",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 300240480,
+  "tags": {
+    "foot": "designated",
+    "handrail": "yes",
+    "highway": "steps",
+    "incline": "up",
+    "lit": "yes",
+    "name": "Via al Porto",
+    "ramp": "no",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 300240481,
+  "tags": {
+    "highway": "footway",
+    "lit": "yes",
+    "name": "Via al Porto",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 300240482,
+  "tags": {
+    "highway": "footway",
+    "name": "Piazza Goffredo Mameli",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 300240486,
+  "tags": {
+    "foot": "designated",
+    "highway": "steps",
+    "name": "Scale dell'Orto",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 300277617,
+  "tags": {
+    "man_made": "pier",
+    "name": "Molo Giorgio",
+    "wikimedia_commons": "File:Camogli Views 6.jpg"
+  }
+},
+{
+  "type": "way",
+  "id": 305454486,
+  "tags": {
+    "access": "permit",
+    "highway": "path",
+    "layer": "-1",
+    "name": "Sentiero dei Tubi - Galleria Cassadiau",
+    "note:it": "Prenotazione obbligatoria min. di 8 persone",
+    "phone": "+39 0102345636",
+    "sac_scale": "mountain_hiking",
+    "trail_visibility": "excellent",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 305454487,
+  "tags": {
+    "access": "no",
+    "highway": "path",
+    "name": "Sentiero dei Tubi",
+    "note:it": "Prenotazione obbligatoria min. di 8 persone",
+    "phone": "+39 0102345636",
+    "sac_scale": "demanding_mountain_hiking",
+    "trail_visibility": "excellent"
+  }
+},
+{
+  "type": "way",
+  "id": 309369480,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "tertiary",
+    "lane_markings": "yes",
+    "lanes": "2",
+    "maxheight": "3.8",
+    "maxspeed": "30",
+    "name": "Via Giovanni Bettolo",
+    "sidewalk": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 309369482,
+  "tags": {
+    "leisure": "dog_park",
+    "name": "Giardini Armando Valle"
+  }
+},
+{
+  "type": "way",
+  "id": 309369485,
+  "tags": {
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Via Jacopo Ruffini",
+    "sidewalk": "right",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 309369488,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Via al molo"
+  }
+},
+{
+  "type": "way",
+  "id": 309369491,
+  "tags": {
+    "highway": "residential",
+    "lit": "yes",
+    "name": "Via Romana",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 309369493,
+  "tags": {
+    "highway": "footway",
+    "lit": "yes",
+    "name": "Via Romana",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 309369495,
+  "tags": {
+    "highway": "steps",
+    "name": "Via Sego"
+  }
+},
+{
+  "type": "way",
+  "id": 309369496,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Sego",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 309369497,
+  "tags": {
+    "highway": "steps",
+    "name": "Via nella Valle"
+  }
+},
+{
+  "type": "way",
+  "id": 309370422,
+  "tags": {
+    "comment": "Potrebbe essere interrotta circa a metà",
+    "highway": "footway",
+    "name": "Via Trea",
+    "surface": "cobblestone"
+  }
+},
+{
+  "type": "way",
+  "id": 309370423,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "lanes": "1",
+    "maxspeed": "50",
+    "name": "Via Romana",
+    "oneway": "no",
+    "sidewalk": "no",
+    "surface": "asphalt",
+    "width": "2"
+  }
+},
+{
+  "type": "way",
+  "id": 309370424,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via avv. Filippo Degregori",
+    "oneway": "no",
+    "sidewalk": "no",
+    "width": "2"
+  }
+},
+{
+  "type": "way",
+  "id": 309378569,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Maggiolo",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 309378572,
+  "tags": {
+    "highway": "steps",
+    "name": "Salita Prione",
+    "ramp": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 309378575,
+  "tags": {
+    "highway": "steps",
+    "incline": "up",
+    "name": "Salita Prione",
+    "ramp": "wheelchair",
+    "surface": "paved",
+    "tactile_paving": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 309378578,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Maggiolo",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 309378584,
+  "tags": {
+    "highway": "footway",
+    "name": "Via di Mezzo"
+  }
+},
+{
+  "type": "way",
+  "id": 309378586,
+  "tags": {
+    "highway": "steps",
+    "name": "Salita Prione"
+  }
+},
+{
+  "type": "way",
+  "id": 309378588,
+  "tags": {
+    "highway": "steps",
+    "lit": "yes",
+    "name": "Via Seià"
+  }
+},
+{
+  "type": "way",
+  "id": 309378591,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Saccomanno"
+  }
+},
+{
+  "type": "way",
+  "id": 309378593,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Saccomanno"
+  }
+},
+{
+  "type": "way",
+  "id": 309378597,
+  "tags": {
+    "highway": "steps",
+    "incline": "down",
+    "name": "Via Saccomanno",
+    "ramp": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 309378599,
+  "tags": {
+    "highway": "steps",
+    "name": "Via Livello",
+    "surface": "stone"
+  }
+},
+{
+  "type": "way",
+  "id": 309378605,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Monti",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 309378608,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Monti"
+  }
+},
+{
+  "type": "way",
+  "id": 309378610,
+  "tags": {
+    "highway": "steps",
+    "name": "Via Monti",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 309378614,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Lagno"
+  }
+},
+{
+  "type": "way",
+  "id": 309378616,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Lagno"
+  }
+},
+{
+  "type": "way",
+  "id": 309378621,
+  "tags": {
+    "handrail": "no",
+    "highway": "steps",
+    "incline": "up",
+    "lit": "yes",
+    "name": "Via Montesecco",
+    "ramp": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 309378622,
+  "tags": {
+    "highway": "footway",
+    "lit": "yes",
+    "name": "Via San Rocco"
+  }
+},
+{
+  "type": "way",
+  "id": 309378623,
+  "tags": {
+    "highway": "steps",
+    "name": "Via Sego",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 309378625,
+  "tags": {
+    "highway": "residential",
+    "name": "Via di Mezzo",
+    "sidewalk": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 309378628,
+  "tags": {
+    "highway": "steps",
+    "name": "Via Fasceto"
+  }
+},
+{
+  "type": "way",
+  "id": 309378632,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Migliaro"
+  }
+},
+{
+  "type": "way",
+  "id": 309378634,
+  "tags": {
+    "highway": "secondary",
+    "maxspeed": "30",
+    "name": "Corso Giuseppe Mazzini",
+    "old_name": "Corso Regina Margherita",
+    "ref": "SP30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 309378635,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "secondary",
+    "lane_markings": "yes",
+    "lanes": "2",
+    "name": "Via Jacopo Ruffini",
+    "ref": "SP30",
+    "sidewalk": "right",
+    "sidewalk:right:surface": "asphalt",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 309379549,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Via Aurelia",
+    "nat_ref": "SS1",
+    "oneway": "no",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "sidewalk": "right",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 309442424,
+  "tags": {
+    "highway": "residential",
+    "name": "Via San Giacomo",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 309442427,
+  "tags": {
+    "highway": "steps",
+    "name": "Via Caracco"
+  }
+},
+{
+  "type": "way",
+  "id": 309444321,
+  "tags": {
+    "highway": "track",
+    "name": "Via Romana",
+    "tracktype": "grade2"
+  }
+},
+{
+  "type": "way",
+  "id": 309444322,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Chiesa Vecchia Bana",
+    "sidewalk": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 309444459,
+  "tags": {
+    "highway": "track",
+    "name": "Via alle piane di Tedora",
+    "tracktype": "grade2"
+  }
+},
+{
+  "type": "way",
+  "id": 309454404,
+  "tags": {
+    "highway": "steps",
+    "name": "Scale dell'Orto"
+  }
+},
+{
+  "type": "way",
+  "id": 309454406,
+  "tags": {
+    "area": "yes",
+    "highway": "pedestrian",
+    "name": "Piazza Don Giovanni Bosco",
+    "old_name": "Piazza della Vittoria",
+    "place": "square",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 309454408,
+  "tags": {
+    "highway": "steps",
+    "name": "Salita Roccaballera"
+  }
+},
+{
+  "type": "way",
+  "id": 309454410,
+  "tags": {
+    "highway": "footway",
+    "name": "Via San Giovanni Bono"
+  }
+},
+{
+  "type": "way",
+  "id": 309456380,
+  "tags": {
+    "handrail": "no",
+    "highway": "steps",
+    "incline": "up",
+    "lit": "no",
+    "name": "Via Pietro Chiesa",
+    "ramp": "no",
+    "step_count": "147",
+    "surface": "concrete",
+    "tactile_paving": "no",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 309456381,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Nicolò Olivari"
+  }
+},
+{
+  "type": "way",
+  "id": 309456382,
+  "tags": {
+    "highway": "footway",
+    "lit": "no",
+    "name": "Via Romana",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 309456383,
+  "tags": {
+    "highway": "unclassified",
+    "lanes": "1",
+    "name": "Via avv. Filippo Degregori",
+    "oneway": "no",
+    "surface": "fine_gravel"
+  }
+},
+{
+  "type": "way",
+  "id": 309462026,
+  "tags": {
+    "highway": "steps",
+    "name": "Via San Nicolò",
+    "sac_scale": "hiking",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 309462034,
+  "tags": {
+    "highway": "path",
+    "name": "Via Galletti",
+    "sac_scale": "hiking",
+    "surface": "unhewn_cobblestone",
+    "trail_visibility": "excellent"
+  }
+},
+{
+  "type": "way",
+  "id": 309619008,
+  "tags": {
+    "area": "yes",
+    "highway": "pedestrian",
+    "name": "Piazzale Don Giovanni Schiaffino"
+  }
+},
+{
+  "type": "way",
+  "id": 309624506,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Viale Bernardo Gaggini",
+    "sidewalk": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 309631195,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Castagneto Seià",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 309631196,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Pissorella Rio"
+  }
+},
+{
+  "type": "way",
+  "id": 309631197,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Pissorella Rio",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 309631201,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Ansaldo"
+  }
+},
+{
+  "type": "way",
+  "id": 309632744,
+  "tags": {
+    "area": "yes",
+    "highway": "pedestrian",
+    "name": "Largo Comandante Luigi Simonetti",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 309632745,
+  "tags": {
+    "name": "Largo Tristan da Cunha",
+    "place": "square",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 310665669,
+  "tags": {
+    "highway": "track",
+    "name": "Via Costa di Bana",
+    "tracktype": "grade2"
+  }
+},
+{
+  "type": "way",
+  "id": 310665670,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Costa di Bana"
+  }
+},
+{
+  "type": "way",
+  "id": 310665671,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Chiesa Vecchia Bana"
+  }
+},
+{
+  "type": "way",
+  "id": 310671229,
+  "tags": {
+    "area": "yes",
+    "highway": "pedestrian",
+    "name": "Rotonda \"Sorelle Avegno\""
+  }
+},
+{
+  "type": "way",
+  "id": 310671232,
+  "tags": {
+    "handrail": "yes",
+    "highway": "steps",
+    "incline": "up",
+    "name": "Scalinata Luigi Risso",
+    "ramp": "no",
+    "surface": "sett"
+  }
+},
+{
+  "type": "way",
+  "id": 310672572,
+  "tags": {
+    "highway": "footway",
+    "name": "Salita Priaro"
+  }
+},
+{
+  "type": "way",
+  "id": 312449304,
+  "tags": {
+    "building": "yes",
+    "name": "Centro visite Batterie",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "way",
+  "id": 327805006,
+  "tags": {
+    "highway": "path",
+    "name": "Via Gaixella",
+    "sac_scale": "hiking",
+    "surface": "dirt",
+    "trail_visibility": "excellent"
+  }
+},
+{
+  "type": "way",
+  "id": 328150445,
+  "tags": {
+    "access": "no",
+    "highway": "path",
+    "name": "Sentiero dei tubi",
+    "note:it": "Prenotazione obbligatoria min. di 8 persone",
+    "phone": "+39 0102345636",
+    "sac_scale": "mountain_hiking",
+    "trail_visibility": "good"
+  }
+},
+{
+  "type": "way",
+  "id": 328169339,
+  "tags": {
+    "access": "no",
+    "highway": "path",
+    "layer": "-1",
+    "name": "Galleria Sentiero dei Tubi",
+    "sac_scale": "mountain_hiking",
+    "trail_visibility": "excellent",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 328169340,
+  "tags": {
+    "access": "permit",
+    "highway": "path",
+    "name": "Sentiero dei Tubi",
+    "note:it": "Prenotazione obbligatoria min. di 8 persone",
+    "phone": "+39 0102345636",
+    "sac_scale": "demanding_mountain_hiking",
+    "surface": "dirt",
+    "trail_visibility": "excellent"
+  }
+},
+{
+  "type": "way",
+  "id": 346180354,
+  "tags": {
+    "access": "no",
+    "highway": "path",
+    "name": "Sentiero dei Tubi",
+    "note:it": "Prenotazione obbligatoria min. di 8 persone",
+    "phone": "+39 0102345636",
+    "sac_scale": "mountain_hiking",
+    "trail_visibility": "excellent"
+  }
+},
+{
+  "type": "way",
+  "id": 346882700,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Caravaggio",
+    "surface": "paved",
+    "symbol:it": "Due cerchi rossi vuoti"
+  }
+},
+{
+  "type": "way",
+  "id": 346898865,
+  "tags": {
+    "highway": "steps",
+    "name": "Via nella Valle"
+  }
+},
+{
+  "type": "way",
+  "id": 355425254,
+  "tags": {
+    "area": "yes",
+    "highway": "residential",
+    "name": "Largo Emanuele Vittorio Bozzo"
+  }
+},
+{
+  "type": "way",
+  "id": 355425255,
+  "tags": {
+    "handrail": "yes",
+    "highway": "steps",
+    "incline": "up",
+    "name": "Via San Rocco",
+    "ramp": "no",
+    "step_count": "17",
+    "surface": "concrete",
+    "tactile_paving": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 372809997,
+  "tags": {
+    "highway": "path",
+    "layer": "-1",
+    "name": "Sentiero dei Tubi",
+    "note:it": "Prenotazione obbligatoria min. di 8 persone",
+    "phone": "+39 0102345636",
+    "sac_scale": "mountain_hiking",
+    "trail_visibility": "excellent",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 372809998,
+  "tags": {
+    "highway": "path",
+    "name": "Sentiero dei Tubi",
+    "note:it": "Prenotazione obbligatoria min. di 8 persone. Necessita di manutenzione per garantire la percorribilità (alberi caduti, rovi).",
+    "phone": "+39 0102345636",
+    "sac_scale": "demanding_mountain_hiking",
+    "surface": "dirt",
+    "survey:date": "2018-04-30",
+    "trail_visibility": "intermediate"
+  }
+},
+{
+  "type": "way",
+  "id": 380033575,
+  "tags": {
+    "highway": "footway",
+    "name": "Salita Prione"
+  }
+},
+{
+  "type": "way",
+  "id": 380033576,
+  "tags": {
+    "highway": "steps",
+    "name": "Salita Prione"
+  }
+},
+{
+  "type": "way",
+  "id": 380033577,
+  "tags": {
+    "bridge": "yes",
+    "highway": "residential",
+    "layer": "1",
+    "name": "Via Pissorella Rio"
+  }
+},
+{
+  "type": "way",
+  "id": 380033578,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Pissorella Rio"
+  }
+},
+{
+  "type": "way",
+  "id": 384888050,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Montesecco"
+  }
+},
+{
+  "type": "way",
+  "id": 384888052,
+  "tags": {
+    "highway": "pedestrian",
+    "layer": "-1",
+    "name": "Via al molo",
+    "tunnel": "building_passage"
+  }
+},
+{
+  "type": "way",
+  "id": 384888053,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Via al molo"
+  }
+},
+{
+  "type": "way",
+  "id": 384888067,
+  "tags": {
+    "area": "yes",
+    "highway": "pedestrian",
+    "layer": "1",
+    "name": "Terrazza Lido",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 402211925,
+  "tags": {
+    "highway": "path",
+    "name": "Sentiero Torre saracena Salvo D'Acquisto",
+    "ref": "GPS",
+    "sac_scale": "demanding_mountain_hiking",
+    "surface": "ground",
+    "trail_visibility": "horrible"
+  }
+},
+{
+  "type": "way",
+  "id": 402211926,
+  "tags": {
+    "access": "no",
+    "highway": "path",
+    "name": "Sentiero Torre saracena Salvo D'Acquisto",
+    "ref": "GPS",
+    "sac_scale": "demanding_mountain_hiking",
+    "surface": "ground",
+    "trail_visibility": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 402211927,
+  "tags": {
+    "highway": "path",
+    "name": "Sentiero per Cala dell'Oro",
+    "ref": "GPS",
+    "sac_scale": "demanding_mountain_hiking",
+    "surface": "ground",
+    "trail_visibility": "bad"
+  }
+},
+{
+  "type": "way",
+  "id": 402211929,
+  "tags": {
+    "highway": "path",
+    "name": "Traccia Monte Campana",
+    "ref": "GPS",
+    "sac_scale": "demanding_mountain_hiking",
+    "surface": "ground",
+    "trail_visibility": "intermediate"
+  }
+},
+{
+  "type": "way",
+  "id": 404536098,
+  "tags": {
+    "highway": "steps",
+    "lit": "yes",
+    "name": "Via San Rocco"
+  }
+},
+{
+  "type": "way",
+  "id": 404536099,
+  "tags": {
+    "highway": "footway",
+    "lit": "yes",
+    "name": "Via San Rocco"
+  }
+},
+{
+  "type": "way",
+  "id": 404536100,
+  "tags": {
+    "highway": "footway",
+    "lit": "yes",
+    "name": "Via Seià"
+  }
+},
+{
+  "type": "way",
+  "id": 404536101,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Seià"
+  }
+},
+{
+  "type": "way",
+  "id": 404536102,
+  "tags": {
+    "highway": "steps",
+    "lit": "yes",
+    "name": "Via Seià"
+  }
+},
+{
+  "type": "way",
+  "id": 406302284,
+  "tags": {
+    "highway": "footway",
+    "lit": "yes",
+    "name": "Via Castagneto"
+  }
+},
+{
+  "type": "way",
+  "id": 406302288,
+  "tags": {
+    "check_date:handrail": "2026-10-06",
+    "handrail": "no",
+    "highway": "steps",
+    "incline": "down",
+    "lit": "yes",
+    "name": "Via Castagneto",
+    "ramp": "no",
+    "step_count": "222"
+  }
+},
+{
+  "type": "way",
+  "id": 406302291,
+  "tags": {
+    "handrail": "no",
+    "highway": "steps",
+    "incline": "down",
+    "lit": "yes",
+    "name": "Via Castagneto"
+  }
+},
+{
+  "type": "way",
+  "id": 406302292,
+  "tags": {
+    "handrail": "no",
+    "highway": "steps",
+    "incline": "down",
+    "lit": "yes",
+    "name": "Via Castagneto",
+    "ramp": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 406302294,
+  "tags": {
+    "highway": "steps",
+    "lit": "yes",
+    "name": "Via Castagneto"
+  }
+},
+{
+  "type": "way",
+  "id": 406302300,
+  "tags": {
+    "highway": "steps",
+    "name": "Via Montesecco",
+    "ramp": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 409327983,
+  "tags": {
+    "highway": "path",
+    "lit": "no",
+    "name": "Passo del barbiere",
+    "sac_scale": "mountain_hiking",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 410664452,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Livello"
+  }
+},
+{
+  "type": "way",
+  "id": 410664453,
+  "tags": {
+    "highway": "steps",
+    "name": "Via Saccomanno",
+    "ramp": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 410664454,
+  "tags": {
+    "highway": "steps",
+    "name": "Via Saccomanno",
+    "ramp": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 410664455,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Saccomanno"
+  }
+},
+{
+  "type": "way",
+  "id": 410664456,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Saccomanno"
+  }
+},
+{
+  "type": "way",
+  "id": 410664457,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Saccomanno"
+  }
+},
+{
+  "type": "way",
+  "id": 412030206,
+  "tags": {
+    "covered": "no",
+    "highway": "service",
+    "name": "Piazza Giacomo Matteotti",
+    "service": "parking_aisle",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 412030207,
+  "tags": {
+    "covered": "no",
+    "highway": "service",
+    "name": "Piazza Giacomo Matteotti",
+    "service": "parking_aisle",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 417907938,
+  "tags": {
+    "highway": "footway",
+    "name": "Via San Nicolò",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 417907939,
+  "tags": {
+    "handrail": "no",
+    "highway": "steps",
+    "name": "Via San Nicolò",
+    "ramp": "no",
+    "surface": "asphalt",
+    "tactile_paving": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 417907940,
+  "tags": {
+    "handrail": "no",
+    "highway": "steps",
+    "incline": "up",
+    "name": "Via San Nicolò",
+    "ramp": "no",
+    "surface": "paved",
+    "tactile_paving": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 417907941,
+  "tags": {
+    "handrail": "yes",
+    "highway": "steps",
+    "name": "Via San Nicolò",
+    "ramp": "no",
+    "surface": "paved",
+    "tactile_paving": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 417907942,
+  "tags": {
+    "highway": "steps",
+    "name": "Via San Nicolò",
+    "ramp": "no",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 417907943,
+  "tags": {
+    "handrail": "yes",
+    "highway": "steps",
+    "incline": "up",
+    "name": "Via San Nicolò",
+    "ramp": "no",
+    "surface": "asphalt",
+    "tactile_paving": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 417907944,
+  "tags": {
+    "highway": "footway",
+    "name": "Via San Nicolò",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 417907945,
+  "tags": {
+    "handrail": "yes",
+    "highway": "steps",
+    "incline": "up",
+    "name": "Via San Nicolò",
+    "ramp": "no",
+    "surface": "unhewn_cobblestone",
+    "tactile_paving": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 417907946,
+  "tags": {
+    "highway": "footway",
+    "name": "Via San Nicolò",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 417907947,
+  "tags": {
+    "handrail": "yes",
+    "highway": "steps",
+    "incline": "up",
+    "name": "Via San Nicolò",
+    "ramp": "no",
+    "surface": "asphalt",
+    "tactile_paving": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 417907948,
+  "tags": {
+    "handrail": "no",
+    "highway": "steps",
+    "incline": "up",
+    "name": "Via San Nicolò",
+    "ramp": "no",
+    "surface": "asphalt",
+    "tactile_paving": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 417907949,
+  "tags": {
+    "check_date:surface": "2025-06-04",
+    "highway": "footway",
+    "name": "Via San Nicolò",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 417916404,
+  "tags": {
+    "highway": "footway",
+    "name": "Via San Nicolò",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 419881145,
+  "tags": {
+    "highway": "footway",
+    "name": "Salita Prione"
+  }
+},
+{
+  "type": "way",
+  "id": 422053798,
+  "tags": {
+    "area": "yes",
+    "highway": "pedestrian",
+    "layer": "1",
+    "name": "Terrazza Louis Braille"
+  }
+},
+{
+  "type": "way",
+  "id": 422059475,
+  "tags": {
+    "highway": "unclassified",
+    "loc_name": "Piazza Palma secca",
+    "name": "Piazza Amendola",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 422072242,
+  "tags": {
+    "area": "yes",
+    "highway": "pedestrian",
+    "lit": "yes",
+    "name": "Largo Bartolomeo da Camogli",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 422387513,
+  "tags": {
+    "access": "permissive",
+    "alt_name": "Strada vicinale Cava",
+    "highway": "residential",
+    "lane_markings": "no",
+    "name": "Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 422394746,
+  "tags": {
+    "access": "private",
+    "highway": "service",
+    "name": "Via Aurelia"
+  }
+},
+{
+  "type": "way",
+  "id": 422394756,
+  "tags": {
+    "highway": "steps",
+    "name": "Via Caracco"
+  }
+},
+{
+  "type": "way",
+  "id": 422394758,
+  "tags": {
+    "description": "L'ultimo tratto che scende in Via S. Giacomo è ripido è stretto.",
+    "highway": "footway",
+    "name": "Via Caracco"
+  }
+},
+{
+  "type": "way",
+  "id": 423471506,
+  "tags": {
+    "highway": "service",
+    "name": "fermata bus turistici",
+    "note": "La foto di bing mostra ancora la \"voragine\" di uno scavo che oggi consta credo 4 livelli di box interrati",
+    "service": "parking_aisle",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 427117727,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Giuseppe Garibaldi",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 427117728,
+  "tags": {
+    "highway": "footway",
+    "layer": "-1",
+    "name": "Via Torrasco",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 427117732,
+  "tags": {
+    "highway": "steps",
+    "name": "Via Maggiolo"
+  }
+},
+{
+  "type": "way",
+  "id": 427377704,
+  "tags": {
+    "area": "yes",
+    "highway": "pedestrian",
+    "name": "Piazzetta delle Signore Secche",
+    "surface": "pebblestone"
+  }
+},
+{
+  "type": "way",
+  "id": 429560752,
+  "tags": {
+    "access": "private",
+    "foot": "yes",
+    "highway": "unclassified",
+    "name": "Viale Bernardo Gaggini",
+    "sidewalk": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 433781693,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Saccomanno",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 436439879,
+  "tags": {
+    "highway": "steps",
+    "name": "Via Lagno",
+    "ramp": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 436439881,
+  "tags": {
+    "highway": "footway",
+    "layer": "-1",
+    "name": "Via Lagno",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 436439882,
+  "tags": {
+    "highway": "steps",
+    "name": "Via Lagno",
+    "ramp": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 436439884,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Lagno"
+  }
+},
+{
+  "type": "way",
+  "id": 436439885,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Lagno"
+  }
+},
+{
+  "type": "way",
+  "id": 436439886,
+  "tags": {
+    "highway": "steps",
+    "name": "Via Lagno",
+    "ramp": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 436948514,
+  "tags": {
+    "highway": "steps",
+    "name": "Salita Prione"
+  }
+},
+{
+  "type": "way",
+  "id": 438252455,
+  "tags": {
+    "handrail": "no",
+    "highway": "steps",
+    "incline": "down",
+    "name": "Via dell'Isola",
+    "ramp": "no",
+    "surface": "paved",
+    "tactile_paving": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 438610998,
+  "tags": {
+    "highway": "path",
+    "name": "Sentiero di servizio Semaforo nuovo - Monte Campana",
+    "ref": "GPS",
+    "sac_scale": "demanding_mountain_hiking",
+    "surface": "ground",
+    "trail_visibility": "intermediate"
+  }
+},
+{
+  "type": "way",
+  "id": 447536068,
+  "tags": {
+    "highway": "service",
+    "name": "Largo Ido Battistone",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 476285493,
+  "tags": {
+    "bicycle": "no",
+    "highway": "path",
+    "name": "Fornelli - Batterie",
+    "ref": "GPS",
+    "sac_scale": "mountain_hiking",
+    "source": "survey",
+    "surface": "ground",
+    "trail_visibility": "excellent"
+  }
+},
+{
+  "type": "way",
+  "id": 476285494,
+  "tags": {
+    "bicycle": "no",
+    "highway": "path",
+    "name": "Fornelli - Batterie",
+    "ref": "GPS",
+    "sac_scale": "mountain_hiking",
+    "source": "survey",
+    "surface": "dirt",
+    "trail_visibility": "excellent"
+  }
+},
+{
+  "type": "way",
+  "id": 500975288,
+  "tags": {
+    "highway": "footway",
+    "name": "Via San Rocco",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 501004917,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "lanes": "1",
+    "maxspeed": "50",
+    "name": "Via Romana",
+    "oneway": "no",
+    "sidewalk": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 501004918,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "lanes": "1",
+    "maxspeed": "50",
+    "name": "Via Romana",
+    "oneway": "no",
+    "sidewalk": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 501689191,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Viale Bernardo Gaggini",
+    "sidewalk": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 501689192,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Viale Bernardo Gaggini",
+    "sidewalk": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 501689193,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Monti"
+  }
+},
+{
+  "type": "way",
+  "id": 501724599,
+  "tags": {
+    "alt_name": "Via XXV Aprile",
+    "highway": "tertiary",
+    "name": "Via Venticinque Aprile",
+    "oneway": "no",
+    "ref": "SP31",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 501724600,
+  "tags": {
+    "alt_name": "Via XXV Aprile",
+    "highway": "tertiary",
+    "name": "Via Venticinque Aprile",
+    "oneway": "no",
+    "ref": "SP31",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 502075350,
+  "tags": {
+    "foot": "yes",
+    "highway": "unclassified",
+    "name": "Viale Bernardo Gaggini",
+    "sidewalk": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 502075351,
+  "tags": {
+    "access": "private",
+    "foot": "yes",
+    "highway": "unclassified",
+    "name": "Viale Bernardo Gaggini",
+    "sidewalk": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 502076458,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Pissorella Rio"
+  }
+},
+{
+  "type": "way",
+  "id": 502076464,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Pissorella Rio"
+  }
+},
+{
+  "type": "way",
+  "id": 506817540,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Largo Felicina Casabona",
+    "ref": "SP30",
+    "sidewalk": "right",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 507567433,
+  "tags": {
+    "area": "yes",
+    "highway": "pedestrian",
+    "name": "Belvedere Gente di Mare",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 529487855,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via di Bana",
+    "sidewalk": "no",
+    "width": "2"
+  }
+},
+{
+  "type": "way",
+  "id": 533590308,
+  "tags": {
+    "bridge": "yes",
+    "handrail": "yes",
+    "highway": "steps",
+    "layer": "1",
+    "name": "Via San Nicolò",
+    "ramp": "no",
+    "surface": "paved",
+    "tactile_paving": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 533590309,
+  "tags": {
+    "highway": "footway",
+    "name": "Via San Nicolò",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 533591250,
+  "tags": {
+    "highway": "path",
+    "name": "Via Galletti",
+    "sac_scale": "hiking",
+    "surface": "dirt",
+    "trail_visibility": "excellent"
+  }
+},
+{
+  "type": "way",
+  "id": 533591826,
+  "tags": {
+    "bridge": "yes",
+    "description": "Il ponte è pericolante, ma se il torrente non è pieno si guada facilmente.",
+    "highway": "path",
+    "layer": "1",
+    "lit": "no",
+    "name": "Ponte del barbiere",
+    "sac_scale": "mountain_hiking",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 533591827,
+  "tags": {
+    "highway": "path",
+    "lit": "no",
+    "name": "Passo del barbiere",
+    "sac_scale": "hiking",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 553629778,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Torrasco"
+  }
+},
+{
+  "type": "way",
+  "id": 553629780,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Torrasco"
+  }
+},
+{
+  "type": "way",
+  "id": 561062320,
+  "tags": {
+    "highway": "pedestrian",
+    "lit": "yes",
+    "name": "Via Scalo",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 577649089,
+  "tags": {
+    "highway": "service",
+    "name": "Via Enrico Figari"
+  }
+},
+{
+  "type": "way",
+  "id": 635356775,
+  "tags": {
+    "alt_name": "Via XXV Aprile",
+    "highway": "tertiary",
+    "name": "Via Venticinque Aprile",
+    "oneway": "no",
+    "ref": "SP31",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 637438370,
+  "tags": {
+    "highway": "track",
+    "name": "Via Santa Maria del Campo",
+    "tracktype": "grade2"
+  }
+},
+{
+  "type": "way",
+  "id": 640519695,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Gaixella",
+    "sac_scale": "hiking",
+    "surface": "paved",
+    "trail_visibility": "excellent"
+  }
+},
+{
+  "type": "way",
+  "id": 676496939,
+  "tags": {
+    "bicycle": "no",
+    "foot": "yes",
+    "highway": "path",
+    "horse": "no",
+    "name": "Batterie - Semaforo Nuovo",
+    "sac_scale": "mountain_hiking",
+    "surface": "ground",
+    "width": "796"
+  }
+},
+{
+  "type": "way",
+  "id": 676505034,
+  "tags": {
+    "access": "no",
+    "highway": "path",
+    "name": "Sentiero dei tubi",
+    "sac_scale": "mountain_hiking",
+    "trail_visibility": "good"
+  }
+},
+{
+  "type": "way",
+  "id": 677419651,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Via Aurelia",
+    "nat_name": "Aurelia",
+    "nat_ref": "SS1",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 734226262,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Nella Valle"
+  }
+},
+{
+  "type": "way",
+  "id": 734226263,
+  "tags": {
+    "foot": "yes",
+    "highway": "steps",
+    "name": "Via Nella Valle"
+  }
+},
+{
+  "type": "way",
+  "id": 734240997,
+  "tags": {
+    "highway": "footway",
+    "lit": "yes",
+    "name": "Via Seià"
+  }
+},
+{
+  "type": "way",
+  "id": 734240998,
+  "tags": {
+    "highway": "steps",
+    "lit": "yes",
+    "name": "Via Seià"
+  }
+},
+{
+  "type": "way",
+  "id": 751231458,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Migliaro",
+    "surface": "gravel"
+  }
+},
+{
+  "type": "way",
+  "id": 784173122,
+  "tags": {
+    "highway": "residential",
+    "name": "Via di Mezzo",
+    "sidewalk": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 784173123,
+  "tags": {
+    "bridge": "yes",
+    "highway": "residential",
+    "layer": "1",
+    "name": "Via di Mezzo",
+    "sidewalk": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 784173126,
+  "tags": {
+    "highway": "footway",
+    "name": "Via di Mezzo"
+  }
+},
+{
+  "type": "way",
+  "id": 784173127,
+  "tags": {
+    "bridge": "yes",
+    "highway": "footway",
+    "layer": "1",
+    "name": "Via di Mezzo"
+  }
+},
+{
+  "type": "way",
+  "id": 792264574,
+  "tags": {
+    "highway": "residential",
+    "lit": "yes",
+    "name": "Via Romana",
+    "sidewalk": "no",
+    "surface": "asphalt",
+    "tracktype": "grade2"
+  }
+},
+{
+  "type": "way",
+  "id": 798806111,
+  "tags": {
+    "highway": "footway",
+    "lit": "yes",
+    "name": "Via San Rocco"
+  }
+},
+{
+  "type": "way",
+  "id": 799226043,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Tommaso Racca",
+    "old_name": "Carugio drito",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 799226044,
+  "tags": {
+    "highway": "pedestrian",
+    "lit": "yes",
+    "name": "Via Giuseppe Garibaldi",
+    "oneway": "yes",
+    "surface": "paved",
+    "tunnel": "building_passage"
+  }
+},
+{
+  "type": "way",
+  "id": 799226045,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Piazza Colombo",
+    "oneway": "yes",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 799226046,
+  "tags": {
+    "highway": "footway",
+    "lit": "yes",
+    "name": "Via Giuseppe Garibaldi",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 799229069,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Tommaso Racca",
+    "old_name": "Carugio drito",
+    "surface": "paved",
+    "tunnel": "building_passage"
+  }
+},
+{
+  "type": "way",
+  "id": 799326310,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Pissorella Rio"
+  }
+},
+{
+  "type": "way",
+  "id": 799326311,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Livello",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 799326312,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Livello",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 802824279,
+  "tags": {
+    "highway": "steps",
+    "name": "Via Scalette"
+  }
+},
+{
+  "type": "way",
+  "id": 802824280,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Scalette"
+  }
+},
+{
+  "type": "way",
+  "id": 806535325,
+  "tags": {
+    "highway": "footway",
+    "lit": "yes",
+    "name": "Via Seià"
+  }
+},
+{
+  "type": "way",
+  "id": 807610714,
+  "tags": {
+    "foot": "designated",
+    "handrail": "yes",
+    "highway": "steps",
+    "incline": "down",
+    "name": "Scale dell'Orto",
+    "ramp": "no",
+    "surface": "paved",
+    "tactile_paving": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 807610715,
+  "tags": {
+    "foot": "designated",
+    "handrail": "yes",
+    "highway": "steps",
+    "incline": "down",
+    "name": "Scale dell'Orto",
+    "ramp": "no",
+    "surface": "paved",
+    "tactile_paving": "no",
+    "tunnel": "building_passage"
+  }
+},
+{
+  "type": "way",
+  "id": 813351260,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Via Scalo al Porto",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 853206714,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Via Niccolò Cuneo",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 875761796,
+  "tags": {
+    "highway": "residential",
+    "name": "Via di Mezzo"
+  }
+},
+{
+  "type": "way",
+  "id": 875761797,
+  "tags": {
+    "highway": "residential",
+    "name": "Via di Mezzo"
+  }
+},
+{
+  "type": "way",
+  "id": 875806316,
+  "tags": {
+    "highway": "residential",
+    "name": "Via di Mezzo"
+  }
+},
+{
+  "type": "way",
+  "id": 908379143,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Via Aurelia",
+    "nat_name": "Aurelia",
+    "nat_ref": "SS1",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 908379144,
+  "tags": {
+    "bridge": "yes",
+    "highway": "primary",
+    "lanes": "2",
+    "layer": "1",
+    "maxspeed": "50",
+    "name": "Via Aurelia",
+    "nat_name": "Aurelia",
+    "nat_ref": "SS1",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 925447362,
+  "tags": {
+    "highway": "footway",
+    "name": "Salita del Prione"
+  }
+},
+{
+  "type": "way",
+  "id": 1007276041,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Via Filippo da Recco",
+    "nat_ref": "SS1",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1008601835,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Carbonara",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 1008601836,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Carbonara",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 1011718592,
+  "tags": {
+    "alt_name": "Via XX Settembre",
+    "highway": "unclassified",
+    "name": "Via Venti Settembre",
+    "short_name": "Via 20 Settembre",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 1011731627,
+  "tags": {
+    "highway": "tertiary",
+    "lane_markings": "no",
+    "lanes": "2",
+    "maxheight": "3.8",
+    "maxspeed": "30",
+    "name": "Via Giovanni Bettolo",
+    "sidewalk": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1011731628,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Castagneto",
+    "oneway": "yes",
+    "sidewalk": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1011731629,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Castagneto",
+    "oneway": "yes",
+    "sidewalk": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1011731630,
+  "tags": {
+    "alt_name": "Strada Provinciale di Camogli",
+    "highway": "secondary",
+    "name": "Via Enrico Figari",
+    "ref": "SP30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1011731631,
+  "tags": {
+    "alt_name": "Strada Provinciale di Camogli",
+    "cycleway:both": "no",
+    "highway": "secondary",
+    "lane_markings": "no",
+    "name": "Via Enrico Figari",
+    "ref": "SP30",
+    "sidewalk": "both",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1011731632,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Livello",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 1011731633,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Saccomanno",
+    "sidewalk": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 1011731634,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Saccomanno",
+    "sidewalk": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 1017588920,
+  "tags": {
+    "handrail": "yes",
+    "highway": "steps",
+    "incline": "up",
+    "lit": "yes",
+    "name": "Via Romana",
+    "stroller": "limited",
+    "surface": "paving_stones",
+    "width": "2"
+  }
+},
+{
+  "type": "way",
+  "id": 1022076898,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Mortola",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1022076899,
+  "tags": {
+    "bridge": "yes",
+    "highway": "footway",
+    "layer": "1",
+    "name": "Via Mortola",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1022076900,
+  "tags": {
+    "bridge": "yes",
+    "handrail": "yes",
+    "highway": "steps",
+    "layer": "1",
+    "name": "Via San Nicolò",
+    "ramp": "no",
+    "surface": "paved",
+    "tactile_paving": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 1022076901,
+  "tags": {
+    "handrail": "yes",
+    "highway": "steps",
+    "name": "Via San Nicolò",
+    "ramp": "no",
+    "surface": "paved",
+    "tactile_paving": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 1022076902,
+  "tags": {
+    "highway": "footway",
+    "name": "Via San Nicolò",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 1022076903,
+  "tags": {
+    "bridge": "yes",
+    "highway": "footway",
+    "layer": "1",
+    "name": "Via San Nicolò",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 1022076904,
+  "tags": {
+    "handrail": "yes",
+    "highway": "steps",
+    "name": "Via San Nicolò",
+    "ramp": "no",
+    "surface": "asphalt",
+    "tactile_paving": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 1022076905,
+  "tags": {
+    "bridge": "yes",
+    "handrail": "yes",
+    "highway": "steps",
+    "layer": "1",
+    "name": "Via San Nicolò",
+    "ramp": "no",
+    "surface": "paved",
+    "tactile_paving": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 1092007642,
+  "tags": {
+    "highway": "residential",
+    "name": "Via di Bana",
+    "width": "2"
+  }
+},
+{
+  "type": "way",
+  "id": 1092007643,
+  "tags": {
+    "bridge": "yes",
+    "highway": "residential",
+    "layer": "1",
+    "name": "Via di Bana",
+    "width": "2"
+  }
+},
+{
+  "type": "way",
+  "id": 1093570906,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Via al Porto",
+    "surface": "sett"
+  }
+},
+{
+  "type": "way",
+  "id": 1093570907,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Via al Porto",
+    "surface": "sett"
+  }
+},
+{
+  "type": "way",
+  "id": 1093570908,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Via al Porto",
+    "surface": "sett",
+    "tunnel": "building_passage"
+  }
+},
+{
+  "type": "way",
+  "id": 1093570909,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Via al Porto",
+    "surface": "sett",
+    "tunnel": "building_passage"
+  }
+},
+{
+  "type": "way",
+  "id": 1093570910,
+  "tags": {
+    "highway": "pedestrian",
+    "lit": "yes",
+    "name": "Via al Porto",
+    "surface": "sett"
+  }
+},
+{
+  "type": "way",
+  "id": 1093570911,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Via al Porto",
+    "surface": "sett"
+  }
+},
+{
+  "type": "way",
+  "id": 1165606829,
+  "tags": {
+    "alt_name": "Via XXV Aprile",
+    "highway": "tertiary",
+    "name": "Via Venticinque Aprile",
+    "oneway": "no",
+    "ref": "SP31",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1179791258,
+  "tags": {
+    "bridge": "yes",
+    "highway": "footway",
+    "layer": "1",
+    "name": "Via San Nicolò",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 1195608286,
+  "tags": {
+    "access": "yes",
+    "handrail": "yes",
+    "highway": "steps",
+    "incline": "down",
+    "lit": "yes",
+    "name": "Salita Priaro",
+    "ramp": "no",
+    "surface": "paved",
+    "tactile_paving": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 1248118257,
+  "tags": {
+    "highway": "footway",
+    "lit": "no",
+    "name": "Via San Nicolò",
+    "sac_scale": "hiking",
+    "surface": "rock"
+  }
+},
+{
+  "type": "way",
+  "id": 1248120286,
+  "tags": {
+    "bicycle": "no",
+    "foot": "yes",
+    "highway": "path",
+    "horse": "no",
+    "name": "Batterie - Semaforo Nuovo",
+    "sac_scale": "mountain_hiking",
+    "surface": "ground",
+    "width": "796"
+  }
+},
+{
+  "type": "way",
+  "id": 1272805974,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Mortola",
+    "surface": "sett"
+  }
+},
+{
+  "type": "way",
+  "id": 1272808439,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Mortola",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1272808943,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Mortola",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1412128935,
+  "tags": {
+    "area": "yes",
+    "highway": "pedestrian",
+    "name": "Chiostro"
+  }
+},
+{
+  "type": "way",
+  "id": 1413355212,
+  "tags": {
+    "highway": "service",
+    "name": "Largo Ido Battistone",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1436394947,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Via Aurelia",
+    "nat_ref": "SS1",
+    "oneway": "no",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "sidewalk": "right",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1436394948,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Via Aurelia",
+    "nat_ref": "SS1",
+    "oneway": "no",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "sidewalk": "right",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1436450952,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Via Aurelia",
+    "nat_name": "Aurelia",
+    "nat_ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1436450953,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Via Aurelia",
+    "nat_ref": "SS1",
+    "oneway": "no",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "sidewalk": "right",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1442397597,
+  "tags": {
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "lit": "yes",
+    "name": "Via Piero Schiaffino",
+    "sidewalk": "right",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1443015000,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Mortola",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1443015001,
+  "tags": {
+    "highway": "steps",
+    "name": "Via San Nicolò",
+    "sac_scale": "hiking",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 1443015002,
+  "tags": {
+    "highway": "footway",
+    "name": "Via San Nicolò",
+    "sac_scale": "hiking",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 1443015003,
+  "tags": {
+    "bicycle": "no",
+    "highway": "path",
+    "name": "Fornelli - Batterie",
+    "ref": "GPS",
+    "sac_scale": "mountain_hiking",
+    "source": "survey",
+    "surface": "dirt",
+    "trail_visibility": "excellent"
+  }
+},
+{
+  "type": "way",
+  "id": 1443023861,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Migliaro"
+  }
+},
+{
+  "type": "way",
+  "id": 1443023862,
+  "tags": {
+    "highway": "residential",
+    "maxwidth": "1.8",
+    "name": "Via Romana",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1443023863,
+  "tags": {
+    "highway": "secondary",
+    "maxspeed": "30",
+    "name": "Corso Giuseppe Mazzini",
+    "old_name": "Corso Regina Margherita",
+    "ref": "SP30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1443023864,
+  "tags": {
+    "foot": "designated",
+    "handrail": "yes",
+    "highway": "steps",
+    "incline": "up",
+    "lit": "yes",
+    "name": "Via al Porto",
+    "ramp": "no",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 1443023865,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Piazza Colombo",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 1453158823,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Via Aurelia",
+    "nat_ref": "SS1",
+    "oneway": "no",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "sidewalk": "right",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1453158824,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Via Aurelia",
+    "nat_ref": "SS1",
+    "oneway": "no",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "sidewalk": "right",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1481942159,
+  "tags": {
+    "name": "Piazza Nostra Signora del Boschetto",
+    "place": "square",
+    "short_name": "Piazza N.S. del Boschetto"
+  }
+},
+{
+  "type": "way",
+  "id": 1482696574,
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "Scuola di equitazione Scuderia del Sole",
+    "site": "school",
+    "sport": "horse_racing;equestrian",
+    "type": "site"
+  }
+},
+{
+  "type": "way",
+  "id": 1529026810,
+  "tags": {
+    "highway": "footway",
+    "name": "Salita Don Francesco Ansaldo",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1529026812,
+  "tags": {
+    "handrail": "yes",
+    "highway": "steps",
+    "name": "Salita Giacomo Favale",
+    "ramp": "no",
+    "step_count": "50",
+    "surface": "concrete:plates",
+    "tactile_paving": "no"
+  }
+},
+{
+  "type": "relation",
+  "id": 2693370,
+  "tags": {
+    "description:en": "X century abbey, modified during the centuries. Set in a bay and surrounded by woods - (foot or boat access only)",
+    "historic": "abbey",
+    "name": "Abbazia di San Fruttuoso",
+    "source": "Regione Liguria",
+    "tourism": "attraction",
+    "type": "site"
+  }
+}
+
+  ]
+}

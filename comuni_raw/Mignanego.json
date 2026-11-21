@@ -1,0 +1,2180 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-11-01T21:16:28Z",
+    "timestamp_areas_base": "2026-11-01T18:30:20Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 1906565511,
+  "tags": {
+    "addr:city": "Mignanego",
+    "addr:country": "IT",
+    "addr:postcode": "16018",
+    "addr:province": "GE",
+    "addr:street": "Via 4 Novembre",
+    "historic": "memorial",
+    "inscription": "CADUTI DI MIGNANEGO NELLA PRIMA GUERRA MONDIALE (elenco di 42 nomi) DONO DEGLI ALPINI DI MIGNANEGO",
+    "material": "marble",
+    "memorial": "plaque",
+    "name": "Lastra ai Caduti di Mignanego",
+    "source": "https://www.pietredellamemoria.it/pietre/lastra-a-ricordo-dei-caduti-prima-guerra-mondiale-del-comune-di-mignanego-ge/",
+    "start_date": "2013-11-04"
+  }
+},
+{
+  "type": "node",
+  "id": 5390836023,
+  "tags": {
+    "historic": "memorial",
+    "memorial": "war_memorial",
+    "name": "Monumento agli Alpini"
+  }
+},
+{
+  "type": "node",
+  "id": 13982059209,
+  "tags": {
+    "addr:city": "Mignanego",
+    "addr:country": "IT",
+    "addr:housenumber": "143",
+    "addr:postcode": "16018",
+    "addr:province": "GE",
+    "addr:street": "Via Vittorio Veneto",
+    "amenity": "library",
+    "contact:email": "biblioteca@comune.mignanego.ge.it",
+    "contact:phone": "+39 010 7720477",
+    "name": "Biblioteca di Mignanego",
+    "website": "https://bibliotecamignanego.net"
+  }
+},
+{
+  "type": "node",
+  "id": 13982157327,
+  "tags": {
+    "addr:city": "Mignanego",
+    "addr:country": "IT",
+    "addr:postcode": "16018",
+    "addr:province": "GE",
+    "addr:street": "Via Vesegni",
+    "historic": "memorial",
+    "inscription": "Qui cadde per la libertà Armando Cordone 21-3-1900 26-4-1945 Mignanego 25-4-1978",
+    "material": "marble",
+    "memorial": "plaque",
+    "name": "Targa ad Armando Cordone",
+    "source": "https://www.pietredellamemoria.it/pietre/armando-cordone-mignanego/",
+    "source:start_date": "https://www.pietredellamemoria.it/pietre/armando-cordone-mignanego/",
+    "start_date": "1978-04-25"
+  }
+},
+{
+  "type": "node",
+  "id": 13982277029,
+  "tags": {
+    "addr:city": "Mignanego",
+    "addr:country": "IT",
+    "addr:postcode": "16018",
+    "addr:province": "GE",
+    "addr:street": "Via 4 Novembre",
+    "artist_name": "Luigi Brizzolara",
+    "historic": "memorial",
+    "inscription": "O MADONNA DELLA PACE/ ACCOGLI E PROTEGGI FRA LA GUARDIA E LA VITTORIA/ I MORTI PER LA PATRIA/ E BENEDICI NELL'AVVENIRE D'ITALIA/ IL LORO SACRIFICIO CRUENTO/ PEI CADUTI IL COMUNE DI MIGNANEGO/ 1915-1918",
+    "material": "marble",
+    "memorial": "statue",
+    "name": "Allegoria della Vittoria",
+    "ref:iccd": "0700262811",
+    "source": "https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/0700262811",
+    "start_date": "1918"
+  }
+},
+{
+  "type": "node",
+  "id": 13982396246,
+  "tags": {
+    "addr:city": "Mignanego",
+    "addr:country": "IT",
+    "addr:postcode": "16018",
+    "addr:province": "GE",
+    "addr:street": "Via alla Vittoria",
+    "historic": "memorial",
+    "inscription": "BRIGATA PARTIGIANA SANTO POGGI DI SERRA RICCO' DONA QUESTO CANNONE CATTURATO AL TEDESCO INVASORE AL SANTUARIO DI N.S. DELLA VITTORIA MOSTRANDO CON CIO' LA FERMA VOLONTA' DI LIBERTA' PACE E INDIPENDENZA DEL POPOLO ITALIANO 25-4-1945",
+    "material": "marble",
+    "memorial": "plaque",
+    "name": "Lastra commemorativa Brigata Partigiana Santo Poggi",
+    "source": "https://www.pietredellamemoria.it/pietre/lastra-commemorativa-santuario-n-s-della-vittoria-mignanego-ge/",
+    "start_date": "1945-04-25"
+  }
+},
+{
+  "type": "node",
+  "id": 13984775081,
+  "tags": {
+    "addr:city": "Mignanego",
+    "addr:country": "IT",
+    "addr:postcode": "16018",
+    "addr:province": "GE",
+    "addr:street": "Via Croce Bianca",
+    "historic": "memorial",
+    "inscription": "Il tempo mai in eterno potrà cancellare l'estremo sacrificio delle giovani vite dei carabinieri di stanza a Mignanego. Fucilati a Voltaggio da nazifascisti nell'aprile 1944. Viandante fermati e rivolgi a loro un grato pensiero. Alla memoria.",
+    "material": "marble",
+    "memorial": "plaque",
+    "name": "Lastra commemorativa ai Carabinieri di Mignanego",
+    "source": "https://www.pietredellamemoria.it/pietre/monumento-ai-carabinieri-caduti-a-mignanego/",
+    "start_date": "1976-06-02"
+  }
+},
+{
+  "type": "way",
+  "id": 16581855,
+  "tags": {
+    "bridge": "yes",
+    "highway": "primary",
+    "lanes": "2",
+    "layer": "1",
+    "name": "Via Croce Bianca",
+    "ref": "SS35",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 16581943,
+  "tags": {
+    "alt_name": "Strada statale dei Giovi",
+    "cycleway:both": "no",
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Via Croce Bianca",
+    "oneway": "no",
+    "ref": "SS35",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 16757884,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "layer": "-1",
+    "length": "1776",
+    "lit": "24/7",
+    "maxspeed": "110",
+    "name": "Autostrada dei Giovi - Serravalle",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes",
+    "tunnel": "yes",
+    "tunnel:name": "Galleria Giovi"
+  }
+},
+{
+  "type": "way",
+  "id": 17972977,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Trieste",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 18840073,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Badino",
+    "source": "Yahoo hires"
+  }
+},
+{
+  "type": "way",
+  "id": 24913503,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Angelo Gazzo",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 24913559,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Monte Pasubio"
+  }
+},
+{
+  "type": "way",
+  "id": 25011688,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "A7 dir. Milano - Genova Bolzaneto/Busalla",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 25011690,
+  "tags": {
+    "bridge": "yes",
+    "bridge:name": "Viadotto Montanesi",
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "A7 dir. Milano - Genova Bolzaneto/Busalla",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 25039806,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Cavanna"
+  }
+},
+{
+  "type": "way",
+  "id": 25309736,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "layer": "-1",
+    "length": "910",
+    "lit": "24/7",
+    "maxspeed": "80",
+    "name": "Autostrada dei Giovi - Serravalle",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes",
+    "tunnel": "yes",
+    "tunnel:name": "Galleria Giovi"
+  }
+},
+{
+  "type": "way",
+  "id": 26285604,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Ettore Rapallo",
+    "sac_scale": "hiking",
+    "surface": "asphalt",
+    "trail_visibility": "excellent"
+  }
+},
+{
+  "type": "way",
+  "id": 41664952,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "tertiary",
+    "name": "Via Milite Ignoto",
+    "oneway": "no",
+    "ref": "SP84",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 41665000,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Tolmino",
+    "source": "Yahoo hires",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 41665227,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Luigi Dellepiane",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 41665296,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "lit": "no",
+    "maxspeed": "80",
+    "name": "A7 dir. Genova - Busalla/Genova Bolzaneto",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 41665318,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "lit": "no",
+    "maxspeed": "80",
+    "name": "A7 dir. Genova - Busalla/Genova Bolzaneto",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 58738032,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "residential",
+    "name": "Salita Maggetta",
+    "sac_scale": "hiking",
+    "surface": "asphalt",
+    "trail_visibility": "excellent"
+  }
+},
+{
+  "type": "way",
+  "id": 58872708,
+  "tags": {
+    "alt_name": "Strada statale 35 dei Giovi",
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Via Venticinque Aprile",
+    "oneway": "no",
+    "ref": "SS35",
+    "short_name": "Via 25 Aprile",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 58872709,
+  "tags": {
+    "alt_name": "Strada statale 35 dei Giovi",
+    "cycleway:both": "no",
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "90",
+    "name": "Via Venticinque Aprile",
+    "oneway": "no",
+    "ref": "SS35",
+    "short_name": "Via 25 Aprile",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 58872719,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "tertiary",
+    "name": "Strada provinciale 47 del Santuario di Nostra Signora della Vittoria",
+    "oneway": "no",
+    "ref": "SP47",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 59225013,
+  "tags": {
+    "alt_name": "Strada statale dei Giovi",
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Via Piave",
+    "ref": "SS35",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 59225014,
+  "tags": {
+    "bridge": "yes",
+    "highway": "primary",
+    "lanes": "2",
+    "layer": "1",
+    "name": "Via Alcide De Gasperi",
+    "ref": "SS35",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 59225016,
+  "tags": {
+    "bridge": "yes",
+    "highway": "unclassified",
+    "layer": "1",
+    "name": "Via Angelo Gazzo"
+  }
+},
+{
+  "type": "way",
+  "id": 61484194,
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "80",
+    "name": "A7 dir. Genova - Busalla/Genova Bolzaneto",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 73706467,
+  "tags": {
+    "bridge": "yes",
+    "highway": "unclassified",
+    "layer": "1",
+    "name": "Via Bancheri"
+  }
+},
+{
+  "type": "way",
+  "id": 73706497,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Bancheri"
+  }
+},
+{
+  "type": "way",
+  "id": 73920130,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Bellavista",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 73920132,
+  "tags": {
+    "bridge": "yes",
+    "highway": "tertiary",
+    "layer": "1",
+    "name": "Via Bellavista",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 74094505,
+  "tags": {
+    "alt_name": "Strada statale dei Giovi",
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Via Venticinque Aprile",
+    "oneway": "no",
+    "ref": "SS35",
+    "short_name": "Via 25 Aprile",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 140781256,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Adolfo Lavagetto"
+  }
+},
+{
+  "type": "way",
+  "id": 160564652,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Ventiquattro Maggio",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 171039426,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Costigliolo"
+  }
+},
+{
+  "type": "way",
+  "id": 171039429,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Costigliolo"
+  }
+},
+{
+  "type": "way",
+  "id": 171039430,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Giuseppe Garibaldi"
+  }
+},
+{
+  "type": "way",
+  "id": 171039433,
+  "tags": {
+    "highway": "residential",
+    "name": "Salita Bricco"
+  }
+},
+{
+  "type": "way",
+  "id": 171039436,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Trieste"
+  }
+},
+{
+  "type": "way",
+  "id": 171039440,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Giuseppe Garibaldi"
+  }
+},
+{
+  "type": "way",
+  "id": 171039445,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Natale Gallino"
+  }
+},
+{
+  "type": "way",
+  "id": 180212872,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "residential",
+    "name": "Via alla Vittoria",
+    "sac_scale": "hiking",
+    "surface": "asphalt",
+    "tracktype": "grade1",
+    "trail_visibility": "excellent"
+  }
+},
+{
+  "type": "way",
+  "id": 180212873,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "tertiary",
+    "name": "Via al Santuario",
+    "oneway": "no",
+    "ref": "SP47",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 180212962,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Doberdò"
+  }
+},
+{
+  "type": "way",
+  "id": 180891772,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxheight": "2.35",
+    "name": "Via Alcide De Gasperi",
+    "ref": "SS35",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 185992693,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Giuseppe Di Vittorio",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 204216990,
+  "tags": {
+    "building": "house",
+    "castle_type": "manor",
+    "historic": "castle",
+    "name": "Villa Gavarone",
+    "source": "Regione Liguria"
+  }
+},
+{
+  "type": "way",
+  "id": 204218384,
+  "tags": {
+    "building": "house",
+    "castle_type": "manor",
+    "historic": "castle",
+    "name": "Villa Ramenzoni",
+    "source": "Regione Liguria"
+  }
+},
+{
+  "type": "way",
+  "id": 204218760,
+  "tags": {
+    "building": "house",
+    "castle_type": "manor",
+    "historic": "castle",
+    "name": "Villa Nena",
+    "source": "Regione Liguria"
+  }
+},
+{
+  "type": "way",
+  "id": 204230480,
+  "tags": {
+    "building": "house",
+    "castle_type": "manor",
+    "historic": "castle",
+    "name": "Villa Ida",
+    "source": "Regione Liguria"
+  }
+},
+{
+  "type": "way",
+  "id": 204231080,
+  "tags": {
+    "building": "house",
+    "castle_type": "manor",
+    "historic": "castle",
+    "name": "Villa Orsi",
+    "source": "Regione Liguria"
+  }
+},
+{
+  "type": "way",
+  "id": 204234407,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Ortigara"
+  }
+},
+{
+  "type": "way",
+  "id": 219095620,
+  "tags": {
+    "highway": "residential",
+    "name": "Sentiero Bainsizza",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 222147862,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Visegni"
+  }
+},
+{
+  "type": "way",
+  "id": 223953825,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Natale Gallino"
+  }
+},
+{
+  "type": "way",
+  "id": 223955053,
+  "tags": {
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "service",
+    "motor_vehicle": "private",
+    "name": "Via Giovanni XXXIII"
+  }
+},
+{
+  "type": "way",
+  "id": 223955054,
+  "tags": {
+    "bicycle": "yes",
+    "bridge": "yes",
+    "foot": "yes",
+    "highway": "service",
+    "layer": "1",
+    "motor_vehicle": "private",
+    "name": "Ponte Antonio Cambiasso"
+  }
+},
+{
+  "type": "way",
+  "id": 223955055,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Adolfo Lavagetto"
+  }
+},
+{
+  "type": "way",
+  "id": 224854109,
+  "tags": {
+    "highway": "path",
+    "name": "Antica Via Postumia"
+  }
+},
+{
+  "type": "way",
+  "id": 265079358,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Angelo Gazzo"
+  }
+},
+{
+  "type": "way",
+  "id": 272692066,
+  "tags": {
+    "highway": "unclassified",
+    "maxweight": "3.5",
+    "name": "Via Andrea Gallino",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 299756794,
+  "tags": {
+    "bridge": "yes",
+    "highway": "unclassified",
+    "layer": "1",
+    "name": "Via Trieste"
+  }
+},
+{
+  "type": "way",
+  "id": 299756795,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Trieste"
+  }
+},
+{
+  "type": "way",
+  "id": 314750415,
+  "tags": {
+    "highway": "service",
+    "name": "Via Montenero",
+    "service": "alley",
+    "surface": "asphalt",
+    "tracktype": "grade1"
+  }
+},
+{
+  "type": "way",
+  "id": 314751953,
+  "tags": {
+    "highway": "path",
+    "name": "Via Natale Gallino",
+    "sac_scale": "mountain_hiking",
+    "surface": "dirt",
+    "tracktype": "grade3"
+  }
+},
+{
+  "type": "way",
+  "id": 314751954,
+  "tags": {
+    "highway": "steps",
+    "name": "Via Natale Gallino",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 316660055,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Rodi",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 316660897,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Cavanna"
+  }
+},
+{
+  "type": "way",
+  "id": 316660899,
+  "tags": {
+    "highway": "path",
+    "name": "Via Mario Parodi",
+    "sac_scale": "mountain_hiking",
+    "surface": "paved",
+    "tracktype": "grade1"
+  }
+},
+{
+  "type": "way",
+  "id": 316859263,
+  "tags": {
+    "highway": "residential",
+    "name": "Via 4 Novembre",
+    "tracktype": "grade1"
+  }
+},
+{
+  "type": "way",
+  "id": 320695341,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "residential",
+    "lit": "no",
+    "name": "Via Monte Rombon",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 337772058,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "tertiary",
+    "name": "Strada provinciale 47 del Santuario di Nostra Signora della Vittoria",
+    "oneway": "no",
+    "ref": "SP47",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 361387415,
+  "tags": {
+    "alt_name": "Antica Via Postumia",
+    "highway": "tertiary",
+    "name": "Via Madonna delle Vigne",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 399088749,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Col di Lana"
+  }
+},
+{
+  "type": "way",
+  "id": 399088750,
+  "tags": {
+    "highway": "service",
+    "name": "Via Col di Lana",
+    "service": "driveway"
+  }
+},
+{
+  "type": "way",
+  "id": 503846018,
+  "tags": {
+    "alt_name": "Strada provinciale 84 di Montanesi",
+    "highway": "tertiary",
+    "name": "Via 4 Novembre",
+    "oneway": "no",
+    "ref": "SP84",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 503846262,
+  "tags": {
+    "alt_name": "Strada provinciale 84 di Montanesi",
+    "highway": "tertiary",
+    "name": "Via 4 Novembre",
+    "oneway": "no",
+    "ref": "SP84",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 503846265,
+  "tags": {
+    "alt_name": "Strada provinciale 84 di Montanesi",
+    "highway": "tertiary",
+    "name": "Via 4 Novembre",
+    "oneway": "no",
+    "ref": "SP84",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 503847701,
+  "tags": {
+    "alt_name": "Strada provinciale 84 di Montanesi",
+    "highway": "tertiary",
+    "name": "Via 4 Novembre",
+    "oneway": "no",
+    "ref": "SP84",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 503847702,
+  "tags": {
+    "alt_name": "Strada provinciale 84 di Montanesi",
+    "highway": "tertiary",
+    "name": "Via 4 Novembre",
+    "oneway": "no",
+    "ref": "SP84",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 503847703,
+  "tags": {
+    "alt_name": "Strada provinciale 84 di Montanesi",
+    "highway": "tertiary",
+    "name": "Via 4 Novembre",
+    "oneway": "no",
+    "ref": "SP84",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 503847704,
+  "tags": {
+    "alt_name": "Strada provinciale 84 di Montanesi",
+    "highway": "tertiary",
+    "name": "Via 4 Novembre",
+    "oneway": "no",
+    "ref": "SP84",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 503847706,
+  "tags": {
+    "highway": "residential",
+    "name": "Via 4 Novembre",
+    "surface": "asphalt",
+    "tracktype": "grade1"
+  }
+},
+{
+  "type": "way",
+  "id": 503847709,
+  "tags": {
+    "alt_name": "Strada provinciale 84 di Montanesi",
+    "highway": "tertiary",
+    "name": "Via Monte Cismon",
+    "oneway": "no",
+    "ref": "SP84",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 503847713,
+  "tags": {
+    "alt_name": "Strada provinciale 84 di Montanesi",
+    "highway": "tertiary",
+    "name": "Via Monte Cismon",
+    "oneway": "no",
+    "ref": "SP84",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 503847716,
+  "tags": {
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "residential",
+    "lit": "no",
+    "name": "Via Monte Rombon"
+  }
+},
+{
+  "type": "way",
+  "id": 503861141,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "tertiary",
+    "name": "Strada provinciale 47 del Santuario di Nostra Signora della Vittoria",
+    "oneway": "no",
+    "ref": "SP47",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 503861143,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "tertiary",
+    "name": "Strada provinciale 47 del Santuario di Nostra Signora della Vittoria",
+    "oneway": "no",
+    "ref": "SP47",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 503861145,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "residential",
+    "name": "Salita Maggetta",
+    "sac_scale": "hiking",
+    "surface": "asphalt",
+    "trail_visibility": "excellent"
+  }
+},
+{
+  "type": "way",
+  "id": 504038991,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Tolmino",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 504042122,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Rodi",
+    "source": "Yahoo hires"
+  }
+},
+{
+  "type": "way",
+  "id": 504042124,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Rodi",
+    "source": "Yahoo hires",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 504042320,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Rodi",
+    "source": "Yahoo hires",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 504042612,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Natale Gallino"
+  }
+},
+{
+  "type": "way",
+  "id": 504063631,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Guglielmo Marconi"
+  }
+},
+{
+  "type": "way",
+  "id": 504064108,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Cavanna",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 504219050,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "tertiary",
+    "name": "Strada provinciale 47 del Santuario di Nostra Signora della Vittoria",
+    "oneway": "no",
+    "ref": "SP47",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 504219521,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Giovanni Parodi"
+  }
+},
+{
+  "type": "way",
+  "id": 504219524,
+  "tags": {
+    "alt_name": "Strada statale dei Giovi",
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Via Due Giugno",
+    "ref": "SS35",
+    "short_name": "Via 2 Giugno",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 504219526,
+  "tags": {
+    "alt_name": "Strada statale dei Giovi",
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Via Due Giugno",
+    "oneway": "no",
+    "ref": "SS35",
+    "short_name": "Via 2 Giugno",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 504219527,
+  "tags": {
+    "alt_name": "Strada statale 35 dei Giovi",
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Via Venticinque Aprile",
+    "oneway": "no",
+    "ref": "SS35",
+    "short_name": "Via 25 Aprile",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 504237247,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Trento"
+  }
+},
+{
+  "type": "way",
+  "id": 504237681,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Angelo Gazzo"
+  }
+},
+{
+  "type": "way",
+  "id": 504237682,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Angelo Gazzo",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 504237683,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Trieste",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 504237685,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Angelo Gazzo"
+  }
+},
+{
+  "type": "way",
+  "id": 504237686,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Angelo Gazzo",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 504237688,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Angelo Gazzo"
+  }
+},
+{
+  "type": "way",
+  "id": 504237689,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Angelo Gazzo",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 504237690,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Angelo Gazzo"
+  }
+},
+{
+  "type": "way",
+  "id": 504238309,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Tolmino",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 504238397,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Tolmino",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 504238399,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Tolmino"
+  }
+},
+{
+  "type": "way",
+  "id": 510714446,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Mario Parodi",
+    "surface": "asphalt",
+    "tracktype": "grade1"
+  }
+},
+{
+  "type": "way",
+  "id": 528116143,
+  "tags": {
+    "highway": "residential",
+    "name": "Via 4 Novembre"
+  }
+},
+{
+  "type": "way",
+  "id": 543168952,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Monte Santo"
+  }
+},
+{
+  "type": "way",
+  "id": 543172611,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Due Giugno"
+  }
+},
+{
+  "type": "way",
+  "id": 617513892,
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "80",
+    "name": "A7 dir. Genova - Busalla/Genova Bolzaneto",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 657157229,
+  "tags": {
+    "highway": "service",
+    "name": "Via Armando Cordone",
+    "service": "driveway"
+  }
+},
+{
+  "type": "way",
+  "id": 657157231,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Armando Cordone"
+  }
+},
+{
+  "type": "way",
+  "id": 657158693,
+  "tags": {
+    "bridge": "yes",
+    "highway": "residential",
+    "layer": "1",
+    "name": "Via Campi"
+  }
+},
+{
+  "type": "way",
+  "id": 657158695,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Campi"
+  }
+},
+{
+  "type": "way",
+  "id": 672891962,
+  "tags": {
+    "name": "Piazza Giacomo Matteotti",
+    "place": "square"
+  }
+},
+{
+  "type": "way",
+  "id": 672891963,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Agostino Guagnino"
+  }
+},
+{
+  "type": "way",
+  "id": 672891964,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Agostino Guagnino"
+  }
+},
+{
+  "type": "way",
+  "id": 672891965,
+  "tags": {
+    "alt_name": "Strada statale dei Giovi",
+    "highway": "primary",
+    "lanes": "2",
+    "maxheight": "2.35",
+    "name": "Via Giovanni XXIII",
+    "ref": "SS35",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 672937494,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Giovanni Parodi"
+  }
+},
+{
+  "type": "way",
+  "id": 673385910,
+  "tags": {
+    "alt_name": "Strada statale dei Giovi",
+    "cycleway:both": "no",
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Via Anita e Mella Orsi",
+    "ref": "SS35",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 673385911,
+  "tags": {
+    "alt_name": "Strada statale dei Giovi",
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Via Croce Bianca",
+    "ref": "SS35",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 673385912,
+  "tags": {
+    "alt_name": "Strada statale dei Giovi",
+    "cycleway:both": "no",
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Via Andrea Carpaneto",
+    "ref": "SS35",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 673410873,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Enrico Toti"
+  }
+},
+{
+  "type": "way",
+  "id": 673649432,
+  "tags": {
+    "alt_name": "Strada statale dei Giovi",
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Via Donatori del Sangue",
+    "oneway": "no",
+    "ref": "SS35",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 673649436,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Fiume",
+    "source": "Yahoo hires"
+  }
+},
+{
+  "type": "way",
+  "id": 673856279,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Montegrappa"
+  }
+},
+{
+  "type": "way",
+  "id": 673891980,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxheight": "2.35",
+    "name": "Via Vittorio Veneto",
+    "oneway": "no",
+    "ref": "SS35",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 673891981,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Orazio Brignola"
+  }
+},
+{
+  "type": "way",
+  "id": 684378235,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Riccò"
+  }
+},
+{
+  "type": "way",
+  "id": 684378236,
+  "tags": {
+    "bridge": "yes",
+    "highway": "residential",
+    "layer": "1",
+    "name": "Via Riccò"
+  }
+},
+{
+  "type": "way",
+  "id": 952368884,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Angelo Gazzo"
+  }
+},
+{
+  "type": "way",
+  "id": 990706842,
+  "tags": {
+    "highway": "residential",
+    "name": "Piazza della Repubblica"
+  }
+},
+{
+  "type": "way",
+  "id": 990707545,
+  "tags": {
+    "bridge": "yes",
+    "covered": "no",
+    "highway": "residential",
+    "layer": "1",
+    "name": "Via Borasina",
+    "oneway": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 990707546,
+  "tags": {
+    "covered": "no",
+    "highway": "residential",
+    "name": "Via Borasina",
+    "oneway": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 1012057371,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "tertiary",
+    "name": "Strada provinciale 47 del Santuario di Nostra Signora della Vittoria",
+    "oneway": "no",
+    "ref": "SP47",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1014129377,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Giuseppe Di Vittorio",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1014129378,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Giuseppe Di Vittorio"
+  }
+},
+{
+  "type": "way",
+  "id": 1016211825,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Adolfo Lavagetto",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1064187988,
+  "tags": {
+    "highway": "service",
+    "name": "Via Angelo Gazzo",
+    "service": "driveway"
+  }
+},
+{
+  "type": "way",
+  "id": 1064187989,
+  "tags": {
+    "highway": "service",
+    "name": "Via Angelo Gazzo",
+    "service": "driveway",
+    "surface": "compacted"
+  }
+},
+{
+  "type": "way",
+  "id": 1064187993,
+  "tags": {
+    "highway": "service",
+    "name": "Via Col di Lana",
+    "service": "driveway"
+  }
+},
+{
+  "type": "way",
+  "id": 1064187996,
+  "tags": {
+    "highway": "service",
+    "name": "Via Montenero"
+  }
+},
+{
+  "type": "way",
+  "id": 1097909456,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "tertiary",
+    "name": "Strada provinciale 47 del Santuario di Nostra Signora della Vittoria",
+    "oneway": "no",
+    "ref": "SP47",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1097909462,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "residential",
+    "name": "Salita Maggetta",
+    "sac_scale": "hiking",
+    "surface": "asphalt",
+    "trail_visibility": "excellent"
+  }
+},
+{
+  "type": "way",
+  "id": 1097909464,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Milite Ignoto",
+    "oneway": "no",
+    "ref": "SP84",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1097918840,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Visegni"
+  }
+},
+{
+  "type": "way",
+  "id": 1097918841,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Visegni"
+  }
+},
+{
+  "type": "way",
+  "id": 1116457795,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Giovanni Parodi"
+  }
+},
+{
+  "type": "way",
+  "id": 1171083844,
+  "tags": {
+    "highway": "service",
+    "name": "Via Mario Parodi",
+    "sac_scale": "mountain_hiking",
+    "surface": "paved",
+    "tracktype": "grade1"
+  }
+},
+{
+  "type": "way",
+  "id": 1171092001,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Cavanna"
+  }
+},
+{
+  "type": "way",
+  "id": 1228226497,
+  "tags": {
+    "bridge": "yes",
+    "cycleway:both": "no",
+    "highway": "tertiary",
+    "layer": "1",
+    "name": "Via Milite Ignoto",
+    "oneway": "no",
+    "ref": "SP84",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1228226498,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "tertiary",
+    "name": "Via Milite Ignoto",
+    "oneway": "no",
+    "ref": "SP84",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1228287579,
+  "tags": {
+    "building": "house",
+    "castle_type": "manor",
+    "historic": "castle",
+    "name": "Villa Anna"
+  }
+},
+{
+  "type": "way",
+  "id": 1228293833,
+  "tags": {
+    "alt_name": "Strada statale 35 dei Giovi",
+    "cycleway:both": "no",
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Via Venticinque Aprile",
+    "oneway": "no",
+    "ref": "SS35",
+    "short_name": "Via 25 Aprile",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1228294524,
+  "tags": {
+    "alt_name": "Strada statale dei Giovi",
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "90",
+    "name": "Via Venticinque Aprile",
+    "oneway": "no",
+    "ref": "SS35",
+    "short_name": "Via 25 Aprile",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1228295435,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "90",
+    "name": "Strada statale 35 dei Giovi",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1228296536,
+  "tags": {
+    "alt_name": "Strada statale dei Giovi",
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "30",
+    "name": "Via Venticinque Aprile",
+    "oneway": "no",
+    "ref": "SS35",
+    "short_name": "Via 25 Aprile",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1228296537,
+  "tags": {
+    "alt_name": "Strada statale dei Giovi",
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "90",
+    "name": "Via Venticinque Aprile",
+    "oneway": "no",
+    "ref": "SS35",
+    "short_name": "Via 25 Aprile",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1228348170,
+  "tags": {
+    "building": "house",
+    "castle_type": "manor",
+    "historic": "castle",
+    "name": "Villa Linda"
+  }
+},
+{
+  "type": "way",
+  "id": 1228348171,
+  "tags": {
+    "building": "house",
+    "castle_type": "manor",
+    "historic": "castle",
+    "name": "Villa Marengo"
+  }
+},
+{
+  "type": "way",
+  "id": 1228348172,
+  "tags": {
+    "building": "house",
+    "castle_type": "manor",
+    "historic": "castle",
+    "name": "Villa Tilde"
+  }
+},
+{
+  "type": "way",
+  "id": 1228348173,
+  "tags": {
+    "building": "house",
+    "castle_type": "manor",
+    "historic": "castle",
+    "name": "Villa Carpaneto"
+  }
+},
+{
+  "type": "way",
+  "id": 1245276724,
+  "tags": {
+    "highway": "service",
+    "name": "Via Montenero",
+    "service": "alley",
+    "surface": "asphalt",
+    "tracktype": "grade1"
+  }
+},
+{
+  "type": "way",
+  "id": 1245276725,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Angelo Gazzo",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1246309294,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Natale Gallino"
+  }
+},
+{
+  "type": "way",
+  "id": 1292321743,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Milite Ignoto",
+    "oneway": "no",
+    "ref": "SP84",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1292321744,
+  "tags": {
+    "bridge": "yes",
+    "highway": "tertiary",
+    "layer": "1",
+    "name": "Via Milite Ignoto",
+    "oneway": "no",
+    "ref": "SP84",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1410412486,
+  "tags": {
+    "highway": "steps",
+    "name": "Salita Ina Casa"
+  }
+},
+{
+  "type": "way",
+  "id": 1410412489,
+  "tags": {
+    "highway": "footway",
+    "name": "Salita Ina Casa",
+    "tunnel": "building_passage"
+  }
+},
+{
+  "type": "way",
+  "id": 1410412491,
+  "tags": {
+    "highway": "footway",
+    "name": "Salita Ina Casa"
+  }
+},
+{
+  "type": "way",
+  "id": 1458749728,
+  "tags": {
+    "highway": "service",
+    "name": "Antica Via Postumia"
+  }
+},
+{
+  "type": "way",
+  "id": 1458757214,
+  "tags": {
+    "highway": "service",
+    "name": "Via Giovanni Parodi"
+  }
+},
+{
+  "type": "way",
+  "id": 1460799775,
+  "tags": {
+    "bridge": "yes",
+    "highway": "unclassified",
+    "layer": "1",
+    "name": "Via Monte Pasubio"
+  }
+},
+{
+  "type": "way",
+  "id": 1460799776,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Monte Pasubio"
+  }
+},
+{
+  "type": "way",
+  "id": 1460804275,
+  "tags": {
+    "alt_name": "Strada statale dei Giovi",
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Via Piave",
+    "ref": "SS35",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1464427358,
+  "tags": {
+    "alt_name": "Strada statale dei Giovi",
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Via Donatori del Sangue",
+    "oneway": "no",
+    "ref": "SS35",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1464427359,
+  "tags": {
+    "alt_name": "Strada statale dei Giovi",
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Via Donatori del Sangue",
+    "oneway": "no",
+    "ref": "SS35",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1473370053,
+  "tags": {
+    "alt_name": "Strada statale dei Giovi",
+    "cycleway:both": "no",
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Via Croce Bianca",
+    "oneway": "no",
+    "ref": "SS35",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1533154389,
+  "tags": {
+    "highway": "path",
+    "name": "Via Natale Gallino"
+  }
+},
+{
+  "type": "way",
+  "id": 1533154390,
+  "tags": {
+    "highway": "path",
+    "name": "Via Natale Gallino",
+    "sac_scale": "mountain_hiking",
+    "surface": "dirt",
+    "tracktype": "grade3"
+  }
+},
+{
+  "type": "way",
+  "id": 1533155945,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Giovanni XXIII"
+  }
+},
+{
+  "type": "way",
+  "id": 1533155946,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Guglielmo Oberdan"
+  }
+},
+{
+  "type": "way",
+  "id": 1533155947,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Giovanni XXIII"
+  }
+},
+{
+  "type": "way",
+  "id": 1534179314,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Armando Cordone"
+  }
+},
+{
+  "type": "way",
+  "id": 1534492728,
+  "tags": {
+    "alt_name": "Strada provinciale 84 di Montanesi",
+    "highway": "tertiary",
+    "name": "Via Monte Cismon",
+    "oneway": "no",
+    "ref": "SP84",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1534789633,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Nazario Sauro"
+  }
+},
+{
+  "type": "way",
+  "id": 1534789638,
+  "tags": {
+    "access": "yes",
+    "addr:city": "Mignanego",
+    "addr:country": "IT",
+    "addr:place": "Giovi",
+    "addr:postcode": "16018",
+    "addr:province": "GE",
+    "addr:street": "Via Ettore Rapallo",
+    "bench": "yes",
+    "leisure": "park",
+    "name": "Parco pubblico dei Giovi",
+    "operator": "Comune di Mignanego",
+    "parking": "yes",
+    "playground": "yes",
+    "source": "https://fuorigenova.cittametropolitana.genova.it/content/giardino-pubblico-passo-dei-giovi",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1534789643,
+  "tags": {
+    "highway": "track",
+    "name": "Sentiero Bainsizza",
+    "surface": "dirt",
+    "tracktype": "grade2"
+  }
+}
+
+  ]
+}

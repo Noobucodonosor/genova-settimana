@@ -1,0 +1,7565 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-11-01T20:13:28Z",
+    "timestamp_areas_base": "2026-11-01T18:30:20Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 2358463393,
+  "tags": {
+    "addr:full": "Via Delpino 2",
+    "addr:postcode": "16043",
+    "amenity": "library",
+    "contact:email": "luisa.moggia@fastwebnet.it",
+    "contact:fax": "+39 0185 324145",
+    "contact:phone": "+39 0185 314367",
+    "name": "Biblioteca Corsi di Cultura per la Terza Età",
+    "ref": "GB00000398",
+    "ref:ntcn": "07/00112785"
+  }
+},
+{
+  "type": "node",
+  "id": 2358464129,
+  "tags": {
+    "addr:full": "Via Costaguta 3",
+    "addr:postcode": "16043",
+    "amenity": "library",
+    "contact:fax": "+39 0185 320829",
+    "contact:phone": "+39 0185 320829",
+    "name": "Biblioteca dell'Istituto Internazionale di Studi Liguri - Sezione Tigullia",
+    "ref": "GB00000086",
+    "ref:ntcn": "07/00045322"
+  }
+},
+{
+  "type": "node",
+  "id": 2358464362,
+  "tags": {
+    "addr:full": "Via Ravaschieri 15",
+    "addr:postcode": "16043",
+    "amenity": "library",
+    "contact:email": "biblioteca@societaeconomica.com",
+    "contact:fax": "+39 0185 364719",
+    "contact:phone": "+39 0185 324713",
+    "name": "Biblioteca della Società Economica di Chiavari",
+    "ref": "GB00000088",
+    "ref:ntcn": "07/00108651"
+  }
+},
+{
+  "type": "node",
+  "id": 2358464479,
+  "tags": {
+    "addr:full": "Via Entella 205",
+    "addr:postcode": "16043",
+    "amenity": "library",
+    "contact:email": "centrodocza@libero.it",
+    "contact:fax": "+39 0185 368557",
+    "contact:phone": "+39 0185 322209",
+    "name": "Centro di Documentazione Zucchero Amaro",
+    "ref": "GB00000472"
+  }
+},
+{
+  "type": "node",
+  "id": 3298106659,
+  "tags": {
+    "addr:city": "Chiavari",
+    "addr:housenumber": "4",
+    "addr:postcode": "16043",
+    "addr:street": "Via Costaguta",
+    "email": "pm-lig.museochiavari@beniculturali.it",
+    "fee": "yes",
+    "name": "Museo Archeologico di Chiavari",
+    "opening_hours": "Tu-Sa 09:00-14:00; Su [1,3,5] 09:00-14:00; Mo off; Su [2,4] off",
+    "operator": "Soprintendenza Archeologia della Liguria",
+    "phone": "+39 0185 320829",
+    "tourism": "museum",
+    "website": "https://www.musei.liguria.beniculturali.it/musei?mid=187&nome=museo-archeologico-di-chiavari-palazzo-rocca",
+    "wheelchair": "limited",
+    "wikidata": "Q3867722",
+    "wikipedia": "it:Museo archeologico di Chiavari"
+  }
+},
+{
+  "type": "node",
+  "id": 3610446816,
+  "tags": {
+    "amenity": "cinema",
+    "name": "Cinema Mignon"
+  }
+},
+{
+  "type": "node",
+  "id": 3610446820,
+  "tags": {
+    "historic": "monument",
+    "name": "Statua di Giuseppe Mazzini"
+  }
+},
+{
+  "type": "node",
+  "id": 5153718524,
+  "tags": {
+    "addr:housenumber": "5",
+    "addr:street": "Via Giuseppe Gaetano Descalzi",
+    "leisure": "sports_centre",
+    "name": "Palestra Gymnasium",
+    "sport": "gymnastics",
+    "website": "https://www.palestragymnasium.it/"
+  }
+},
+{
+  "type": "node",
+  "id": 5155327717,
+  "tags": {
+    "addr:housenumber": "7",
+    "addr:street": "Piazza Nostra Signora dell'Orto",
+    "fee": "yes",
+    "name": "Museo Diocesano di Arte Sacra",
+    "opening_hours": "Th,Fr 10:00-13:00,15:00-18:00; Sa 10:00-18:00",
+    "tourism": "museum",
+    "wikidata": "Q3868309"
+  }
+},
+{
+  "type": "node",
+  "id": 5155328475,
+  "tags": {
+    "addr:housenumber": "15",
+    "addr:street": "Via Ravaschieri",
+    "name": "Museo Storico del Risorgimento",
+    "tourism": "museum",
+    "wikidata": "Q3868474"
+  }
+},
+{
+  "type": "node",
+  "id": 5474222284,
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "Palestra Marchesani"
+  }
+},
+{
+  "type": "node",
+  "id": 5625313581,
+  "tags": {
+    "amenity": "school",
+    "description": "Istituto Professionale di Stato per il Commercio",
+    "name": "Giovanni Caboto"
+  }
+},
+{
+  "type": "node",
+  "id": 5625317579,
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "palestra"
+  }
+},
+{
+  "type": "node",
+  "id": 7154250728,
+  "tags": {
+    "amenity": "driving_school",
+    "name": "Autoscuola Tigullio"
+  }
+},
+{
+  "type": "node",
+  "id": 7198257951,
+  "tags": {
+    "historic": "memorial",
+    "inscription": "Combattente nelle schiere partigiane della divisione \"Coduri\" con animo e cuore del suo nobile e forte Piemonte OTTORINO BERSINI (Basea) orrendamente trafitto da piombo e pugnale cadde su questo colle mentre (...) cielo la grande aurora del 25-04- 1945",
+    "memorial": "plaque",
+    "name": "Ottorino Bersini",
+    "start_date": "1959-04-25"
+  }
+},
+{
+  "type": "node",
+  "id": 9106056014,
+  "tags": {
+    "historic": "memorial",
+    "inscription": "Medaglia d'Oro della Resistenza Parrocco di Valletti e cappellano della Divisione Garibaldina Coduri (...) Fucilato a Chiavari il 3-1-1945",
+    "memorial": "bust",
+    "name": "Don G.B. Bobbio"
+  }
+},
+{
+  "type": "node",
+  "id": 9106056015,
+  "tags": {
+    "artist_name": "Città di Chiavari",
+    "historic": "memorial",
+    "inscription": "Sergiio Kasman \"Marco\" Medaglia d'Oro al V.M. 2-9-1929 - 9-12-1944 Un uomo un cobattente un poeta caduto per gli ideali di gustizia e libertà .....",
+    "memorial": "bust",
+    "name": "Sergio Kasman",
+    "start_date": "1985-04-25",
+    "subject:wikidata": "Q3956147",
+    "subject:wikipedia": "it:Sergio Kasman"
+  }
+},
+{
+  "type": "node",
+  "id": 10067470740,
+  "tags": {
+    "historic": "monument",
+    "name": "Giuseppe Garibaldi"
+  }
+},
+{
+  "type": "node",
+  "id": 12230455211,
+  "tags": {
+    "historic": "monument",
+    "name": "Aereo Guardia Costiera"
+  }
+},
+{
+  "type": "node",
+  "id": 12529452425,
+  "tags": {
+    "leisure": "dog_park",
+    "name": "Lido di Fido"
+  }
+},
+{
+  "type": "way",
+  "id": 11987238,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Via Aurelia",
+    "nat_ref": "SS1",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 16445803,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Aurelia",
+    "nat_ref": "SS1",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 18970885,
+  "tags": {
+    "highway": "motorway_link",
+    "layer": "1",
+    "maxspeed": "40",
+    "name": "A12 - Svincolo Chiavari dir. Genova",
+    "oneway": "yes",
+    "ref": "A12",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 18971361,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Corso Giovanni Battista Assarotti",
+    "nat_ref": "SS1",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 18971450,
+  "tags": {
+    "highway": "primary",
+    "maxspeed": "40",
+    "name": "Via Fiume",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 18971452,
+  "tags": {
+    "highway": "secondary",
+    "name": "Via dei Lertora",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 19385881,
+  "tags": {
+    "highway": "secondary",
+    "name": "Via Santa Chiara",
+    "oneway": "yes",
+    "ref": "SP32",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 19386043,
+  "tags": {
+    "highway": "motorway_link",
+    "maxspeed": "40",
+    "name": "A12 - Svincolo Chiavari",
+    "oneway": "no",
+    "ref": "A12",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 19386276,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Corso Giuseppe Garibaldi",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 19604292,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "80",
+    "name": "A12 dir. Genova - Lavagna/Chiavari",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 19604298,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "-1",
+    "lit": "24/7",
+    "maxspeed": "80",
+    "name": "Galleria del Forno",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes",
+    "tunnel": "yes",
+    "tunnel:length": "220",
+    "tunnel:name": "Galleria del Forno",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 19604947,
+  "tags": {
+    "highway": "residential",
+    "name": "Corso Buenos Aires"
+  }
+},
+{
+  "type": "way",
+  "id": 21759369,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "primary",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Via Aurelia",
+    "nat_ref": "SS1",
+    "oneway": "no",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 21759370,
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Viale Francesco Tappani",
+    "sidewalk:both": "separate",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 21759371,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "maxspeed:source": "IT:urban",
+    "name": "Corso Italia",
+    "nat_ref": "SS1",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 23034008,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Preli",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 23034010,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Piazza Davide Gagliardo",
+    "oneway": "no",
+    "surface": "cobblestone"
+  }
+},
+{
+  "type": "way",
+  "id": 23034011,
+  "tags": {
+    "highway": "secondary",
+    "name": "Corso Genova",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 23034013,
+  "tags": {
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Via Giovanni Battista Prandina",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 23383929,
+  "tags": {
+    "highway": "tertiary",
+    "junction": "roundabout",
+    "lane_markings": "no",
+    "name": "Largo Mario Ravenna",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 23384080,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Corso Cristoforo Colombo",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 23384277,
+  "tags": {
+    "highway": "residential",
+    "lanes": "1",
+    "maxspeed": "40",
+    "name": "Via Fortunato Vinelli",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 23384429,
+  "tags": {
+    "highway": "tertiary",
+    "lanes": "2",
+    "name": "Corso Buenos Aires",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 23384431,
+  "tags": {
+    "bridge": "yes",
+    "highway": "tertiary",
+    "lanes": "2",
+    "layer": "1",
+    "name": "Ponte della Libertà",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 23384906,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Corso Dante",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 23385076,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Corso Luigi Brizzolara",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 23385077,
+  "tags": {
+    "highway": "tertiary",
+    "lanes": "2",
+    "name": "Corso Giuseppe Garibaldi",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 23385078,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Piazza Roma",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 23385194,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Nino Bixio",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 23385216,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Corso Vincenzo De Michiel",
+    "nat_ref": "SS1",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 23385300,
+  "tags": {
+    "highway": "tertiary",
+    "lanes": "2",
+    "name": "Corso Valparaiso",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 23385397,
+  "tags": {
+    "highway": "residential",
+    "lane_markings": "no",
+    "name": "Salita Sant’Antonio Maria Gianelli",
+    "source:width": "ARCore",
+    "surface": "asphalt",
+    "width": "4"
+  }
+},
+{
+  "type": "way",
+  "id": 23385434,
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Viale Nicola Arata",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 23385466,
+  "tags": {
+    "highway": "residential",
+    "name": "Piazza Giuseppe Verdi"
+  }
+},
+{
+  "type": "way",
+  "id": 23385478,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Costaguta"
+  }
+},
+{
+  "type": "way",
+  "id": 23385535,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Giuseppe Bontà",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 23385554,
+  "tags": {
+    "highway": "tertiary",
+    "lane_markings": "no",
+    "name": "Piazza Roma",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 23385611,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Trieste",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 23410037,
+  "tags": {
+    "highway": "motorway_link",
+    "layer": "1",
+    "maxspeed": "40",
+    "name": "A12 - Svincolo Chiavari dir. Livorno",
+    "oneway": "yes",
+    "ref": "A12",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 23410085,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Piazza Nostra Signora dell'Orto",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 23410088,
+  "tags": {
+    "leisure": "park",
+    "name": "Viale delle Medaglie d'Oro al Valore Militare"
+  }
+},
+{
+  "type": "way",
+  "id": 23427055,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Piazza Nostra Signora dell'Orto",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 23427125,
+  "tags": {
+    "leisure": "park",
+    "name": "Piazza Roma"
+  }
+},
+{
+  "type": "way",
+  "id": 23684000,
+  "tags": {
+    "highway": "primary",
+    "maxspeed": "50",
+    "name": "Viale Enrico Millo",
+    "oneway": "yes",
+    "sidewalk": "both",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 23684039,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "maxspeed:hgv": "30",
+    "maxspeed:source": "IT:urban",
+    "name": "Corso Italia",
+    "nat_ref": "SS1",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 26168705,
+  "tags": {
+    "highway": "primary",
+    "name": "Via Parma",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 26535340,
+  "tags": {
+    "highway": "primary",
+    "maxspeed": "50",
+    "name": "Via Parma",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 26996480,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "-1",
+    "lit": "24/7",
+    "maxspeed": "110",
+    "name": "Galleria dell'Anchetta",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes",
+    "tunnel": "yes",
+    "tunnel:length": "1430",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 26996483,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "A12 dir. Livorno - Rapallo/Chiavari",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 31782795,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Cesare Battisti",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 31814436,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via San Francesco",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 31814515,
+  "tags": {
+    "highway": "tertiary",
+    "maxspeed": "50",
+    "name": "Via Piacenza",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 31817692,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Nazario Sauro",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 33992581,
+  "tags": {
+    "highway": "tertiary",
+    "lanes": "2",
+    "name": "Corso Cristoforo Colombo",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 33992584,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Preli",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 33992727,
+  "tags": {
+    "highway": "residential",
+    "lane_markings": "no",
+    "name": "Via Luigi Risso",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 34037103,
+  "tags": {
+    "highway": "motorway_link",
+    "maxspeed": "40",
+    "name": "A12 - Svincolo Chiavari dir. Livorno",
+    "oneway": "yes",
+    "ref": "A12",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 34512542,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "80",
+    "name": "A12 dir. Livorno - Rapallo/Chiavari",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 34512545,
+  "tags": {
+    "bridge": "viaduct",
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "A12 dir. Livorno - Chiavari/Lavagna",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 34567789,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "A12 dir. Genova - Lavagna/Chiavari",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 34567790,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "80",
+    "name": "A12 dir. Genova - Chiavari/Rapallo",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 36913304,
+  "tags": {
+    "highway": "tertiary",
+    "lanes": "2",
+    "name": "Corso Dante",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 36913305,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Via Parma",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 38102458,
+  "tags": {
+    "highway": "residential",
+    "lane_markings": "no",
+    "name": "Via della Cittadella",
+    "surface": "paving_stones",
+    "width": "3"
+  }
+},
+{
+  "type": "way",
+  "id": 38102459,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Magenta",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 39424382,
+  "tags": {
+    "highway": "secondary",
+    "layer": "1",
+    "name": "Via Parma",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 40817010,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Ri Alto",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 41394225,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "-1",
+    "lit": "24/7",
+    "maxspeed": "110",
+    "name": "Galleria Ri Alto",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes",
+    "tunnel": "yes",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 41394226,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "A12 dir. Livorno - Chiavari/Lavagna",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 41394228,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "-1",
+    "lit": "24/7",
+    "maxspeed": "110",
+    "name": "Galleria Ri Alto",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes",
+    "tunnel": "yes",
+    "tunnel:length": "420",
+    "tunnel:name": "Galleria Rì alto",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 41394229,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "80",
+    "name": "A12 dir. Livorno - Rapallo/Chiavari",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 41394232,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "-1",
+    "lit": "24/7",
+    "maxspeed": "110",
+    "name": "Galleria Ri Basso",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes",
+    "tunnel": "yes",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 41394233,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "A12 dir. Livorno - Chiavari/Lavagna",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 41394239,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "-1",
+    "lit": "24/7",
+    "maxspeed": "110",
+    "name": "Galleria dell'Anchetta",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes",
+    "tunnel": "yes",
+    "tunnel:length": "1470",
+    "tunnel:name": "Galleria dell'Anchetta",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 41507042,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "A12 dir. Genova - Lavagna/Chiavari",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 41507043,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "-1",
+    "lit": "24/7",
+    "maxspeed": "110",
+    "name": "Galleria Ri Basso",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes",
+    "tunnel": "yes",
+    "tunnel:length": "200",
+    "tunnel:name": "Galleria Rì basso",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 41507044,
+  "tags": {
+    "alt_name": "Viadotto Sampierdicanne",
+    "bicycle": "no",
+    "bridge": "viaduct",
+    "foot": "no",
+    "highway": "motorway",
+    "horse": "no",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "80",
+    "name": "Autostrada Azzurra",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 41507046,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "A12 dir. Genova - Lavagna/Chiavari",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 41568206,
+  "tags": {
+    "highway": "primary",
+    "lanes": "1",
+    "name": "Viale Guglielmo Marconi",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 41659312,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Via Castagnola",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 41952400,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Corso Vincenzo De Michiel",
+    "nat_ref": "SS1",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 41952401,
+  "tags": {
+    "highway": "primary",
+    "maxheight": "4",
+    "name": "Viale Tito Groppo",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 42121835,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Jacopo Rocca",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 42121840,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Jacopo Rocca",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 42121843,
+  "tags": {
+    "highway": "residential",
+    "layer": "-1",
+    "maxheight": "1.9",
+    "name": "Via Jacopo Rocca",
+    "oneway": "yes",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 42122280,
+  "tags": {
+    "highway": "residential",
+    "name": "Corso Valparaiso"
+  }
+},
+{
+  "type": "way",
+  "id": 42122294,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Lungomare esuli italiani d'Istria Fiume e Dalmazia"
+  }
+},
+{
+  "type": "way",
+  "id": 42122305,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Lungomare pedonale di Chiavari"
+  }
+},
+{
+  "type": "way",
+  "id": 42122307,
+  "tags": {
+    "bridge": "yes",
+    "highway": "pedestrian",
+    "layer": "1",
+    "name": "Lungomare"
+  }
+},
+{
+  "type": "way",
+  "id": 42122494,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Piazza Nostra Signora dell'Orto",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 42122496,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Via Martiri della Liberazione",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 42122542,
+  "tags": {
+    "area": "yes",
+    "highway": "pedestrian",
+    "name": "Piazza Giuseppe Mazzini",
+    "place": "square",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 42122644,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Corso Dante",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 42122727,
+  "tags": {
+    "leisure": "park",
+    "name": "Parco Comunale"
+  }
+},
+{
+  "type": "way",
+  "id": 46964700,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Piazza Roma",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 47257341,
+  "tags": {
+    "highway": "motorway_link",
+    "maxspeed": "40",
+    "name": "A12 - Svincolo Chiavari",
+    "oneway": "no",
+    "ref": "A12",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 47259222,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "80",
+    "name": "A12 dir. Genova - Lavagna/Chiavari",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 47259223,
+  "tags": {
+    "highway": "motorway_link",
+    "maxspeed": "40",
+    "name": "A12 - Svincolo Chiavari dir. Genova",
+    "oneway": "yes",
+    "ref": "A12",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 47259224,
+  "tags": {
+    "highway": "motorway_link",
+    "layer": "-1",
+    "maxspeed": "40",
+    "name": "Galleria della Moranda",
+    "oneway": "no",
+    "ref": "A12",
+    "source": "Yahoo Satellite",
+    "surface": "asphalt",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 52063159,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via per Maxena",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 52474843,
+  "tags": {
+    "highway": "unclassified",
+    "maxspeed": "30",
+    "name": "Via Vittorio Veneto"
+  }
+},
+{
+  "type": "way",
+  "id": 58898977,
+  "tags": {
+    "check_date": "2025-04-13",
+    "leisure": "stadium",
+    "name": "Stadio Enrico Sannazzari",
+    "old_name": "Stadio comunale",
+    "sport": "soccer",
+    "start_date": "1933",
+    "wikidata": "Q3967768",
+    "wikipedia": "it:Stadio comunale (Chiavari)"
+  }
+},
+{
+  "type": "way",
+  "id": 59284044,
+  "tags": {
+    "highway": "tertiary",
+    "lanes": "2",
+    "name": "Corso Valparaiso",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 61986215,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Vittorio Botti",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 61986220,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Corso Dante",
+    "oneway": "yes",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 61986221,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Via Jacopo Rocca",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 61986222,
+  "tags": {
+    "highway": "residential",
+    "lanes": "2",
+    "name": "Via Eugenio Sambuceti",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 61986223,
+  "tags": {
+    "highway": "residential",
+    "name": "Largo Giuseppe Casini"
+  }
+},
+{
+  "type": "way",
+  "id": 61986224,
+  "tags": {
+    "highway": "tertiary",
+    "lanes": "1",
+    "name": "Via Federico Delpino",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 61986226,
+  "tags": {
+    "highway": "footway",
+    "name": "Viale delle Medaglie d'Oro al Valore Militare",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 61986227,
+  "tags": {
+    "highway": "tertiary",
+    "lanes": "2",
+    "name": "Corso Giuseppe Garibaldi",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 61986229,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Giuseppe Bontà",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 61986231,
+  "tags": {
+    "highway": "residential",
+    "lanes": "1",
+    "name": "Via Davide Gagliardo",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 61986232,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Jacopo Rocca",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 61995111,
+  "tags": {
+    "highway": "residential",
+    "lanes": "1",
+    "name": "Via Marsala",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 61995112,
+  "tags": {
+    "highway": "residential",
+    "lanes": "2",
+    "name": "Via Emanuele Rambaldi",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 63018695,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "path",
+    "mtb:scale": "2",
+    "name": "Anchetta DH",
+    "sac_scale": "mountain_hiking",
+    "surface": "dirt",
+    "trail_visibility": "excellent"
+  }
+},
+{
+  "type": "way",
+  "id": 81028323,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Sannazzari"
+  }
+},
+{
+  "type": "way",
+  "id": 89142160,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "residential",
+    "lane_markings": "no",
+    "lit": "no",
+    "name": "Località Bacezza Case Sparse",
+    "oneway": "no",
+    "parking:both": "no",
+    "sidewalk": "no",
+    "surface": "asphalt",
+    "width": "3.5"
+  }
+},
+{
+  "type": "way",
+  "id": 94462820,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Frazione Sanguineto",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 94462856,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "tertiary",
+    "name": "Via Sant'Andrea di Rovereto",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 94464559,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Frazione Maxena",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 94464564,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Don Luigi Rosasco"
+  }
+},
+{
+  "type": "way",
+  "id": 94466001,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Giovanni Salvatore Chiarella"
+  }
+},
+{
+  "type": "way",
+  "id": 102135027,
+  "tags": {
+    "highway": "primary",
+    "name": "Viale Enrico Millo",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 102135028,
+  "tags": {
+    "highway": "secondary",
+    "name": "Corso Genova",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 110324484,
+  "tags": {
+    "highway": "residential",
+    "maxwidth": "3.5",
+    "name": "Via Monsignor Marinetti"
+  }
+},
+{
+  "type": "way",
+  "id": 110324487,
+  "tags": {
+    "highway": "residential",
+    "lane_markings": "no",
+    "name": "Via Luigi Marana",
+    "oneway": "yes",
+    "surface": "asphalt",
+    "width": "3"
+  }
+},
+{
+  "type": "way",
+  "id": 110324489,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Gio Batta Ghio",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 118814563,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Via delle Vecchie Mura"
+  }
+},
+{
+  "type": "way",
+  "id": 118814565,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Vico Antonio Oneto"
+  }
+},
+{
+  "type": "way",
+  "id": 118825045,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Giuseppe Raggio",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 118827460,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Via Giovanni Antonio Mongiardini",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 120141378,
+  "tags": {
+    "highway": "unclassified",
+    "maxspeed": "30",
+    "name": "Via Bernardino Turio",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 120141382,
+  "tags": {
+    "addr:city": "Chiavari",
+    "addr:housenumber": "9",
+    "addr:postcode": "16043",
+    "addr:street": "Via Gio Batta Ghio",
+    "amenity": "hospital",
+    "emergency": "no",
+    "healthcare": "hospital",
+    "healthcare:speciality": "community",
+    "name": "Polo Ospedaliero di Chiavari",
+    "operator": "ASL 4 Chiavarese",
+    "operator:type": "public"
+  }
+},
+{
+  "type": "way",
+  "id": 120141392,
+  "tags": {
+    "amenity": "school",
+    "check_date": "2026-07-10",
+    "isced:level": "3",
+    "name": "Liceo Artistico Statale Luzzati"
+  }
+},
+{
+  "type": "way",
+  "id": 120141404,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Rupinaro"
+  }
+},
+{
+  "type": "way",
+  "id": 120141405,
+  "tags": {
+    "bridge": "yes",
+    "highway": "unclassified",
+    "layer": "1",
+    "maxweight": "5",
+    "name": "Via Giuseppe Gaetano Descalzi",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 120141409,
+  "tags": {
+    "highway": "residential",
+    "long_name": "Via Professor Michele Bancalari",
+    "name": "Via P. Michele Bancalari"
+  }
+},
+{
+  "type": "way",
+  "id": 120141422,
+  "tags": {
+    "addr:housenumber": "1",
+    "addr:street": "Viale Enrico Millo",
+    "amenity": "school",
+    "isced:level": "3",
+    "name": "Istituto Tecnico Statale",
+    "phone": "+39 0185 325003",
+    "website": "https://www.itchiavari.org/"
+  }
+},
+{
+  "type": "way",
+  "id": 120141426,
+  "tags": {
+    "area": "yes",
+    "highway": "pedestrian",
+    "name": "Piazza Caduti di Nassirya",
+    "old_name": "Piazza del Popolo",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 120141430,
+  "tags": {
+    "area:highway": "residential",
+    "name": "Piazza Antonio Solari",
+    "place": "square"
+  }
+},
+{
+  "type": "way",
+  "id": 120141433,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Castagnola"
+  }
+},
+{
+  "type": "way",
+  "id": 120161071,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Vico dei Cogorno",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 120161117,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Colonnello Enrico Franceschi",
+    "short_name": "Via Franceschi",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 120161131,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Piazza Paolo Costa",
+    "place": "square",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 120161138,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Via Colonnello Enrico Franceschi",
+    "short_name": "Via Franceschi",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 120161184,
+  "tags": {
+    "highway": "service",
+    "name": "Via Colonnello Enrico Franceschi",
+    "service": "parking_aisle",
+    "short_name": "Via Franceschi",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 120161214,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Colonnello Enrico Franceschi",
+    "short_name": "Via Franceschi",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 120161215,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Vico Sanguineti",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 120232991,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Marina Giulia",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 120233008,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Marina Giulia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 120233024,
+  "tags": {
+    "highway": "residential",
+    "lanes": "2",
+    "name": "Via Trento",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 120233083,
+  "tags": {
+    "highway": "residential",
+    "lanes": "1",
+    "name": "Via dei Botto",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 120289998,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Gerolamo Filippini",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 120289999,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Colonnello Enrico Franceschi",
+    "short_name": "Via Franceschi",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 120290004,
+  "tags": {
+    "highway": "residential",
+    "lanes": "1",
+    "name": "Via Doria",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 120290005,
+  "tags": {
+    "highway": "service",
+    "name": "Piazza Gio Cademartori",
+    "oneway": "yes",
+    "service": "alley"
+  }
+},
+{
+  "type": "way",
+  "id": 120290006,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Colonnello Enrico Franceschi",
+    "short_name": "Via Franceschi",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 120290304,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Piazza Nostra Signora dell'Orto"
+  }
+},
+{
+  "type": "way",
+  "id": 120328859,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Sant'Antonio",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 120328872,
+  "tags": {
+    "highway": "residential",
+    "lanes": "1",
+    "name": "Via Francesco Bancalari",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 120328874,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Remolari",
+    "narrow": "yes",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 120328876,
+  "tags": {
+    "highway": "residential",
+    "lanes": "1",
+    "name": "Via Gerolamo Filippini",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 120360138,
+  "tags": {
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Traversa di Corso Valparaiso",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 120360187,
+  "tags": {
+    "highway": "steps",
+    "name": "Salita Sant’Antonio Maria Gianelli",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 120444916,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Pianello",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 120444918,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Traversa Via San Rufino",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 120464244,
+  "tags": {
+    "highway": "residential",
+    "lane_markings": "no",
+    "name": "Vico Saline",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 120475621,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Davide Gagliardo",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 120475624,
+  "tags": {
+    "highway": "service",
+    "name": "Via Castagnola",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 120475629,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Bernardino Turio",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 120475631,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Zara",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 120575072,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Marina Giulia",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 120575076,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "footway",
+    "name": "Marina Giulia",
+    "segregated": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 120575080,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "footway",
+    "name": "Marina Giulia",
+    "segregated": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 120597926,
+  "tags": {
+    "building": "yes",
+    "historic": "castle",
+    "man_made": "tower",
+    "name": "Castello di Chiavari",
+    "wikidata": "Q3662567",
+    "wikipedia": "it:Castello di Chiavari"
+  }
+},
+{
+  "type": "way",
+  "id": 120597951,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via dei Velieri",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 120597952,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Rupinaro",
+    "place": "square"
+  }
+},
+{
+  "type": "way",
+  "id": 120597956,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "residential",
+    "lane_markings": "no",
+    "lit": "no",
+    "name": "Località Bacezza Case Sparse",
+    "oneway": "no",
+    "parking:both": "no",
+    "sidewalk": "no",
+    "surface": "asphalt",
+    "width": "3.5"
+  }
+},
+{
+  "type": "way",
+  "id": 120597961,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "residential",
+    "lit": "no",
+    "name": "Sampierdicanne Case Sparse",
+    "parking:both": "no",
+    "surface": "ground"
+  }
+},
+{
+  "type": "way",
+  "id": 120597982,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "residential",
+    "lane_markings": "no",
+    "lit": "yes",
+    "name": "Salita Bacezza",
+    "oneway": "yes",
+    "parking:both": "no",
+    "sidewalk": "both",
+    "surface": "asphalt",
+    "width": "3"
+  }
+},
+{
+  "type": "way",
+  "id": 120597983,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "residential",
+    "lanes": "2",
+    "lit": "yes",
+    "maxlength": "8",
+    "name": "Via Antonio Gonelli Cioni",
+    "oneway": "no",
+    "sidewalk:both": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 120597989,
+  "tags": {
+    "highway": "residential",
+    "lane_markings": "no",
+    "name": "Via Giovanni Battista Prandina",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 120598001,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "residential",
+    "lane_markings": "no",
+    "lit": "yes",
+    "name": "Via privata Paganini",
+    "parking:left": "no",
+    "parking:right": "lane",
+    "parking:right:orientation": "parallel",
+    "sidewalk": "left",
+    "surface": "asphalt",
+    "width": "5"
+  }
+},
+{
+  "type": "way",
+  "id": 120598009,
+  "tags": {
+    "bicycle": "yes",
+    "fixme": "dalle ortofoto potrebbe essere una strada",
+    "highway": "path",
+    "name": "Salita al Castello",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 120598054,
+  "tags": {
+    "bicycle": "designated",
+    "foot": "designated",
+    "highway": "path",
+    "name": "Salita San Nicola",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 120598082,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "footway",
+    "name": "Via Giuseppe Gaetano Descalzi",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 120719594,
+  "tags": {
+    "highway": "primary",
+    "lanes": "1",
+    "name": "Corso Montevideo",
+    "oneway": "yes",
+    "sidewalk": "both",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 120719595,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "residential",
+    "lane_markings": "no",
+    "lit": "yes",
+    "name": "Via Antica Romana",
+    "parking:both": "no",
+    "sidewalk": "right",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 120719596,
+  "tags": {
+    "highway": "secondary",
+    "name": "Via Colonnello Enrico Franceschi",
+    "oneway": "yes",
+    "short_name": "Via Franceschi",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 120719597,
+  "tags": {
+    "bridge": "yes",
+    "highway": "secondary",
+    "layer": "1",
+    "name": "Via Sampierdicanne",
+    "oneway": "yes",
+    "ref": "SP32",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 120719598,
+  "tags": {
+    "highway": "secondary",
+    "lane_markings": "no",
+    "name": "Via Sampierdicanne",
+    "oneway": "yes",
+    "ref": "SP32",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 120726320,
+  "tags": {
+    "area": "yes",
+    "highway": "pedestrian",
+    "name": "Piazza Fenice"
+  }
+},
+{
+  "type": "way",
+  "id": 120726321,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Sampierdicanne Case Sparse",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 120726328,
+  "tags": {
+    "highway": "tertiary",
+    "lanes": "1",
+    "name": "Piazza Caduti di Nassirya",
+    "old_name": "Piazza del Popolo",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 120726333,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Via Don Zolezzi",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 120726334,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Perissinotti"
+  }
+},
+{
+  "type": "way",
+  "id": 120726335,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Via San Pantaleo",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 120741411,
+  "tags": {
+    "highway": "residential",
+    "name": "Via dei Lertora",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 120741414,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Sacerdote Francesco Biancalari",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 120741415,
+  "tags": {
+    "highway": "residential",
+    "name": "Piazza Giuseppe Verdi",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 120741416,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Raggio",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 120741418,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Ravaschieri",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 120741420,
+  "tags": {
+    "highway": "residential",
+    "name": "Via dei Lertora",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 120741421,
+  "tags": {
+    "highway": "residential",
+    "name": "Via dei Lertora",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 120741422,
+  "tags": {
+    "highway": "residential",
+    "name": "Via delle Vecchie Mura",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 120832965,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "layer": "-1",
+    "maxspeed": "50",
+    "name": "Aurelia",
+    "nat_ref": "SS1",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 120832967,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Via Aurelia",
+    "nat_ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 120832972,
+  "tags": {
+    "highway": "service",
+    "motor_vehicle": "no",
+    "name": "Via Aurelia",
+    "service": "alley",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 121071418,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Principessa Mafalda di Savoia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 121071419,
+  "tags": {
+    "highway": "residential",
+    "name": "Vico del Bastione",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 121071422,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Via San Giovanni",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 121071423,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Via G. B. Raggio",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 121071425,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Via Rivarola",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 121469145,
+  "tags": {
+    "highway": "tertiary",
+    "lanes": "2",
+    "name": "Via San Terenziano",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 121750874,
+  "tags": {
+    "highway": "rest_area",
+    "name": "Area Parcheggio Campodonico Nord"
+  }
+},
+{
+  "type": "way",
+  "id": 123554629,
+  "tags": {
+    "highway": "residential",
+    "name": "Via San Rufino"
+  }
+},
+{
+  "type": "way",
+  "id": 123557885,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "footway",
+    "name": "Salita Ceive",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 123557888,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Località Caperana Case Sparse",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 123557904,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Case sparse di RI Alto",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 123593830,
+  "tags": {
+    "highway": "residential",
+    "lit": "yes",
+    "name": "Via Pianello",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 123593831,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Pianello"
+  }
+},
+{
+  "type": "way",
+  "id": 123593834,
+  "tags": {
+    "highway": "residential",
+    "name": "Corso Lima"
+  }
+},
+{
+  "type": "way",
+  "id": 125727259,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Belvedere"
+  }
+},
+{
+  "type": "way",
+  "id": 126388754,
+  "tags": {
+    "access": "private",
+    "highway": "residential",
+    "name": "Via Case Sparse Bacezza",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 126388757,
+  "tags": {
+    "bicycle": "yes",
+    "foot": "designated",
+    "highway": "path",
+    "horse": "yes",
+    "name": "Anello di Monte Telegrafo",
+    "sac_scale": "hiking",
+    "surface": "ground"
+  }
+},
+{
+  "type": "way",
+  "id": 126472076,
+  "tags": {
+    "highway": "steps",
+    "name": "Salita Ceive",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 126958209,
+  "tags": {
+    "bicycle": "designated",
+    "foot": "designated",
+    "highway": "path",
+    "name": "Bacezza Sparse",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 141186643,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "residential",
+    "lane_markings": "no",
+    "lit": "yes",
+    "name": "Via Antica Romana",
+    "oneway": "yes",
+    "parking:left": "no",
+    "parking:right": "lane",
+    "parking:right:orientation": "parallel",
+    "sidewalk": "both",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 152049433,
+  "tags": {
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "path",
+    "name": "Pedonale del Mattone",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 152049454,
+  "tags": {
+    "bicycle": "yes",
+    "bridge": "yes",
+    "foot": "yes",
+    "highway": "path",
+    "layer": "1",
+    "name": "Pedonale del Mattone",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 154942388,
+  "tags": {
+    "highway": "living_street",
+    "name": "Via dei Lertora"
+  }
+},
+{
+  "type": "way",
+  "id": 155418380,
+  "tags": {
+    "foot": "yes",
+    "highway": "path",
+    "name": "sentiero dei Passaggi",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 156568143,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "-1",
+    "lit": "24/7",
+    "maxspeed": "80",
+    "name": "Galleria del Forno",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes",
+    "tunnel": "yes",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 159212070,
+  "tags": {
+    "highway": "residential",
+    "lane_markings": "no",
+    "name": "Salita Alessio Levaggi",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 159212078,
+  "tags": {
+    "foot": "designated",
+    "highway": "path",
+    "name": "white red dots",
+    "surface": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 159233883,
+  "tags": {
+    "foot": "yes",
+    "highway": "path",
+    "name": "comunale del Fossato",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 159233896,
+  "tags": {
+    "foot": "yes",
+    "highway": "path",
+    "name": "Strada vicinale del Bandio",
+    "surface": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 162491841,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Viale Sergio Kasman",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 162491844,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Viale Sergio Kasman",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 172569180,
+  "tags": {
+    "name": "Piazza Davide Gagliardo",
+    "place": "square"
+  }
+},
+{
+  "type": "way",
+  "id": 172575238,
+  "tags": {
+    "highway": "residential",
+    "lanes": "1",
+    "maxspeed": "30",
+    "name": "Via Entella",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 172575248,
+  "tags": {
+    "alt_name": "Viale Pio X",
+    "highway": "residential",
+    "name": "Viale Pio decimo"
+  }
+},
+{
+  "type": "way",
+  "id": 172575252,
+  "tags": {
+    "highway": "primary",
+    "name": "Piazza generale Negri di Sanfront",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 172702418,
+  "tags": {
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Via Cavassa",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 172702425,
+  "tags": {
+    "bridge": "yes",
+    "emergency": "yes",
+    "hgv": "no",
+    "highway": "primary",
+    "lanes": "2",
+    "layer": "1",
+    "maxweight": "2.5",
+    "name": "Via Ponte della Maddalena",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 172702429,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Viale Tito Groppo",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 176362109,
+  "tags": {
+    "bridge": "yes",
+    "highway": "pedestrian",
+    "layer": "1",
+    "name": "Ponte pedonale ingresso porto - Lungomare",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 176362110,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Lungomare pedonale di Chiavari - lato mare",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 183225490,
+  "tags": {
+    "bridge": "yes",
+    "highway": "secondary",
+    "layer": "1",
+    "name": "Corso Giacomo Matteotti",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 183225491,
+  "tags": {
+    "highway": "residential",
+    "maxspeed": "40",
+    "name": "Località Caperana Case Sparse",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 183362865,
+  "tags": {
+    "highway": "residential",
+    "name": "Località Caperana Case Sparse"
+  }
+},
+{
+  "type": "way",
+  "id": 184795724,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Piazza Giacomo Matteotti",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 184795725,
+  "tags": {
+    "highway": "residential",
+    "name": "Piazza Giacomo Matteotti",
+    "service": "parking_aisle",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 184812929,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Amedeo Ugolini"
+  }
+},
+{
+  "type": "way",
+  "id": 184812934,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Aldo Gastaldi",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 184812940,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Giannotto Bado",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 184819042,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Giorgio Canale",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 184819047,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Damiano Chiesa",
+    "short_name": "Via Chiesa"
+  }
+},
+{
+  "type": "way",
+  "id": 184819048,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Aldo Gastaldi",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 184819049,
+  "tags": {
+    "highway": "residential",
+    "name": "Corso Lavagna",
+    "oneway": "yes",
+    "sidewalk": "left",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 184819051,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Capitano Renato Orsi",
+    "oneway": "yes",
+    "short_name": "Via Orsi"
+  }
+},
+{
+  "type": "way",
+  "id": 186433048,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Magenta",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 186433049,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Magenta",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 186433062,
+  "tags": {
+    "highway": "residential",
+    "lanes": "1",
+    "name": "Via Fabio Filzi",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 189209342,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Corso Lima",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 197216740,
+  "tags": {
+    "highway": "secondary",
+    "name": "Via San Rufino",
+    "ref": "SP32",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 197216741,
+  "tags": {
+    "highway": "secondary",
+    "name": "Via San Rufino",
+    "ref": "SP32",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 197220883,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Davide Gagliardo"
+  }
+},
+{
+  "type": "way",
+  "id": 197221728,
+  "tags": {
+    "highway": "residential",
+    "name": "Piazza della Torre"
+  }
+},
+{
+  "type": "way",
+  "id": 197221732,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Via Davide Gagliardo"
+  }
+},
+{
+  "type": "way",
+  "id": 197222525,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Vico della Torre",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 197226497,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Piazza Giuseppe Mazzini",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 199288406,
+  "tags": {
+    "highway": "tertiary",
+    "maxheight": "2.8",
+    "name": "Via Marina Giulia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 202345790,
+  "tags": {
+    "amenity": "theatre",
+    "building": "house",
+    "name": "Casa Charitas",
+    "source": "Regione Liguria"
+  }
+},
+{
+  "type": "way",
+  "id": 204598767,
+  "tags": {
+    "amenity": "school",
+    "building": "house",
+    "isced:level": "1",
+    "name": "Scuola Primaria Fortunato Solari",
+    "source": "Regione Liguria"
+  }
+},
+{
+  "type": "way",
+  "id": 204598777,
+  "tags": {
+    "building": "yes",
+    "fixme": "sport",
+    "leisure": "sports_centre",
+    "name": "Palazzo dello Sport",
+    "source": "Regione Liguria",
+    "sport": "multi"
+  }
+},
+{
+  "type": "way",
+  "id": 204604417,
+  "tags": {
+    "amenity": "school",
+    "building": "house",
+    "name": "Scuola primaria Sampierdicanne",
+    "source": "Regione Liguria",
+    "website": "https://www.istitutocomprensivochiavari.gov.it/pvw/app/GEME0070/pvw_sito.php?sede_codice=GEME0070&from=1&page=1202734"
+  }
+},
+{
+  "type": "way",
+  "id": 205029903,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via dei Tessitori"
+  }
+},
+{
+  "type": "way",
+  "id": 216412565,
+  "tags": {
+    "alt_name": "Viadotto Sampierdicanne",
+    "bicycle": "no",
+    "bridge": "viaduct",
+    "foot": "no",
+    "highway": "motorway",
+    "horse": "no",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "A12 dir. Genova - Lavagna/Chiavari",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 216412566,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "A12 dir. Livorno - Chiavari/Lavagna",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 230742370,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Alberto Salietti",
+    "oneway": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 230742371,
+  "tags": {
+    "highway": "unclassified",
+    "lanes": "1",
+    "name": "Via Tripoli",
+    "oneway": "yes",
+    "parking:left": "yes",
+    "parking:left:orientation": "parallel",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 240666328,
+  "tags": {
+    "alt_name": "Viale Devoto",
+    "highway": "tertiary",
+    "name": "Viale Antonio ed Elina Devoto",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 240666337,
+  "tags": {
+    "alt_name": "Viale Devoto",
+    "highway": "residential",
+    "name": "Viale Antonio ed Elina Devoto"
+  }
+},
+{
+  "type": "way",
+  "id": 240666338,
+  "tags": {
+    "alt_name": "Viale Devoto",
+    "highway": "service",
+    "name": "Viale Antonio ed Elina Devoto",
+    "service": "driveway"
+  }
+},
+{
+  "type": "way",
+  "id": 263790462,
+  "tags": {
+    "highway": "track",
+    "name": "Via Don Luigi Rosasco"
+  }
+},
+{
+  "type": "way",
+  "id": 263791226,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Sanguineto"
+  }
+},
+{
+  "type": "way",
+  "id": 269631158,
+  "tags": {
+    "highway": "footway",
+    "name": "Via dei Lertora"
+  }
+},
+{
+  "type": "way",
+  "id": 269631159,
+  "tags": {
+    "foot": "designated",
+    "highway": "path",
+    "name": "Via dei Lertora"
+  }
+},
+{
+  "type": "way",
+  "id": 269633044,
+  "tags": {
+    "bicycle": "no",
+    "foot": "yes",
+    "highway": "path",
+    "name": "Pedonale del Mattone",
+    "sac_scale": "mountain_hiking",
+    "surface": "unpaved",
+    "trail_visibility": "good"
+  }
+},
+{
+  "type": "way",
+  "id": 286807452,
+  "tags": {
+    "highway": "residential",
+    "name": "Passo alle clarisse",
+    "oneway": "yes",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 287702214,
+  "tags": {
+    "bridge": "yes",
+    "highway": "primary",
+    "lanes": "2",
+    "layer": "1",
+    "maxspeed": "50",
+    "maxspeed:hgv": "30",
+    "maxspeed:source": "IT:urban",
+    "maxweight": "45",
+    "name": "Corso Italia",
+    "nat_ref": "SS1",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 287702216,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Piazza Nostra Signora dell'Orto",
+    "nat_ref": "SS1",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 287702219,
+  "tags": {
+    "bridge": "yes",
+    "highway": "secondary",
+    "layer": "1",
+    "name": "Corso Genova",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 287702220,
+  "tags": {
+    "highway": "secondary",
+    "name": "Corso Genova",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 287702231,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Giuseppe Gaetano Descalzi",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 287702233,
+  "tags": {
+    "bridge": "yes",
+    "highway": "secondary",
+    "layer": "1",
+    "maxspeed": "50",
+    "name": "Viale Francesco Tappani",
+    "sidewalk:both": "separate",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 287702235,
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Viale Francesco Tappani",
+    "sidewalk:both": "separate",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 287702236,
+  "tags": {
+    "cutting": "yes",
+    "highway": "tertiary",
+    "lanes": "1",
+    "maxheight": "3.3",
+    "name": "Viale Enrico Millo",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 292951719,
+  "tags": {
+    "highway": "residential",
+    "name": "Via dei Casaretto",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 297778184,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Sanguineto"
+  }
+},
+{
+  "type": "way",
+  "id": 297778186,
+  "tags": {
+    "bicycle": "no",
+    "foot": "yes",
+    "highway": "path",
+    "name": "Vicinale del Mosto",
+    "surface": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 298669103,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Via Ponte della Maddalena",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 299759008,
+  "tags": {
+    "highway": "tertiary",
+    "lanes": "2",
+    "name": "Piazza Caduti di Nassirya",
+    "old_name": "Piazza del Popolo",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 299759013,
+  "tags": {
+    "bridge": "yes",
+    "highway": "primary",
+    "layer": "1",
+    "name": "Via Castagnola",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 299759014,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Via Castagnola",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 299759015,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Ritrovato"
+  }
+},
+{
+  "type": "way",
+  "id": 299759016,
+  "tags": {
+    "bridge": "yes",
+    "highway": "secondary",
+    "layer": "1",
+    "name": "Via Sampierdicanne",
+    "oneway": "yes",
+    "ref": "SP32",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 299759017,
+  "tags": {
+    "highway": "secondary",
+    "name": "Via Sampierdicanne",
+    "ref": "SP32",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 299759018,
+  "tags": {
+    "highway": "primary",
+    "lane_markings": "no",
+    "name": "Piazza Caduti di Nassirya",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 299759019,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Giuseppina Mariani",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 309596903,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Case sparse di Ri Alto",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 309605322,
+  "tags": {
+    "bicycle": "yes",
+    "bridge": "viaduct",
+    "highway": "footway",
+    "layer": "1",
+    "name": "Salita Ceive",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 309605323,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "footway",
+    "name": "Salita Ceive",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 309609372,
+  "tags": {
+    "highway": "primary",
+    "junction": "roundabout",
+    "name": "Piazzale Franca",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 309636713,
+  "tags": {
+    "bridge": "yes",
+    "highway": "secondary",
+    "layer": "1",
+    "name": "Via San Rufino",
+    "ref": "SP32",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 326393620,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "maxspeed:source": "IT:urban",
+    "name": "Piazza Torriglia",
+    "nat_ref": "SS1",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 326393621,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Via Giovanni Battista Prandina",
+    "nat_ref": "SS1",
+    "oneway": "no",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 353464279,
+  "tags": {
+    "highway": "primary",
+    "maxspeed": "40",
+    "name": "A12 - Svincolo Chiavari",
+    "oneway": "no",
+    "ref": "A12",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 353464280,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Lungomare pedonale Chiavari",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 353464639,
+  "tags": {
+    "highway": "service",
+    "name": "Strada di servizio interna al porto",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 353464643,
+  "tags": {
+    "highway": "residential",
+    "name": "Largo Ravenna",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 353467445,
+  "tags": {
+    "bridge": "yes",
+    "cycleway:left": "track",
+    "cycleway:left:oneway": "no",
+    "cycleway:left:segregated": "no",
+    "cycleway:right": "no",
+    "highway": "primary",
+    "lanes": "2",
+    "layer": "1",
+    "maxspeed": "50",
+    "maxweight:signed": "no",
+    "name": "Corso Vincenzo De Michiel",
+    "nat_ref": "SS1",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "sidewalk": "both",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 353467447,
+  "tags": {
+    "highway": "primary",
+    "name": "Str. Vicinale Chiusa",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 353467941,
+  "tags": {
+    "highway": "tertiary",
+    "lanes": "1",
+    "name": "Corso Dante",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 353467943,
+  "tags": {
+    "highway": "tertiary",
+    "lanes": "1",
+    "name": "Corso Dante",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 353467946,
+  "tags": {
+    "highway": "primary",
+    "lanes": "1",
+    "name": "Viale Guglielmo Marconi",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 353467947,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Viale Guglielmo Marconi",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 353467949,
+  "tags": {
+    "highway": "primary",
+    "name": "Viale Guglielmo Marconi",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 355431901,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Piazza Caduti di Nassirya",
+    "old_name": "Piazza del Popolo",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 355431902,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Vico Emanuele Gonzales"
+  }
+},
+{
+  "type": "way",
+  "id": 355431903,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Senatore Nicola Giuseppe Dallorso"
+  }
+},
+{
+  "type": "way",
+  "id": 355431904,
+  "tags": {
+    "highway": "footway",
+    "name": "Viale Enrico Millo"
+  }
+},
+{
+  "type": "way",
+  "id": 355431905,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Vico Agostino Busco",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 360734499,
+  "tags": {
+    "highway": "residential",
+    "name": "Traversa Bontà",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 360734500,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Via Giuseppe Bontà",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 360734501,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Jacopo Rocca",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 360739269,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Largo Giuseppe Casini",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 360768105,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Via dei Gandolfi",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 360768746,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Via Bighetti",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 370148336,
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Viale Francesco Tappani",
+    "sidewalk": "both",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 370149622,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Privata degli Ulivi"
+  }
+},
+{
+  "type": "way",
+  "id": 415787332,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Perissinotti",
+    "oneway": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 415787605,
+  "tags": {
+    "access": "private",
+    "highway": "residential",
+    "name": "Via Casali di Bacezza Case Sparse"
+  }
+},
+{
+  "type": "way",
+  "id": 416472769,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Angelo Argiroffo",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 416472770,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Priv. da Via Angelo Argiroffo"
+  }
+},
+{
+  "type": "way",
+  "id": 416472771,
+  "tags": {
+    "highway": "residential",
+    "lanes": "2",
+    "name": "Via Filippo Chiarella",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 431568459,
+  "tags": {
+    "area:highway": "residential",
+    "name": "Largo Maresciallo Antonio Enrico Canzio",
+    "place": "square"
+  }
+},
+{
+  "type": "way",
+  "id": 431568460,
+  "tags": {
+    "highway": "service",
+    "name": "Via Privata Nostra Signora dell'Orto"
+  }
+},
+{
+  "type": "way",
+  "id": 431568461,
+  "tags": {
+    "highway": "service",
+    "name": "Via Privata Nostra Signora dell'Orto"
+  }
+},
+{
+  "type": "way",
+  "id": 439012547,
+  "tags": {
+    "highway": "secondary",
+    "lane_markings": "no",
+    "name": "Piazza Nostra Signora dell'Orto",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 445227491,
+  "tags": {
+    "highway": "secondary",
+    "name": "Via San Rufino",
+    "ref": "SP32",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 449339026,
+  "tags": {
+    "area:highway": "residential",
+    "name": "Largo Riccardo Pessagno",
+    "place": "square"
+  }
+},
+{
+  "type": "way",
+  "id": 461585736,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Via Aurelia",
+    "nat_ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "sidewalk:both": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 461585737,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "primary",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Via Aurelia",
+    "nat_ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "sidewalk:both": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 461585738,
+  "tags": {
+    "highway": "steps",
+    "name": "white red dots",
+    "surface": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 461585740,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Aurelia",
+    "nat_ref": "SS1",
+    "oneway": "no",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 462930215,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via per Maxena",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 462930219,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via per Maxena",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 480079400,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Vico Angelo Argiroffo",
+    "oneway": "no",
+    "surface": "cobblestone"
+  }
+},
+{
+  "type": "way",
+  "id": 480079401,
+  "tags": {
+    "highway": "residential",
+    "lane_markings": "no",
+    "name": "Corso Valparaiso",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 480079402,
+  "tags": {
+    "highway": "unclassified",
+    "lanes": "1",
+    "name": "Via Luigi Risso",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 480079403,
+  "tags": {
+    "highway": "residential",
+    "lanes": "1",
+    "name": "Via Luigi Risso",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 480079404,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Corso Valparaiso",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 480079405,
+  "tags": {
+    "highway": "steps",
+    "name": "Via Marina Giulia"
+  }
+},
+{
+  "type": "way",
+  "id": 485116753,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Giuseppe Gaetano Descalzi"
+  }
+},
+{
+  "type": "way",
+  "id": 485116754,
+  "tags": {
+    "highway": "service",
+    "name": "Via Giuseppe Gaetano Descalzi"
+  }
+},
+{
+  "type": "way",
+  "id": 485116755,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Castagnola",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 485116756,
+  "tags": {
+    "highway": "unclassified",
+    "maxspeed": "30",
+    "name": "Via Bernardino Turio",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 499106289,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Preli"
+  }
+},
+{
+  "type": "way",
+  "id": 499106290,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Corso Giovanni Battista Assarotti",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 499106291,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Corso Angelo Gianelli",
+    "nat_ref": "SS1",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 499106292,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Corso Italia",
+    "nat_ref": "SS1",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 502049077,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Ri Alto",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 502049078,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Ri Alto",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 502049079,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Ri Alto",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 502049082,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Corso Lima",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 502049083,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Corso Lima",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 502049084,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Ri Alto",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 502049086,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Salita Ceive",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 502049088,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Belvedere",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 502049090,
+  "tags": {
+    "highway": "tertiary",
+    "lanes": "2",
+    "name": "Via Ri Alto",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 502685031,
+  "tags": {
+    "highway": "residential",
+    "name": "Largo Gaetano Moretti"
+  }
+},
+{
+  "type": "way",
+  "id": 502685044,
+  "tags": {
+    "highway": "service",
+    "name": "Vico Saline"
+  }
+},
+{
+  "type": "way",
+  "id": 502685048,
+  "tags": {
+    "highway": "residential",
+    "lane_markings": "no",
+    "name": "Vico Saline",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 502685052,
+  "tags": {
+    "highway": "residential",
+    "name": "Vico Saline"
+  }
+},
+{
+  "type": "way",
+  "id": 502685057,
+  "tags": {
+    "highway": "residential",
+    "lane_markings": "no",
+    "name": "Vico Saline",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 502685060,
+  "tags": {
+    "highway": "service",
+    "name": "Vico Saline",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 504030461,
+  "tags": {
+    "highway": "secondary",
+    "name": "Piazza generale Negri di Sanfront",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 504030462,
+  "tags": {
+    "highway": "primary",
+    "name": "Piazza generale Negri di Sanfront",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 504030463,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Entella",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 504080442,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Giannotto Bado"
+  }
+},
+{
+  "type": "way",
+  "id": 504080443,
+  "tags": {
+    "bicycle": "no",
+    "foot": "yes",
+    "highway": "path",
+    "horse": "yes",
+    "name": "Via privata Comignano",
+    "ski": "no",
+    "surface": "grass",
+    "trail_visibility": "good",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 504080444,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Ugolini"
+  }
+},
+{
+  "type": "way",
+  "id": 504080445,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Ugolini",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 504080446,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Valerio Glorialanza"
+  }
+},
+{
+  "type": "way",
+  "id": 504080447,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Piacenza"
+  }
+},
+{
+  "type": "way",
+  "id": 504080454,
+  "tags": {
+    "alt_name": "Viale Devoto",
+    "highway": "service",
+    "name": "Viale Antonio ed Elina Devoto"
+  }
+},
+{
+  "type": "way",
+  "id": 504080457,
+  "tags": {
+    "highway": "residential",
+    "name": "Largo Ravenna",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 525513972,
+  "tags": {
+    "highway": "residential",
+    "name": "Via San Rufino"
+  }
+},
+{
+  "type": "way",
+  "id": 525513973,
+  "tags": {
+    "highway": "secondary",
+    "name": "Via Sampierdicanne",
+    "oneway": "yes",
+    "ref": "SP32",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 525518046,
+  "tags": {
+    "handrail": "yes",
+    "highway": "steps",
+    "name": "via Chiarella"
+  }
+},
+{
+  "type": "way",
+  "id": 525518047,
+  "tags": {
+    "highway": "steps",
+    "name": "via Argiroffo"
+  }
+},
+{
+  "type": "way",
+  "id": 525518048,
+  "tags": {
+    "highway": "residential",
+    "name": "Vico Angelo Argiroffo"
+  }
+},
+{
+  "type": "way",
+  "id": 525521202,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Piazza Nostra Signora dell'Orto",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 526444981,
+  "tags": {
+    "highway": "steps",
+    "name": "Sampierdicanne Case Sparse",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 527570181,
+  "tags": {
+    "highway": "residential",
+    "name": "traversa di via San Rufino"
+  }
+},
+{
+  "type": "way",
+  "id": 529826410,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "residential",
+    "lane_markings": "no",
+    "lit": "no",
+    "name": "Sampierdicanne Case Sparse",
+    "parking:both": "no",
+    "sidewalk": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 529827192,
+  "tags": {
+    "highway": "steps",
+    "name": "Via dei Lertora"
+  }
+},
+{
+  "type": "way",
+  "id": 529827193,
+  "tags": {
+    "highway": "footway",
+    "name": "Via dei Lertora"
+  }
+},
+{
+  "type": "way",
+  "id": 529828167,
+  "tags": {
+    "area": "yes",
+    "highway": "service",
+    "name": "Piazza Sampierdicanne"
+  }
+},
+{
+  "type": "way",
+  "id": 529828168,
+  "tags": {
+    "highway": "service",
+    "name": "Piazza Sampierdicanne"
+  }
+},
+{
+  "type": "way",
+  "id": 530571116,
+  "tags": {
+    "highway": "service",
+    "name": "Piazza Milano",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 530571117,
+  "tags": {
+    "highway": "footway",
+    "name": "Corso Italia"
+  }
+},
+{
+  "type": "way",
+  "id": 530571118,
+  "tags": {
+    "highway": "steps",
+    "name": "Corso Italia"
+  }
+},
+{
+  "type": "way",
+  "id": 530571119,
+  "tags": {
+    "highway": "service",
+    "name": "Corso Italia"
+  }
+},
+{
+  "type": "way",
+  "id": 530571120,
+  "tags": {
+    "highway": "service",
+    "name": "Corso Italia"
+  }
+},
+{
+  "type": "way",
+  "id": 530571121,
+  "tags": {
+    "highway": "service",
+    "name": "Corso Italia"
+  }
+},
+{
+  "type": "way",
+  "id": 530571127,
+  "tags": {
+    "highway": "service",
+    "name": "Via Marina Giulia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 530571128,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Marina Giulia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 530571132,
+  "tags": {
+    "highway": "service",
+    "name": "Viale Enrico Millo"
+  }
+},
+{
+  "type": "way",
+  "id": 530571133,
+  "tags": {
+    "bicycle": "yes",
+    "cutting": "yes",
+    "highway": "footway",
+    "name": "Viale Enrico Millo"
+  }
+},
+{
+  "type": "way",
+  "id": 530571144,
+  "tags": {
+    "highway": "service",
+    "name": "Viale Enrico Millo"
+  }
+},
+{
+  "type": "way",
+  "id": 530571149,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Marina Giulia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 530605471,
+  "tags": {
+    "access": "private",
+    "highway": "service",
+    "name": "Corso Valparaiso"
+  }
+},
+{
+  "type": "way",
+  "id": 530842425,
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "Circolo ACLI G.Mariani",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 530846737,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Via Sampierdicanne",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 530882460,
+  "tags": {
+    "highway": "service",
+    "name": "Via Giuseppe Gaetano Descalzi"
+  }
+},
+{
+  "type": "way",
+  "id": 530977339,
+  "tags": {
+    "highway": "service",
+    "name": "Via dei Lertora"
+  }
+},
+{
+  "type": "way",
+  "id": 530977340,
+  "tags": {
+    "highway": "service",
+    "name": "Via dei Lertora"
+  }
+},
+{
+  "type": "way",
+  "id": 530997739,
+  "tags": {
+    "highway": "service",
+    "name": "Via Colonnello Enrico Franceschi",
+    "service": "parking_aisle",
+    "short_name": "Via Franceschi"
+  }
+},
+{
+  "type": "way",
+  "id": 530997740,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Colonnello Enrico Franceschi",
+    "short_name": "Via Franceschi",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 531037755,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Piazza Torriglia",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 531044452,
+  "tags": {
+    "highway": "primary",
+    "lane_markings": "no",
+    "name": "Via Piacenza",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 531044453,
+  "tags": {
+    "highway": "primary",
+    "name": "Piazza generale Negri di Sanfront",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 531044457,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Piazza generale Negri di Sanfront",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 531044458,
+  "tags": {
+    "highway": "primary",
+    "lane_markings": "no",
+    "name": "Piazza generale Negri di Sanfront",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 531047301,
+  "tags": {
+    "leisure": "park",
+    "name": "Piazza del Buono"
+  }
+},
+{
+  "type": "way",
+  "id": 531087266,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Giuseppe Gaetano Descalzi"
+  }
+},
+{
+  "type": "way",
+  "id": 531148887,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Parma"
+  }
+},
+{
+  "type": "way",
+  "id": 531687358,
+  "tags": {
+    "access": "private",
+    "highway": "residential",
+    "name": "Via Priv. da Via Angelo Argiroffo"
+  }
+},
+{
+  "type": "way",
+  "id": 531687359,
+  "tags": {
+    "access": "private",
+    "highway": "residential",
+    "name": "Via Priv. da Via Angelo Argiroffo"
+  }
+},
+{
+  "type": "way",
+  "id": 532783164,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Don Luigi Rosasco"
+  }
+},
+{
+  "type": "way",
+  "id": 533461208,
+  "tags": {
+    "highway": "residential",
+    "name": "Via privata Boletto"
+  }
+},
+{
+  "type": "way",
+  "id": 534857712,
+  "tags": {
+    "access": "yes",
+    "leisure": "garden",
+    "name": "Giardino pubblico Vittorio Agostino Repetti"
+  }
+},
+{
+  "type": "way",
+  "id": 543122097,
+  "tags": {
+    "leisure": "park",
+    "name": "Giardini Castagnola"
+  }
+},
+{
+  "type": "way",
+  "id": 550153934,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Tito Groppo",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 550154036,
+  "tags": {
+    "highway": "primary",
+    "name": "Via Tito Groppo",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 550154882,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Preli",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 550154883,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Lungomare pedonale di Chiavari"
+  }
+},
+{
+  "type": "way",
+  "id": 550154884,
+  "tags": {
+    "highway": "residential",
+    "lanes": "2",
+    "name": "Corso Buenos Aires",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 561883001,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Via Grimaldi",
+    "oneway": "yes",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 561884238,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Via Bontà",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 561884524,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Via dei Revello",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 561886815,
+  "tags": {
+    "highway": "footway",
+    "name": "Galleria di Corso Garibaldi",
+    "tunnel": "building_passage"
+  }
+},
+{
+  "type": "way",
+  "id": 561888418,
+  "tags": {
+    "highway": "residential",
+    "name": "Piazza Giuseppe Verdi"
+  }
+},
+{
+  "type": "way",
+  "id": 577282286,
+  "tags": {
+    "access": "private",
+    "highway": "residential",
+    "name": "Via Ravaschieri",
+    "surface": "asphalt",
+    "vehicle": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 579251829,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Piazza Paolo Costa",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 579251830,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Piazza Paolo Costa",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 579251835,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Monsignor Marinetti",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 579251836,
+  "tags": {
+    "highway": "residential",
+    "lane_markings": "no",
+    "name": "Salita Alessio Levaggi",
+    "oneway": "yes",
+    "surface": "paving_stones",
+    "width": "2"
+  }
+},
+{
+  "type": "way",
+  "id": 685576015,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Parma"
+  }
+},
+{
+  "type": "way",
+  "id": 692644905,
+  "tags": {
+    "bridge": "viaduct",
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "A12 dir. Genova - Lavagna/Chiavari",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 692644908,
+  "tags": {
+    "alt_name": "Viadotto Sampierdicanne",
+    "bicycle": "no",
+    "bridge": "viaduct",
+    "foot": "no",
+    "highway": "motorway",
+    "horse": "no",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "80",
+    "name": "A12 dir. Genova - Lavagna/Chiavari",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 692644909,
+  "tags": {
+    "alt_name": "Viadotto Sampierdicanne",
+    "bicycle": "no",
+    "foot": "no",
+    "highway": "motorway",
+    "horse": "no",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "lit": "no",
+    "maxspeed": "80",
+    "name": "Autostrada Azzurra",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 692644911,
+  "tags": {
+    "alt_name": "Viadotto Sampierdicanne",
+    "bicycle": "no",
+    "bridge": "viaduct",
+    "foot": "no",
+    "highway": "motorway",
+    "horse": "no",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "80",
+    "name": "Autostrada Azzurra",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 692644912,
+  "tags": {
+    "alt_name": "Viadotto Sampierdicanne",
+    "bicycle": "no",
+    "foot": "no",
+    "highway": "motorway",
+    "horse": "no",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "lit": "no",
+    "maxspeed": "80",
+    "name": "A12 dir. Livorno - Rapallo/Chiavari",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 692644913,
+  "tags": {
+    "alt_name": "Viadotto Sampierdicanne",
+    "bicycle": "no",
+    "bridge": "viaduct",
+    "foot": "no",
+    "highway": "motorway",
+    "horse": "no",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "80",
+    "name": "A12 dir. Livorno - Chiavari/Lavagna",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 692644914,
+  "tags": {
+    "highway": "motorway_link",
+    "layer": "1",
+    "maxspeed": "40",
+    "name": "A12 - Svincolo Chiavari dir. Genova",
+    "oneway": "yes",
+    "ref": "A12",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 692644915,
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway_link",
+    "layer": "1",
+    "maxspeed": "40",
+    "name": "A12 - Svincolo Chiavari dir. Genova",
+    "oneway": "yes",
+    "ref": "A12",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 692644916,
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "80",
+    "name": "A12 dir. Genova - Chiavari/Rapallo",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 692644917,
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "80",
+    "name": "A12 dir. Livorno - Rapallo/Chiavari",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 692644918,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "80",
+    "name": "A12 dir. Livorno - Rapallo/Chiavari",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 692644919,
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "A12 dir. Genova - Chiavari/Rapallo",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 692644920,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "A12 dir. Genova - Chiavari/Rapallo",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 692644921,
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "80",
+    "name": "A12 dir. Livorno - Rapallo/Chiavari",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 692644922,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "80",
+    "name": "A12 dir. Livorno - Rapallo/Chiavari",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 692644923,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "A12 dir. Genova - Chiavari/Rapallo",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 692644924,
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "A12 dir. Genova - Chiavari/Rapallo",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 692644925,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "A12 dir. Genova - Chiavari/Rapallo",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 692644926,
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "A12 dir. Genova - Chiavari/Rapallo",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 692644927,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "A12 dir. Genova - Chiavari/Rapallo",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 692644928,
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "A12 dir. Livorno - Rapallo/Chiavari",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 692644929,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "A12 dir. Livorno - Rapallo/Chiavari",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 692644930,
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "A12 dir. Livorno - Rapallo/Chiavari",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 692644931,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "A12 dir. Livorno - Rapallo/Chiavari",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 692644932,
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "A12 dir. Genova - Chiavari/Rapallo",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 692644933,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "A12 dir. Genova - Chiavari/Rapallo",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 692644934,
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "A12 dir. Livorno - Rapallo/Chiavari",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 692644935,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "A12 dir. Livorno - Rapallo/Chiavari",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 699012222,
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway_link",
+    "layer": "1",
+    "maxspeed": "40",
+    "name": "A12 - Svincolo Chiavari dir. Livorno",
+    "oneway": "yes",
+    "ref": "A12",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 699012223,
+  "tags": {
+    "alt_name": "Viadotto Sampierdicanne",
+    "bicycle": "no",
+    "bridge": "yes",
+    "foot": "no",
+    "highway": "motorway",
+    "horse": "no",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "80",
+    "name": "A12 dir. Livorno - Rapallo/Chiavari",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 699012224,
+  "tags": {
+    "alt_name": "Viadotto Sampierdicanne",
+    "bicycle": "no",
+    "bridge": "viaduct",
+    "foot": "no",
+    "highway": "motorway",
+    "horse": "no",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "A12 dir. Livorno - Chiavari/Lavagna",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 699012225,
+  "tags": {
+    "bridge": "viaduct",
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "80",
+    "name": "A12 dir. Livorno - Chiavari/Lavagna",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 709688307,
+  "tags": {
+    "highway": "residential",
+    "name": "Via don Serafino Solari",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 709688308,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Privata Comignano",
+    "short_name": "Via Comignano",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 750302431,
+  "tags": {
+    "highway": "residential",
+    "name": "Via dei Remezzano"
+  }
+},
+{
+  "type": "way",
+  "id": 750302446,
+  "tags": {
+    "highway": "service",
+    "name": "Via Parma",
+    "service": "driveway"
+  }
+},
+{
+  "type": "way",
+  "id": 750302450,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Parma"
+  }
+},
+{
+  "type": "way",
+  "id": 750302452,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Parma"
+  }
+},
+{
+  "type": "way",
+  "id": 750302458,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Parma"
+  }
+},
+{
+  "type": "way",
+  "id": 770704012,
+  "tags": {
+    "highway": "residential",
+    "name": "Via San Terenziano",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 790806348,
+  "tags": {
+    "highway": "residential",
+    "name": "Via privata da Piazza Sanfront"
+  }
+},
+{
+  "type": "way",
+  "id": 790806370,
+  "tags": {
+    "highway": "service",
+    "name": "Salita San Michele",
+    "service": "driveway"
+  }
+},
+{
+  "type": "way",
+  "id": 790806371,
+  "tags": {
+    "highway": "service",
+    "name": "Salita San Michele"
+  }
+},
+{
+  "type": "way",
+  "id": 816137376,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Lungomare"
+  }
+},
+{
+  "type": "way",
+  "id": 816137377,
+  "tags": {
+    "highway": "pedestrian",
+    "layer": "-1",
+    "name": "Lungomare dei Gotuzzzo",
+    "tunnel": "building_passage"
+  }
+},
+{
+  "type": "way",
+  "id": 853192791,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Aurelia",
+    "nat_ref": "SS1",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 853192792,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "maxspeed:source": "IT:urban",
+    "name": "Piazza Torriglia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 853192793,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "maxspeed:source": "IT:urban",
+    "name": "Piazza Torriglia",
+    "nat_ref": "SS1",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 853192794,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Piazza Torriglia",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 853192795,
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "maxspeed": "30",
+    "name": "Viale Francesco Tappani",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 853192798,
+  "tags": {
+    "name": "Piazza Giacomo Matteotti",
+    "place": "square"
+  }
+},
+{
+  "type": "way",
+  "id": 853192799,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Via Vittorio Veneto",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 853206754,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via San Pietro",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 863471531,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Salita San Michele di Ri",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 908488452,
+  "tags": {
+    "fixme": "Controllare il nome, creata solo per sentito dire.",
+    "name": "Piazza Grande",
+    "place": "square"
+  }
+},
+{
+  "type": "way",
+  "id": 946021384,
+  "tags": {
+    "highway": "primary",
+    "name": "Via Piacenza",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 952044724,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Lungomare",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 952044725,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Lungomare pedonale di Chiavari - dir. Stazione",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 952044739,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Lungomare",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 952044740,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Lungomare pedonale dei Gotuzzo (dir. Torre Fara)"
+  }
+},
+{
+  "type": "way",
+  "id": 952375763,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Lungomare pedonale di Chiavari - lato c.so Valparaiso",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 952375769,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Francesco Raffo",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 952375771,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Premuda",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 952375772,
+  "tags": {
+    "highway": "service",
+    "name": "Piazza Vittorio Leonardi",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 952377730,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Piazza Madonna dell'ulivo",
+    "place": "square",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 952377733,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "footway",
+    "name": "Via Giuseppe Gaetano Descalzi",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 952377734,
+  "tags": {
+    "bicycle": "dismount",
+    "highway": "steps",
+    "name": "Via Giuseppe Gaetano Descalzi",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 952377735,
+  "tags": {
+    "bicycle": "dismount",
+    "handrail": "yes",
+    "highway": "steps",
+    "incline": "up",
+    "name": "Via Giuseppe Gaetano Descalzi",
+    "ramp": "yes",
+    "ramp:wheelchair": "yes",
+    "step_count": "11",
+    "surface": "asphalt",
+    "tactile_paving": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 952381257,
+  "tags": {
+    "cutting": "yes",
+    "highway": "footway",
+    "name": "Viale Enrico Millo"
+  }
+},
+{
+  "type": "way",
+  "id": 952385727,
+  "tags": {
+    "name": "Piazza Milano",
+    "place": "square"
+  }
+},
+{
+  "type": "way",
+  "id": 952385730,
+  "tags": {
+    "highway": "service",
+    "name": "Piazza Milano",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 952679855,
+  "tags": {
+    "name": "Terrazza conte Giuseppe Raffo",
+    "place": "square"
+  }
+},
+{
+  "type": "way",
+  "id": 953307466,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "primary",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Via Aurelia",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 956006927,
+  "tags": {
+    "highway": "primary",
+    "name": "Via Piacenza",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 956006928,
+  "tags": {
+    "highway": "primary",
+    "name": "Via Piacenza",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1008076614,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "residential",
+    "lane_markings": "no",
+    "lit": "no",
+    "name": "Località Bacezza Case Sparse",
+    "oneway": "no",
+    "parking:both": "no",
+    "sidewalk": "no",
+    "surface": "asphalt",
+    "width": "3.5"
+  }
+},
+{
+  "type": "way",
+  "id": 1008076615,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "primary",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Via Aurelia",
+    "nat_ref": "SS1",
+    "parking:both": "no",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "sidewalk": "no",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 1011322082,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Don Luigi Rosasco"
+  }
+},
+{
+  "type": "way",
+  "id": 1011322085,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Sanguineto"
+  }
+},
+{
+  "type": "way",
+  "id": 1011322086,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Sanguineto"
+  }
+},
+{
+  "type": "way",
+  "id": 1011322087,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Sanguineto"
+  }
+},
+{
+  "type": "way",
+  "id": 1011322932,
+  "tags": {
+    "highway": "residential",
+    "name": "Via San Rufino",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1011322934,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Ritrovato",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1011322935,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Ritrovato",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1011322937,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Traversa Via San Rufino",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1011322938,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Traversa Via San Rufino",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1011322940,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Pianello",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1018526621,
+  "tags": {
+    "highway": "residential",
+    "name": "Corso Lavagna",
+    "oneway": "yes",
+    "sidewalk": "both",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1022957029,
+  "tags": {
+    "highway": "service",
+    "name": "Salita Ceive",
+    "service": "driveway",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 1022957031,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Salita Ceive"
+  }
+},
+{
+  "type": "way",
+  "id": 1022962191,
+  "tags": {
+    "alt_name": "Viale Devoto",
+    "highway": "tertiary",
+    "maxspeed": "50",
+    "name": "Viale Antonio ed Elina Devoto",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1022962192,
+  "tags": {
+    "alt_name": "Viale Devoto",
+    "highway": "tertiary",
+    "name": "Viale Antonio ed Elina Devoto",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1022962193,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Ri Alto",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1022962194,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Ri Alto",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1022963666,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Giorgio Canale",
+    "oneway": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 1022963667,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Giorgio Canale",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1022965090,
+  "tags": {
+    "highway": "residential",
+    "maxwidth": "3.5",
+    "name": "Via Monsignor Marinetti"
+  }
+},
+{
+  "type": "way",
+  "id": 1022965091,
+  "tags": {
+    "bicycle": "designated",
+    "foot": "designated",
+    "highway": "path",
+    "name": "Salita San Nicola",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 1022965605,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Ri Alto",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1022965607,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Case sparse di RI Alto",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1022965608,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Case sparse di RI Alto",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1022966509,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Ri Alto",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1025737685,
+  "tags": {
+    "highway": "tertiary",
+    "lanes": "2",
+    "maxheight": "2.8",
+    "name": "Via Marina Giulia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1025737686,
+  "tags": {
+    "highway": "tertiary",
+    "layer": "-1",
+    "maxheight": "2.8",
+    "name": "Via Marina Giulia",
+    "surface": "asphalt",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1025739249,
+  "tags": {
+    "highway": "residential",
+    "junction": "roundabout",
+    "name": "Via Preli"
+  }
+},
+{
+  "type": "way",
+  "id": 1044374439,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Via Emanuele Rambaldi"
+  }
+},
+{
+  "type": "way",
+  "id": 1080903117,
+  "tags": {
+    "access": "private",
+    "highway": "service",
+    "name": "Via Preli"
+  }
+},
+{
+  "type": "way",
+  "id": 1086704662,
+  "tags": {
+    "highway": "tertiary",
+    "lanes": "2",
+    "name": "Corso Cristoforo Colombo",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1086966213,
+  "tags": {
+    "highway": "tertiary",
+    "lanes": "2",
+    "name": "Corso Valparaiso",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1086966214,
+  "tags": {
+    "bridge": "yes",
+    "highway": "tertiary",
+    "layer": "1",
+    "name": "Corso Valparaiso",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1089005710,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Piazza Giacomo Matteotti",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 1090833616,
+  "tags": {
+    "highway": "service",
+    "name": "Via al Gasometro",
+    "service": "driveway"
+  }
+},
+{
+  "type": "way",
+  "id": 1094401539,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Parma"
+  }
+},
+{
+  "type": "way",
+  "id": 1094401540,
+  "tags": {
+    "highway": "primary",
+    "name": "Via Comorga",
+    "nat_name": "Strada statale 225 della Fontanabuona",
+    "oneway": "no",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1127342637,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Viale Sergio Kasman",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1127342638,
+  "tags": {
+    "highway": "primary",
+    "lanes": "1",
+    "name": "Viale Sergio Kasman",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1127342641,
+  "tags": {
+    "highway": "primary",
+    "name": "Viale Tito Groppo",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1127703851,
+  "tags": {
+    "highway": "service",
+    "name": "Largo Riccardo Pessagno",
+    "service": "alley"
+  }
+},
+{
+  "type": "way",
+  "id": 1133107047,
+  "tags": {
+    "highway": "service",
+    "name": "Via Parma"
+  }
+},
+{
+  "type": "way",
+  "id": 1133107048,
+  "tags": {
+    "highway": "residential",
+    "lanes": "1",
+    "name": "Località Caperana Case Sparse",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1133107049,
+  "tags": {
+    "highway": "residential",
+    "lanes": "1",
+    "maxspeed": "40",
+    "name": "Località Caperana Case Sparse",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1133164802,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "residential",
+    "lane_markings": "no",
+    "lit": "no",
+    "name": "Sampierdicanne Case Sparse",
+    "oneway": "no",
+    "parking:both": "no",
+    "sidewalk": "no",
+    "surface": "asphalt",
+    "width": "3"
+  }
+},
+{
+  "type": "way",
+  "id": 1134533751,
+  "tags": {
+    "bicycle": "no",
+    "highway": "unclassified",
+    "horse": "yes",
+    "name": "Via privata Comignano",
+    "ski": "no",
+    "trail_visibility": "good",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 1134533764,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Ri Alto",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1136045383,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Giorgio Canale",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1197714545,
+  "tags": {
+    "highway": "motorway_link",
+    "maxspeed": "40",
+    "name": "A12 - Svincolo Chiavari",
+    "oneway": "no",
+    "ref": "A12",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1208846150,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Lungomare esuli italiani d'Istria Fiume e Dalmazia"
+  }
+},
+{
+  "type": "way",
+  "id": 1208846151,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Lungomare esuli italiani d'Istria Fiume e Dalmazia",
+    "tunnel": "building_passage"
+  }
+},
+{
+  "type": "way",
+  "id": 1208846155,
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Viale Nicola Arata",
+    "sidewalk": "both",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1208852687,
+  "tags": {
+    "addr:housenumber": "182",
+    "addr:street": "Via Parma",
+    "amenity": "school",
+    "name": "Scuola Primaria di Caperana"
+  }
+},
+{
+  "type": "way",
+  "id": 1236300968,
+  "tags": {
+    "highway": "tertiary",
+    "maxspeed": "50",
+    "name": "Via Piacenza",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1252350477,
+  "tags": {
+    "highway": "service",
+    "name": "Via Aurelia"
+  }
+},
+{
+  "type": "way",
+  "id": 1253257363,
+  "tags": {
+    "leisure": "dog_park",
+    "name": "Area per Cani"
+  }
+},
+{
+  "type": "way",
+  "id": 1264437963,
+  "tags": {
+    "highway": "footway",
+    "name": "Galleria di Corso Garibaldi",
+    "tunnel": "building_passage"
+  }
+},
+{
+  "type": "way",
+  "id": 1264437964,
+  "tags": {
+    "highway": "footway",
+    "name": "Galleria di Corso Garibaldi",
+    "tunnel": "building_passage"
+  }
+},
+{
+  "type": "way",
+  "id": 1264437965,
+  "tags": {
+    "highway": "footway",
+    "name": "Galleria di Corso Garibaldi"
+  }
+},
+{
+  "type": "way",
+  "id": 1264437966,
+  "tags": {
+    "highway": "footway",
+    "name": "Galleria di Corso Garibaldi"
+  }
+},
+{
+  "type": "way",
+  "id": 1264437967,
+  "tags": {
+    "highway": "footway",
+    "name": "Galleria di Corso Garibaldi"
+  }
+},
+{
+  "type": "way",
+  "id": 1264437968,
+  "tags": {
+    "highway": "footway",
+    "name": "Galleria di Corso Garibaldi"
+  }
+},
+{
+  "type": "way",
+  "id": 1264437969,
+  "tags": {
+    "highway": "footway",
+    "name": "Galleria di Corso Garibaldi",
+    "tunnel": "building_passage"
+  }
+},
+{
+  "type": "way",
+  "id": 1273000199,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Via Martiri della Liberazione",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 1284335454,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Cavassa"
+  }
+},
+{
+  "type": "way",
+  "id": 1295724640,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Corso Vincenzo De Michiel",
+    "nat_ref": "SS1",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1295724641,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Corso Vincenzo De Michiel",
+    "nat_ref": "SS1",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1295724642,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Corso Vincenzo De Michiel",
+    "nat_ref": "SS1",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1316628319,
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "maxspeed": "30",
+    "name": "Viale Francesco Tappani",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1316628320,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Via Giovanni Battista Prandina",
+    "nat_ref": "SS1",
+    "oneway": "no",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1316628321,
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "maxspeed": "30",
+    "name": "Viale Francesco Tappani",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1316628322,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "maxspeed:source": "IT:urban",
+    "name": "Piazza Torriglia",
+    "nat_ref": "SS1",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1316628323,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Via Giovanni Battista Prandina",
+    "nat_ref": "SS1",
+    "oneway": "no",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1329354100,
+  "tags": {
+    "highway": "primary",
+    "maxheight": "4",
+    "name": "Viale Tito Groppo",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1329354101,
+  "tags": {
+    "covered": "yes",
+    "highway": "primary",
+    "maxheight": "4",
+    "name": "Viale Tito Groppo",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1329355289,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Viale Guglielmo Marconi",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1340158092,
+  "tags": {
+    "bridge": "yes",
+    "highway": "tertiary",
+    "layer": "1",
+    "name": "Località Caperana Case Sparse",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1340158093,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Località Caperana Case Sparse",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1356895407,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Viale Tito Groppo",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1357541422,
+  "tags": {
+    "bicycle": "no",
+    "dog": "leashed",
+    "foot": "yes",
+    "highway": "path",
+    "horse": "yes",
+    "motor_vehicle": "no",
+    "name": "strada comunale pedonale di rio Campodonico",
+    "ski": "no",
+    "snowmobile": "no",
+    "surface": "ground",
+    "vehicle": "no",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 1360040918,
+  "tags": {
+    "highway": "path",
+    "name": "Vicinale del Mosto"
+  }
+},
+{
+  "type": "way",
+  "id": 1360040919,
+  "tags": {
+    "highway": "path",
+    "name": "Vicinale dei Granai"
+  }
+},
+{
+  "type": "way",
+  "id": 1360040920,
+  "tags": {
+    "highway": "path",
+    "name": "Vicinale dei Allegranati"
+  }
+},
+{
+  "type": "way",
+  "id": 1360040921,
+  "tags": {
+    "highway": "path",
+    "name": "vicinale della Costa di Sanguineto"
+  }
+},
+{
+  "type": "way",
+  "id": 1360042196,
+  "tags": {
+    "highway": "path",
+    "name": "Vicinale dei Allegranati"
+  }
+},
+{
+  "type": "way",
+  "id": 1360042198,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Vicinale dei Allegranati"
+  }
+},
+{
+  "type": "way",
+  "id": 1360042199,
+  "tags": {
+    "highway": "path",
+    "name": "Vicinale del Mosto"
+  }
+},
+{
+  "type": "way",
+  "id": 1388285571,
+  "tags": {
+    "highway": "path",
+    "name": "Comunale Campodonico Sanguineto Maxena",
+    "surface": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 1442334267,
+  "tags": {
+    "highway": "secondary",
+    "name": "Corso Genova",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1442465688,
+  "tags": {
+    "highway": "residential",
+    "junction": "roundabout",
+    "name": "Via Preli"
+  }
+},
+{
+  "type": "way",
+  "id": 1442465689,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Piazza Davide Gagliardo",
+    "oneway": "no",
+    "surface": "cobblestone"
+  }
+},
+{
+  "type": "way",
+  "id": 1442988354,
+  "tags": {
+    "highway": "tertiary",
+    "lanes": "2",
+    "name": "Corso Buenos Aires",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1442988795,
+  "tags": {
+    "highway": "residential",
+    "lane_markings": "no",
+    "name": "Via Luigi Risso",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1442988796,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Lungomare pedonale di Chiavari"
+  }
+},
+{
+  "type": "way",
+  "id": 1442988797,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Lungomare pedonale di Chiavari - lato mare",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 1442988798,
+  "tags": {
+    "cutting": "yes",
+    "highway": "tertiary",
+    "lanes": "1",
+    "maxheight": "3.3",
+    "name": "Viale Enrico Millo",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1442988799,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Piazza Nostra Signora dell'Orto",
+    "nat_ref": "SS1",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1442988800,
+  "tags": {
+    "highway": "residential",
+    "lane_markings": "no",
+    "name": "Via Doria",
+    "surface": "paving_stones",
+    "width": "3"
+  }
+},
+{
+  "type": "way",
+  "id": 1442988804,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Piazza Giuseppe Mazzini",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 1442989671,
+  "tags": {
+    "highway": "residential",
+    "lanes": "2",
+    "name": "Corso Buenos Aires",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1442989672,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Angelo Argiroffo",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1446143451,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Corso Vincenzo De Michiel",
+    "nat_ref": "SS1",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1446143452,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Piazza Roma",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1446143453,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Piazza Roma",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1446143454,
+  "tags": {
+    "highway": "tertiary",
+    "lanes": "2",
+    "name": "Corso Dante",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1446143455,
+  "tags": {
+    "highway": "tertiary",
+    "junction": "roundabout",
+    "lane_markings": "no",
+    "name": "Corso Dante",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1451803877,
+  "tags": {
+    "highway": "primary",
+    "junction": "roundabout",
+    "name": "Piazzale Franca",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1451803891,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Ri Alto",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1451803895,
+  "tags": {
+    "highway": "tertiary",
+    "lanes": "1",
+    "name": "Corso Dante",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1451803896,
+  "tags": {
+    "highway": "tertiary",
+    "lanes": "2",
+    "name": "Corso Giuseppe Garibaldi",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1452160124,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Piazza Roma",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1458166780,
+  "tags": {
+    "access": "private",
+    "highway": "residential",
+    "name": "Via case sparse"
+  }
+},
+{
+  "type": "way",
+  "id": 1458166825,
+  "tags": {
+    "highway": "primary",
+    "name": "Piazza generale Negri di Sanfront",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1458166826,
+  "tags": {
+    "highway": "secondary",
+    "name": "Via Colonnello Enrico Franceschi",
+    "oneway": "yes",
+    "short_name": "Via Franceschi",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1458347792,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Corso Angelo Gianelli",
+    "nat_ref": "SS1",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1458347794,
+  "tags": {
+    "highway": "tertiary",
+    "lanes": "1",
+    "name": "Corso Dante",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1458347796,
+  "tags": {
+    "highway": "residential",
+    "name": "Corso Lavagna",
+    "oneway": "yes",
+    "sidewalk": "left",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1458347797,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Damiano Chiesa",
+    "short_name": "Via Chiesa"
+  }
+},
+{
+  "type": "way",
+  "id": 1458347798,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Giannotto Bado",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1458347799,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Viale Sergio Kasman",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1459933364,
+  "tags": {
+    "highway": "residential",
+    "lanes": "2",
+    "name": "Corso Buenos Aires",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1460304359,
+  "tags": {
+    "highway": "primary",
+    "junction": "roundabout",
+    "name": "Piazzale Franca",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1460304360,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Piazza Caduti di Nassirya",
+    "old_name": "Piazza del Popolo",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1462879370,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Brignole"
+  }
+},
+{
+  "type": "way",
+  "id": 1463069219,
+  "tags": {
+    "highway": "tertiary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Via Piacenza",
+    "oneway": "yes",
+    "oneway:psv": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1470285564,
+  "tags": {
+    "access": "private",
+    "highway": "residential",
+    "name": "Via Casali di Bacezza Case Sparse"
+  }
+},
+{
+  "type": "way",
+  "id": 1481567258,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Piazza Roma",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1484019992,
+  "tags": {
+    "highway": "tertiary",
+    "junction": "roundabout",
+    "lane_markings": "no",
+    "name": "Largo Mario Ravenna",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1484019993,
+  "tags": {
+    "highway": "tertiary",
+    "lanes": "2",
+    "name": "Corso Valparaiso",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1484047613,
+  "tags": {
+    "highway": "tertiary",
+    "lanes": "2",
+    "name": "Corso Valparaiso",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1568239145,
+  "tags": {
+    "bicycle": "no",
+    "dog": "leashed",
+    "foot": "yes",
+    "highway": "path",
+    "horse": "yes",
+    "motor_vehicle": "no",
+    "name": "strada comunale pedonale di rio Campodonico",
+    "ski": "no",
+    "snowmobile": "no",
+    "surface": "ground",
+    "vehicle": "no",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 1572215215,
+  "tags": {
+    "highway": "residential",
+    "lanes": "1",
+    "maxspeed": "30",
+    "name": "Via Entella",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "relation",
+  "id": 2701245,
+  "tags": {
+    "amenity": "townhall",
+    "building": "yes",
+    "name": "Palazzo Comunale",
+    "source": "Regione Liguria",
+    "type": "multipolygon",
+    "website": "https://www.comune.chiavari.ge.it/",
+    "wikidata": "Q55348224"
+  }
+},
+{
+  "type": "relation",
+  "id": 2746271,
+  "tags": {
+    "amenity": "school",
+    "name": "Chiostro di San Francesco",
+    "type": "multipolygon"
+  }
+}
+
+  ]
+}

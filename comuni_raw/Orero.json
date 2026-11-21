@@ -1,0 +1,1267 @@
+{
+  "version": 0.6,
+  "generator": "OpenStreetMap v0.6 API",
+  "comune": "Orero",
+  "elements": [
+    {
+      "type": "node",
+      "id": 66586391,
+      "tags": {
+        "gfoss_id": "1299",
+        "name": "Orero",
+        "place": "hamlet",
+        "population": "94",
+        "addr:city_extracted": "Orero"
+      },
+      "lat": 44.409239,
+      "lon": 9.2676415
+    },
+    {
+      "type": "node",
+      "id": 316031253,
+      "tags": {
+        "ele": "69",
+        "gfoss_id": "35931",
+        "istat_id": "1001610002",
+        "name": "Pianezza",
+        "place": "hamlet",
+        "population": "153",
+        "addr:city_extracted": "Orero"
+      },
+      "lat": 44.3975615,
+      "lon": 9.2589834
+    },
+    {
+      "type": "node",
+      "id": 767052618,
+      "tags": {
+        "ele": "269",
+        "gfoss_id": "36289",
+        "istat_id": "1004220004",
+        "name": "Pianmegorino",
+        "place": "hamlet",
+        "population": "44",
+        "source": "Istat 2001 - geodati.gfoss.it",
+        "wikidata": "Q18458602",
+        "addr:city_extracted": "Orero"
+      },
+      "lat": 44.4152956,
+      "lon": 9.2832188
+    },
+    {
+      "type": "node",
+      "id": 1942020301,
+      "tags": {
+        "ele": "467",
+        "gfoss_id": "36286",
+        "istat_id": "1004220001",
+        "name": "Costa di Soglio",
+        "place": "hamlet",
+        "population": "10",
+        "source": "Istat 2001 - geodati.gfoss.it",
+        "wikidata": "Q18457292",
+        "addr:city_extracted": "Orero"
+      },
+      "lat": 44.4004672,
+      "lon": 9.2798953
+    },
+    {
+      "type": "node",
+      "id": 2566681881,
+      "tags": {
+        "ele": "682",
+        "name": "Monte Panigaro",
+        "natural": "peak",
+        "addr:city_extracted": "Orero"
+      },
+      "lat": 44.4167096,
+      "lon": 9.2709616
+    },
+    {
+      "type": "node",
+      "id": 2566685120,
+      "tags": {
+        "ele": "718",
+        "name": "Monte Bello",
+        "natural": "peak",
+        "addr:city_extracted": "Orero"
+      },
+      "lat": 44.4034247,
+      "lon": 9.2889498
+    },
+    {
+      "type": "node",
+      "id": 2584193836,
+      "tags": {
+        "ele": "900",
+        "mountain_pass": "yes",
+        "name": "Passo del Dente",
+        "natural": "saddle",
+        "addr:city_extracted": "Orero"
+      },
+      "lat": 44.4182704,
+      "lon": 9.3038299
+    },
+    {
+      "type": "node",
+      "id": 2661195438,
+      "tags": {
+        "address": "Frazione Pianmegorino 28",
+        "name": "Monte Ramaceto",
+        "phone": "+39 347 6778783",
+        "tourism": "guest_house",
+        "addr:city_extracted": "Orero"
+      },
+      "lat": 44.415478,
+      "lon": 9.28347
+    },
+    {
+      "type": "node",
+      "id": 3706806208,
+      "tags": {
+        "name": "Isolona",
+        "place": "village",
+        "population": "58",
+        "wikidata": "Q18457872",
+        "addr:city_extracted": "Orero"
+      },
+      "lat": 44.407053,
+      "lon": 9.2747224
+    },
+    {
+      "type": "node",
+      "id": 4426825680,
+      "tags": {
+        "name": "Cicagna",
+        "traffic_sign": "city_limit",
+        "addr:city_extracted": "Orero"
+      },
+      "lat": 44.3963308,
+      "lon": 9.2594077
+    },
+    {
+      "type": "node",
+      "id": 4426825704,
+      "tags": {
+        "name": "Orero",
+        "traffic_sign": "city_limit",
+        "addr:city_extracted": "Orero"
+      },
+      "lat": 44.4099291,
+      "lon": 9.2685221
+    },
+    {
+      "type": "node",
+      "id": 4426825705,
+      "tags": {
+        "name": "Orero",
+        "place": "municipality",
+        "population": "565",
+        "addr:city_extracted": "Orero"
+      },
+      "lat": 44.4163122,
+      "lon": 9.2885912
+    },
+    {
+      "type": "node",
+      "id": 4426825708,
+      "tags": {
+        "name": "Piana",
+        "place": "hamlet",
+        "addr:city_extracted": "Orero"
+      },
+      "lat": 44.3952283,
+      "lon": 9.2626749
+    },
+    {
+      "type": "node",
+      "id": 4426825709,
+      "tags": {
+        "name": "Piana",
+        "traffic_sign": "city_limit",
+        "addr:city_extracted": "Orero"
+      },
+      "lat": 44.396169,
+      "lon": 9.2594709
+    },
+    {
+      "type": "node",
+      "id": 4902714390,
+      "tags": {
+        "name": "Sella dei Fagiolari",
+        "natural": "saddle",
+        "addr:city_extracted": "Orero"
+      },
+      "lat": 44.4054059,
+      "lon": 9.2926092
+    },
+    {
+      "type": "node",
+      "id": 13075859777,
+      "tags": {
+        "content": "water",
+        "emergency": "water_tank",
+        "man_made": "storage_tank",
+        "name": "Orero",
+        "addr:city_extracted": "Orero"
+      },
+      "lat": 44.4180207,
+      "lon": 9.2889664
+    },
+    {
+      "type": "node",
+      "id": 13234083269,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Orero Barattini",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6383",
+        "zone_id": "106",
+        "addr:city_extracted": "Orero"
+      },
+      "lat": 44.4097633,
+      "lon": 9.267765
+    },
+    {
+      "type": "node",
+      "id": 13234083270,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Isolona civ. 5",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6372",
+        "zone_id": "106",
+        "addr:city_extracted": "Orero"
+      },
+      "lat": 44.4043559,
+      "lon": 9.272964
+    },
+    {
+      "type": "node",
+      "id": 13234083271,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Pianezza",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6285",
+        "zone_id": "105",
+        "addr:city_extracted": "Orero"
+      },
+      "lat": 44.3973236,
+      "lon": 9.2592316
+    },
+    {
+      "type": "node",
+      "id": 13234083272,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Isolona comune",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6373",
+        "zone_id": "106",
+        "addr:city_extracted": "Orero"
+      },
+      "lat": 44.4070654,
+      "lon": 9.2747001
+    },
+    {
+      "type": "node",
+      "id": 13234083274,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Orero civ. 141",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6379",
+        "zone_id": "106",
+        "addr:city_extracted": "Orero"
+      },
+      "lat": 44.4095726,
+      "lon": 9.2683964
+    },
+    {
+      "type": "node",
+      "id": 13234083276,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Orero Chiesa",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6382",
+        "zone_id": "106",
+        "addr:city_extracted": "Orero"
+      },
+      "lat": 44.408699,
+      "lon": 9.2683582
+    },
+    {
+      "type": "node",
+      "id": 13234083277,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Orero bivio Villamora",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6388",
+        "zone_id": "106",
+        "addr:city_extracted": "Orero"
+      },
+      "lat": 44.4123861,
+      "lon": 9.2690863
+    },
+    {
+      "type": "node",
+      "id": 13234083278,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Orero Chiesa",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6381",
+        "zone_id": "106",
+        "addr:city_extracted": "Orero"
+      },
+      "lat": 44.4087621,
+      "lon": 9.2682121
+    },
+    {
+      "type": "node",
+      "id": 13234083279,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Isolona civ. 5",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6371",
+        "zone_id": "106",
+        "addr:city_extracted": "Orero"
+      },
+      "lat": 44.404293,
+      "lon": 9.2730383
+    },
+    {
+      "type": "node",
+      "id": 13234083281,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Orero bivio Villamora",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6387",
+        "zone_id": "106",
+        "addr:city_extracted": "Orero"
+      },
+      "lat": 44.4123088,
+      "lon": 9.2691021
+    },
+    {
+      "type": "node",
+      "id": 13234083282,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Isolona Case P.",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6375",
+        "zone_id": "106",
+        "addr:city_extracted": "Orero"
+      },
+      "lat": 44.4087448,
+      "lon": 9.2758737
+    },
+    {
+      "type": "node",
+      "id": 13234083283,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Isolona Case P.",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6376",
+        "zone_id": "106",
+        "addr:city_extracted": "Orero"
+      },
+      "lat": 44.4087486,
+      "lon": 9.2757835
+    },
+    {
+      "type": "node",
+      "id": 13234083284,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Piammegorino",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6378",
+        "zone_id": "106",
+        "addr:city_extracted": "Orero"
+      },
+      "lat": 44.4145699,
+      "lon": 9.2828121
+    },
+    {
+      "type": "node",
+      "id": 13234083285,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Isolona comune",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6374",
+        "zone_id": "106",
+        "addr:city_extracted": "Orero"
+      },
+      "lat": 44.4071265,
+      "lon": 9.2746852
+    },
+    {
+      "type": "node",
+      "id": 13234083286,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Orero Bivio Osteria",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6385",
+        "zone_id": "106",
+        "addr:city_extracted": "Orero"
+      },
+      "lat": 44.4111967,
+      "lon": 9.2684438
+    },
+    {
+      "type": "node",
+      "id": 13234083287,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Piammegorino",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6377",
+        "zone_id": "106",
+        "addr:city_extracted": "Orero"
+      },
+      "lat": 44.4145536,
+      "lon": 9.2829439
+    },
+    {
+      "type": "node",
+      "id": 13234083288,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Orero Barattini",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6384",
+        "zone_id": "106",
+        "addr:city_extracted": "Orero"
+      },
+      "lat": 44.4097251,
+      "lon": 9.2676885
+    },
+    {
+      "type": "node",
+      "id": 13234083289,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Orero civ. 141",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6380",
+        "zone_id": "106",
+        "addr:city_extracted": "Orero"
+      },
+      "lat": 44.4095974,
+      "lon": 9.268463
+    },
+    {
+      "type": "node",
+      "id": 13234083290,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Pianezza",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6178",
+        "zone_id": "105",
+        "addr:city_extracted": "Orero"
+      },
+      "lat": 44.3975983,
+      "lon": 9.2593851
+    },
+    {
+      "type": "node",
+      "id": 13234083291,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Fabbrica Arata",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6370",
+        "zone_id": "105",
+        "addr:city_extracted": "Orero"
+      },
+      "lat": 44.4017029,
+      "lon": 9.2703772
+    },
+    {
+      "type": "node",
+      "id": 13234083292,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Orero bivio Osteria",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6386",
+        "zone_id": "106",
+        "addr:city_extracted": "Orero"
+      },
+      "lat": 44.4112244,
+      "lon": 9.2683706
+    },
+    {
+      "type": "node",
+      "id": 13234083293,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Fabbrica Arata",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6369",
+        "zone_id": "105",
+        "addr:city_extracted": "Orero"
+      },
+      "lat": 44.4015884,
+      "lon": 9.2703524
+    },
+    {
+      "type": "node",
+      "id": 13268658492,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Piandeiratti - macelleria",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6288",
+        "zone_id": "105",
+        "addr:city_extracted": "Orero"
+      },
+      "lat": 44.3941329,
+      "lon": 9.2700902
+    },
+    {
+      "type": "node",
+      "id": 13268658493,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Piana - Orero",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6287",
+        "zone_id": "105",
+        "addr:city_extracted": "Orero"
+      },
+      "lat": 44.3947029,
+      "lon": 9.2667237
+    },
+    {
+      "type": "node",
+      "id": 13268658494,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Piana - laboratorio ardesia",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6286",
+        "zone_id": "105",
+        "addr:city_extracted": "Orero"
+      },
+      "lat": 44.394784,
+      "lon": 9.2636047
+    },
+    {
+      "type": "node",
+      "id": 13268658495,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Chiapparino",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6284",
+        "zone_id": "105",
+        "addr:city_extracted": "Orero"
+      },
+      "lat": 44.4010435,
+      "lon": 9.2569743
+    },
+    {
+      "type": "node",
+      "id": 13442975504,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Piandeiratti",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6176",
+        "zone_id": "105",
+        "addr:city_extracted": "Orero"
+      },
+      "lat": 44.3943977,
+      "lon": 9.2695141
+    },
+    {
+      "type": "node",
+      "id": 13442975505,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Piana - Orero",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6177",
+        "zone_id": "105",
+        "addr:city_extracted": "Orero"
+      },
+      "lat": 44.3949196,
+      "lon": 9.2660024
+    },
+    {
+      "type": "node",
+      "id": 13586460666,
+      "tags": {
+        "name": "Sorbora",
+        "place": "hamlet",
+        "addr:city_extracted": "Orero"
+      },
+      "lat": 44.3964725,
+      "lon": 9.2722378
+    },
+    {
+      "type": "node",
+      "id": 13586460667,
+      "tags": {
+        "name": "Casareggio",
+        "place": "hamlet",
+        "addr:city_extracted": "Orero"
+      },
+      "lat": 44.3970895,
+      "lon": 9.2908357
+    },
+    {
+      "type": "way",
+      "id": 9220543,
+      "tags": {
+        "boat": "no",
+        "name": "Torrente Lavagna",
+        "waterway": "stream",
+        "wikidata": "Q3827996",
+        "wikipedia": "it:Lavagna (torrente)",
+        "addr:city_extracted": "Orero"
+      }
+    },
+    {
+      "type": "way",
+      "id": 156983038,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Mora",
+        "surface": "asphalt",
+        "addr:city_extracted": "Orero"
+      }
+    },
+    {
+      "type": "way",
+      "id": 187285646,
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Strada statale 225 della Fontanabuona",
+        "ref": "SS225",
+        "surface": "asphalt",
+        "addr:city_extracted": "Orero"
+      }
+    },
+    {
+      "type": "way",
+      "id": 193290399,
+      "tags": {
+        "highway": "primary",
+        "name": "Strada statale 225 della Fontanabuona",
+        "ref": "SS225",
+        "surface": "asphalt",
+        "addr:city_extracted": "Orero"
+      }
+    },
+    {
+      "type": "way",
+      "id": 193290400,
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Strada statale 225 della Fontanabuona",
+        "ref": "SS225",
+        "surface": "asphalt",
+        "addr:city_extracted": "Orero"
+      }
+    },
+    {
+      "type": "way",
+      "id": 202163644,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "catholic",
+        "name": "Cappella dei SS. Nazario e Celso",
+        "religion": "christian",
+        "source": "Regione Liguria",
+        "addr:city_extracted": "Orero"
+      }
+    },
+    {
+      "type": "way",
+      "id": 202163647,
+      "tags": {
+        "building": "yes",
+        "name": "Chiesa di San Michele di Soglio",
+        "source": "Regione Liguria",
+        "addr:city_extracted": "Orero"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204740366,
+      "tags": {
+        "amenity": "school",
+        "name": "Scuola Primaria di Isolona",
+        "source": "Regione Liguria",
+        "addr:city_extracted": "Orero"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204742377,
+      "tags": {
+        "amenity": "events_venue",
+        "building": "yes",
+        "name": "Cava Ardé",
+        "source": "Regione Liguria",
+        "addr:city_extracted": "Orero"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204742613,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "church",
+        "denomination": "catholic",
+        "name": "Chiesa di Sant'Ambrogio",
+        "religion": "christian",
+        "source": "Regione Liguria",
+        "wikidata": "Q3672363",
+        "wikipedia": "it:Chiesa di Sant'Ambrogio (Orero)",
+        "addr:city_extracted": "Orero"
+      }
+    },
+    {
+      "type": "way",
+      "id": 241110937,
+      "tags": {
+        "cables": "3",
+        "name": "Vignole - San Colombano",
+        "power": "line",
+        "ref": "22.283",
+        "voltage": "220000",
+        "addr:city_extracted": "Orero"
+      }
+    },
+    {
+      "type": "way",
+      "id": 335576388,
+      "tags": {
+        "cables": "3",
+        "name": "Vignole-La Spezia",
+        "power": "line",
+        "voltage": "380000",
+        "addr:city_extracted": "Orero"
+      }
+    },
+    {
+      "type": "way",
+      "id": 382637170,
+      "tags": {
+        "cables": "3",
+        "name": "Molassana-San Colombano",
+        "power": "line",
+        "ref": "23.842",
+        "voltage": "132000",
+        "addr:city_extracted": "Orero"
+      }
+    },
+    {
+      "type": "way",
+      "id": 498827233,
+      "tags": {
+        "highway": "unclassified",
+        "maxspeed": "30",
+        "name": "Via Costa",
+        "surface": "asphalt",
+        "addr:city_extracted": "Orero"
+      }
+    },
+    {
+      "type": "way",
+      "id": 521172268,
+      "tags": {
+        "cycleway": "yes",
+        "highway": "primary",
+        "name": "Strada statale 225 della Fontanabuona",
+        "ref": "SS225",
+        "surface": "asphalt",
+        "addr:city_extracted": "Orero"
+      }
+    },
+    {
+      "type": "way",
+      "id": 521172276,
+      "tags": {
+        "cycleway": "yes",
+        "highway": "primary",
+        "name": "Strada statale 225 della Fontanabuona",
+        "ref": "SS225",
+        "surface": "asphalt",
+        "addr:city_extracted": "Orero"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1442283692,
+      "tags": {
+        "highway": "primary",
+        "maxspeed": "50",
+        "name": "Strada statale 225 della Fontanabuona",
+        "ref": "SS225",
+        "surface": "asphalt",
+        "addr:city_extracted": "Orero"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1465437179,
+      "tags": {
+        "cycleway": "yes",
+        "highway": "primary",
+        "name": "Strada statale 225 della Fontanabuona",
+        "ref": "SS225",
+        "surface": "asphalt",
+        "addr:city_extracted": "Orero"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1478604848,
+      "tags": {
+        "highway": "primary",
+        "name": "Strada statale 225 della Fontanabuona",
+        "ref": "SS225",
+        "surface": "asphalt",
+        "addr:city_extracted": "Orero"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 43121,
+      "tags": {
+        "admin_level": "8",
+        "boundary": "administrative",
+        "gfoss_id": "1276",
+        "name": "Coreglia Ligure",
+        "population": "237",
+        "population:date": "2026-08-28",
+        "ref:catasto": "C995",
+        "ref:ISTAT": "010019",
+        "type": "boundary",
+        "wikidata": "Q267230",
+        "wikipedia": "it:Coreglia Ligure",
+        "addr:city_extracted": "Orero"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 43126,
+      "tags": {
+        "admin_level": "8",
+        "boundary": "administrative",
+        "gfoss_id": "1299",
+        "name": "Orero",
+        "population": "499",
+        "population:date": "2026-08-28",
+        "ref:catasto": "G093",
+        "ref:ISTAT": "010042",
+        "source": "geodati.gfoss.it",
+        "source:population": "ANPR 2026",
+        "type": "boundary",
+        "wikidata": "Q267307",
+        "wikipedia": "it:Orero",
+        "addr:city_extracted": "Orero"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 43130,
+      "tags": {
+        "admin_level": "8",
+        "boundary": "administrative",
+        "name": "Cicagna",
+        "population": "2358",
+        "population:date": "2026-08-28",
+        "ref:catasto": "C673",
+        "ref:ISTAT": "010016",
+        "type": "boundary",
+        "wikidata": "Q267199",
+        "wikipedia": "it:Cicagna",
+        "addr:city_extracted": "Orero"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 1782624,
+      "tags": {
+        "cycle_network": "Bicitalia",
+        "description": "Proposed National Cycleway BI-19 Ciclovia Tirrenica",
+        "from": "Ventimiglia",
+        "name": "Ciclovia Tirrenica",
+        "network": "ncn",
+        "note": "please do not modify without consulting with www.bicitalia.it",
+        "operator": "FIAB",
+        "ref": "BI-19",
+        "route": "bicycle",
+        "to": "Latina",
+        "type": "route",
+        "url": "https://www.bicitalia.org/it/bicitalia/gli-itinerari-bicitalia/193-bi19-ciclovia-tirrenica",
+        "addr:city_extracted": "Orero"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 2562291,
+      "tags": {
+        "cycle_network": "Bicitalia",
+        "name": "Ciclovia Francigena - variante Moncenisio",
+        "network": "ncn",
+        "note": "Please do not modify without consulting with www.bicitalia.org",
+        "operator": "Bicitalia",
+        "ref": "BI-3 var. Moncenisio",
+        "route": "bicycle",
+        "source": "http://www.bicitalia.org/",
+        "type": "route",
+        "addr:city_extracted": "Orero"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 14944023,
+      "tags": {
+        "cai_scale": "T",
+        "name": "Variante Costa di Soglio",
+        "network": "lwn",
+        "osmc:symbol": "red:white::⸫:red",
+        "route": "hiking",
+        "source": "survey Nov '22",
+        "type": "route",
+        "addr:city_extracted": "Orero"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 16829453,
+      "tags": {
+        "name": "Strada statale 225 della Fontanabuona",
+        "ref": "SS 225",
+        "route": "road",
+        "type": "route",
+        "wikidata": "Q3542120",
+        "wikipedia": "it:Strada statale 225 della Val Fontanabuona",
+        "addr:city_extracted": "Orero"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 18827498,
+      "tags": {
+        "description": "La ciclovia dell’Ardesia (o dell'Entella) è un percorso ciclabile che risale il fiume Entella, alla scoperta della natura e della storia della Val Fontanabuona. Nei pressi di Cogorno da vedere la Basilica dei Fieschi, antica cattedrale medioevale.",
+        "distance": "33",
+        "from": "Lavagna",
+        "name": "Ciclovia dell'Ardesia",
+        "network": "rcn",
+        "route": "bicycle",
+        "to": "Gattorna",
+        "type": "route",
+        "website": "https://lamialiguria.it/2023/03/ciclovia-ardesia/",
+        "addr:city_extracted": "Orero"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 19716831,
+      "tags": {
+        "description": "816 - corsa limitata tra Cicagna e Croce di Orero",
+        "fee": "yes",
+        "from": "Roccatagliata",
+        "name": "816 Cicagna - Croce di Orero",
+        "network": "AMT Linee Provinciali",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "816",
+        "route": "bus",
+        "to": "Croce di Orero",
+        "type": "route",
+        "addr:city_extracted": "Orero"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 19772404,
+      "tags": {
+        "bus": "yes",
+        "colour": "green",
+        "description": "Genova Brignole - Bargagli - Gattorna - Carasco - Chiavari",
+        "from": "Genova Brignole (v.Caviglia)",
+        "name": "715 Chiavari Nassiriya",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "network:wikipedia": "it:AMT (Genova)",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "715",
+        "route": "bus",
+        "to": "Chiavari Nassiriya",
+        "type": "route",
+        "addr:city_extracted": "Orero"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 19950072,
+      "tags": {
+        "bus": "yes",
+        "colour": "green",
+        "description": "816 - Ferrada - Croce di Orero",
+        "from": "Ferrada",
+        "name": "816 - Croce di Orero",
+        "network": "AMT Linee Provinciali",
+        "network:wikidata": "Q295335",
+        "network:wikipedia": "it:AMT (Genova)",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "816",
+        "route": "bus",
+        "to": "Croce di Orero",
+        "type": "route",
+        "addr:city_extracted": "Orero"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 20061221,
+      "tags": {
+        "bus": "yes",
+        "colour": "green",
+        "description": "935 Calvari - Canevale - Coreglia",
+        "from": "Chiavari",
+        "name": "935 Coreglia",
+        "network": "AMT Linee Provinciali",
+        "network:wikipedia": "it:AMT (Genova)",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "935",
+        "route": "bus",
+        "to": "Coreglia",
+        "type": "route",
+        "addr:city_extracted": "Orero"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 20063787,
+      "tags": {
+        "bus": "yes",
+        "colour": "green",
+        "description": "935 Calvari - Gattorna",
+        "from": "Calvari",
+        "name": "935 Gattorna",
+        "network": "AMT Linee Provinciali",
+        "network:wikipedia": "it:AMT (Genova)",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "935",
+        "route": "bus",
+        "to": "Gattorna",
+        "type": "route",
+        "addr:city_extracted": "Orero"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 20103013,
+      "tags": {
+        "bus": "yes",
+        "colour": "green",
+        "description": "Chiavari - Carasco - Gattorna - Bargagli - Genova Brignole",
+        "duration": "1:59",
+        "from": "Chiavari Nassiriya",
+        "name": "715 Genova Brignole",
+        "network": "AMT Linee Provinciali",
+        "network:wikidata": "Q295335",
+        "network:wikipedia": "it:AMT (Genova)",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "715",
+        "route": "bus",
+        "to": "Genova Brignole (v.Caviglia)",
+        "type": "route",
+        "addr:city_extracted": "Orero"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 20218100,
+      "tags": {
+        "bus": "yes",
+        "colour": "green",
+        "description": "Orero-Cicagna",
+        "duration": "0:20",
+        "from": "Croce d'Orero",
+        "name": "816 Cicagna",
+        "network": "AMT Linee Provinciali",
+        "network:wikidata": "Q295335",
+        "network:wikipedia": "it:AMT (Genova)",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "816",
+        "route": "bus",
+        "to": "Cicagna",
+        "type": "route",
+        "addr:city_extracted": "Orero"
+      }
+    }
+  ]
+}

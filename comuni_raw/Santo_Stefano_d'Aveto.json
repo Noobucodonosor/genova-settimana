@@ -1,0 +1,2793 @@
+{
+  "version": 0.6,
+  "generator": "OpenStreetMap v0.6 API",
+  "comune": "Santo Stefano d'Aveto",
+  "elements": [
+    {
+      "type": "node",
+      "id": 66586497,
+      "tags": {
+        "gfoss_id": "1313",
+        "name": "Santo Stefano d'Aveto",
+        "place": "village",
+        "population": "1257",
+        "source": "geodati.gfoss.it",
+        "wikidata": "Q267032",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5472974,
+      "lon": 9.4502082
+    },
+    {
+      "type": "node",
+      "id": 374581512,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Villaggio alpino",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "5799",
+        "stop_zone": "126",
+        "zone_id": "126",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5398053,
+      "lon": 9.4432852
+    },
+    {
+      "type": "node",
+      "id": 374581540,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Albergo Groppo Rosso",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "5800",
+        "stop_zone": "126",
+        "zone_id": "126",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5432733,
+      "lon": 9.4503094
+    },
+    {
+      "type": "node",
+      "id": 443476326,
+      "tags": {
+        "name": "Sigma",
+        "shop": "convenience",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.545995,
+      "lon": 9.4531635
+    },
+    {
+      "type": "node",
+      "id": 443476328,
+      "tags": {
+        "name": "Albergo Ristorante La Baita",
+        "stars": "2",
+        "tourism": "hotel",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5457142,
+      "lon": 9.4525757
+    },
+    {
+      "type": "node",
+      "id": 443476329,
+      "tags": {
+        "amenity": "bar",
+        "name": "la Baita",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5457796,
+      "lon": 9.4525307
+    },
+    {
+      "type": "node",
+      "id": 443476375,
+      "tags": {
+        "information": "office",
+        "name": "Iat",
+        "phone": "+39 0185 88046",
+        "tourism": "information",
+        "url": "http://www.comune.santostefanodaveto.ge.it/",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5477711,
+      "lon": 9.450901
+    },
+    {
+      "type": "node",
+      "id": 443648111,
+      "tags": {
+        "name": "Roncolongo",
+        "place": "hamlet",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5493603,
+      "lon": 9.4585459
+    },
+    {
+      "type": "node",
+      "id": 443648112,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Albergo Groppo Rosso",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "5804",
+        "stop_zone": "126",
+        "zone_id": "126",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5432303,
+      "lon": 9.4497236
+    },
+    {
+      "type": "node",
+      "id": 443648113,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Villaggio alpino",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "5805",
+        "stop_zone": "126",
+        "zone_id": "126",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.53963,
+      "lon": 9.4431869
+    },
+    {
+      "type": "node",
+      "id": 443648116,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "S. Stefano chiesa",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "5801",
+        "stop_zone": "126",
+        "zone_id": "126",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5456088,
+      "lon": 9.4502632
+    },
+    {
+      "type": "node",
+      "id": 443648117,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "S. Stefano chiesa",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "5803",
+        "stop_zone": "126",
+        "zone_id": "126",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5456584,
+      "lon": 9.4501419
+    },
+    {
+      "type": "node",
+      "id": 448138567,
+      "tags": {
+        "name": "Villaggio al Pino",
+        "place": "hamlet",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5395108,
+      "lon": 9.4432869
+    },
+    {
+      "type": "node",
+      "id": 459200213,
+      "tags": {
+        "name": "Casette",
+        "place": "locality",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5521103,
+      "lon": 9.4517429
+    },
+    {
+      "type": "node",
+      "id": 747415056,
+      "tags": {
+        "description": "Allegrezze 30', Passo della Lepre 1h, Monte Maggiorasca 2h20', segnavia X gialla",
+        "information": "guidepost",
+        "name": "sentiero X gialla",
+        "tourism": "information",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5357205,
+      "lon": 9.4461297
+    },
+    {
+      "type": "node",
+      "id": 747515098,
+      "tags": {
+        "military": "checkpoint",
+        "name": "Passo Bocco",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5603931,
+      "lon": 9.4514361
+    },
+    {
+      "type": "node",
+      "id": 1261119861,
+      "tags": {
+        "name": "Campomenoso",
+        "place": "hamlet",
+        "wikidata": "Q18456581",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5505886,
+      "lon": 9.4439467
+    },
+    {
+      "type": "node",
+      "id": 1261119865,
+      "tags": {
+        "disused:tourism": "hotel",
+        "name": "Hotel Groppo Rosso",
+        "stars": "2",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5431601,
+      "lon": 9.4502149
+    },
+    {
+      "type": "node",
+      "id": 1261119894,
+      "tags": {
+        "name": "Rondanaia",
+        "place": "hamlet",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5491825,
+      "lon": 9.4495613
+    },
+    {
+      "type": "node",
+      "id": 1263616472,
+      "tags": {
+        "amenity": "bar",
+        "name": "Bar Leon d'Oro",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5474905,
+      "lon": 9.4508527
+    },
+    {
+      "type": "node",
+      "id": 1263616486,
+      "tags": {
+        "name": "Gropparo",
+        "place": "hamlet",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.544788,
+      "lon": 9.4446251
+    },
+    {
+      "type": "node",
+      "id": 2320984189,
+      "tags": {
+        "addr:housenumber": "30",
+        "addr:street": "Viale Emanuele Razzetti",
+        "amenity": "bar",
+        "name": "Pasticceria Marrè",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.546999,
+      "lon": 9.451156
+    },
+    {
+      "type": "node",
+      "id": 2566864257,
+      "tags": {
+        "ele": "1329",
+        "name": "Monte di Mezzo",
+        "natural": "peak",
+        "wikidata": "Q31664258",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5603657,
+      "lon": 9.4360745
+    },
+    {
+      "type": "node",
+      "id": 2940945845,
+      "tags": {
+        "ele": "1242",
+        "mountain_pass": "yes",
+        "name": "Passo di Monte di Mezzo",
+        "natural": "saddle",
+        "source": "http://www.massimoperlabici.eu/sito%20Max%20v1.0/asfal/Paligu/montedimezzo.htm",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5592547,
+      "lon": 9.4416218
+    },
+    {
+      "type": "node",
+      "id": 4124431696,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Hosteria della Luna Piena",
+        "phone": "+39 018 588 382",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5468204,
+      "lon": 9.4504712
+    },
+    {
+      "type": "node",
+      "id": 4307749651,
+      "tags": {
+        "disused:tourism": "hotel",
+        "name": "Hotel Leon d'Oro",
+        "rooms": "34",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5473517,
+      "lon": 9.4510022
+    },
+    {
+      "type": "node",
+      "id": 4307749654,
+      "tags": {
+        "name": "Macelleria Monteverde",
+        "shop": "butcher",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5467836,
+      "lon": 9.4512322
+    },
+    {
+      "type": "node",
+      "id": 4307749655,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Ristorante Bar Leon d'Oro",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5472762,
+      "lon": 9.4510411
+    },
+    {
+      "type": "node",
+      "id": 4307749656,
+      "tags": {
+        "amenity": "bank",
+        "name": "UBI Banco di San Giorgio",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5467276,
+      "lon": 9.4516232
+    },
+    {
+      "type": "node",
+      "id": 5026440676,
+      "tags": {
+        "internet_access": "no",
+        "name": "La Soldanella",
+        "name:it": "La Soldanella",
+        "rooms": "4",
+        "stars": "3",
+        "tourism": "guest_house",
+        "wheelchair": "no",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5467585,
+      "lon": 9.458738
+    },
+    {
+      "type": "node",
+      "id": 6508244185,
+      "tags": {
+        "shop": "convenience",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5471961,
+      "lon": 9.4523979
+    },
+    {
+      "type": "node",
+      "id": 7600777973,
+      "tags": {
+        "name": "Cordone",
+        "place": "locality",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5513941,
+      "lon": 9.4557577
+    },
+    {
+      "type": "node",
+      "id": 7600777974,
+      "tags": {
+        "name": "Casette",
+        "place": "isolated_dwelling",
+        "wikidata": "Q18456955",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5525467,
+      "lon": 9.452
+    },
+    {
+      "type": "node",
+      "id": 7798015117,
+      "tags": {
+        "addr:street": "Via Al Castello",
+        "name": "Pasticceria Chiesa",
+        "operator": "Cella Mario e Sandro",
+        "shop": "confectionery",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5473309,
+      "lon": 9.4502083
+    },
+    {
+      "type": "node",
+      "id": 7798539890,
+      "tags": {
+        "amenity": "cafe",
+        "name": "Bar Miravalle",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.545543,
+      "lon": 9.4495645
+    },
+    {
+      "type": "node",
+      "id": 7798541988,
+      "tags": {
+        "name": "ERRE. DI. Snc",
+        "shop": "hardware",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5467539,
+      "lon": 9.4509049
+    },
+    {
+      "type": "node",
+      "id": 7823162885,
+      "tags": {
+        "shop": "electronics",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5469722,
+      "lon": 9.4519879
+    },
+    {
+      "type": "node",
+      "id": 7823162985,
+      "tags": {
+        "shop": "clothes",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5469458,
+      "lon": 9.4518878
+    },
+    {
+      "type": "node",
+      "id": 7823163085,
+      "tags": {
+        "shop": "convenience",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5469101,
+      "lon": 9.4517882
+    },
+    {
+      "type": "node",
+      "id": 7823163185,
+      "tags": {
+        "shop": "shoes",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.54687,
+      "lon": 9.4517319
+    },
+    {
+      "type": "node",
+      "id": 7825108085,
+      "tags": {
+        "addr:street": "Via alla Fontana",
+        "name": "PANIFICIO S.STEFANO",
+        "operator": "Willan Jimenez",
+        "shop": "bakery",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5464802,
+      "lon": 9.4515691
+    },
+    {
+      "type": "node",
+      "id": 7825231085,
+      "tags": {
+        "name": "Bunni",
+        "shop": "clothes",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5470511,
+      "lon": 9.4511345
+    },
+    {
+      "type": "node",
+      "id": 7825234885,
+      "tags": {
+        "name": "Mario Fugazzi",
+        "office": "estate_agent",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5470952,
+      "lon": 9.4511162
+    },
+    {
+      "type": "node",
+      "id": 7826587485,
+      "tags": {
+        "name": "Coiffeur Carmen",
+        "shop": "hairdresser",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5467147,
+      "lon": 9.4511379
+    },
+    {
+      "type": "node",
+      "id": 7826587585,
+      "tags": {
+        "name": "Profumeria Lina",
+        "shop": "perfumery",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5466711,
+      "lon": 9.4511773
+    },
+    {
+      "type": "node",
+      "id": 7826607385,
+      "tags": {
+        "name": "Grifo",
+        "shop": "alcohol",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5471494,
+      "lon": 9.450233
+    },
+    {
+      "type": "node",
+      "id": 7826617486,
+      "tags": {
+        "name": "Il ghirigoro",
+        "shop": "newsagent",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5472714,
+      "lon": 9.4501177
+    },
+    {
+      "type": "node",
+      "id": 7826617487,
+      "tags": {
+        "name": "Casa delle Aste",
+        "shop": "variety_store",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5472783,
+      "lon": 9.4500629
+    },
+    {
+      "type": "node",
+      "id": 7826622485,
+      "tags": {
+        "name": "Il fantasmino",
+        "shop": "clothes",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5471178,
+      "lon": 9.4501504
+    },
+    {
+      "type": "node",
+      "id": 7826622486,
+      "tags": {
+        "name": "Equipe della Bellezza",
+        "shop": "beauty",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5471703,
+      "lon": 9.4500713
+    },
+    {
+      "type": "node",
+      "id": 7826640386,
+      "tags": {
+        "shop": "antiques",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.54743,
+      "lon": 9.4501522
+    },
+    {
+      "type": "node",
+      "id": 7827675786,
+      "tags": {
+        "name": "Falegname",
+        "shop": "furniture",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5475487,
+      "lon": 9.4502699
+    },
+    {
+      "type": "node",
+      "id": 7827680285,
+      "tags": {
+        "name": "Enrica",
+        "shop": "convenience",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5474976,
+      "lon": 9.4501496
+    },
+    {
+      "type": "node",
+      "id": 7828518885,
+      "tags": {
+        "name": "Generali",
+        "office": "insurance",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5471283,
+      "lon": 9.4511085
+    },
+    {
+      "type": "node",
+      "id": 7828643387,
+      "tags": {
+        "name": "Luisella",
+        "shop": "greengrocer",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5466213,
+      "lon": 9.4495366
+    },
+    {
+      "type": "node",
+      "id": 7829150386,
+      "tags": {
+        "name": "Il bucaneve",
+        "shop": "convenience",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5440606,
+      "lon": 9.4563127
+    },
+    {
+      "type": "node",
+      "id": 7829841285,
+      "tags": {
+        "name": "La casa sul poggio",
+        "tourism": "guest_house",
+        "url": "http://www.lacasasulpoggio.it/",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5448213,
+      "lon": 9.4521079
+    },
+    {
+      "type": "node",
+      "id": 7829850586,
+      "tags": {
+        "historic": "memorial",
+        "inscription": "Sotto il plotone di esecuzione vittima innocente il 2 9 1944 cadeva serenamente perdonando il Car. Bidelli Albino figlio della vicina Allegrezze o tu che passi chinati al suo ricordo e prega a lui ed al mondo pace",
+        "memorial": "plaque",
+        "name": "Bandinelli Albino",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5451686,
+      "lon": 9.4502487
+    },
+    {
+      "type": "node",
+      "id": 7829864687,
+      "tags": {
+        "amenity": "police",
+        "name": "Carabinieri",
+        "operator": "Arma dei Carabinieri",
+        "operator:short": "Carabinieri",
+        "operator:wikidata": "Q54852",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5456437,
+      "lon": 9.4513784
+    },
+    {
+      "type": "node",
+      "id": 7829864786,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Ristorante dei Fieschi",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5454753,
+      "lon": 9.4495601
+    },
+    {
+      "type": "node",
+      "id": 7831500185,
+      "tags": {
+        "amenity": "bench;cafe",
+        "name": "da u Diau",
+        "tobacco": "yes",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5470259,
+      "lon": 9.4505368
+    },
+    {
+      "type": "node",
+      "id": 7836625885,
+      "tags": {
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "name": "Dispensario Santo Stefano",
+        "operator": "Dr.Reggi Andrea",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5470675,
+      "lon": 9.4505067
+    },
+    {
+      "type": "node",
+      "id": 7836625887,
+      "tags": {
+        "historic": "memorial",
+        "memorial": "statue",
+        "name": "Madonna",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5452716,
+      "lon": 9.4499963
+    },
+    {
+      "type": "node",
+      "id": 7836625889,
+      "tags": {
+        "artist_name": "A.N.P.I.",
+        "historic": "memorial",
+        "inscription": "32° Brigata Garibaldi \"Monte Penna\" ilpartigiano Fulvio Fiori \"Brin\" di anni 23 da la Spezia catturato ferito qui venne fucilato dai nazifascisti il 13 ottobre 1944",
+        "memorial": "plaque",
+        "name": "Fulvio Fiori",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5449208,
+      "lon": 9.4500113
+    },
+    {
+      "type": "node",
+      "id": 7838140238,
+      "tags": {
+        "check_date": "2024-08-16",
+        "emergency": "mountain_rescue",
+        "name": "Soccorso Alpino stazione Tigullio - Val D'Aveto",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5478111,
+      "lon": 9.4511081
+    },
+    {
+      "type": "node",
+      "id": 7838140239,
+      "tags": {
+        "craft": "electrician",
+        "name": "Ditta Rossi Claudio",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5467138,
+      "lon": 9.451025
+    },
+    {
+      "type": "node",
+      "id": 7838165545,
+      "tags": {
+        "craft": "window_construction",
+        "name": "Erre. Qu",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5476725,
+      "lon": 9.4503131
+    },
+    {
+      "type": "node",
+      "id": 9492474042,
+      "tags": {
+        "name": "Casone Busarello",
+        "place": "isolated_dwelling",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5524897,
+      "lon": 9.4443388
+    },
+    {
+      "type": "node",
+      "id": 9492474054,
+      "tags": {
+        "name": "Villa Bondrini",
+        "place": "isolated_dwelling",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5496328,
+      "lon": 9.4514444
+    },
+    {
+      "type": "node",
+      "id": 9492474079,
+      "tags": {
+        "name": "Castello Malaspina",
+        "place": "isolated_dwelling",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5478606,
+      "lon": 9.4516593
+    },
+    {
+      "type": "node",
+      "id": 9492474082,
+      "tags": {
+        "name": "Casoni",
+        "place": "isolated_dwelling",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5458275,
+      "lon": 9.4560791
+    },
+    {
+      "type": "node",
+      "id": 9492474102,
+      "tags": {
+        "name": "Casa Lasagna",
+        "place": "isolated_dwelling",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5497381,
+      "lon": 9.4473158
+    },
+    {
+      "type": "node",
+      "id": 9492505723,
+      "tags": {
+        "name": "Casa La Possessione",
+        "place": "isolated_dwelling",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5462461,
+      "lon": 9.4681418
+    },
+    {
+      "type": "node",
+      "id": 9492505730,
+      "tags": {
+        "name": "Casa Vigna",
+        "place": "isolated_dwelling",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5478129,
+      "lon": 9.4413363
+    },
+    {
+      "type": "node",
+      "id": 9906003475,
+      "tags": {
+        "amenity": "atm",
+        "name": "Postemat",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5471257,
+      "lon": 9.4521387
+    },
+    {
+      "type": "node",
+      "id": 9906008398,
+      "tags": {
+        "amenity": "post_office",
+        "name": "Posteitaliane",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5471005,
+      "lon": 9.452095
+    },
+    {
+      "type": "node",
+      "id": 9906008400,
+      "tags": {
+        "shop": "convenience",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5461589,
+      "lon": 9.4531771
+    },
+    {
+      "type": "node",
+      "id": 9906010803,
+      "tags": {
+        "shop": "supermarket",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5471413,
+      "lon": 9.452272
+    },
+    {
+      "type": "node",
+      "id": 9906016621,
+      "tags": {
+        "shop": "greengrocer",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5462053,
+      "lon": 9.4531468
+    },
+    {
+      "type": "node",
+      "id": 9906181152,
+      "tags": {
+        "name": "A.N.A. S. Stefano d'Aveto",
+        "office": "association",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5459849,
+      "lon": 9.4514273
+    },
+    {
+      "type": "node",
+      "id": 9910441075,
+      "tags": {
+        "amenity": "rescue_statio",
+        "name": "Protezione Civile",
+        "operator": "Regione Liguria",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5477394,
+      "lon": 9.4507863
+    },
+    {
+      "type": "node",
+      "id": 9910441083,
+      "tags": {
+        "addr:city": "Santo Stefano d'Aveto",
+        "addr:housenumber": "7",
+        "addr:postcode": "16049",
+        "addr:street": "Piazza del Popolo",
+        "emergency": "ambulance_station",
+        "healthcare": "hospital",
+        "name": "Croce Rossa - Santo Stefano D'Aveto",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5459282,
+      "lon": 9.4511537
+    },
+    {
+      "type": "node",
+      "id": 13194379055,
+      "tags": {
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Loc. Prie",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "8602",
+        "zone_id": "126",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5517883,
+      "lon": 9.4678411
+    },
+    {
+      "type": "node",
+      "id": 13194379064,
+      "tags": {
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Roncolongo civ. 15",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "7879",
+        "zone_id": "126",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5498657,
+      "lon": 9.4593363
+    },
+    {
+      "type": "node",
+      "id": 13194379065,
+      "tags": {
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Badinelli civ. 41 - distributore",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "7876",
+        "zone_id": "126",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5459213,
+      "lon": 9.4529257
+    },
+    {
+      "type": "node",
+      "id": 13194379066,
+      "tags": {
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Colonia Piaggio - punto inversione",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "7875",
+        "zone_id": "126",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5494461,
+      "lon": 9.4437246
+    },
+    {
+      "type": "node",
+      "id": 13194379067,
+      "tags": {
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Caduti d'Italia civ. 12",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "7873",
+        "zone_id": "126",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5466232,
+      "lon": 9.4492369
+    },
+    {
+      "type": "node",
+      "id": 13194379093,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "S. Stefano capolinea",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "5802",
+        "zone_id": "126",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5475616,
+      "lon": 9.4510927
+    },
+    {
+      "type": "node",
+      "id": 13366616121,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Casa Marika",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      },
+      "lat": 44.5487409,
+      "lon": 9.4577582
+    },
+    {
+      "type": "way",
+      "id": 37810582,
+      "tags": {
+        "bridge": "yes",
+        "highway": "unclassified",
+        "layer": "1",
+        "name": "Viale Emanuele Razzetti",
+        "surface": "asphalt",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 37810583,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Viale Emanuele Razzetti",
+        "surface": "asphalt",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 37810584,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Via Guglielmo Marconi",
+        "surface": "asphalt",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 37810587,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Piazza del Popolo",
+        "surface": "asphalt",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 37829091,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Via Rocca D'Aveto",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 37829093,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Via Rocca D'Aveto",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 37829094,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Via Rocca D'Aveto",
+        "surface": "asphalt",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 38098542,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Eugenio Ottone",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 38098544,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via San Lorenzo",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 38732882,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Giovanni Bombrini",
+        "surface": "asphalt",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 38754585,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Giovanni Bombrini",
+        "surface": "asphalt",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 46348853,
+      "tags": {
+        "highway": "primary",
+        "name": "Strada statale 654 di Val Nure",
+        "ref": "SS654",
+        "surface": "asphalt",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 60181265,
+      "tags": {
+        "highway": "footway",
+        "name": "Salita Grand Hotel",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 60363170,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Via Rocca D'Aveto",
+        "surface": "asphalt",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 60363172,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Via Rocca D'Aveto",
+        "surface": "asphalt",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 60363173,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Via Rocca D'Aveto",
+        "surface": "asphalt",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 60707817,
+      "tags": {
+        "highway": "primary",
+        "name": "Strada statale 654 di Val Nure",
+        "ref": "SS654",
+        "surface": "asphalt",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 60707818,
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Strada statale 654 di Val Nure",
+        "ref": "SS654",
+        "surface": "asphalt",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 89314422,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "church",
+        "denomination": "catholic",
+        "name": "Santuario della Madonna di Guadalupe",
+        "religion": "christian",
+        "wikidata": "Q3949827",
+        "wikipedia": "it:Santuario della Madonna di Guadalupe",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 89314435,
+      "tags": {
+        "name": "Piazza del Popolo",
+        "place": "square",
+        "surface": "asphalt",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 110313271,
+      "tags": {
+        "highway": "secondary",
+        "name": "SP28 di Pievetta",
+        "ref": "SP28",
+        "surface": "asphalt",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 110437234,
+      "tags": {
+        "building": "yes",
+        "description": "progettista: Architetto Luigi Carlo Daneri",
+        "name": "ex Colonia Montana Rinaldo Piaggio",
+        "wikidata": "Q120728215",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 110711455,
+      "tags": {
+        "boat": "no",
+        "name": "Rio Freddo",
+        "waterway": "stream",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 223171600,
+      "tags": {
+        "highway": "footway",
+        "name": "Via al Castello",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 231505281,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Via Rocca D'Aveto",
+        "surface": "asphalt",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 233802928,
+      "tags": {
+        "building": "castle",
+        "historic": "castle",
+        "name": "Castello Malaspina Fieschi-Doria",
+        "wikidata": "Q3662882",
+        "wikipedia": "it:Castello di Santo Stefano d'Aveto",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 233802936,
+      "tags": {
+        "highway": "residential",
+        "name": "Via alla Fontana",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 233802950,
+      "tags": {
+        "highway": "residential",
+        "name": "Via alla Fonte dei Doria",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 233802955,
+      "tags": {
+        "highway": "residential",
+        "name": "Via Costigliola",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 234038953,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Via Rocca D'Aveto",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 234038987,
+      "tags": {
+        "highway": "pedestrian",
+        "name": "Via al Castello",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 239365315,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Viale Emanuele Razzetti",
+        "surface": "asphalt",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 290360546,
+      "tags": {
+        "name": "Lago Nistassun",
+        "natural": "wetland",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 290363834,
+      "tags": {
+        "name": "Rio Molini",
+        "waterway": "stream",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 290368995,
+      "tags": {
+        "name": "Rio di Boschi",
+        "waterway": "stream",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 290369001,
+      "tags": {
+        "name": "Fossato Grosso",
+        "waterway": "stream",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 290580642,
+      "tags": {
+        "name": "Rio Mazzalasco",
+        "waterway": "stream",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 290580644,
+      "tags": {
+        "name": "Rio di Mezzo",
+        "waterway": "stream",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 305312958,
+      "tags": {
+        "building": "yes",
+        "name": "Grand Hotel Siva",
+        "tourism": "hotel",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 314343816,
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Via Albino Badinelli",
+        "nat_name": "Strada statale 654 di Val Nure",
+        "ref": "SS654",
+        "surface": "asphalt",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 314343817,
+      "tags": {
+        "bridge": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "layer": "1",
+        "name": "Via Albino Badinelli",
+        "nat_name": "Strada statale 654 di Val Nure",
+        "ref": "SS654",
+        "surface": "asphalt",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 314343818,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Viale Emanuele Razzetti",
+        "surface": "asphalt",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 343929502,
+      "tags": {
+        "amenity": "social_facility",
+        "building": "residential",
+        "name": "Casa N.S. di Guadalupe",
+        "short_name": "RSA",
+        "social_facility": "nursing_home",
+        "social_facility:for": "senior",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 343931316,
+      "tags": {
+        "building": "yes",
+        "name": "Albergo San Lorenzo",
+        "tourism": "hotel",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 343931661,
+      "tags": {
+        "building": "residential",
+        "name": "PalaArvigo",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 343931860,
+      "tags": {
+        "building": "residential",
+        "name": "Casa di \"S. Ceilia\"",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 352670249,
+      "tags": {
+        "layer": "-1",
+        "name": "Rio di Boschi",
+        "tunnel": "culvert",
+        "waterway": "stream",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 352670250,
+      "tags": {
+        "name": "Fossato Grosso",
+        "waterway": "stream",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 352670293,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Rinaldo Piaggio",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 372484934,
+      "tags": {
+        "name": "Rio Freddo",
+        "source": "CTR Regione Liguria",
+        "waterway": "stream",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 372484936,
+      "tags": {
+        "bridge": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "layer": "1",
+        "name": "Strada statale 654 di Val Nure",
+        "ref": "SS654",
+        "surface": "asphalt",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 372484937,
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Via Albino Badinelli",
+        "nat_name": "Strada statale 654 di Val Nure",
+        "ref": "SS654",
+        "surface": "asphalt",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 410081195,
+      "tags": {
+        "layer": "-1",
+        "name": "Rio di Mezzo",
+        "tunnel": "culvert",
+        "waterway": "stream",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 431560329,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Piazza del Popolo",
+        "surface": "asphalt",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 431560330,
+      "tags": {
+        "highway": "residential",
+        "name": "Via Domenico Livellara",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 491811090,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Via Rocca D'Aveto",
+        "surface": "asphalt",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 491811556,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Via Rocca D'Aveto",
+        "surface": "asphalt",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 498593595,
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Strada statale 654 di Val Nure",
+        "ref": "SS654",
+        "surface": "asphalt",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 498593596,
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Via Albino Badinelli",
+        "nat_name": "Strada statale 654 di Val Nure",
+        "ref": "SS654",
+        "surface": "asphalt",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 767427061,
+      "tags": {
+        "bridge": "yes",
+        "highway": "secondary",
+        "layer": "1",
+        "name": "SP28 di Pievetta",
+        "ref": "SP28",
+        "surface": "asphalt",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 767427062,
+      "tags": {
+        "highway": "secondary",
+        "name": "SP28 di Pievetta",
+        "ref": "SP28",
+        "surface": "asphalt",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 813690838,
+      "tags": {
+        "highway": "residential",
+        "name": "Via Rinaldo Piaggio",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 813690839,
+      "tags": {
+        "highway": "residential",
+        "name": "Via Rinaldo Piaggio",
+        "surface": "asphalt",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 813690840,
+      "tags": {
+        "highway": "living_street",
+        "name": "Via al Castello",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 813708421,
+      "tags": {
+        "name": "Rio di Mezzo",
+        "waterway": "stream",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 835442027,
+      "tags": {
+        "highway": "residential",
+        "name": "Via Ponte dei Bravi",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 839962899,
+      "tags": {
+        "highway": "residential",
+        "name": "Via Adalberto Giuffra",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 839962906,
+      "tags": {
+        "highway": "living_street",
+        "name": "Piazza della Vittoria",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1196022894,
+      "tags": {
+        "highway": "service",
+        "name": "Via al Castello",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1196022900,
+      "tags": {
+        "area": "yes",
+        "highway": "living_street",
+        "name": "Piazza della Vittoria",
+        "place": "square",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1196022901,
+      "tags": {
+        "area": "yes",
+        "highway": "living_street",
+        "name": "Piazza del Mercato",
+        "place": "square",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1196022902,
+      "tags": {
+        "highway": "residential",
+        "name": "Via Ponte dei Bravi",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1196022903,
+      "tags": {
+        "bridge": "yes",
+        "highway": "residential",
+        "layer": "1",
+        "name": "Via Ponte dei Bravi",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1196022904,
+      "tags": {
+        "area": "yes",
+        "highway": "residential",
+        "name": "Piazza XXV Aprile",
+        "place": "square",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1196022905,
+      "tags": {
+        "highway": "secondary",
+        "name": "Via Costante Fugazzi",
+        "ref": "SP28",
+        "surface": "asphalt",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1196022906,
+      "tags": {
+        "leisure": "park",
+        "name": "Parco degli Alpini",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1253616406,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Piazza del Popolo",
+        "surface": "asphalt",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1260623907,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Piazza del Popolo",
+        "surface": "asphalt",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1260635432,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Via Rocca D'Aveto",
+        "surface": "asphalt",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1260635433,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Via Rocca D'Aveto",
+        "surface": "asphalt",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1274952291,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Piazza del Popolo",
+        "surface": "asphalt",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1390920907,
+      "tags": {
+        "name": "Area sosta camper \"La Piscinella\"",
+        "note": "closed for renovation Nov 2025",
+        "operator": "Polisportiva Val d'Aveto",
+        "phone": "+39 347 7930215",
+        "tourism": "caravan_site",
+        "website": "https://www.comune.santostefanodaveto.ge.it/novita/avvisi/novita_89.html",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1442219430,
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Strada statale 654 di Val Nure",
+        "ref": "SS654",
+        "surface": "asphalt",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1442219431,
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Via Albino Badinelli",
+        "nat_name": "Strada statale 654 di Val Nure",
+        "ref": "SS654",
+        "surface": "asphalt",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1527254427,
+      "tags": {
+        "boat": "no",
+        "name": "Rio Freddo",
+        "waterway": "stream",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1527254428,
+      "tags": {
+        "boat": "no",
+        "layer": "-1",
+        "name": "Rio Freddo",
+        "tunnel": "culvert",
+        "waterway": "stream",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1540246852,
+      "tags": {
+        "highway": "residential",
+        "name": "Via Costigliola",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1548335869,
+      "tags": {
+        "name": "Fossato Grosso",
+        "waterway": "stream",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1548335870,
+      "tags": {
+        "layer": "-1",
+        "name": "Fossato Grosso",
+        "tunnel": "culvert",
+        "waterway": "stream",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1548335871,
+      "tags": {
+        "name": "Fossato Grosso",
+        "waterway": "stream",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1548335872,
+      "tags": {
+        "name": "Fossato Grosso",
+        "waterway": "stream",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 42611,
+      "tags": {
+        "admin_level": "4",
+        "boundary": "administrative",
+        "coat_of_arms": "File:Regione-Emilia-Romagna-Stemma.svg",
+        "flag": "File:Flag of Emilia-Romagna (de facto).svg",
+        "ISO3166-2": "IT-45",
+        "name": "Emilia-Romagna",
+        "name:ar": "إميليا رومانيا",
+        "name:az-Arab": "امیلیا-رومانیا",
+        "name:azb": "امیلیا-رومانیا",
+        "name:ca": "Emília-Romanya",
+        "name:cs": "Emilia-Romagna",
+        "name:de": "Emilia-Romagna",
+        "name:egl": "Emélia-Rumàgna",
+        "name:en": "Emilia-Romagna",
+        "name:es": "Emilia-Romaña",
+        "name:fi": "Emilia-Romagna",
+        "name:fr": "Émilie-Romagne",
+        "name:fur": "Emilie-Romagne",
+        "name:hu": "Emilia-Romagna",
+        "name:it": "Emilia-Romagna",
+        "name:ja": "エミリア＝ロマーニャ州",
+        "name:ko": "에밀리아로마냐",
+        "name:lt": "Emilija-Romanija",
+        "name:nl": "Emilia-Romagna",
+        "name:pa": "ਏਮੀਲੀਆ-ਰੋਮਾਞਾ",
+        "name:pl": "Emilia-Romania",
+        "name:pt": "Emília-Romanha",
+        "name:ro": "Emilia-Romagna",
+        "name:ru": "Эмилия-Романья",
+        "name:sc": "Emìlia-Romagna",
+        "name:scn": "Emilia-Rumagna",
+        "name:sl": "Emilija - Romanja",
+        "name:ur": "ایمیلیا رومانیا",
+        "name:zh": "艾米利亚-罗马涅",
+        "population": "4500714",
+        "population:date": "2026-10-20",
+        "ref:ISTAT": "08",
+        "ref:nuts": "ITH5",
+        "ref:nuts:2": "ITH5",
+        "short_name": "EMR",
+        "source:position": "ANPR 2026",
+        "type": "boundary",
+        "wikidata": "Q1263",
+        "wikimedia_commons": "Category:Emilia-Romagna",
+        "wikipedia": "it:Emilia-Romagna",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 43207,
+      "tags": {
+        "admin_level": "8",
+        "boundary": "administrative",
+        "name": "Santo Stefano d'Aveto",
+        "population": "967",
+        "population:date": "2026-08-28",
+        "ref:catasto": "I368",
+        "ref:ISTAT": "010056",
+        "source:population": "ANPR 2026",
+        "type": "boundary",
+        "wikidata": "Q267032",
+        "wikipedia": "it:Santo Stefano d'Aveto",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 43331,
+      "tags": {
+        "admin_level": "8",
+        "boundary": "administrative",
+        "name": "Ferriere",
+        "population": "1085",
+        "population:date": "2026-08-28",
+        "ref:catasto": "D555",
+        "ref:ISTAT": "033020",
+        "source:population": "ANPR 2026",
+        "type": "boundary",
+        "wikidata": "Q102727",
+        "wikipedia": "it:Ferriere (Italia)",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 43332,
+      "tags": {
+        "admin_level": "6",
+        "boundary": "administrative",
+        "ISO3166-2": "IT-PC",
+        "name": "Piacenza",
+        "name:ca": "Província de Piacenza",
+        "name:ko": "피아첸차",
+        "name:la": "Placentia",
+        "name:ru": "Пьяченца",
+        "official_name": "Provincia di Piacenza",
+        "ref:ISTAT": "033",
+        "ref:nuts": "ITH51",
+        "ref:nuts:3": "ITH51",
+        "short_name": "PC",
+        "type": "boundary",
+        "wikidata": "Q16243",
+        "wikipedia": "it:Provincia di Piacenza",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 49135,
+      "tags": {
+        "admin_level": "6",
+        "alt_name:gl": "Zena",
+        "boundary": "administrative",
+        "ISO3166-2": "IT-GE",
+        "name": "Genova",
+        "name:ar": "جنوة",
+        "name:ast": "Xénova",
+        "name:br": "Genova",
+        "name:ca": "Gènova",
+        "name:de": "Genua",
+        "name:en": "Genoa",
+        "name:es": "Génova",
+        "name:fa": "جنوا",
+        "name:fr": "Gênes",
+        "name:fur": "Gjenue",
+        "name:gl": "Xénova",
+        "name:it": "Genova",
+        "name:ko": "제노바 광역시",
+        "name:lij": "Zena",
+        "name:mt": "Ġenova",
+        "name:nl": "Genua",
+        "name:oc": "Gènoa",
+        "name:pl": "Genua",
+        "name:pt": "Génova",
+        "name:ru": "Генуя",
+        "name:sk": "Janov",
+        "name:sl": "Genova",
+        "name:uk": "Ґенуя",
+        "name:zh": "热那亚",
+        "official_name": "Città Metropolitana di Genova",
+        "ref:ISTAT": "010",
+        "ref:nuts": "ITC33",
+        "ref:nuts:3": "ITC33",
+        "short_name": "GE",
+        "source:name:br": "ofis publik ar brezhoneg",
+        "source:name:oc": "ieo-bdtopoc",
+        "type": "boundary",
+        "wikidata": "Q18288152",
+        "wikipedia": "it:Città metropolitana di Genova",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 301482,
+      "tags": {
+        "admin_level": "4",
+        "boundary": "administrative",
+        "coat_of_arms": "File:Coat of arms of Liguria.svg",
+        "flag": "File:Flag of Liguria.svg",
+        "ISO3166-2": "IT-42",
+        "name": "Liguria",
+        "name:ca": "Ligúria",
+        "name:cs": "Ligurie",
+        "name:da": "Ligurien",
+        "name:de": "Ligurien",
+        "name:en": "Liguria",
+        "name:eo": "Ligurio",
+        "name:es": "Liguria",
+        "name:fi": "Liguria",
+        "name:fr": "Ligurie",
+        "name:fur": "Ligurie",
+        "name:hu": "Liguria",
+        "name:it": "Liguria",
+        "name:ja": "リグーリア州",
+        "name:ko": "리구리아",
+        "name:nl": "Ligurië",
+        "name:pl": "Liguria",
+        "name:pt": "Ligúria",
+        "name:ro": "Liguria",
+        "name:ru": "Лигурия",
+        "name:sc": "Ligùria",
+        "name:sk": "Ligúria",
+        "name:sl": "Ligurija",
+        "name:sv": "Ligurien",
+        "name:uk": "Ліґурія",
+        "population": "1616788",
+        "ref:ISTAT": "07",
+        "ref:nuts": "ITC3",
+        "ref:nuts:2": "ITC3",
+        "short_name": "LIG",
+        "type": "boundary",
+        "wikidata": "Q1256",
+        "wikimedia_commons": "Category:Liguria",
+        "wikipedia": "it:Liguria",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 365331,
+      "tags": {
+        "admin_level": "2",
+        "alt_name:eo": "Italujo",
+        "alt_name:vi": "Ý;Italy",
+        "boundary": "administrative",
+        "currency": "EUR",
+        "default_language": "it",
+        "driving_side": "right",
+        "flag": "File:Flag of Italy.svg",
+        "int_name": "Italia",
+        "ISO3166-1": "IT",
+        "ISO3166-1:alpha2": "IT",
+        "ISO3166-1:alpha3": "ITA",
+        "ISO3166-1:numeric": "380",
+        "name": "Italia",
+        "name:ab": "Италиа",
+        "name:ace": "Itali",
+        "name:af": "Italië",
+        "name:ak": "Italy",
+        "name:als": "Italien",
+        "name:am": "ጣልያን",
+        "name:an": "Italia",
+        "name:ang": "Italia",
+        "name:ar": "إيطاليا",
+        "name:arc": "ܐܝܛܠܝܐ",
+        "name:arz": "ايطاليا",
+        "name:as": "ইটালী",
+        "name:ast": "Italia",
+        "name:ay": "Italiya",
+        "name:az": "İtaliya",
+        "name:ba": "Италия",
+        "name:bar": "Italien",
+        "name:bcl": "Italya",
+        "name:be": "Італія",
+        "name:be-tarask": "Італія",
+        "name:bg": "Италия",
+        "name:bi": "Itali",
+        "name:bn": "ইতালি",
+        "name:bo": "ཨི་ཏ་ལི།",
+        "name:bpy": "ইতালি",
+        "name:br": "Italia",
+        "name:bs": "Italija",
+        "name:bug": "Italia",
+        "name:bxr": "Итаали",
+        "name:ca": "Itàlia",
+        "name:cbk-zam": "Italia",
+        "name:cdo": "É-dâi-lé",
+        "name:ce": "Итали",
+        "name:ceb": "Italya",
+        "name:chr": "ᎢᏔᎵᏱ",
+        "name:chy": "Italy",
+        "name:cjy": "意大利",
+        "name:ckb": "ئیتالیا",
+        "name:cnr": "Italija",
+        "name:co": "Italia",
+        "name:cr": "ᐃᑕᓖ",
+        "name:crh": "İtaliya",
+        "name:cs": "Itálie",
+        "name:csb": "Italskô",
+        "name:cu": "Италїꙗ",
+        "name:cv": "Итали",
+        "name:cy": "Yr Eidal",
+        "name:da": "Italien",
+        "name:de": "Italien",
+        "name:din": "Italia",
+        "name:diq": "İtalya",
+        "name:dsb": "Italska",
+        "name:dv": "އިޓަލީވިލާތް",
+        "name:dz": "ཨྀཊ་ལི་",
+        "name:ee": "Italy",
+        "name:egl": "Itâglia",
+        "name:el": "Ιταλία",
+        "name:en": "Italy",
+        "name:eo": "Italio",
+        "name:es": "Italia",
+        "name:et": "Itaalia",
+        "name:eu": "Italia",
+        "name:ext": "Itália",
+        "name:fa": "ایتالیا",
+        "name:ff": "Italiya",
+        "name:fi": "Italia",
+        "name:fo": "Italia",
+        "name:fr": "Italie",
+        "name:frp": "Étalie",
+        "name:frr": "Itaalien",
+        "name:fur": "Italie",
+        "name:fy": "Itaalje",
+        "name:ga": "An Iodáil",
+        "name:gag": "İtaliya",
+        "name:gan": "意大利",
+        "name:gd": "An Eadailt",
+        "name:gl": "Italia",
+        "name:gn": "Itália",
+        "name:grc": "Ἰταλία",
+        "name:gu": "ઈટલી",
+        "name:gv": "Yn Iddaal",
+        "name:hak": "Yi-thai-li",
+        "name:haw": "ʻĪkālia",
+        "name:he": "איטליה",
+        "name:hi": "इटली",
+        "name:hif": "Italy",
+        "name:hr": "Italija",
+        "name:hsb": "Italska",
+        "name:ht": "Itali",
+        "name:hu": "Olaszország",
+        "name:hy": "Իտալիա",
+        "name:ia": "Italia",
+        "name:id": "Italia",
+        "name:ie": "Italia",
+        "name:ilo": "Italia",
+        "name:io": "Italia",
+        "name:is": "Ítalía",
+        "name:it": "Italia",
+        "name:ja": "イタリア",
+        "name:ja-Latn": "Itaria",
+        "name:jbo": "italias",
+        "name:jv": "Italia",
+        "name:ka": "იტალია",
+        "name:kaa": "İtaliya",
+        "name:kab": "Ṭelyan",
+        "name:kbd": "Урым",
+        "name:kg": "Italia",
+        "name:ki": "Italia",
+        "name:kk": "Италия",
+        "name:kl": "Italia",
+        "name:km": "អ៊ីតាលី",
+        "name:kn": "ಇಟಲಿ",
+        "name:ko": "이탈리아",
+        "name:koi": "Италья",
+        "name:krc": "Италия",
+        "name:ku": "Îtalya",
+        "name:kv": "Италия",
+        "name:kw": "Itali",
+        "name:ky": "Италия",
+        "name:la": "Italia",
+        "name:lad": "Italia",
+        "name:lb": "Italien",
+        "name:lez": "Италия",
+        "name:lg": "Yitale",
+        "name:li": "Italië",
+        "name:lij": "Italia",
+        "name:lld": "Talia",
+        "name:lmo": "Itàlia",
+        "name:ln": "Italya",
+        "name:lo": "ອິຕາລີ",
+        "name:lt": "Italija",
+        "name:ltg": "Italeja",
+        "name:lv": "Itālija",
+        "name:lzh": "義大利",
+        "name:map-bms": "Italia",
+        "name:mdf": "Италие",
+        "name:mg": "Italia",
+        "name:mhr": "Италий",
+        "name:mi": "Itari",
+        "name:min": "Italia",
+        "name:mk": "Италија",
+        "name:ml": "ഇറ്റലി",
+        "name:mn": "Итали",
+        "name:mr": "इटली",
+        "name:ms": "Itali",
+        "name:mt": "Italja",
+        "name:mwl": "Eitália",
+        "name:my": "အီတလီနိုင်ငံ",
+        "name:mzn": "ایتالیا",
+        "name:na": "Itari",
+        "name:nah": "Italia",
+        "name:nan": "Italia",
+        "name:nap": "Italia",
+        "name:nds": "Italien",
+        "name:nds-nl": "Italiën",
+        "name:ne": "इटाली",
+        "name:new": "इटाली",
+        "name:nl": "Italië",
+        "name:nn": "Italia",
+        "name:no": "Italia",
+        "name:nov": "Italia",
+        "name:nrm": "Italie",
+        "name:nso": "Italia",
+        "name:nv": "Ídelii",
+        "name:oc": "Itàlia",
+        "name:or": "ଇଟାଲୀ",
+        "name:os": "Итали",
+        "name:pa": "ਇਟਲੀ",
+        "name:pag": "Italia",
+        "name:pam": "Italia",
+        "name:pap": "Italia",
+        "name:pcd": "Italie",
+        "name:pdc": "Idali",
+        "name:pfl": "Idalje",
+        "name:pih": "Italii",
+        "name:pl": "Włochy",
+        "name:pms": "Italia",
+        "name:pnb": "اٹلی",
+        "name:pnt": "Ιταλία",
+        "name:ps": "اېټاليا",
+        "name:pt": "Itália",
+        "name:qu": "Italya",
+        "name:rm": "Italia",
+        "name:rmy": "Italiya",
+        "name:ro": "Italia",
+        "name:roa-tara": "Itaglie",
+        "name:ru": "Италия",
+        "name:rue": "Італія",
+        "name:rw": "Ubutaliyani",
+        "name:sa": "इटली",
+        "name:sah": "Италия",
+        "name:sc": "Itàlia",
+        "name:scn": "Italia",
+        "name:sco": "Italy",
+        "name:se": "Itália",
+        "name:sg": "Italùii",
+        "name:sgs": "Italėjė",
+        "name:sh": "Italija",
+        "name:sk": "Taliansko",
+        "name:sl": "Italija",
+        "name:sm": "Italia",
+        "name:smn": "Italia",
+        "name:sms": "Italia",
+        "name:so": "Talyaaniga",
+        "name:sq": "Italia",
+        "name:sr": "Италија",
+        "name:srn": "Italiyanikondre",
+        "name:ss": "INtaliyane",
+        "name:stq": "Italien",
+        "name:su": "Italia",
+        "name:sv": "Italien",
+        "name:sw": "Italia",
+        "name:szl": "Italijŏ",
+        "name:ta": "இத்தாலி",
+        "name:te": "ఇటలీ",
+        "name:tet": "Itália",
+        "name:tg": "Итолиё",
+        "name:th": "ประเทศอิตาลี",
+        "name:tk": "Italiýa",
+        "name:tl": "Italya",
+        "name:tok": "ma Italija",
+        "name:tpi": "Itali",
+        "name:tr": "İtalya",
+        "name:tt": "Италия",
+        "name:tw": "Italy",
+        "name:ty": "’Itāria",
+        "name:tzl": "Talia",
+        "name:udm": "Италия",
+        "name:ug": "ئىتالىيە",
+        "name:uk": "Італія",
+        "name:ur": "اطالیہ",
+        "name:uz": "Italiya",
+        "name:ve": "Italy",
+        "name:vec": "Itałia",
+        "name:vep": "Italii",
+        "name:vi": "Italia",
+        "name:vls": "Itoalië",
+        "name:vo": "Litaliyän",
+        "name:vro": "Itaalia",
+        "name:wa": "Itåleye",
+        "name:war": "Italya",
+        "name:wo": "Itaali",
+        "name:wuu": "意大利",
+        "name:xal": "Италмудин Орн",
+        "name:xmf": "იტალია",
+        "name:yi": "איטאליע",
+        "name:yo": "Itálíà",
+        "name:yue": "意大利",
+        "name:zea": "Itâlië",
+        "name:zh": "意大利;義大利",
+        "name:zh-Hans": "意大利",
+        "name:zh-Hant": "義大利",
+        "name:zu": "ITaliya",
+        "official_language": "it",
+        "official_name": "Repubblica Italiana",
+        "official_name:ca": "República Italiana",
+        "official_name:cs": "Italská republika",
+        "official_name:de": "Republik Italien",
+        "official_name:el": "Ιταλική Δημοκρατία",
+        "official_name:eo": "Itala Respubliko",
+        "official_name:hu": "Olasz Köztársaság",
+        "official_name:zh": "意大利共和国;義大利共和國",
+        "official_name:zh-Hans": "意大利共和国",
+        "official_name:zh-Hant": "義大利共和國",
+        "population": "58983000",
+        "population:date": "2022-04-08",
+        "source:name:oc": "ieo-bdtopoc",
+        "start_date": "1946-06-10",
+        "timezone": "Europe/Rome",
+        "TMC:cid_58:tabcd_1:Class": "Area",
+        "TMC:cid_58:tabcd_1:LCLversion": "8.00",
+        "TMC:cid_58:tabcd_1:LocationCode": "11",
+        "type": "boundary",
+        "website": "https://www.italia.it",
+        "wikidata": "Q38",
+        "wikimedia_commons": "Category:Italy",
+        "wikipedia": "it:Italia",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 7222665,
+      "tags": {
+        "cai_scale": "E",
+        "name": "Santo Stefano d'Aveto - Passo della Roncalla",
+        "network": "lwn",
+        "note:project_page": "http://wiki.openstreetmap.org/wiki/Liguria/Sentieri",
+        "ref": "309",
+        "ref:REI": "GGEB3090",
+        "reg_ref": "GGEB30912PE",
+        "route": "hiking",
+        "rwn:name": "Rete Escursionistica Ligure (REL)",
+        "source": "Regione Liguria;survey:CAI",
+        "state": "proposed",
+        "symbol:it": "cerchio giallo vuoto",
+        "type": "route",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 13623922,
+      "tags": {
+        "cai_scale": "E",
+        "name": "Santo Stefano D'Aveto - Lago Nero",
+        "network": "lwn",
+        "osmc:symbol": "red:green:yellow_circle",
+        "route": "hiking",
+        "source": "survey",
+        "type": "route",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 13625601,
+      "tags": {
+        "cai_scale": "E",
+        "name": "A14 - Anello del Groppo Rosso",
+        "network": "lwn",
+        "osmc:symbol": "red:white::A14:red",
+        "route": "hiking",
+        "type": "route",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 13988234,
+      "tags": {
+        "cai_scale": "T",
+        "name": "Santo Stefano d'Aveto - Cappelletta di Allegrezze",
+        "network": "lwn",
+        "osmc:symbol": "red:green::⸫:yellow",
+        "route": "hiking",
+        "symbol:it": "tre pallini gialli disposti a triangolo",
+        "type": "route",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 16829379,
+      "tags": {
+        "name": "Strada statale 654 di Val Nure",
+        "ref": "SS 654",
+        "route": "road",
+        "type": "route",
+        "wikidata": "Q3975417",
+        "wikipedia": "it:Strada statale 654 di Val Nure",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 17333110,
+      "tags": {
+        "cai_scale": "E",
+        "from": "Santo Stefano d'Aveto",
+        "name": "Sentiero dei Celti e dei Liguri - tappa 7",
+        "network": "nwn",
+        "note": "relation maintained by Emanuele Maz",
+        "note:it": "relazione manutenuta da Emanuele Maz",
+        "operator": "Emanuele Maz",
+        "osmc:symbol": "red:red:white_stripe:SCL:black",
+        "ref": "SCL",
+        "route": "hiking",
+        "source": "www.sentierodecelti.it",
+        "source:ref": "9224001",
+        "symbol": "SCL on white red flag",
+        "symbol:it": "SCL su bandiera biancorossa",
+        "to": "Casermette del Penna",
+        "type": "route",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 17333230,
+      "tags": {
+        "cai_scale": "E",
+        "from": "Mareto",
+        "name": "Sentiero dei Celti e dei Liguri - tappa 6",
+        "network": "nwn",
+        "note": "relation maintained by Emanuele Maz",
+        "note:it": "relazione manutenuta da Emanuele Maz",
+        "operator": "Emanuele Maz",
+        "osmc:symbol": "red:red:white_stripe:SCL:black",
+        "ref": "SCL",
+        "route": "hiking",
+        "source": "www.sentierodecelti.it",
+        "source:ref": "9224001",
+        "symbol": "SCL on white red flag",
+        "symbol:it": "SCL su bandiera biancorossa",
+        "to": "Santo Stefano d'Aveto",
+        "type": "route",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 17518295,
+      "tags": {
+        "admin_level": "3",
+        "boundary": "statistical",
+        "name": "Italia nord-occidentale",
+        "name:de": "Nordwestitalien",
+        "name:en": "Northwest Italy",
+        "name:es": "Italia Noroccidental",
+        "name:fr": "Italie nord-occidentale",
+        "name:hu": "Északnyugat-Olaszország",
+        "name:it": "Italia nord-occidentale",
+        "name:ur": "شمال مغربی اطالیہ",
+        "ref:nuts:1": "ITC",
+        "short_name": "Nord-Ovest",
+        "type": "boundary",
+        "wikidata": "Q2725942",
+        "wikipedia": "it:Italia nord-occidentale",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 17518337,
+      "tags": {
+        "admin_level": "3",
+        "boundary": "statistical",
+        "name": "Italia nord-orientale",
+        "name:de": "Nordostitalien",
+        "name:en": "Northeast Italy",
+        "name:es": "Italia Nororiental",
+        "name:fr": "Italie nord-orientale",
+        "name:hu": "Északkelet-Olaszország",
+        "name:it": "Italia nord-orientale",
+        "name:ur": "شمال مشرقی اطالیہ",
+        "name:zh": "意大利东北部",
+        "ref:nuts:1": "ITH",
+        "short_name": "Nord-Est",
+        "type": "boundary",
+        "wikidata": "Q579075",
+        "wikipedia": "it:Italia nord-orientale",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 18187153,
+      "tags": {
+        "from": "Milano",
+        "name": "Sentiero dei Celti e dei Liguri",
+        "network": "nwn",
+        "osmc:symbol": "red:red:white_stripe:SCL:black",
+        "pilgrimage": "no",
+        "ref": "SCL",
+        "route": "hiking",
+        "to": "Sestri Levante",
+        "type": "superroute",
+        "website": "https://sentierodeicelti.it/",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 19708107,
+      "tags": {
+        "bus": "yes",
+        "colour": "green",
+        "description": "711 Borzonasca - Santo Stefano d'Aveto",
+        "from": "Borzonasca",
+        "name": "711 Santo Stefano d'Aveto",
+        "network": "AMT Linee Provinciali",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "711",
+        "route": "bus",
+        "to": "Santo Stefano d'Aveto",
+        "type": "route",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 20150568,
+      "tags": {
+        "bus": "yes",
+        "colour": "green",
+        "description": "711 Santo Stefano d'Aveto - Chiavari Nassiriya",
+        "from": "Santo Stefano d'Aveto",
+        "name": "711 Chiavari Nassiriya",
+        "network": "AMT Linee Provinciali",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "711",
+        "route": "bus",
+        "to": "Chiavari Nassiriya",
+        "type": "route",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 20311178,
+      "tags": {
+        "boundary": "civil",
+        "name": "Quattro Province",
+        "note": "refers more properly to the Apennine area of the four provinces",
+        "type": "boundary",
+        "wikidata": "Q3927393",
+        "wikipedia": "it:Quattro Province",
+        "addr:city_extracted": "Santo Stefano d'Aveto"
+      }
+    }
+  ]
+}

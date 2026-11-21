@@ -1,0 +1,6070 @@
+{
+  "version": 0.6,
+  "generator": "OpenStreetMap v0.6 API",
+  "comune": "Ronco Scrivia",
+  "elements": [
+    {
+      "type": "node",
+      "id": 66586640,
+      "tags": {
+        "gfoss_id": "1306",
+        "name": "Ronco Scrivia",
+        "name:ru": "Ронко-Скривия",
+        "place": "village",
+        "population": "4485",
+        "source": "geodati.gfoss.it",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6132988,
+      "lon": 8.9523681
+    },
+    {
+      "type": "node",
+      "id": 173241860,
+      "tags": {
+        "highway": "motorway_junction",
+        "name": "Ronco Scrivia",
+        "operator": "Autostrade per l'Italia S.p.A.",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6022738,
+      "lon": 8.9511474
+    },
+    {
+      "type": "node",
+      "id": 173242843,
+      "tags": {
+        "highway": "motorway_junction",
+        "name": "Area di Giovi Ovest",
+        "operator": "Autostrade per l'Italia S.p.A.",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6045804,
+      "lon": 8.9544243
+    },
+    {
+      "type": "node",
+      "id": 227874269,
+      "tags": {
+        "addr:city": "Ronco Scrivia",
+        "addr:postcode": "16019",
+        "amenity": "fuel",
+        "brand": "Tamoil",
+        "brand:wikidata": "Q706793",
+        "fuel:diesel": "yes",
+        "fuel:HGV_diesel": "yes",
+        "fuel:octane_100": "yes",
+        "fuel:octane_95": "yes",
+        "name": "Tamoil",
+        "operator": "Nuova Sidap S.R.L.",
+        "ref:mise": "34680",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6041286,
+      "lon": 8.9544207
+    },
+    {
+      "type": "node",
+      "id": 227961509,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Europam",
+        "brand:wikidata": "Q115268198",
+        "fuel:diesel": "yes",
+        "fuel:octane_95": "yes",
+        "name": "Europam",
+        "operator": "Europam S.p.A.",
+        "ref:mise": "40500",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6042009,
+      "lon": 8.9529379
+    },
+    {
+      "type": "node",
+      "id": 244527389,
+      "tags": {
+        "amenity": "atm",
+        "brand": "BPER Banca",
+        "brand:wikidata": "Q806167",
+        "name": "BPER Banca",
+        "official_name": "Banca Popolare dell'Emilia Romagna",
+        "operator": "BPER Banca",
+        "operator:wikidata": "Q806167",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6114558,
+      "lon": 8.9540312
+    },
+    {
+      "type": "node",
+      "id": 252549076,
+      "tags": {
+        "highway": "motorway_junction",
+        "name": "Ronco Scrivia",
+        "operator": "Autostrade per l'Italia S.p.A.",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6000502,
+      "lon": 8.95238
+    },
+    {
+      "type": "node",
+      "id": 255189569,
+      "tags": {
+        "brand": "Carrefour Express",
+        "brand:wikidata": "Q2940190",
+        "name": "Carrefour Express",
+        "shop": "convenience",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.611903,
+      "lon": 8.9534746
+    },
+    {
+      "type": "node",
+      "id": 256134154,
+      "tags": {
+        "created_by": "Potlatch 0.9c",
+        "is_in": "Ronco Scrivia",
+        "name": "Cascine",
+        "place": "hamlet",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6192074,
+      "lon": 8.9578517
+    },
+    {
+      "type": "node",
+      "id": 257687309,
+      "tags": {
+        "name": "Ronco Scrivia",
+        "operator": "Rete Ferroviaria Italiana",
+        "operator:short": "RFI",
+        "operator:wikidata": "Q1060049",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6149352,
+      "lon": 8.9489449
+    },
+    {
+      "type": "node",
+      "id": 292715779,
+      "tags": {
+        "highway": "motorway_junction",
+        "name": "Area di Giovi Est",
+        "operator": "Autostrade per l'Italia S.p.A.",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6038361,
+      "lon": 8.9529383
+    },
+    {
+      "type": "node",
+      "id": 292728436,
+      "tags": {
+        "name": "Isolabuona",
+        "place": "hamlet",
+        "wikidata": "Q18457861",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.5997863,
+      "lon": 8.9506568
+    },
+    {
+      "type": "node",
+      "id": 316038237,
+      "tags": {
+        "ele": "379",
+        "gfoss_id": "36360",
+        "istat_id": "1004920004",
+        "name": "Malvasi",
+        "place": "hamlet",
+        "population": "30",
+        "source": "Istat 2001 - geodati.gfoss.it",
+        "wikidata": "Q18458052",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6142208,
+      "lon": 8.9634626
+    },
+    {
+      "type": "node",
+      "id": 323077325,
+      "tags": {
+        "amenity": "place_of_worship",
+        "created_by": "Potlatch 0.10f",
+        "denomination": "catholic",
+        "name": "Cappelletta",
+        "religion": "christian",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6205897,
+      "lon": 8.9608131
+    },
+    {
+      "type": "node",
+      "id": 729566118,
+      "tags": {
+        "name": "Ronco Scrivia",
+        "operator": "Rete Ferroviaria Italiana",
+        "operator:short": "RFI",
+        "operator:wikidata": "Q1060049",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6167143,
+      "lon": 8.9479221
+    },
+    {
+      "type": "node",
+      "id": 766725306,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Autogrill",
+        "brand:wikidata": "Q786790",
+        "cuisine": "italian;regional",
+        "name": "Autogrill",
+        "operator": "Autogrill",
+        "toilets": "yes",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6044811,
+      "lon": 8.9534174
+    },
+    {
+      "type": "node",
+      "id": 766725307,
+      "tags": {
+        "name": "Ronco Scrivia",
+        "operator": "Rete Ferroviaria Italiana",
+        "operator:short": "RFI",
+        "operator:wikidata": "Q1060049",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6149112,
+      "lon": 8.9491364
+    },
+    {
+      "type": "node",
+      "id": 1256898678,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Nazionale 5 Magazzino Autostrada",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "3766",
+        "zone_id": "70",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6015167,
+      "lon": 8.9502501
+    },
+    {
+      "type": "node",
+      "id": 1256898694,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Roma F. 123 Ronco",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "3770",
+        "zone_id": "70",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6153039,
+      "lon": 8.9465784
+    },
+    {
+      "type": "node",
+      "id": 1256898696,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "C.So Italia 166 Bar Commercio",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "3768",
+        "zone_id": "70",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6123189,
+      "lon": 8.9512436
+    },
+    {
+      "type": "node",
+      "id": 1256898724,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "C.So Battisti 19 Scuole",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "3816",
+        "zone_id": "70",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6128427,
+      "lon": 8.9495448
+    },
+    {
+      "type": "node",
+      "id": 1256898876,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Nazionale F. 83 Fr. Isolabuona",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "3764",
+        "zone_id": "70",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.5967979,
+      "lon": 8.9535307
+    },
+    {
+      "type": "node",
+      "id": 1256898904,
+      "tags": {
+        "shop": "bakery",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6111397,
+      "lon": 8.95403
+    },
+    {
+      "type": "node",
+      "id": 1256898949,
+      "tags": {
+        "amenity": "atm",
+        "brand": "Postamat",
+        "brand:wikidata": "Q3909447",
+        "name": "Poste",
+        "operator": "Poste Italiane",
+        "operator:wikidata": "Q495026",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6114938,
+      "lon": 8.9539551
+    },
+    {
+      "type": "node",
+      "id": 1256899003,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Roma 230 Ronco",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "3771",
+        "zone_id": "70",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.617059,
+      "lon": 8.944218
+    },
+    {
+      "type": "node",
+      "id": 1256899006,
+      "tags": {
+        "amenity": "cafe",
+        "name": "Bar Franza",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6139222,
+      "lon": 8.9487171
+    },
+    {
+      "type": "node",
+      "id": 1256899011,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "C.So Italia 48 Ronco",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "3767",
+        "zone_id": "70",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.609417,
+      "lon": 8.9548236
+    },
+    {
+      "type": "node",
+      "id": 1256899026,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Nazionale Metalleido",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "3763",
+        "zone_id": "70",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.5954352,
+      "lon": 8.9403034
+    },
+    {
+      "type": "node",
+      "id": 1256899039,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Nazionale F. 32 Fr. Isolabuona",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "3765",
+        "zone_id": "70",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.5991784,
+      "lon": 8.9527322
+    },
+    {
+      "type": "node",
+      "id": 1943034915,
+      "tags": {
+        "name": "Case Giacoboni",
+        "place": "hamlet",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6198245,
+      "lon": 8.9379644
+    },
+    {
+      "type": "node",
+      "id": 1943034917,
+      "tags": {
+        "man_made": "tower",
+        "name": "Ripetitore TV",
+        "tower:type": "communication",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6210403,
+      "lon": 8.9392277
+    },
+    {
+      "type": "node",
+      "id": 2351613945,
+      "tags": {
+        "name": "Balbi",
+        "place": "neighbourhood",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.61566,
+      "lon": 8.939877
+    },
+    {
+      "type": "node",
+      "id": 3081436250,
+      "tags": {
+        "addr:city": "Ronco Scrivia",
+        "addr:postcode": "16019",
+        "addr:street": "Piazza Monsignor Luciano Parodi",
+        "amenity": "place_of_worship",
+        "denomination": "catholic",
+        "name": "Oratorio Parrocchiale",
+        "religion": "christian",
+        "source": "Oratorio Parrocchiale di Ronco Scrivia",
+        "website": "http://oratorioronco.altervista.org/",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6143917,
+      "lon": 8.950616
+    },
+    {
+      "type": "node",
+      "id": 3203030596,
+      "tags": {
+        "ele": "536",
+        "name": "Bric del Regno",
+        "natural": "peak",
+        "source": "CTR Regione Liguria",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6060946,
+      "lon": 8.9453206
+    },
+    {
+      "type": "node",
+      "id": 3203044431,
+      "tags": {
+        "ele": "698",
+        "name": "Monte Zuccaro",
+        "natural": "peak",
+        "source": "CTR Regione Liguria",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.5969888,
+      "lon": 8.96666
+    },
+    {
+      "type": "node",
+      "id": 3468419999,
+      "tags": {
+        "amenity": "cinema",
+        "name": "Columbia",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6126922,
+      "lon": 8.9508915
+    },
+    {
+      "type": "node",
+      "id": 3468420000,
+      "tags": {
+        "amenity": "library",
+        "name": "Biblioteca Comunale",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6127647,
+      "lon": 8.9512295
+    },
+    {
+      "type": "node",
+      "id": 3468420007,
+      "tags": {
+        "shop": "hardware",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6119902,
+      "lon": 8.953741
+    },
+    {
+      "type": "node",
+      "id": 3468420009,
+      "tags": {
+        "name": "Fioridea",
+        "shop": "florist",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6116812,
+      "lon": 8.9536246
+    },
+    {
+      "type": "node",
+      "id": 3468420010,
+      "tags": {
+        "brand": "Food Basics",
+        "brand:wikidata": "Q5465300",
+        "name": "Food Basics",
+        "shop": "supermarket",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6143669,
+      "lon": 8.9485673
+    },
+    {
+      "type": "node",
+      "id": 3468420011,
+      "tags": {
+        "name": "Panificio Parodi",
+        "shop": "bakery",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6144538,
+      "lon": 8.9483321
+    },
+    {
+      "type": "node",
+      "id": 3468420013,
+      "tags": {
+        "addr:city": "Ronco Scrivia",
+        "addr:housenumber": "8",
+        "addr:postcode": "16019",
+        "addr:street": "Via Roma",
+        "shop": "jewelry",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6145818,
+      "lon": 8.9484704
+    },
+    {
+      "type": "node",
+      "id": 3468420014,
+      "tags": {
+        "addr:city": "Ronco Scrivia",
+        "addr:housenumber": "62",
+        "addr:postcode": "16019",
+        "addr:street": "Via Roma",
+        "note": "tabacs",
+        "shop": "newsagent",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6147146,
+      "lon": 8.9481456
+    },
+    {
+      "type": "node",
+      "id": 3468420017,
+      "tags": {
+        "shop": "butcher",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6122762,
+      "lon": 8.9515125
+    },
+    {
+      "type": "node",
+      "id": 3468420019,
+      "tags": {
+        "brand": "Food Basics",
+        "brand:wikidata": "Q5465300",
+        "name": "Food Basics",
+        "shop": "supermarket",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6092843,
+      "lon": 8.9549503
+    },
+    {
+      "type": "node",
+      "id": 3468420020,
+      "tags": {
+        "amenity": "cafe",
+        "name": "Gotiotti e Panetti",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6095018,
+      "lon": 8.9546909
+    },
+    {
+      "type": "node",
+      "id": 3468420022,
+      "tags": {
+        "name": "Officina Radole",
+        "shop": "car_repair",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6007819,
+      "lon": 8.9507145
+    },
+    {
+      "type": "node",
+      "id": 3468420023,
+      "tags": {
+        "addr:city": "Ronco Scrivia",
+        "addr:housenumber": "32",
+        "addr:postcode": "16019",
+        "addr:street": "Località Isolabuona",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "La volpe e il gatto",
+        "operator": "K & B Snc",
+        "outdoor_seating": "yes",
+        "phone": "+39 010 9651369",
+        "ref:vatin": "IT02648470991",
+        "takeaway": "yes",
+        "tourism": "hotel",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.5990403,
+      "lon": 8.9523236
+    },
+    {
+      "type": "node",
+      "id": 4125398518,
+      "tags": {
+        "name": "Ronco Scrivia",
+        "operator": "Rete Ferroviaria Italiana",
+        "operator:short": "RFI",
+        "operator:wikidata": "Q1060049",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6158437,
+      "lon": 8.949044
+    },
+    {
+      "type": "node",
+      "id": 4125450657,
+      "tags": {
+        "name": "Ronco Scrivia",
+        "operator": "Rete Ferroviaria Italiana",
+        "operator:short": "RFI",
+        "operator:wikidata": "Q1060049",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6149186,
+      "lon": 8.9490772
+    },
+    {
+      "type": "node",
+      "id": 4125556075,
+      "tags": {
+        "name": "Ronco Scrivia",
+        "operator": "Rete Ferroviaria Italiana",
+        "operator:short": "RFI",
+        "operator:wikidata": "Q1060049",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.614943,
+      "lon": 8.9488832
+    },
+    {
+      "type": "node",
+      "id": 4125556076,
+      "tags": {
+        "name": "Ronco Scrivia",
+        "operator": "Rete Ferroviaria Italiana",
+        "operator:short": "RFI",
+        "operator:wikidata": "Q1060049",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6149584,
+      "lon": 8.9487604
+    },
+    {
+      "type": "node",
+      "id": 7154391585,
+      "tags": {
+        "addr:city": "Ronco Scrivia",
+        "addr:housenumber": "27",
+        "addr:postcode": "16019",
+        "addr:street": "Via delle Piane",
+        "brand": "Croce Rossa Italiana",
+        "brand:wikidata": "Q913903",
+        "emergency": "ambulance_station",
+        "name": "Croce Rossa Italiana Comitato di Vallescrivia",
+        "operator": "Croce Rossa Italiana",
+        "phone": "+39 010 935433",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.612563,
+      "lon": 8.9561158
+    },
+    {
+      "type": "node",
+      "id": 7448297738,
+      "tags": {
+        "name": "Ronco Scrivia",
+        "operator": "Rete Ferroviaria Italiana",
+        "operator:short": "RFI",
+        "operator:wikidata": "Q1060049",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q3970717",
+        "wikipedia": "it:Stazione di Ronco Scrivia",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6155063,
+      "lon": 8.9485654
+    },
+    {
+      "type": "node",
+      "id": 8424621518,
+      "tags": {
+        "access": "customers",
+        "emergency": "defibrillator",
+        "indoor": "yes",
+        "name": "Pista Ronco Kart",
+        "wheelchair": "yes",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6045244,
+      "lon": 8.9510807
+    },
+    {
+      "type": "node",
+      "id": 10269296610,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Circolo",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6160079,
+      "lon": 8.9444389
+    },
+    {
+      "type": "node",
+      "id": 10269311737,
+      "tags": {
+        "shop": "greengrocer",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6122608,
+      "lon": 8.9514524
+    },
+    {
+      "type": "node",
+      "id": 10269840470,
+      "tags": {
+        "addr:city": "Ronco Scrivia",
+        "addr:housenumber": "57",
+        "addr:postcode": "16019",
+        "addr:street": "Via Isolabuona 57",
+        "amenity": "bar",
+        "name": "Bar da o Fuentu",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.5981652,
+      "lon": 8.9534551
+    },
+    {
+      "type": "node",
+      "id": 10269840472,
+      "tags": {
+        "name": "Edil EST",
+        "shop": "paint",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.5973824,
+      "lon": 8.9533504
+    },
+    {
+      "type": "node",
+      "id": 10269842216,
+      "tags": {
+        "shop": "greengrocer",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.61122,
+      "lon": 8.9539881
+    },
+    {
+      "type": "node",
+      "id": 10917011713,
+      "tags": {
+        "name": "Ronco Scrivia",
+        "traffic_sign": "city_limit",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6076139,
+      "lon": 8.9551527
+    },
+    {
+      "type": "node",
+      "id": 10922236982,
+      "tags": {
+        "name": "Villavecchia",
+        "place": "neighbourhood",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6153081,
+      "lon": 8.945764
+    },
+    {
+      "type": "node",
+      "id": 11211022194,
+      "tags": {
+        "name": "Ronco Scrivia",
+        "traffic_sign": "city_limit",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6067808,
+      "lon": 8.9586626
+    },
+    {
+      "type": "node",
+      "id": 11390801954,
+      "tags": {
+        "name": "Case Merli",
+        "place": "isolated_dwelling",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6200086,
+      "lon": 8.9406162
+    },
+    {
+      "type": "node",
+      "id": 11390801957,
+      "tags": {
+        "name": "Rocche del Bosco",
+        "place": "locality",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6202424,
+      "lon": 8.9506093
+    },
+    {
+      "type": "node",
+      "id": 11390858895,
+      "tags": {
+        "name": "Mastodonte dei Giovi",
+        "tourism": "museum",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.612834,
+      "lon": 8.9510776
+    },
+    {
+      "type": "node",
+      "id": 12118595472,
+      "tags": {
+        "addr:city": "Ronco Scrivia",
+        "addr:housenumber": "4",
+        "addr:postcode": "16019",
+        "addr:street": "Via Roma",
+        "operator": "Balduini",
+        "shop": "funeral_directors",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6145384,
+      "lon": 8.9485865
+    },
+    {
+      "type": "node",
+      "id": 12118595495,
+      "tags": {
+        "addr:city": "Ronco Scrivia",
+        "addr:housenumber": "92",
+        "addr:postcode": "16019",
+        "addr:street": "Via Roma",
+        "shop": "vacant",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6150264,
+      "lon": 8.9473283
+    },
+    {
+      "type": "node",
+      "id": 12118595496,
+      "tags": {
+        "addr:city": "Ronco Scrivia",
+        "addr:housenumber": "82",
+        "addr:postcode": "16019",
+        "addr:street": "Via Roma",
+        "shop": "vacant",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6149291,
+      "lon": 8.9475598
+    },
+    {
+      "type": "node",
+      "id": 12118636875,
+      "tags": {
+        "shop": "vacant",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6132934,
+      "lon": 8.9516544
+    },
+    {
+      "type": "node",
+      "id": 12118636876,
+      "tags": {
+        "shop": "vacant",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6132735,
+      "lon": 8.9517103
+    },
+    {
+      "type": "node",
+      "id": 12118636877,
+      "tags": {
+        "shop": "vacant",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6132519,
+      "lon": 8.9517638
+    },
+    {
+      "type": "node",
+      "id": 12118636878,
+      "tags": {
+        "shop": "vacant",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6132246,
+      "lon": 8.9518314
+    },
+    {
+      "type": "node",
+      "id": 12118636880,
+      "tags": {
+        "shop": "vacant",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6133141,
+      "lon": 8.9516055
+    },
+    {
+      "type": "node",
+      "id": 12118636881,
+      "tags": {
+        "shop": "vacant",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6133414,
+      "lon": 8.9515426
+    },
+    {
+      "type": "node",
+      "id": 12118636883,
+      "tags": {
+        "historic": "memorial",
+        "memorial": "plaque",
+        "name": "Francesco Borghero",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6134166,
+      "lon": 8.9512903
+    },
+    {
+      "type": "node",
+      "id": 12118636893,
+      "tags": {
+        "shop": "vacant",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6135978,
+      "lon": 8.9508741
+    },
+    {
+      "type": "node",
+      "id": 12118636894,
+      "tags": {
+        "shop": "vacant",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6136219,
+      "lon": 8.950824
+    },
+    {
+      "type": "node",
+      "id": 12118636895,
+      "tags": {
+        "addr:city": "Ronco Scrivia",
+        "addr:housenumber": "84",
+        "addr:postcode": "16019",
+        "addr:street": "Viale Nazario Sauro",
+        "shop": "vacant",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6135462,
+      "lon": 8.9509937
+    },
+    {
+      "type": "node",
+      "id": 12118636897,
+      "tags": {
+        "addr:city": "Ronco Scrivia",
+        "addr:housenumber": "98",
+        "addr:postcode": "16019",
+        "addr:street": "Viale Nazario Sauro",
+        "shop": "vacant",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.613673,
+      "lon": 8.9506968
+    },
+    {
+      "type": "node",
+      "id": 12118636898,
+      "tags": {
+        "addr:city": "Ronco Scrivia",
+        "addr:housenumber": "102",
+        "addr:postcode": "16019",
+        "addr:street": "Viale Nazario Sauro",
+        "shop": "vacant",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6137041,
+      "lon": 8.9506245
+    },
+    {
+      "type": "node",
+      "id": 12118636899,
+      "tags": {
+        "addr:city": "Ronco Scrivia",
+        "addr:housenumber": "104",
+        "addr:postcode": "16019",
+        "addr:street": "Viale Nazario Sauro",
+        "shop": "vacant",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6137226,
+      "lon": 8.9505821
+    },
+    {
+      "type": "node",
+      "id": 12118636900,
+      "tags": {
+        "addr:city": "Ronco Scrivia",
+        "addr:housenumber": "16",
+        "addr:postcode": "16019",
+        "addr:street": "Viale Nazario Sauro",
+        "shop": "vacant",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6137773,
+      "lon": 8.9504661
+    },
+    {
+      "type": "node",
+      "id": 12118664401,
+      "tags": {
+        "addr:city": "Ronco Scrivia",
+        "addr:housenumber": "20",
+        "addr:postcode": "16019",
+        "addr:street": "Via Vittorio Veneto",
+        "shop": "vacant",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6138038,
+      "lon": 8.9504003
+    },
+    {
+      "type": "node",
+      "id": 12118724780,
+      "tags": {
+        "addr:city": "Ronco Scrivia",
+        "addr:housenumber": "6",
+        "addr:postcode": "16019",
+        "addr:street": "Via Vittorio Veneto",
+        "brand": "Generali",
+        "brand:wikidata": "Q670482",
+        "name": "Generali",
+        "office": "insurance",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6125724,
+      "lon": 8.9517785
+    },
+    {
+      "type": "node",
+      "id": 12118726119,
+      "tags": {
+        "addr:city": "Ronco Scrivia",
+        "addr:housenumber": "9",
+        "addr:postcode": "16019",
+        "addr:street": "Via Vittorio Veneto",
+        "shop": "vacant",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6130975,
+      "lon": 8.9515851
+    },
+    {
+      "type": "node",
+      "id": 12118726121,
+      "tags": {
+        "addr:city": "Ronco Scrivia",
+        "addr:housenumber": "15",
+        "addr:postcode": "16019",
+        "addr:street": "Via Vittorio Veneto",
+        "shop": "vacant",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6131425,
+      "lon": 8.9514656
+    },
+    {
+      "type": "node",
+      "id": 12118726123,
+      "tags": {
+        "shop": "vacant",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6132059,
+      "lon": 8.9513109
+    },
+    {
+      "type": "node",
+      "id": 12118726124,
+      "tags": {
+        "shop": "vacant",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6131802,
+      "lon": 8.9513777
+    },
+    {
+      "type": "node",
+      "id": 12118726135,
+      "tags": {
+        "addr:city": "Ronco Scrivia",
+        "addr:housenumber": "49",
+        "addr:postcode": "16019",
+        "addr:street": "Via Vittorio Veneto",
+        "shop": "tobacco",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6135306,
+      "lon": 8.9506059
+    },
+    {
+      "type": "node",
+      "id": 12125197554,
+      "tags": {
+        "historic": "monument",
+        "name": "Zanellati Antonio \"Ferrara\"",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.612128,
+      "lon": 8.9503672
+    },
+    {
+      "type": "node",
+      "id": 12125197567,
+      "tags": {
+        "historic": "memorial",
+        "memorial": "plaque",
+        "name": "Repetto Stefano \"Santin\"",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6131559,
+      "lon": 8.9491931
+    },
+    {
+      "type": "node",
+      "id": 12125234986,
+      "tags": {
+        "addr:city": "Ronco Scrivia",
+        "addr:housenumber": "132",
+        "addr:postcode": "16019",
+        "addr:street": "Corso Italia",
+        "amenity": "restaurant",
+        "name": "Da Sally",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.612276,
+      "lon": 8.9534287
+    },
+    {
+      "type": "node",
+      "id": 12125330509,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "C.So Italia 69",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "3818",
+        "zone_id": "70",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6093324,
+      "lon": 8.9548054
+    },
+    {
+      "type": "node",
+      "id": 12136045408,
+      "tags": {
+        "name": "Case Lago",
+        "place": "isolated_dwelling",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.601877,
+      "lon": 8.9557671
+    },
+    {
+      "type": "node",
+      "id": 12136045409,
+      "tags": {
+        "name": "Case Mereta",
+        "place": "isolated_dwelling",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6036836,
+      "lon": 8.9556491
+    },
+    {
+      "type": "node",
+      "id": 12136045411,
+      "tags": {
+        "name": "Case Suia",
+        "place": "isolated_dwelling",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.5988218,
+      "lon": 8.9411522
+    },
+    {
+      "type": "node",
+      "id": 12136045412,
+      "tags": {
+        "name": "Case del Sonito",
+        "place": "isolated_dwelling",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.5971645,
+      "lon": 8.9394938
+    },
+    {
+      "type": "node",
+      "id": 12323813395,
+      "tags": {
+        "addr:city": "Ronco Scrivia",
+        "addr:housenumber": "201",
+        "addr:postcode": "16019",
+        "addr:street": "Località Isolabuona",
+        "name": "Genoa Tank Srl",
+        "operator": "Genoa Tank Srl",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.599815,
+      "lon": 8.9543483
+    },
+    {
+      "type": "node",
+      "id": 13381739609,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "C.So Battisti F. 63 F. Scuole",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "3769",
+        "zone_id": "70",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6130196,
+      "lon": 8.9495056
+    },
+    {
+      "type": "node",
+      "id": 13514705000,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Nazionale 97 Loc. Isolabuona",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "3821",
+        "zone_id": "70",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.5963775,
+      "lon": 8.9533984
+    },
+    {
+      "type": "node",
+      "id": 13514786201,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Nazionale Isolabuona - Still Mobili",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "3820",
+        "zone_id": "70",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.5988029,
+      "lon": 8.9528734
+    },
+    {
+      "type": "node",
+      "id": 13514786202,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Nazionale F. Magazzino Autostrada",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "3819",
+        "zone_id": "70",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6014424,
+      "lon": 8.9501828
+    },
+    {
+      "type": "node",
+      "id": 13514786203,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "C.So Italia 275",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "3817",
+        "zone_id": "70",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6123736,
+      "lon": 8.9521232
+    },
+    {
+      "type": "node",
+      "id": 13514786204,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Roma 113 Ristorante",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "3815",
+        "zone_id": "70",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6151297,
+      "lon": 8.9467677
+    },
+    {
+      "type": "node",
+      "id": 13514786205,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Roma 185",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "3814",
+        "zone_id": "70",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.6166251,
+      "lon": 8.9442028
+    },
+    {
+      "type": "node",
+      "id": 13814915252,
+      "tags": {
+        "ele": "622",
+        "name": "Monte Cornacchia",
+        "natural": "peak",
+        "addr:city_extracted": "Ronco Scrivia"
+      },
+      "lat": 44.5995968,
+      "lon": 8.9641142
+    },
+    {
+      "type": "way",
+      "id": 20906685,
+      "tags": {
+        "highway": "track",
+        "name": "Via Cascine",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 20909724,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Vittorio Veneto",
+        "oneway": "yes",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 20909789,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Vittorio Veneto",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 20909959,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Via della Ferriera",
+        "oneway": "no",
+        "surface": "asphalt",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 20910537,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via al Ponte Nuovo",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 20913194,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Santa Benedetta Cambiaggio",
+        "width": "3",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 20913608,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Cascine",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 20913946,
+      "tags": {
+        "highway": "residential",
+        "name": "Via Cascine",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 22776969,
+      "tags": {
+        "highway": "residential",
+        "name": "Viale Nazario Sauro",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 22777017,
+      "tags": {
+        "highway": "service",
+        "name": "Via Egidio Dedè",
+        "oneway": "yes",
+        "service": "alley",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 22777797,
+      "tags": {
+        "highway": "unclassified",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Via alla Zona Sportiva",
+        "oneway": "no",
+        "surface": "asphalt",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 23323899,
+      "tags": {
+        "highway": "motorway_link",
+        "lanes": "1",
+        "maxspeed": "40",
+        "name": "A7 dir. Milano - Svincolo Ronco Scrivia",
+        "oneway": "yes",
+        "operator": "Autostrade per l'Italia S.p.A.",
+        "surface": "asphalt",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 24541810,
+      "tags": {
+        "alt_name": "Via XXV Aprile",
+        "highway": "residential",
+        "name": "Via Venticinque Aprile",
+        "oneway": "yes",
+        "short_name": "Via 25 Aprile",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 25309658,
+      "tags": {
+        "highway": "motorway",
+        "int_ref": "E 62",
+        "lanes": "2",
+        "layer": "-1",
+        "length": "957",
+        "lit": "24/7",
+        "maxspeed": "110",
+        "name": "Galleria Monreale",
+        "oneway": "yes",
+        "operator": "Autostrade per l'Italia S.p.A.",
+        "ref": "A7",
+        "surface": "asphalt",
+        "toll": "yes",
+        "tunnel": "yes",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 25372589,
+      "tags": {
+        "electrified": "contact_line",
+        "frequency": "0",
+        "gauge": "1435",
+        "layer": "-1",
+        "maxspeed": "105",
+        "name": "Ferrovia Torino-Genova",
+        "operator": "Rete Ferroviaria Italiana",
+        "operator:short": "RFI",
+        "operator:wikidata": "Q1060049",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "railway:scmt": "yes",
+        "tunnel": "yes",
+        "tunnel:name": "Galleria Pieve",
+        "usage": "main",
+        "voltage": "3000",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 26690434,
+      "tags": {
+        "bridge": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "layer": "1",
+        "name": "Strada statale dei Giovi",
+        "surface": "asphalt",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 26690598,
+      "tags": {
+        "highway": "motorway_link",
+        "lanes": "1",
+        "maxspeed": "40",
+        "name": "A7 - Svincolo Ronco Scrivia",
+        "oneway": "yes",
+        "operator": "Autostrade per l'Italia S.p.A.",
+        "surface": "asphalt",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 26698310,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Milite Ignoto",
+        "oneway": "no",
+        "surface": "asphalt",
+        "width": "3",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 27032697,
+      "tags": {
+        "bridge": "yes",
+        "highway": "motorway",
+        "int_ref": "E 62",
+        "lanes": "2",
+        "layer": "1",
+        "lit": "no",
+        "maxspeed": "110",
+        "name": "Viadotto Scrivia Arnasso",
+        "oneway": "yes",
+        "operator": "Autostrade per l'Italia S.p.A.",
+        "ref": "A7",
+        "surface": "asphalt",
+        "toll": "yes",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 27032698,
+      "tags": {
+        "highway": "motorway",
+        "int_ref": "E 62",
+        "lanes": "2",
+        "lit": "no",
+        "maxspeed": "110",
+        "name": "Autostrada dei Giovi - Serravalle",
+        "oneway": "yes",
+        "operator": "Autostrade per l'Italia S.p.A.",
+        "ref": "A7",
+        "surface": "asphalt",
+        "toll": "yes",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 27032700,
+      "tags": {
+        "bridge": "yes",
+        "highway": "motorway",
+        "int_ref": "E 62",
+        "lanes": "2",
+        "layer": "1",
+        "lit": "no",
+        "maxspeed": "80",
+        "name": "A7 dir. Genova - Isola del Cantone/Ronco Scrivia",
+        "oneway": "yes",
+        "operator": "Autostrade per l'Italia S.p.A.",
+        "ref": "A7",
+        "surface": "asphalt",
+        "toll": "yes",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 27032703,
+      "tags": {
+        "highway": "motorway",
+        "int_ref": "E 62",
+        "lanes": "2",
+        "lit": "no",
+        "maxspeed": "80",
+        "name": "A7 dir. Genova - Ronco Scrivia/Busalla",
+        "oneway": "yes",
+        "operator": "Autostrade per l'Italia S.p.A.",
+        "ref": "A7",
+        "surface": "asphalt",
+        "toll": "yes",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 27032832,
+      "tags": {
+        "highway": "motorway",
+        "int_ref": "E 62",
+        "lanes": "2",
+        "lit": "no",
+        "maxspeed": "110",
+        "name": "A7 dir. Milano - Ronco Scrivia/Isola del Cantone",
+        "oneway": "yes",
+        "operator": "Autostrade per l'Italia S.p.A.",
+        "ref": "A7",
+        "surface": "asphalt",
+        "toll": "yes",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 27032848,
+      "tags": {
+        "alt_name": "Via XXV Aprile",
+        "highway": "residential",
+        "layer": "-1",
+        "name": "Via Venticinque Aprile",
+        "oneway": "yes",
+        "tunnel": "yes",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 29163529,
+      "tags": {
+        "aerialway": "goods",
+        "name": "teleferica",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 29171678,
+      "tags": {
+        "bridge": "yes",
+        "highway": "unclassified",
+        "layer": "1",
+        "name": "Via al Ponte Nuovo",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 29171679,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via al Ponte Nuovo",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 38664234,
+      "tags": {
+        "highway": "motorway",
+        "int_ref": "E 62",
+        "lanes": "2",
+        "lit": "no",
+        "maxspeed": "110",
+        "name": "A7 dir. Milano - Ronco Scrivia/Isola del Cantone",
+        "oneway": "yes",
+        "operator": "Autostrade per l'Italia S.p.A.",
+        "ref": "A7",
+        "surface": "asphalt",
+        "toll": "yes",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 38664235,
+      "tags": {
+        "bridge": "yes",
+        "highway": "motorway",
+        "int_ref": "E 62",
+        "lanes": "2",
+        "layer": "1",
+        "lit": "no",
+        "maxspeed": "80",
+        "name": "A7 dir. Genova - Isola del Cantone/Ronco Scrivia",
+        "oneway": "yes",
+        "operator": "Autostrade per l'Italia S.p.A.",
+        "ref": "A7",
+        "surface": "asphalt",
+        "toll": "yes",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 38664236,
+      "tags": {
+        "highway": "motorway",
+        "int_ref": "E 62",
+        "lanes": "2",
+        "lit": "no",
+        "maxspeed": "80",
+        "name": "A7 dir. Genova - Isola del Cantone/Ronco Scrivia",
+        "oneway": "yes",
+        "operator": "Autostrade per l'Italia S.p.A.",
+        "ref": "A7",
+        "surface": "asphalt",
+        "toll": "yes",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 38664237,
+      "tags": {
+        "bridge": "yes",
+        "highway": "motorway",
+        "int_ref": "E 62",
+        "lanes": "2",
+        "layer": "1",
+        "lit": "no",
+        "maxspeed": "110",
+        "name": "A7 dir. Milano - Ronco Scrivia/Isola del Cantone",
+        "oneway": "yes",
+        "operator": "Autostrade per l'Italia S.p.A.",
+        "ref": "A7",
+        "surface": "asphalt",
+        "toll": "yes",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 38664238,
+      "tags": {
+        "highway": "motorway",
+        "int_ref": "E 62",
+        "lanes": "2",
+        "lit": "no",
+        "maxspeed": "80",
+        "name": "A7 dir. Genova - Isola del Cantone/Ronco Scrivia",
+        "oneway": "yes",
+        "operator": "Autostrade per l'Italia S.p.A.",
+        "ref": "A7",
+        "surface": "asphalt",
+        "toll": "yes",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 38664239,
+      "tags": {
+        "bridge": "yes",
+        "highway": "motorway",
+        "int_ref": "E 62",
+        "lanes": "2",
+        "layer": "1",
+        "lit": "no",
+        "maxspeed": "80",
+        "name": "A7 dir. Genova - Isola del Cantone/Ronco Scrivia",
+        "oneway": "yes",
+        "operator": "Autostrade per l'Italia S.p.A.",
+        "ref": "A7",
+        "surface": "asphalt",
+        "toll": "yes",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 38664242,
+      "tags": {
+        "highway": "motorway",
+        "int_ref": "E 62",
+        "lanes": "2",
+        "lit": "no",
+        "maxspeed": "80",
+        "name": "A7 dir. Genova - Isola del Cantone/Ronco Scrivia",
+        "oneway": "yes",
+        "operator": "Autostrade per l'Italia S.p.A.",
+        "surface": "asphalt",
+        "toll": "yes",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 38664579,
+      "tags": {
+        "highway": "motorway_link",
+        "lanes": "1",
+        "maxspeed": "40",
+        "name": "A7 - Svincolo Ronco Scrivia",
+        "oneway": "yes",
+        "operator": "Autostrade per l'Italia S.p.A.",
+        "surface": "asphalt",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 38664580,
+      "tags": {
+        "highway": "motorway_link",
+        "lanes": "1",
+        "maxspeed": "40",
+        "name": "A7 - Svincolo Ronco Scrivia",
+        "oneway": "yes",
+        "operator": "Autostrade per l'Italia S.p.A.",
+        "surface": "asphalt",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 38664581,
+      "tags": {
+        "highway": "motorway_link",
+        "lanes": "1",
+        "maxspeed": "40",
+        "name": "A7 - Svincolo Ronco Scrivia",
+        "oneway": "yes",
+        "operator": "Autostrade per l'Italia S.p.A.",
+        "surface": "asphalt",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 38664582,
+      "tags": {
+        "bridge": "yes",
+        "highway": "motorway_link",
+        "layer": "1",
+        "maxspeed": "40",
+        "name": "A7 dir. Genova - Svincolo Ronco Scrivia",
+        "oneway": "yes",
+        "operator": "Autostrade per l'Italia S.p.A.",
+        "surface": "asphalt",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 38664584,
+      "tags": {
+        "highway": "motorway_link",
+        "lanes": "1",
+        "maxspeed": "40",
+        "name": "A7 dir. Milano - Svincolo Ronco Scrivia",
+        "oneway": "yes",
+        "operator": "Autostrade per l'Italia S.p.A.",
+        "surface": "asphalt",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 38664585,
+      "tags": {
+        "highway": "motorway_link",
+        "maxspeed": "40",
+        "name": "A7 dir. Genova - Svincolo Ronco Scrivia",
+        "oneway": "yes",
+        "operator": "Autostrade per l'Italia S.p.A.",
+        "surface": "asphalt",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 47186944,
+      "tags": {
+        "electrified": "contact_line",
+        "frequency": "0",
+        "gauge": "1435",
+        "maxspeed": "60",
+        "name": "Ferrovia Succursale dei Giovi",
+        "operator": "Rete Ferroviaria Italiana",
+        "operator:short": "RFI",
+        "operator:wikidata": "Q1060049",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "railway:scmt": "yes",
+        "usage": "main",
+        "voltage": "3000",
+        "wikidata": "Q3743728",
+        "wikipedia": "it:Ferrovia succursale dei Giovi",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 47254202,
+      "tags": {
+        "highway": "motorway_link",
+        "lanes": "2",
+        "maxspeed": "40",
+        "name": "A7 dir. Milano - Svincolo Ronco Scrivia",
+        "oneway": "no",
+        "operator": "Autostrade per l'Italia S.p.A.",
+        "surface": "asphalt",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 58872687,
+      "tags": {
+        "name": "Torrente Scrivia",
+        "note": "semplificato",
+        "source": "Yahoo satellite",
+        "waterway": "river",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 58873160,
+      "tags": {
+        "aeroway": "helipad",
+        "name": "Elisuperficie A7 \"Ugo Vignolo\"",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 58873192,
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Corso Italia",
+        "oneway": "no",
+        "ref": "SS35",
+        "surface": "asphalt",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 58873199,
+      "tags": {
+        "electrified": "contact_line",
+        "frequency": "0",
+        "gauge": "1435",
+        "maxspeed": "90",
+        "name": "Ferrovia Torino-Genova",
+        "operator": "Rete Ferroviaria Italiana",
+        "operator:short": "RFI",
+        "operator:wikidata": "Q1060049",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "railway:scmt": "yes",
+        "usage": "main",
+        "voltage": "3000",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 58882254,
+      "tags": {
+        "electrified": "contact_line",
+        "frequency": "0",
+        "gauge": "1435",
+        "maxspeed": "105",
+        "name": "Ferrovia Torino-Genova",
+        "operator": "Rete Ferroviaria Italiana",
+        "operator:short": "RFI",
+        "operator:wikidata": "Q1060049",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "railway:scmt": "yes",
+        "usage": "main",
+        "voltage": "3000",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 58882737,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Vittorio Veneto",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 58882738,
+      "tags": {
+        "bridge": "yes",
+        "highway": "unclassified",
+        "layer": "1",
+        "name": "Via Vittorio Veneto",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 59132698,
+      "tags": {
+        "electrified": "contact_line",
+        "frequency": "0",
+        "gauge": "1435",
+        "layer": "-1",
+        "maxspeed": "90",
+        "name": "Galleria Villavecchia",
+        "operator": "Rete Ferroviaria Italiana",
+        "operator:short": "RFI",
+        "operator:wikidata": "Q1060049",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "railway:scmt": "yes",
+        "tunnel": "yes",
+        "usage": "main",
+        "voltage": "3000",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 61408154,
+      "tags": {
+        "electrified": "contact_line",
+        "frequency": "0",
+        "gauge": "1435",
+        "maxspeed": "90",
+        "name": "Ferrovia Torino-Genova",
+        "operator": "Rete Ferroviaria Italiana",
+        "operator:short": "RFI",
+        "operator:wikidata": "Q1060049",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "railway:scmt": "yes",
+        "usage": "main",
+        "voltage": "3000",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 61408159,
+      "tags": {
+        "electrified": "contact_line",
+        "frequency": "0",
+        "gauge": "1435",
+        "maxspeed": "60",
+        "name": "Ferrovia Succursale dei Giovi",
+        "operator": "Rete Ferroviaria Italiana",
+        "operator:short": "RFI",
+        "operator:wikidata": "Q1060049",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "railway:scmt": "yes",
+        "usage": "main",
+        "voltage": "3000",
+        "wikidata": "Q3743728",
+        "wikipedia": "it:Ferrovia succursale dei Giovi",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 61428031,
+      "tags": {
+        "bridge": "yes",
+        "highway": "motorway",
+        "int_ref": "E 62",
+        "lanes": "2",
+        "layer": "1",
+        "lit": "no",
+        "maxspeed": "110",
+        "name": "A7 dir. Milano - Busalla/Ronco Scrivia",
+        "oneway": "yes",
+        "operator": "Autostrade per l'Italia S.p.A.",
+        "ref": "A7",
+        "surface": "asphalt",
+        "toll": "yes",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 61428032,
+      "tags": {
+        "highway": "motorway",
+        "int_ref": "E 62",
+        "lanes": "2",
+        "lit": "no",
+        "maxspeed": "110",
+        "name": "A7 dir. Milano - Busalla/Ronco Scrivia",
+        "oneway": "yes",
+        "operator": "Autostrade per l'Italia S.p.A.",
+        "ref": "A7",
+        "surface": "asphalt",
+        "toll": "yes",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 61428034,
+      "tags": {
+        "bridge": "yes",
+        "electrified": "contact_line",
+        "frequency": "0",
+        "gauge": "1435",
+        "layer": "1",
+        "maxspeed": "60",
+        "name": "Ferrovia Succursale dei Giovi",
+        "operator": "Rete Ferroviaria Italiana",
+        "operator:short": "RFI",
+        "operator:wikidata": "Q1060049",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "railway:scmt": "yes",
+        "usage": "main",
+        "voltage": "3000",
+        "wikidata": "Q3743728",
+        "wikipedia": "it:Ferrovia succursale dei Giovi",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 61428038,
+      "tags": {
+        "bridge": "yes",
+        "highway": "tertiary",
+        "layer": "1",
+        "name": "Ponte Gabriele Guaraldi",
+        "oneway": "no",
+        "surface": "asphalt",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 61428041,
+      "tags": {
+        "bridge": "yes",
+        "electrified": "contact_line",
+        "frequency": "0",
+        "gauge": "1435",
+        "layer": "1",
+        "maxspeed": "90",
+        "name": "Ferrovia Torino-Genova",
+        "operator": "Rete Ferroviaria Italiana",
+        "operator:short": "RFI",
+        "operator:wikidata": "Q1060049",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "railway:scmt": "yes",
+        "usage": "main",
+        "voltage": "3000",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 69488671,
+      "tags": {
+        "aeroway": "helipad",
+        "name": "Elisuperficie Arnasso",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 69488672,
+      "tags": {
+        "bridge": "yes",
+        "highway": "unclassified",
+        "layer": "1",
+        "name": "Via Milite Ignoto",
+        "oneway": "no",
+        "surface": "asphalt",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 75797004,
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Strada statale 35 dei Giovi",
+        "oneway": "no",
+        "surface": "asphalt",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 84959267,
+      "tags": {
+        "highway": "unclassified",
+        "maxspeed": "50",
+        "name": "Via Mereta",
+        "oneway": "no",
+        "surface": "asphalt",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 84959268,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via E. Bazzano",
+        "oneway": "no",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 85308990,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Via Giovanni Balbi",
+        "oneway": "no",
+        "surface": "asphalt",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 103281315,
+      "tags": {
+        "name": "SSE Ronco Scrivia",
+        "operator": "Rete Ferroviaria Italiana",
+        "operator:short": "RFI",
+        "operator:wikidata": "Q1060049",
+        "power": "substation",
+        "ref:terna": "TTORRCFT",
+        "substation": "traction",
+        "voltage": "132000",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 105725046,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Via della Ferriera",
+        "oneway": "no",
+        "surface": "asphalt",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 105725059,
+      "tags": {
+        "electrified": "contact_line",
+        "frequency": "0",
+        "gauge": "1435",
+        "maxspeed": "90",
+        "name": "Ferrovia Torino-Genova",
+        "operator": "Rete Ferroviaria Italiana",
+        "operator:short": "RFI",
+        "operator:wikidata": "Q1060049",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "railway:scmt": "yes",
+        "usage": "main",
+        "voltage": "3000",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 105725107,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Via delle Piane",
+        "oneway": "no",
+        "surface": "asphalt",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 105725108,
+      "tags": {
+        "electrified": "contact_line",
+        "frequency": "0",
+        "gauge": "1435",
+        "maxspeed": "60",
+        "name": "Ferrovia Succursale dei Giovi",
+        "operator": "Rete Ferroviaria Italiana",
+        "operator:short": "RFI",
+        "operator:wikidata": "Q1060049",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "railway:scmt": "yes",
+        "usage": "main",
+        "voltage": "3000",
+        "wikidata": "Q3743728",
+        "wikipedia": "it:Ferrovia succursale dei Giovi",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 105725135,
+      "tags": {
+        "bridge": "yes",
+        "electrified": "contact_line",
+        "frequency": "0",
+        "gauge": "1435",
+        "layer": "1",
+        "maxspeed": "90",
+        "name": "Ferrovia Torino-Genova",
+        "operator": "Rete Ferroviaria Italiana",
+        "operator:short": "RFI",
+        "operator:wikidata": "Q1060049",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "railway:scmt": "yes",
+        "usage": "main",
+        "voltage": "3000",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 105725139,
+      "tags": {
+        "bridge": "yes",
+        "electrified": "contact_line",
+        "frequency": "0",
+        "gauge": "1435",
+        "layer": "1",
+        "maxspeed": "60",
+        "name": "Ferrovia Succursale dei Giovi",
+        "operator": "Rete Ferroviaria Italiana",
+        "operator:short": "RFI",
+        "operator:wikidata": "Q1060049",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "railway:scmt": "yes",
+        "usage": "main",
+        "voltage": "3000",
+        "wikidata": "Q3743728",
+        "wikipedia": "it:Ferrovia succursale dei Giovi",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 109887907,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via G. B. Seghezzo",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 183238858,
+      "tags": {
+        "leisure": "track",
+        "name": "Pista di Ronco",
+        "operator": "PG Corse Srl",
+        "phone": "+39 010 9350526",
+        "ref:vatin": "IT01862470992",
+        "sport": "karting",
+        "surface": "asphalt",
+        "website": "https://www.pistaronco.it/",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204284884,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "roman_catholic",
+        "name": "Oratorio di Nostra Signora del Carmine",
+        "religion": "christian",
+        "source": "Regione Liguria",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204285116,
+      "tags": {
+        "building": "house",
+        "name": "Villa Lisardi",
+        "source": "Regione Liguria",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204285661,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "catholic",
+        "name": "Chiesa di San Fermo",
+        "religion": "christian",
+        "source": "Regione Liguria",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204285771,
+      "tags": {
+        "building": "house",
+        "name": "Villa ex Pippo",
+        "source": "Regione Liguria",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204286673,
+      "tags": {
+        "building": "house",
+        "name": "Villa Maria",
+        "source": "Regione Liguria",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204286914,
+      "tags": {
+        "building": "yes",
+        "name": "A7 dir. Milano - Ronco Scrivia/Isola del Cantone",
+        "source": "Regione Liguria",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204287037,
+      "tags": {
+        "amenity": "townhall",
+        "building": "yes",
+        "name": "Municipio di Ronco Scrivia",
+        "source": "Regione Liguria",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204289317,
+      "tags": {
+        "building": "house",
+        "name": "Villa Volpara",
+        "source": "Regione Liguria",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204289322,
+      "tags": {
+        "building": "house",
+        "name": "Villa Carminati",
+        "source": "Regione Liguria",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204289465,
+      "tags": {
+        "building": "yes",
+        "shop": "newsagent",
+        "source": "Regione Liguria",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204290689,
+      "tags": {
+        "building": "house",
+        "name": "Ex stazione ferroviaria",
+        "source": "Regione Liguria",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204297606,
+      "tags": {
+        "addr:city": "Ronco Scrivia",
+        "addr:housenumber": "25",
+        "addr:postcode": "16019",
+        "addr:street": "Corso Italia",
+        "building": "school",
+        "building:levels": "2",
+        "name": "Scuola Secondaria di I° Giovanni Pascoli",
+        "operator": "Istituto Omnicomprensivo \"Vallescrivia\"",
+        "source": "Regione Liguria",
+        "website": "https://www.iovallescrivia.edu.it/luoghi?id=1595",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204299417,
+      "tags": {
+        "building": "yes",
+        "shop": "car_parts",
+        "source": "Regione Liguria",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204299607,
+      "tags": {
+        "building": "house",
+        "name": "Villino Eugenia",
+        "source": "Regione Liguria",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204300269,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "roman_catholic",
+        "name": "Chiesa della Madonna della Salute",
+        "religion": "christian",
+        "source": "Regione Liguria",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204302553,
+      "tags": {
+        "building": "house",
+        "name": "Ex stazione di posta",
+        "source": "Regione Liguria",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204302571,
+      "tags": {
+        "building": "house",
+        "name": "Villa Segalerba",
+        "source": "Regione Liguria",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204487146,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "roman_catholic",
+        "name": "Chiesa di Nostra Signora della Guardia",
+        "religion": "christian",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 207834293,
+      "tags": {
+        "highway": "residential",
+        "name": "Piazza Monsignor Luciano Parodi",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 207834294,
+      "tags": {
+        "highway": "residential",
+        "name": "Piazza Monsignor Luciano Parodi",
+        "oneway": "yes",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 207834295,
+      "tags": {
+        "highway": "residential",
+        "name": "Piazza Monsignor Luciano Parodi",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 207834296,
+      "tags": {
+        "highway": "residential",
+        "name": "Piazza Oratorio",
+        "oneway": "yes",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 207834298,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Giuseppe Mazzini",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 207834299,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Vittorio Veneto",
+        "oneway": "yes",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 207834316,
+      "tags": {
+        "highway": "service",
+        "name": "Piazza Giovanni Falcone Paolo Borsellino e gli Agenti della Scorta",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 207834318,
+      "tags": {
+        "highway": "service",
+        "name": "Piazza Giovanni Falcone Paolo Borsellino e gli Agenti della Scorta",
+        "oneway": "yes",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 223122082,
+      "tags": {
+        "highway": "motorway",
+        "int_ref": "E 62",
+        "lanes": "2",
+        "lit": "no",
+        "maxspeed": "80",
+        "name": "A7 dir. Genova - Ronco Scrivia/Busalla",
+        "oneway": "yes",
+        "operator": "Autostrade per l'Italia S.p.A.",
+        "ref": "A7",
+        "surface": "asphalt",
+        "toll": "yes",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 241208376,
+      "tags": {
+        "cables": "3",
+        "name": "Trasta-Ronco Scrivia",
+        "power": "line",
+        "voltage": "132000",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 285908875,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Cascine",
+        "surface": "asphalt",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 285908876,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Cascine",
+        "surface": "asphalt",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 285908877,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Santa Benedetta Cambiaggio",
+        "surface": "asphalt",
+        "width": "3",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 285908878,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Cascine",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 303097836,
+      "tags": {
+        "electrified": "contact_line",
+        "frequency": "0",
+        "gauge": "1435",
+        "layer": "-1",
+        "maxspeed": "140",
+        "maxspeed:tilting": "150",
+        "name": "Ferrovia succursale dei Giovi",
+        "operator": "Rete Ferroviaria Italiana",
+        "operator:short": "RFI",
+        "operator:wikidata": "Q1060049",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "railway:scmt": "yes",
+        "tunnel": "yes",
+        "tunnel:name": "Galleria Ronco",
+        "usage": "main",
+        "voltage": "3000",
+        "wikidata": "Q18288348",
+        "wikipedia": "it:Galleria Ronco Scrivia",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 303536159,
+      "tags": {
+        "highway": "motorway_link",
+        "maxspeed": "40",
+        "name": "A7 dir. Genova - Svincolo Ronco Scrivia",
+        "oneway": "yes",
+        "operator": "Autostrade per l'Italia S.p.A.",
+        "surface": "asphalt",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 334689837,
+      "tags": {
+        "cables": "6",
+        "name": "Busalla-Vignole",
+        "power": "line",
+        "ref": "23.878",
+        "voltage": "132000",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 339177953,
+      "tags": {
+        "addr:city": "Ronco Scrivia",
+        "addr:postcode": "16019",
+        "addr:street": "Piazza Pietro Ghersi",
+        "leisure": "park",
+        "name": "Il Campetto",
+        "website": "http://4sq.com/psB9QU",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 339418472,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via al Ponte Nuovo",
+        "oneway": "yes",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 353314994,
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Via Roma",
+        "oneway": "no",
+        "surface": "asphalt",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 353315112,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Postumia",
+        "oneway": "no",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 353315115,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Postumia",
+        "oneway": "yes",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 353315116,
+      "tags": {
+        "bridge": "yes",
+        "highway": "unclassified",
+        "layer": "1",
+        "name": "Via Postumia",
+        "oneway": "yes",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 353315117,
+      "tags": {
+        "highway": "motorway_link",
+        "lanes": "2",
+        "maxspeed": "40",
+        "name": "A7 - Svincolo Ronco Scrivia",
+        "oneway": "no",
+        "operator": "Autostrade per l'Italia S.p.A.",
+        "surface": "asphalt",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 410668726,
+      "tags": {
+        "bridge": "yes",
+        "electrified": "contact_line",
+        "frequency": "0",
+        "gauge": "1435",
+        "layer": "1",
+        "maxspeed": "60",
+        "name": "Ferrovia Succursale dei Giovi",
+        "operator": "Rete Ferroviaria Italiana",
+        "operator:short": "RFI",
+        "operator:wikidata": "Q1060049",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "railway:scmt": "yes",
+        "usage": "main",
+        "voltage": "3000",
+        "wikidata": "Q3743728",
+        "wikipedia": "it:Ferrovia succursale dei Giovi",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 410668728,
+      "tags": {
+        "electrified": "contact_line",
+        "frequency": "0",
+        "gauge": "1435",
+        "layer": "-1",
+        "maxspeed": "90",
+        "name": "Galleria Villavecchia",
+        "operator": "Rete Ferroviaria Italiana",
+        "operator:short": "RFI",
+        "operator:wikidata": "Q1060049",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "railway:scmt": "yes",
+        "tunnel": "yes",
+        "usage": "main",
+        "voltage": "3000",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 410668741,
+      "tags": {
+        "electrified": "contact_line",
+        "frequency": "0",
+        "gauge": "1435",
+        "maxspeed": "60",
+        "name": "Ferrovia Succursale dei Giovi",
+        "operator": "Rete Ferroviaria Italiana",
+        "operator:short": "RFI",
+        "operator:wikidata": "Q1060049",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "railway:scmt": "yes",
+        "usage": "main",
+        "voltage": "3000",
+        "wikidata": "Q3743728",
+        "wikipedia": "it:Ferrovia succursale dei Giovi",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 410668746,
+      "tags": {
+        "electrified": "contact_line",
+        "frequency": "0",
+        "gauge": "1435",
+        "maxspeed": "90",
+        "name": "Ferrovia Torino-Genova",
+        "operator": "Rete Ferroviaria Italiana",
+        "operator:short": "RFI",
+        "operator:wikidata": "Q1060049",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "railway:scmt": "yes",
+        "usage": "main",
+        "voltage": "3000",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 410668991,
+      "tags": {
+        "bridge": "yes",
+        "electrified": "contact_line",
+        "frequency": "0",
+        "gauge": "1435",
+        "layer": "1",
+        "maxspeed": "90",
+        "name": "Ferrovia Torino-Genova",
+        "operator": "Rete Ferroviaria Italiana",
+        "operator:short": "RFI",
+        "operator:wikidata": "Q1060049",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "railway:scmt": "yes",
+        "usage": "main",
+        "voltage": "3000",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 410754649,
+      "tags": {
+        "electrified": "contact_line",
+        "frequency": "0",
+        "gauge": "1435",
+        "maxspeed": "90",
+        "name": "Ferrovia Torino-Genova",
+        "operator": "Rete Ferroviaria Italiana",
+        "operator:short": "RFI",
+        "operator:wikidata": "Q1060049",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "railway:scmt": "yes",
+        "usage": "main",
+        "voltage": "3000",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 410763352,
+      "tags": {
+        "electrified": "contact_line",
+        "frequency": "0",
+        "gauge": "1435",
+        "layer": "-1",
+        "maxspeed": "105",
+        "name": "Ferrovia Torino-Genova",
+        "operator": "Rete Ferroviaria Italiana",
+        "operator:short": "RFI",
+        "operator:wikidata": "Q1060049",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "railway:scmt": "yes",
+        "tunnel": "yes",
+        "tunnel:name": "Galleria Pieve",
+        "usage": "main",
+        "voltage": "3000",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 410763353,
+      "tags": {
+        "bridge": "yes",
+        "electrified": "contact_line",
+        "frequency": "0",
+        "gauge": "1435",
+        "layer": "1",
+        "maxspeed": "90",
+        "name": "Ferrovia Torino-Genova",
+        "operator": "Rete Ferroviaria Italiana",
+        "operator:short": "RFI",
+        "operator:wikidata": "Q1060049",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "railway:scmt": "yes",
+        "usage": "main",
+        "voltage": "3000",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 410763354,
+      "tags": {
+        "electrified": "contact_line",
+        "frequency": "0",
+        "gauge": "1435",
+        "maxspeed": "90",
+        "name": "Ferrovia Torino-Genova",
+        "operator": "Rete Ferroviaria Italiana",
+        "operator:short": "RFI",
+        "operator:wikidata": "Q1060049",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "railway:scmt": "yes",
+        "usage": "main",
+        "voltage": "3000",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 410765359,
+      "tags": {
+        "electrified": "contact_line",
+        "frequency": "0",
+        "gauge": "1435",
+        "maxspeed": "60",
+        "name": "Ferrovia Succursale dei Giovi",
+        "operator": "Rete Ferroviaria Italiana",
+        "operator:short": "RFI",
+        "operator:wikidata": "Q1060049",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "railway:scmt": "yes",
+        "usage": "main",
+        "voltage": "3000",
+        "wikidata": "Q3743728",
+        "wikipedia": "it:Ferrovia succursale dei Giovi",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 410788432,
+      "tags": {
+        "electrified": "contact_line",
+        "frequency": "0",
+        "gauge": "1435",
+        "maxspeed": "60",
+        "name": "Ferrovia Succursale dei Giovi",
+        "operator": "Rete Ferroviaria Italiana",
+        "operator:short": "RFI",
+        "operator:wikidata": "Q1060049",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "railway:scmt": "yes",
+        "usage": "main",
+        "voltage": "3000",
+        "wikidata": "Q3743728",
+        "wikipedia": "it:Ferrovia succursale dei Giovi",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 410788445,
+      "tags": {
+        "bridge": "yes",
+        "electrified": "contact_line",
+        "frequency": "0",
+        "gauge": "1435",
+        "layer": "1",
+        "maxspeed": "60",
+        "name": "Ferrovia Succursale dei Giovi",
+        "operator": "Rete Ferroviaria Italiana",
+        "operator:short": "RFI",
+        "operator:wikidata": "Q1060049",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "railway:scmt": "yes",
+        "usage": "main",
+        "voltage": "3000",
+        "wikidata": "Q3743728",
+        "wikipedia": "it:Ferrovia succursale dei Giovi",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 411121565,
+      "tags": {
+        "bench": "yes",
+        "name": "Ronco Scrivia",
+        "operator": "Rete Ferroviaria Italiana",
+        "operator:short": "RFI",
+        "operator:wikidata": "Q1060049",
+        "public_transport": "platform",
+        "railway": "platform",
+        "shelter": "yes",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 411121566,
+      "tags": {
+        "bench": "yes",
+        "name": "Ronco Scrivia",
+        "operator": "Rete Ferroviaria Italiana",
+        "operator:short": "RFI",
+        "operator:wikidata": "Q1060049",
+        "public_transport": "platform",
+        "railway": "platform",
+        "shelter": "yes",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 411121568,
+      "tags": {
+        "bench": "yes",
+        "name": "Ronco Scrivia",
+        "operator": "Rete Ferroviaria Italiana",
+        "operator:short": "RFI",
+        "operator:wikidata": "Q1060049",
+        "public_transport": "platform",
+        "railway": "platform",
+        "shelter": "yes",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 411121570,
+      "tags": {
+        "bench": "yes",
+        "bin": "yes",
+        "check_date:shelter": "2025-10-30",
+        "lit": "yes",
+        "name": "Ronco Scrivia",
+        "operator": "Rete Ferroviaria Italiana",
+        "operator:short": "RFI",
+        "operator:wikidata": "Q1060049",
+        "public_transport": "platform",
+        "railway": "platform",
+        "shelter": "yes",
+        "tactile_paving": "yes",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 411121571,
+      "tags": {
+        "bench": "yes",
+        "check_date:shelter": "2025-10-30",
+        "name": "Ronco Scrivia",
+        "operator": "Rete Ferroviaria Italiana",
+        "operator:short": "RFI",
+        "operator:wikidata": "Q1060049",
+        "public_transport": "platform",
+        "railway": "platform",
+        "shelter": "yes",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 411121572,
+      "tags": {
+        "landuse": "railway",
+        "name": "Ronco Scrivia",
+        "operator": "Rete Ferroviaria Italiana",
+        "operator:short": "RFI",
+        "operator:wikidata": "Q1060049",
+        "wikidata": "Q3662845",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 412114927,
+      "tags": {
+        "name": "Rio Nebarche",
+        "waterway": "stream",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 412114941,
+      "tags": {
+        "name": "Rio delle Scabie",
+        "waterway": "stream",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 412114944,
+      "tags": {
+        "name": "Rio di Ciappone",
+        "waterway": "stream",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 412114947,
+      "tags": {
+        "name": "Rio di Picagna",
+        "waterway": "stream",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 414340387,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Curlo",
+        "oneway": "no",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 444443568,
+      "tags": {
+        "electrified": "contact_line",
+        "frequency": "0",
+        "gauge": "1435",
+        "maxspeed": "105",
+        "name": "Ferrovia Torino-Genova",
+        "operator": "Rete Ferroviaria Italiana",
+        "operator:short": "RFI",
+        "operator:wikidata": "Q1060049",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "railway:scmt": "yes",
+        "usage": "main",
+        "voltage": "3000",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 502868921,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Cascine",
+        "surface": "asphalt",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 502868922,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Cascine",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 510841145,
+      "tags": {
+        "highway": "motorway_link",
+        "name": "A7 - Svincolo Ronco Scrivia",
+        "oneway": "no",
+        "operator": "Autostrade per l'Italia S.p.A.",
+        "surface": "asphalt",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 617513922,
+      "tags": {
+        "bridge": "yes",
+        "highway": "motorway",
+        "int_ref": "E 62",
+        "lanes": "2",
+        "layer": "1",
+        "lit": "no",
+        "maxspeed": "80",
+        "name": "Autostrada dei Giovi - Serravalle",
+        "oneway": "yes",
+        "operator": "Autostrade per l'Italia S.p.A.",
+        "ref": "A7",
+        "surface": "asphalt",
+        "toll": "yes",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 617513923,
+      "tags": {
+        "highway": "motorway",
+        "int_ref": "E 62",
+        "lanes": "2",
+        "lit": "no",
+        "maxspeed": "80",
+        "name": "A7 dir. Genova - Ronco Scrivia/Busalla",
+        "oneway": "yes",
+        "operator": "Autostrade per l'Italia S.p.A.",
+        "ref": "A7",
+        "surface": "asphalt",
+        "toll": "yes",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 617513924,
+      "tags": {
+        "highway": "motorway",
+        "int_ref": "E 62",
+        "lanes": "2",
+        "lit": "no",
+        "maxspeed": "110",
+        "name": "A7 dir. Milano - Busalla/Ronco Scrivia",
+        "oneway": "yes",
+        "operator": "Autostrade per l'Italia S.p.A.",
+        "surface": "asphalt",
+        "toll": "yes",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 617513925,
+      "tags": {
+        "bridge": "yes",
+        "highway": "motorway",
+        "int_ref": "E 62",
+        "lanes": "2",
+        "layer": "1",
+        "lit": "no",
+        "maxspeed": "110",
+        "name": "Autostrada dei Giovi - Serravalle",
+        "oneway": "yes",
+        "operator": "Autostrade per l'Italia S.p.A.",
+        "ref": "A7",
+        "surface": "asphalt",
+        "toll": "yes",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 723074060,
+      "tags": {
+        "bin": "yes",
+        "caravans": "no",
+        "drinking_water": "yes",
+        "highway": "services",
+        "name": "Area di Giovi ovest",
+        "opening_hours": "24/7",
+        "picnic_table": "yes",
+        "toilets": "yes",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 723074062,
+      "tags": {
+        "bin": "yes",
+        "caravans": "no",
+        "drinking_water": "yes",
+        "highway": "services",
+        "name": "Area di Giovi est",
+        "opening_hours": "24/7",
+        "picnic_table": "no",
+        "toilets": "yes",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 759362446,
+      "tags": {
+        "electrified": "contact_line",
+        "frequency": "0",
+        "gauge": "1435",
+        "maxspeed": "90",
+        "name": "Ferrovia Torino-Genova",
+        "operator": "Rete Ferroviaria Italiana",
+        "operator:short": "RFI",
+        "operator:wikidata": "Q1060049",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "railway:scmt": "yes",
+        "usage": "main",
+        "voltage": "3000",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 759362447,
+      "tags": {
+        "electrified": "contact_line",
+        "frequency": "0",
+        "gauge": "1435",
+        "maxspeed": "90",
+        "name": "Ferrovia Torino-Genova",
+        "operator": "Rete Ferroviaria Italiana",
+        "operator:short": "RFI",
+        "operator:wikidata": "Q1060049",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "railway:scmt": "yes",
+        "usage": "main",
+        "voltage": "3000",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 766027382,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via al Ponte Nuovo",
+        "oneway": "yes",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 766027383,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via al Ponte Nuovo",
+        "oneway": "yes",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 766027384,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via al Ponte Nuovo",
+        "oneway": "yes",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 886192923,
+      "tags": {
+        "name": "Rio Malo Passo",
+        "waterway": "stream",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 886192924,
+      "tags": {
+        "name": "Rio della Barchetta",
+        "waterway": "stream",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 886192926,
+      "tags": {
+        "name": "Rio Ladde",
+        "waterway": "stream",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1016078557,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Largo Vittorio Repetto",
+        "oneway": "no",
+        "surface": "asphalt",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1016078559,
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Via Roma",
+        "oneway": "no",
+        "surface": "asphalt",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1016078560,
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Via Roma",
+        "oneway": "no",
+        "surface": "asphalt",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1018786549,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "roman_catholic",
+        "name": "Chiesa di San Martino",
+        "religion": "christian",
+        "wikidata": "Q3671070",
+        "wikipedia": "it:Chiesa di San Martino (Ronco Scrivia)",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1020357920,
+      "tags": {
+        "electrified": "contact_line",
+        "frequency": "0",
+        "gauge": "1435",
+        "layer": "-1",
+        "maxspeed": "60",
+        "name": "Galleria Ronco",
+        "operator": "Rete Ferroviaria Italiana",
+        "operator:short": "RFI",
+        "operator:wikidata": "Q1060049",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "railway:scmt": "yes",
+        "tunnel": "yes",
+        "usage": "main",
+        "voltage": "3000",
+        "wikidata": "Q18288348",
+        "wikipedia": "it:Galleria Ronco Scrivia",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1020357921,
+      "tags": {
+        "electrified": "contact_line",
+        "frequency": "0",
+        "gauge": "1435",
+        "layer": "-1",
+        "maxspeed": "60",
+        "name": "Galleria Ronco",
+        "operator": "Rete Ferroviaria Italiana",
+        "operator:short": "RFI",
+        "operator:wikidata": "Q1060049",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "railway:scmt": "yes",
+        "tunnel": "yes",
+        "usage": "main",
+        "voltage": "3000",
+        "wikidata": "Q18288348",
+        "wikipedia": "it:Galleria Ronco Scrivia",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1020357922,
+      "tags": {
+        "electrified": "contact_line",
+        "frequency": "0",
+        "gauge": "1435",
+        "layer": "-1",
+        "maxspeed": "120",
+        "name": "Ferrovia succursale dei Giovi",
+        "operator": "Rete Ferroviaria Italiana",
+        "operator:short": "RFI",
+        "operator:wikidata": "Q1060049",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "railway:scmt": "yes",
+        "tunnel": "yes",
+        "tunnel:name": "Galleria Ronco",
+        "usage": "main",
+        "voltage": "3000",
+        "wikidata": "Q18288348",
+        "wikipedia": "it:Galleria Ronco Scrivia",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1020357923,
+      "tags": {
+        "electrified": "contact_line",
+        "frequency": "0",
+        "gauge": "1435",
+        "layer": "-1",
+        "maxspeed": "60",
+        "name": "Galleria Giacoboni",
+        "operator": "Rete Ferroviaria Italiana",
+        "operator:short": "RFI",
+        "operator:wikidata": "Q1060049",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "railway:scmt": "yes",
+        "tunnel": "yes",
+        "usage": "main",
+        "voltage": "3000",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1020357924,
+      "tags": {
+        "electrified": "contact_line",
+        "frequency": "0",
+        "gauge": "1435",
+        "layer": "-1",
+        "maxspeed": "60",
+        "name": "Galleria Giacoboni",
+        "operator": "Rete Ferroviaria Italiana",
+        "operator:short": "RFI",
+        "operator:wikidata": "Q1060049",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "railway:scmt": "yes",
+        "tunnel": "yes",
+        "usage": "main",
+        "voltage": "3000",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1092449268,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Strada provinciale 53 della Bastia",
+        "oneway": "no",
+        "ref": "SP53",
+        "surface": "asphalt",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1092449270,
+      "tags": {
+        "highway": "tertiary",
+        "maxspeed": "50",
+        "name": "Strada Pietrafraccia",
+        "oneway": "no",
+        "surface": "asphalt",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1092449274,
+      "tags": {
+        "building": "yes",
+        "name": "Palestra Comunale",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1092457494,
+      "tags": {
+        "amenity": "recycling",
+        "name": "Centro di raccolta",
+        "recycling_type": "centre",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1092457495,
+      "tags": {
+        "landuse": "industrial",
+        "name": "OMP",
+        "website": "https://racingforce.com/it/",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1092462137,
+      "tags": {
+        "bridge": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "50",
+        "name": "Via Roma",
+        "oneway": "no",
+        "surface": "asphalt",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1092462138,
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Via Roma",
+        "oneway": "no",
+        "surface": "asphalt",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1122855497,
+      "tags": {
+        "name": "Rio Corto",
+        "waterway": "stream",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1122855498,
+      "tags": {
+        "name": "Rio Corto",
+        "waterway": "stream",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1122855499,
+      "tags": {
+        "name": "Rio Corto",
+        "waterway": "stream",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1122855500,
+      "tags": {
+        "layer": "-1",
+        "name": "Rio Corto",
+        "tunnel": "culvert",
+        "waterway": "stream",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1122855501,
+      "tags": {
+        "highway": "residential",
+        "name": "via Padre Francesco Borghero",
+        "surface": "asphalt",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1122855502,
+      "tags": {
+        "highway": "residential",
+        "name": "via Padre Francesco Borghero",
+        "oneway": "no",
+        "surface": "asphalt",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1122855505,
+      "tags": {
+        "highway": "residential",
+        "name": "Via Padre Francesco Borghero",
+        "oneway": "no",
+        "surface": "asphalt",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1122855506,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Postumia",
+        "oneway": "yes",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1122922903,
+      "tags": {
+        "highway": "service",
+        "lanes": "1",
+        "name": "Via Lorenzo Murtola",
+        "service": "alley",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1126714527,
+      "tags": {
+        "highway": "service",
+        "lanes": "1",
+        "name": "Via Lorenzo Murtola",
+        "service": "alley",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1126714528,
+      "tags": {
+        "highway": "service",
+        "lanes": "1",
+        "name": "Via Lorenzo Murtola",
+        "service": "alley",
+        "tunnel": "building_passage",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1174889183,
+      "tags": {
+        "highway": "residential",
+        "name": "Via Renato Quartini",
+        "oneway": "yes",
+        "short_name": "Via Quartini",
+        "surface": "asphalt",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1174889184,
+      "tags": {
+        "alt_name": "Via XXV Aprile",
+        "highway": "residential",
+        "name": "Via Venticinque Aprile",
+        "oneway": "yes",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1174889957,
+      "tags": {
+        "highway": "service",
+        "name": "Via Libarna",
+        "service": "alley",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1174889958,
+      "tags": {
+        "highway": "service",
+        "name": "Via Castello",
+        "service": "alley",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1174890637,
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "90",
+        "name": "Strada statale 35 dei Giovi",
+        "oneway": "no",
+        "ref": "SS35",
+        "surface": "asphalt",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1174890638,
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Corso Cesare Battisti",
+        "oneway": "no",
+        "surface": "asphalt",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1209497702,
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Via Roma",
+        "oneway": "no",
+        "surface": "asphalt",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1210146511,
+      "tags": {
+        "highway": "tertiary",
+        "maxspeed": "50",
+        "name": "Strada Pietrafraccia",
+        "oneway": "no",
+        "surface": "asphalt",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1210146512,
+      "tags": {
+        "highway": "tertiary",
+        "layer": "-1",
+        "maxspeed": "50",
+        "name": "Strada Pietrafraccia",
+        "oneway": "no",
+        "surface": "asphalt",
+        "tunnel": "yes",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1210866566,
+      "tags": {
+        "bridge": "yes",
+        "highway": "motorway",
+        "int_ref": "E 62",
+        "lanes": "2",
+        "layer": "1",
+        "lit": "no",
+        "maxspeed": "110",
+        "name": "A7 dir. Milano - Ronco Scrivia/Isola del Cantone",
+        "oneway": "yes",
+        "operator": "Autostrade per l'Italia S.p.A.",
+        "ref": "A7",
+        "surface": "asphalt",
+        "toll": "yes",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1210866567,
+      "tags": {
+        "bridge": "yes",
+        "highway": "motorway",
+        "int_ref": "E 62",
+        "lanes": "2",
+        "layer": "1",
+        "lit": "no",
+        "maxspeed": "110",
+        "name": "Autostrada dei Giovi - Serravalle",
+        "oneway": "yes",
+        "operator": "Autostrade per l'Italia S.p.A.",
+        "ref": "A7",
+        "surface": "asphalt",
+        "toll": "yes",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1210866571,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Via della Ferriera",
+        "oneway": "no",
+        "surface": "asphalt",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1211081681,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Milite Ignoto",
+        "oneway": "no",
+        "surface": "asphalt",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1211081682,
+      "tags": {
+        "highway": "unclassified",
+        "layer": "-1",
+        "name": "Via Milite Ignoto",
+        "oneway": "no",
+        "surface": "asphalt",
+        "tunnel": "yes",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1211081684,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Santa Benedetta Cambiaggio",
+        "width": "3",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1211081687,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Cascine",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1211081688,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Cascine",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1214414271,
+      "tags": {
+        "highway": "service",
+        "name": "Via Filippo Corridoni",
+        "oneway": "no",
+        "service": "alley",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1214414272,
+      "tags": {
+        "highway": "service",
+        "name": "Via Giuseppe Verdi",
+        "oneway": "no",
+        "service": "alley",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1214414273,
+      "tags": {
+        "highway": "service",
+        "name": "Via Antonio Volpara",
+        "oneway": "no",
+        "service": "alley",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1214414831,
+      "tags": {
+        "highway": "service",
+        "name": "Via Oneo",
+        "oneway": "no",
+        "service": "alley",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1225992310,
+      "tags": {
+        "alt_name": "Piazza Marconi",
+        "highway": "unclassified",
+        "name": "Piazza Guglielmo Marconi",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1228349644,
+      "tags": {
+        "building": "yes",
+        "name": "Ex sottostazione elettrica",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1279316775,
+      "tags": {
+        "amenity": "parking",
+        "name": "Piazza Casa Gatti",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1279316776,
+      "tags": {
+        "highway": "service",
+        "name": "Piazza Casa Gatti",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1283585888,
+      "tags": {
+        "highway": "motorway",
+        "int_ref": "E 62",
+        "lanes": "3",
+        "lit": "no",
+        "maxspeed": "110",
+        "name": "A7 dir. Milano - Busalla/Ronco Scrivia",
+        "oneway": "yes",
+        "operator": "Autostrade per l'Italia S.p.A.",
+        "ref": "A7",
+        "surface": "asphalt",
+        "toll": "yes",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1283585889,
+      "tags": {
+        "highway": "motorway",
+        "int_ref": "E 62",
+        "lanes": "2",
+        "lit": "no",
+        "maxspeed": "110",
+        "name": "A7 dir. Milano - Busalla/Ronco Scrivia",
+        "oneway": "yes",
+        "operator": "Autostrade per l'Italia S.p.A.",
+        "ref": "A7",
+        "surface": "asphalt",
+        "toll": "yes",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1300940197,
+      "tags": {
+        "leisure": "sports_centre",
+        "name": "Zona sportiva Sandro Pertini",
+        "sport": "soccer;swimming",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1309114208,
+      "tags": {
+        "highway": "service",
+        "name": "Via Postumia",
+        "service": "alley",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1309456822,
+      "tags": {
+        "highway": "service",
+        "name": "Piazza Giovanni Falcone Paolo Borsellino e gli Agenti della Scorta",
+        "service": "parking_aisle",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1309482741,
+      "tags": {
+        "bridge": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "50",
+        "name": "Via Roma",
+        "oneway": "no",
+        "surface": "asphalt",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1364703955,
+      "tags": {
+        "highway": "unclassified",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Via alla Zona Sportiva",
+        "oneway": "no",
+        "surface": "asphalt",
+        "tunnel": "yes",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1364703956,
+      "tags": {
+        "highway": "unclassified",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Via alla Zona Sportiva",
+        "oneway": "no",
+        "surface": "asphalt",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1391307918,
+      "tags": {
+        "highway": "motorway",
+        "int_ref": "E 62",
+        "lanes": "2",
+        "lit": "no",
+        "maxspeed": "110",
+        "name": "Autostrada dei Giovi - Serravalle",
+        "oneway": "yes",
+        "operator": "Autostrade per l'Italia S.p.A.",
+        "ref": "A7",
+        "surface": "asphalt",
+        "toll": "yes",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1391307919,
+      "tags": {
+        "highway": "motorway",
+        "int_ref": "E 62",
+        "lanes": "2",
+        "lit": "no",
+        "maxspeed": "80",
+        "name": "A7 dir. Genova - Isola del Cantone/Ronco Scrivia",
+        "oneway": "yes",
+        "operator": "Autostrade per l'Italia S.p.A.",
+        "ref": "A7",
+        "surface": "asphalt",
+        "toll": "yes",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1474193335,
+      "tags": {
+        "industrial": "scrap_yard",
+        "landuse": "industrial",
+        "name": "Mirabelli Rottami Materiali Ferrosi",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1474247798,
+      "tags": {
+        "layer": "-1",
+        "name": "Torrente Scrivia",
+        "note": "semplificato",
+        "source": "Yahoo satellite",
+        "waterway": "river",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1474247799,
+      "tags": {
+        "name": "Torrente Scrivia",
+        "note": "semplificato",
+        "source": "Yahoo satellite",
+        "waterway": "river",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 43319,
+      "tags": {
+        "addr:postcode": "16012",
+        "admin_level": "8",
+        "boundary": "administrative",
+        "name": "Busalla",
+        "name:ru": "Бузалла",
+        "population": "5166",
+        "population:date": "2026-08-28",
+        "ref:catasto": "B282",
+        "ref:ISTAT": "010006",
+        "source:population": "ANPR 2026",
+        "type": "boundary",
+        "wikidata": "Q265551",
+        "wikipedia": "it:Busalla",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 43386,
+      "tags": {
+        "admin_level": "8",
+        "boundary": "administrative",
+        "name": "Ronco Scrivia",
+        "name:ru": "Ронко-Скривия",
+        "population": "4261",
+        "population:date": "2026-08-28",
+        "ref:catasto": "H536",
+        "ref:ISTAT": "010049",
+        "source:population": "ANPR 2026",
+        "type": "boundary",
+        "wikidata": "Q265626",
+        "wikipedia": "it:Ronco Scrivia",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 373883,
+      "tags": {
+        "name": "Autostrada dei Giovi - Serravalle",
+        "network": "IT:A-road",
+        "operator": "Milano Serravalle - Autostrade per l'Italia",
+        "ref": "A7",
+        "route": "road",
+        "type": "route",
+        "wikidata": "Q430025",
+        "wikipedia": "it:Autostrada A7 (Italia)",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 2233730,
+      "tags": {
+        "destination": "Po",
+        "name": "Scrivia",
+        "type": "waterway",
+        "waterway": "river",
+        "wikidata": "Q646601",
+        "wikipedia": "it:Scrivia",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 2439356,
+      "tags": {
+        "name": "Strada provinciale 53 della Bastia",
+        "ref": "SP53",
+        "route": "road",
+        "type": "route",
+        "wikidata": "Q123687997",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 2689415,
+      "tags": {
+        "boundary": "protected_area",
+        "hunting": "no",
+        "leisure": "nature_reserve",
+        "name": "Parco naturale regionale dell'Antola",
+        "name:de": "Regionaler Naturpark Antola",
+        "name:it": "Parco naturale regionale dell'Antola",
+        "protect_class": "2",
+        "protection_code": "EUAP0965",
+        "protection_title": "Area Protetta Regionale",
+        "site_zone": "2.0",
+        "source": "Dai dati realizzati da Regione Liguria \"Aree Protette e relativi piani\" Anno 01/10/2012 scala 1:25000",
+        "type": "boundary",
+        "wikidata": "Q182860",
+        "wikipedia": "it:Parco naturale regionale dell'Antola",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 2689417,
+      "tags": {
+        "boundary": "protected_area",
+        "hunting": "yes",
+        "name": "Antola",
+        "protect_class": "2",
+        "protection_code": "EUAP0965",
+        "protection_title": "Area Protetta Regionale",
+        "site_zone": "7.0",
+        "source": "Dai dati realizzati da Regione Liguria \"Aree Protette e relativi piani\" Anno 01/10/2012 scala 1:25000",
+        "type": "boundary",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 3529513,
+      "tags": {
+        "distance": "1270",
+        "from": "Nantes",
+        "name": "European route E62",
+        "name:en": "European route E62",
+        "name:fr": "Route européenne E62",
+        "name:it": "Strada europea E62",
+        "name:nl": "Europese route E62",
+        "name:sk": "Európska cesta E62",
+        "network": "e-road",
+        "operator": "United Nations Economic Commission for Europe",
+        "operator:short": "UNECE",
+        "operator:type": "public",
+        "operator:wikidata": "Q659012",
+        "ref": "E 62",
+        "route": "road",
+        "to": "Genova",
+        "type": "superroute",
+        "wikidata": "Q665254",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 3747417,
+      "tags": {
+        "cai_scale": "E",
+        "name": "Ronco Scrivia - Monte Reale",
+        "network": "lwn",
+        "note:project_page": "http://wiki.openstreetmap.org/wiki/Liguria/Sentieri",
+        "osmc:symbol": "red:green::△△:yellow",
+        "ref": "506",
+        "ref:REI": "GGEA5060",
+        "reg_ref": "GGEA50615PE",
+        "route": "hiking",
+        "rwn:name": "Rete Escursionistica Ligure (REL)",
+        "source": "Regione Liguria;survey:CAI",
+        "symbol:it": "due triangoli gialli vuoti",
+        "type": "route",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 3790549,
+      "tags": {
+        "cai_scale": "EEA",
+        "name": "Ronco - Minceto - Reopasso",
+        "network": "lwn",
+        "osmc:symbol": "red:green::XX:yellow",
+        "ref:FIE": "07GES02",
+        "route": "hiking",
+        "source": "Federazione Italiana Escursionismo",
+        "symbol:it": "due X gialle",
+        "type": "route",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 6088003,
+      "tags": {
+        "from": "Genua, Piazza della Vittoria",
+        "name": "Flixbus 481: Genua, Piazza della Vittoria => Venezia, Tronchetto",
+        "name:de": "Flixbus 481: Genua, Piazza della Vittoria => Venedig, Tronchetto",
+        "name:it": "Flixbus 481: Genova, Piazza della Vittoria => Venezia, Tronchetto",
+        "network": "Flixbus",
+        "network:website": "https://www.flixbus.it/",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "note": "Linie wurde eingestellt",
+        "note:en": "Not available anymore",
+        "operator": "Flixbus",
+        "public_transport:version": "2",
+        "ref": "481",
+        "route": "bus",
+        "to": "Venezia, Tronchetto",
+        "type": "route",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 6148186,
+      "tags": {
+        "name": "Ronco Scrivia",
+        "operator": "Rete Ferroviaria Italiana",
+        "operator:short": "RFI",
+        "operator:wikidata": "Q1060049",
+        "public_transport": "stop_area",
+        "type": "public_transport",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 6387586,
+      "tags": {
+        "from": "Bolzano",
+        "name": "Flixbus 494: Bolzano => Cannes, Le Cannet",
+        "name:de": "Flixbus 494: Bozen => Cannes, Le Cannet",
+        "name:fr": "Flixbus 494: Bolzano => Cannes, Le Cannet",
+        "name:it": "Flixbus 494: Bolzano => Cannes, Le Cannet",
+        "network": "Flixbus",
+        "network:website": "https://global.flixbus.com/",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "operator": "Flixbus",
+        "public_transport:version": "2",
+        "ref": "494",
+        "route": "bus",
+        "to": "Cannes, Le Cannet",
+        "type": "route",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 7413655,
+      "tags": {
+        "name": "Strada statale 35 dei Giovi",
+        "network": "IT:ANAS",
+        "ref": "SS35",
+        "route": "road",
+        "type": "route",
+        "wikidata": "Q3975033",
+        "wikipedia": "it:Strada statale 35 dei Giovi",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 7699364,
+      "tags": {
+        "name": "Ferrovia succursale dei Giovi",
+        "name:de": "Bahnstrecke Tortona-Genua",
+        "operator": "Rete Ferroviaria Italiana",
+        "operator:short": "RFI",
+        "operator:wikidata": "Q1060049",
+        "route": "railway",
+        "type": "route",
+        "wikidata": "Q3743728",
+        "wikipedia": "it:Ferrovia succursale dei Giovi",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 7699365,
+      "tags": {
+        "from": "Torino",
+        "name": "Linea Torino-Genova",
+        "operator": "Rete Ferroviaria Italiana",
+        "operator:short": "RFI",
+        "operator:wikidata": "Q1060049",
+        "public_transport:version": "2",
+        "route": "railway",
+        "to": "Genova",
+        "type": "route",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 9039031,
+      "tags": {
+        "from": "Venezia, Tronchetto",
+        "name": "Flixbus 481: Venezia, Tronchetto => Genua, Piazza della Vittoria",
+        "name:de": "Flixbus 481: Venedig, Tronchetto => Genua, Piazza della Vittoria",
+        "name:it": "Flixbus 481: Venezia, Tronchetto => Genua, Piazza della Vittoria",
+        "network": "Flixbus",
+        "network:website": "https://www.flixbus.it/",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "note": "Linie wurde eingestellt",
+        "note:en": "Not available anymore",
+        "operator": "Flixbus",
+        "public_transport:version": "2",
+        "ref": "481",
+        "route": "bus",
+        "to": "Genua, Piazza della Vittoria",
+        "type": "route",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 9039038,
+      "tags": {
+        "from": "Genua, Piazza della Vittoria",
+        "name": "Flixbus 481: Genua <=> Venezia",
+        "name:de": "Flixbus 481: Genua <=> Venedig",
+        "name:it": "Flixbus 481: Genua <=> Venezia",
+        "network": "Flixbus",
+        "network:website": "https://www.flixbus.it/",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "note": "Linie wurde eingestellt",
+        "note:en": "Not available anymore",
+        "operator": "Flixbus",
+        "ref": "481",
+        "route_master": "bus",
+        "to": "Venezia, Tronchetto",
+        "type": "route_master",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 9214646,
+      "tags": {
+        "from": "Cannes, Le Cannet",
+        "name": "Flixbus 494: Cannes, Le Cannet => Bolzano",
+        "name:de": "Flixbus 494: Cannes, Le Cannet => Bozen",
+        "name:fr": "Flixbus 494: Cannes, Le Cannet => Bolzano",
+        "name:it": "Flixbus 494: Cannes, Le Cannet => Bolzano",
+        "network": "Flixbus",
+        "network:website": "https://global.flixbus.com/",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "operator": "Flixbus",
+        "public_transport:version": "2",
+        "ref": "494",
+        "route": "bus",
+        "to": "Bolzano",
+        "type": "route",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 9214647,
+      "tags": {
+        "from": "Bolzano",
+        "name": "Flixbus 494: Bolzano => Cannes und zurück",
+        "name:de": "Flixbus 494: Bozen => Cannes und zurück",
+        "name:fr": "Flixbus 494: Bolzano => Cannes et retour",
+        "name:it": "Flixbus 494: Bolzano => Cannes e ritorno",
+        "network": "Flixbus",
+        "network:website": "https://global.flixbus.com/",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "operator": "Flixbus",
+        "ref": "494",
+        "route_master": "bus",
+        "to": "Cannes, Le Cannet",
+        "type": "route_master",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 9214772,
+      "tags": {
+        "from": "Bolzano",
+        "name": "Flixbus 408: Bolzano => Genova, Fanti d'Italia/Principe",
+        "name:de": "Flixbus 408: Bozen => Genua, Fanti d'Italia/Principe",
+        "name:it": "Flixbus 408: Bolzano => Genova, Fanti d'Italia/Principe",
+        "network": "Flixbus",
+        "network:website": "https://www.flixbus.it/",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "operator": "Morandi Tour",
+        "public_transport:version": "2",
+        "ref": "408",
+        "route": "bus",
+        "to": "Genova, Fanti d'Italia/Principe",
+        "type": "route",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 9214827,
+      "tags": {
+        "from": "Genova, Fanti d'Italia/Principe",
+        "name": "Flixbus 408: Genova, Fanti d'Italia/Principe => Bolzano",
+        "name:de": "Flixbus 408: Genua, Fanti d'Italia/Principe => Bozen",
+        "name:it": "Flixbus 408: Genova, Fanti d'Italia/Principe => Bolzano",
+        "network": "Flixbus",
+        "network:website": "https://www.flixbus.it/",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "operator": "Morandi Tour",
+        "public_transport:version": "2",
+        "ref": "408",
+        "route": "bus",
+        "to": "Bolzano",
+        "type": "route",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 9214828,
+      "tags": {
+        "from": "Bolzano",
+        "name": "Flixbus 408: Bolzano <=> Genova",
+        "name:de": "Flixbus 408: Bozen <=> Genua",
+        "name:it": "Flixbus 408: Bolzano <=> Genova",
+        "network": "Flixbus",
+        "network:website": "https://www.flixbus.it/",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "operator": "Morandi Tour",
+        "ref": "408",
+        "route_master": "bus",
+        "to": "Genua, Fanti d'Italia/Principe",
+        "type": "route_master",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 9369542,
+      "tags": {
+        "from": "Nice, Aéroport Terminal 2",
+        "name": "Flixbus N507: Nice, Aéroport Terminal 2 => Stuttgart Airport Busterminal (SAB)",
+        "name:fr": "Flixbus N507: Nice, Aéroport Terminal 2 => Terminal de bus de l'aéroport de Stuttgart (SAB)",
+        "name:it": "Flixbus N507: Nizza, Aeroporto Terminal 2 => terminal degli autobus per l'aeroporto di Stoccarda (SAB)",
+        "network": "Flixbus",
+        "network:website": "https://global.flixbus.com/",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "note": "Tübingen: Detour via 'Hegelstraße' because of construction on 'Friedrichstraße'.",
+        "note:de": "Buslinie wurde eingestellt",
+        "note:en": "Not available anymore",
+        "operator": "Dibiasi Bus",
+        "public_transport:version": "2",
+        "ref": "N507",
+        "route": "bus",
+        "to": "Stuttgart Airport Busterminal (SAB)",
+        "type": "route",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 9369543,
+      "tags": {
+        "disused": "yes",
+        "from": "Stuttgart Airport Busterminal (SAB)",
+        "name": "Flixbus N507: Stuttgart Airport Busterminal (SAB) → Nice, Aéroport Terminal 2",
+        "name:de": "Flixbus N507: Stuttgart Airport Busterminal (SAB) => Nizza, Flughafen Terminal 2",
+        "name:fr": "Flixbus N507: Terminal de bus de l'aéroport de Stuttgart (SAB) => Nice, Aéroport Terminal 2",
+        "name:it": "Flixbus N507: terminal degli autobus per l'aeroporto di Stoccarda (SAB) => Nizza, Aeroporto Terminal 2",
+        "network": "Flixbus",
+        "network:website": "https://global.flixbus.com/",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "note": "Tübingen: Detour via 'Hegelstraße' because of construction on 'Friedrichstraße'.",
+        "note:de": "Buslinie wurde eingestellt",
+        "note:en": "Not available anymore",
+        "operator": "Dibiasi Bus",
+        "public_transport:version": "2",
+        "ref": "N507",
+        "route_master": "bus",
+        "to": "Nice, Aéroport Terminal 2",
+        "type": "route_master",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 9369548,
+      "tags": {
+        "from": "Stuttgart Airport Busterminal (SAB)",
+        "name": "Flixbus N507: Stuttgart <=> Nice",
+        "name:de": "Flixbus N507: Stuttgart <=> Nizza",
+        "name:fr": "Flixbus N507: Stuttgart <=> Nice",
+        "name:it": "Flixbus N507: Stoccarda <=> Nizza",
+        "network": "Flixbus",
+        "network:website": "https://global.flixbus.com/",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "note": "Linie wurde eingestellt",
+        "note:en": "Not available anymore",
+        "operator": "Dibiasi Bus",
+        "ref": "N507",
+        "route_master": "bus",
+        "to": "Nice, Aéroport Terminal 2",
+        "type": "route_master",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 9381490,
+      "tags": {
+        "from": "Marseille, Gare Saint-Charles",
+        "name": "Flixbus 798: Marseille, Gare Saint-Charles => Milano, Lampugnano",
+        "name:de": "Flixbus 798: Marseille, Bahnhof Saint-Charles => Mailand, Lampugnano",
+        "name:fr": "Flixbus 798: Marseille, Gare Saint-Charles => Milan, Lampugnano",
+        "name:it": "Flixbus 798: Marsiglia, Stazione San Carlo => Milano, Lampugnano",
+        "network": "Flixbus",
+        "network:website": "https://global.flixbus.com/",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "operator": "Flixbus",
+        "public_transport:version": "2",
+        "ref": "798",
+        "route": "bus",
+        "to": "Milano, Lampugnano",
+        "type": "route",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 9381491,
+      "tags": {
+        "from": "Milano, Lampugnano",
+        "name": "Flixbus 798: Milano, Lampugnano => Marseille, Gare Saint-Charles",
+        "name:de": "Flixbus 798: Mailand, Lampugnano => Marseille, Bahnhof Saint-Charles",
+        "name:fr": "Flixbus 798: Milan, Lampugnano => Marseille, Gare Saint-Charles",
+        "name:it": "Flixbus 798: Milano, Lampugnano => Marsiglia, Stazione San Carlo",
+        "network": "Flixbus",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "operator": "Flixbus",
+        "public_transport:version": "2",
+        "ref": "798",
+        "route": "bus",
+        "to": "Marseille, Gare Saint-Charles",
+        "type": "route",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 9381492,
+      "tags": {
+        "from": "Milano, Lampugnano",
+        "name": "Flixbus 798: Milano <=> Marseille",
+        "name:de": "Flixbus 798: Mailand <=> Marseille",
+        "name:fr": "Flixbus 798: Milan <=> Marseille",
+        "name:it": "Flixbus 798: Milano <=> Marsiglia",
+        "network": "Flixbus",
+        "network:website": "https://global.flixbus.com/",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "operator": "Flixbus",
+        "ref": "798",
+        "route_master": "bus",
+        "to": "Marseille, Gare Saint-Charles",
+        "type": "route_master",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 9716793,
+      "tags": {
+        "from": "Cannes, Le Cannet",
+        "name": "Flixbus 492: Cannes, Le Cannet => München, ZOB",
+        "name:de": "Flixbus 492: Cannes, Le Cannet => München, ZOB",
+        "name:fr": "Flixbus 492: Cannes, Le Cannet => Munich, gare routière centrale",
+        "name:it": "Flixbus 492: Cannes, Le Cannet => Monaco di Baviera, Autostazione centrale",
+        "network": "Flixbus",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "operator": "Gruppo STAT Turismo",
+        "public_transport:version": "2",
+        "ref": "492",
+        "route": "bus",
+        "to": "München, ZOB",
+        "type": "route",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 9716794,
+      "tags": {
+        "description": "Start, end, and stop locations have not been verified. This route may be out of service long-term and may not match the actual route (2026)",
+        "from": "München, ZOB",
+        "name": "Flixbus 492: München, ZOB => Cannes, Le Cannet",
+        "name:de": "Flixbus 492: München, ZOB => Cannes, Le Cannet",
+        "name:fr": "Flixbus 492: Munich, gare routière centrale => Cannes, Le Cannet",
+        "name:it": "Flixbus 492: Monaco di Baviera, Autostazione centrale => Cannes, Le Cannet",
+        "network": "Flixbus",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "operator": "Gruppo STAT Turismo",
+        "public_transport:version": "2",
+        "ref": "492",
+        "route": "bus",
+        "to": "Cannes, Le Cannet",
+        "type": "route",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 9716795,
+      "tags": {
+        "from": "München ZOB",
+        "name": "Flixbus 492: München <=> Cannes",
+        "name:de": "Flixbus 492: München <=> Cannes",
+        "name:fr": "Flixbus 492: Munich <=> Cannes",
+        "name:it": "Flixbus 492: Monaco di Baviera <=> Cannes",
+        "network": "Flixbus",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "operator": "Gruppo STAT Turismo",
+        "ref": "492",
+        "route_master": "bus",
+        "to": "Cannes, Le Cannet",
+        "type": "route_master",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 9716909,
+      "tags": {
+        "from": "Bolzano",
+        "name": "Flixbus N494: Bolzano => Cannes, Le Cannet",
+        "name:de": "Flixbus N494: Bozen => Cannes, Le Cannet",
+        "name:fr": "Flixbus N494: Bolzano => Cannes, Le Cannet",
+        "name:it": "Flixbus N494: Bolzano => Cannes, Le Cannet",
+        "network": "Flixbus",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "operator": "Flixbus",
+        "public_transport:version": "2",
+        "ref": "N494",
+        "route": "bus",
+        "to": "Cannes, Le Cannet",
+        "type": "route",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 9716910,
+      "tags": {
+        "from": "Cannes, Le Cannet",
+        "name": "Flixbus N494: Cannes, Le Cannet => Bolzano",
+        "name:de": "Flixbus N494: Cannes, Le Cannet => Bozen",
+        "name:fr": "Flixbus N494: Cannes, Le Cannet => Bolzano",
+        "name:it": "Flixbus N494: Cannes, Le Cannet => Bolzano",
+        "network": "Flixbus",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "operator": "Flixbus",
+        "public_transport:version": "2",
+        "ref": "N494",
+        "route": "bus",
+        "to": "Bolzano",
+        "type": "route",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 9716911,
+      "tags": {
+        "from": "Bolzano",
+        "name": "Flixbus N494: Bolzano => Cannes",
+        "name:de": "Flixbus N494: Bozen => Cannes",
+        "name:fr": "Flixbus N494: Bolzano => Cannes",
+        "name:it": "Flixbus N494: Bolzano => Cannes",
+        "network": "Flixbus",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "operator": "Flixbus",
+        "ref": "N494",
+        "route_master": "bus",
+        "to": "Cannes, Le Cannet",
+        "type": "route_master",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 9850347,
+      "tags": {
+        "from": "Barcelona Nord, Estació d'autobusos",
+        "name": "Flixbus N728: Barcelona Nord, Estació d'autobusos => München, ZOB",
+        "name:ca": "Flixbus N728: Barcelona Nord, estació d'autobusos => Munic, estació central d'autobusos",
+        "name:de": "Flixbus N728: Barcelona Nord, Estació d'autobusos => München, ZOB",
+        "name:es": "Flixbus N728: Barcelona Nord, Estació d'autobusos => Munich, estación central de autobuses",
+        "name:fr": "Flixbus N728: Barcelona Nord, Estació d'autobusos => Munich, gare routière centrale",
+        "name:it": "Flixbus N728: Barcellona Nord, Estació d'autobusos => Monaco, stazione centrale degli autobus",
+        "network": "Flixbus",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "operator": "Gruppo STAT Turismo",
+        "public_transport:version": "2",
+        "ref": "N728",
+        "route": "bus",
+        "to": "München, ZOB",
+        "type": "route",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 9850348,
+      "tags": {
+        "from": "München, ZOB",
+        "name": "Flixbus N728: München, ZOB → Barcelona Nord, Estació d'autobusos",
+        "name:ca": "Flixbus N728: Munic, estació central d'autobusos => Barcelona Nord, estació d'autobusos",
+        "name:de": "Flixbus N728: München, ZOB => Barcelona Nord, Estació d'autobusos",
+        "name:es": "Flixbus N728: Munich, estación central de autobuses => Barcelona Nord, Estació d'autobusos",
+        "name:fr": "Flixbus N728: Munich, gare routière centrale => Barcelona Nord, Estació d'autobusos",
+        "name:it": "Flixbus N728: Monaco, stazione centrale degli autobus => Barcellona Nord, Estació d'autobusos",
+        "network": "Flixbus",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "operator": "Gruppo STAT Turismo",
+        "public_transport:version": "2",
+        "ref": "N728",
+        "route_master": "bus",
+        "to": "Barcelona Nord, Estació d'autobusos",
+        "type": "route_master",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 9850349,
+      "tags": {
+        "from": "München, ZOB",
+        "name": "Flixbus N728: Munich <=> Barcelone",
+        "name:ca": "Flixbus N728: Munich <=> Barcelona",
+        "name:de": "Flixbus N728: München <=> Barcelona",
+        "name:es": "Flixbus N728: Munich <=> Barcelona",
+        "name:fr": "Flixbus N728: Munich <=> Barcelone",
+        "name:it": "Flixbus N728: Monaco di Baviera<=> Barcellona",
+        "network": "Flixbus",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "operator": "Gruppo STAT Turismo",
+        "ref": "N728",
+        "route_master": "bus",
+        "to": "Barcelona Nord, Estació d'autobusos",
+        "type": "route_master",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 9881564,
+      "tags": {
+        "from": "Savona, Piazza, Aldo Moro",
+        "name": "Flixbus 495: Savona, Piazza, Aldo Moro => Zürich HB, Carpark Sihlquai",
+        "name:it": "Flixbus 495: Savona, Piazza, Aldo Moro => Stazione centrale di Zurigo, parcheggio Sihlquai",
+        "network": "Flixbus",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "operator": "Flixbus",
+        "public_transport:version": "2",
+        "ref": "495",
+        "route": "bus",
+        "to": "Zürich HB, Carpark Sihlquai",
+        "type": "route",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 9881565,
+      "tags": {
+        "from": "Zürich HB, Carpark Sihlquai",
+        "name": "Flixbus 495: Zürich HB, Carpark Sihlquai => Savona, Piazza Aldo Moro",
+        "name:de": "Flixbus 495: Zürich HB, Carpark Sihlquai => Savona, Piazza Aldo Moro",
+        "name:it": "Flixbus 495: stazione centrale di Zurigo, parcheggio Sihlquai => Savona, Piazza Aldo Moro",
+        "network": "Flixbus",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "operator": "Flixbus",
+        "public_transport:version": "2",
+        "ref": "495",
+        "route": "bus",
+        "to": "Savona, Piazza Aldo Moro",
+        "type": "route",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 9881566,
+      "tags": {
+        "from": "Zürich HB, Carpark Sihlquai",
+        "name": "Flixbus 495: Zürich <=> Savona",
+        "name:de": "Flixbus 495: Zürich <=> Savona",
+        "name:it": "Flixbus 495: Zurigo <=> Savona",
+        "network": "Flixbus",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "operator": "Flixbus",
+        "ref": "495",
+        "route_master": "bus",
+        "to": "Savona, Piazza Aldo Moro",
+        "type": "route_master",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 9881636,
+      "tags": {
+        "from": "Genova, Fanti d'Italia / Principe",
+        "name": "Flixbus 474: Genova, Fanti d'Italia/Principe => Lugano, Via Ciani",
+        "name:de": "Flixbus 474: Genua, Fanti d'Italia/Principe => Lugano, Via Ciani",
+        "name:en": "Flixbus 474: Genoa, Fanti d'Italia/Principe => Lugano, Via Ciani",
+        "name:it": "Flixbus 474: Genova, Fanti d'Italia/Principe => Stazione centrale di Zurigo, parcheggio Sihlquai",
+        "network": "Flixbus",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "operator": "Flixbus",
+        "public_transport:version": "2",
+        "ref": "474",
+        "route": "bus",
+        "to": "Lugano, Via Ciani",
+        "type": "route",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 9881637,
+      "tags": {
+        "from": "Lugano, Via Ciani",
+        "name": "Flixbus 474: Lugano, Via Ciani => Genova, Fanti d'Italia / Principe",
+        "name:de": "Flixbus 474: Lugano, Via Ciani => Genua, Fanti d'Italia/Principe",
+        "name:en": "Flixbus 474: Lugano, Via Ciani => Genoa, Fanti d'Italia/Principe",
+        "name:it": "Flixbus 474: Lugano, Via Ciani => Genova, Fanti d'Italia / Principe",
+        "network": "Flixbus",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "operator": "Flixbus",
+        "public_transport:version": "2",
+        "ref": "474",
+        "route": "bus",
+        "to": "Genova, Fanti d'Italia / Principe",
+        "type": "route",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 9881638,
+      "tags": {
+        "from": "Lugano, Via Ciani",
+        "name": "Flixbus 474: Lugano <=> Genova",
+        "name:de": "Flixbus 474: Lugano <=> Genua",
+        "name:it": "Flixbus 474: Lugano <=> Genova",
+        "network": "Flixbus",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "operator": "Flixbus",
+        "ref": "474",
+        "route_master": "bus",
+        "to": "Genova, Fanti d'Italia / Principe",
+        "type": "route_master",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 9907294,
+      "tags": {
+        "from": "Savona, Piazza Aldo Moro",
+        "name": "Flixbus 464: Savona, Piazza Aldo Moro => Bergamo, Orio al serio Aeroporto",
+        "network": "Flixbus",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "operator": "Flixbus",
+        "public_transport:version": "2",
+        "ref": "464",
+        "route": "bus",
+        "to": "Bergamo, Orio al serio Aeroporto",
+        "type": "route",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 9907295,
+      "tags": {
+        "from": "Bergamo, Orio al serio Aeroporto",
+        "name": "Flixbus 464: Bergamo, Orio al serio Aeroporto => Savona, Piazza Aldo Moro",
+        "network": "Flixbus",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "operator": "Flixbus",
+        "public_transport:version": "2",
+        "ref": "464",
+        "route": "bus",
+        "to": "Savona, Piazza Aldo Moro",
+        "type": "route",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 9907296,
+      "tags": {
+        "from": "Savona, Piazza, Aldo Moro",
+        "name": "Flixbus 464: Savona <=> Bergamo, Orio al serio Aeroporto",
+        "network": "Flixbus",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "operator": "Flixbus",
+        "ref": "464",
+        "route_master": "bus",
+        "to": "Bergamo, Orio al serio Aeroporto",
+        "type": "route_master",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 9917017,
+      "tags": {
+        "description": "Saisonbus von Juni bis September",
+        "description:it": "Autobus stagionale da giugno a settembre",
+        "from": "Bergamo, Autostazione",
+        "name": "Flixbus 514: Bergamo, Autostazione => Sanremo",
+        "network": "Flixbus",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "operator": "Flixbus",
+        "public_transport:version": "2",
+        "ref": "514",
+        "route": "bus",
+        "to": "Sanremo",
+        "type": "route",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 9917018,
+      "tags": {
+        "description": "Saisonbus von Juni bis September",
+        "description:it": "Autobus stagionale da giugno a settembre",
+        "from": "Sanremo",
+        "name": "Flixbus 514: Sanremo => Bergamo, Autostazione",
+        "network": "Flixbus",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "operator": "Flixbus",
+        "public_transport:version": "2",
+        "ref": "514",
+        "route": "bus",
+        "to": "Bergamo, Autostazione",
+        "type": "route",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 9917019,
+      "tags": {
+        "from": "Bergamo, Autostazione",
+        "name": "Flixbus 514: Bergamo <=> Sanremo",
+        "network": "Flixbus",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "operator": "Flixbus",
+        "ref": "514",
+        "route_master": "bus",
+        "to": "Sanremo",
+        "type": "route_master",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 9921003,
+      "tags": {
+        "description": "The start, end, and stop locations have not been verified. This route may be out of service for an extended period and may not match the actual route (2026)",
+        "from": "Savona, Piazza Aldo Moro",
+        "name": "Flixbus N404: Savona, Piazza Aldo Moro => Wien Erdberg, Busterminal VIB",
+        "name:de": "Flixbus N404: Savona, Piazza Aldo Moro => Wien Erdberg, Busterminal VIB",
+        "name:it": "Flixbus N404: Savona, Piazza Aldo Moro => Vienna Erdberg, Bus Terminal VIB",
+        "network": "Flixbus",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "operator": "Flixbus",
+        "public_transport:version": "2",
+        "ref": "N404",
+        "route": "bus",
+        "to": "Wien Erdberg, Busterminal VIB",
+        "type": "route",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 9921004,
+      "tags": {
+        "description": "The start, end, and stop locations have not been verified. This route may be out of service for an extended period and may not match the actual route (2026)",
+        "from": "Wien Erdberg, Busterminal VIB",
+        "name": "Flixbus N404: Wien Erdberg, Busterminal VIB => Savona, Piazza Aldo Moro",
+        "name:de": "Flixbus N404: Wien Erdberg, Busterminal VIB => Savona, Piazza Aldo Moro",
+        "name:it": "Flixbus N404: Vienna Erdberg, Bus Terminal VIB => Savona, Piazza Aldo Moro",
+        "network": "Flixbus",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "operator": "Flixbus",
+        "public_transport:version": "2",
+        "ref": "N404",
+        "route": "bus",
+        "to": "Savona, Piazza Aldo Moro",
+        "type": "route",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 9921005,
+      "tags": {
+        "from": "Wien Erdberg, Busterminal VIB",
+        "name": "Flixbus N404: Wien <=> Savona",
+        "name:de": "Flixbus N404: Wien <=> Savona",
+        "name:it": "Flixbus N404: Vienna <=> Savona",
+        "network": "Flixbus",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "operator": "Flixbus",
+        "ref": "N404",
+        "route_master": "bus",
+        "to": "Savona, Piazza Aldo Moro",
+        "type": "route_master",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 10041157,
+      "tags": {
+        "from": "Genua, Fanti d'Italia/Principe",
+        "name": "Flixbus N177: Genua, Fanti d'Italia/Principe => Düsseldorf ZOB",
+        "name:de": "Flixbus N177: Genua, Fanti d'Italia/Principe => Düsseldorf ZOB",
+        "name:it": "Flixbus N177:Genova, Fanti d'Italia/Principe => Düsseldorf ZOB",
+        "network": "Flixbus",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "note": "Tübingen: Detour via 'Hegelstraße' because of construction on 'Friedrichstraße'.",
+        "operator": "STAV Vigevano SPA",
+        "public_transport:version": "2",
+        "ref": "N177",
+        "route": "bus",
+        "to": "Düsseldorf ZOB",
+        "type": "route",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 10041158,
+      "tags": {
+        "from": "Düsseldorf ZOB",
+        "name": "Flixbus N177: Düsseldorf ZOB => Genua, Fanti d'Italia/Principe",
+        "name:de": "Flixbus N177: Düsseldorf ZOB => Genua, Fanti d'Italia/Principe",
+        "name:it": "Flixbus N177: Düsseldorf ZOB => Genova, Fanti d'Italia/Principe",
+        "network": "Flixbus",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "note": "Tübingen: Detour via 'Hegelstraße' because of construction on 'Friedrichstraße'.",
+        "operator": "STAV Vigevano SPA",
+        "public_transport:version": "2",
+        "ref": "N177",
+        "route": "bus",
+        "to": "Genua, Fanti d'Italia/Principe",
+        "type": "route",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 10041159,
+      "tags": {
+        "from": "Genua, Fanti d'Italia/Principe",
+        "name": "Flixbus N177: Genua, Fanti d'Italia/Principe <=> Düsseldorf ZOB",
+        "name:de": "Flixbus N177: Genua, Fanti d'Italia/Principe <=> Düsseldorf ZOB",
+        "name:it": "Flixbus N177: Genova, Fanti d'Italia/Principe <=> Düsseldorf ZOB",
+        "network": "Flixbus",
+        "network:wikidata": "Q15712258",
+        "network:wikipedia": "en:Flixbus",
+        "operator": "STAV Vigevano SPA",
+        "ref": "N177",
+        "route_master": "bus",
+        "to": "Düsseldorf ZOB",
+        "type": "route_master",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 13604479,
+      "tags": {
+        "cai_scale": "E",
+        "name": "Ronco Scrivia - Monte Alpe",
+        "network": "lwn",
+        "osmc:symbol": "red:green:yellow_diamond_line",
+        "route": "hiking",
+        "source": "F.I.E. website",
+        "type": "route",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 17137360,
+      "tags": {
+        "ascent": "0",
+        "cai_scale": "E",
+        "descent": "0",
+        "distance": "10.003",
+        "duration:backward": "03:00",
+        "duration:forward": "03:00",
+        "name": "Anello di Ronco Scrivia",
+        "network": "lwn",
+        "operator": "CENTRO FORMAZIONE FISICO SPORTIVA A.S.D.",
+        "ref": "261",
+        "ref:REI": "GGEA2610",
+        "reg_ref": "GGEA261B3PE",
+        "route": "hiking",
+        "source": "Regione Liguria;survey:CAI",
+        "state": "proposed",
+        "symbol:it": "rombo giallo",
+        "type": "route",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 17137365,
+      "tags": {
+        "ascent": "100",
+        "cai_scale": "E",
+        "distance": "1.079",
+        "duration:backward": "00:20",
+        "duration:forward": "00:25",
+        "name": "Variante Anello di Ronco Scrivia",
+        "network": "lwn",
+        "operator": "CENTRO FORMAZIONE FISICO SPORTIVA A.S.D.",
+        "ref": "261V",
+        "ref:REI": "GGEA261V",
+        "reg_ref": "GGEA261B3VE",
+        "route": "hiking",
+        "source": "Regione Liguria;survey:CAI",
+        "state": "proposed",
+        "symbol:it": "cerchio giallo",
+        "type": "route",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 17792218,
+      "tags": {
+        "description:it": "44 Tappe, incl 1 con treno/ferry",
+        "distance": "3100",
+        "from": "Bocchetta di Altare, Altare",
+        "name": "Appennino Bike Tour [ABT]",
+        "network": "ncn",
+        "note": "See wiki https://wiki.openstreetmap.org/wiki/Relation:superroute",
+        "route": "bicycle",
+        "to": "Alia",
+        "type": "superroute",
+        "url": "https://appenninobiketour.com/percorso/",
+        "website": "https://appenninobiketour.com/",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 17803748,
+      "tags": {
+        "distance": "71.4",
+        "from": "Ronco Scrivia",
+        "name": "ABT Tappa 3: Ronco Scrivia - Brallo di Pregola",
+        "network": "ncn",
+        "roundtrip": "no",
+        "route": "bicycle",
+        "stage": "3",
+        "to": "Brallo di Pregola",
+        "type": "route",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 17804418,
+      "tags": {
+        "distance": "55.97",
+        "from": "Rossiglione",
+        "name": "ABT Tappa 2: Rossiglione - Ronco Scrivia",
+        "network": "ncn",
+        "roundtrip": "no",
+        "route": "bicycle",
+        "stage": "2",
+        "to": "Ronco Scrivia",
+        "type": "route",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 19258411,
+      "tags": {
+        "from": "Milano",
+        "name": "InterCity Milano-Ventimiglia",
+        "operator": "Trenitalia",
+        "operator:short": "TI",
+        "operator:wikidata": "Q286650",
+        "public_transport:version": "2",
+        "route": "train",
+        "service": "long_distance",
+        "to": "Ventimiglia",
+        "type": "route",
+        "via": "Genova",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 19261719,
+      "tags": {
+        "from": "Milano",
+        "name": "Ferrovia Milano-Genova",
+        "operator": "Rete Ferroviaria Italiana",
+        "operator:short": "RFI",
+        "operator:wikidata": "Q1060049",
+        "route": "railway",
+        "to": "Genova",
+        "type": "route",
+        "wikipedia": "it:Ferrovia Milano-Genova",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 19307764,
+      "tags": {
+        "from": "Genova",
+        "name": "Ferrovia Torino-Genova",
+        "operator": "Rete Ferroviaria Italiana",
+        "operator:short": "RFI",
+        "operator:wikidata": "Q1060049",
+        "public_transport:version": "2",
+        "route": "railway",
+        "to": "Torino",
+        "type": "route",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 19308037,
+      "tags": {
+        "name": "Ferrovia Torino-Genova",
+        "name:de": "Bahnstrecke Turin-Genua",
+        "not:network:wikidata": "Q1060049",
+        "operator": "Rete Ferroviaria Italiana",
+        "operator:short": "RFI",
+        "operator:wikidata": "Q1060049",
+        "public_transport:version": "2",
+        "route": "railway",
+        "type": "route",
+        "wikidata": "Q547206",
+        "wikipedia": "en:Turin–Genoa railway",
+        "wikipedia:it": "it:Ferrovia Torino-Genova",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 19968411,
+      "tags": {
+        "bus": "yes",
+        "colour": "green",
+        "description": "Busalla-Ronco Scrivia - Isola del Cantone",
+        "duration": "00:20",
+        "from": "Busalla",
+        "name": "830 Isola del Cantone",
+        "network": "AMT Linee Provinciali",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "830",
+        "route": "bus",
+        "to": "Isola del Cantone",
+        "type": "route",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 20157617,
+      "tags": {
+        "bus": "yes",
+        "colour": "green",
+        "description": "Isola del Cantone-Ronco Scrivia - Busalla",
+        "duration": "00:20",
+        "from": "Isola del Cantone",
+        "name": "830 Busalla",
+        "network": "AMT Linee Provinciali",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "830",
+        "route": "bus",
+        "to": "Busalla",
+        "type": "route",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 20399591,
+      "tags": {
+        "from": "Ventimiglia",
+        "name": "InterCity Ventimiglia-Milano",
+        "operator": "Trenitalia",
+        "operator:short": "TI",
+        "operator:wikidata": "Q286650",
+        "public_transport:version": "2",
+        "route": "train",
+        "service": "long_distance",
+        "to": "Milano",
+        "type": "route",
+        "via": "Genova",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 20399592,
+      "tags": {
+        "name": "InterCity Milano-Ventimiglia",
+        "operator": "Trenitalia",
+        "operator:short": "TI",
+        "operator:wikidata": "Q286650",
+        "route_master": "train",
+        "type": "route_master",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 21057133,
+      "tags": {
+        "from": "Milano Lampugnano",
+        "name": "Flixbus N728: Milano → Genova",
+        "network": "Flixbus",
+        "network:wikidata": "Q15712258",
+        "public_transport:version": "2",
+        "ref": "N728",
+        "route": "bus",
+        "to": "Fanti d'Italia, Genova",
+        "type": "route",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 21057144,
+      "tags": {
+        "from": "Milano Lampugnano",
+        "name": "Flixbus N507: Milano → Genova",
+        "network": "Flixbus",
+        "network:wikidata": "Q15712258",
+        "public_transport:version": "2",
+        "ref": "N507",
+        "route": "bus",
+        "to": "Fanti d'Italia, Genova",
+        "type": "route",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 21243204,
+      "tags": {
+        "name": "Linea Storica dei Giovi",
+        "operator": "Rete Ferroviaria Italiana",
+        "operator:short": "RFI",
+        "operator:wikidata": "Q1060049",
+        "route": "railway",
+        "type": "route",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 21243205,
+      "tags": {
+        "duration": "01:30",
+        "from": "Novi Ligure",
+        "name": "Regionale Genova-Novi Ligure",
+        "operator": "Rete Ferroviaria Italiana",
+        "operator:short": "RFI",
+        "operator:wikidata": "Q1060049",
+        "route": "train",
+        "to": "Genova Brignole",
+        "type": "route",
+        "via": "Busalla",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 21243206,
+      "tags": {
+        "duration": "01:30",
+        "from": "Genova Brignole",
+        "name": "Regionale Genova-Novi Ligure",
+        "operator": "Rete Ferroviaria Italiana",
+        "operator:short": "RFI",
+        "operator:wikidata": "Q1060049",
+        "route": "train",
+        "to": "Novi Ligure",
+        "type": "route",
+        "via": "Busalla",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 21253937,
+      "tags": {
+        "duration": "01:20",
+        "from": "Arquata Scrivia",
+        "name": "Regionale Genova-Arquata Scrivia",
+        "operator": "Rete Ferroviaria Italiana",
+        "operator:short": "RFI",
+        "operator:wikidata": "Q1060049",
+        "route": "train",
+        "to": "Genova Brignole",
+        "type": "route",
+        "via": "Isola del Cantone",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 21253938,
+      "tags": {
+        "duration": "01:20",
+        "from": "Genova Brignole",
+        "name": "Regionale Genova-Arquata Scrivia",
+        "operator": "Rete Ferroviaria Italiana",
+        "operator:short": "RFI",
+        "operator:wikidata": "Q1060049",
+        "route": "train",
+        "to": "Arquata Scrivia",
+        "type": "route",
+        "via": "Isola del Cantone",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 21254097,
+      "tags": {
+        "duration": "02:10",
+        "from": "Torino Porta Nuova",
+        "name": "Regionale Torino-Genova",
+        "operator": "Rete Ferroviaria Italiana",
+        "operator:short": "RFI",
+        "operator:wikidata": "Q1060049",
+        "route": "train",
+        "to": "Genova Brignole",
+        "type": "route",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 21254098,
+      "tags": {
+        "duration": "02:10",
+        "from": "Genova Brignole",
+        "name": "Regionale Torino-Genova",
+        "operator": "Rete Ferroviaria Italiana",
+        "operator:short": "RFI",
+        "operator:wikidata": "Q1060049",
+        "route": "train",
+        "to": "Torino Porta Nuova",
+        "type": "route",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 21254114,
+      "tags": {
+        "name": "Linea Torino-Genova",
+        "operator": "Rete Ferroviaria Italiana",
+        "operator:short": "RFI",
+        "operator:wikidata": "Q1060049",
+        "route": "train",
+        "type": "route",
+        "via": "Succursale",
+        "addr:city_extracted": "Ronco Scrivia"
+      }
+    }
+  ]
+}

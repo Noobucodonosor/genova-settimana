@@ -1,0 +1,3232 @@
+{
+  "version": 0.6,
+  "generator": "OpenStreetMap v0.6 API",
+  "comune": "Davagna",
+  "elements": [
+    {
+      "type": "node",
+      "id": 66586377,
+      "tags": {
+        "gfoss_id": "1278",
+        "name": "Davagna",
+        "place": "village",
+        "population": "1783",
+        "source": "geodati.gfoss.it",
+        "wikidata": "Q266283",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.4672076,
+      "lon": 9.0906193
+    },
+    {
+      "type": "node",
+      "id": 275321435,
+      "tags": {
+        "name": "Sottana",
+        "place": "hamlet",
+        "wikidata": "Q18459186",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.4610349,
+      "lon": 9.0770679
+    },
+    {
+      "type": "node",
+      "id": 286712931,
+      "tags": {
+        "name": "Moranego",
+        "place": "hamlet",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.4780253,
+      "lon": 9.1027578
+    },
+    {
+      "type": "node",
+      "id": 286713133,
+      "tags": {
+        "created_by": "Potlatch 0.10b",
+        "name": "Campopiano",
+        "place": "locality",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.4670239,
+      "lon": 9.0813357
+    },
+    {
+      "type": "node",
+      "id": 316029202,
+      "tags": {
+        "ele": "613",
+        "gfoss_id": "35977",
+        "istat_id": "1002120005",
+        "name": "Paravagna",
+        "place": "hamlet",
+        "population": "32",
+        "source": "Istat 2001 - geodati.gfoss.it",
+        "wikidata": "Q18458435",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.4595973,
+      "lon": 9.0730274
+    },
+    {
+      "type": "node",
+      "id": 316029203,
+      "tags": {
+        "ele": "598",
+        "gfoss_id": "35978",
+        "istat_id": "1002120006",
+        "name": "Paste-Prelo",
+        "place": "hamlet",
+        "population": "18",
+        "source": "Istat 2001 - geodati.gfoss.it",
+        "wikidata": "Q18458456",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.4569779,
+      "lon": 9.0723191
+    },
+    {
+      "type": "node",
+      "id": 316029205,
+      "tags": {
+        "ele": "550",
+        "gfoss_id": "35979",
+        "istat_id": "1002120007",
+        "name": "Pian Carnese",
+        "place": "hamlet",
+        "population": "32",
+        "source": "Istat 2001 - geodati.gfoss.it",
+        "wikidata": "Q18458516",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.4645565,
+      "lon": 9.1020047
+    },
+    {
+      "type": "node",
+      "id": 316029206,
+      "tags": {
+        "ele": "570",
+        "gfoss_id": "35972",
+        "istat_id": "1002110009",
+        "name": "Sella",
+        "place": "hamlet",
+        "population": "83",
+        "source": "Istat 2001 - geodati.gfoss.it",
+        "wikidata": "Q18459104",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.4760774,
+      "lon": 9.0963428
+    },
+    {
+      "type": "node",
+      "id": 316029208,
+      "tags": {
+        "ele": "467",
+        "gfoss_id": "35981",
+        "istat_id": "1002120010",
+        "name": "Serrato",
+        "place": "hamlet",
+        "population": "16",
+        "source": "Istat 2001 - geodati.gfoss.it",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.4675481,
+      "lon": 9.0959541
+    },
+    {
+      "type": "node",
+      "id": 316029212,
+      "tags": {
+        "ele": "552",
+        "gfoss_id": "35985",
+        "istat_id": "1002120014",
+        "name": "Villamezzana",
+        "place": "hamlet",
+        "population": "56",
+        "source": "Istat 2001 - geodati.gfoss.it",
+        "wikidata": "Q18459496",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.4724816,
+      "lon": 9.0954265
+    },
+    {
+      "type": "node",
+      "id": 321942957,
+      "tags": {
+        "name": "Colle Ré Xiòu",
+        "natural": "saddle",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.4772827,
+      "lon": 9.0819897
+    },
+    {
+      "type": "node",
+      "id": 321943267,
+      "tags": {
+        "ele": "847",
+        "name": "Colla est di Monte Lago",
+        "natural": "saddle",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.4805885,
+      "lon": 9.0588096
+    },
+    {
+      "type": "node",
+      "id": 321945775,
+      "tags": {
+        "ele": "850",
+        "name": "Porta del Fuoco",
+        "place": "locality",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.4747826,
+      "lon": 9.0731149
+    },
+    {
+      "type": "node",
+      "id": 321948909,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Fraz. Moranego F. 6 Loc. Piano",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4483",
+        "zone_id": "80",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.477875,
+      "lon": 9.102952
+    },
+    {
+      "type": "node",
+      "id": 321948910,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Fraz. Moranego 11 Loc. Pero Maggiolo",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4484",
+        "zone_id": "80",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.4784938,
+      "lon": 9.1001755
+    },
+    {
+      "type": "node",
+      "id": 321948912,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Fraz. Moranego 8 Loc. Castello",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4485",
+        "zone_id": "80",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.4784371,
+      "lon": 9.0975538
+    },
+    {
+      "type": "node",
+      "id": 321948914,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Brocchette 7 Loc. Sella Di Moranego",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4486",
+        "zone_id": "80",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.4764824,
+      "lon": 9.0971544
+    },
+    {
+      "type": "node",
+      "id": 321948915,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Fraz. Moranego Bivio Acquedotto",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4482",
+        "zone_id": "82",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.4788589,
+      "lon": 9.1062341
+    },
+    {
+      "type": "node",
+      "id": 321948922,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Fraz. Moranego Loc. Sella",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4487",
+        "zone_id": "80",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.4760245,
+      "lon": 9.0963843
+    },
+    {
+      "type": "node",
+      "id": 321948923,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Bombrini 17A Fr. Villa Mezzana",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4488",
+        "zone_id": "80",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.4725311,
+      "lon": 9.0946557
+    },
+    {
+      "type": "node",
+      "id": 321948925,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Bombrini Fr. Villa Mezzana - Casa di Riposo",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4438",
+        "url": "http://www.atp-spa.it/cartina.php",
+        "zone_id": "80",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.4713327,
+      "lon": 9.0945447
+    },
+    {
+      "type": "node",
+      "id": 321948928,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Bombrini 18",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4491",
+        "zone_id": "80",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.466886,
+      "lon": 9.0889124
+    },
+    {
+      "type": "node",
+      "id": 321948930,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Bombrini F. 14 F. Municipio Davagna",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4492",
+        "zone_id": "80",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.4648415,
+      "lon": 9.0864145
+    },
+    {
+      "type": "node",
+      "id": 321948931,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via F. 2A Loc. Ciosa",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4434",
+        "url": "http://www.atp-spa.it/cartina.php",
+        "zone_id": "80",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.4626694,
+      "lon": 9.0844784
+    },
+    {
+      "type": "node",
+      "id": 321948933,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Fraz. Sottana F.7 Sottana Centro - C.R.I.",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4433",
+        "url": "http://www.atp-spa.it/cartina.php",
+        "zone_id": "80",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.4608553,
+      "lon": 9.0773545
+    },
+    {
+      "type": "node",
+      "id": 321948935,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Fraz. Sottana Bivio Capenardo",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4495",
+        "zone_id": "80",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.4580269,
+      "lon": 9.0783877
+    },
+    {
+      "type": "node",
+      "id": 374324348,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Loc. Rapallin",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4695",
+        "zone_id": "81",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.4555969,
+      "lon": 9.0864787
+    },
+    {
+      "type": "node",
+      "id": 374324364,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Loc. Rapallin F. 8 F. Rim. A.M.T.",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4694",
+        "zone_id": "81",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.4581159,
+      "lon": 9.0881391
+    },
+    {
+      "type": "node",
+      "id": 374324430,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Loc. Ferruccio",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4693",
+        "zone_id": "82",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.4605164,
+      "lon": 9.094993
+    },
+    {
+      "type": "node",
+      "id": 374324486,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Loc. Piancarnese",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4692",
+        "shelter": "yes",
+        "zone_id": "82",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.4635148,
+      "lon": 9.1016255
+    },
+    {
+      "type": "node",
+      "id": 665514197,
+      "tags": {
+        "name": "Colla di Mea",
+        "natural": "saddle",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.4598082,
+      "lon": 9.1047098
+    },
+    {
+      "type": "node",
+      "id": 928618631,
+      "tags": {
+        "addr:city": "Davagna",
+        "addr:postcode": "16022",
+        "addr:street": "Via Bombrini",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Dagnino",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.4647535,
+      "lon": 9.0865688
+    },
+    {
+      "type": "node",
+      "id": 1768121875,
+      "tags": {
+        "ele": "1037",
+        "name": "Monte Candelozzo",
+        "natural": "peak",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.4734052,
+      "lon": 9.078831
+    },
+    {
+      "type": "node",
+      "id": 2566981913,
+      "tags": {
+        "name": "Colla di Bragalla",
+        "natural": "saddle",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.4519465,
+      "lon": 9.1053955
+    },
+    {
+      "type": "node",
+      "id": 2580846167,
+      "tags": {
+        "ele": "864",
+        "name": "Monte Croce di Bragalla",
+        "natural": "peak",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.4548372,
+      "lon": 9.1032472
+    },
+    {
+      "type": "node",
+      "id": 3123754661,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Loc. Rapallin",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4612",
+        "url": "http://www.atp-spa.it/cartina.php",
+        "zone_id": "81",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.455249,
+      "lon": 9.0866132
+    },
+    {
+      "type": "node",
+      "id": 3123754666,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Loc. Rapallin 2 Rim. A.M.T.",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4613",
+        "url": "http://www.atp-spa.it/cartina.php",
+        "zone_id": "81",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.4578634,
+      "lon": 9.0882442
+    },
+    {
+      "type": "node",
+      "id": 3123754682,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Loc. Piancarnese",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4615",
+        "url": "http://www.atp-spa.it/cartina.php",
+        "zone_id": "82",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.4634211,
+      "lon": 9.1017708
+    },
+    {
+      "type": "node",
+      "id": 3269736782,
+      "tags": {
+        "name": "Briccu du Cian",
+        "place": "locality",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.4710202,
+      "lon": 9.0864112
+    },
+    {
+      "type": "node",
+      "id": 3613020822,
+      "tags": {
+        "addr:postcode": "16022",
+        "addr:street": "Via Bombrini",
+        "amenity": "fuel",
+        "brand": "Kerotris",
+        "fixme": "OK",
+        "fuel:diesel": "yes",
+        "fuel:octane_95": "yes",
+        "name": "Kerotris-Davagna",
+        "operator": "Kerotris - Società a Responsabilità Limitata",
+        "ref:mise": "13079",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.4653301,
+      "lon": 9.086638
+    },
+    {
+      "type": "node",
+      "id": 4041856803,
+      "tags": {
+        "ele": "988",
+        "name": "Monte Bastia Sud",
+        "natural": "peak",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.4720744,
+      "lon": 9.0764422
+    },
+    {
+      "type": "node",
+      "id": 4109806787,
+      "tags": {
+        "ele": "1012",
+        "name": "Monte Carmo",
+        "natural": "peak",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.4785625,
+      "lon": 9.085051
+    },
+    {
+      "type": "node",
+      "id": 4228201750,
+      "tags": {
+        "name": "Campi",
+        "place": "isolated_dwelling",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.4635969,
+      "lon": 9.086897
+    },
+    {
+      "type": "node",
+      "id": 4228201751,
+      "tags": {
+        "name": "Premanengo",
+        "place": "hamlet",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.4652132,
+      "lon": 9.087509
+    },
+    {
+      "type": "node",
+      "id": 4228626018,
+      "tags": {
+        "ele": "981",
+        "mountain_pass": "yes",
+        "name": "Passo del Fuoco",
+        "natural": "saddle",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.4842458,
+      "lon": 9.0912543
+    },
+    {
+      "type": "node",
+      "id": 4233359689,
+      "tags": {
+        "ele": "970",
+        "name": "Sella del Carmo",
+        "natural": "saddle",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.4799869,
+      "lon": 9.0856543
+    },
+    {
+      "type": "node",
+      "id": 4268202710,
+      "tags": {
+        "ele": "863",
+        "name": "Bric d'Orio",
+        "natural": "peak",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.47968,
+      "lon": 9.0752972
+    },
+    {
+      "type": "node",
+      "id": 4268202711,
+      "tags": {
+        "name": "Bricchetto",
+        "place": "isolated_dwelling",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.4770155,
+      "lon": 9.0986356
+    },
+    {
+      "type": "node",
+      "id": 4268202714,
+      "tags": {
+        "name": "Costa del Carmo",
+        "place": "locality",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.4742279,
+      "lon": 9.0908945
+    },
+    {
+      "type": "node",
+      "id": 4268202718,
+      "tags": {
+        "name": "Pianelle di Moranego",
+        "place": "isolated_dwelling",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.4790907,
+      "lon": 9.1002883
+    },
+    {
+      "type": "node",
+      "id": 4268202719,
+      "tags": {
+        "name": "Pianè di Sella",
+        "place": "isolated_dwelling",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.4748799,
+      "lon": 9.0976538
+    },
+    {
+      "type": "node",
+      "id": 4268202721,
+      "tags": {
+        "name": "Sottoripa",
+        "place": "locality",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.4793795,
+      "lon": 9.0892575
+    },
+    {
+      "type": "node",
+      "id": 4401100897,
+      "tags": {
+        "amenity": "drinking_water",
+        "name": "Casa dell'Acqua di Davagna",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.464684,
+      "lon": 9.0864465
+    },
+    {
+      "type": "node",
+      "id": 5224740179,
+      "tags": {
+        "name": "Scaglia Grande",
+        "place": "locality",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.4589792,
+      "lon": 9.1056704
+    },
+    {
+      "type": "node",
+      "id": 5224740180,
+      "tags": {
+        "name": "Mea",
+        "place": "locality",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.4607175,
+      "lon": 9.1031706
+    },
+    {
+      "type": "node",
+      "id": 5226287035,
+      "tags": {
+        "name": "Bragalla",
+        "place": "locality",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.4541661,
+      "lon": 9.1020065
+    },
+    {
+      "type": "node",
+      "id": 5226287036,
+      "tags": {
+        "name": "San Lorenzo",
+        "place": "isolated_dwelling",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.454415,
+      "lon": 9.0921736
+    },
+    {
+      "type": "node",
+      "id": 5226287037,
+      "tags": {
+        "name": "Canova",
+        "place": "hamlet",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.454752,
+      "lon": 9.0946788
+    },
+    {
+      "type": "node",
+      "id": 5879462100,
+      "tags": {
+        "ele": "467",
+        "man_made": "monitoring_station",
+        "monitoring:weather": "yes",
+        "name": "Davagna",
+        "operator": "ARPAL",
+        "recording:automated": "yes",
+        "recording:remote": "yes",
+        "ref": "DAVAG",
+        "weather:humidity_sensor": "yes",
+        "weather:ombrometer": "yes",
+        "weather:thermometer": "yes",
+        "website": "https://omirl.regione.liguria.it/",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.46781,
+      "lon": 9.09539
+    },
+    {
+      "type": "node",
+      "id": 6533804797,
+      "tags": {
+        "addr:city": "Davagna",
+        "addr:housenumber": "9",
+        "addr:street": "Via Sottana",
+        "brand": "Croce Rossa Italiana",
+        "brand:wikidata": "Q913903",
+        "emergency": "ambulance_station",
+        "healthcare": "hospital",
+        "name": "Croce Rossa - Davagna",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.4608844,
+      "lon": 9.0775972
+    },
+    {
+      "type": "node",
+      "id": 9660252028,
+      "tags": {
+        "name": "Acque Sulfuree",
+        "natural": "spring",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.4801849,
+      "lon": 9.1075923
+    },
+    {
+      "type": "node",
+      "id": 10015876175,
+      "tags": {
+        "addr:city": "Davagna",
+        "addr:housenumber": "9",
+        "addr:street": "Via Sottana",
+        "amenity": "community_centre",
+        "name": "Circolo ricreativo",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.4608592,
+      "lon": 9.0775073
+    },
+    {
+      "type": "node",
+      "id": 13206379978,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Loc. Ferruccio",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4614",
+        "zone_id": "82",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.4605942,
+      "lon": 9.0954838
+    },
+    {
+      "type": "node",
+      "id": 13271162205,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Fraz. Sottana 7 Sottana Centro - C.R.I.",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4494",
+        "zone_id": "80",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.4608431,
+      "lon": 9.0771126
+    },
+    {
+      "type": "node",
+      "id": 13271162209,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Fraz. Sottana F. Bivio Capenardo",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4432",
+        "zone_id": "80",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.4581299,
+      "lon": 9.0783577
+    },
+    {
+      "type": "node",
+      "id": 13281463295,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Bombrini 14 Municipio Davagna",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4435",
+        "zone_id": "80",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.4648681,
+      "lon": 9.0865352
+    },
+    {
+      "type": "node",
+      "id": 13281463296,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Fraz. Moranego Loc. Castello",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4442",
+        "zone_id": "80",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.478447,
+      "lon": 9.0977869
+    },
+    {
+      "type": "node",
+      "id": 13281463297,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Bombrini F.56",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4437",
+        "zone_id": "80",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.4677086,
+      "lon": 9.0916595
+    },
+    {
+      "type": "node",
+      "id": 13281463298,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Bombrini 2A Loc. Ciosa",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4493",
+        "zone_id": "80",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.4628639,
+      "lon": 9.0844898
+    },
+    {
+      "type": "node",
+      "id": 13281463300,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Fraz. Moranego Loc. Sella",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4440",
+        "zone_id": "80",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.4758148,
+      "lon": 9.0961475
+    },
+    {
+      "type": "node",
+      "id": 13281474001,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Fraz. Moranego F. Bivio Acquedotto",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4445",
+        "zone_id": "82",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.4788314,
+      "lon": 9.1063337
+    },
+    {
+      "type": "node",
+      "id": 13281474002,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Fraz. Moranego F. 18 Loc. Pero Maggiolo",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4443",
+        "zone_id": "80",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.4783446,
+      "lon": 9.1006126
+    },
+    {
+      "type": "node",
+      "id": 13281474003,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Fraz. Moranego F.9 Loc. Piano",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4444",
+        "zone_id": "80",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.4778748,
+      "lon": 9.1032648
+    },
+    {
+      "type": "node",
+      "id": 13281474006,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Bombrini Pia Casa",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4489",
+        "zone_id": "80",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.4714327,
+      "lon": 9.0942349
+    },
+    {
+      "type": "node",
+      "id": 13281474007,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Bombrini 1 Di Via Poggio",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4490",
+        "zone_id": "80",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.4675484,
+      "lon": 9.0913782
+    },
+    {
+      "type": "node",
+      "id": 13281474008,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Fraz. Villa Mezzana F. 28",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4439",
+        "zone_id": "80",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.4726449,
+      "lon": 9.0948191
+    },
+    {
+      "type": "node",
+      "id": 13281474011,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Brocchette 4A Loc. Sella Di Moranego",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4441",
+        "zone_id": "80",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.476593,
+      "lon": 9.0972815
+    },
+    {
+      "type": "node",
+      "id": 13281474013,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Bombrini F. 18",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4436",
+        "zone_id": "80",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.4668775,
+      "lon": 9.0891044
+    },
+    {
+      "type": "node",
+      "id": 13300359296,
+      "tags": {
+        "addr:city": "Davagna",
+        "addr:housenumber": "14",
+        "addr:postcode": "16022",
+        "addr:street": "Via Bombrini",
+        "amenity": "post_office",
+        "atm": "yes",
+        "name": "Poste Italiane",
+        "operator": "Poste Italiane",
+        "operator:wikidata": "Q495026",
+        "source": "https://www.lavocedigenova.it/2025/11/12/amp/argomenti/economia-2/articolo/poste-italiane-corre-il-progetto-polis-a-genova-e-nel-levante-al-servizio-delle-comunita-locali.html",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.464823,
+      "lon": 9.0866575
+    },
+    {
+      "type": "node",
+      "id": 13747592115,
+      "tags": {
+        "name": "Poggio",
+        "place": "hamlet",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.4670023,
+      "lon": 9.0926384
+    },
+    {
+      "type": "node",
+      "id": 13747607223,
+      "tags": {
+        "name": "Co de Campi",
+        "place": "isolated_dwelling",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.4638025,
+      "lon": 9.0849207
+    },
+    {
+      "type": "node",
+      "id": 13747607224,
+      "tags": {
+        "name": "Ciosa",
+        "place": "isolated_dwelling",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.4628182,
+      "lon": 9.084573
+    },
+    {
+      "type": "node",
+      "id": 13761625204,
+      "tags": {
+        "name": "Prelo",
+        "place": "hamlet",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.4563592,
+      "lon": 9.0719676
+    },
+    {
+      "type": "node",
+      "id": 13761625205,
+      "tags": {
+        "name": "Paste",
+        "place": "hamlet",
+        "addr:city_extracted": "Davagna"
+      },
+      "lat": 44.4574237,
+      "lon": 9.0733559
+    },
+    {
+      "type": "way",
+      "id": 110311390,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Pozzetto",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 139192334,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via De Mari",
+        "oneway": "no",
+        "surface": "asphalt",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 163681797,
+      "tags": {
+        "access": "yes",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "unclassified",
+        "name": "Via Piane di Sella",
+        "oneway": "no",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 186131738,
+      "tags": {
+        "landuse": "cemetery",
+        "name": "Cimitero di Moranego",
+        "wikidata": "Q106978855",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 186131741,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Paravagna",
+        "surface": "asphalt",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 186131744,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Poggio",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 186131750,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Serrato",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 199288415,
+      "tags": {
+        "cables": "3",
+        "name": "Morigallo – San Colombano Certenoli",
+        "power": "line",
+        "ref": "22.278",
+        "voltage": "220000",
+        "wires": "double",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204445901,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "chapel",
+        "denomination": "roman_catholic",
+        "name": "Cappela di Campopiano",
+        "religion": "christian",
+        "source": "Regione Liguria",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204445961,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "catholic",
+        "name": "Cappella del Sacro Cuore",
+        "religion": "christian",
+        "source": "Regione Liguria",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204473280,
+      "tags": {
+        "addr:city": "Davagna",
+        "addr:country": "IT",
+        "addr:place": "Moranego",
+        "addr:postcode": "16022",
+        "addr:province": "GE",
+        "amenity": "place_of_worship",
+        "denomination": "catholic",
+        "name": "Chiesa di San Colombano Abate",
+        "ref:beweb": "27905",
+        "ref:iccd": "0700111034",
+        "religion": "christian",
+        "source:start_date": "https://www.beweb.chiesacattolica.it/edificidiculto/edificio/27905/",
+        "start_date": "1248",
+        "wikidata": "Q3669796",
+        "wikimedia_commons": "Category:San Colombano (Moranego, Davagna)",
+        "wikipedia": "it:Chiesa di San Colombano Abate (Davagna)",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 226141313,
+      "tags": {
+        "highway": "track",
+        "name": "Capenardo - Passo del Fuoco",
+        "surface": "unhewn_cobblestone",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 281421857,
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "name": "SS 45",
+        "nat_name": "Strada Statale di Val Trebbia",
+        "ref": "SS45",
+        "surface": "asphalt",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 307286332,
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Via Aimone Martini",
+        "nat_name": "Strada Statale di Val Trebbia",
+        "ref": "SS45",
+        "surface": "asphalt",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 307286335,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Aimone Martini",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 307497707,
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Strada Provinciale 14 di Davagna",
+        "ref": "SP14",
+        "surface": "asphalt",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 310419298,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Macallè",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 353329949,
+      "tags": {
+        "amenity": "community_centre",
+        "building": "yes",
+        "name": "Genoa Club Paravagna",
+        "source": "Regione Liguria",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 440099302,
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Via Aimone Martini",
+        "nat_name": "Strada Statale di Val Trebbia",
+        "ref": "SS45",
+        "surface": "asphalt",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 447752893,
+      "tags": {
+        "name": "Torrente Bisagno",
+        "waterway": "stream",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 447753092,
+      "tags": {
+        "name": "Torrente Bisagno",
+        "waterway": "stream",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 447753093,
+      "tags": {
+        "name": "Torrente Bisagno",
+        "waterway": "stream",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 447753094,
+      "tags": {
+        "name": "Torrente Bisagno",
+        "waterway": "stream",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 447753095,
+      "tags": {
+        "name": "Torrente Bisagno",
+        "waterway": "stream",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 447753096,
+      "tags": {
+        "name": "Torrente Bisagno",
+        "waterway": "stream",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 447753097,
+      "tags": {
+        "name": "Torrente Bisagno",
+        "waterway": "stream",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 447753098,
+      "tags": {
+        "name": "Torrente Bisagno",
+        "waterway": "stream",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 447753099,
+      "tags": {
+        "name": "Torrente Bisagno",
+        "waterway": "stream",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 447753100,
+      "tags": {
+        "name": "Torrente Bisagno",
+        "waterway": "stream",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 447753101,
+      "tags": {
+        "name": "Torrente Bisagno",
+        "waterway": "stream",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 447753102,
+      "tags": {
+        "name": "Torrente Bisagno",
+        "waterway": "stream",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 447753103,
+      "tags": {
+        "name": "Torrente Bisagno",
+        "waterway": "stream",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 447753104,
+      "tags": {
+        "name": "Torrente Bisagno",
+        "waterway": "stream",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 447753105,
+      "tags": {
+        "name": "Torrente Bisagno",
+        "waterway": "stream",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 447753106,
+      "tags": {
+        "name": "Torrente Bisagno",
+        "waterway": "stream",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 447753489,
+      "tags": {
+        "highway": "residential",
+        "name": "Via Dotta",
+        "surface": "unpaved",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 539204918,
+      "tags": {
+        "highway": "path",
+        "mtb:scale": "3",
+        "name": "Sentiero di crinale",
+        "sac_scale": "mountain_hiking",
+        "trail_visibility": "intermediate",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 818564345,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Via Monte Nero",
+        "surface": "asphalt",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1012538898,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Paravagna",
+        "surface": "asphalt",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1012538899,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Paravagna",
+        "surface": "asphalt",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1012538900,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Paravagna",
+        "surface": "asphalt",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1012538901,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Paravagna",
+        "surface": "asphalt",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1012538902,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Paravagna",
+        "surface": "asphalt",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1051221752,
+      "tags": {
+        "access": "yes",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "unclassified",
+        "name": "Via Piane di Sella",
+        "oneway": "no",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1051221753,
+      "tags": {
+        "access": "yes",
+        "bicycle": "yes",
+        "bridge": "yes",
+        "foot": "yes",
+        "highway": "unclassified",
+        "layer": "1",
+        "name": "Via Piane di Sella",
+        "oneway": "no",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1051221754,
+      "tags": {
+        "highway": "steps",
+        "name": "Via Villa Mezzana",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1051227956,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via De Mari",
+        "oneway": "no",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1051227957,
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Strada Provinciale 14 di Davagna",
+        "ref": "SP14",
+        "surface": "asphalt",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1051227958,
+      "tags": {
+        "alt_name": "Strada Provinciale 14 di Davagna",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Via Bombrini",
+        "ref": "SP14",
+        "surface": "asphalt",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1051227959,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Poggio",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1051227962,
+      "tags": {
+        "access": "yes",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "unclassified",
+        "name": "Via Piane di Sella",
+        "oneway": "no",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1071021339,
+      "tags": {
+        "bicycle": "yes",
+        "highway": "path",
+        "horse": "no",
+        "name": "Canova San Lorenzo",
+        "surface": "unpaved",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1371177973,
+      "tags": {
+        "highway": "path",
+        "name": "Canova-Mea",
+        "surface": "unpaved",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1371215477,
+      "tags": {
+        "highway": "path",
+        "name": "Canova-Mea",
+        "surface": "unpaved",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1371215478,
+      "tags": {
+        "ford": "yes",
+        "highway": "path",
+        "name": "Canova-Mea",
+        "surface": "unpaved",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1371215479,
+      "tags": {
+        "highway": "path",
+        "name": "Canova-Mea",
+        "surface": "unpaved",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1371215480,
+      "tags": {
+        "bridge": "yes",
+        "highway": "path",
+        "layer": "1",
+        "name": "Canova-Mea",
+        "surface": "unpaved",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1371215481,
+      "tags": {
+        "highway": "path",
+        "name": "Canova-Mea",
+        "surface": "unpaved",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1371215482,
+      "tags": {
+        "bridge": "yes",
+        "highway": "path",
+        "layer": "1",
+        "name": "Canova-Mea",
+        "surface": "unpaved",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1434070721,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Paravagna",
+        "surface": "asphalt",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1434070723,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Paravagna",
+        "surface": "asphalt",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1434070725,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Paravagna",
+        "surface": "asphalt",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1434070726,
+      "tags": {
+        "bridge": "yes",
+        "highway": "unclassified",
+        "layer": "1",
+        "name": "Via Paravagna",
+        "surface": "asphalt",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1434070729,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Sottana",
+        "surface": "asphalt",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1434070737,
+      "tags": {
+        "highway": "secondary",
+        "name": "Strada Provinciale 14 di Davagna",
+        "ref": "SP14",
+        "surface": "asphalt",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1434070738,
+      "tags": {
+        "bridge": "yes",
+        "highway": "secondary",
+        "layer": "1",
+        "name": "Strada Provinciale 14 di Davagna",
+        "ref": "SP14",
+        "surface": "asphalt",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1434070739,
+      "tags": {
+        "highway": "secondary",
+        "name": "Strada Provinciale 14 di Davagna",
+        "ref": "SP14",
+        "surface": "asphalt",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1434070740,
+      "tags": {
+        "bridge": "yes",
+        "highway": "secondary",
+        "layer": "1",
+        "name": "Strada Provinciale 14 di Davagna",
+        "ref": "SP14",
+        "surface": "asphalt",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1434070741,
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Strada Provinciale 14 di Davagna",
+        "ref": "SP14",
+        "surface": "asphalt",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1434070742,
+      "tags": {
+        "bridge": "yes",
+        "highway": "secondary",
+        "lanes": "2",
+        "layer": "1",
+        "name": "Strada Provinciale 14 di Davagna",
+        "ref": "SP14",
+        "surface": "asphalt",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1434070743,
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Strada Provinciale 14 di Davagna",
+        "ref": "SP14",
+        "surface": "asphalt",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1434070744,
+      "tags": {
+        "bridge": "yes",
+        "highway": "secondary",
+        "lanes": "2",
+        "layer": "1",
+        "name": "Strada Provinciale 14 di Davagna",
+        "ref": "SP14",
+        "surface": "asphalt",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1434070745,
+      "tags": {
+        "highway": "secondary",
+        "name": "Strada Provinciale 14 di Davagna",
+        "ref": "SP14",
+        "surface": "asphalt",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1434070746,
+      "tags": {
+        "bridge": "yes",
+        "highway": "secondary",
+        "layer": "1",
+        "name": "Strada Provinciale 14 di Davagna",
+        "ref": "SP14",
+        "surface": "asphalt",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1434070747,
+      "tags": {
+        "highway": "secondary",
+        "name": "Strada Provinciale 14 di Davagna",
+        "ref": "SP14",
+        "surface": "asphalt",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1434070748,
+      "tags": {
+        "bridge": "yes",
+        "highway": "secondary",
+        "layer": "1",
+        "name": "Strada Provinciale 14 di Davagna",
+        "ref": "SP14",
+        "surface": "asphalt",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1434070749,
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Strada Provinciale 14 di Davagna",
+        "ref": "SP14",
+        "surface": "asphalt",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1434070751,
+      "tags": {
+        "alt_name": "Strada Provinciale 14 di Davagna",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Via Sottana",
+        "ref": "SP14",
+        "surface": "asphalt",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1434070754,
+      "tags": {
+        "bridge": "yes",
+        "highway": "secondary",
+        "lanes": "2",
+        "layer": "1",
+        "name": "Strada Provinciale 14 di Davagna",
+        "ref": "SP14",
+        "surface": "asphalt",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1434070755,
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Strada Provinciale 14 di Davagna",
+        "ref": "SP14",
+        "surface": "asphalt",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1434070756,
+      "tags": {
+        "bridge": "yes",
+        "highway": "secondary",
+        "layer": "1",
+        "name": "Strada Provinciale 14 di Davagna",
+        "ref": "SP14",
+        "surface": "asphalt",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1434070757,
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Strada Provinciale 14 di Davagna",
+        "ref": "SP14",
+        "surface": "asphalt",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1434070758,
+      "tags": {
+        "bridge": "yes",
+        "highway": "secondary",
+        "lanes": "2",
+        "layer": "1",
+        "name": "Strada Provinciale 14 di Davagna",
+        "ref": "SP14",
+        "surface": "asphalt",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1434070759,
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Strada Provinciale 14 di Davagna",
+        "ref": "SP14",
+        "surface": "asphalt",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1434070760,
+      "tags": {
+        "bridge": "yes",
+        "highway": "secondary",
+        "lanes": "2",
+        "layer": "1",
+        "name": "Strada Provinciale 14 di Davagna",
+        "ref": "SP14",
+        "surface": "asphalt",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1446382036,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Castagneto",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1446612154,
+      "tags": {
+        "highway": "residential",
+        "name": "Via Ortovecchio",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1447243992,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Poggio",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1447243993,
+      "tags": {
+        "highway": "path",
+        "name": "Via Serrato",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1447243994,
+      "tags": {
+        "alt_name": "Strada Provinciale 14 di Davagna",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Via Bombrini",
+        "ref": "SP14",
+        "surface": "asphalt",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1447243995,
+      "tags": {
+        "alt_name": "Strada Provinciale 14 di Davagna",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Via Bombrini",
+        "ref": "SP14",
+        "surface": "asphalt",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1447243996,
+      "tags": {
+        "alt_name": "Strada Provinciale 14 di Davagna",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Via Ciosa",
+        "ref": "SP14",
+        "surface": "asphalt",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1447243997,
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Strada Provinciale 14 di Davagna",
+        "ref": "SP14",
+        "surface": "asphalt",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1447244001,
+      "tags": {
+        "alt_name": "Strada Provinciale 14 di Davagna",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Via Bombrini",
+        "ref": "SP14",
+        "surface": "asphalt",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1447244003,
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Strada Provinciale 14 di Davagna",
+        "ref": "SP14",
+        "surface": "asphalt",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1473969456,
+      "tags": {
+        "highway": "service",
+        "name": "Via Case",
+        "service": "alley",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1473969457,
+      "tags": {
+        "highway": "footway",
+        "name": "Via Canelli",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1473969458,
+      "tags": {
+        "highway": "footway",
+        "name": "Via Ca' di Casale",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1509631600,
+      "tags": {
+        "highway": "footway",
+        "name": "Via Costantino Crosa",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1509631601,
+      "tags": {
+        "highway": "footway",
+        "name": "Via Villa",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1509631602,
+      "tags": {
+        "highway": "residential",
+        "name": "Via Pozzo",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1509631618,
+      "tags": {
+        "highway": "footway",
+        "name": "Via Pozzetto",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1509631623,
+      "tags": {
+        "highway": "footway",
+        "name": "Via Ca' di Casale",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1509631624,
+      "tags": {
+        "highway": "steps",
+        "name": "Via Ca' di Casale",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1509631625,
+      "tags": {
+        "highway": "steps",
+        "incline": "down",
+        "name": "Via Ca' di Casale",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1509631629,
+      "tags": {
+        "bridge": "yes",
+        "highway": "residential",
+        "layer": "1",
+        "name": "Via Costantino Crosa",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1513012792,
+      "tags": {
+        "highway": "steps",
+        "incline": "down",
+        "name": "Via Pozzetto",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1513012793,
+      "tags": {
+        "amenity": "parking",
+        "area": "yes",
+        "name": "Parcheggio del cimitero",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1513012794,
+      "tags": {
+        "highway": "footway",
+        "name": "Via Pozzetto",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1513012797,
+      "tags": {
+        "highway": "steps",
+        "incline": "up",
+        "name": "Via Pozzetto",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1513012802,
+      "tags": {
+        "highway": "footway",
+        "name": "Via Costantino Crosa",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1513012804,
+      "tags": {
+        "highway": "steps",
+        "incline": "up",
+        "name": "Via Pozzo",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1513012805,
+      "tags": {
+        "highway": "footway",
+        "name": "Via Pozzo",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1519272604,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Serrato",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1519272605,
+      "tags": {
+        "bridge": "yes",
+        "highway": "unclassified",
+        "layer": "1",
+        "name": "Via Serrato",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1519272606,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Serrato",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1519272607,
+      "tags": {
+        "bridge": "yes",
+        "highway": "unclassified",
+        "layer": "1",
+        "name": "Via Serrato",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1540088401,
+      "tags": {
+        "highway": "residential",
+        "name": "Via Costantino Crosa",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1540088402,
+      "tags": {
+        "highway": "footway",
+        "name": "Via Canelli",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1540088403,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Ca' delle Anime",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1540088404,
+      "tags": {
+        "highway": "footway",
+        "name": "Via Pozzetto",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1540088407,
+      "tags": {
+        "highway": "residential",
+        "name": "Via Costantino Crosa",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1540094078,
+      "tags": {
+        "alt_name": "Strada Provinciale 14 di Davagna",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Via Castello",
+        "ref": "SP14",
+        "surface": "asphalt",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1540094079,
+      "tags": {
+        "alt_name": "Strada Provinciale 14 di Davagna",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Via Piano di Moranego",
+        "ref": "SP14",
+        "surface": "asphalt",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1540094080,
+      "tags": {
+        "alt_name": "Strada Provinciale 14 di Davagna",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Via Merli",
+        "ref": "SP14",
+        "surface": "asphalt",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1540094081,
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Strada Provinciale 14 di Davagna",
+        "ref": "SP14",
+        "surface": "asphalt",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1540094082,
+      "tags": {
+        "alt_name": "Strada Provinciale 14 di Davagna",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Via Peromaggiolo",
+        "ref": "SP14",
+        "surface": "asphalt",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 34933,
+      "tags": {
+        "alt_name": "Strada statale 45 di Val Trebbia e del Caffaro",
+        "name": "Strada Statale 45 di Val Trebbia",
+        "ref": "SS45",
+        "route": "road",
+        "type": "route",
+        "wikidata": "Q3975172",
+        "wikipedia": "it:Strada statale 45 di Val Trebbia",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 43148,
+      "tags": {
+        "admin_level": "8",
+        "boundary": "administrative",
+        "name": "Bargagli",
+        "population": "2492",
+        "population:date": "2026-08-28",
+        "ref:catasto": "A658",
+        "ref:ISTAT": "010003",
+        "source:population": "ANPR 2026",
+        "type": "boundary",
+        "wikidata": "Q266272",
+        "wikipedia": "it:Bargagli",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 43149,
+      "tags": {
+        "admin_level": "8",
+        "boundary": "administrative",
+        "gfoss_id": "1288",
+        "name": "Lumarzo",
+        "population": "1430",
+        "population:date": "2026-08-28",
+        "ref:catasto": "E737",
+        "ref:ISTAT": "010031",
+        "source": "geodati.gfoss.it",
+        "source:population": "ANPR 2026",
+        "type": "boundary",
+        "wikidata": "Q267268",
+        "wikipedia": "it:Lumarzo",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 43187,
+      "tags": {
+        "admin_level": "8",
+        "boundary": "administrative",
+        "name": "Davagna",
+        "population": "1773",
+        "population:date": "2026-08-28",
+        "ref:catasto": "D255",
+        "ref:ISTAT": "010021",
+        "source:population": "ANPR 2026",
+        "type": "boundary",
+        "wikidata": "Q266283",
+        "wikipedia": "it:Davagna",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 43213,
+      "tags": {
+        "admin_level": "8",
+        "boundary": "administrative",
+        "name": "Montoggio",
+        "population": "2018",
+        "population:date": "2026-08-28",
+        "ref:catasto": "F682",
+        "ref:ISTAT": "010039",
+        "source:population": "ANPR 2026",
+        "type": "boundary",
+        "wikidata": "Q265616",
+        "wikipedia": "it:Montoggio",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 61081,
+      "tags": {
+        "alt_name": "(SI G12) Passo della Scoffera - Colle di Creto",
+        "alt_ref": "SI",
+        "cai_scale": "E",
+        "description": "High Way of the Ligurian Mountains - Stage 27",
+        "description:de": "Ligurische Grenzkammstraße",
+        "description:it": "Alta Via dei Monti Liguri - Tappa 27",
+        "name": "Colle di Creto - Passo della Scoffera",
+        "network": "lwn",
+        "note": "Sentiero Italia CAI 2019",
+        "note:it": "Sentiero Italia CAI 2019",
+        "note:project_page": "http://wiki.openstreetmap.org/wiki/Liguria/Sentieri",
+        "operator": "Club Alpino Italiano",
+        "osmc:symbol": "red:red:white_stripe:AV:black",
+        "ref": "AV27",
+        "ref:REI": "GGEA3990",
+        "reg_ref": "GGEA39901PE",
+        "route": "hiking",
+        "rwn:name": "Rete Escursionistica Ligure (REL)",
+        "source": "survey:CAI",
+        "symbol": "AV on white red flag",
+        "symbol:it": "AV su segnavia bianco e rosso",
+        "type": "route",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 451366,
+      "tags": {
+        "cai_scale": "E",
+        "name": "Sant'Alberto-Crocetta-Pendici Sud M. Castelluzzo (AVML)-Passo Scoffera",
+        "network": "lwn",
+        "osmc:symbol": "red:white:red_lower:∶:red",
+        "ref:FIE": "04GEA01",
+        "route": "hiking",
+        "source": "Federazione Italiana Escursionismo",
+        "symbol:it": "3 bolli rossi disposti a triangolo",
+        "type": "route",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 1782624,
+      "tags": {
+        "cycle_network": "Bicitalia",
+        "description": "Proposed National Cycleway BI-19 Ciclovia Tirrenica",
+        "from": "Ventimiglia",
+        "name": "Ciclovia Tirrenica",
+        "network": "ncn",
+        "note": "please do not modify without consulting with www.bicitalia.it",
+        "operator": "FIAB",
+        "ref": "BI-19",
+        "route": "bicycle",
+        "to": "Latina",
+        "type": "route",
+        "url": "https://www.bicitalia.org/it/bicitalia/gli-itinerari-bicitalia/193-bi19-ciclovia-tirrenica",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 1947310,
+      "tags": {
+        "name": "European long distance path E1 - part Italy",
+        "name:de": "Europäischer Fernwanderweg E1 - Italienischer Abschnitt",
+        "name:en": "European long distance path E1 - part Italy",
+        "name:fr": "Chemin de randonnée Européen E1 - partie italienne",
+        "name:it": "Sentiero europeo E1 - parte Italia",
+        "network": "iwn",
+        "operator": "European Ramblers Association",
+        "operator:it": "Federazione Italiana Escursionismo",
+        "ref": "E1",
+        "route": "hiking",
+        "symbol": "E1",
+        "type": "superroute",
+        "website": "http://www.era-ewv-ferp.com/index.php?topmenu_id=29&id=29&page_id=99&module=text",
+        "wikidata": "Q151653",
+        "wikimedia_commons": "Category:E1 European long distance path - part Italy",
+        "wikipedia": "en:E1 European long distance path",
+        "wiki:symbol": "Symbol_E1.png",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 1947993,
+      "tags": {
+        "colour": "#eb7141",
+        "name": "Chemin d'Assise",
+        "name:en": "Way to Assisi",
+        "network": "iwn",
+        "old_name": "Via Pacifica",
+        "osmc:symbol": "white:orange::T:black",
+        "pilgrimage": "yes",
+        "route": "hiking",
+        "type": "superroute",
+        "website": "https://chemindassise.org/",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 1948090,
+      "tags": {
+        "from": "Genova",
+        "name": "Cammino di Assisi, Genova - San Miniato",
+        "network": "iwn",
+        "pilgrimage": "yes",
+        "route": "hiking",
+        "to": "San Miniato",
+        "type": "route",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 3006903,
+      "tags": {
+        "name": "Alta Via dei Monti Liguri",
+        "name:de": "Ligurische Grenzkammstraße",
+        "name:en": "High Way of the Ligurian Mountains",
+        "network": "rwn",
+        "operator": "Club Alpino Italiano",
+        "osmc:symbol": "red:red:white_stripe:AV:black",
+        "ref": "AV",
+        "route": "hiking",
+        "symbol": "AV on white red flag",
+        "symbol:it": "AV su bandierina bianca e rossa",
+        "type": "superroute",
+        "wikidata": "Q1824799",
+        "wikipedia": "it:Alta via dei Monti Liguri",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 3688802,
+      "tags": {
+        "cai_scale": "E",
+        "name": "Prato- Canate di Marsiglia - Capenardo",
+        "network": "lwn",
+        "osmc:symbol": "red:white::ϴ:red",
+        "route": "hiking",
+        "symbol:it": "cerchio rosso vuoto barrato",
+        "type": "route",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 7355084,
+      "tags": {
+        "cai_scale": "E",
+        "name": "Bragalla - Sottocolle",
+        "network": "lwn",
+        "note:project_page": "http://wiki.openstreetmap.org/wiki/Liguria/Sentieri",
+        "ref": "401C",
+        "ref:REI": "GGEA401C",
+        "reg_ref": "GGEA40108CE",
+        "route": "hiking",
+        "rwn:name": "Rete Escursionistica Ligure (REL)",
+        "source": "Regione Liguria;survey:CAI",
+        "state": "proposed",
+        "symbol:it": "tre cerchi rossi disposti a triangolo",
+        "type": "route",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 7355126,
+      "tags": {
+        "cai_scale": "E",
+        "name": "La Presa - S. Alberto - Monte Croce di Bragalla",
+        "network": "lwn",
+        "note:project_page": "http://wiki.openstreetmap.org/wiki/Liguria/Sentieri",
+        "osmc:symbol": "red:white::=:red",
+        "ref": "403",
+        "ref:REI": "GGEA4030",
+        "reg_ref": "GGEA40308PE",
+        "route": "hiking",
+        "rwn:name": "Rete Escursionistica Ligure (REL)",
+        "source": "Regione Liguria;survey:CAI",
+        "symbol:it": "due linee rosse orizzontali parallele",
+        "type": "route",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 8825535,
+      "tags": {
+        "name": "Via del Mare",
+        "network": "rwn",
+        "osmc:symbol": "red:red:white_stripe:VM:black",
+        "route": "hiking",
+        "type": "route",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 9061966,
+      "tags": {
+        "name": "European Long distance path E1 - part Italy - Liguria",
+        "name:de": "Europäischer Fernwanderweg E1 - Italienischer Abschnitt - Ligurien",
+        "name:en": "European Long distance path E1 - part Italy - Liguria",
+        "name:it": "Sentiero europeo E1, Italia - Liguria",
+        "network": "iwn",
+        "operator": "European Ramblers Association",
+        "operator:it": "Federazione Italiana Escursionismo",
+        "ref": "E1",
+        "route": "foot",
+        "symbol": "E1",
+        "type": "route",
+        "website": "http://www.era-ewv-ferp.com/index.php?topmenu_id=29&id=29&page_id=99&module=text",
+        "wikidata": "Q151653",
+        "wikipedia": "en:E1 European long distance path",
+        "wiki:symbol": "Symbol_E1.png",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 13549005,
+      "tags": {
+        "cai_scale": "E",
+        "from": "Nervi",
+        "name": "Cammino dell'Alleanza",
+        "network": "lwn",
+        "osmc:symbol": "red:white:blue_dot",
+        "route": "hiking",
+        "to": "Scoffera",
+        "type": "route",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 13554550,
+      "tags": {
+        "cai_scale": "E",
+        "name": "Davagna - Capenardo - Monte Candelozzo",
+        "network": "lwn",
+        "osmc:symbol": "red:white::❚❚:red",
+        "route": "hiking",
+        "source": "FIE",
+        "type": "route",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 13609862,
+      "tags": {
+        "alt_ref": "320",
+        "cai_scale": "EE",
+        "from": "Monte Bano",
+        "network": "lwn",
+        "operator": "QuotaZero",
+        "osmc:symbol": "red:green:yellow_rectangle",
+        "ref": "QZ2",
+        "ref:REI": "GGEA3200",
+        "reg_ref": "GGEA32004PE",
+        "route": "hiking",
+        "source": "Regione Liguria;survey:CAI",
+        "symbol:it": "quadrato pieno giallo",
+        "to": "Monte Candelozzo",
+        "type": "route",
+        "website": "https://www.quotazero.com/forum/viewtopic.php?f=15&t=11532",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 13778297,
+      "tags": {
+        "cai_scale": "E",
+        "name": "Sentiero Giorgio Governa",
+        "network": "lwn",
+        "operator": "CAI ULE GENOVA",
+        "osmc:symbol": "red:white:red_lower",
+        "route": "hiking",
+        "symbol:it": "striscia bianco rossa",
+        "type": "route",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 19696632,
+      "tags": {
+        "bus": "yes",
+        "colour": "green",
+        "description": "Genova - Bargagli - Galleria Scoffera - Torriglia centro",
+        "from": "Genova Brignole",
+        "name": "725 Genova - Torriglia centro (diretta)",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "network:wikipedia": "it:AMT (Genova)",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "725",
+        "route": "bus",
+        "to": "Torriglia",
+        "type": "route",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 19775882,
+      "tags": {
+        "bus": "yes",
+        "colour": "green",
+        "description": "Genova - Davagna - Scoffera",
+        "from": "Genova Brignole",
+        "name": "726 - Scoffera (Via Davagna)",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "network:wikipedia": "it:AMT (Genova)",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "726",
+        "route": "bus",
+        "to": "Scoffera",
+        "type": "route",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 19797646,
+      "tags": {
+        "bus": "yes",
+        "colour": "green",
+        "description": "Genova - Bargagli - Passo della Scoffera - Torriglia centro",
+        "from": "Genova Brignole",
+        "name": "725 Genova - Torriglia centro (via Scoffera)",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "network:wikipedia": "it:AMT (Genova)",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "725",
+        "route": "bus",
+        "to": "Torriglia",
+        "type": "route",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 19998200,
+      "tags": {
+        "bus": "yes",
+        "colour": "green",
+        "description": "955 Genova Brignole-Bargagli-Laccio-Trefontane",
+        "from": "Genova Brignole",
+        "name": "955 Trefontane",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "network:wikipedia": "it:AMT (Genova)",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "955",
+        "route": "bus",
+        "to": "Trefontane",
+        "type": "route",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 20177030,
+      "tags": {
+        "bus": "yes",
+        "colour": "green",
+        "description": "Torriglia (Buffalora)-Scoffera-Davagna-Prato",
+        "duration": "01:06",
+        "from": "Torriglia Buffalora",
+        "name": "726 Genova Prato",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "network:wikipedia": "it:AMT (Genova)",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "726",
+        "route": "bus",
+        "to": "Prato",
+        "type": "route",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 20204452,
+      "tags": {
+        "bus": "yes",
+        "colour": "green",
+        "description": "Torriglia - Scoffera - Bargagli - Genova Brignole",
+        "duration": "01:06",
+        "from": "Torriglia",
+        "name": "725 Genova Brignole",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "network:wikipedia": "it:AMT (Genova)",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "725",
+        "route": "bus",
+        "to": "Genova Brignole (v.Caviglia)",
+        "type": "route",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 20429581,
+      "tags": {
+        "colour": "green",
+        "name": "Linea 725",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "ref": "725",
+        "route_master": "bus",
+        "type": "route_master",
+        "addr:city_extracted": "Davagna"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 20433708,
+      "tags": {
+        "colour": "green",
+        "name": "Linea 726",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "ref": "726",
+        "route_master": "bus",
+        "type": "route_master",
+        "addr:city_extracted": "Davagna"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1333 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-11-01T20:09:27Z",
+    "timestamp_areas_base": "2026-11-01T12:51:03Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 14197438901,
+  "tags": {
+    "historic": "monument",
+    "name": "Monumento a Sant'Agostino Roscelli"
+  }
+},
+{
+  "type": "node",
+  "id": 14197439001,
+  "tags": {
+    "historic": "memorial",
+    "memorial": "war_memorial",
+    "name": "Monumento ai caduti"
+  }
+},
+{
+  "type": "way",
+  "id": 27934822,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Via Francolano",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 46965181,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Via Vittorio Annuti",
+    "ref": "SS523",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 70516630,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Novano",
+    "ref": "SP38",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 70561583,
+  "tags": {
+    "highway": "tertiary",
+    "maxweight": "14.0",
+    "name": "Via Barletti",
+    "ref": "SP44",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 70561584,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Barletti",
+    "ref": "SP44",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 70561810,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "tertiary",
+    "lane_markings": "no",
+    "name": "Via Bargone",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 70686961,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "path",
+    "mtb:scale": "2",
+    "name": "Bocco di Bargone-Colello",
+    "sac_scale": "mountain_hiking",
+    "surface": "dirt",
+    "trail_visibility": "good"
+  }
+},
+{
+  "type": "way",
+  "id": 70725419,
+  "tags": {
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "path",
+    "mtb:scale": "2",
+    "name": "Down hill Bargone",
+    "oneway": "yes",
+    "sac_scale": "demanding_mountain_hiking",
+    "surface": "ground",
+    "trail_visibility": "good"
+  }
+},
+{
+  "type": "way",
+  "id": 81163528,
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "A12 dir. Genova - Deiva Marina/Sestri Levante",
+    "oneway": "yes",
+    "operator": "Concessioni del Tirreno S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 81163531,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "-1",
+    "lit": "24/7",
+    "maxspeed": "110",
+    "name": "Galleria Croce dei Tozzi",
+    "oneway": "yes",
+    "operator": "Concessioni del Tirreno S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes",
+    "tunnel": "yes",
+    "tunnel:length": "561",
+    "tunnel:name": "Galleria Croce dei Tozzi"
+  }
+},
+{
+  "type": "way",
+  "id": 81163533,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "-1",
+    "lit": "24/7",
+    "maxspeed": "110",
+    "name": "Galleria Croce dei Tozzi",
+    "oneway": "yes",
+    "operator": "Concessioni del Tirreno S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 81163536,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "A12 dir. Livorno - Sestri Levante/Deiva Marina",
+    "oneway": "yes",
+    "operator": "Concessioni del Tirreno S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 118098030,
+  "tags": {
+    "highway": "residential",
+    "name": "Contrada Pestella"
+  }
+},
+{
+  "type": "way",
+  "id": 121751318,
+  "tags": {
+    "access": "yes",
+    "amenity": "parking",
+    "fee": "no",
+    "highway": "rest_area",
+    "name": "Area di Sosta Tangoni ovest",
+    "parking": "surface",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 121751319,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "A12 dir. Livorno - Sestri Levante/Deiva Marina",
+    "oneway": "yes",
+    "operator": "Concessioni del Tirreno S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 121751320,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "-1",
+    "lit": "24/7",
+    "maxspeed": "110",
+    "name": "Galleria Case Nuove",
+    "oneway": "yes",
+    "operator": "Concessioni del Tirreno S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 121751321,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "-1",
+    "lit": "24/7",
+    "maxspeed": "110",
+    "name": "Galleria Case Nuove",
+    "oneway": "yes",
+    "operator": "Concessioni del Tirreno S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes",
+    "tunnel": "yes",
+    "tunnel:length": "261",
+    "tunnel:name": "Galleria Case Nuove"
+  }
+},
+{
+  "type": "way",
+  "id": 121751322,
+  "tags": {
+    "bridge": "viaduct",
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "A12 dir. Genova - Deiva Marina/Sestri Levante",
+    "oneway": "yes",
+    "operator": "Concessioni del Tirreno S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 162247982,
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "Area Sportiva"
+  }
+},
+{
+  "type": "way",
+  "id": 187804688,
+  "tags": {
+    "bridge": "yes",
+    "highway": "tertiary",
+    "lanes": "2",
+    "layer": "1",
+    "name": "Via Aldo Moro",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 187804694,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Salvo D'Acquisto"
+  }
+},
+{
+  "type": "way",
+  "id": 187804698,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Tangoni"
+  }
+},
+{
+  "type": "way",
+  "id": 187810159,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Giacomo Matteotti"
+  }
+},
+{
+  "type": "way",
+  "id": 187810172,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Sottanis",
+    "oneway": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 187810174,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Alcide de Gasperi",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 187916466,
+  "tags": {
+    "highway": "residential",
+    "name": "via colombo",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 187916468,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Brigata Partigiana dall'orco"
+  }
+},
+{
+  "type": "way",
+  "id": 193294987,
+  "tags": {
+    "alt_name": "Via IV Novembre",
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Via Quattro Novembre",
+    "ref": "SS523",
+    "short_name": "Via 4 Novembre",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 218925952,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "path",
+    "mtb:scale": "2",
+    "name": "Bocco di Bargone-Colello",
+    "sac_scale": "mountain_hiking",
+    "surface": "dirt",
+    "trail_visibility": "good"
+  }
+},
+{
+  "type": "way",
+  "id": 280302522,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "residential",
+    "lane_markings": "no",
+    "name": "Via Reccio",
+    "sidewalk:both": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 291310082,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Via Lorenzo Gardella",
+    "ref": "SS523",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 291338290,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Piazza della Vittoria"
+  }
+},
+{
+  "type": "way",
+  "id": 298103353,
+  "tags": {
+    "highway": "residential",
+    "name": "Piazza Nostra Signora della Speranza"
+  }
+},
+{
+  "type": "way",
+  "id": 298586821,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "path",
+    "mtb:scale": "2",
+    "mtb:scale:uphill": "2",
+    "name": "Down hill Bargone",
+    "oneway": "yes",
+    "sac_scale": "mountain_hiking",
+    "surface": "dirt",
+    "trail_visibility": "good"
+  }
+},
+{
+  "type": "way",
+  "id": 313412939,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "A12 dir. Genova - Deiva Marina/Sestri Levante",
+    "oneway": "yes",
+    "operator": "Concessioni del Tirreno S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 313412943,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "A12 dir. Genova - Deiva Marina/Sestri Levante",
+    "oneway": "yes",
+    "operator": "Concessioni del Tirreno S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 313412947,
+  "tags": {
+    "bridge": "viaduct",
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "A12 dir. Genova - Deiva Marina/Sestri Levante",
+    "oneway": "yes",
+    "operator": "Concessioni del Tirreno S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 313412948,
+  "tags": {
+    "bridge": "viaduct",
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "A12 dir. Livorno - Sestri Levante/Deiva Marina",
+    "oneway": "yes",
+    "operator": "Concessioni del Tirreno S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 313412956,
+  "tags": {
+    "bridge": "viaduct",
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "A12 dir. Livorno - Sestri Levante/Deiva Marina",
+    "oneway": "yes",
+    "operator": "Concessioni del Tirreno S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 313412960,
+  "tags": {
+    "bridge": "viaduct",
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "A12 dir. Genova - Deiva Marina/Sestri Levante",
+    "oneway": "yes",
+    "operator": "Concessioni del Tirreno S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 313412963,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "A12 dir. Genova - Deiva Marina/Sestri Levante",
+    "oneway": "yes",
+    "operator": "Concessioni del Tirreno S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 313412965,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "A12 dir. Livorno - Sestri Levante/Deiva Marina",
+    "oneway": "yes",
+    "operator": "Concessioni del Tirreno S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 313412973,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "A12 dir. Livorno - Sestri Levante/Deiva Marina",
+    "oneway": "yes",
+    "operator": "Concessioni del Tirreno S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 313412976,
+  "tags": {
+    "bridge": "viaduct",
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "A12 dir. Livorno - Sestri Levante/Deiva Marina",
+    "oneway": "yes",
+    "operator": "Concessioni del Tirreno S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 313412978,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "A12 dir. Livorno - Sestri Levante/Deiva Marina",
+    "oneway": "yes",
+    "operator": "Concessioni del Tirreno S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 313412985,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Novano",
+    "ref": "SP38",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 313412990,
+  "tags": {
+    "bridge": "viaduct",
+    "highway": "tertiary",
+    "layer": "1",
+    "name": "Via Novano",
+    "ref": "SP38",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 333062951,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "A12 dir. Genova - Deiva Marina/Sestri Levante",
+    "oneway": "yes",
+    "operator": "Concessioni del Tirreno S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 333063338,
+  "tags": {
+    "bridge": "yes",
+    "highway": "residential",
+    "layer": "1",
+    "name": "Via Barletti inferiore"
+  }
+},
+{
+  "type": "way",
+  "id": 333063370,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Barletti inferiore"
+  }
+},
+{
+  "type": "way",
+  "id": 333063376,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Barletti inferiore"
+  }
+},
+{
+  "type": "way",
+  "id": 343947484,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Senatore Federico Ricci"
+  }
+},
+{
+  "type": "way",
+  "id": 370137057,
+  "tags": {
+    "highway": "primary",
+    "horse": "yes",
+    "lanes": "2",
+    "maxspeed": "90",
+    "name": "Via Aurelia",
+    "nat_ref": "SS1",
+    "oneway": "no",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 392800005,
+  "tags": {
+    "alt_name": "Via IV Novembre",
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Via Quattro Novembre",
+    "ref": "SS523",
+    "short_name": "Via 4 Novembre",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 392800006,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Via Vittorio Annuti",
+    "ref": "SS523",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 396985328,
+  "tags": {
+    "highway": "service",
+    "name": "Via Flavia Steno",
+    "service": "driveway"
+  }
+},
+{
+  "type": "way",
+  "id": 447032077,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "path",
+    "mtb:scale:uphill": "2",
+    "name": "Dh Bargone",
+    "oneway": "yes",
+    "sac_scale": "mountain_hiking",
+    "surface": "dirt",
+    "trail_visibility": "good"
+  }
+},
+{
+  "type": "way",
+  "id": 461472888,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "primary",
+    "horse": "yes",
+    "lanes": "2",
+    "maxspeed": "90",
+    "name": "Via Aurelia",
+    "old_ref": "SS1",
+    "oneway": "no",
+    "ref": "SP1",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 461562286,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "primary",
+    "horse": "yes",
+    "lanes": "2",
+    "maxspeed": "90",
+    "name": "Via Aurelia",
+    "nat_ref": "SS1",
+    "oneway": "no",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 461562287,
+  "tags": {
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "primary",
+    "horse": "yes",
+    "lanes": "2",
+    "maxspeed": "90",
+    "name": "Via Aurelia",
+    "nat_ref": "SS1",
+    "oneway": "no",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 461577763,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "tertiary",
+    "lane_markings": "no",
+    "maxspeed": "50",
+    "name": "Via Bargone",
+    "sidewalk:both": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 461581712,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "residential",
+    "lane_markings": "no",
+    "name": "Via delle Fragole",
+    "sidewalk:both": "no",
+    "surface": "asphalt",
+    "tracktype": "grade1"
+  }
+},
+{
+  "type": "way",
+  "id": 461582555,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Via delle Fragole",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 467818726,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "path",
+    "horse": "yes",
+    "mtb:scale": "2",
+    "name": "Bocco di Bargone-Colello",
+    "sac_scale": "mountain_hiking",
+    "smoothness": "very_bad",
+    "surface": "ground",
+    "tracktype": "grade3",
+    "trail_visibility": "good"
+  }
+},
+{
+  "type": "way",
+  "id": 467818728,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "path",
+    "mtb:scale": "2",
+    "name": "Bocco di Bargone-Colello",
+    "sac_scale": "mountain_hiking",
+    "surface": "dirt",
+    "trail_visibility": "good"
+  }
+},
+{
+  "type": "way",
+  "id": 489112895,
+  "tags": {
+    "alt_name": "Via IV Novembre",
+    "highway": "primary",
+    "name": "Via Quattro Novembre",
+    "oneway": "yes",
+    "ref": "SS523",
+    "short_name": "Via 4 Novembre",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 489112896,
+  "tags": {
+    "alt_name": "Via IV Novembre",
+    "highway": "primary",
+    "name": "Via Quattro Novembre",
+    "oneway": "yes",
+    "ref": "SS523",
+    "short_name": "Via 4 Novembre",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 489112897,
+  "tags": {
+    "alt_name": "Via IV Novembre",
+    "highway": "primary",
+    "name": "Via Quattro Novembre",
+    "oneway": "yes",
+    "ref": "SS523",
+    "short_name": "Via 4 Novembre",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 509458880,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "residential",
+    "lane_markings": "no",
+    "name": "Via Costa di Bargone",
+    "sidewalk:both": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 509458881,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "unclassified",
+    "incline": "10%",
+    "name": "Strada consortile del Bocco di Bargone",
+    "surface": "gravel",
+    "tracktype": "grade2",
+    "vehicle": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 521234186,
+  "tags": {
+    "alt_name": "Via IV Novembre",
+    "highway": "primary",
+    "lanes": "1",
+    "name": "Via Quattro Novembre",
+    "oneway": "yes",
+    "ref": "SS523",
+    "short_name": "Via 4 Novembre",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 521234189,
+  "tags": {
+    "alt_name": "Via IV Novembre",
+    "highway": "primary",
+    "junction": "roundabout",
+    "name": "Via Quattro Novembre",
+    "ref": "SS523",
+    "short_name": "Via 4 Novembre",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 560665665,
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "A12 dir. Livorno - Sestri Levante/Deiva Marina",
+    "oneway": "yes",
+    "operator": "Concessioni del Tirreno S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 560665667,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "A12 dir. Genova - Deiva Marina/Sestri Levante",
+    "oneway": "yes",
+    "operator": "Concessioni del Tirreno S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 631194243,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Giacomo Matteotti"
+  }
+},
+{
+  "type": "way",
+  "id": 923512290,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Castello"
+  }
+},
+{
+  "type": "way",
+  "id": 1018278748,
+  "tags": {
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "primary",
+    "horse": "yes",
+    "lanes": "2",
+    "maxspeed": "90",
+    "name": "Via Aurelia",
+    "nat_ref": "SS1",
+    "oneway": "no",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1026332981,
+  "tags": {
+    "highway": "residential",
+    "name": "Via San Lorenzo"
+  }
+},
+{
+  "type": "way",
+  "id": 1026334014,
+  "tags": {
+    "highway": "residential",
+    "name": "Via San Lorenzo"
+  }
+},
+{
+  "type": "way",
+  "id": 1026334015,
+  "tags": {
+    "highway": "residential",
+    "name": "Via San Lorenzo"
+  }
+},
+{
+  "type": "way",
+  "id": 1135816363,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Barletti inferiore"
+  }
+},
+{
+  "type": "way",
+  "id": 1199484257,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Barletti",
+    "ref": "SP44",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1236254224,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Via San Martino",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 1236254225,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Piazza Don Agostino Roscelli",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 1236254227,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "residential",
+    "lane_markings": "no",
+    "name": "Via San Martino",
+    "sidewalk:both": "no",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 1238633189,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Piazza della Contrada"
+  }
+},
+{
+  "type": "way",
+  "id": 1238633190,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Piazza della Contrada"
+  }
+},
+{
+  "type": "way",
+  "id": 1238633191,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Piazza della Contrada"
+  }
+},
+{
+  "type": "way",
+  "id": 1238651071,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Piazza della Vittoria"
+  }
+},
+{
+  "type": "way",
+  "id": 1238651072,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Piazza della Vittoria",
+    "ref": "SS523",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1238651073,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Via Vittorio Annuti",
+    "ref": "SS523",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1240224659,
+  "tags": {
+    "crossing": "uncontrolled",
+    "crossing:markings": "yes",
+    "footway": "crossing",
+    "highway": "footway",
+    "name": "Piazza della Vittoria"
+  }
+},
+{
+  "type": "way",
+  "id": 1339863918,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Via Vittorio Annuti",
+    "ref": "SS523",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1339863921,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Via Vittorio Annuti",
+    "ref": "SS523",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1339863922,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Via Vittorio Annuti",
+    "ref": "SS523",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1339863925,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Strada statale 523 del Colle di Cento Croci",
+    "ref": "SS523",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1461869372,
+  "tags": {
+    "alt_name": "Via IV Novembre",
+    "highway": "primary",
+    "junction": "roundabout",
+    "name": "Via Quattro Novembre",
+    "ref": "SS523",
+    "short_name": "Via 4 Novembre",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1461869373,
+  "tags": {
+    "alt_name": "Via IV Novembre",
+    "highway": "primary",
+    "junction": "roundabout",
+    "name": "Via Quattro Novembre",
+    "ref": "SS523",
+    "short_name": "Via 4 Novembre",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1461869374,
+  "tags": {
+    "alt_name": "Via IV Novembre",
+    "highway": "primary",
+    "junction": "roundabout",
+    "name": "Via Quattro Novembre",
+    "ref": "SS523",
+    "short_name": "Via 4 Novembre",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1479881402,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Via Vittorio Annuti",
+    "ref": "SS523",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1479881403,
+  "tags": {
+    "alt_name": "Via IV Novembre",
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Via Quattro Novembre",
+    "ref": "SS523",
+    "short_name": "Via 4 Novembre",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1554411496,
+  "tags": {
+    "leisure": "park",
+    "name": "Giardino di Villa Umberto Fracchia",
+    "subject:wikidata": "Q4003396"
+  }
+},
+{
+  "type": "way",
+  "id": 1558921825,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Via delle Fragole",
+    "surface": "asphalt"
+  }
+}
+
+  ]
+}

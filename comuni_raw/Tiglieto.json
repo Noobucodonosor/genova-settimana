@@ -1,0 +1,2287 @@
+{
+  "version": 0.6,
+  "generator": "OpenStreetMap v0.6 API",
+  "comune": "Tiglieto",
+  "elements": [
+    {
+      "type": "node",
+      "id": 66586570,
+      "tags": {
+        "gfoss_id": "1318",
+        "name": "Tiglieto",
+        "place": "village",
+        "population": "546",
+        "wikidata": "Q266259",
+        "addr:city_extracted": "Tiglieto"
+      },
+      "lat": 44.5245575,
+      "lon": 8.6192573
+    },
+    {
+      "type": "node",
+      "id": 361058260,
+      "tags": {
+        "name": "Acquabuona",
+        "traffic_sign": "city_limit",
+        "addr:city_extracted": "Tiglieto"
+      },
+      "lat": 44.5160329,
+      "lon": 8.6127027
+    },
+    {
+      "type": "node",
+      "id": 601132661,
+      "tags": {
+        "name": "Crocetta",
+        "place": "locality",
+        "addr:city_extracted": "Tiglieto"
+      },
+      "lat": 44.5358171,
+      "lon": 8.6192279
+    },
+    {
+      "type": "node",
+      "id": 601359802,
+      "tags": {
+        "ele": "649",
+        "name": "Bric Scaglione",
+        "natural": "peak",
+        "source": "CTR Regione Liguria",
+        "addr:city_extracted": "Tiglieto"
+      },
+      "lat": 44.5357069,
+      "lon": 8.6067741
+    },
+    {
+      "type": "node",
+      "id": 601518534,
+      "tags": {
+        "ele": "738",
+        "name": "Monte Calvo",
+        "natural": "peak",
+        "addr:city_extracted": "Tiglieto"
+      },
+      "lat": 44.5337904,
+      "lon": 8.6306397
+    },
+    {
+      "type": "node",
+      "id": 2600472660,
+      "tags": {
+        "historic": "ruins",
+        "historic:civilization": "modern",
+        "name": "Caserma DI.CA.T",
+        "addr:city_extracted": "Tiglieto"
+      },
+      "lat": 44.5337451,
+      "lon": 8.6305462
+    },
+    {
+      "type": "node",
+      "id": 2600472664,
+      "tags": {
+        "ele": "730",
+        "historic": "monument",
+        "name": "Croce di ferro",
+        "addr:city_extracted": "Tiglieto"
+      },
+      "lat": 44.5341632,
+      "lon": 8.6285453
+    },
+    {
+      "type": "node",
+      "id": 2602886426,
+      "tags": {
+        "alt_name": "Quercia \"di Napoleone\"",
+        "name": "Rovere monumentale",
+        "natural": "tree",
+        "addr:city_extracted": "Tiglieto"
+      },
+      "lat": 44.5265117,
+      "lon": 8.6085198
+    },
+    {
+      "type": "node",
+      "id": 2602974935,
+      "tags": {
+        "amenity": "bar",
+        "name": "La Brasserie",
+        "addr:city_extracted": "Tiglieto"
+      },
+      "lat": 44.5246176,
+      "lon": 8.6191507
+    },
+    {
+      "type": "node",
+      "id": 2824389161,
+      "tags": {
+        "ele": "480",
+        "name": "Casa Reborina",
+        "place": "isolated_dwelling",
+        "addr:city_extracted": "Tiglieto"
+      },
+      "lat": 44.5171787,
+      "lon": 8.6245822
+    },
+    {
+      "type": "node",
+      "id": 2868912823,
+      "tags": {
+        "name": "Casa Quizza",
+        "place": "isolated_dwelling",
+        "addr:city_extracted": "Tiglieto"
+      },
+      "lat": 44.5156706,
+      "lon": 8.6175565
+    },
+    {
+      "type": "node",
+      "id": 2870012239,
+      "tags": {
+        "alt_name": "Frera du Bassu",
+        "ele": "412",
+        "name": "Ferriera Inferiore",
+        "place": "isolated_dwelling",
+        "addr:city_extracted": "Tiglieto"
+      },
+      "lat": 44.5131862,
+      "lon": 8.6165198
+    },
+    {
+      "type": "node",
+      "id": 3203018156,
+      "tags": {
+        "ele": "614",
+        "name": "Rocca della Marietta",
+        "natural": "peak",
+        "source": "CTR Regione Liguria",
+        "addr:city_extracted": "Tiglieto"
+      },
+      "lat": 44.5321208,
+      "lon": 8.6085663
+    },
+    {
+      "type": "node",
+      "id": 3363077511,
+      "tags": {
+        "name": "Cascinazza",
+        "place": "isolated_dwelling",
+        "addr:city_extracted": "Tiglieto"
+      },
+      "lat": 44.5189844,
+      "lon": 8.6129472
+    },
+    {
+      "type": "node",
+      "id": 3660906326,
+      "tags": {
+        "addr:city": "Banilla",
+        "addr:postcode": "16010",
+        "addr:street": "Viale della Rimembranza",
+        "information": "office",
+        "name": "Punto Informativo Banilla",
+        "note": "Orari: agosto: tutte le domeniche e sabato 15: 9.00-13.00 negli altri mesi aperto su prenotazione di gruppi",
+        "opening_hours": "Aug: Su 09:00-13:00",
+        "operator": "Parco Naturale Regionale del Beigua",
+        "tourism": "information",
+        "addr:city_extracted": "Tiglieto"
+      },
+      "lat": 44.5241207,
+      "lon": 8.6198557
+    },
+    {
+      "type": "node",
+      "id": 3829822113,
+      "tags": {
+        "name": "Ca' Pidan",
+        "place": "isolated_dwelling",
+        "addr:city_extracted": "Tiglieto"
+      },
+      "lat": 44.5153528,
+      "lon": 8.624767
+    },
+    {
+      "type": "node",
+      "id": 3830263841,
+      "tags": {
+        "name": "Cimoglia",
+        "place": "locality",
+        "addr:city_extracted": "Tiglieto"
+      },
+      "lat": 44.5130068,
+      "lon": 8.6318114
+    },
+    {
+      "type": "node",
+      "id": 4259978556,
+      "tags": {
+        "ele": "700",
+        "name": "Colla Albergasso",
+        "place": "isolated_dwelling",
+        "addr:city_extracted": "Tiglieto"
+      },
+      "lat": 44.5322346,
+      "lon": 8.6325381
+    },
+    {
+      "type": "node",
+      "id": 4261413009,
+      "tags": {
+        "name": "Pian della Badia",
+        "place": "locality",
+        "addr:city_extracted": "Tiglieto"
+      },
+      "lat": 44.5239427,
+      "lon": 8.6028247
+    },
+    {
+      "type": "node",
+      "id": 4261413010,
+      "tags": {
+        "name": "Case Scura Inferiore",
+        "place": "isolated_dwelling",
+        "addr:city_extracted": "Tiglieto"
+      },
+      "lat": 44.5182808,
+      "lon": 8.6074096
+    },
+    {
+      "type": "node",
+      "id": 4426825665,
+      "tags": {
+        "name": "Acquabuona",
+        "traffic_sign": "city_limit",
+        "addr:city_extracted": "Tiglieto"
+      },
+      "lat": 44.4982556,
+      "lon": 8.6003755
+    },
+    {
+      "type": "node",
+      "id": 4426825668,
+      "tags": {
+        "name": "Bianchina",
+        "place": "hamlet",
+        "population": "38",
+        "wikidata": "Q18456384",
+        "addr:city_extracted": "Tiglieto"
+      },
+      "lat": 44.5132072,
+      "lon": 8.6076607
+    },
+    {
+      "type": "node",
+      "id": 4426825672,
+      "tags": {
+        "name": "Casavecchia",
+        "place": "hamlet",
+        "population": "280",
+        "wikidata": "Q18456865",
+        "addr:city_extracted": "Tiglieto"
+      },
+      "lat": 44.5240305,
+      "lon": 8.6196429
+    },
+    {
+      "type": "node",
+      "id": 4426825720,
+      "tags": {
+        "name": "Tiglieto",
+        "traffic_sign": "city_limit",
+        "addr:city_extracted": "Tiglieto"
+      },
+      "lat": 44.5258633,
+      "lon": 8.6093657
+    },
+    {
+      "type": "node",
+      "id": 4426825721,
+      "tags": {
+        "name": "Tiglieto",
+        "traffic_sign": "city_limit",
+        "addr:city_extracted": "Tiglieto"
+      },
+      "lat": 44.5362234,
+      "lon": 8.6195708
+    },
+    {
+      "type": "node",
+      "id": 5146181921,
+      "tags": {
+        "addr:housenumber": "8",
+        "addr:postcode": "16010",
+        "addr:street": "Via Valcalda",
+        "amenity": "restaurant",
+        "cuisine": "italian;italian_pizza;steak_house",
+        "email": "info.latavernetta@libero.it",
+        "internet_access": "wlan",
+        "name": "La Tavernetta di Paolo e Chiara",
+        "opening_hours": "Fr-We 12:00-24:00, Mo,Tu 12:00-24:00; Th off",
+        "operator": "Paolo Pescheta",
+        "phone": "+39 010 9297011",
+        "addr:city_extracted": "Tiglieto"
+      },
+      "lat": 44.5308782,
+      "lon": 8.6221655
+    },
+    {
+      "type": "node",
+      "id": 6345096680,
+      "tags": {
+        "name": "Sorgente Quizza",
+        "natural": "spring",
+        "addr:city_extracted": "Tiglieto"
+      },
+      "lat": 44.5166482,
+      "lon": 8.6148315
+    },
+    {
+      "type": "node",
+      "id": 6345097812,
+      "tags": {
+        "name": "C.Catoccia",
+        "place": "isolated_dwelling",
+        "addr:city_extracted": "Tiglieto"
+      },
+      "lat": 44.5298527,
+      "lon": 8.636857
+    },
+    {
+      "type": "node",
+      "id": 6345097813,
+      "tags": {
+        "name": "Alberazzo",
+        "place": "isolated_dwelling",
+        "addr:city_extracted": "Tiglieto"
+      },
+      "lat": 44.5314743,
+      "lon": 8.6329365
+    },
+    {
+      "type": "node",
+      "id": 6381047401,
+      "tags": {
+        "name": "Bandia",
+        "place": "locality",
+        "addr:city_extracted": "Tiglieto"
+      },
+      "lat": 44.5157873,
+      "lon": 8.6043602
+    },
+    {
+      "type": "node",
+      "id": 6381047402,
+      "tags": {
+        "name": "Pezzi",
+        "place": "locality",
+        "addr:city_extracted": "Tiglieto"
+      },
+      "lat": 44.5148883,
+      "lon": 8.6042905
+    },
+    {
+      "type": "node",
+      "id": 6463971985,
+      "tags": {
+        "name": "C. Garioni",
+        "place": "isolated_dwelling",
+        "addr:city_extracted": "Tiglieto"
+      },
+      "lat": 44.5196925,
+      "lon": 8.6368498
+    },
+    {
+      "type": "node",
+      "id": 6463972218,
+      "tags": {
+        "name": "Val Fredda",
+        "place": "isolated_dwelling",
+        "addr:city_extracted": "Tiglieto"
+      },
+      "lat": 44.5133142,
+      "lon": 8.6343849
+    },
+    {
+      "type": "node",
+      "id": 6463972219,
+      "tags": {
+        "name": "C. Giazzi",
+        "place": "isolated_dwelling",
+        "addr:city_extracted": "Tiglieto"
+      },
+      "lat": 44.5147582,
+      "lon": 8.6350018
+    },
+    {
+      "type": "node",
+      "id": 6463972220,
+      "tags": {
+        "name": "C. Burga",
+        "place": "isolated_dwelling",
+        "addr:city_extracted": "Tiglieto"
+      },
+      "lat": 44.5159708,
+      "lon": 8.6317348
+    },
+    {
+      "type": "node",
+      "id": 6463972333,
+      "tags": {
+        "name": "Giacometta",
+        "place": "isolated_dwelling",
+        "addr:city_extracted": "Tiglieto"
+      },
+      "lat": 44.519618,
+      "lon": 8.631016
+    },
+    {
+      "type": "node",
+      "id": 6463972343,
+      "tags": {
+        "name": "C. Gambona",
+        "place": "isolated_dwelling",
+        "addr:city_extracted": "Tiglieto"
+      },
+      "lat": 44.5128839,
+      "lon": 8.6193001
+    },
+    {
+      "type": "node",
+      "id": 6517571244,
+      "tags": {
+        "ele": "612",
+        "mountain_pass": "yes",
+        "name": "Passo della Crocetta",
+        "natural": "saddle",
+        "place": "locality",
+        "addr:city_extracted": "Tiglieto"
+      },
+      "lat": 44.5365942,
+      "lon": 8.6195549
+    },
+    {
+      "type": "node",
+      "id": 7504409246,
+      "tags": {
+        "name": "C.Presa",
+        "place": "isolated_dwelling",
+        "addr:city_extracted": "Tiglieto"
+      },
+      "lat": 44.5348409,
+      "lon": 8.633371
+    },
+    {
+      "type": "node",
+      "id": 8418569311,
+      "tags": {
+        "name": "Badìa di Tiglieto",
+        "place": "isolated_dwelling",
+        "addr:city_extracted": "Tiglieto"
+      },
+      "lat": 44.5225727,
+      "lon": 8.6041494
+    },
+    {
+      "type": "node",
+      "id": 9026413305,
+      "tags": {
+        "name": "Prà del Velo",
+        "place": "locality",
+        "addr:city_extracted": "Tiglieto"
+      },
+      "lat": 44.5148347,
+      "lon": 8.6120957
+    },
+    {
+      "type": "node",
+      "id": 10176202846,
+      "tags": {
+        "leisure": "sports_centre",
+        "name": "Rocche della Gerla",
+        "sport": "climbing",
+        "addr:city_extracted": "Tiglieto"
+      },
+      "lat": 44.5123181,
+      "lon": 8.6370768
+    },
+    {
+      "type": "node",
+      "id": 11369753776,
+      "tags": {
+        "addr:housenumber": "1",
+        "addr:street": "Piazza Martiri per la Libertà",
+        "amenity": "townhall",
+        "website": "https://www.comune.tiglieto.ge.it/hh/index.php",
+        "addr:city_extracted": "Tiglieto"
+      },
+      "lat": 44.5246388,
+      "lon": 8.6200285
+    },
+    {
+      "type": "node",
+      "id": 13436149036,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Divisione Alpini 2 Fraz.Acquabuona",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "3346",
+        "zone_id": "52",
+        "addr:city_extracted": "Tiglieto"
+      },
+      "lat": 44.5128172,
+      "lon": 8.6091028
+    },
+    {
+      "type": "node",
+      "id": 13436149037,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via F. 3 Loc.Case Sparse",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "3345",
+        "zone_id": "52",
+        "addr:city_extracted": "Tiglieto"
+      },
+      "lat": 44.5160955,
+      "lon": 8.6126704
+    },
+    {
+      "type": "node",
+      "id": 13436149038,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Loc.Cascinazza",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "3344",
+        "zone_id": "52",
+        "addr:city_extracted": "Tiglieto"
+      },
+      "lat": 44.5183648,
+      "lon": 8.6115434
+    },
+    {
+      "type": "node",
+      "id": 13436149039,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Loc.Badia",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "3343",
+        "zone_id": "52",
+        "addr:city_extracted": "Tiglieto"
+      },
+      "lat": 44.5254735,
+      "lon": 8.6078563
+    },
+    {
+      "type": "node",
+      "id": 13436149040,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Marconi F. 77 Loc.Monterosa",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "3342",
+        "zone_id": "52",
+        "addr:city_extracted": "Tiglieto"
+      },
+      "lat": 44.5281308,
+      "lon": 8.6163995
+    },
+    {
+      "type": "node",
+      "id": 13436149041,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Marconi 40 A Casa Vecchia",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "3341",
+        "zone_id": "52",
+        "addr:city_extracted": "Tiglieto"
+      },
+      "lat": 44.524928,
+      "lon": 8.6192351
+    },
+    {
+      "type": "node",
+      "id": 13436149042,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Marconi 10",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "3340",
+        "zone_id": "52",
+        "addr:city_extracted": "Tiglieto"
+      },
+      "lat": 44.5283915,
+      "lon": 8.6224324
+    },
+    {
+      "type": "node",
+      "id": 13436149043,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Marconi F.Area Provincia Di Genova",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "3339",
+        "zone_id": "52",
+        "addr:city_extracted": "Tiglieto"
+      },
+      "lat": 44.5303686,
+      "lon": 8.6215961
+    },
+    {
+      "type": "node",
+      "id": 13436149044,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Vallecalda F. 52A Loc.Costa Azzurra",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "3338",
+        "zone_id": "52",
+        "addr:city_extracted": "Tiglieto"
+      },
+      "lat": 44.5324981,
+      "lon": 8.6219423
+    },
+    {
+      "type": "node",
+      "id": 13436149045,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Vallecalda F. Acc. Civ. 58",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "8268",
+        "zone_id": "52",
+        "addr:city_extracted": "Tiglieto"
+      },
+      "lat": 44.5319657,
+      "lon": 8.6179748
+    },
+    {
+      "type": "node",
+      "id": 13436149046,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Vallecalda 73 Loc.Marenghi",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "3337",
+        "zone_id": "52",
+        "addr:city_extracted": "Tiglieto"
+      },
+      "lat": 44.5322846,
+      "lon": 8.616205
+    },
+    {
+      "type": "node",
+      "id": 13436149047,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Vallecalda Loc.Crocetta Bivio Odona",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "3336",
+        "zone_id": "52",
+        "addr:city_extracted": "Tiglieto"
+      },
+      "lat": 44.5353999,
+      "lon": 8.6194369
+    },
+    {
+      "type": "node",
+      "id": 13522275260,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Vallecalda Bivio Montecalvo",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "3391",
+        "zone_id": "52",
+        "addr:city_extracted": "Tiglieto"
+      },
+      "lat": 44.5358891,
+      "lon": 8.6196113
+    },
+    {
+      "type": "node",
+      "id": 13522275261,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Vallecalda 75 Loc.Marenghi",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "3390",
+        "zone_id": "52",
+        "addr:city_extracted": "Tiglieto"
+      },
+      "lat": 44.5322612,
+      "lon": 8.6163215
+    },
+    {
+      "type": "node",
+      "id": 13522275262,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Vallecalda 66 F. Bivio Marenghi",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "8269",
+        "zone_id": "52",
+        "addr:city_extracted": "Tiglieto"
+      },
+      "lat": 44.5319218,
+      "lon": 8.6174011
+    },
+    {
+      "type": "node",
+      "id": 13522275263,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Vallecalda 52 Loc.Costa Azzurra",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "3389",
+        "zone_id": "52",
+        "addr:city_extracted": "Tiglieto"
+      },
+      "lat": 44.5325891,
+      "lon": 8.6216243
+    },
+    {
+      "type": "node",
+      "id": 13522275264,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Marconi Dep.Servizio Strade",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "3388",
+        "zone_id": "52",
+        "addr:city_extracted": "Tiglieto"
+      },
+      "lat": 44.5300728,
+      "lon": 8.6222908
+    },
+    {
+      "type": "node",
+      "id": 13522275265,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Marconi 37 F.Ristorante Pigan",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "3387",
+        "zone_id": "52",
+        "addr:city_extracted": "Tiglieto"
+      },
+      "lat": 44.5280871,
+      "lon": 8.6220816
+    },
+    {
+      "type": "node",
+      "id": 13522275266,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Marconi 77B Loc. Casa Vecchia",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "3386",
+        "zone_id": "52",
+        "addr:city_extracted": "Tiglieto"
+      },
+      "lat": 44.5250208,
+      "lon": 8.6193417
+    },
+    {
+      "type": "node",
+      "id": 13522275267,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Marconi 115A Loc.Monterosa",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "3385",
+        "zone_id": "52",
+        "addr:city_extracted": "Tiglieto"
+      },
+      "lat": 44.5281033,
+      "lon": 8.6165093
+    },
+    {
+      "type": "node",
+      "id": 13522275268,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Divisione Alpini Loc.Badia Dopo Il Ponte",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "3384",
+        "zone_id": "52",
+        "addr:city_extracted": "Tiglieto"
+      },
+      "lat": 44.5258359,
+      "lon": 8.6093438
+    },
+    {
+      "type": "node",
+      "id": 13522275269,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Divisione Alpini Loc.Cascinazza",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "3383",
+        "zone_id": "52",
+        "addr:city_extracted": "Tiglieto"
+      },
+      "lat": 44.5184236,
+      "lon": 8.6113662
+    },
+    {
+      "type": "node",
+      "id": 13522275270,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Divisione Alpini 3 Loc.Case Sparse Badia",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "3382",
+        "zone_id": "52",
+        "addr:city_extracted": "Tiglieto"
+      },
+      "lat": 44.5161477,
+      "lon": 8.612844
+    },
+    {
+      "type": "node",
+      "id": 13522275271,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Divisione Alpini 39",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "3381",
+        "zone_id": "52",
+        "addr:city_extracted": "Tiglieto"
+      },
+      "lat": 44.5128753,
+      "lon": 8.6093008
+    },
+    {
+      "type": "way",
+      "id": 34285634,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Via Cristoforo Colombo",
+        "ref": "SP64",
+        "sac_scale": "hiking",
+        "surface": "asphalt",
+        "addr:city_extracted": "Tiglieto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 47185731,
+      "tags": {
+        "name": "Rio Gargassino",
+        "waterway": "stream",
+        "width": "5",
+        "addr:city_extracted": "Tiglieto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 125479257,
+      "tags": {
+        "alt_name": "Rian dra Gerla",
+        "name": "Rio della Gerla",
+        "waterway": "stream",
+        "addr:city_extracted": "Tiglieto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 128848070,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "church",
+        "denomination": "catholic",
+        "name": "Chiesa di San Bernardo e Santa Maria Assunta",
+        "religion": "christian",
+        "wikidata": "Q3669664",
+        "wikipedia": "it:Chiesa di San Bernardo e Santa Maria Assunta",
+        "addr:city_extracted": "Tiglieto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 146769932,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Francia",
+        "addr:city_extracted": "Tiglieto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 146773069,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Caduti di tutte le guerre",
+        "width": "3",
+        "addr:city_extracted": "Tiglieto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 220347350,
+      "tags": {
+        "highway": "secondary",
+        "name": "Via Valcalda",
+        "ref": "SP41",
+        "sac_scale": "hiking",
+        "surface": "asphalt",
+        "addr:city_extracted": "Tiglieto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 220347353,
+      "tags": {
+        "highway": "secondary",
+        "name": "Via Guglielmo Marconi",
+        "ref": "SP41",
+        "surface": "asphalt",
+        "addr:city_extracted": "Tiglieto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 220347355,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Via Cristoforo Colombo",
+        "ref": "SP64",
+        "surface": "asphalt",
+        "addr:city_extracted": "Tiglieto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 220456477,
+      "tags": {
+        "landuse": "cemetery",
+        "name": "Cimitero di Tiglieto",
+        "wikidata": "Q106953963",
+        "addr:city_extracted": "Tiglieto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 222470297,
+      "tags": {
+        "name": "Lago Scuro",
+        "natural": "water",
+        "water": "lake",
+        "addr:city_extracted": "Tiglieto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 222470298,
+      "tags": {
+        "name": "Orba",
+        "waterway": "stream",
+        "width": "12",
+        "addr:city_extracted": "Tiglieto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 222470302,
+      "tags": {
+        "name": "Torrente Orba",
+        "waterway": "stream",
+        "width": "12",
+        "addr:city_extracted": "Tiglieto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 254253422,
+      "tags": {
+        "highway": "residential",
+        "name": "Viale della Rimembranza",
+        "addr:city_extracted": "Tiglieto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 254253433,
+      "tags": {
+        "building": "yes",
+        "name": "Banilla",
+        "addr:city_extracted": "Tiglieto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 254389167,
+      "tags": {
+        "building": "yes",
+        "name": "Albergo ristorante Villa Margherita",
+        "tourism": "hotel",
+        "addr:city_extracted": "Tiglieto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 254389175,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via delle Sorgenti",
+        "width": "3",
+        "addr:city_extracted": "Tiglieto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 254467319,
+      "tags": {
+        "highway": "residential",
+        "name": "Via Antonia Pesce",
+        "sac_scale": "hiking",
+        "surface": "asphalt",
+        "addr:city_extracted": "Tiglieto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 254467320,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Bertalin",
+        "addr:city_extracted": "Tiglieto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 254467322,
+      "tags": {
+        "highway": "service",
+        "name": "Via Bertalin",
+        "service": "driveway",
+        "addr:city_extracted": "Tiglieto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 254467324,
+      "tags": {
+        "highway": "residential",
+        "name": "Via Bertalin",
+        "surface": "asphalt",
+        "addr:city_extracted": "Tiglieto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 254471121,
+      "tags": {
+        "name": "Rio delle Brigne",
+        "waterway": "stream",
+        "addr:city_extracted": "Tiglieto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 282962575,
+      "tags": {
+        "name": "Rio Masino",
+        "waterway": "stream",
+        "addr:city_extracted": "Tiglieto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 282966986,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Tiglieto-Acquabianca",
+        "ref": "SP64",
+        "surface": "asphalt",
+        "addr:city_extracted": "Tiglieto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 353734560,
+      "tags": {
+        "alt_name": "Badia di Tiglieto",
+        "amenity": "place_of_worship",
+        "building": "church",
+        "denomination": "catholic",
+        "name": "Abbazia di Santa Maria alla Croce",
+        "religion": "christian",
+        "source": "Regione Liguria",
+        "addr:city_extracted": "Tiglieto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 353734693,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "contact:city": "Tiglieto",
+        "contact:housenumber": "77",
+        "contact:street": "Via Valcalda",
+        "name": "Osteria La Crocetta",
+        "source": "Regione Liguria",
+        "addr:city_extracted": "Tiglieto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 379655447,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Tiglieto-Acquabianca",
+        "ref": "SP64",
+        "surface": "asphalt",
+        "addr:city_extracted": "Tiglieto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 379697164,
+      "tags": {
+        "bridge": "yes",
+        "highway": "tertiary",
+        "layer": "1",
+        "name": "Acquabianca - Tiglieto",
+        "ref": "SP64",
+        "surface": "asphalt",
+        "addr:city_extracted": "Tiglieto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 379697165,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Tiglieto-Acquabianca",
+        "ref": "SP64",
+        "surface": "asphalt",
+        "addr:city_extracted": "Tiglieto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 447018865,
+      "tags": {
+        "boundary": "protected_area",
+        "name": "Pian della Badia (Tiglieto)",
+        "protect_class": "97",
+        "ref": "IT1330620",
+        "ref:inspire": "IT.RLIG.SIC-IT1330620",
+        "wikidata": "Q55317021",
+        "addr:city_extracted": "Tiglieto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 448723050,
+      "tags": {
+        "boundary": "protected_area",
+        "name": "Beigua - Monte Dente - Gargassa - Pavaglione",
+        "protect_class": "97",
+        "protection_title": "Sito di Importanza Comunitaria",
+        "ref": "IT1331402",
+        "ref:inspire": "IT.RLIG.SIC-IT1331402",
+        "wikidata": "Q55317031",
+        "addr:city_extracted": "Tiglieto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 631588682,
+      "tags": {
+        "highway": "secondary",
+        "name": "Via Guglielmo Marconi",
+        "ref": "SP41",
+        "sac_scale": "hiking",
+        "surface": "asphalt",
+        "addr:city_extracted": "Tiglieto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 652189902,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Dei Salvago Raggi",
+        "addr:city_extracted": "Tiglieto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 679122073,
+      "tags": {
+        "bridge": "yes",
+        "highway": "secondary",
+        "layer": "1",
+        "name": "Via Guglielmo Marconi",
+        "ref": "SP41",
+        "surface": "asphalt",
+        "addr:city_extracted": "Tiglieto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 679122074,
+      "tags": {
+        "highway": "secondary",
+        "name": "Via Guglielmo Marconi",
+        "ref": "SP41",
+        "surface": "asphalt",
+        "addr:city_extracted": "Tiglieto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 862484275,
+      "tags": {
+        "highway": "residential",
+        "lanes": "1",
+        "maxspeed": "20",
+        "name": "Via Guglielmo Marconi",
+        "oneway": "no",
+        "passing_places": "yes",
+        "surface": "asphalt",
+        "addr:city_extracted": "Tiglieto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 953034911,
+      "tags": {
+        "aeroway": "helipad",
+        "name": "Elisuperficie",
+        "addr:city_extracted": "Tiglieto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 975412009,
+      "tags": {
+        "intermittent": "yes",
+        "name": "Rio Fornace",
+        "waterway": "stream",
+        "addr:city_extracted": "Tiglieto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 975412010,
+      "tags": {
+        "intermittent": "yes",
+        "layer": "-1",
+        "name": "Rio Fornace",
+        "tunnel": "yes",
+        "waterway": "stream",
+        "addr:city_extracted": "Tiglieto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 975412011,
+      "tags": {
+        "intermittent": "yes",
+        "name": "Rio Fornace",
+        "waterway": "stream",
+        "addr:city_extracted": "Tiglieto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 975412012,
+      "tags": {
+        "intermittent": "yes",
+        "layer": "-1",
+        "name": "Rio Fornace",
+        "tunnel": "yes",
+        "waterway": "stream",
+        "addr:city_extracted": "Tiglieto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 975412019,
+      "tags": {
+        "intermittent": "yes",
+        "name": "Rio Fornace",
+        "waterway": "stream",
+        "addr:city_extracted": "Tiglieto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1080599198,
+      "tags": {
+        "highway": "secondary",
+        "name": "Via Guglielmo Marconi",
+        "ref": "SP41",
+        "surface": "asphalt",
+        "addr:city_extracted": "Tiglieto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1080599200,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Via Cristoforo Colombo",
+        "ref": "SP64",
+        "surface": "asphalt",
+        "addr:city_extracted": "Tiglieto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1080599201,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Via Cristoforo Colombo",
+        "ref": "SP64",
+        "surface": "asphalt",
+        "addr:city_extracted": "Tiglieto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1080599203,
+      "tags": {
+        "highway": "residential",
+        "name": "Viale della Rimembranza",
+        "addr:city_extracted": "Tiglieto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1080599204,
+      "tags": {
+        "highway": "residential",
+        "name": "Viale della Rimembranza",
+        "addr:city_extracted": "Tiglieto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1080599205,
+      "tags": {
+        "highway": "secondary",
+        "name": "Via Guglielmo Marconi",
+        "ref": "SP41",
+        "sac_scale": "hiking",
+        "surface": "asphalt",
+        "addr:city_extracted": "Tiglieto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1080599206,
+      "tags": {
+        "highway": "secondary",
+        "name": "Via Guglielmo Marconi",
+        "ref": "SP41",
+        "sac_scale": "hiking",
+        "surface": "asphalt",
+        "addr:city_extracted": "Tiglieto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1226033976,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Bertalin",
+        "addr:city_extracted": "Tiglieto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1226042642,
+      "tags": {
+        "name": "Piazza Martiri per la Libertà",
+        "place": "square",
+        "addr:city_extracted": "Tiglieto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1226042644,
+      "tags": {
+        "access": "private",
+        "highway": "residential",
+        "name": "Viale della Rimembranza",
+        "addr:city_extracted": "Tiglieto"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 43182,
+      "tags": {
+        "admin_level": "8",
+        "boundary": "administrative",
+        "name": "Tiglieto",
+        "population": "488",
+        "population:date": "2026-08-28",
+        "ref:catasto": "L167",
+        "ref:ISTAT": "010061",
+        "source:population": "ANPR 2026",
+        "type": "boundary",
+        "wikidata": "Q266259",
+        "wikipedia": "it:Tiglieto",
+        "addr:city_extracted": "Tiglieto"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 43199,
+      "tags": {
+        "admin_level": "6",
+        "boundary": "administrative",
+        "ISO3166-2": "IT-AL",
+        "name": "Alessandria",
+        "name:ca": "Província d'Alessandria",
+        "name:fr": "Alexandrie",
+        "name:ko": "알레산드리아",
+        "name:pms": "Lissandria",
+        "name:pt": "Alexandria",
+        "name:ru": "Алессандрия",
+        "name:zh": "亚历山德里亚",
+        "official_name": "Provincia di Alessandria",
+        "ref:ISTAT": "006",
+        "ref:nuts": "ITC18",
+        "ref:nuts:3": "ITC18",
+        "short_name": "AL",
+        "type": "boundary",
+        "wikidata": "Q15097",
+        "wikipedia": "it:Provincia di Alessandria",
+        "addr:city_extracted": "Tiglieto"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 43277,
+      "tags": {
+        "admin_level": "8",
+        "boundary": "administrative",
+        "name": "Rossiglione",
+        "name:ru": "Россильоне",
+        "population": "2539",
+        "population:date": "2026-08-28",
+        "ref:catasto": "H581",
+        "ref:ISTAT": "010051",
+        "type": "boundary",
+        "wikidata": "Q265325",
+        "wikipedia": "it:Rossiglione (Italia)",
+        "addr:city_extracted": "Tiglieto"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 43278,
+      "tags": {
+        "admin_level": "8",
+        "boundary": "administrative",
+        "name": "Molare",
+        "name:ru": "Моларе",
+        "population": "1983",
+        "population:date": "2026-08-28",
+        "ref:catasto": "F281",
+        "ref:ISTAT": "006095",
+        "source:population": "ANPR 2026",
+        "type": "boundary",
+        "wikidata": "Q17384",
+        "wikipedia": "it:Molare (Italia)",
+        "addr:city_extracted": "Tiglieto"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 44874,
+      "tags": {
+        "admin_level": "4",
+        "boundary": "administrative",
+        "coat_of_arms": "File:Regione-Piemonte-Stemma.svg",
+        "flag": "File:Flag of Piedmont.svg",
+        "ISO3166-2": "IT-21",
+        "name": "Piemonte",
+        "name:br": "Piemont",
+        "name:ca": "Piemont",
+        "name:cs": "Piemont",
+        "name:de": "Piemont",
+        "name:en": "Piedmont",
+        "name:es": "Piamonte",
+        "name:fi": "Piemonte",
+        "name:fr": "Piémont",
+        "name:hu": "Piemont",
+        "name:is": "Fjallaland",
+        "name:it": "Piemonte",
+        "name:ja": "ピエモンテ州",
+        "name:ko": "피에몬테",
+        "name:nl": "Piëmont",
+        "name:pl": "Piemont",
+        "name:ro": "Piemont",
+        "name:ru": "Пьемонт",
+        "name:sc": "Piemonte",
+        "name:scn": "Piemunti",
+        "name:sl": "Piemont",
+        "population": "4457335",
+        "ref:ISTAT": "01",
+        "ref:nuts": "ITC1",
+        "ref:nuts:2": "ITC1",
+        "short_name": "PIE",
+        "source:name:br": "ofis publik ar brezhoneg",
+        "type": "boundary",
+        "wikidata": "Q1216",
+        "wikimedia_commons": "Category:Piedmont",
+        "wikipedia": "it:Piemonte",
+        "addr:city_extracted": "Tiglieto"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 49135,
+      "tags": {
+        "admin_level": "6",
+        "alt_name:gl": "Zena",
+        "boundary": "administrative",
+        "ISO3166-2": "IT-GE",
+        "name": "Genova",
+        "name:ar": "جنوة",
+        "name:ast": "Xénova",
+        "name:br": "Genova",
+        "name:ca": "Gènova",
+        "name:de": "Genua",
+        "name:en": "Genoa",
+        "name:es": "Génova",
+        "name:fa": "جنوا",
+        "name:fr": "Gênes",
+        "name:fur": "Gjenue",
+        "name:gl": "Xénova",
+        "name:it": "Genova",
+        "name:ko": "제노바 광역시",
+        "name:lij": "Zena",
+        "name:mt": "Ġenova",
+        "name:nl": "Genua",
+        "name:oc": "Gènoa",
+        "name:pl": "Genua",
+        "name:pt": "Génova",
+        "name:ru": "Генуя",
+        "name:sk": "Janov",
+        "name:sl": "Genova",
+        "name:uk": "Ґенуя",
+        "name:zh": "热那亚",
+        "official_name": "Città Metropolitana di Genova",
+        "ref:ISTAT": "010",
+        "ref:nuts": "ITC33",
+        "ref:nuts:3": "ITC33",
+        "short_name": "GE",
+        "source:name:br": "ofis publik ar brezhoneg",
+        "source:name:oc": "ieo-bdtopoc",
+        "type": "boundary",
+        "wikidata": "Q18288152",
+        "wikipedia": "it:Città metropolitana di Genova",
+        "addr:city_extracted": "Tiglieto"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 301482,
+      "tags": {
+        "admin_level": "4",
+        "boundary": "administrative",
+        "coat_of_arms": "File:Coat of arms of Liguria.svg",
+        "flag": "File:Flag of Liguria.svg",
+        "ISO3166-2": "IT-42",
+        "name": "Liguria",
+        "name:ca": "Ligúria",
+        "name:cs": "Ligurie",
+        "name:da": "Ligurien",
+        "name:de": "Ligurien",
+        "name:en": "Liguria",
+        "name:eo": "Ligurio",
+        "name:es": "Liguria",
+        "name:fi": "Liguria",
+        "name:fr": "Ligurie",
+        "name:fur": "Ligurie",
+        "name:hu": "Liguria",
+        "name:it": "Liguria",
+        "name:ja": "リグーリア州",
+        "name:ko": "리구리아",
+        "name:nl": "Ligurië",
+        "name:pl": "Liguria",
+        "name:pt": "Ligúria",
+        "name:ro": "Liguria",
+        "name:ru": "Лигурия",
+        "name:sc": "Ligùria",
+        "name:sk": "Ligúria",
+        "name:sl": "Ligurija",
+        "name:sv": "Ligurien",
+        "name:uk": "Ліґурія",
+        "population": "1616788",
+        "ref:ISTAT": "07",
+        "ref:nuts": "ITC3",
+        "ref:nuts:2": "ITC3",
+        "short_name": "LIG",
+        "type": "boundary",
+        "wikidata": "Q1256",
+        "wikimedia_commons": "Category:Liguria",
+        "wikipedia": "it:Liguria",
+        "addr:city_extracted": "Tiglieto"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 365331,
+      "tags": {
+        "admin_level": "2",
+        "alt_name:eo": "Italujo",
+        "alt_name:vi": "Ý;Italy",
+        "boundary": "administrative",
+        "currency": "EUR",
+        "default_language": "it",
+        "driving_side": "right",
+        "flag": "File:Flag of Italy.svg",
+        "int_name": "Italia",
+        "ISO3166-1": "IT",
+        "ISO3166-1:alpha2": "IT",
+        "ISO3166-1:alpha3": "ITA",
+        "ISO3166-1:numeric": "380",
+        "name": "Italia",
+        "name:ab": "Италиа",
+        "name:ace": "Itali",
+        "name:af": "Italië",
+        "name:ak": "Italy",
+        "name:als": "Italien",
+        "name:am": "ጣልያን",
+        "name:an": "Italia",
+        "name:ang": "Italia",
+        "name:ar": "إيطاليا",
+        "name:arc": "ܐܝܛܠܝܐ",
+        "name:arz": "ايطاليا",
+        "name:as": "ইটালী",
+        "name:ast": "Italia",
+        "name:ay": "Italiya",
+        "name:az": "İtaliya",
+        "name:ba": "Италия",
+        "name:bar": "Italien",
+        "name:bcl": "Italya",
+        "name:be": "Італія",
+        "name:be-tarask": "Італія",
+        "name:bg": "Италия",
+        "name:bi": "Itali",
+        "name:bn": "ইতালি",
+        "name:bo": "ཨི་ཏ་ལི།",
+        "name:bpy": "ইতালি",
+        "name:br": "Italia",
+        "name:bs": "Italija",
+        "name:bug": "Italia",
+        "name:bxr": "Итаали",
+        "name:ca": "Itàlia",
+        "name:cbk-zam": "Italia",
+        "name:cdo": "É-dâi-lé",
+        "name:ce": "Итали",
+        "name:ceb": "Italya",
+        "name:chr": "ᎢᏔᎵᏱ",
+        "name:chy": "Italy",
+        "name:cjy": "意大利",
+        "name:ckb": "ئیتالیا",
+        "name:cnr": "Italija",
+        "name:co": "Italia",
+        "name:cr": "ᐃᑕᓖ",
+        "name:crh": "İtaliya",
+        "name:cs": "Itálie",
+        "name:csb": "Italskô",
+        "name:cu": "Италїꙗ",
+        "name:cv": "Итали",
+        "name:cy": "Yr Eidal",
+        "name:da": "Italien",
+        "name:de": "Italien",
+        "name:din": "Italia",
+        "name:diq": "İtalya",
+        "name:dsb": "Italska",
+        "name:dv": "އިޓަލީވިލާތް",
+        "name:dz": "ཨྀཊ་ལི་",
+        "name:ee": "Italy",
+        "name:egl": "Itâglia",
+        "name:el": "Ιταλία",
+        "name:en": "Italy",
+        "name:eo": "Italio",
+        "name:es": "Italia",
+        "name:et": "Itaalia",
+        "name:eu": "Italia",
+        "name:ext": "Itália",
+        "name:fa": "ایتالیا",
+        "name:ff": "Italiya",
+        "name:fi": "Italia",
+        "name:fo": "Italia",
+        "name:fr": "Italie",
+        "name:frp": "Étalie",
+        "name:frr": "Itaalien",
+        "name:fur": "Italie",
+        "name:fy": "Itaalje",
+        "name:ga": "An Iodáil",
+        "name:gag": "İtaliya",
+        "name:gan": "意大利",
+        "name:gd": "An Eadailt",
+        "name:gl": "Italia",
+        "name:gn": "Itália",
+        "name:grc": "Ἰταλία",
+        "name:gu": "ઈટલી",
+        "name:gv": "Yn Iddaal",
+        "name:hak": "Yi-thai-li",
+        "name:haw": "ʻĪkālia",
+        "name:he": "איטליה",
+        "name:hi": "इटली",
+        "name:hif": "Italy",
+        "name:hr": "Italija",
+        "name:hsb": "Italska",
+        "name:ht": "Itali",
+        "name:hu": "Olaszország",
+        "name:hy": "Իտալիա",
+        "name:ia": "Italia",
+        "name:id": "Italia",
+        "name:ie": "Italia",
+        "name:ilo": "Italia",
+        "name:io": "Italia",
+        "name:is": "Ítalía",
+        "name:it": "Italia",
+        "name:ja": "イタリア",
+        "name:ja-Latn": "Itaria",
+        "name:jbo": "italias",
+        "name:jv": "Italia",
+        "name:ka": "იტალია",
+        "name:kaa": "İtaliya",
+        "name:kab": "Ṭelyan",
+        "name:kbd": "Урым",
+        "name:kg": "Italia",
+        "name:ki": "Italia",
+        "name:kk": "Италия",
+        "name:kl": "Italia",
+        "name:km": "អ៊ីតាលី",
+        "name:kn": "ಇಟಲಿ",
+        "name:ko": "이탈리아",
+        "name:koi": "Италья",
+        "name:krc": "Италия",
+        "name:ku": "Îtalya",
+        "name:kv": "Италия",
+        "name:kw": "Itali",
+        "name:ky": "Италия",
+        "name:la": "Italia",
+        "name:lad": "Italia",
+        "name:lb": "Italien",
+        "name:lez": "Италия",
+        "name:lg": "Yitale",
+        "name:li": "Italië",
+        "name:lij": "Italia",
+        "name:lld": "Talia",
+        "name:lmo": "Itàlia",
+        "name:ln": "Italya",
+        "name:lo": "ອິຕາລີ",
+        "name:lt": "Italija",
+        "name:ltg": "Italeja",
+        "name:lv": "Itālija",
+        "name:lzh": "義大利",
+        "name:map-bms": "Italia",
+        "name:mdf": "Италие",
+        "name:mg": "Italia",
+        "name:mhr": "Италий",
+        "name:mi": "Itari",
+        "name:min": "Italia",
+        "name:mk": "Италија",
+        "name:ml": "ഇറ്റലി",
+        "name:mn": "Итали",
+        "name:mr": "इटली",
+        "name:ms": "Itali",
+        "name:mt": "Italja",
+        "name:mwl": "Eitália",
+        "name:my": "အီတလီနိုင်ငံ",
+        "name:mzn": "ایتالیا",
+        "name:na": "Itari",
+        "name:nah": "Italia",
+        "name:nan": "Italia",
+        "name:nap": "Italia",
+        "name:nds": "Italien",
+        "name:nds-nl": "Italiën",
+        "name:ne": "इटाली",
+        "name:new": "इटाली",
+        "name:nl": "Italië",
+        "name:nn": "Italia",
+        "name:no": "Italia",
+        "name:nov": "Italia",
+        "name:nrm": "Italie",
+        "name:nso": "Italia",
+        "name:nv": "Ídelii",
+        "name:oc": "Itàlia",
+        "name:or": "ଇଟାଲୀ",
+        "name:os": "Итали",
+        "name:pa": "ਇਟਲੀ",
+        "name:pag": "Italia",
+        "name:pam": "Italia",
+        "name:pap": "Italia",
+        "name:pcd": "Italie",
+        "name:pdc": "Idali",
+        "name:pfl": "Idalje",
+        "name:pih": "Italii",
+        "name:pl": "Włochy",
+        "name:pms": "Italia",
+        "name:pnb": "اٹلی",
+        "name:pnt": "Ιταλία",
+        "name:ps": "اېټاليا",
+        "name:pt": "Itália",
+        "name:qu": "Italya",
+        "name:rm": "Italia",
+        "name:rmy": "Italiya",
+        "name:ro": "Italia",
+        "name:roa-tara": "Itaglie",
+        "name:ru": "Италия",
+        "name:rue": "Італія",
+        "name:rw": "Ubutaliyani",
+        "name:sa": "इटली",
+        "name:sah": "Италия",
+        "name:sc": "Itàlia",
+        "name:scn": "Italia",
+        "name:sco": "Italy",
+        "name:se": "Itália",
+        "name:sg": "Italùii",
+        "name:sgs": "Italėjė",
+        "name:sh": "Italija",
+        "name:sk": "Taliansko",
+        "name:sl": "Italija",
+        "name:sm": "Italia",
+        "name:smn": "Italia",
+        "name:sms": "Italia",
+        "name:so": "Talyaaniga",
+        "name:sq": "Italia",
+        "name:sr": "Италија",
+        "name:srn": "Italiyanikondre",
+        "name:ss": "INtaliyane",
+        "name:stq": "Italien",
+        "name:su": "Italia",
+        "name:sv": "Italien",
+        "name:sw": "Italia",
+        "name:szl": "Italijŏ",
+        "name:ta": "இத்தாலி",
+        "name:te": "ఇటలీ",
+        "name:tet": "Itália",
+        "name:tg": "Итолиё",
+        "name:th": "ประเทศอิตาลี",
+        "name:tk": "Italiýa",
+        "name:tl": "Italya",
+        "name:tok": "ma Italija",
+        "name:tpi": "Itali",
+        "name:tr": "İtalya",
+        "name:tt": "Италия",
+        "name:tw": "Italy",
+        "name:ty": "’Itāria",
+        "name:tzl": "Talia",
+        "name:udm": "Италия",
+        "name:ug": "ئىتالىيە",
+        "name:uk": "Італія",
+        "name:ur": "اطالیہ",
+        "name:uz": "Italiya",
+        "name:ve": "Italy",
+        "name:vec": "Itałia",
+        "name:vep": "Italii",
+        "name:vi": "Italia",
+        "name:vls": "Itoalië",
+        "name:vo": "Litaliyän",
+        "name:vro": "Itaalia",
+        "name:wa": "Itåleye",
+        "name:war": "Italya",
+        "name:wo": "Itaali",
+        "name:wuu": "意大利",
+        "name:xal": "Италмудин Орн",
+        "name:xmf": "იტალია",
+        "name:yi": "איטאליע",
+        "name:yo": "Itálíà",
+        "name:yue": "意大利",
+        "name:zea": "Itâlië",
+        "name:zh": "意大利;義大利",
+        "name:zh-Hans": "意大利",
+        "name:zh-Hant": "義大利",
+        "name:zu": "ITaliya",
+        "official_language": "it",
+        "official_name": "Repubblica Italiana",
+        "official_name:ca": "República Italiana",
+        "official_name:cs": "Italská republika",
+        "official_name:de": "Republik Italien",
+        "official_name:el": "Ιταλική Δημοκρατία",
+        "official_name:eo": "Itala Respubliko",
+        "official_name:hu": "Olasz Köztársaság",
+        "official_name:zh": "意大利共和国;義大利共和國",
+        "official_name:zh-Hans": "意大利共和国",
+        "official_name:zh-Hant": "義大利共和國",
+        "population": "58983000",
+        "population:date": "2022-04-08",
+        "source:name:oc": "ieo-bdtopoc",
+        "start_date": "1946-06-10",
+        "timezone": "Europe/Rome",
+        "TMC:cid_58:tabcd_1:Class": "Area",
+        "TMC:cid_58:tabcd_1:LCLversion": "8.00",
+        "TMC:cid_58:tabcd_1:LocationCode": "11",
+        "type": "boundary",
+        "website": "https://www.italia.it",
+        "wikidata": "Q38",
+        "wikimedia_commons": "Category:Italy",
+        "wikipedia": "it:Italia",
+        "addr:city_extracted": "Tiglieto"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 1585281,
+      "tags": {
+        "name": "SP207 di Olbicella",
+        "ref": "SP207",
+        "route": "road",
+        "type": "route",
+        "addr:city_extracted": "Tiglieto"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 1947992,
+      "tags": {
+        "from": "Moncenisio",
+        "name": "Cammino di Assisi, Moncenisio - Genova",
+        "network": "iwn",
+        "pilgrimage": "yes",
+        "route": "hiking",
+        "to": "Genova",
+        "type": "route",
+        "addr:city_extracted": "Tiglieto"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 1947993,
+      "tags": {
+        "colour": "#eb7141",
+        "name": "Chemin d'Assise",
+        "name:en": "Way to Assisi",
+        "network": "iwn",
+        "old_name": "Via Pacifica",
+        "osmc:symbol": "white:orange::T:black",
+        "pilgrimage": "yes",
+        "route": "hiking",
+        "type": "superroute",
+        "website": "https://chemindassise.org/",
+        "addr:city_extracted": "Tiglieto"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 2233728,
+      "tags": {
+        "destination": "Bormida",
+        "name": "Torrente Orba",
+        "type": "waterway",
+        "waterway": "river",
+        "wikidata": "Q1101815",
+        "wikipedia": "it:Orba (torrente)",
+        "addr:city_extracted": "Tiglieto"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 2689420,
+      "tags": {
+        "boundary": "protected_area",
+        "hunting": "no",
+        "name": "Parco Naturale Regionale del Beigua",
+        "name:de": "Regionaler Naturpark Beigua",
+        "protect_class": "2",
+        "protection_code": "EUAP0452",
+        "protection_title": "Area Protetta Regionale",
+        "site_zone": "1.0",
+        "source": "Dai dati realizzati da Regione Liguria \"Aree Protette e relativi piani\" Anno 01/10/2012 scala 1:25000",
+        "type": "boundary",
+        "wikidata": "Q1486272",
+        "wikipedia": "it:Parco naturale regionale del Beigua",
+        "addr:city_extracted": "Tiglieto"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 3409442,
+      "tags": {
+        "cai_scale": "E",
+        "description:it": "http://fieliguria.com/images/Sentieri-Zone-GENOVA/Zona1/0127TiglietoTiglieto.pdf",
+        "distance": "6.498",
+        "duration:backward": "02:30",
+        "duration:forward": "02:30",
+        "from": "Badia di Tiglieto",
+        "name": "Anello della Badia di Tiglieto",
+        "network": "lwn",
+        "note:project_page": "http://wiki.openstreetmap.org/wiki/Liguria/Sentieri",
+        "operator": "Ente Parco del Beigua",
+        "osmc:symbol": "red:green:yellow_dot:▬▬▬:yellow",
+        "ref": "111",
+        "ref:FIE": "GE01S27",
+        "ref:REI": "GGEA1110",
+        "reg_ref": "GGEA11106PE",
+        "roundtrip": "yes",
+        "route": "hiking",
+        "rwn:name": "Rete Escursionistica Ligure (REL)",
+        "source": "Regione Liguria;survey:CAI",
+        "symbol:it": "cerchio giallo barrato pieno",
+        "to": "Badia di Tiglieto",
+        "type": "route",
+        "via": "Frera da Bassu",
+        "website:FIE": "http://fieliguria.com/sentieri-escursioni-liguria/genova.html",
+        "addr:city_extracted": "Tiglieto"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 3671847,
+      "tags": {
+        "cai_scale": "E",
+        "description:it": "http://fieliguria.com/images/Sentieri-Zone-GENOVA/Zona1/0126TiglietoDente.pdf",
+        "distance": "17",
+        "duration:backward": "05:40",
+        "duration:forward": "05:40",
+        "from": "Badia di Tiglieto",
+        "name": "Badia di Tiglieto - Bric del Dente",
+        "network": "lwn",
+        "note:it": "relazione mantenuta da Geomorfolab",
+        "note:project_page": "http://wiki.openstreetmap.org/wiki/Liguria/Sentieri",
+        "osmc:symbol": "red:green:yellow_triangle",
+        "ref": "105",
+        "ref:FIE": "GE01S26",
+        "reg_ref": "GGEA10506PE",
+        "route": "hiking",
+        "rwn:name": "Rete Escursionistica Ligure (REL)",
+        "source": "Regione Liguria;survey:CAI",
+        "symbol": "yellow triangle",
+        "symbol:it": "triangolo giallo pieno",
+        "to": "Bric del Dente",
+        "type": "route",
+        "website:FIE": "http://fieliguria.com/sentieri-escursioni-liguria/genova.html",
+        "addr:city_extracted": "Tiglieto"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 16740341,
+      "tags": {
+        "name": "Strada provinciale Tiglieto Acquabianca",
+        "ref": "SP64",
+        "type": "street",
+        "addr:city_extracted": "Tiglieto"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 17792218,
+      "tags": {
+        "description:it": "44 Tappe, incl 1 con treno/ferry",
+        "distance": "3100",
+        "from": "Bocchetta di Altare, Altare",
+        "name": "Appennino Bike Tour [ABT]",
+        "network": "ncn",
+        "note": "See wiki https://wiki.openstreetmap.org/wiki/Relation:superroute",
+        "route": "bicycle",
+        "to": "Alia",
+        "type": "superroute",
+        "url": "https://appenninobiketour.com/percorso/",
+        "website": "https://appenninobiketour.com/",
+        "addr:city_extracted": "Tiglieto"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 17804857,
+      "tags": {
+        "distance": "67.6",
+        "from": "Altare",
+        "name": "ABT Tappa 1: Altare - Rossiglione",
+        "network": "ncn",
+        "roundtrip": "no",
+        "route": "bicycle",
+        "stage": "1",
+        "to": "Rossiglione",
+        "type": "route",
+        "addr:city_extracted": "Tiglieto"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 20054707,
+      "tags": {
+        "bus": "yes",
+        "colour": "green",
+        "description": "Campo Ligure - Rossiglione - Tiglieto - S.Pietro - Vara Sup.",
+        "duration": "1:05",
+        "from": "Campo Ligure FS",
+        "name": "907 Vara Superiore",
+        "network": "AMT Linee Provinciali",
+        "network:wikidata": "Q295335",
+        "network:wikipedia": "it:AMT (Genova)",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "907",
+        "route": "bus",
+        "to": "Vara Superiore",
+        "type": "route",
+        "addr:city_extracted": "Tiglieto"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 20169500,
+      "tags": {
+        "bus": "yes",
+        "colour": "green",
+        "description": "Vara Sup.- Urbe-Tiglieto-Rossiglione-Campoligure FS",
+        "duration": "01:05",
+        "from": "Vara Superiore",
+        "name": "907 Campoligure FS",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "network:wikipedia": "it:AMT (Genova)",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "907",
+        "route": "bus",
+        "to": "Campoligure FS",
+        "type": "route",
+        "addr:city_extracted": "Tiglieto"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 20311178,
+      "tags": {
+        "boundary": "civil",
+        "name": "Quattro Province",
+        "note": "refers more properly to the Apennine area of the four provinces",
+        "type": "boundary",
+        "wikidata": "Q3927393",
+        "wikipedia": "it:Quattro Province",
+        "addr:city_extracted": "Tiglieto"
+      }
+    }
+  ]
+}

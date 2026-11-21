@@ -1,0 +1,1648 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-11-01T21:06:20Z",
+    "timestamp_areas_base": "2026-11-01T18:30:20Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 823499946,
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "Centro ippico \"La Posada\"",
+    "sport": "equestrian"
+  }
+},
+{
+  "type": "node",
+  "id": 4427493543,
+  "tags": {
+    "historic": "memorial",
+    "inscription": "In memoria dei caduti Alpini dell'Alta Valle Scrivia",
+    "memorial": "stone",
+    "name": "Memoriale agli Alpini"
+  }
+},
+{
+  "type": "node",
+  "id": 4427493544,
+  "tags": {
+    "historic": "memorial",
+    "memorial": "plaque",
+    "name": "Nomi degli Alpini caduti"
+  }
+},
+{
+  "type": "way",
+  "id": 9928818,
+  "tags": {
+    "bridge": "yes",
+    "highway": "primary",
+    "layer": "1",
+    "maxspeed": "50",
+    "name": "Via Avosso",
+    "nat_name": "Strada Provinciale della Valle Scrivia",
+    "ref": "SP226",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 9928822,
+  "tags": {
+    "highway": "primary",
+    "maxspeed": "50",
+    "name": "Via Avosso",
+    "nat_name": "Strada Provinciale della Valle Scrivia",
+    "ref": "SP226",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 19850949,
+  "tags": {
+    "bridge": "yes",
+    "cycleway": "proposed",
+    "highway": "primary",
+    "layer": "1",
+    "maxspeed": "50",
+    "name": "Strada Provinciale della Valle Scrivia",
+    "nat_name": "Strada Provinciale della Valle Scrivia",
+    "oneway": "no",
+    "ref": "SP226",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 21288676,
+  "tags": {
+    "highway": "secondary",
+    "name": "Via Firpo",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 23174592,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Roma",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 23174594,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Santo Stefano",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 23430655,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "residential",
+    "lanes": "1",
+    "name": "Viale Europa",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 23964754,
+  "tags": {
+    "cycleway": "proposed",
+    "highway": "residential",
+    "name": "Viale Europa",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 23970085,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "unclassified",
+    "name": "Viale Europa",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 24551267,
+  "tags": {
+    "highway": "unclassified",
+    "lit": "yes",
+    "name": "Via Municipio",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 24551268,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Municipio",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 24767421,
+  "tags": {
+    "bridge": "yes",
+    "cycleway": "yes",
+    "highway": "secondary",
+    "layer": "1",
+    "name": "Via Pianogrande",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 24767425,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "secondary",
+    "name": "Via Pianogrande",
+    "ref": "SP3",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 25039339,
+  "tags": {
+    "cycleway": "proposed",
+    "highway": "residential",
+    "name": "Via Pratopriore",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 25039399,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Carpeneta"
+  }
+},
+{
+  "type": "way",
+  "id": 27582872,
+  "tags": {
+    "bridge": "yes",
+    "highway": "primary",
+    "layer": "1",
+    "maxspeed": "50",
+    "name": "Strada Provinciale della Valle Scrivia",
+    "nat_name": "Strada Provinciale della Valle Scrivia",
+    "ref": "SP226",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 27582873,
+  "tags": {
+    "highway": "primary",
+    "maxspeed": "50",
+    "name": "Via Avosso",
+    "nat_name": "Strada Provinciale della Valle Scrivia",
+    "ref": "SP226",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 29456708,
+  "tags": {
+    "highway": "service",
+    "motor_vehicle": "customers",
+    "name": "Via Cà Nova"
+  }
+},
+{
+  "type": "way",
+  "id": 52066422,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Don Mario Pertica",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 59171379,
+  "tags": {
+    "bridge": "yes",
+    "highway": "service",
+    "layer": "1",
+    "name": "Via Crose"
+  }
+},
+{
+  "type": "way",
+  "id": 59171382,
+  "tags": {
+    "highway": "service",
+    "name": "Via Crose"
+  }
+},
+{
+  "type": "way",
+  "id": 59171383,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Pontassio",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 59171386,
+  "tags": {
+    "highway": "service",
+    "name": "Via Crose"
+  }
+},
+{
+  "type": "way",
+  "id": 59172081,
+  "tags": {
+    "cycleway": "proposed",
+    "highway": "residential",
+    "name": "Via Ponte di Savignone",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 68152384,
+  "tags": {
+    "area:highway": "residential",
+    "name": "Piazzale Caduti di Nassirya",
+    "place": "square"
+  }
+},
+{
+  "type": "way",
+  "id": 68152389,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Cassa di Risparmio",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 68152399,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Gilberto Govi",
+    "oneway": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 68152405,
+  "tags": {
+    "leisure": "park",
+    "name": "Parco Comunale"
+  }
+},
+{
+  "type": "way",
+  "id": 68152449,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Aldo Moro",
+    "oneway": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 68152473,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Pontasso"
+  }
+},
+{
+  "type": "way",
+  "id": 68152475,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Pareto"
+  }
+},
+{
+  "type": "way",
+  "id": 68152498,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Pietro De Negri",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 68152531,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Fornace",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 68152535,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Mandelli",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 68152551,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Pontasso"
+  }
+},
+{
+  "type": "way",
+  "id": 68152556,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Rio Santo Stefano",
+    "oneway": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 68152558,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Municipio",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 68152563,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Pareto"
+  }
+},
+{
+  "type": "way",
+  "id": 68446825,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Casettana"
+  }
+},
+{
+  "type": "way",
+  "id": 68446832,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Carpeneli",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 68446849,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Carpeneta"
+  }
+},
+{
+  "type": "way",
+  "id": 68446870,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Liggia"
+  }
+},
+{
+  "type": "way",
+  "id": 68446877,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Stabbio superiore",
+    "oneway": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 68446891,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Ghiffa"
+  }
+},
+{
+  "type": "way",
+  "id": 68446894,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Niccolò Paganini",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 68446905,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Poggio",
+    "oneway": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 68446932,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Pietro De Negri",
+    "oneway": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 69432757,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Località Iesi",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 108982545,
+  "tags": {
+    "highway": "steps",
+    "name": "Via Avosso"
+  }
+},
+{
+  "type": "way",
+  "id": 119216412,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Cortino"
+  }
+},
+{
+  "type": "way",
+  "id": 119216425,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Cortino"
+  }
+},
+{
+  "type": "way",
+  "id": 119216431,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Cortino"
+  }
+},
+{
+  "type": "way",
+  "id": 119216435,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Cortino"
+  }
+},
+{
+  "type": "way",
+  "id": 119216446,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Cortino"
+  }
+},
+{
+  "type": "way",
+  "id": 119216447,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Cortino"
+  }
+},
+{
+  "type": "way",
+  "id": 161544522,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Fieschi",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 171694303,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Cristoforo Colombo"
+  }
+},
+{
+  "type": "way",
+  "id": 171694304,
+  "tags": {
+    "highway": "service",
+    "name": "Via Avosso"
+  }
+},
+{
+  "type": "way",
+  "id": 171694309,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Cristoforo Colombo"
+  }
+},
+{
+  "type": "way",
+  "id": 171694318,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Suia",
+    "oneway": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 178028156,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Regiosi",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 193289571,
+  "tags": {
+    "cycleway": "proposed",
+    "highway": "primary",
+    "maxspeed": "50",
+    "name": "Strada Provinciale della Valle Scrivia",
+    "nat_name": "Strada Provinciale della Valle Scrivia",
+    "ref": "SP226",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 193289572,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "primary",
+    "lane_markings": "yes",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Via Stabbio",
+    "nat_name": "Strada Provinciale della Valle Scrivia",
+    "oneway": "no",
+    "ref": "SP226",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 193289573,
+  "tags": {
+    "highway": "primary",
+    "maxspeed": "90",
+    "name": "Strada Provinciale della Valle Scrivia",
+    "nat_name": "Strada Provinciale della Valle Scrivia",
+    "ref": "SP226",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 204284803,
+  "tags": {
+    "amenity": "school",
+    "building": "yes",
+    "check_date": "2024-08-14",
+    "name": "Scuola Materna San Luigi Orione",
+    "source": "Regione Liguria"
+  }
+},
+{
+  "type": "way",
+  "id": 204297469,
+  "tags": {
+    "addr:city": "Casella",
+    "addr:housenumber": "1",
+    "addr:postcode": "16015",
+    "addr:street": "Via Municipio",
+    "amenity": "townhall",
+    "building": "yes",
+    "man_made": "tower",
+    "name": "Comune di Casella",
+    "source": "Regione Liguria",
+    "tower:type": "bell_tower",
+    "website": "https://comune.casella.ge.it/"
+  }
+},
+{
+  "type": "way",
+  "id": 217343796,
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "Piscina Acquarium",
+    "sport": "swimming"
+  }
+},
+{
+  "type": "way",
+  "id": 219323964,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Liggia"
+  }
+},
+{
+  "type": "way",
+  "id": 219323999,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via alla Chiesa"
+  }
+},
+{
+  "type": "way",
+  "id": 219324002,
+  "tags": {
+    "access": "private",
+    "highway": "residential",
+    "horse": "yes",
+    "lanes": "1",
+    "name": "Via Casettana",
+    "oneway": "no",
+    "passing_places": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 219324016,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Crose",
+    "oneway": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 219324036,
+  "tags": {
+    "highway": "service",
+    "name": "Via Grazia Deledda",
+    "service": "driveway"
+  }
+},
+{
+  "type": "way",
+  "id": 219326560,
+  "tags": {
+    "highway": "residential",
+    "name": "Piazzale Chiesa"
+  }
+},
+{
+  "type": "way",
+  "id": 220666744,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "unclassified",
+    "name": "Piazzale Chiesa",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 225090360,
+  "tags": {
+    "highway": "primary",
+    "maxspeed": "90",
+    "name": "Strada Provinciale della Valle Scrivia",
+    "nat_name": "Strada Provinciale della Valle Scrivia",
+    "oneway": "no",
+    "ref": "SP226",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 257254553,
+  "tags": {
+    "highway": "secondary",
+    "name": "Via Pianogrande",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 257254555,
+  "tags": {
+    "highway": "residential",
+    "lanes": "1",
+    "name": "Viale Europa",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 286516545,
+  "tags": {
+    "highway": "residential",
+    "maxspeed": "50",
+    "name": "Via Padre Attilio Garrè",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 299917183,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Roma",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 319860887,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "path",
+    "mtb:scale": "3",
+    "name": "Trail Vacca",
+    "sac_scale": "mountain_hiking",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 319862990,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Gilberto Govi"
+  }
+},
+{
+  "type": "way",
+  "id": 334328123,
+  "tags": {
+    "bicycle": "yes",
+    "cycleway": "proposed",
+    "foot": "yes",
+    "highway": "service",
+    "motor_vehicle": "no",
+    "name": "Via Pratopriore",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 353326225,
+  "tags": {
+    "highway": "primary",
+    "maxspeed": "90",
+    "name": "Strada Provinciale della Valle Scrivia",
+    "nat_name": "Strada Provinciale della Valle Scrivia",
+    "oneway": "no",
+    "ref": "SP226",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 353326226,
+  "tags": {
+    "bridge": "viaduct",
+    "highway": "primary",
+    "layer": "1",
+    "maxspeed": "90",
+    "name": "Strada Provinciale della Valle Scrivia",
+    "nat_name": "Strada Provinciale della Valle Scrivia",
+    "ref": "SP226",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 363574916,
+  "tags": {
+    "highway": "path",
+    "incline": "up",
+    "mtb:name": "Monte Capanna - Besolagno",
+    "mtb:scale": "1",
+    "name": "variante besolagno fontanini",
+    "sac_scale": "hiking",
+    "surface": "unpaved",
+    "trail_visibility": "good"
+  }
+},
+{
+  "type": "way",
+  "id": 363578675,
+  "tags": {
+    "highway": "path",
+    "incline": "up",
+    "mtb:scale": "0",
+    "name": "Variante Est Monte Capanne",
+    "sac_scale": "hiking",
+    "surface": "unpaved",
+    "trail_visibility": "excellent"
+  }
+},
+{
+  "type": "way",
+  "id": 368185718,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Suia"
+  }
+},
+{
+  "type": "way",
+  "id": 368185719,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Suia"
+  }
+},
+{
+  "type": "way",
+  "id": 379171929,
+  "tags": {
+    "cycleway": "proposed",
+    "highway": "primary",
+    "maxspeed": "90",
+    "name": "Strada Provinciale della Valle Scrivia",
+    "nat_name": "Strada Provinciale della Valle Scrivia",
+    "oneway": "no",
+    "ref": "SP226",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 379171941,
+  "tags": {
+    "highway": "primary",
+    "junction": "roundabout",
+    "name": "Strada Provinciale della Valle Scrivia",
+    "nat_name": "Strada Provinciale della Valle Scrivia",
+    "ref": "SP226",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 379171963,
+  "tags": {
+    "highway": "secondary",
+    "lanes": "1",
+    "name": "Via Pianogrande",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 379171985,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Braia"
+  }
+},
+{
+  "type": "way",
+  "id": 379177395,
+  "tags": {
+    "highway": "residential",
+    "name": "Viale delle Rose"
+  }
+},
+{
+  "type": "way",
+  "id": 379177399,
+  "tags": {
+    "highway": "service",
+    "name": "Via Grazia Deledda",
+    "service": "driveway"
+  }
+},
+{
+  "type": "way",
+  "id": 410046579,
+  "tags": {
+    "highway": "service",
+    "name": "Via delle Americhe",
+    "service": "driveway"
+  }
+},
+{
+  "type": "way",
+  "id": 421852662,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Roma"
+  }
+},
+{
+  "type": "way",
+  "id": 421852663,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Fieschi"
+  }
+},
+{
+  "type": "way",
+  "id": 421852664,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Roma"
+  }
+},
+{
+  "type": "way",
+  "id": 445329157,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Mandelli"
+  }
+},
+{
+  "type": "way",
+  "id": 446176876,
+  "tags": {
+    "alt_name": "Piazza XXV Aprile",
+    "cycleway": "yes",
+    "highway": "unclassified",
+    "name": "Piazza Venticinque Aprile",
+    "oneway": "yes",
+    "short_name": "Piazza 25 Aprile",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 446176877,
+  "tags": {
+    "area": "yes",
+    "highway": "pedestrian",
+    "name": "Piazza Passadore"
+  }
+},
+{
+  "type": "way",
+  "id": 446176878,
+  "tags": {
+    "highway": "residential",
+    "name": "Via privata Camugin"
+  }
+},
+{
+  "type": "way",
+  "id": 446176879,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Cà di Costa"
+  }
+},
+{
+  "type": "way",
+  "id": 446176885,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Crocefieschi"
+  }
+},
+{
+  "type": "way",
+  "id": 446176887,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Chiosa"
+  }
+},
+{
+  "type": "way",
+  "id": 446176890,
+  "tags": {
+    "foot": "yes",
+    "highway": "footway",
+    "motor_vehicle": "destination",
+    "name": "Passo Fieschi"
+  }
+},
+{
+  "type": "way",
+  "id": 477094568,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "path",
+    "mtb:scale": "3",
+    "name": "Trail Ufo",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 503796446,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "primary",
+    "maxspeed": "90",
+    "name": "Strada Provinciale della Valle Scrivia",
+    "nat_name": "Strada Provinciale della Valle Scrivia",
+    "oneway": "no",
+    "ref": "SP226",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 503796447,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "primary",
+    "maxspeed": "90",
+    "name": "Strada Provinciale della Valle Scrivia",
+    "nat_name": "Strada Provinciale della Valle Scrivia",
+    "oneway": "no",
+    "ref": "SP226",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 503796448,
+  "tags": {
+    "cycleway": "proposed",
+    "highway": "unclassified",
+    "maxspeed": "50",
+    "name": "Via Padre Attilio Garrè",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 503796449,
+  "tags": {
+    "highway": "path",
+    "incline": "up",
+    "mtb:name": "Monte Capanna - Besolagno",
+    "mtb:scale": "1",
+    "name": "Variante Est Monte Capanne",
+    "sac_scale": "hiking",
+    "surface": "unpaved",
+    "trail_visibility": "excellent"
+  }
+},
+{
+  "type": "way",
+  "id": 546826035,
+  "tags": {
+    "highway": "service",
+    "name": "Via Seriallo"
+  }
+},
+{
+  "type": "way",
+  "id": 546826037,
+  "tags": {
+    "highway": "service",
+    "name": "Via Seriallo"
+  }
+},
+{
+  "type": "way",
+  "id": 546826045,
+  "tags": {
+    "highway": "service",
+    "name": "Via Niccolò Paganini"
+  }
+},
+{
+  "type": "way",
+  "id": 546826047,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Eugenio Montale"
+  }
+},
+{
+  "type": "way",
+  "id": 546826049,
+  "tags": {
+    "highway": "service",
+    "name": "Piazzale Chiesa"
+  }
+},
+{
+  "type": "way",
+  "id": 718301382,
+  "tags": {
+    "highway": "service",
+    "name": "Via Cà Nova"
+  }
+},
+{
+  "type": "way",
+  "id": 718301383,
+  "tags": {
+    "highway": "service",
+    "motor_vehicle": "customers",
+    "name": "Via Cà Nova",
+    "tunnel": "building_passage"
+  }
+},
+{
+  "type": "way",
+  "id": 718301384,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Cà Nova"
+  }
+},
+{
+  "type": "way",
+  "id": 770096455,
+  "tags": {
+    "bridge": "yes",
+    "highway": "unclassified",
+    "layer": "1",
+    "name": "Via Carpeneta"
+  }
+},
+{
+  "type": "way",
+  "id": 770096456,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Carpeneta"
+  }
+},
+{
+  "type": "way",
+  "id": 786096170,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "primary",
+    "junction": "roundabout",
+    "lanes": "1",
+    "name": "Strada Provinciale della Valle Scrivia",
+    "nat_name": "Strada Provinciale della Valle Scrivia",
+    "ref": "SP226",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 786096171,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "primary",
+    "name": "Strada Provinciale della Valle Scrivia",
+    "nat_name": "Strada Provinciale della Valle Scrivia",
+    "oneway": "yes",
+    "ref": "SP226",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 786096172,
+  "tags": {
+    "highway": "primary",
+    "maxspeed": "90",
+    "name": "Strada Provinciale della Valle Scrivia",
+    "nat_name": "Strada Provinciale della Valle Scrivia",
+    "oneway": "no",
+    "ref": "SP226",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 788198307,
+  "tags": {
+    "highway": "residential",
+    "maxspeed": "30",
+    "name": "Via Casettana",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 788198308,
+  "tags": {
+    "highway": "primary",
+    "junction": "roundabout",
+    "name": "Strada Provinciale della Valle Scrivia",
+    "nat_name": "Strada Provinciale della Valle Scrivia",
+    "ref": "SP226",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 788198309,
+  "tags": {
+    "highway": "secondary",
+    "name": "Via Pianogrande",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 788198310,
+  "tags": {
+    "highway": "primary",
+    "name": "Strada Provinciale della Valle Scrivia",
+    "nat_name": "Strada Provinciale della Valle Scrivia",
+    "oneway": "yes",
+    "ref": "SP226",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 788198311,
+  "tags": {
+    "highway": "primary",
+    "name": "Strada Provinciale della Valle Scrivia",
+    "nat_name": "Strada Provinciale della Valle Scrivia",
+    "oneway": "yes",
+    "ref": "SP226",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 788198314,
+  "tags": {
+    "highway": "primary",
+    "junction": "roundabout",
+    "name": "Strada Provinciale della Valle Scrivia",
+    "nat_name": "Strada Provinciale della Valle Scrivia",
+    "ref": "SP226",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 788198316,
+  "tags": {
+    "highway": "primary",
+    "junction": "roundabout",
+    "name": "Strada Provinciale della Valle Scrivia",
+    "nat_name": "Strada Provinciale della Valle Scrivia",
+    "ref": "SP226",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 788198318,
+  "tags": {
+    "highway": "primary",
+    "junction": "roundabout",
+    "name": "Strada Provinciale della Valle Scrivia",
+    "nat_name": "Strada Provinciale della Valle Scrivia",
+    "ref": "SP226",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 788198319,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "primary",
+    "name": "Strada Provinciale della Valle Scrivia",
+    "nat_name": "Strada Provinciale della Valle Scrivia",
+    "oneway": "yes",
+    "ref": "SP226",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 788198321,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "primary",
+    "junction": "roundabout",
+    "name": "Strada Provinciale della Valle Scrivia",
+    "nat_name": "Strada Provinciale della Valle Scrivia",
+    "ref": "SP226",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 788198325,
+  "tags": {
+    "highway": "footway",
+    "name": "Passo Fieschi"
+  }
+},
+{
+  "type": "way",
+  "id": 788198326,
+  "tags": {
+    "highway": "tertiary",
+    "lane_markings": "no",
+    "maxspeed": "50",
+    "name": "Via Vaccarezza",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 788198327,
+  "tags": {
+    "bridge": "yes",
+    "highway": "tertiary",
+    "layer": "1",
+    "maxspeed": "50",
+    "name": "Località Vaccarezza",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 788198330,
+  "tags": {
+    "highway": "tertiary",
+    "maxspeed": "40",
+    "name": "Via Vaccarezza",
+    "oneway": "no",
+    "ref": "SP61",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 993844773,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Roma",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1116248756,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Cà Nova"
+  }
+},
+{
+  "type": "way",
+  "id": 1116248757,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "secondary",
+    "name": "Via Pianogrande",
+    "ref": "SP3",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1182527876,
+  "tags": {
+    "highway": "path",
+    "incline": "up",
+    "mtb:scale": "0",
+    "name": "Variante Est Monte Capanne",
+    "sac_scale": "hiking",
+    "surface": "unpaved",
+    "trail_visibility": "excellent"
+  }
+},
+{
+  "type": "way",
+  "id": 1220997570,
+  "tags": {
+    "addr:city": "Casella",
+    "addr:housenumber": "4",
+    "addr:postcode": "16015",
+    "addr:street": "Via Aldo Moro",
+    "amenity": "school",
+    "contact:email": "geic82000v@istruzione.it",
+    "contact:phone": "+39 010 9677184",
+    "name": "Scuola secondaria di primo grado di Casella - Sede centrale",
+    "ref": "GEMM82001X"
+  }
+},
+{
+  "type": "way",
+  "id": 1227046925,
+  "tags": {
+    "highway": "service",
+    "name": "Via Grazia Deledda",
+    "service": "driveway"
+  }
+},
+{
+  "type": "way",
+  "id": 1312500978,
+  "tags": {
+    "highway": "tertiary",
+    "maxspeed": "30",
+    "name": "Via Casettana",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1317500095,
+  "tags": {
+    "cycleway": "proposed",
+    "highway": "unclassified",
+    "name": "Via Pratopriore",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1329771154,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Poggio"
+  }
+},
+{
+  "type": "way",
+  "id": 1416925983,
+  "tags": {
+    "highway": "tertiary",
+    "maxspeed": "40",
+    "name": "Via Vaccarezza",
+    "oneway": "no",
+    "ref": "SP61",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1416925984,
+  "tags": {
+    "bridge": "yes",
+    "highway": "tertiary",
+    "layer": "1",
+    "maxspeed": "40",
+    "name": "Via Vaccarezza",
+    "oneway": "no",
+    "ref": "SP61",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1447517182,
+  "tags": {
+    "highway": "primary",
+    "maxspeed": "90",
+    "name": "Strada Provinciale della Valle Scrivia",
+    "nat_name": "Strada Provinciale della Valle Scrivia",
+    "ref": "SP226",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1447517183,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Gilberto Govi",
+    "oneway": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 1447517184,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "primary",
+    "maxspeed": "90",
+    "name": "Strada Provinciale della Valle Scrivia",
+    "nat_name": "Strada Provinciale della Valle Scrivia",
+    "oneway": "no",
+    "ref": "SP226",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1468843482,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Aldo Moro",
+    "oneway": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 1469616436,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Moggia"
+  }
+},
+{
+  "type": "way",
+  "id": 1469616437,
+  "tags": {
+    "highway": "service",
+    "name": "Via Moggia"
+  }
+},
+{
+  "type": "way",
+  "id": 1527326400,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Pontassio",
+    "oneway": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 1554037815,
+  "tags": {
+    "bridge": "yes",
+    "highway": "residential",
+    "layer": "1",
+    "name": "Via Gilberto Govi",
+    "oneway": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 1554037816,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Gilberto Govi",
+    "oneway": "no"
+  }
+},
+{
+  "type": "relation",
+  "id": 6625129,
+  "tags": {
+    "leisure": "park",
+    "name": "Giardino Divisione Alpina Tauriense",
+    "opening_hours": "Mo-Su 08:00-18:00 \"ora solare\"; Mo-Su 07:00-20:00 \"ora legale\"",
+    "type": "multipolygon"
+  }
+}
+
+  ]
+}

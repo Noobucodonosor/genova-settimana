@@ -1,0 +1,1325 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-11-01T21:05:21Z",
+    "timestamp_areas_base": "2026-11-01T18:30:20Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 5337437266,
+  "tags": {
+    "amenity": "school",
+    "name": "Primaria",
+    "operator": "Istituto Comprensivo Valli e Carasco"
+  }
+},
+{
+  "type": "node",
+  "id": 5337437267,
+  "tags": {
+    "amenity": "school",
+    "description": "Scuola primaria di secondo grado",
+    "isced:level": "2",
+    "name": "Secondaria \"Luigi Bacigalupo\"",
+    "operator": "Istituto Comprensivo Valli e Carasco"
+  }
+},
+{
+  "type": "way",
+  "id": 26176061,
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Via Casali",
+    "ref": "SP33",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 28055784,
+  "tags": {
+    "alt_name": "SP26 di Valgraveglia",
+    "highway": "tertiary",
+    "name": "Via Mosto (lato fiume)/Via Don B Tiscornia (lato monte)",
+    "ref": "SP26",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 36913307,
+  "tags": {
+    "highway": "primary",
+    "name": "Strada statale 225 della Fontanabuona",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 36913308,
+  "tags": {
+    "highway": "primary",
+    "name": "Strada statale 225 della Fontanabuona",
+    "oneway": "no",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 52474301,
+  "tags": {
+    "access": "permissive",
+    "bicycle": "yes",
+    "bridge": "yes",
+    "cycleway": "yes",
+    "foot": "yes",
+    "highway": "cycleway",
+    "layer": "1",
+    "name": "Passerella ciclopedonale di San Giuseppe",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 52474843,
+  "tags": {
+    "highway": "unclassified",
+    "maxspeed": "30",
+    "name": "Via Vittorio Veneto"
+  }
+},
+{
+  "type": "way",
+  "id": 52475412,
+  "tags": {
+    "bridge": "yes",
+    "cycleway": "yes",
+    "highway": "unclassified",
+    "layer": "1",
+    "name": "Ponte Birago",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 52475415,
+  "tags": {
+    "bridge": "yes",
+    "cycleway": "yes",
+    "highway": "residential",
+    "layer": "1",
+    "maxweight": "5",
+    "maxwidth": "2.2",
+    "name": "Via Pontevecchio",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 53658247,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Conturli"
+  }
+},
+{
+  "type": "way",
+  "id": 53658362,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Silvio Rolando",
+    "oneway": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 60587886,
+  "tags": {
+    "bridge": "yes",
+    "highway": "primary",
+    "layer": "1",
+    "name": "Strada statale 225 della Fontanabuona",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 60587889,
+  "tags": {
+    "highway": "primary",
+    "junction": "roundabout",
+    "name": "Strada statale 225 della Fontanabuona",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 61604832,
+  "tags": {
+    "alt_name": "SP26 di Valgraveglia",
+    "highway": "secondary",
+    "name": "Strada provinciale della Valgraveglia",
+    "ref": "SP26",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 61604835,
+  "tags": {
+    "bridge": "yes",
+    "highway": "secondary",
+    "layer": "1",
+    "name": "Strada Provinciale di San Salvatore",
+    "oneway": "yes",
+    "ref": "SP33",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 61604845,
+  "tags": {
+    "alt_name": "SP26 di Valgraveglia",
+    "bridge": "yes",
+    "highway": "secondary",
+    "layer": "1",
+    "name": "Strada provinciale della Valgraveglia",
+    "ref": "SP26",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 61604846,
+  "tags": {
+    "bridge": "yes",
+    "highway": "secondary",
+    "lanes": "2",
+    "layer": "1",
+    "name": "Strada Provinciale di San Salvatore",
+    "ref": "SP33",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 89515621,
+  "tags": {
+    "highway": "primary",
+    "lanes": "1",
+    "name": "Strada statale 225 della Fontanabuona",
+    "oneway": "yes",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 89515646,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Via Montanaro Disma",
+    "nat_name": "Strada statale 225 della Fontanabuona",
+    "oneway": "no",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 89581248,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Pontevecchio",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 104255755,
+  "tags": {
+    "highway": "primary",
+    "name": "Strada statale 225 della Fontanabuona",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 182609392,
+  "tags": {
+    "highway": "primary",
+    "junction": "roundabout",
+    "name": "Strada statale 225 della Fontanabuona",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 182609394,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Roma",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 183364715,
+  "tags": {
+    "highway": "unclassified",
+    "maxlength": "8",
+    "name": "Via Piani",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 186897930,
+  "tags": {
+    "highway": "residential",
+    "maxlength": "8",
+    "maxspeed": "30",
+    "name": "Via Piani",
+    "oneway": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 186897932,
+  "tags": {
+    "highway": "residential",
+    "name": "Via alla chiesa",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 193290623,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "unclassified",
+    "name": "Via Loreto",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 193291245,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "secondary",
+    "name": "Via San Quirico",
+    "ref": "SP33",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 193291247,
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Via Prioria",
+    "ref": "SP33",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 195593199,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada Provinciale 42 di Romaggi",
+    "ref": "SP42",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 195593200,
+  "tags": {
+    "bridge": "yes",
+    "highway": "secondary",
+    "layer": "1",
+    "name": "Strada Provinciale 42 di Romaggi",
+    "ref": "SP42",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 204598784,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Strada statale 586 della Valle dell'Aveto",
+    "ref": "SS586",
+    "smoothness": "excellent",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 226530184,
+  "tags": {
+    "amenity": "school",
+    "building": "school",
+    "name": "Istituto Comprensivo Valli e Carasco",
+    "short_name": "I.C. Valli e Carasco",
+    "source": "Regione Liguria"
+  }
+},
+{
+  "type": "way",
+  "id": 226537130,
+  "tags": {
+    "building": "warehouse",
+    "leisure": "sports_centre",
+    "name": "Palestra",
+    "source": "Regione Liguria"
+  }
+},
+{
+  "type": "way",
+  "id": 238090424,
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "lit": "yes",
+    "name": "Via Nuova Provinciale",
+    "ref": "SP33",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 262898933,
+  "tags": {
+    "bridge": "yes",
+    "highway": "primary",
+    "layer": "1",
+    "name": "Strada statale 225 della Fontanabuona",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 312176039,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Antonio Mosto",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 355359367,
+  "tags": {
+    "leisure": "park",
+    "name": "Giardini di Via Piani"
+  }
+},
+{
+  "type": "way",
+  "id": 370661418,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Strada statale 586 della Valle dell'Aveto",
+    "ref": "SS586",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 370661419,
+  "tags": {
+    "highway": "primary",
+    "name": "Strada statale 586 della Valle dell'Aveto",
+    "ref": "SS586",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 370664116,
+  "tags": {
+    "bridge": "yes",
+    "layer": "1",
+    "man_made": "bridge",
+    "name": "Ponte Lino Gattorna e Claudio Rosasco"
+  }
+},
+{
+  "type": "way",
+  "id": 387831179,
+  "tags": {
+    "alt_name": "Via IV Novembre",
+    "highway": "residential",
+    "name": "Via Quattro Novembre",
+    "oneway": "yes",
+    "short_name": "Via 4 Novembre"
+  }
+},
+{
+  "type": "way",
+  "id": 431564846,
+  "tags": {
+    "highway": "secondary",
+    "junction": "roundabout",
+    "name": "Strada Provinciale di San Salvatore",
+    "ref": "SP33",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 431564847,
+  "tags": {
+    "bridge": "yes",
+    "highway": "secondary",
+    "layer": "1",
+    "name": "Strada Provinciale di San Salvatore",
+    "oneway": "yes",
+    "ref": "SP33",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 431564848,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada Provinciale di San Salvatore",
+    "oneway": "yes",
+    "ref": "SP33",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 431564849,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada Provinciale di San Salvatore",
+    "oneway": "yes",
+    "ref": "SP33",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 431564850,
+  "tags": {
+    "alt_name": "SP26 di Valgraveglia",
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Strada provinciale della Valgraveglia",
+    "ref": "SP26",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 431564852,
+  "tags": {
+    "alt_name": "SP26 di Valgraveglia",
+    "highway": "secondary",
+    "name": "Strada provinciale della Valgraveglia",
+    "oneway": "yes",
+    "ref": "SP26",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 431564853,
+  "tags": {
+    "alt_name": "SP26 di Valgraveglia",
+    "highway": "tertiary",
+    "name": "Strada provinciale della Valgraveglia",
+    "oneway": "yes",
+    "ref": "SP26",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 431564854,
+  "tags": {
+    "alt_name": "SP26 di Valgraveglia",
+    "highway": "secondary",
+    "name": "Strada provinciale della Valgraveglia",
+    "oneway": "yes",
+    "ref": "SP26",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 431564856,
+  "tags": {
+    "alt_name": "SP26 di Valgraveglia",
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Strada provinciale della Valgraveglia",
+    "ref": "SP26",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 431564857,
+  "tags": {
+    "alt_name": "SP26 di Valgraveglia",
+    "highway": "tertiary",
+    "name": "Strada provinciale della Valgraveglia",
+    "oneway": "yes",
+    "ref": "SP26",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 445227489,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "unclassified",
+    "name": "Via Loreto",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 531148759,
+  "tags": {
+    "highway": "service",
+    "name": "Via Vittorio Veneto"
+  }
+},
+{
+  "type": "way",
+  "id": 531148760,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Vittorio Veneto"
+  }
+},
+{
+  "type": "way",
+  "id": 531148761,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Privata Paradiso"
+  }
+},
+{
+  "type": "way",
+  "id": 531148762,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Vittorio Veneto"
+  }
+},
+{
+  "type": "way",
+  "id": 531148887,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Parma"
+  }
+},
+{
+  "type": "way",
+  "id": 531149149,
+  "tags": {
+    "highway": "secondary",
+    "name": "Variante di Settembrin",
+    "ref": "SP26",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 531149150,
+  "tags": {
+    "bridge": "yes",
+    "highway": "secondary",
+    "layer": "1",
+    "name": "Variante di Settembrin",
+    "ref": "SP26",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 531149151,
+  "tags": {
+    "highway": "secondary",
+    "name": "Variante di Settembrin",
+    "ref": "SP26",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 531149153,
+  "tags": {
+    "bridge": "yes",
+    "highway": "secondary",
+    "layer": "1",
+    "name": "Variante di Settembrin",
+    "ref": "SP26",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 531149154,
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Variante di Settembrin",
+    "ref": "SP26",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 589637539,
+  "tags": {
+    "bicycle": "no",
+    "foot": "yes",
+    "highway": "path",
+    "horse": "no",
+    "name": "Castello di Rivarola",
+    "ski": "no",
+    "snowmobile": "no",
+    "surface": "grass",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 589637540,
+  "tags": {
+    "highway": "residential",
+    "incline": "10%",
+    "name": "Via San Giuseppe",
+    "width": "3"
+  }
+},
+{
+  "type": "way",
+  "id": 596126908,
+  "tags": {
+    "bridge": "yes",
+    "cycleway": "yes",
+    "highway": "unclassified",
+    "layer": "1",
+    "name": "Ponte Birago",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 768732215,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Don Giuseppe Sannazzari"
+  }
+},
+{
+  "type": "way",
+  "id": 779032829,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Giuseppe Sannazzari"
+  }
+},
+{
+  "type": "way",
+  "id": 954579854,
+  "tags": {
+    "highway": "primary",
+    "name": "Via Montanaro Disma",
+    "nat_name": "Strada statale 225 della Fontanabuona",
+    "oneway": "no",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 954579855,
+  "tags": {
+    "highway": "primary",
+    "junction": "roundabout",
+    "name": "Via Montanaro Disma",
+    "nat_name": "Strada statale 225 della Fontanabuona",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1001531148,
+  "tags": {
+    "highway": "primary",
+    "name": "Via Montanaro Disma",
+    "nat_name": "Strada statale 225 della Fontanabuona",
+    "oneway": "yes",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1001531149,
+  "tags": {
+    "highway": "primary",
+    "name": "Via Montanaro Disma",
+    "nat_name": "Strada statale 225 della Fontanabuona",
+    "oneway": "yes",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1001531150,
+  "tags": {
+    "highway": "primary",
+    "name": "Via Montanaro Disma",
+    "nat_name": "Strada statale 225 della Fontanabuona",
+    "oneway": "yes",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1001531151,
+  "tags": {
+    "highway": "primary",
+    "name": "Via Montanaro Disma",
+    "nat_name": "Strada statale 225 della Fontanabuona",
+    "oneway": "yes",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1011046834,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Perazzo",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 1011046835,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Perazzo",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 1011046838,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Perazzo",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 1011046839,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Perazzo",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 1011046840,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Perazzo",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 1094401540,
+  "tags": {
+    "highway": "primary",
+    "name": "Via Comorga",
+    "nat_name": "Strada statale 225 della Fontanabuona",
+    "oneway": "no",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1227246350,
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "Circuito Kart Carasco",
+    "sport": "karting"
+  }
+},
+{
+  "type": "way",
+  "id": 1263989677,
+  "tags": {
+    "alt_name": "Via IV Novembre",
+    "highway": "residential",
+    "name": "Via Quattro Novembre",
+    "oneway": "yes",
+    "short_name": "Via 4 Novembre",
+    "tunnel": "building_passage"
+  }
+},
+{
+  "type": "way",
+  "id": 1263989678,
+  "tags": {
+    "alt_name": "Via IV Novembre",
+    "highway": "residential",
+    "name": "Via Quattro Novembre",
+    "oneway": "yes",
+    "short_name": "Via 4 Novembre",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1295724654,
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Variante di Settembrin",
+    "ref": "SP26",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1295724655,
+  "tags": {
+    "highway": "primary",
+    "name": "Strada statale 225 della Fontanabuona",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1295724657,
+  "tags": {
+    "highway": "primary",
+    "name": "Via Montanaro Disma",
+    "nat_name": "Strada statale 225 della Fontanabuona",
+    "oneway": "no",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1295724658,
+  "tags": {
+    "highway": "primary",
+    "name": "Strada statale 225 della Fontanabuona",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1356895397,
+  "tags": {
+    "highway": "primary",
+    "name": "Strada statale 225 della Fontanabuona",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1356895400,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Strada statale 225 della Fontanabuona",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1356895401,
+  "tags": {
+    "highway": "primary",
+    "name": "Strada statale 225 della Fontanabuona",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1356895402,
+  "tags": {
+    "highway": "primary",
+    "name": "Strada statale 225 della Fontanabuona",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1356895403,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Conturli"
+  }
+},
+{
+  "type": "way",
+  "id": 1356895404,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Conturli"
+  }
+},
+{
+  "type": "way",
+  "id": 1442307041,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Strada statale 225 della Fontanabuona",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1442307042,
+  "tags": {
+    "highway": "primary",
+    "lanes": "1",
+    "name": "Strada statale 225 della Fontanabuona",
+    "oneway": "yes",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1442307043,
+  "tags": {
+    "highway": "primary",
+    "lanes": "1",
+    "name": "Strada statale 586 della Valle dell'Aveto",
+    "ref": "SS586",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1442307044,
+  "tags": {
+    "highway": "primary",
+    "lanes": "1",
+    "name": "Strada statale 586 della Valle dell'Aveto",
+    "ref": "SS586",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1442307045,
+  "tags": {
+    "highway": "primary",
+    "lanes": "1",
+    "name": "Via Montanaro Disma",
+    "nat_name": "Strada statale 225 della Fontanabuona",
+    "oneway": "yes",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1442307046,
+  "tags": {
+    "highway": "primary",
+    "junction": "roundabout",
+    "name": "Strada statale 225 della Fontanabuona",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1442307047,
+  "tags": {
+    "highway": "primary",
+    "lanes": "1",
+    "name": "Via Montanaro Disma",
+    "nat_name": "Strada statale 225 della Fontanabuona",
+    "oneway": "yes",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1442307049,
+  "tags": {
+    "highway": "primary",
+    "junction": "roundabout",
+    "name": "Strada statale 225 della Fontanabuona",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1442307050,
+  "tags": {
+    "highway": "primary",
+    "junction": "roundabout",
+    "name": "Via Montanaro Disma",
+    "nat_name": "Strada statale 225 della Fontanabuona",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1442307051,
+  "tags": {
+    "highway": "primary",
+    "junction": "roundabout",
+    "name": "Via Montanaro Disma",
+    "nat_name": "Strada statale 225 della Fontanabuona",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1442307052,
+  "tags": {
+    "highway": "primary",
+    "junction": "roundabout",
+    "name": "Via Montanaro Disma",
+    "nat_name": "Strada statale 225 della Fontanabuona",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1442307053,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Strada statale 225 della Fontanabuona",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1446143459,
+  "tags": {
+    "highway": "primary",
+    "junction": "roundabout",
+    "name": "Strada statale 225 della Fontanabuona",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1446143460,
+  "tags": {
+    "highway": "primary",
+    "junction": "roundabout",
+    "name": "Strada statale 225 della Fontanabuona",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1458166824,
+  "tags": {
+    "highway": "primary",
+    "junction": "roundabout",
+    "name": "Strada statale 225 della Fontanabuona",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1459399959,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Strada statale 586 della Valle dell'Aveto",
+    "ref": "SS586",
+    "smoothness": "excellent",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1459933383,
+  "tags": {
+    "highway": "secondary",
+    "junction": "roundabout",
+    "name": "Strada Provinciale di San Salvatore",
+    "ref": "SP33",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1459933384,
+  "tags": {
+    "highway": "secondary",
+    "junction": "roundabout",
+    "name": "Strada Provinciale di San Salvatore",
+    "ref": "SP33",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1459933385,
+  "tags": {
+    "highway": "secondary",
+    "junction": "roundabout",
+    "name": "Strada Provinciale di San Salvatore",
+    "ref": "SP33",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1459933445,
+  "tags": {
+    "highway": "residential",
+    "name": "Località Canneto"
+  }
+},
+{
+  "type": "way",
+  "id": 1460304297,
+  "tags": {
+    "alt_name": "SP26 di Valgraveglia",
+    "highway": "tertiary",
+    "name": "Strada provinciale della Valgraveglia",
+    "oneway": "yes",
+    "ref": "SP26",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1460304313,
+  "tags": {
+    "highway": "secondary",
+    "junction": "roundabout",
+    "name": "Strada Provinciale di San Salvatore",
+    "ref": "SP33",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1460304358,
+  "tags": {
+    "highway": "secondary",
+    "junction": "roundabout",
+    "name": "Strada Provinciale di San Salvatore",
+    "ref": "SP33",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1467883003,
+  "tags": {
+    "highway": "primary",
+    "junction": "roundabout",
+    "name": "Strada statale 225 della Fontanabuona",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1471105896,
+  "tags": {
+    "highway": "primary",
+    "name": "Strada statale 225 della Fontanabuona",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1471105898,
+  "tags": {
+    "highway": "primary",
+    "name": "Strada statale 225 della Fontanabuona",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1471105899,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Perazzo",
+    "surface": "paved"
+  }
+}
+
+  ]
+}

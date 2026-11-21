@@ -1,0 +1,2513 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-11-01T20:04:20Z",
+    "timestamp_areas_base": "2026-11-01T12:51:03Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 1772866315,
+  "tags": {
+    "amenity": "townhall",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "internet_access:operator": "Vallicom",
+    "internet_access:ssid": "Busalla Comune",
+    "name": "Municipio Busalla"
+  }
+},
+{
+  "type": "node",
+  "id": 1985054898,
+  "tags": {
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "internet_access:operator": "Vallicom",
+    "internet_access:ssid": "Tennis Busalla",
+    "leisure": "sports_centre",
+    "name": "Tennis Club Busalla",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "node",
+  "id": 3396435846,
+  "tags": {
+    "amenity": "school",
+    "name": "Scuola Vito Scafidi",
+    "note": "Edificio nuovo al marzo 2015 non ancora su foto aeree"
+  }
+},
+{
+  "type": "node",
+  "id": 4442370144,
+  "tags": {
+    "name": "Museo del Territorio dell'Alta Valle Scrivia",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 5333050373,
+  "tags": {
+    "addr:housenumber": "13e",
+    "addr:street": "Via Pinan",
+    "leisure": "sports_centre",
+    "name": "Palestra Punto Uno Sport",
+    "phone": "+39 320 1854691",
+    "website": "palestrapuntouno.com"
+  }
+},
+{
+  "type": "node",
+  "id": 7473011367,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "healthcare:speciality": "clinic",
+    "name": "Clinica Veterinaria",
+    "operator": "Veterinary"
+  }
+},
+{
+  "type": "node",
+  "id": 10141177434,
+  "tags": {
+    "addr:city": "Busalla",
+    "addr:housenumber": "8",
+    "addr:street": "Piazza Luigi Malerba",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "ASL3 Busalla",
+    "operator": "ASL",
+    "operator:wikidata": "Q3631467"
+  }
+},
+{
+  "type": "node",
+  "id": 11378555533,
+  "tags": {
+    "addr:city": "Busalla",
+    "addr:housenumber": "1",
+    "addr:postcode": "16012",
+    "addr:street": "Via Chiappa",
+    "amenity": "library",
+    "name": "Biblioteca Bertha Von Suttner",
+    "opening_hours": "Mo-Fr 15:00-18:00; Th 09:00-12:00; Sa 09:00-12:00,15:00-18:00"
+  }
+},
+{
+  "type": "way",
+  "id": 10050704,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Largo Italia",
+    "nat_name": "Strada statale dei Giovi",
+    "ref": "SS35",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 16757884,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "layer": "-1",
+    "length": "1776",
+    "lit": "24/7",
+    "maxspeed": "110",
+    "name": "Autostrada dei Giovi - Serravalle",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes",
+    "tunnel": "yes",
+    "tunnel:name": "Galleria Giovi"
+  }
+},
+{
+  "type": "way",
+  "id": 19850850,
+  "tags": {
+    "highway": "primary",
+    "junction": "roundabout",
+    "name": "Strada Provinciale della Valle Scrivia",
+    "ref": "SP226",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 23549570,
+  "tags": {
+    "highway": "primary",
+    "name": "Piazza Cristoforo Colombo",
+    "oneway": "yes",
+    "ref": "SP9",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 23549610,
+  "tags": {
+    "highway": "primary",
+    "name": "Via Giuseppe Mazzini",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 23970082,
+  "tags": {
+    "highway": "primary",
+    "name": "Via Pietro Ratto",
+    "oneway": "yes",
+    "ref": "SP226",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 23970083,
+  "tags": {
+    "highway": "motorway_link",
+    "lanes": "1",
+    "maxspeed": "40",
+    "name": "A7 dir. Genova - Svincolo Busalla",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 24767629,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "A7 dir. Milano - Genova Bolzaneto/Busalla",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 25008018,
+  "tags": {
+    "alt_name": "A7 dir. Genova - Svincolo di Busalla",
+    "highway": "motorway_link",
+    "lanes": "2",
+    "maxspeed": "40",
+    "name": "A7 - Svincolo Busalla",
+    "oneway": "no",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 25008019,
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway_link",
+    "lanes": "1",
+    "layer": "1",
+    "maxspeed": "40",
+    "name": "A7 dir. Genova - Svincolo Busalla",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 25309736,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "layer": "-1",
+    "length": "910",
+    "lit": "24/7",
+    "maxspeed": "80",
+    "name": "Autostrada dei Giovi - Serravalle",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes",
+    "tunnel": "yes",
+    "tunnel:name": "Galleria Giovi"
+  }
+},
+{
+  "type": "way",
+  "id": 27032771,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "A7 dir. Milano - Busalla/Ronco Scrivia",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 27032785,
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "A7 dir. Genova - Ronco Scrivia/Busalla",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 27032788,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "lit": "no",
+    "name": "A7 dir. Genova - Genova Busalla/Bolzaneto",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 27032872,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Strada provinciale 53 della Bastia",
+    "oneway": "no",
+    "ref": "SP53",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 34665973,
+  "tags": {
+    "highway": "secondary",
+    "name": "Via Gino Suardi",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 38664970,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "layer": "-1",
+    "length": "1064",
+    "lit": "24/7",
+    "maxspeed": "110",
+    "name": "Galleria Boccardo",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 38665799,
+  "tags": {
+    "highway": "motorway_link",
+    "lanes": "1",
+    "maxspeed": "40",
+    "name": "A7 dir. Milano - Svincolo Busalla",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 38665800,
+  "tags": {
+    "highway": "motorway_link",
+    "lanes": "1",
+    "maxspeed": "40",
+    "name": "A7 dir. Genova - Svincolo di Busalla",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 38665801,
+  "tags": {
+    "highway": "motorway_link",
+    "lanes": "1",
+    "maxspeed": "40",
+    "name": "A7 dir Genova - Svincolo di Busalla",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 38665810,
+  "tags": {
+    "highway": "primary",
+    "name": "Via DIvisione Alpina Cuneense",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 41548374,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Seminella"
+  }
+},
+{
+  "type": "way",
+  "id": 58872680,
+  "tags": {
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Via Fontanelle",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 59221417,
+  "tags": {
+    "highway": "service",
+    "name": "Largo Milite Ignoto",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 61428029,
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "A7 dir. Milano - Genova Bolzaneto/Busalla",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 84252897,
+  "tags": {
+    "highway": "primary",
+    "name": "Via Giuseppe Mazzini",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 109854966,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Costalovaia"
+  }
+},
+{
+  "type": "way",
+  "id": 109854972,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Costalovaia"
+  }
+},
+{
+  "type": "way",
+  "id": 109887911,
+  "tags": {
+    "access": "yes",
+    "amenity": "parking",
+    "fee": "yes",
+    "highway": "residential",
+    "name": "Piazzale Genova",
+    "parking": "surface",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 109887914,
+  "tags": {
+    "name": "Piazza Enrico Macciò",
+    "place": "square",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 115556180,
+  "tags": {
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Via Carlo Navone",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 115556188,
+  "tags": {
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Via Carlo Navone",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 115556198,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Carlo Navone",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 161447058,
+  "tags": {
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Via Ottavio Grottin",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 161447060,
+  "tags": {
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Via Pratogrande Filanda",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 161542465,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Località Costalovaia"
+  }
+},
+{
+  "type": "way",
+  "id": 175899405,
+  "tags": {
+    "highway": "primary",
+    "name": "Largo Italia",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 185189357,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Natale Gallino"
+  }
+},
+{
+  "type": "way",
+  "id": 185424185,
+  "tags": {
+    "highway": "service",
+    "name": "Via della Chiesa",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 185424303,
+  "tags": {
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Via Maria Bonningher",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 185531035,
+  "tags": {
+    "highway": "residential",
+    "name": "Via alla Chiesa",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 185537850,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Pratogrande Filanda"
+  }
+},
+{
+  "type": "way",
+  "id": 185988833,
+  "tags": {
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Via Boccarda",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 186872139,
+  "tags": {
+    "highway": "path",
+    "name": "Sentiero Salvarezza-Semino",
+    "sac_scale": "hiking",
+    "surface": "dirt",
+    "trail_visibility": "good"
+  }
+},
+{
+  "type": "way",
+  "id": 187867125,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Giacomo Matteotti"
+  }
+},
+{
+  "type": "way",
+  "id": 187867129,
+  "tags": {
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Via San Giorgio",
+    "oneway": "yes",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 193288228,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Via Vittorio Veneto",
+    "nat_name": "Strada provinciale dei Giovi",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 193288789,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Fiumani"
+  }
+},
+{
+  "type": "way",
+  "id": 193288791,
+  "tags": {
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Via Fiumani",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 193288792,
+  "tags": {
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Via Ottavio Grottin",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 193288793,
+  "tags": {
+    "highway": "secondary",
+    "maxspeed": "50",
+    "name": "Viale Milite Ignoto",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 193289394,
+  "tags": {
+    "bridge": "yes",
+    "highway": "footway",
+    "layer": "1",
+    "motor_vehicle": "no",
+    "name": "Ponte Pietro Zuccarino",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 193865289,
+  "tags": {
+    "alt_name": "Via Dott. Giuseppe Levrero",
+    "highway": "unclassified",
+    "name": "Via Giuseppe Levrero",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 199997224,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Martiri di Voltaggio",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 204284799,
+  "tags": {
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Via Giacinto Macciò",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 204284800,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Giacinto Macciò"
+  }
+},
+{
+  "type": "way",
+  "id": 204284801,
+  "tags": {
+    "highway": "unclassified",
+    "layer": "-1",
+    "name": "Via Giacinto Macciò",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 204302967,
+  "tags": {
+    "amenity": "school",
+    "building": "yes",
+    "name": "Istituto Comprensivo di Busalla",
+    "source": "Regione Liguria",
+    "website": "www.icbusalla.it"
+  }
+},
+{
+  "type": "way",
+  "id": 207834292,
+  "tags": {
+    "highway": "residential",
+    "name": "Piazza Eugenio Marchese"
+  }
+},
+{
+  "type": "way",
+  "id": 207834300,
+  "tags": {
+    "highway": "residential",
+    "maxwidth": "2.1",
+    "name": "Via della Chiesa",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 207834301,
+  "tags": {
+    "highway": "residential",
+    "name": "Via della Pace"
+  }
+},
+{
+  "type": "way",
+  "id": 207834302,
+  "tags": {
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Via delle Viazze",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 207834303,
+  "tags": {
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Via delle Viazze",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 207834312,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Maria Bonningher",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 207834313,
+  "tags": {
+    "highway": "residential",
+    "name": "Via dell'Argine",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 207834320,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Pinan",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 221372510,
+  "tags": {
+    "highway": "path",
+    "name": "Ferrata Deanna Orlandini",
+    "sac_scale": "alpine_hiking"
+  }
+},
+{
+  "type": "way",
+  "id": 222889643,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Seminella"
+  }
+},
+{
+  "type": "way",
+  "id": 222889645,
+  "tags": {
+    "bridge": "yes",
+    "highway": "unclassified",
+    "layer": "1",
+    "name": "Via Seminella"
+  }
+},
+{
+  "type": "way",
+  "id": 222914709,
+  "tags": {
+    "highway": "residential",
+    "name": "Piazzale Genova",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 223123428,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "A7 dir. Milano - Busalla/Ronco Scrivia",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 262601420,
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "80",
+    "name": "A7 dir. Genova - Ronco Scrivia/Busalla",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 269739782,
+  "tags": {
+    "bridge": "yes",
+    "highway": "tertiary",
+    "layer": "1",
+    "maxspeed": "50",
+    "maxweight:signed": "no",
+    "name": "Via Papa Giovanni XXIII",
+    "oneway": "no",
+    "ref": "SP63",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 269739783,
+  "tags": {
+    "highway": "tertiary",
+    "maxspeed": "50",
+    "name": "Via Papa Giovanni XXIII",
+    "oneway": "no",
+    "ref": "SP63",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 274570761,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Via Vittorio Veneto",
+    "nat_name": "Strada statale dei Giovi",
+    "ref": "SS35",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 274570762,
+  "tags": {
+    "bridge": "yes",
+    "highway": "primary",
+    "lanes": "2",
+    "layer": "1",
+    "name": "Via Vittorio Veneto",
+    "nat_name": "Strada statale dei Giovi",
+    "ref": "SS35",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 274570763,
+  "tags": {
+    "alt_name": "Via XXV Aprile",
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Via Venticinque Aprile",
+    "oneway": "no",
+    "short_name": "Via 25 Aprile",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 274570764,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Via Vittorio Veneto",
+    "nat_name": "Strada statale dei Giovi",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 274570765,
+  "tags": {
+    "highway": "residential",
+    "name": "Salita Martiri del Turchino"
+  }
+},
+{
+  "type": "way",
+  "id": 274570772,
+  "tags": {
+    "highway": "residential",
+    "lane_markings": "yes",
+    "lanes": "1",
+    "name": "Piazza Emilio Borzino",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 274591814,
+  "tags": {
+    "area": "yes",
+    "highway": "pedestrian",
+    "name": "Giardinetti Goffredo Mameli",
+    "surface": "sett"
+  }
+},
+{
+  "type": "way",
+  "id": 274591815,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Largo Italia",
+    "nat_name": "Strada statale dei Giovi",
+    "ref": "SS35",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 274591816,
+  "tags": {
+    "name": "Piazza Luigi Malerba",
+    "place": "square"
+  }
+},
+{
+  "type": "way",
+  "id": 274591817,
+  "tags": {
+    "area": "yes",
+    "highway": "pedestrian",
+    "name": "Piazzetta Don Raffaele Storace",
+    "surface": "sett"
+  }
+},
+{
+  "type": "way",
+  "id": 274591818,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Strada di San Rocco",
+    "surface": "sett"
+  }
+},
+{
+  "type": "way",
+  "id": 274591819,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Bruzzo",
+    "oneway": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 274591820,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Luigi Nino Malerba",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 274591821,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Via Matteo Martignone"
+  }
+},
+{
+  "type": "way",
+  "id": 274591822,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Migliarese"
+  }
+},
+{
+  "type": "way",
+  "id": 274591824,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via della Libertà"
+  }
+},
+{
+  "type": "way",
+  "id": 274591829,
+  "tags": {
+    "alt_name": "Via Fraconalto",
+    "highway": "footway",
+    "name": "Strada a Fraconalto",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 274591832,
+  "tags": {
+    "bridge": "yes",
+    "highway": "unclassified",
+    "layer": "1",
+    "name": "Via Ottavio Grottin",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 274591834,
+  "tags": {
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Via Ottavio Grottin",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 274591835,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Ottavio Grottin",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 274594796,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Milano",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 274594797,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Franzante",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 274594798,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Giulio La Piana"
+  }
+},
+{
+  "type": "way",
+  "id": 281423003,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "lit": "no",
+    "maxspeed": "100",
+    "name": "A7 dir. Genova - Ronco Scrivia/Busalla",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 288165226,
+  "tags": {
+    "bridge": "yes",
+    "highway": "secondary",
+    "layer": "1",
+    "name": "Strada provinciale 9 di Crocefieschi",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 288165227,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada provinciale 9 di Crocefieschi",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 307216399,
+  "tags": {
+    "highway": "primary",
+    "name": "Via Giuseppe Mazzini",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 317794446,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Costalovaia"
+  }
+},
+{
+  "type": "way",
+  "id": 317794450,
+  "tags": {
+    "bridge": "yes",
+    "highway": "unclassified",
+    "layer": "1",
+    "name": "Via Costalovaia"
+  }
+},
+{
+  "type": "way",
+  "id": 332171646,
+  "tags": {
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Via Guido Rossa",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 332171647,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Guido Rossa"
+  }
+},
+{
+  "type": "way",
+  "id": 332171648,
+  "tags": {
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Via Guido Rossa",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 334699674,
+  "tags": {
+    "highway": "primary",
+    "maxspeed": "50",
+    "name": "Località Birra",
+    "nat_name": "Strada Provinciale della Valle Scrivia",
+    "ref": "SP226",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 334717402,
+  "tags": {
+    "highway": "tertiary",
+    "lane_markings": "no",
+    "maxspeed": "50",
+    "name": "Località Ronchetto",
+    "ref": "SP63",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 345304705,
+  "tags": {
+    "leisure": "park",
+    "name": "Parco Pubblico di Villa Borzino"
+  }
+},
+{
+  "type": "way",
+  "id": 345308115,
+  "tags": {
+    "highway": "residential",
+    "maxspeed": "30",
+    "name": "Via Maria Bonningher",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 345308116,
+  "tags": {
+    "highway": "residential",
+    "motor_vehicle": "no",
+    "name": "Via Maria Bonningher",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 345308117,
+  "tags": {
+    "highway": "residential",
+    "maxspeed": "30",
+    "name": "Via Giacinto Macciò",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 370046419,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "A7 dir. Milano - Busalla/Ronco Scrivia",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 401769339,
+  "tags": {
+    "highway": "residential",
+    "name": "Via alla Vittoria",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 403822884,
+  "tags": {
+    "highway": "primary",
+    "name": "Via Pietro Ratto",
+    "oneway": "yes",
+    "ref": "SP226",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 409265601,
+  "tags": {
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Via Fiumani",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 409558979,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Piazzale Luigi Bertolini"
+  }
+},
+{
+  "type": "way",
+  "id": 444915369,
+  "tags": {
+    "highway": "residential",
+    "name": "Vico della Fornace",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 445449519,
+  "tags": {
+    "highway": "residential",
+    "maxheight": "2",
+    "name": "Via Fiumani",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 445449520,
+  "tags": {
+    "highway": "unclassified",
+    "layer": "-1",
+    "name": "Via dell'Argine",
+    "oneway": "yes",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 445449521,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via dell'Argine",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 465875417,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Boccarda"
+  }
+},
+{
+  "type": "way",
+  "id": 481573616,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Dovese"
+  }
+},
+{
+  "type": "way",
+  "id": 486759971,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "residential",
+    "name": "Via al Castello",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 503860539,
+  "tags": {
+    "highway": "residential",
+    "name": "Piazza Giuseppe Garibaldi"
+  }
+},
+{
+  "type": "way",
+  "id": 511054962,
+  "tags": {
+    "highway": "motorway_link",
+    "lanes": "1",
+    "maxspeed": "40",
+    "name": "A7 dir. Genova - Svincolo Busalla",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 542756874,
+  "tags": {
+    "highway": "residential",
+    "name": "Via alla Chiesa"
+  }
+},
+{
+  "type": "way",
+  "id": 542756875,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Chiappa"
+  }
+},
+{
+  "type": "way",
+  "id": 560672642,
+  "tags": {
+    "highway": "residential",
+    "name": "Via al Convento"
+  }
+},
+{
+  "type": "way",
+  "id": 590055144,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Dei Costa",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 617513893,
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "A7 dir. Milano - Busalla/Ronco Scrivia",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 617513894,
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway_link",
+    "lanes": "1",
+    "layer": "1",
+    "maxspeed": "40",
+    "name": "A7 dir. Milano - Svincolo Busalla",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 617513895,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "lit": "no",
+    "maxspeed": "80",
+    "name": "A7 dir. Genova - Ronco Scrivia/Busalla",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 617513896,
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "80",
+    "name": "A7 dir. Genova - Busalla/ Genova Bolzaneto",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 617513897,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "A7 dir. Milano - Genova Bolzaneto/Busalla",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 617513898,
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "A7 dir. Genova - Ronco Scrivia/Busalla",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 617513899,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "A7 dir. Milano - Busalla/Ronco Scrivia",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 617513900,
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "Viadotto Scrivia",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 617513901,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "A7 dir. Genova - Ronco Scrivia/Busalla",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 617513902,
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "Viadotto Scrivia",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 617513906,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "A7 dir. Milano - Busalla/Ronco Scrivia",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 617513907,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "A7 dir. Genova - Ronco Scrivia/Busalla",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 617513908,
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "A7 dir. Milano - Busalla/Ronco Scrivia",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 662318010,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Via Giuseppe Mazzini",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 669677027,
+  "tags": {
+    "highway": "tertiary",
+    "lane_markings": "no",
+    "name": "Piazza Giovanni Agosti",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 669985307,
+  "tags": {
+    "highway": "service",
+    "name": "Via al Castello",
+    "service": "alley"
+  }
+},
+{
+  "type": "way",
+  "id": 669985311,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Castelletto"
+  }
+},
+{
+  "type": "way",
+  "id": 669985313,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Via Roma",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 669985316,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Cascine",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 669985319,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Martiri del Turchino",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 669989335,
+  "tags": {
+    "alt_name": "Strada statale dei Giovi",
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Corso Trento e Trieste",
+    "oneway": "no",
+    "ref": "SS35",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 669989336,
+  "tags": {
+    "highway": "tertiary",
+    "lanes": "2",
+    "name": "Via Pinan",
+    "ref": "SP53",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 670004101,
+  "tags": {
+    "highway": "residential",
+    "name": "Via dei Villini"
+  }
+},
+{
+  "type": "way",
+  "id": 680114751,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Quarasi"
+  }
+},
+{
+  "type": "way",
+  "id": 683535491,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Torino",
+    "source": "digitalglobe"
+  }
+},
+{
+  "type": "way",
+  "id": 683535493,
+  "tags": {
+    "highway": "residential",
+    "name": "Via De Ferrari"
+  }
+},
+{
+  "type": "way",
+  "id": 684402777,
+  "tags": {
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Via Boccarda",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 684402781,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Luigi Frugone",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 684402785,
+  "tags": {
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Via Bergamina",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 684402789,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Via Roma",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 684402792,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Seminella"
+  }
+},
+{
+  "type": "way",
+  "id": 684402795,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Serrocroso"
+  }
+},
+{
+  "type": "way",
+  "id": 684402801,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Viale della Rimembranza",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 684402810,
+  "tags": {
+    "highway": "footway",
+    "name": "Vico Vicinale"
+  }
+},
+{
+  "type": "way",
+  "id": 809459882,
+  "tags": {
+    "highway": "track",
+    "layer": "-1",
+    "name": "Passeggiata Fabrizio de Andrè"
+  }
+},
+{
+  "type": "way",
+  "id": 809461225,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Maria Bonningher",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 809943821,
+  "tags": {
+    "highway": "footway",
+    "layer": "-1",
+    "name": "Vico della Fornace",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1016080213,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via della Libertà"
+  }
+},
+{
+  "type": "way",
+  "id": 1016080214,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via della Libertà"
+  }
+},
+{
+  "type": "way",
+  "id": 1016080215,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Martiri di Voltaggio",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1016080216,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Martiri del Turchino",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1040123107,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Bruzzo"
+  }
+},
+{
+  "type": "way",
+  "id": 1040123108,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Bruzzo"
+  }
+},
+{
+  "type": "way",
+  "id": 1040123109,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Bruzzo"
+  }
+},
+{
+  "type": "way",
+  "id": 1040124385,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Giulio La Piana"
+  }
+},
+{
+  "type": "way",
+  "id": 1040202176,
+  "tags": {
+    "highway": "residential",
+    "name": "Via al Convento"
+  }
+},
+{
+  "type": "way",
+  "id": 1040202177,
+  "tags": {
+    "highway": "residential",
+    "name": "Via al Convento"
+  }
+},
+{
+  "type": "way",
+  "id": 1040202178,
+  "tags": {
+    "bridge": "yes",
+    "highway": "residential",
+    "layer": "1",
+    "name": "Via al Convento"
+  }
+},
+{
+  "type": "way",
+  "id": 1092031342,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Giacinto Macciò",
+    "surface": "fine_gravel"
+  }
+},
+{
+  "type": "way",
+  "id": 1092031345,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Giacinto Macciò",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1092031346,
+  "tags": {
+    "highway": "footway",
+    "motor_vehicle": "no",
+    "name": "Via Maria Bonningher",
+    "surface": "ground"
+  }
+},
+{
+  "type": "way",
+  "id": 1092031353,
+  "tags": {
+    "highway": "residential",
+    "maxspeed": "30",
+    "name": "Via Maria Bonningher",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1092031354,
+  "tags": {
+    "highway": "residential",
+    "maxspeed": "30",
+    "name": "Via Maria Bonningher",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1092031355,
+  "tags": {
+    "highway": "unclassified",
+    "lanes": "2",
+    "name": "Via Giacinto Macciò",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1092031356,
+  "tags": {
+    "highway": "unclassified",
+    "lanes": "2",
+    "name": "Via Giacinto Macciò",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1092031357,
+  "tags": {
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Viale della Rimembranza",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1092031359,
+  "tags": {
+    "highway": "tertiary",
+    "lane_markings": "no",
+    "name": "Strada provinciale 53 della Bastia",
+    "oneway": "no",
+    "ref": "SP53",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1092031361,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Strada provinciale 53 della Bastia",
+    "oneway": "no",
+    "ref": "SP53",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1092032017,
+  "tags": {
+    "highway": "residential",
+    "lane_markings": "no",
+    "name": "Via Giacinto Macciò",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1092032019,
+  "tags": {
+    "highway": "residential",
+    "lane_markings": "no",
+    "name": "Via Giacinto Macciò",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1102501459,
+  "tags": {
+    "highway": "footway",
+    "name": "Via San Giorgio"
+  }
+},
+{
+  "type": "way",
+  "id": 1102501460,
+  "tags": {
+    "highway": "footway",
+    "name": "Via San Giorgio"
+  }
+},
+{
+  "type": "way",
+  "id": 1102501461,
+  "tags": {
+    "highway": "footway",
+    "name": "Via San Giorgio"
+  }
+},
+{
+  "type": "way",
+  "id": 1108297297,
+  "tags": {
+    "highway": "residential",
+    "name": "Via alla Chiesa",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 1208587862,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "lit": "no",
+    "maxspeed": "100",
+    "name": "A7 dir. Genova - Ronco Scrivia/Busalla",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1208587863,
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "100",
+    "name": "Autostrada dei Giovi - Serravalle",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1208587864,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "A7 dir. Milano - Busalla/Ronco Scrivia",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1208587865,
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "int_ref": "E 62",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "Autostrada dei Giovi - Serravalle",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A7",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1228293832,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Strada statale 35 dei Giovi",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1228295435,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "90",
+    "name": "Strada statale 35 dei Giovi",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1262374909,
+  "tags": {
+    "highway": "residential",
+    "name": "Passeggiata Fabrizio de Andrè"
+  }
+},
+{
+  "type": "way",
+  "id": 1262374916,
+  "tags": {
+    "highway": "residential",
+    "name": "Passeggiata Fabrizio de Andrè"
+  }
+},
+{
+  "type": "way",
+  "id": 1447517185,
+  "tags": {
+    "highway": "primary",
+    "junction": "roundabout",
+    "name": "Strada Provinciale della Valle Scrivia",
+    "ref": "SP226",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1455529556,
+  "tags": {
+    "highway": "residential",
+    "lane_markings": "yes",
+    "lanes": "1",
+    "name": "Piazza Emilio Borzino",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1458772788,
+  "tags": {
+    "highway": "residential",
+    "name": "Via alla Chiesa",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1458777201,
+  "tags": {
+    "alt_name": "Via Fraconalto",
+    "highway": "residential",
+    "name": "Strada a Fraconalto"
+  }
+},
+{
+  "type": "way",
+  "id": 1459100115,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Via Vittorio Veneto",
+    "nat_name": "Strada provinciale dei Giovi",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1459356573,
+  "tags": {
+    "highway": "secondary",
+    "maxspeed": "50",
+    "name": "Viale Milite Ignoto",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1459356574,
+  "tags": {
+    "highway": "secondary",
+    "maxspeed": "50",
+    "name": "Viale Milite Ignoto",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1459356576,
+  "tags": {
+    "highway": "primary",
+    "name": "Via Pietro Ratto",
+    "oneway": "yes",
+    "ref": "SP226",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1459356577,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Largo Italia",
+    "nat_name": "Strada statale dei Giovi",
+    "ref": "SS35",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1468843479,
+  "tags": {
+    "highway": "motorway_link",
+    "lanes": "1",
+    "maxspeed": "40",
+    "name": "A7 - Svincolo Busalla",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1468843480,
+  "tags": {
+    "highway": "primary",
+    "junction": "roundabout",
+    "name": "Strada Provinciale della Valle Scrivia",
+    "ref": "SP226",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1468843481,
+  "tags": {
+    "highway": "primary",
+    "junction": "roundabout",
+    "name": "Strada Provinciale della Valle Scrivia",
+    "ref": "SP226",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1469574682,
+  "tags": {
+    "highway": "primary",
+    "junction": "roundabout",
+    "name": "Strada Provinciale della Valle Scrivia",
+    "ref": "SP226",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1472971631,
+  "tags": {
+    "highway": "secondary",
+    "maxspeed": "50",
+    "name": "Viale Milite Ignoto",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1496834615,
+  "tags": {
+    "highway": "footway",
+    "name": "Strada del Buon Consiglio"
+  }
+},
+{
+  "type": "way",
+  "id": 1496844643,
+  "tags": {
+    "highway": "residential",
+    "name": "Via De Ferrari"
+  }
+},
+{
+  "type": "way",
+  "id": 1539907411,
+  "tags": {
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Via della Chiesa",
+    "surface": "asphalt"
+  }
+}
+
+  ]
+}

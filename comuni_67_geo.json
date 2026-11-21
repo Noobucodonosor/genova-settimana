@@ -1,0 +1,404 @@
+{
+  "Genova": {
+    "name": "Genova",
+    "lat": 44.40722,
+    "lon": 8.93389,
+    "elev": 20.0
+  },
+  "Sestri Levante": {
+    "name": "Sestri Levante",
+    "lat": 44.27333,
+    "lon": 9.39324,
+    "elev": 10.0
+  },
+  "Rapallo": {
+    "name": "Rapallo",
+    "lat": 44.35,
+    "lon": 9.23333,
+    "elev": 9.0
+  },
+  "Zoagli": {
+    "name": "Zoagli",
+    "lat": 44.33697,
+    "lon": 9.26709,
+    "elev": 17.0
+  },
+  "Portofino": {
+    "name": "Portofino",
+    "lat": 44.30424,
+    "lon": 9.20716,
+    "elev": 18.0
+  },
+  "Arenzano": {
+    "name": "Arenzano",
+    "lat": 44.40353,
+    "lon": 8.68271,
+    "elev": 6.0
+  },
+  "Cogoleto": {
+    "name": "Cogoleto",
+    "lat": 44.38957,
+    "lon": 8.64618,
+    "elev": 4.0
+  },
+  "Mele": {
+    "name": "Mele",
+    "lat": 44.4455,
+    "lon": 8.74794,
+    "elev": 125.0
+  },
+  "Campo Ligure": {
+    "name": "Campo Ligure",
+    "lat": 44.53809,
+    "lon": 8.69779,
+    "elev": 342.0
+  },
+  "Masone": {
+    "name": "Masone",
+    "lat": 44.50356,
+    "lon": 8.71195,
+    "elev": 406.0
+  },
+  "Rossiglione": {
+    "name": "Rossiglione",
+    "lat": 44.56667,
+    "lon": 8.66667,
+    "elev": 300.0
+  },
+  "Campomorone": {
+    "name": "Campomorone",
+    "lat": 44.50689,
+    "lon": 8.8918,
+    "elev": 118.0
+  },
+  "Ceranesi": {
+    "name": "Ceranesi",
+    "lat": 44.50835,
+    "lon": 8.88396,
+    "elev": 80.0
+  },
+  "Mignanego": {
+    "name": "Mignanego",
+    "lat": 44.52782,
+    "lon": 8.91519,
+    "elev": 150.0
+  },
+  "Serra Riccò": {
+    "name": "Serra Riccò",
+    "lat": 44.50776,
+    "lon": 8.93595,
+    "elev": 187.0
+  },
+  "Sant'Olcese": {
+    "name": "Sant'Olcese",
+    "lat": 44.48339,
+    "lon": 8.93523,
+    "elev": 300.0
+  },
+  "Busalla": {
+    "name": "Busalla",
+    "lat": 44.57104,
+    "lon": 8.94534,
+    "elev": 358.0
+  },
+  "Casella": {
+    "name": "Casella",
+    "lat": 44.53476,
+    "lon": 8.99886,
+    "elev": 410.0
+  },
+  "Crocefieschi": {
+    "name": "Crocefieschi",
+    "lat": 44.58463,
+    "lon": 9.02347,
+    "elev": 742.0
+  },
+  "Isola del Cantone": {
+    "name": "Isola del Cantone",
+    "lat": 44.64614,
+    "lon": 8.95686,
+    "elev": 296.0
+  },
+  "Montoggio": {
+    "name": "Montoggio",
+    "lat": 44.51514,
+    "lon": 9.04361,
+    "elev": 438.0
+  },
+  "Ronco Scrivia": {
+    "name": "Ronco Scrivia",
+    "lat": 44.60821,
+    "lon": 8.95517,
+    "elev": 334.0
+  },
+  "Savignone": {
+    "name": "Savignone",
+    "lat": 44.56393,
+    "lon": 8.98865,
+    "elev": 500.0
+  },
+  "Valbrevenna": {
+    "name": "Valbrevenna",
+    "lat": 44.56058,
+    "lon": 9.0916,
+    "elev": 533.0
+  },
+  "Vobbia": {
+    "name": "Vobbia",
+    "lat": 44.59938,
+    "lon": 9.04003,
+    "elev": 477.0
+  },
+  "Tiglieto": {
+    "name": "Tiglieto",
+    "lat": 44.52496,
+    "lon": 8.61981,
+    "elev": 500.0
+  },
+  "Bargagli": {
+    "name": "Bargagli",
+    "lat": 44.44448,
+    "lon": 9.08857,
+    "elev": 341.0
+  },
+  "Davagna": {
+    "name": "Davagna",
+    "lat": 44.46694,
+    "lon": 9.08986,
+    "elev": 516.0
+  },
+  "Fascia": {
+    "name": "Fascia",
+    "lat": 44.5659,
+    "lon": 9.2376,
+    "elev": 900.0
+  },
+  "Fontanigorda": {
+    "name": "Fontanigorda",
+    "lat": 44.54657,
+    "lon": 9.30474,
+    "elev": 800.0
+  },
+  "Gorreto": {
+    "name": "Gorreto",
+    "lat": 44.60607,
+    "lon": 9.29243,
+    "elev": 533.0
+  },
+  "Montebruno": {
+    "name": "Montebruno",
+    "lat": 44.52598,
+    "lon": 9.24901,
+    "elev": 655.0
+  },
+  "Propata": {
+    "name": "Propata",
+    "lat": 44.5647,
+    "lon": 9.18488,
+    "elev": 990.0
+  },
+  "Rondanina": {
+    "name": "Rondanina",
+    "lat": 44.5624,
+    "lon": 9.21774,
+    "elev": 981.0
+  },
+  "Rovegno": {
+    "name": "Rovegno",
+    "lat": 44.57587,
+    "lon": 9.27884,
+    "elev": 658.0
+  },
+  "Torriglia": {
+    "name": "Torriglia",
+    "lat": 44.51873,
+    "lon": 9.15798,
+    "elev": 769.0
+  },
+  "Avegno": {
+    "name": "Avegno",
+    "lat": 44.38233,
+    "lon": 9.15865,
+    "elev": 34.0
+  },
+  "Bogliasco": {
+    "name": "Bogliasco",
+    "lat": 44.37824,
+    "lon": 9.06979,
+    "elev": 25.0
+  },
+  "Camogli": {
+    "name": "Camogli",
+    "lat": 44.3484,
+    "lon": 9.15576,
+    "elev": 32.0
+  },
+  "Pieve Ligure": {
+    "name": "Pieve Ligure",
+    "lat": 44.37481,
+    "lon": 9.0866,
+    "elev": 168.0
+  },
+  "Sori": {
+    "name": "Sori",
+    "lat": 44.37269,
+    "lon": 9.10423,
+    "elev": 14.0
+  },
+  "Recco": {
+    "name": "Recco",
+    "lat": 44.36209,
+    "lon": 9.14348,
+    "elev": 5.0
+  },
+  "Uscio": {
+    "name": "Uscio",
+    "lat": 44.4132,
+    "lon": 9.16296,
+    "elev": 361.0
+  },
+  "Lavagna": {
+    "name": "Lavagna",
+    "lat": 44.31215,
+    "lon": 9.34171,
+    "elev": 6.0
+  },
+  "Chiavari": {
+    "name": "Chiavari",
+    "lat": 44.31641,
+    "lon": 9.32374,
+    "elev": 5.0
+  },
+  "Santa Margherita Ligure": {
+    "name": "Santa Margherita Ligure",
+    "lat": 44.33493,
+    "lon": 9.21012,
+    "elev": 13.0
+  },
+  "Moneglia": {
+    "name": "Moneglia",
+    "lat": 44.23862,
+    "lon": 9.49028,
+    "elev": 4.0
+  },
+  "Rezzoaglio": {
+    "name": "Rezzoaglio",
+    "lat": 44.52626,
+    "lon": 9.38665,
+    "elev": 700.0
+  },
+  "Santo Stefano d'Aveto": {
+    "name": "Santo Stefano d'Aveto",
+    "lat": 44.54772,
+    "lon": 9.45073,
+    "elev": 1012.0
+  },
+  "Borzonasca": {
+    "name": "Borzonasca",
+    "lat": 44.42213,
+    "lon": 9.38706,
+    "elev": 167.0
+  },
+  "Mezzanego": {
+    "name": "Mezzanego",
+    "lat": 44.38369,
+    "lon": 9.37729,
+    "elev": 83.0
+  },
+  "Casarza Ligure": {
+    "name": "Casarza Ligure",
+    "lat": 44.27472,
+    "lon": 9.45342,
+    "elev": 34.0
+  },
+  "Castiglione Chiavarese": {
+    "name": "Castiglione Chiavarese",
+    "lat": 44.27451,
+    "lon": 9.51364,
+    "elev": 271.0
+  },
+  "Carasco": {
+    "name": "Carasco",
+    "lat": 44.35172,
+    "lon": 9.34412,
+    "elev": 26.0
+  },
+  "Cicagna": {
+    "name": "Cicagna",
+    "lat": 44.40854,
+    "lon": 9.23633,
+    "elev": 88.0
+  },
+  "Cogorno": {
+    "name": "Cogorno",
+    "lat": 44.33308,
+    "lon": 9.37246,
+    "elev": 38.0
+  },
+  "Coreglia Ligure": {
+    "name": "Coreglia Ligure",
+    "lat": 44.39188,
+    "lon": 9.26751,
+    "elev": 65.0
+  },
+  "Favale di Malvaro": {
+    "name": "Favale di Malvaro",
+    "lat": 44.452,
+    "lon": 9.25791,
+    "elev": 320.0
+  },
+  "Leivi": {
+    "name": "Leivi",
+    "lat": 44.34571,
+    "lon": 9.31901,
+    "elev": 118.0
+  },
+  "Lorsica": {
+    "name": "Lorsica",
+    "lat": 44.42951,
+    "lon": 9.26786,
+    "elev": 383.0
+  },
+  "Lumarzo": {
+    "name": "Lumarzo",
+    "lat": 44.44353,
+    "lon": 9.13724,
+    "elev": 325.0
+  },
+  "Moconesi": {
+    "name": "Moconesi",
+    "lat": 44.41984,
+    "lon": 9.21236,
+    "elev": 129.0
+  },
+  "Neirone": {
+    "name": "Neirone",
+    "lat": 44.45429,
+    "lon": 9.19086,
+    "elev": 350.0
+  },
+  "Orero": {
+    "name": "Orero",
+    "lat": 44.40684,
+    "lon": 9.27415,
+    "elev": 438.0
+  },
+  "San Colombano Certenoli": {
+    "name": "San Colombano Certenoli",
+    "lat": 44.37176,
+    "lon": 9.31162,
+    "elev": 40.0
+  },
+  "Tribogna": {
+    "name": "Tribogna",
+    "lat": 44.41636,
+    "lon": 9.19591,
+    "elev": 330.0
+  },
+  "Ne": {
+    "name": "Ne",
+    "lat": 44.34452,
+    "lon": 9.39855,
+    "elev": 68.0
+  }
+}

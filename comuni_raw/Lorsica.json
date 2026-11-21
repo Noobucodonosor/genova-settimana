@@ -1,0 +1,210 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-11-01T20:26:49Z",
+    "timestamp_areas_base": "2026-11-01T18:30:20Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 7816070235,
+  "tags": {
+    "artist_name": "Associazione Nazionale Partigiani d'Italia",
+    "historic": "memorial",
+    "inscription": "Il 13 agosto 1944 trucidati con piombo fascista Cas Grande Francesco - Garbarino Nazareno - Musante Luigi unirono il loro sacrificio nel nome sacro della libertà ....",
+    "name": "13 agosto 1944",
+    "start_date": "1975"
+  }
+},
+{
+  "type": "way",
+  "id": 21341847,
+  "tags": {
+    "highway": "tertiary",
+    "name": "SP 24 di Lorsica",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 69218548,
+  "tags": {
+    "highway": "tertiary",
+    "name": "SP 24 di Lorsica",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 204753591,
+  "tags": {
+    "amenity": "school",
+    "name": "Scuola Primaria di Lorsica",
+    "source": "Regione Liguria"
+  }
+},
+{
+  "type": "way",
+  "id": 318376866,
+  "tags": {
+    "bridge": "yes",
+    "highway": "tertiary",
+    "layer": "1",
+    "name": "SP 24 di Lorsica",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 318376883,
+  "tags": {
+    "highway": "tertiary",
+    "name": "SP 24 di Lorsica",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 345202592,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada Provinciale di Barbagelata",
+    "ref": "SP56",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 345202594,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada Provinciale di Barbagelata",
+    "ref": "SP56",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 498840487,
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Strada Provinciale della Scoglina",
+    "ref": "SP23",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 498845026,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada Provinciale di Barbagelata",
+    "ref": "SP56",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 499144474,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada Provinciale di Barbagelata",
+    "ref": "SP56",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 499928313,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "path",
+    "mountain_pass": "yes",
+    "name": "Passo della Rocca",
+    "sac_scale": "mountain_hiking",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 712970198,
+  "tags": {
+    "highway": "path",
+    "name": "Per pian della Berta"
+  }
+},
+{
+  "type": "way",
+  "id": 726766976,
+  "tags": {
+    "highway": "path",
+    "name": "Pian della berta"
+  }
+},
+{
+  "type": "way",
+  "id": 726766977,
+  "tags": {
+    "highway": "path",
+    "name": "Pian della berta"
+  }
+},
+{
+  "type": "way",
+  "id": 1016526364,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada Provinciale di Barbagelata",
+    "ref": "SP56",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1016526365,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada Provinciale di Barbagelata",
+    "ref": "SP56",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1116304027,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada Provinciale di Barbagelata",
+    "ref": "SP56",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1478622150,
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Strada Provinciale della Scoglina",
+    "ref": "SP23",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1482644822,
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Strada Provinciale della Scoglina",
+    "ref": "SP23",
+    "surface": "asphalt"
+  }
+}
+
+  ]
+}

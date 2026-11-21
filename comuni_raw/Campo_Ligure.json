@@ -1,0 +1,2501 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-11-01T21:04:21Z",
+    "timestamp_areas_base": "2026-11-01T13:40:51Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 691922233,
+  "tags": {
+    "addr:housenumber": "20",
+    "addr:street": "Via della Giustina",
+    "contact:phone": "+39 010 920099",
+    "name": "Museo civico della Filigrana Pietro Carlo Bosio",
+    "tourism": "museum",
+    "website": "http://www.museofiligrana.org/",
+    "wikidata": "Q55377567"
+  }
+},
+{
+  "type": "node",
+  "id": 5263951597,
+  "tags": {
+    "addr:housenumber": "3",
+    "addr:street": "Piazza Giacomo Matteotti",
+    "amenity": "townhall",
+    "contact:phone": "+39 010 920480",
+    "name": "Municipio",
+    "website": "http://www.comune.campo-ligure.ge.it/"
+  }
+},
+{
+  "type": "node",
+  "id": 11376129642,
+  "tags": {
+    "addr:city": "Campo Ligure",
+    "addr:housenumber": "32",
+    "addr:street": "Viale San Michele",
+    "leisure": "sports_centre",
+    "name": "Palazzetto dello Sport",
+    "sport": "soccer;tennis;volleyball"
+  }
+},
+{
+  "type": "way",
+  "id": 24107427,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "lit": "no",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Autostrada dei Trafori",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 24107503,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "layer": "-1",
+    "lit": "24/7",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Galleria Garrè",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 24107699,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "lit": "no",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Autostrada dei Trafori",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 24107707,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "layer": "-1",
+    "lit": "24/7",
+    "maxspeed": "110",
+    "name": "Galleria Anzema",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes",
+    "tunnel": "yes",
+    "tunnel:name": "Anzema"
+  }
+},
+{
+  "type": "way",
+  "id": 38523968,
+  "tags": {
+    "bridge": "viaduct",
+    "bridge:name": "Biscione",
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Autostrada dei Trafori",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 38523969,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "layer": "-1",
+    "length": "825",
+    "lit": "24/7",
+    "maxspeed": "110",
+    "name": "Galleria Anzema",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes",
+    "tunnel": "yes",
+    "tunnel:name": "Anzema"
+  }
+},
+{
+  "type": "way",
+  "id": 38523970,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "layer": "-1",
+    "lit": "24/7",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Galleria Campasso",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 38523971,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "lit": "no",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Autostrada dei Trafori",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 38523972,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "layer": "-1",
+    "length": "188",
+    "lit": "24/7",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Galleria Campasso",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 38523973,
+  "tags": {
+    "bridge": "viaduct",
+    "bridge:name": "Buzero",
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Autostrada dei Trafori",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 38524184,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "lit": "no",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Autostrada dei Trafori",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 38524185,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "layer": "-1",
+    "length": "156",
+    "lit": "24/7",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Galleria Garrè",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 38524188,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "lit": "no",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Autostrada dei Trafori",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 47386819,
+  "tags": {
+    "bicycle": "discouraged",
+    "highway": "residential",
+    "name": "Via Vecchia della Cà",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 47386825,
+  "tags": {
+    "alt_name": "Vecchia strada delle Capanne di Marcarolo",
+    "bicycle": "discouraged",
+    "highway": "unclassified",
+    "name": "Via vecchia delle Capanne",
+    "smoothness": "very_bad",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 47386827,
+  "tags": {
+    "alt_name": "Vecchia strada delle Capanne di Marcarolo",
+    "bicycle": "discouraged",
+    "description": "segnavia: quadrato giallo vuoto",
+    "highway": "unclassified",
+    "name": "Via vecchia delle Capanne",
+    "smoothness": "very_bad",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 47454708,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via della Franchizia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 47454710,
+  "tags": {
+    "description": "segnavia: X gialla",
+    "highway": "unclassified",
+    "maxspeed": "8",
+    "maxweight": "1.5",
+    "name": "Via della Franchizia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 47454713,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Strada statale 456 del Turchino",
+    "ref": "SS456",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 47454725,
+  "tags": {
+    "highway": "path",
+    "name": "Sentiero triangolo giallo",
+    "sac_scale": "hiking",
+    "smoothness": "bad",
+    "surface": "ground",
+    "symbol": "triangolo giallo vuoto",
+    "tracktype": "grade4",
+    "width": "2"
+  }
+},
+{
+  "type": "way",
+  "id": 47454735,
+  "tags": {
+    "highway": "secondary",
+    "maxspeed": "30",
+    "name": "Via Gramsci",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 47454736,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Pietro Figari",
+    "surface": "asphalt",
+    "symbol": "triangolo giallo vuoto"
+  }
+},
+{
+  "type": "way",
+  "id": 47454738,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Pietro Figari",
+    "surface": "asphalt",
+    "symbol": "triangolo giallo vuoto"
+  }
+},
+{
+  "type": "way",
+  "id": 47513739,
+  "tags": {
+    "highway": "unclassified",
+    "maxspeed": "8",
+    "maxweight": "1.5",
+    "name": "Via della Franchizia"
+  }
+},
+{
+  "type": "way",
+  "id": 47513740,
+  "tags": {
+    "bicycle": "yes",
+    "description": "segnavia: cerchio giallo vuoto",
+    "foot": "yes",
+    "highway": "path",
+    "mtb": "designated",
+    "mtb:scale": "1",
+    "name": "Campoligure-Rossiglione",
+    "surface": "ground"
+  }
+},
+{
+  "type": "way",
+  "id": 47513753,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via della Giustina",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 47888206,
+  "tags": {
+    "highway": "secondary",
+    "name": "Via della Repubblica",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 47888207,
+  "tags": {
+    "bridge": "yes",
+    "highway": "secondary",
+    "layer": "1",
+    "name": "Via Valle Ponzema",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 54434710,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Valle Masca",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 54434714,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Valle Masca"
+  }
+},
+{
+  "type": "way",
+  "id": 54434716,
+  "tags": {
+    "highway": "unclassified",
+    "layer": "-1",
+    "name": "Via Valle Masca",
+    "surface": "asphalt",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 54434718,
+  "tags": {
+    "bridge": "yes",
+    "highway": "unclassified",
+    "layer": "1",
+    "name": "Via Valle Masca",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 54434723,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Valle Masca",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 54435924,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Ingegner Luigi Bosco"
+  }
+},
+{
+  "type": "way",
+  "id": 54435925,
+  "tags": {
+    "area:highway": "residential",
+    "name": "Piazzale Guglielmo Marconi",
+    "place": "square"
+  }
+},
+{
+  "type": "way",
+  "id": 54958800,
+  "tags": {
+    "highway": "footway",
+    "name": "Passeggiata alla Frera"
+  }
+},
+{
+  "type": "way",
+  "id": 55003224,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Don Giovanni Minzoni",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 55003246,
+  "tags": {
+    "highway": "residential",
+    "name": "Piazzetta Carlotto"
+  }
+},
+{
+  "type": "way",
+  "id": 55003253,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Trieste",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 55003255,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Viale San Michele",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 55003268,
+  "tags": {
+    "highway": "service",
+    "maxspeed": "30",
+    "name": "Via Mongrosso"
+  }
+},
+{
+  "type": "way",
+  "id": 55003277,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Matteo Oliveri",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 55003292,
+  "tags": {
+    "highway": "residential",
+    "name": "Via al Langassino"
+  }
+},
+{
+  "type": "way",
+  "id": 55003303,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Giuseppe Saracco",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 55003310,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Don Lorenzo Leoncini"
+  }
+},
+{
+  "type": "way",
+  "id": 55003314,
+  "tags": {
+    "highway": "residential",
+    "name": "Via della Giustizia"
+  }
+},
+{
+  "type": "way",
+  "id": 55217346,
+  "tags": {
+    "highway": "unclassified",
+    "maxspeed": "30",
+    "name": "Via Mongrosso",
+    "width": "2.5"
+  }
+},
+{
+  "type": "way",
+  "id": 55217480,
+  "tags": {
+    "highway": "residential",
+    "maxspeed": "30",
+    "name": "Via Mongrosso",
+    "note": "da qui in su parte segnavia 3 punti gialli disposti a triangolo",
+    "sac_scale": "mountain_hiking",
+    "surface": "dirt",
+    "symbol": "triangolo giallo vuoto",
+    "width": "2.5"
+  }
+},
+{
+  "type": "way",
+  "id": 56161282,
+  "tags": {
+    "bridge": "yes",
+    "cycleway": "yes",
+    "highway": "primary",
+    "lanes": "2",
+    "layer": "1",
+    "name": "Strada statale 456 del Turchino",
+    "ref": "SS456",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 56161290,
+  "tags": {
+    "highway": "unclassified",
+    "maxspeed": "30",
+    "name": "Via Mongrosso",
+    "symbol": "3 punti gialli disposti a triangolo",
+    "width": "2.5"
+  }
+},
+{
+  "type": "way",
+  "id": 56161295,
+  "tags": {
+    "highway": "residential",
+    "maxspeed": "30",
+    "name": "Via Mongrosso",
+    "sac_scale": "mountain_hiking",
+    "surface": "dirt",
+    "symbol": "triangolo giallo vuoto",
+    "width": "2.5"
+  }
+},
+{
+  "type": "way",
+  "id": 56161297,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Via Isola Giugno",
+    "ref": "SS456",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 58864107,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via del Molinetto",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 96728344,
+  "tags": {
+    "bridge": "yes",
+    "highway": "primary",
+    "lanes": "2",
+    "layer": "1",
+    "name": "Strada statale 456 del Turchino",
+    "ref": "SS456",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 96728401,
+  "tags": {
+    "bridge": "yes",
+    "highway": "primary",
+    "lanes": "2",
+    "layer": "1",
+    "name": "Strada statale 456 del Turchino",
+    "ref": "SS456",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 96728486,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Via Vallecalda",
+    "nat_name": "Strada statale 456 del Turchino",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 96728494,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Strada statale 456 del Turchino",
+    "nat_name": "Strada Provinciale 456 del Turchino",
+    "ref": "SS456",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 96728511,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Strada statale 456 del Turchino",
+    "ref": "SS456",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 96728570,
+  "tags": {
+    "bridge": "yes",
+    "highway": "primary",
+    "lanes": "2",
+    "layer": "1",
+    "name": "Strada statale 456 del Turchino",
+    "nat_name": "Strada Provinciale 456 del Turchino",
+    "ref": "SS456",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 108221329,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Strada Cappelletta del Poggio"
+  }
+},
+{
+  "type": "way",
+  "id": 112389719,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "secondary",
+    "name": "Via Valle Ponzema",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 155433006,
+  "tags": {
+    "highway": "unclassified",
+    "incline": "-10%",
+    "name": "Via della Giustina",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 200164491,
+  "tags": {
+    "garden:type": "botanical",
+    "hunting": "no",
+    "leisure": "garden",
+    "name": "Giardino Botanico PratoRondanino",
+    "protection_code": "EUAP1064",
+    "protection_title": "Area Protetta di Interesse Provinciale o Locale",
+    "site_zone": "1.0",
+    "source": "Dai dati realizzati da Regione Liguria \"Aree Protette e relativi piani\" Anno 01/10/2012 scala 1:25000",
+    "wikidata": "Q3763892",
+    "wikipedia": "it:Giardino botanico di Pratorondanino"
+  }
+},
+{
+  "type": "way",
+  "id": 212352645,
+  "tags": {
+    "bridge": "viaduct",
+    "bridge:name": "Biscione",
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Autostrada dei Trafori",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 217143111,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "residential",
+    "name": "Via Trento",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 217143989,
+  "tags": {
+    "highway": "residential",
+    "name": "Viale San Michele"
+  }
+},
+{
+  "type": "way",
+  "id": 217144095,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Don Mario Badino"
+  }
+},
+{
+  "type": "way",
+  "id": 217144168,
+  "tags": {
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Piazzale Europa",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 217285004,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "residential",
+    "name": "Via Angelo Serafino Rossi",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 217285923,
+  "tags": {
+    "alt_name": "Via Papa Giovanni XXIII",
+    "cycleway": "yes",
+    "highway": "residential",
+    "name": "Via Papa Giovanni ventitreesimo",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 217286297,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Unità d'Italia",
+    "oneway": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 220077332,
+  "tags": {
+    "area:highway": "residential",
+    "name": "Piazzetta Carlotto",
+    "place": "square"
+  }
+},
+{
+  "type": "way",
+  "id": 220077337,
+  "tags": {
+    "highway": "residential",
+    "name": "Via della Giustizia"
+  }
+},
+{
+  "type": "way",
+  "id": 227941563,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "lit": "no",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Autostrada dei Trafori",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 227941565,
+  "tags": {
+    "bridge": "viaduct",
+    "bridge:name": "Buzero",
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Autostrada dei Trafori",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 227989813,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "lit": "no",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Autostrada dei Trafori",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 227989816,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "lit": "no",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Autostrada dei Trafori",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 227990139,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Mario Tosa"
+  }
+},
+{
+  "type": "way",
+  "id": 227990141,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Carpineta"
+  }
+},
+{
+  "type": "way",
+  "id": 227990770,
+  "tags": {
+    "bridge": "yes",
+    "highway": "primary",
+    "lanes": "2",
+    "layer": "1",
+    "name": "Strada statale 456 del Turchino",
+    "nat_name": "Strada Provinciale 456 del Turchino",
+    "ref": "SS456",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 227990772,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Via della Libertà",
+    "nat_name": "Strada statale 456 del Turchino",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 227990961,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Trento"
+  }
+},
+{
+  "type": "way",
+  "id": 227991748,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Convento",
+    "oneway": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 227992912,
+  "tags": {
+    "covered": "no",
+    "highway": "service",
+    "name": "Via Mongrosso",
+    "oneway": "no",
+    "service": "driveway",
+    "smoothness": "very_bad",
+    "surface": "dirt",
+    "tracktype": "grade2"
+  }
+},
+{
+  "type": "way",
+  "id": 256415616,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Valle Langassino"
+  }
+},
+{
+  "type": "way",
+  "id": 277006560,
+  "tags": {
+    "bicycle": "yes",
+    "description": "segnavia: cerchio giallo vuoto",
+    "highway": "path",
+    "mtb": "designated",
+    "mtb:scale": "1",
+    "name": "Campoligure-Rossiglione",
+    "sac_scale": "mountain_hiking",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 277012455,
+  "tags": {
+    "bicycle": "yes",
+    "description": "segnavia: cerchio giallo vuoto",
+    "highway": "track",
+    "mtb": "designated",
+    "mtb:scale": "2",
+    "name": "Campoligure-Rossiglione",
+    "surface": "dirt",
+    "tracktype": "grade3"
+  }
+},
+{
+  "type": "way",
+  "id": 303554339,
+  "tags": {
+    "highway": "residential",
+    "name": "Piazzale Guglielmo Marconi",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 303554351,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Tenente Colonnello Vincenzo Mignone",
+    "short_name": "Via Mignone"
+  }
+},
+{
+  "type": "way",
+  "id": 303555964,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Ponzema Inferiore"
+  }
+},
+{
+  "type": "way",
+  "id": 312762415,
+  "tags": {
+    "amenity": "school",
+    "name": "Istituto Comprensivo Valle Stura"
+  }
+},
+{
+  "type": "way",
+  "id": 312774020,
+  "tags": {
+    "building": "yes",
+    "historic": "castle",
+    "name": "Castello di Campo Ligure",
+    "wikidata": "Q1048820",
+    "wikipedia": "it:Castello di Campo Ligure"
+  }
+},
+{
+  "type": "way",
+  "id": 353727123,
+  "tags": {
+    "alt_name": "Piazza Vittorio Emanuele II",
+    "area": "yes",
+    "highway": "pedestrian",
+    "name": "Piazza Vittorio Emanuele Secondo",
+    "place": "square"
+  }
+},
+{
+  "type": "way",
+  "id": 397083679,
+  "tags": {
+    "highway": "service",
+    "incline": "-10%",
+    "name": "Via della Giustina",
+    "service": "driveway",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 504059966,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via della Franchizia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 504227477,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Piazza Martiri della Benedicta",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 504227879,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Convento",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 504227880,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Cascinazza"
+  }
+},
+{
+  "type": "way",
+  "id": 504228297,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via vecchia delle Capanne"
+  }
+},
+{
+  "type": "way",
+  "id": 504228597,
+  "tags": {
+    "highway": "secondary",
+    "name": "Via della Repubblica",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 505315210,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Valle Masca",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 519863107,
+  "tags": {
+    "highway": "secondary",
+    "name": "Via Valle Ponzema",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 519863108,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Strada statale 456 del Turchino",
+    "nat_name": "Strada Provinciale 456 del Turchino",
+    "ref": "SS456",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 521770361,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Valle Masca"
+  }
+},
+{
+  "type": "way",
+  "id": 524666483,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Vecchia della Cà",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 524666485,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Convento",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 544574050,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Vallecalda"
+  }
+},
+{
+  "type": "way",
+  "id": 544574053,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Campazzo"
+  }
+},
+{
+  "type": "way",
+  "id": 544574054,
+  "tags": {
+    "highway": "residential",
+    "name": "Via alla Migia"
+  }
+},
+{
+  "type": "way",
+  "id": 544574055,
+  "tags": {
+    "highway": "residential",
+    "name": "Via alla Migia"
+  }
+},
+{
+  "type": "way",
+  "id": 544574064,
+  "tags": {
+    "highway": "residential",
+    "name": "Via alla Migia"
+  }
+},
+{
+  "type": "way",
+  "id": 544574070,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Maddalena"
+  }
+},
+{
+  "type": "way",
+  "id": 544574074,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Strada Statale del Turchino",
+    "ref": "SS456",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 544574080,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Viale della libertà",
+    "nat_name": "Strada statale 456 del Turchino",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 544574084,
+  "tags": {
+    "highway": "residential",
+    "name": "Via della Repubblica"
+  }
+},
+{
+  "type": "way",
+  "id": 544574086,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Campofreddo"
+  }
+},
+{
+  "type": "way",
+  "id": 544574088,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Campofreddo"
+  }
+},
+{
+  "type": "way",
+  "id": 547605224,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Trento"
+  }
+},
+{
+  "type": "way",
+  "id": 547605233,
+  "tags": {
+    "highway": "unclassified",
+    "maxspeed": "30",
+    "name": "Via Pian del Rosso"
+  }
+},
+{
+  "type": "way",
+  "id": 547605234,
+  "tags": {
+    "bridge": "yes",
+    "highway": "unclassified",
+    "layer": "1",
+    "name": "Via Pian del Rosso"
+  }
+},
+{
+  "type": "way",
+  "id": 547605235,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via del Molinetto"
+  }
+},
+{
+  "type": "way",
+  "id": 547605236,
+  "tags": {
+    "highway": "footway",
+    "name": "Vico dei Cerruti"
+  }
+},
+{
+  "type": "way",
+  "id": 547605237,
+  "tags": {
+    "highway": "footway",
+    "name": "Via del Voltino"
+  }
+},
+{
+  "type": "way",
+  "id": 547605238,
+  "tags": {
+    "highway": "footway",
+    "name": "Piazzetta dei Molini"
+  }
+},
+{
+  "type": "way",
+  "id": 547605239,
+  "tags": {
+    "highway": "footway",
+    "name": "Via del Voltino"
+  }
+},
+{
+  "type": "way",
+  "id": 547605240,
+  "tags": {
+    "bridge": "yes",
+    "highway": "footway",
+    "layer": "1",
+    "name": "Via del Voltino"
+  }
+},
+{
+  "type": "way",
+  "id": 547605241,
+  "tags": {
+    "highway": "footway",
+    "name": "Via del Rivale",
+    "surface": "cobblestone"
+  }
+},
+{
+  "type": "way",
+  "id": 547605242,
+  "tags": {
+    "highway": "footway",
+    "name": "Vico dietro La Chiesa"
+  }
+},
+{
+  "type": "way",
+  "id": 547605243,
+  "tags": {
+    "highway": "footway",
+    "name": "Piazzetta della Canonica"
+  }
+},
+{
+  "type": "way",
+  "id": 547605244,
+  "tags": {
+    "bridge": "yes",
+    "highway": "residential",
+    "layer": "1",
+    "name": "Via Don Giovanni Minzoni",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 547605245,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Don Giovanni Minzoni",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 547611243,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Don Lorenzo Leoncini"
+  }
+},
+{
+  "type": "way",
+  "id": 547611244,
+  "tags": {
+    "direction": "backward",
+    "highway": "unclassified",
+    "name": "Piazza Giacomo Matteotti"
+  }
+},
+{
+  "type": "way",
+  "id": 547611245,
+  "tags": {
+    "highway": "service",
+    "name": "Piazzetta del Gelso"
+  }
+},
+{
+  "type": "way",
+  "id": 547611246,
+  "tags": {
+    "highway": "residential",
+    "name": "Piazzetta del Gelso"
+  }
+},
+{
+  "type": "way",
+  "id": 547611248,
+  "tags": {
+    "highway": "residential",
+    "name": "Vico del Gelsomino"
+  }
+},
+{
+  "type": "way",
+  "id": 547611249,
+  "tags": {
+    "highway": "footway",
+    "name": "Vico dell'Archivolto"
+  }
+},
+{
+  "type": "way",
+  "id": 547617643,
+  "tags": {
+    "highway": "footway",
+    "name": "Vico dei Giordani"
+  }
+},
+{
+  "type": "way",
+  "id": 547617644,
+  "tags": {
+    "highway": "footway",
+    "name": "Vico dietro La Chiesa"
+  }
+},
+{
+  "type": "way",
+  "id": 547617645,
+  "tags": {
+    "highway": "footway",
+    "name": "Vico del Principe"
+  }
+},
+{
+  "type": "way",
+  "id": 547617646,
+  "tags": {
+    "highway": "footway",
+    "name": "Vico Gorillo"
+  }
+},
+{
+  "type": "way",
+  "id": 547617648,
+  "tags": {
+    "highway": "footway",
+    "name": "Vico del Falegname"
+  }
+},
+{
+  "type": "way",
+  "id": 547617649,
+  "tags": {
+    "highway": "footway",
+    "name": "Vico delle Anime"
+  }
+},
+{
+  "type": "way",
+  "id": 547617650,
+  "tags": {
+    "highway": "footway",
+    "name": "Vico dell'olivo"
+  }
+},
+{
+  "type": "way",
+  "id": 547617651,
+  "tags": {
+    "highway": "footway",
+    "name": "Piazzetta del Pomo"
+  }
+},
+{
+  "type": "way",
+  "id": 547617652,
+  "tags": {
+    "highway": "footway",
+    "name": "Piazzetta del Cervo"
+  }
+},
+{
+  "type": "way",
+  "id": 547617653,
+  "tags": {
+    "highway": "footway",
+    "name": "Vico di Suppino"
+  }
+},
+{
+  "type": "way",
+  "id": 547617654,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Rattarolo"
+  }
+},
+{
+  "type": "way",
+  "id": 547617655,
+  "tags": {
+    "highway": "footway",
+    "name": "Piazzetta Rattarolo"
+  }
+},
+{
+  "type": "way",
+  "id": 547617656,
+  "tags": {
+    "highway": "footway",
+    "name": "Vico dei Cuppi"
+  }
+},
+{
+  "type": "way",
+  "id": 547617657,
+  "tags": {
+    "highway": "footway",
+    "name": "Vico Barucco"
+  }
+},
+{
+  "type": "way",
+  "id": 547617658,
+  "tags": {
+    "highway": "footway",
+    "name": "Vico Bonino"
+  }
+},
+{
+  "type": "way",
+  "id": 547617659,
+  "tags": {
+    "highway": "footway",
+    "name": "Vico del Cucco"
+  }
+},
+{
+  "type": "way",
+  "id": 547617660,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "residential",
+    "name": "Piazza Martiri della Benedicta",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 547617661,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Via Convento",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 547618828,
+  "tags": {
+    "highway": "footway",
+    "name": "Vico alla Sacrestia"
+  }
+},
+{
+  "type": "way",
+  "id": 547618831,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Angelo Serafino Rossi"
+  }
+},
+{
+  "type": "way",
+  "id": 547618835,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Angelo Serafino Rossi"
+  }
+},
+{
+  "type": "way",
+  "id": 553109312,
+  "tags": {
+    "highway": "footway",
+    "name": "Via del Rivale",
+    "surface": "cobblestone"
+  }
+},
+{
+  "type": "way",
+  "id": 556107123,
+  "tags": {
+    "bridge": "yes",
+    "highway": "unclassified",
+    "layer": "1",
+    "name": "Via Pian del Rosso"
+  }
+},
+{
+  "type": "way",
+  "id": 556107124,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Pian del Rosso"
+  }
+},
+{
+  "type": "way",
+  "id": 572140007,
+  "tags": {
+    "bridge": "yes",
+    "highway": "footway",
+    "historic": "yes",
+    "layer": "1",
+    "name": "Ponte San Michele",
+    "surface": "paving_stones",
+    "wikidata": "Q3908175",
+    "wikipedia": "it:Ponte medievale di Campo Ligure"
+  }
+},
+{
+  "type": "way",
+  "id": 825361090,
+  "tags": {
+    "access": "agricultural",
+    "highway": "service",
+    "name": "Via Mongrosso",
+    "oneway": "no",
+    "service": "driveway",
+    "smoothness": "good",
+    "surface": "dirt",
+    "width": "2"
+  }
+},
+{
+  "type": "way",
+  "id": 889550449,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Mulino delle Gia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 889550450,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Mulino delle Gia",
+    "surface": "unpaved"
+  }
+},
+{
+  "type": "way",
+  "id": 972903414,
+  "tags": {
+    "covered": "no",
+    "highway": "service",
+    "maxspeed": "20",
+    "name": "Via Mongrosso",
+    "oneway": "no",
+    "service": "driveway",
+    "smoothness": "very_bad",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 977860276,
+  "tags": {
+    "highway": "footway",
+    "motor_vehicle": "no",
+    "name": "Vico dei Fanali"
+  }
+},
+{
+  "type": "way",
+  "id": 977921018,
+  "tags": {
+    "bicycle": "designated",
+    "bridge": "yes",
+    "description": "Passerella di legno",
+    "foot": "yes",
+    "highway": "path",
+    "layer": "1",
+    "name": "Passerella",
+    "surface": "ground"
+  }
+},
+{
+  "type": "way",
+  "id": 1000883610,
+  "tags": {
+    "bridge": "yes",
+    "handrail": "no",
+    "highway": "steps",
+    "layer": "1",
+    "name": "Ponte San Michele",
+    "surface": "paving_stones",
+    "wikidata": "Q3908175",
+    "wikipedia": "it:Ponte medievale di Campo Ligure"
+  }
+},
+{
+  "type": "way",
+  "id": 1000883611,
+  "tags": {
+    "highway": "secondary",
+    "maxspeed": "30",
+    "name": "Via Gramsci",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1000883612,
+  "tags": {
+    "highway": "secondary",
+    "maxspeed": "30",
+    "name": "Via Gramsci",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1000883613,
+  "tags": {
+    "highway": "secondary",
+    "maxspeed": "30",
+    "name": "Via Gramsci",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1000883617,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via della Giustina"
+  }
+},
+{
+  "type": "way",
+  "id": 1000883618,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Valle Ponzema"
+  }
+},
+{
+  "type": "way",
+  "id": 1000883619,
+  "tags": {
+    "highway": "service",
+    "name": "Via Valle Ponzema"
+  }
+},
+{
+  "type": "way",
+  "id": 1000883620,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Valle Ponzema"
+  }
+},
+{
+  "type": "way",
+  "id": 1016071991,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Cascinazza",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1049530490,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Convento"
+  }
+},
+{
+  "type": "way",
+  "id": 1080601266,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Strada statale 456 del Turchino",
+    "nat_name": "Strada Provinciale 456 del Turchino",
+    "ref": "SS456",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1080601267,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Strada statale 456 del Turchino",
+    "nat_name": "Strada Provinciale 456 del Turchino",
+    "ref": "SS456",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1080601270,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Giuseppe Saracco",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1080601271,
+  "tags": {
+    "highway": "footway",
+    "name": "Via del Rivale",
+    "surface": "cobblestone"
+  }
+},
+{
+  "type": "way",
+  "id": 1080956622,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "secondary",
+    "name": "Via Valle Ponzema",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1108368559,
+  "tags": {
+    "highway": "path",
+    "name": "Sentiero triangolo giallo",
+    "sac_scale": "hiking",
+    "smoothness": "bad",
+    "surface": "ground",
+    "symbol": "triangolo giallo vuoto",
+    "tracktype": "grade4",
+    "width": "2"
+  }
+},
+{
+  "type": "way",
+  "id": 1108368560,
+  "tags": {
+    "highway": "path",
+    "name": "Sentiero triangolo giallo",
+    "sac_scale": "hiking",
+    "smoothness": "bad",
+    "surface": "ground",
+    "symbol": "triangolo giallo vuoto",
+    "tracktype": "grade4",
+    "width": "2"
+  }
+},
+{
+  "type": "way",
+  "id": 1132412207,
+  "tags": {
+    "highway": "residential",
+    "name": "Vico del forno"
+  }
+},
+{
+  "type": "way",
+  "id": 1132414640,
+  "tags": {
+    "highway": "footway",
+    "motor_vehicle": "no",
+    "name": "Vico al Piazzale"
+  }
+},
+{
+  "type": "way",
+  "id": 1167519998,
+  "tags": {
+    "area": "yes",
+    "highway": "raceway",
+    "name": "Anzema 22 - MX Vallestura racing team",
+    "sport": "motocross",
+    "surface": "unpaved"
+  }
+},
+{
+  "type": "way",
+  "id": 1167557340,
+  "tags": {
+    "name": "Piazza Giacomo Matteotti",
+    "place": "square"
+  }
+},
+{
+  "type": "way",
+  "id": 1167558868,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Don Giovanni Minzoni",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1210748283,
+  "tags": {
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Piazzale Europa",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1210748285,
+  "tags": {
+    "name": "Piazzale Europa",
+    "place": "square"
+  }
+},
+{
+  "type": "way",
+  "id": 1210748286,
+  "tags": {
+    "highway": "footway",
+    "name": "Vico allo Stura"
+  }
+},
+{
+  "type": "way",
+  "id": 1210748288,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Don Giovanni Minzoni"
+  }
+},
+{
+  "type": "way",
+  "id": 1210748289,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Don Giovanni Minzoni"
+  }
+},
+{
+  "type": "way",
+  "id": 1210749513,
+  "tags": {
+    "highway": "footway",
+    "name": "Vico del Filatoio"
+  }
+},
+{
+  "type": "way",
+  "id": 1210749514,
+  "tags": {
+    "name": "Piazzetta Tabaccheria",
+    "place": "square"
+  }
+},
+{
+  "type": "way",
+  "id": 1210749515,
+  "tags": {
+    "highway": "footway",
+    "name": "Vico dei Buffetti"
+  }
+},
+{
+  "type": "way",
+  "id": 1210757975,
+  "tags": {
+    "area:highway": "pedestrian",
+    "name": "Piazzetta della Canonica",
+    "place": "square"
+  }
+},
+{
+  "type": "way",
+  "id": 1210785122,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Tenente Colonnello Vincenzo Mignone",
+    "short_name": "Via Mignone"
+  }
+},
+{
+  "type": "way",
+  "id": 1210785123,
+  "tags": {
+    "highway": "footway",
+    "name": "Via al Rivale",
+    "surface": "cobblestone"
+  }
+},
+{
+  "type": "way",
+  "id": 1210785124,
+  "tags": {
+    "highway": "footway",
+    "name": "Via del Rivale",
+    "surface": "cobblestone"
+  }
+},
+{
+  "type": "way",
+  "id": 1210791780,
+  "tags": {
+    "highway": "residential",
+    "name": "Via del Giardino"
+  }
+},
+{
+  "type": "way",
+  "id": 1210791782,
+  "tags": {
+    "highway": "residential",
+    "name": "Via del Giardino"
+  }
+},
+{
+  "type": "way",
+  "id": 1239162818,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Pietro Figari",
+    "surface": "asphalt",
+    "symbol": "triangolo giallo vuoto"
+  }
+},
+{
+  "type": "way",
+  "id": 1240766452,
+  "tags": {
+    "alt_name": "Vecchia strada delle Capanne di Marcarolo",
+    "bicycle": "discouraged",
+    "description": "segnavia: quadrato giallo vuoto",
+    "highway": "unclassified",
+    "name": "Via vecchia delle Capanne",
+    "smoothness": "very_bad",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1240766453,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Piazza Martiri della Benedicta",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 1240766454,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Giuseppe Saracco",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1320140601,
+  "tags": {
+    "highway": "service",
+    "name": "Via Trento",
+    "service": "driveway"
+  }
+},
+{
+  "type": "way",
+  "id": 1334836071,
+  "tags": {
+    "bicycle": "no",
+    "foot": "yes",
+    "highway": "footway",
+    "horse": "no",
+    "name": "Vico allo Stura",
+    "surface": "paved",
+    "width": "2"
+  }
+},
+{
+  "type": "way",
+  "id": 1350709328,
+  "tags": {
+    "highway": "unclassified",
+    "incline": "-10%",
+    "name": "Via della Giustina",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1364729230,
+  "tags": {
+    "bridge": "yes",
+    "bridge:name": "Balinara",
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Autostrada dei Trafori",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1364729231,
+  "tags": {
+    "bridge": "yes",
+    "bridge:name": "Balinara",
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Autostrada dei Trafori",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1364729232,
+  "tags": {
+    "bridge:structure": "beam",
+    "layer": "1",
+    "man_made": "bridge",
+    "name": "Viadotto Balinara"
+  }
+},
+{
+  "type": "way",
+  "id": 1364729233,
+  "tags": {
+    "bridge:structure": "beam",
+    "layer": "1",
+    "man_made": "bridge",
+    "name": "Viadotto Buzero"
+  }
+},
+{
+  "type": "way",
+  "id": 1364729234,
+  "tags": {
+    "bridge:structure": "beam",
+    "layer": "1",
+    "man_made": "bridge",
+    "name": "Viadotto Buzero"
+  }
+},
+{
+  "type": "way",
+  "id": 1364729235,
+  "tags": {
+    "bridge": "viaduct",
+    "bridge:name": "Schiapparape",
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Autostrada dei Trafori",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1364729236,
+  "tags": {
+    "bridge": "viaduct",
+    "bridge:name": "Schiapparape",
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Autostrada dei Trafori",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1364729237,
+  "tags": {
+    "bridge": "yes",
+    "bridge:name": "Vegnina",
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Autostrada dei Trafori",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1364729238,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "lit": "no",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Autostrada dei Trafori",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1365356555,
+  "tags": {
+    "layer": "1",
+    "man_made": "bridge",
+    "name": "Viadotto Schiapparape"
+  }
+},
+{
+  "type": "way",
+  "id": 1365356556,
+  "tags": {
+    "layer": "1",
+    "man_made": "bridge",
+    "name": "Viadotto Vegnina"
+  }
+},
+{
+  "type": "way",
+  "id": 1365356557,
+  "tags": {
+    "bridge:structure": "beam",
+    "layer": "1",
+    "man_made": "bridge",
+    "name": "Viadotto Biscione"
+  }
+},
+{
+  "type": "way",
+  "id": 1365356558,
+  "tags": {
+    "bridge:structure": "beam",
+    "layer": "1",
+    "man_made": "bridge",
+    "name": "Viadotto Biscione"
+  }
+},
+{
+  "type": "way",
+  "id": 1393674392,
+  "tags": {
+    "highway": "residential",
+    "layer": "-1",
+    "name": "Via Campazzo",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1393674393,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Campazzo"
+  }
+},
+{
+  "type": "way",
+  "id": 1449800540,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Viale della libertà",
+    "nat_name": "Strada statale 456 del Turchino",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1449800541,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Viale della libertà",
+    "nat_name": "Strada statale 456 del Turchino",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1464919151,
+  "tags": {
+    "highway": "residential",
+    "lane_markings": "no",
+    "name": "Piazzale Guglielmo Marconi",
+    "smoothness": "intermediate",
+    "surface": "asphalt"
+  }
+}
+
+  ]
+}

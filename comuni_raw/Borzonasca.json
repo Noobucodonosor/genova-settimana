@@ -1,0 +1,1202 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-11-01T20:03:21Z",
+    "timestamp_areas_base": "2026-11-01T12:51:03Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 667399509,
+  "tags": {
+    "denotation": "natural_monument",
+    "leaf_cycle": "deciduous",
+    "leaf_type": "broadleaved",
+    "name": "Castagno anni 1000",
+    "natural": "tree",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 1771951775,
+  "tags": {
+    "amenity": "theatre",
+    "name": "Teatro Fabrizio De Andrè"
+  }
+},
+{
+  "type": "node",
+  "id": 6013916714,
+  "tags": {
+    "name": "Volto megalitico di Borzone",
+    "tourism": "attraction",
+    "wikidata": "Q3560985",
+    "wikipedia": "it:Volto megalitico di Borzone"
+  }
+},
+{
+  "type": "node",
+  "id": 6291759256,
+  "tags": {
+    "historic": "monument",
+    "name": "Lapide commemorativa eccidio partigiani"
+  }
+},
+{
+  "type": "node",
+  "id": 12051684756,
+  "tags": {
+    "historic": "monument",
+    "name": "Pietra Borghese - roccia più antica d'Italia"
+  }
+},
+{
+  "type": "node",
+  "id": 13234374510,
+  "tags": {
+    "amenity": "school",
+    "name": "Istituto comprensivo Statale \"Valli e Carasco\""
+  }
+},
+{
+  "type": "way",
+  "id": 26175515,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Acero",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 34415167,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Giacomo Massa",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 34424056,
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Strada Provinciale 26bis di Valmogliana",
+    "ref": "SP26BIS",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 51593973,
+  "tags": {
+    "highway": "secondary",
+    "name": "SP27 di Cassego",
+    "ref": "SP27",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 51593994,
+  "tags": {
+    "name": "Laghetto del Bocco",
+    "natural": "water",
+    "tourism": "attraction",
+    "water": "lake"
+  }
+},
+{
+  "type": "way",
+  "id": 52515325,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Acero",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 55426959,
+  "tags": {
+    "access": "no",
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "unclassified",
+    "horse": "yes",
+    "name": "Perlezzi-Monte Aiona"
+  }
+},
+{
+  "type": "way",
+  "id": 57399137,
+  "tags": {
+    "highway": "track",
+    "name": "pianoro"
+  }
+},
+{
+  "type": "way",
+  "id": 65072798,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada Provinciale 26bis",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 65072803,
+  "tags": {
+    "highway": "secondary",
+    "name": "SP27 di Cassego",
+    "ref": "SP27",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 111655559,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Acero",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 168572101,
+  "tags": {
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "track",
+    "horse": "yes",
+    "motor_vehicle": "permit",
+    "name": "Perlezzi-Monte Aiona",
+    "smoothness": "very_bad",
+    "surface": "compacted",
+    "tracktype": "grade4"
+  }
+},
+{
+  "type": "way",
+  "id": 180686794,
+  "tags": {
+    "highway": "path",
+    "mtb:scale": "2",
+    "name": "Anello delle Malghe",
+    "sac_scale": "mountain_hiking",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 189511815,
+  "tags": {
+    "bridge": "yes",
+    "highway": "primary",
+    "lanes": "2",
+    "layer": "1",
+    "name": "Via Angelo Grilli",
+    "nat_name": "Strada statale 586 della Valle dell'Aveto",
+    "ref": "SS586",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 189511816,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Via Angelo Grilli",
+    "nat_name": "Strada statale 586 della Valle dell'Aveto",
+    "ref": "SS586",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 189511894,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Roma"
+  }
+},
+{
+  "type": "way",
+  "id": 189511895,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Giacomo Croce"
+  }
+},
+{
+  "type": "way",
+  "id": 189511905,
+  "tags": {
+    "highway": "residential",
+    "name": "Piazza Giuseppe Garibaldi"
+  }
+},
+{
+  "type": "way",
+  "id": 189511907,
+  "tags": {
+    "area": "yes",
+    "highway": "pedestrian",
+    "name": "Piazza Luigi Devoto"
+  }
+},
+{
+  "type": "way",
+  "id": 189818755,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Privata Angelo Maschio"
+  }
+},
+{
+  "type": "way",
+  "id": 189818759,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Augusto Raggio"
+  }
+},
+{
+  "type": "way",
+  "id": 189818766,
+  "tags": {
+    "highway": "service",
+    "name": "Via Augusto Raggio",
+    "service": "driveway"
+  }
+},
+{
+  "type": "way",
+  "id": 204491423,
+  "tags": {
+    "alt_name": "San Martino di Liciorno",
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "denomination": "catholic",
+    "historic": "archaeological_site",
+    "name": "San Martino di Licciorno",
+    "religion": "christian",
+    "source": "Regione Liguria",
+    "tourism": "attraction",
+    "wikidata": "Q97118839"
+  }
+},
+{
+  "type": "way",
+  "id": 204604044,
+  "tags": {
+    "building": "yes",
+    "leisure": "sports_centre",
+    "name": "Palazzetto dello Sport",
+    "source": "Regione Liguria"
+  }
+},
+{
+  "type": "way",
+  "id": 204607902,
+  "tags": {
+    "highway": "track",
+    "name": "Via Augusto Raggio"
+  }
+},
+{
+  "type": "way",
+  "id": 221580131,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Paolo Segneri"
+  }
+},
+{
+  "type": "way",
+  "id": 226141308,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Strada statale 586 della Valle dell'Aveto",
+    "oneway": "no",
+    "ref": "SS586",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 226141310,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Acero",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 226141311,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Acero",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 237427089,
+  "tags": {
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "track",
+    "horse": "yes",
+    "motor_vehicle": "yes",
+    "name": "Perlezzi-Monte Aiona",
+    "surface": "ground",
+    "tracktype": "grade3"
+  }
+},
+{
+  "type": "way",
+  "id": 290151024,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "path",
+    "mtb:scale": "1",
+    "name": "\"=\" Rosso",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 290154629,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "track",
+    "name": "\"=\" Rosso",
+    "surface": "dirt",
+    "tracktype": "grade3"
+  }
+},
+{
+  "type": "way",
+  "id": 306264401,
+  "tags": {
+    "bridge": "yes",
+    "highway": "secondary",
+    "layer": "1",
+    "name": "SP27 di Cassego",
+    "ref": "SP27",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 306264402,
+  "tags": {
+    "highway": "secondary",
+    "name": "SP27 di Cassego",
+    "ref": "SP27",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 312189940,
+  "tags": {
+    "bridge": "yes",
+    "highway": "primary",
+    "layer": "1",
+    "name": "Strada statale 586 della Valle dell'Aveto",
+    "ref": "SS586",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 312189943,
+  "tags": {
+    "highway": "primary",
+    "name": "Strada statale 586 della Valle dell'Aveto",
+    "ref": "SS586",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 312191135,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Acero",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 343919426,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Via Paolo Segneri"
+  }
+},
+{
+  "type": "way",
+  "id": 391621409,
+  "tags": {
+    "highway": "path",
+    "name": "Avvicinamento al Ciapun Lisciou",
+    "trail_visibility": "excellent"
+  }
+},
+{
+  "type": "way",
+  "id": 392943130,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "path",
+    "mtb:scale": "1",
+    "name": "\"=\" Rosso",
+    "sac_scale": "mountain_hiking",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 407208590,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Acero",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 407208591,
+  "tags": {
+    "bridge": "yes",
+    "highway": "tertiary",
+    "layer": "1",
+    "name": "Via Acero",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 407895109,
+  "tags": {
+    "highway": "track",
+    "mtb:scale": "2",
+    "name": "Anello delle Malghe",
+    "sac_scale": "mountain_hiking",
+    "tracktype": "grade4"
+  }
+},
+{
+  "type": "way",
+  "id": 407895110,
+  "tags": {
+    "highway": "track",
+    "mtb:scale": "2",
+    "name": "Anello delle Malghe",
+    "sac_scale": "mountain_hiking",
+    "tracktype": "grade3"
+  }
+},
+{
+  "type": "way",
+  "id": 489301630,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Via Carlo Marrè",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 491748977,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "path",
+    "mtb:scale": "1",
+    "name": "\"=\" Rosso",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 491763185,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "track",
+    "name": "\"=\" Rosso",
+    "surface": "dirt",
+    "tracktype": "grade3"
+  }
+},
+{
+  "type": "way",
+  "id": 491883936,
+  "tags": {
+    "highway": "path",
+    "mtb:scale": "2",
+    "name": "Anello delle Malghe",
+    "sac_scale": "mountain_hiking",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 498591458,
+  "tags": {
+    "highway": "track",
+    "motor_vehicle": "yes",
+    "name": "Perlezzi-Monte Aiona",
+    "smoothness": "intermediate",
+    "surface": "compacted",
+    "tracktype": "grade3"
+  }
+},
+{
+  "type": "way",
+  "id": 498591459,
+  "tags": {
+    "highway": "track",
+    "name": "deviazione Perlezzi",
+    "surface": "dirt",
+    "tracktype": "grade4"
+  }
+},
+{
+  "type": "way",
+  "id": 545341921,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Alessandro Manzoni"
+  }
+},
+{
+  "type": "way",
+  "id": 545341923,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Paolo Segneri"
+  }
+},
+{
+  "type": "way",
+  "id": 545341927,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Piazza Stefano Botto"
+  }
+},
+{
+  "type": "way",
+  "id": 545341929,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Via Carlo Marrè"
+  }
+},
+{
+  "type": "way",
+  "id": 545341937,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Via Vittorio Veneto",
+    "nat_name": "Strada statale 586 della Valle dell'Aveto",
+    "ref": "SS586",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 545341940,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Piazza Severino",
+    "nat_name": "Strada statale 586 della Valle dell'Aveto",
+    "ref": "SS586",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 545341942,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Via Angelo Grilli",
+    "nat_name": "Strada statale 586 della Valle dell'Aveto",
+    "ref": "SS586",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 672650972,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Acero",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 672650973,
+  "tags": {
+    "highway": "primary",
+    "name": "Strada statale 586 della Valle dell'Aveto",
+    "ref": "SS586",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 868372318,
+  "tags": {
+    "highway": "path",
+    "name": "Raccordo Perlezzi-Monte Agugiaia",
+    "surface": "ground"
+  }
+},
+{
+  "type": "way",
+  "id": 868374858,
+  "tags": {
+    "highway": "path",
+    "name": "Raccordo Perlezzi-Monte Agugiaia"
+  }
+},
+{
+  "type": "way",
+  "id": 871615683,
+  "tags": {
+    "highway": "path",
+    "name": "Raccordo Perlezzi-Monte Agugiaia"
+  }
+},
+{
+  "type": "way",
+  "id": 871615684,
+  "tags": {
+    "highway": "path",
+    "name": "Raccordo Perlezzi-Monte Agugiaia"
+  }
+},
+{
+  "type": "way",
+  "id": 917353356,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Augusto Raggio"
+  }
+},
+{
+  "type": "way",
+  "id": 945677568,
+  "tags": {
+    "description": "Camminamento lungo la diga. L'accesso (2021) non è chiuso da cancelli, quindi probabilmente è aperto a tutti. Il parapetto in cemento verso il lago è alto circa un metro. Verso lo strapiombo c'è una ringhiera in metallo della stessa altezza.",
+    "highway": "path",
+    "lit": "yes",
+    "name": "Diga di Pian Sapeio",
+    "surface": "concrete",
+    "width": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 1017312629,
+  "tags": {
+    "highway": "path",
+    "mtb:scale": "2",
+    "name": "Anello delle Malghe",
+    "sac_scale": "mountain_hiking",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 1017312630,
+  "tags": {
+    "highway": "track",
+    "motor_vehicle": "yes",
+    "name": "Perlezzi-Monte Aiona",
+    "smoothness": "intermediate",
+    "surface": "compacted",
+    "tracktype": "grade3"
+  }
+},
+{
+  "type": "way",
+  "id": 1017420562,
+  "tags": {
+    "highway": "primary",
+    "name": "Strada statale 586 della Valle dell'Aveto",
+    "ref": "SS586",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1017420563,
+  "tags": {
+    "highway": "primary",
+    "name": "Strada statale 586 della Valle dell'Aveto",
+    "ref": "SS586",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1017427192,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Via Carlo Marrè",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 1017521761,
+  "tags": {
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "track",
+    "horse": "yes",
+    "motor_vehicle": "yes",
+    "name": "Perlezzi-Monte Aiona",
+    "smoothness": "intermediate",
+    "surface": "compacted",
+    "tracktype": "grade3"
+  }
+},
+{
+  "type": "way",
+  "id": 1017523853,
+  "tags": {
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "track",
+    "horse": "yes",
+    "motor_vehicle": "yes",
+    "name": "Perlezzi-Monte Aiona",
+    "surface": "ground",
+    "tracktype": "grade3"
+  }
+},
+{
+  "type": "way",
+  "id": 1017523854,
+  "tags": {
+    "highway": "track",
+    "maxweight": "15",
+    "motor_vehicle": "yes",
+    "name": "Perlezzi-Monte Aiona",
+    "smoothness": "intermediate",
+    "surface": "compacted",
+    "tracktype": "grade3"
+  }
+},
+{
+  "type": "way",
+  "id": 1017526587,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "track",
+    "name": "\"=\" Rosso",
+    "surface": "dirt",
+    "tracktype": "grade3"
+  }
+},
+{
+  "type": "way",
+  "id": 1116318186,
+  "tags": {
+    "highway": "track",
+    "motor_vehicle": "yes",
+    "name": "Perlezzi-Monte Aiona",
+    "smoothness": "bad",
+    "surface": "compacted",
+    "tracktype": "grade3"
+  }
+},
+{
+  "type": "way",
+  "id": 1116318187,
+  "tags": {
+    "highway": "track",
+    "motor_vehicle": "yes",
+    "name": "Perlezzi-Monte Aiona",
+    "smoothness": "intermediate",
+    "surface": "compacted",
+    "tracktype": "grade3"
+  }
+},
+{
+  "type": "way",
+  "id": 1160213625,
+  "tags": {
+    "highway": "path",
+    "name": "Beudo"
+  }
+},
+{
+  "type": "way",
+  "id": 1161277997,
+  "tags": {
+    "highway": "path",
+    "name": "Beudo"
+  }
+},
+{
+  "type": "way",
+  "id": 1161277998,
+  "tags": {
+    "highway": "path",
+    "name": "Beudo"
+  }
+},
+{
+  "type": "way",
+  "id": 1161277999,
+  "tags": {
+    "bicycle": "no",
+    "highway": "path",
+    "horse": "no",
+    "motor_vehicle": "no",
+    "name": "Beudo"
+  }
+},
+{
+  "type": "way",
+  "id": 1161291425,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "track",
+    "mtb:scale": "1",
+    "name": "\"=\" Rosso",
+    "sac_scale": "mountain_hiking",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 1161291427,
+  "tags": {
+    "highway": "track",
+    "name": "Beudo"
+  }
+},
+{
+  "type": "way",
+  "id": 1161291428,
+  "tags": {
+    "highway": "track",
+    "name": "Beudo"
+  }
+},
+{
+  "type": "way",
+  "id": 1161291429,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "path",
+    "mtb:scale": "1",
+    "name": "\"=\" Rosso",
+    "sac_scale": "mountain_hiking",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 1161291430,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "track",
+    "mtb:scale": "1",
+    "name": "\"=\" Rosso",
+    "sac_scale": "mountain_hiking",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 1161291431,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "track",
+    "mtb:scale": "1",
+    "name": "\"=\" Rosso",
+    "sac_scale": "mountain_hiking",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 1161291438,
+  "tags": {
+    "highway": "path",
+    "name": "Beudo"
+  }
+},
+{
+  "type": "way",
+  "id": 1161291439,
+  "tags": {
+    "bridge": "yes",
+    "highway": "path",
+    "layer": "1",
+    "name": "Beudo"
+  }
+},
+{
+  "type": "way",
+  "id": 1163000892,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada Provinciale 26bis",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1163000893,
+  "tags": {
+    "bridge": "yes",
+    "highway": "secondary",
+    "layer": "1",
+    "name": "Strada Provinciale 26bis",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1163000896,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada Provinciale 26bis",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1163000897,
+  "tags": {
+    "bridge": "yes",
+    "highway": "secondary",
+    "layer": "1",
+    "name": "Strada Provinciale 26bis",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1163000898,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada Provinciale 26bis",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1163000900,
+  "tags": {
+    "bridge": "yes",
+    "highway": "secondary",
+    "layer": "1",
+    "name": "Strada Provinciale 26bis",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1163000901,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada Provinciale 26bis",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1163006699,
+  "tags": {
+    "bridge": "yes",
+    "highway": "secondary",
+    "layer": "1",
+    "name": "Strada Provinciale 26bis",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1163006700,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada Provinciale 26bis",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1260500690,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada Provinciale 26bis",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1260500691,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada Provinciale 26bis",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1260538620,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada Provinciale 26bis",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1260538622,
+  "tags": {
+    "highway": "secondary",
+    "name": "SP27 di Cassego",
+    "ref": "SP27",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1309277110,
+  "tags": {
+    "highway": "track",
+    "motor_vehicle": "yes",
+    "name": "Perlezzi-Monte Aiona",
+    "smoothness": "intermediate",
+    "surface": "compacted",
+    "tracktype": "grade3"
+  }
+},
+{
+  "type": "way",
+  "id": 1431197656,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Carabinieri d'Italia"
+  }
+},
+{
+  "type": "way",
+  "id": 1432018404,
+  "tags": {
+    "highway": "path",
+    "name": "collegamento"
+  }
+},
+{
+  "type": "way",
+  "id": 1437010522,
+  "tags": {
+    "highway": "path",
+    "name": "prolungamento sentiero per arrivare alla sorgente ferruginosa",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 1441901054,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Via Angelo Grilli",
+    "nat_name": "Strada statale 586 della Valle dell'Aveto",
+    "ref": "SS586",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1442307048,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Strada statale 586 della Valle dell'Aveto",
+    "oneway": "no",
+    "ref": "SS586",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1442313693,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Pian della Cà",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1460487936,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Via Angelo Grilli",
+    "nat_name": "Strada statale 586 della Valle dell'Aveto",
+    "ref": "SS586",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1470107561,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Paolo Segneri",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1534834443,
+  "tags": {
+    "highway": "track",
+    "name": "Perlezzi-Monte Aiona",
+    "smoothness": "very_bad",
+    "surface": "compacted",
+    "tracktype": "grade4"
+  }
+},
+{
+  "type": "way",
+  "id": 1563082916,
+  "tags": {
+    "highway": "path",
+    "name": "sentiero acquedotto - resistenza -  giacopiane",
+    "surface": "dirt"
+  }
+}
+
+  ]
+}

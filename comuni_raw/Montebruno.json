@@ -1,0 +1,1227 @@
+{
+  "version": 0.6,
+  "generator": "OpenStreetMap v0.6 API",
+  "comune": "Montebruno",
+  "elements": [
+    {
+      "type": "node",
+      "id": 66586634,
+      "tags": {
+        "gfoss_id": "1295",
+        "name": "Montebruno",
+        "place": "village",
+        "population": "277",
+        "source": "geodati.gfoss.it",
+        "wikidata": "Q266352",
+        "addr:city_extracted": "Montebruno"
+      },
+      "lat": 44.5257423,
+      "lon": 9.2475673
+    },
+    {
+      "type": "node",
+      "id": 374371348,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Loc. Pianazzo F. 71",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4634",
+        "zone_id": "97",
+        "addr:city_extracted": "Montebruno"
+      },
+      "lat": 44.5217608,
+      "lon": 9.2338299
+    },
+    {
+      "type": "node",
+      "id": 374371362,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Bivio Rondanina",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4671",
+        "zone_id": "97",
+        "addr:city_extracted": "Montebruno"
+      },
+      "lat": 44.5263455,
+      "lon": 9.2412848
+    },
+    {
+      "type": "node",
+      "id": 374371375,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via F. 55 Montebruno Centro",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4670",
+        "shelter": "no",
+        "zone_id": "96",
+        "addr:city_extracted": "Montebruno"
+      },
+      "lat": 44.525985,
+      "lon": 9.2483075
+    },
+    {
+      "type": "node",
+      "id": 374371420,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "F. Bivio Canale",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4596",
+        "zone_id": "96",
+        "addr:city_extracted": "Montebruno"
+      },
+      "lat": 44.5302703,
+      "lon": 9.2580176
+    },
+    {
+      "type": "node",
+      "id": 413251130,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "F. Bivio Pianazzo",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4633",
+        "zone_id": "97",
+        "addr:city_extracted": "Montebruno"
+      },
+      "lat": 44.5208101,
+      "lon": 9.2316589
+    },
+    {
+      "type": "node",
+      "id": 413267430,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via 63 Montebruno Centro",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4636",
+        "shelter": "no",
+        "zone_id": "96",
+        "addr:city_extracted": "Montebruno"
+      },
+      "lat": 44.5260549,
+      "lon": 9.2486482
+    },
+    {
+      "type": "node",
+      "id": 413267434,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Bivio Canale",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4557",
+        "zone_id": "96",
+        "addr:city_extracted": "Montebruno"
+      },
+      "lat": 44.5304892,
+      "lon": 9.2580922
+    },
+    {
+      "type": "node",
+      "id": 1311836891,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Loc. Pianazzo 71",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4672",
+        "zone_id": "97",
+        "addr:city_extracted": "Montebruno"
+      },
+      "lat": 44.5217448,
+      "lon": 9.232759
+    },
+    {
+      "type": "node",
+      "id": 1311836901,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Bivio Pianazzo",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4673",
+        "zone_id": "97",
+        "addr:city_extracted": "Montebruno"
+      },
+      "lat": 44.5204135,
+      "lon": 9.2310457
+    },
+    {
+      "type": "node",
+      "id": 1930812809,
+      "tags": {
+        "ele": "752",
+        "gfoss_id": "36215",
+        "istat_id": "1003820003",
+        "name": "Pianazzo",
+        "place": "hamlet",
+        "population": "10",
+        "source": "Istat 2001 - geodati.gfoss.it",
+        "wikidata": "Q18458554",
+        "addr:city_extracted": "Montebruno"
+      },
+      "lat": 44.5224142,
+      "lon": 9.2312184
+    },
+    {
+      "type": "node",
+      "id": 1930812908,
+      "tags": {
+        "ele": "982",
+        "gfoss_id": "36219",
+        "istat_id": "1003820107",
+        "name": "Zeppado",
+        "place": "hamlet",
+        "population": "7",
+        "source": "Istat 2001 - geodati.gfoss.it",
+        "addr:city_extracted": "Montebruno"
+      },
+      "lat": 44.534393,
+      "lon": 9.2459269
+    },
+    {
+      "type": "node",
+      "id": 2445038735,
+      "tags": {
+        "name": "Croso",
+        "place": "isolated_dwelling",
+        "addr:city_extracted": "Montebruno"
+      },
+      "lat": 44.5203753,
+      "lon": 9.2551957
+    },
+    {
+      "type": "node",
+      "id": 2445038736,
+      "tags": {
+        "name": "Lunga",
+        "place": "hamlet",
+        "addr:city_extracted": "Montebruno"
+      },
+      "lat": 44.5190835,
+      "lon": 9.2637112
+    },
+    {
+      "type": "node",
+      "id": 2566719990,
+      "tags": {
+        "ele": "745",
+        "name": "Cima del Conco",
+        "natural": "peak",
+        "addr:city_extracted": "Montebruno"
+      },
+      "lat": 44.5286668,
+      "lon": 9.2570141
+    },
+    {
+      "type": "node",
+      "id": 2566722238,
+      "tags": {
+        "ele": "1065",
+        "name": "Monte Colla",
+        "natural": "peak",
+        "addr:city_extracted": "Montebruno"
+      },
+      "lat": 44.5361619,
+      "lon": 9.2469697
+    },
+    {
+      "type": "node",
+      "id": 2627120146,
+      "tags": {
+        "name": "Caprili",
+        "place": "hamlet",
+        "addr:city_extracted": "Montebruno"
+      },
+      "lat": 44.5336732,
+      "lon": 9.2330178
+    },
+    {
+      "type": "node",
+      "id": 3226458216,
+      "tags": {
+        "addr:housenumber": "41",
+        "addr:postcode": "16025",
+        "addr:street": "Via Guglielmo Barbieri",
+        "name": "Panificio Pasticceria da Carlo",
+        "phone": "+39 010 95038",
+        "ref:vatin": "IT02636320109",
+        "shop": "bakery",
+        "website": "https://anticofornoalegna.it/",
+        "addr:city_extracted": "Montebruno"
+      },
+      "lat": 44.5256805,
+      "lon": 9.2479328
+    },
+    {
+      "type": "node",
+      "id": 3226458252,
+      "tags": {
+        "addr:city": "Montebruno",
+        "addr:country": "IT",
+        "addr:housenumber": "47",
+        "addr:postcode": "16025",
+        "addr:province": "GE",
+        "addr:street": "Via Guglielmo Barbieri",
+        "amenity": "bar",
+        "contact:phone": "+39 349 1667805",
+        "name": "Bar Castrum",
+        "addr:city_extracted": "Montebruno"
+      },
+      "lat": 44.5258159,
+      "lon": 9.2481588
+    },
+    {
+      "type": "node",
+      "id": 4208100297,
+      "tags": {
+        "name": "Museo del contadino",
+        "tourism": "museum",
+        "addr:city_extracted": "Montebruno"
+      },
+      "lat": 44.5241651,
+      "lon": 9.2478443
+    },
+    {
+      "type": "node",
+      "id": 4720736536,
+      "tags": {
+        "addr:city": "Montebruno",
+        "addr:country": "IT",
+        "addr:housenumber": "76",
+        "addr:postcode": "16025",
+        "addr:province": "GE",
+        "addr:street": "Via Guglielmo Barbieri",
+        "amenity": "restaurant",
+        "contact:phone": "+39 010 95080",
+        "name": "Il Rifugio del Cacciatore",
+        "addr:city_extracted": "Montebruno"
+      },
+      "lat": 44.5260728,
+      "lon": 9.2484684
+    },
+    {
+      "type": "node",
+      "id": 4720736538,
+      "tags": {
+        "addr:housenumber": "130",
+        "addr:street": "Via Guglielmo Barbieri",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "name": "Farmacia dispensario Santo Stefano",
+        "ref:msal": "18573",
+        "addr:city_extracted": "Montebruno"
+      },
+      "lat": 44.5269546,
+      "lon": 9.2498141
+    },
+    {
+      "type": "node",
+      "id": 5782512433,
+      "tags": {
+        "abandoned:place": "isolated_dwelling",
+        "historic": "ruins",
+        "name": "Viazzale",
+        "ruins": "village",
+        "addr:city_extracted": "Montebruno"
+      },
+      "lat": 44.5388905,
+      "lon": 9.2498531
+    },
+    {
+      "type": "node",
+      "id": 7856627926,
+      "tags": {
+        "addr:city": "Montebruno",
+        "addr:housenumber": "5",
+        "addr:postcode": "16025",
+        "addr:street": "Piazza Paolo Emilio Taviani",
+        "amenity": "post_office",
+        "brand": "Poste Italiane",
+        "brand:wikidata": "Q495026",
+        "brand:wikipedia": "en:Poste italiane",
+        "name": "Poste Italiane",
+        "opening_hours": "Mo-Fr 08:20-13:45; Sa, Su, PH off",
+        "operator": "Poste Italiane",
+        "phone": "+39 010 95019",
+        "addr:city_extracted": "Montebruno"
+      },
+      "lat": 44.526183,
+      "lon": 9.2496825
+    },
+    {
+      "type": "node",
+      "id": 13295342582,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "F. Bivio Rondanina",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4635",
+        "zone_id": "97",
+        "addr:city_extracted": "Montebruno"
+      },
+      "lat": 44.5262375,
+      "lon": 9.241641
+    },
+    {
+      "type": "way",
+      "id": 19848315,
+      "tags": {
+        "boat": "no",
+        "name": "Rio Brugneto",
+        "waterway": "stream",
+        "addr:city_extracted": "Montebruno"
+      }
+    },
+    {
+      "type": "way",
+      "id": 22921246,
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Strada provinciale del Fregarolo",
+        "ref": "SP48",
+        "surface": "asphalt",
+        "addr:city_extracted": "Montebruno"
+      }
+    },
+    {
+      "type": "way",
+      "id": 116645758,
+      "tags": {
+        "highway": "tertiary",
+        "maxweight": "15",
+        "name": "Via XXV Aprile",
+        "surface": "asphalt",
+        "addr:city_extracted": "Montebruno"
+      }
+    },
+    {
+      "type": "way",
+      "id": 116844166,
+      "tags": {
+        "highway": "unclassified",
+        "motor_vehicle": "yes",
+        "name": "Via Conio di mezzo",
+        "surface": "asphalt",
+        "width": "2.5",
+        "addr:city_extracted": "Montebruno"
+      }
+    },
+    {
+      "type": "way",
+      "id": 182726012,
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Strada Statale di Val Trebbia",
+        "ref": "SS45",
+        "surface": "asphalt",
+        "addr:city_extracted": "Montebruno"
+      }
+    },
+    {
+      "type": "way",
+      "id": 200164465,
+      "tags": {
+        "boundary": "protected_area",
+        "hunting": "no",
+        "leisure": "nature_reserve",
+        "name": "Parco Regionale dell'Antola",
+        "protect_class": "2",
+        "protection_code": "EUAP0965",
+        "protection_title": "Area Protetta Regionale",
+        "site_zone": "3.0",
+        "source": "Dai dati realizzati da Regione Liguria \"Aree Protette e relativi piani\" Anno 01/10/2012 scala 1:25000",
+        "addr:city_extracted": "Montebruno"
+      }
+    },
+    {
+      "type": "way",
+      "id": 200164467,
+      "tags": {
+        "boundary": "protected_area",
+        "hunting": "no",
+        "leisure": "nature_reserve",
+        "name": "Parco Regionale dell'Antola",
+        "protect_class": "2",
+        "protection_code": "EUAP0965",
+        "protection_title": "Area Protetta Regionale",
+        "site_zone": "4.0",
+        "source": "Dai dati realizzati da Regione Liguria \"Aree Protette e relativi piani\" Anno 01/10/2012 scala 1:25000",
+        "addr:city_extracted": "Montebruno"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204458319,
+      "tags": {
+        "building": "house",
+        "name": "Casa Cantoniera",
+        "source": "Regione Liguria",
+        "addr:city_extracted": "Montebruno"
+      }
+    },
+    {
+      "type": "way",
+      "id": 236475056,
+      "tags": {
+        "building": "yes",
+        "man_made": "water_works",
+        "name": "Serbatoio Lunga",
+        "note": "Approvigionato dalla sorgente Cugno dei Ginepri",
+        "addr:city_extracted": "Montebruno"
+      }
+    },
+    {
+      "type": "way",
+      "id": 292294044,
+      "tags": {
+        "bridge": "yes",
+        "highway": "secondary",
+        "lanes": "2",
+        "layer": "1",
+        "name": "Strada provinciale del Fregarolo",
+        "ref": "SP48",
+        "surface": "asphalt",
+        "addr:city_extracted": "Montebruno"
+      }
+    },
+    {
+      "type": "way",
+      "id": 292294045,
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Strada provinciale del Fregarolo",
+        "ref": "SP48",
+        "surface": "asphalt",
+        "addr:city_extracted": "Montebruno"
+      }
+    },
+    {
+      "type": "way",
+      "id": 299759078,
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Strada Statale di Val Trebbia",
+        "ref": "SS45",
+        "surface": "asphalt",
+        "addr:city_extracted": "Montebruno"
+      }
+    },
+    {
+      "type": "way",
+      "id": 299759079,
+      "tags": {
+        "bridge": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "layer": "1",
+        "name": "Strada Statale di Val Trebbia",
+        "ref": "SS45",
+        "surface": "asphalt",
+        "addr:city_extracted": "Montebruno"
+      }
+    },
+    {
+      "type": "way",
+      "id": 310868028,
+      "tags": {
+        "landuse": "cemetery",
+        "name": "Cimitero di Montebruno",
+        "religion": "christian",
+        "wikidata": "Q107003274",
+        "addr:city_extracted": "Montebruno"
+      }
+    },
+    {
+      "type": "way",
+      "id": 314638785,
+      "tags": {
+        "highway": "secondary",
+        "name": "Strada Provinciale di Barbagelata",
+        "ref": "SP56",
+        "surface": "asphalt",
+        "addr:city_extracted": "Montebruno"
+      }
+    },
+    {
+      "type": "way",
+      "id": 314638786,
+      "tags": {
+        "bridge": "yes",
+        "highway": "secondary",
+        "layer": "1",
+        "name": "Strada Provinciale di Barbagelata",
+        "ref": "SP56",
+        "surface": "asphalt",
+        "addr:city_extracted": "Montebruno"
+      }
+    },
+    {
+      "type": "way",
+      "id": 430727927,
+      "tags": {
+        "highway": "residential",
+        "name": "Via XXV Aprile",
+        "addr:city_extracted": "Montebruno"
+      }
+    },
+    {
+      "type": "way",
+      "id": 430727929,
+      "tags": {
+        "highway": "service",
+        "name": "Via XXV Aprile",
+        "service": "alley",
+        "addr:city_extracted": "Montebruno"
+      }
+    },
+    {
+      "type": "way",
+      "id": 447020790,
+      "tags": {
+        "boundary": "protected_area",
+        "name": "Lago Brugneto",
+        "protect_class": "97",
+        "ref": "IT1331019",
+        "ref:inspire": "IT.RLIG.SIC-IT1331019",
+        "wikidata": "Q55317028",
+        "addr:city_extracted": "Montebruno"
+      }
+    },
+    {
+      "type": "way",
+      "id": 507031640,
+      "tags": {
+        "highway": "tertiary",
+        "maxweight": "15",
+        "name": "Via San Benedetto da Norcia",
+        "surface": "asphalt",
+        "addr:city_extracted": "Montebruno"
+      }
+    },
+    {
+      "type": "way",
+      "id": 507031641,
+      "tags": {
+        "highway": "tertiary",
+        "maxweight": "15",
+        "name": "Via San Benedetto da Norcia",
+        "surface": "asphalt",
+        "addr:city_extracted": "Montebruno"
+      }
+    },
+    {
+      "type": "way",
+      "id": 507031643,
+      "tags": {
+        "highway": "tertiary",
+        "maxweight": "15",
+        "name": "Via San Benedetto da Norcia",
+        "surface": "asphalt",
+        "addr:city_extracted": "Montebruno"
+      }
+    },
+    {
+      "type": "way",
+      "id": 507031647,
+      "tags": {
+        "highway": "tertiary",
+        "maxweight": "15",
+        "name": "Via San Benedetto da Norcia",
+        "surface": "asphalt",
+        "addr:city_extracted": "Montebruno"
+      }
+    },
+    {
+      "type": "way",
+      "id": 767785308,
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Strada Statale di Val Trebbia",
+        "ref": "SS45",
+        "surface": "asphalt",
+        "addr:city_extracted": "Montebruno"
+      }
+    },
+    {
+      "type": "way",
+      "id": 767785309,
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Via Guglielmo Barbieri",
+        "nat_name": "Strada Statale di Val Trebbia",
+        "ref": "SS45",
+        "surface": "asphalt",
+        "addr:city_extracted": "Montebruno"
+      }
+    },
+    {
+      "type": "way",
+      "id": 959077385,
+      "tags": {
+        "building": "ruins",
+        "historic": "ruins",
+        "name": "Pian delle Giane",
+        "ruins": "building",
+        "source": "Regione Liguria",
+        "addr:city_extracted": "Montebruno"
+      }
+    },
+    {
+      "type": "way",
+      "id": 968782519,
+      "tags": {
+        "boat": "no",
+        "name": "Trebbia",
+        "waterway": "river",
+        "width": "200",
+        "addr:city_extracted": "Montebruno"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1016525607,
+      "tags": {
+        "highway": "secondary",
+        "name": "Strada Provinciale di Barbagelata",
+        "ref": "SP56",
+        "surface": "asphalt",
+        "addr:city_extracted": "Montebruno"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1016525608,
+      "tags": {
+        "highway": "secondary",
+        "lane_markings": "no",
+        "name": "Strada Provinciale di Barbagelata",
+        "ref": "SP56",
+        "surface": "asphalt",
+        "addr:city_extracted": "Montebruno"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1016526358,
+      "tags": {
+        "highway": "secondary",
+        "name": "Strada Provinciale di Barbagelata",
+        "ref": "SP56",
+        "surface": "asphalt",
+        "addr:city_extracted": "Montebruno"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1016526359,
+      "tags": {
+        "highway": "secondary",
+        "name": "Strada Provinciale di Barbagelata",
+        "ref": "SP56",
+        "surface": "asphalt",
+        "addr:city_extracted": "Montebruno"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1016526360,
+      "tags": {
+        "highway": "secondary",
+        "name": "Strada Provinciale di Barbagelata",
+        "ref": "SP56",
+        "surface": "asphalt",
+        "addr:city_extracted": "Montebruno"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1016526361,
+      "tags": {
+        "highway": "secondary",
+        "name": "Strada Provinciale di Barbagelata",
+        "ref": "SP56",
+        "surface": "asphalt",
+        "addr:city_extracted": "Montebruno"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1016574044,
+      "tags": {
+        "highway": "tertiary",
+        "maxweight": "15",
+        "name": "Via San Benedetto da Norcia",
+        "surface": "asphalt",
+        "addr:city_extracted": "Montebruno"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1345005504,
+      "tags": {
+        "highway": "path",
+        "name": "Caprili",
+        "addr:city_extracted": "Montebruno"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1345136647,
+      "tags": {
+        "highway": "path",
+        "name": "Sentiero di Einstein",
+        "surface": "ground",
+        "addr:city_extracted": "Montebruno"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1345136648,
+      "tags": {
+        "highway": "path",
+        "name": "Sentiero di Einstein",
+        "surface": "ground",
+        "addr:city_extracted": "Montebruno"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1424978150,
+      "tags": {
+        "bridge": "yes",
+        "highway": "secondary",
+        "lane_markings": "no",
+        "layer": "1",
+        "name": "Strada Provinciale di Barbagelata",
+        "ref": "SP56",
+        "surface": "asphalt",
+        "addr:city_extracted": "Montebruno"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1424978151,
+      "tags": {
+        "highway": "secondary",
+        "lane_markings": "no",
+        "name": "Strada Provinciale di Barbagelata",
+        "ref": "SP56",
+        "surface": "asphalt",
+        "addr:city_extracted": "Montebruno"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1424978152,
+      "tags": {
+        "highway": "secondary",
+        "lane_markings": "no",
+        "name": "Strada Provinciale di Barbagelata",
+        "ref": "SP56",
+        "surface": "asphalt",
+        "addr:city_extracted": "Montebruno"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1424978153,
+      "tags": {
+        "highway": "secondary",
+        "lane_markings": "no",
+        "name": "Strada Provinciale di Barbagelata",
+        "ref": "SP56",
+        "surface": "asphalt",
+        "addr:city_extracted": "Montebruno"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1424978157,
+      "tags": {
+        "building": "yes",
+        "shop": "kiosk",
+        "addr:city_extracted": "Montebruno"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1450395005,
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Strada Statale di Val Trebbia",
+        "ref": "SS45",
+        "surface": "asphalt",
+        "addr:city_extracted": "Montebruno"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1537955425,
+      "tags": {
+        "highway": "service",
+        "name": "Via Fossatello",
+        "service": "alley",
+        "addr:city_extracted": "Montebruno"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1537955426,
+      "tags": {
+        "access": "yes",
+        "addr:city": "Montebruno",
+        "addr:country": "IT",
+        "addr:postcode": "16025",
+        "addr:province": "GE",
+        "leisure": "park",
+        "name": "Parco giochi di Montebruno",
+        "operator": "Comune di Montebruno",
+        "addr:city_extracted": "Montebruno"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1537955430,
+      "tags": {
+        "name": "Piazza Europa Unita",
+        "place": "square",
+        "addr:city_extracted": "Montebruno"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1537955432,
+      "tags": {
+        "highway": "service",
+        "name": "Via XXV Aprile",
+        "service": "alley",
+        "addr:city_extracted": "Montebruno"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1537955438,
+      "tags": {
+        "alt_name": "Ponte medievale di Montebruno",
+        "arches": "4",
+        "bridge": "yes",
+        "highway": "unclassified",
+        "historic": "yes",
+        "layer": "1",
+        "material": "stone",
+        "name": "Ponte Doria",
+        "source": "https://fuorigenova.cittametropolitana.genova.it/content/poi/ponte-medievale-di-montebruno",
+        "surface": "unhewn_cobblestone",
+        "addr:city_extracted": "Montebruno"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1537955444,
+      "tags": {
+        "highway": "tertiary",
+        "maxweight": "15",
+        "name": "Via San Benedetto da Norcia",
+        "surface": "asphalt",
+        "addr:city_extracted": "Montebruno"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 34933,
+      "tags": {
+        "alt_name": "Strada statale 45 di Val Trebbia e del Caffaro",
+        "name": "Strada Statale 45 di Val Trebbia",
+        "ref": "SS45",
+        "route": "road",
+        "type": "route",
+        "wikidata": "Q3975172",
+        "wikipedia": "it:Strada statale 45 di Val Trebbia",
+        "addr:city_extracted": "Montebruno"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 43241,
+      "tags": {
+        "admin_level": "8",
+        "boundary": "administrative",
+        "name": "Montebruno",
+        "population": "192",
+        "population:date": "2026-08-28",
+        "ref:catasto": "F445",
+        "ref:ISTAT": "010038",
+        "type": "boundary",
+        "wikidata": "Q266352",
+        "wikipedia": "it:Montebruno",
+        "addr:city_extracted": "Montebruno"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 43269,
+      "tags": {
+        "admin_level": "8",
+        "boundary": "administrative",
+        "name": "Fontanigorda",
+        "population": "215",
+        "population:date": "2026-08-27",
+        "ref:catasto": "D677",
+        "ref:ISTAT": "010024",
+        "type": "boundary",
+        "wikidata": "Q266326",
+        "wikipedia": "it:Fontanigorda",
+        "addr:city_extracted": "Montebruno"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 43279,
+      "tags": {
+        "admin_level": "8",
+        "boundary": "administrative",
+        "name": "Rondanina",
+        "population": "58",
+        "population:date": "2026-08-28",
+        "ref:catasto": "H546",
+        "ref:ISTAT": "010050",
+        "source:population": "ANPR 2026",
+        "type": "boundary",
+        "wikidata": "Q266381",
+        "wikipedia": "it:Rondanina",
+        "addr:city_extracted": "Montebruno"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 2235489,
+      "tags": {
+        "destination": "Po",
+        "name": "Trebbia",
+        "type": "waterway",
+        "waterway": "river",
+        "wikidata": "Q732587",
+        "wikipedia": "it:Trebbia",
+        "addr:city_extracted": "Montebruno"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 2440682,
+      "tags": {
+        "name": "Strada Provinciale del Brugneto",
+        "ref": "SP15",
+        "route": "road",
+        "type": "route",
+        "addr:city_extracted": "Montebruno"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 2744337,
+      "tags": {
+        "addr:city": "Montebruno",
+        "addr:country": "IT",
+        "addr:postcode": "16025",
+        "addr:province": "GE",
+        "addr:street": "Via Santuario",
+        "alt_name": "Santuario di Nostra Signora di Montebruno",
+        "amenity": "place_of_worship",
+        "building": "church",
+        "denomination": "catholic",
+        "name": "Chiesa di Santa Maria Assunta",
+        "ref:beweb": "63831",
+        "ref:iccd": "0700111072",
+        "religion": "christian",
+        "start_date": "1486",
+        "type": "multipolygon",
+        "wikidata": "Q3949980",
+        "wikimedia_commons": "Category:Nostra Signora di Montebruno",
+        "wikipedia": "it:Santuario di Nostra Signora di Montebruno",
+        "addr:city_extracted": "Montebruno"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 7390819,
+      "tags": {
+        "cai_scale": "E",
+        "description:it": "http://fieliguria.com/images/Sentieri-Zone-GENOVA/Zona6/GE06S20Montebruno_Rondanina.pdf",
+        "distance": "4.5",
+        "duration:backward": "01:30",
+        "duration:forward": "01:30",
+        "from": "Montebruno",
+        "name": "Montebruno - Rondanina",
+        "network": "lwn",
+        "note:project_page": "http://wiki.openstreetmap.org/wiki/Liguria/Sentieri",
+        "osmc:symbol": "red:green::❚●:yellow",
+        "ref:FIE": "GE06S20",
+        "route": "hiking",
+        "source": "Federazione Italiana Escursionismo",
+        "symbol:it": "linea verticale gialla e cerchio giallo",
+        "to": "Rondanina",
+        "type": "route",
+        "website:FIE": "http://www.fieliguria.com/sentieri-escursioni-liguria/genova.html",
+        "addr:city_extracted": "Montebruno"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 13610533,
+      "tags": {
+        "cai_scale": "E",
+        "name": "Montebruno - Cà Rossa - Barbagelata",
+        "network": "lwn",
+        "osmc:symbol": "red:green::=:yellow",
+        "route": "hiking",
+        "source": "FIE",
+        "type": "route",
+        "addr:city_extracted": "Montebruno"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 19835711,
+      "tags": {
+        "bus": "yes",
+        "colour": "green",
+        "description": "926 Torriglia (Loc. Laccetto) - Montebruno - Canale - Fontanigorda - Casanova",
+        "from": "Torriglia",
+        "name": "926 Torriglia - Casanova",
+        "network": "AMT Linee Provinciali",
+        "network:wikidata": "Q295335",
+        "network:wikipedia": "it:AMT (Genova)",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "926",
+        "route": "bus",
+        "to": "Casanova",
+        "type": "route",
+        "addr:city_extracted": "Montebruno"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 19838932,
+      "tags": {
+        "bus": "yes",
+        "colour": "green",
+        "description": "925 Torriglia (Loc. Laccetto) - Montebruno - Loco - Rovegno - Ottone",
+        "from": "Torriglia (Laccetto)",
+        "name": "925 Torriglia - Ottone",
+        "network": "AMT Linee Provinciali",
+        "network:wikidata": "Q295335",
+        "network:wikipedia": "it:AMT (Genova)",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "925",
+        "route": "bus",
+        "to": "Ottone",
+        "type": "route",
+        "addr:city_extracted": "Montebruno"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 19838933,
+      "tags": {
+        "bus": "yes",
+        "colour": "green",
+        "description": "926 Torriglia (Laccetto) - Casoni - Fontanigorda - Rovegno",
+        "from": "Torriglia",
+        "name": "926 Torriglia (Laccetto) - Rovegno (via Fontanigorda)",
+        "network": "AMT Linee Provinciali",
+        "network:wikidata": "Q295335",
+        "network:wikipedia": "it:AMT (Genova)",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "926",
+        "route": "bus",
+        "to": "Rovegno",
+        "type": "route",
+        "addr:city_extracted": "Montebruno"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 19918392,
+      "tags": {
+        "bus": "yes",
+        "colour": "green",
+        "description": "925 Ottone Torriglia (Loc. Laccetto) - Montebruno - Loco - Rovegno -",
+        "from": "Ottone",
+        "name": "925 Ottone - Torriglia",
+        "network": "AMT Linee Provinciali",
+        "network:wikidata": "Q295335",
+        "network:wikipedia": "it:AMT (Genova)",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "925",
+        "route": "bus",
+        "to": "Torriglia (Laccetto)",
+        "type": "route",
+        "addr:city_extracted": "Montebruno"
+      }
+    }
+  ]
+}
