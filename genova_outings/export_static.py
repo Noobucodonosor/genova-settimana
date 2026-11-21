@@ -299,6 +299,7 @@ function render() {
   document.getElementById("list").innerHTML = items.map(d => {
     const prog = (d.programma || []).length
       ? `<div class="prog"><b>In programma</b><ul>${d.programma.map(p => `<li>${esc(p.titolo)} <span>${esc(p.quando)}</span></li>`).join("")}</ul></div>` : "";
+    const safeHref = /^https?:\/\//i.test(String(d.url || "").trim()) ? d.url.trim() : "";
     return `<div class="card ${sel.has(d.id)?'sel':''}" data-id="${esc(d.id)}">
       <input type="checkbox" ${sel.has(d.id)?'checked':''} aria-label="Scegli ${esc(d.title)}">
       <div><div class="t">${esc(d.title)}</div>
@@ -306,7 +307,7 @@ function render() {
         <div class="m">🗓️ ${esc(d.day_time)}</div>
         ${d.description ? `<div class="d">${esc(d.description)}</div>` : ""}
         ${prog}
-        <a class="src" href="${esc(d.url)}" target="_blank" rel="noopener">Sito ufficiale</a>
+        ${safeHref ? `<a class="src" href="${esc(safeHref)}" target="_blank" rel="noopener">Sito ufficiale</a>` : ""}
       </div></div>`;
   }).join("");
   document.querySelectorAll(".card").forEach(c => c.onclick = e => {
@@ -317,14 +318,26 @@ function render() {
   });
 }
 
+function cleanPlain(s) {
+  return String(s || "").replace(/[\u2014\u2013\u2015]/g, "-").replace(/\s+/g, " ").trim();
+}
+
 function message() {
   const chosen = DATA.filter(d => sel.has(d.id));
-  const head = chosen.length === 1 ? "Ho guardato la lista, questa mi ispira:" : "Ho guardato la lista, queste mi ispirano:";
+  if (!chosen.length) return "";
+  const head = chosen.length === 1
+    ? "Ho visto questa cosa a Genova questa settimana, se ti va:"
+    : "Ti lascio un paio di idee carine per questa settimana a Genova:";
   const body = chosen.map(d => {
     const p = (d.programma || [])[0];
-    return `• *${d.title}*\n  ${d.place}` + (p ? `\n  ${p.titolo}, ${p.quando}` : `\n  ${d.day_time}`);
+    const when = p ? `${cleanPlain(p.titolo)}, ${cleanPlain(p.quando)}` : cleanPlain(d.day_time);
+    const safeHref = /^https?:\/\//i.test(String(d.url || "").trim()) ? String(d.url).trim().replace(/[.,;:!?)]+$/, "") : "";
+    const lines = [`• *${cleanPlain(d.title)}*`, `  ${cleanPlain(d.place)}`, `  ${when}`];
+    if (safeHref) lines.push(`  Info: ${safeHref}`);
+    return lines.join("\n");
   }).join("\n\n");
-  return `${head}\n\n${body}`;
+  const tail = chosen.length === 1 ? "Dimmi se ti ispira!" : "Dimmi se ti ispira qualcosa!";
+  return `${head}\n\n${body}\n\n${tail}`;
 }
 
 function bar() {
@@ -393,8 +406,8 @@ def build(out_dir: Path) -> Path:
     today = date.today()
     end = today + timedelta(days=7)
     rng = f"Dal {today.day} {MESI[today.month-1]} al {end.day} {MESI[end.month-1]}"
-    page = (PAGE.replace("__DATA__", json.dumps(data, ensure_ascii=False))
-                .replace("__LABELS__", json.dumps(CAT_LABEL, ensure_ascii=False))
+    page = (PAGE.replace("__DATA__", json.dumps(data, ensure_ascii=False).replace("<", "\\u003c"))
+                .replace("__LABELS__", json.dumps(CAT_LABEL, ensure_ascii=False).replace("<", "\\u003c"))
                 .replace("__RANGE__", html.escape(rng))
                 .replace("__UPDATED__", f"{today.day} {MESI[today.month-1]} {today.year}"))
     out_dir.mkdir(parents=True, exist_ok=True)

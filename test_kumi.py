@@ -1,9 +1,11 @@
 import urllib.request, urllib.parse, json, os
+import os as _os
+_DATA_DIR = _os.environ.get("GENOVA_DATA_DIR") or _os.path.dirname(_os.path.abspath(__file__))
 
-with open("/Users/dany/genova/comuni_provincia_genova.json") as f:
+with open(f"{_DATA_DIR}/comuni_provincia_genova.json") as f:
     comuni = json.load(f)
 
-missing = [c for c in comuni if not os.path.exists("/Users/dany/genova/comuni_raw/" + c["name"].replace(" ", "_") + ".json")]
+missing = [c for c in comuni if not os.path.exists(f"{_DATA_DIR}/comuni_raw/" + c["name"].replace(" ", "_") + ".json")]
 print("Remaining:", len(missing))
 
 # Single foreach query on kumi.systems for all 28 missing!
@@ -32,7 +34,7 @@ for url in ["https://overpass.kumi.systems/api/interpreter", "https://overpass.p
             raw = resp.read()
             parsed = json.loads(raw)
             print("SUCCESS via", url, "Elements:", len(parsed.get("elements", [])))
-            with open("/Users/dany/genova/remaining_28_batch.json", "wb") as out_f:
+            with open(f"{_DATA_DIR}/remaining_28_batch.json", "wb") as out_f:
                 out_f.write(raw)
             break
     except Exception as e:

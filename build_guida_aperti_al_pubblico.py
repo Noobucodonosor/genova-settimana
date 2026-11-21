@@ -1,17 +1,19 @@
 import json
 import csv
 from collections import defaultdict
+import os as _os
+_DATA_DIR = _os.environ.get("GENOVA_DATA_DIR") or _os.path.dirname(_os.path.abspath(__file__))
 
-with open("/Users/dany/genova/osm_provincia_raw.json") as f:
+with open(f"{_DATA_DIR}/osm_provincia_raw.json") as f:
     osm_elements = json.load(f)["elements"]
 
-with open("/Users/dany/genova/wikidata_rich_provincia.json") as f:
+with open(f"{_DATA_DIR}/wikidata_rich_provincia.json") as f:
     wd_rich = json.load(f)
 
-with open("/Users/dany/genova/wikidata_all_provincia_items.json") as f:
+with open(f"{_DATA_DIR}/wikidata_all_provincia_items.json") as f:
     wd_all = json.load(f)
 
-with open("/Users/dany/genova/crawled_urls_cache.json") as f:
+with open(f"{_DATA_DIR}/crawled_urls_cache.json") as f:
     crawled_cache = json.load(f)
 
 # Curated verified opening hours & events knowledge base from official portals
@@ -321,10 +323,10 @@ with_events_total = sum(1 for x in final_records if x["eventi_e_servizi_al_pubbl
 print(f"With opening hours/access info: {with_hours_total}, With website: {with_web_total}, With events/services description: {with_events_total}")
 
 # Save JSON and CSV
-with open("/Users/dany/genova/guida_aperti_al_pubblico_provincia_genova.json", "w", encoding="utf-8") as f:
+with open(f"{_DATA_DIR}/guida_aperti_al_pubblico_provincia_genova.json", "w", encoding="utf-8") as f:
     json.dump(final_records, f, indent=2, ensure_ascii=False)
 
-with open("/Users/dany/genova/guida_aperti_al_pubblico_provincia_genova.csv", "w", encoding="utf-8", newline="") as f:
+with open(f"{_DATA_DIR}/guida_aperti_al_pubblico_provincia_genova.csv", "w", encoding="utf-8", newline="") as f:
     writer = csv.DictWriter(f, fieldnames=list(final_records[0].keys()))
     writer.writeheader()
     writer.writerows(final_records)
@@ -334,7 +336,7 @@ by_macro = defaultdict(list)
 for x in final_records:
     by_macro[x["macro_categoria"]].append(x)
 
-with open("/Users/dany/genova/guida_aperti_al_pubblico_provincia_genova.md", "w", encoding="utf-8") as f:
+with open(f"{_DATA_DIR}/guida_aperti_al_pubblico_provincia_genova.md", "w", encoding="utf-8") as f:
     f.write("# Guida Integrale dei Luoghi Aperti al Pubblico, Siti Web, Orari ed Eventi — Provincia di Genova (67 Comuni)\n\n")
     f.write(f"- **Luoghi e strutture pubbliche censite:** `{len(final_records)}`\n")
     f.write(f"- **Siti web ufficiali scansionati:** `{with_web_total}` (`834` domini/URL unici interrogati via HTTP/HTTPS)\n")

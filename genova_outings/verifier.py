@@ -261,16 +261,25 @@ def is_civic_museum_closed_on_day(venue_name: str, day_of_week: int | str) -> bo
 
 
 def _load_crawled_cache() -> Dict[str, dict]:
-    """Load local crawled_urls_cache.json if present in workspace."""
+    """Load local crawled_urls_cache.json if present in workspace and within TTL."""
     global _CRAWLED_CACHE_LOADED, _CRAWLED_CACHE_DATA
     if _CRAWLED_CACHE_LOADED:
         return _CRAWLED_CACHE_DATA
 
-    cache_path = Path("/Users/dany/genova/crawled_urls_cache.json")
+    import os
+    import time
+
+    data_dir = Path(os.environ.get("GENOVA_DATA_DIR") or Path(__file__).resolve().parent.parent)
+    cache_path = data_dir / "crawled_urls_cache.json"
+    ttl_days = int(os.environ.get("GENOVA_CACHE_TTL_DAYS", "7"))
     if cache_path.exists():
         try:
-            with open(cache_path, "r", encoding="utf-8") as f:
-                _CRAWLED_CACHE_DATA = json.load(f)
+            age_sec = time.time() - cache_path.stat().st_mtime
+            if ttl_days > 0 and age_sec > ttl_days * 86400:
+                _CRAWLED_CACHE_DATA = {}
+            else:
+                with open(cache_path, "r", encoding="utf-8") as f:
+                    _CRAWLED_CACHE_DATA = json.load(f)
         except Exception:
             _CRAWLED_CACHE_DATA = {}
     _CRAWLED_CACHE_LOADED = True
@@ -320,8 +329,6 @@ def probe_url_reachability(url: str, timeout: float = 3.5, use_cache: bool = Tru
         "Accept-Language": "it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7",
     }
     ctx = ssl.create_default_context()
-    ctx.check_hostname = False
-    ctx.verify_mode = ssl.CERT_NONE
 
     req = urllib.request.Request(url, headers=headers)
     try:
@@ -332,7 +339,9 @@ def probe_url_reachability(url: str, timeout: float = 3.5, use_cache: bool = Tru
             else:
                 result = (False, code, f"HTTP status {code}")
     except urllib.error.HTTPError as e:
-        result = (False, e.code, f"HTTP Error {e.code}")
+        code = e.code
+        e.close()
+        result = (False, code, f"HTTP Error {code}")
     except urllib.error.URLError as e:
         result = (False, 0, f"URL Error: {e.reason}")
     except Exception as e:

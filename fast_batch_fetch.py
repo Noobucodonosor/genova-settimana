@@ -3,13 +3,15 @@ import urllib.parse
 import json
 import os
 import time
+import os as _os
+_DATA_DIR = _os.environ.get("GENOVA_DATA_DIR") or _os.path.dirname(_os.path.abspath(__file__))
 
-with open("/Users/dany/genova/comuni_provincia_genova.json") as f:
+with open(f"{_DATA_DIR}/comuni_provincia_genova.json") as f:
     comuni = json.load(f)
 
 missing = []
 for c in comuni:
-    fname = "/Users/dany/genova/comuni_raw/" + c["name"].replace(" ", "_") + ".json"
+    fname = f"{_DATA_DIR}/comuni_raw/" + c["name"].replace(" ", "_") + ".json"
     if not os.path.exists(fname):
         missing.append(c)
 

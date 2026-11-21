@@ -4,11 +4,13 @@ import json
 import os
 import time
 import xml.etree.ElementTree as ET
+import os as _os
+_DATA_DIR = _os.environ.get("GENOVA_DATA_DIR") or _os.path.dirname(_os.path.abspath(__file__))
 
-with open("/Users/dany/genova/comuni_provincia_genova.json") as f:
+with open(f"{_DATA_DIR}/comuni_provincia_genova.json") as f:
     comuni = json.load(f)
 
-missing = [c for c in comuni if not os.path.exists("/Users/dany/genova/comuni_raw/" + c["name"].replace(" ", "_") + ".json")]
+missing = [c for c in comuni if not os.path.exists(f"{_DATA_DIR}/comuni_raw/" + c["name"].replace(" ", "_") + ".json")]
 print("Remaining municipalities to fetch via api.openstreetmap.org:", len(missing))
 
 # 1. Get coordinates (P625) of the 28 municipalities from Wikidata
@@ -35,7 +37,7 @@ print("Resolved coordinates for", len(coords_by_qid), "municipalities")
 
 for idx, c in enumerate(missing, 1):
     name = c["name"]
-    fname = "/Users/dany/genova/comuni_raw/" + name.replace(" ", "_") + ".json"
+    fname = f"{_DATA_DIR}/comuni_raw/" + name.replace(" ", "_") + ".json"
     lon, lat = coords_by_qid.get(c["qid"], (9.15, 44.38))
     # Use a 0.036 x 0.026 degree box around town center (approx 4km x 3km covering the urban center & main roads)
     bbox = f"{lon-0.018:.4f},{lat-0.013:.4f},{lon+0.018:.4f},{lat+0.013:.4f}"

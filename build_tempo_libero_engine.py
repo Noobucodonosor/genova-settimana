@@ -2,20 +2,22 @@ import json
 import math
 import re
 from collections import Counter, defaultdict
+import os as _os
+_DATA_DIR = _os.environ.get("GENOVA_DATA_DIR") or _os.path.dirname(_os.path.abspath(__file__))
 
-with open("/Users/dany/genova/comuni_67_geo.json") as f:
+with open(f"{_DATA_DIR}/comuni_67_geo.json") as f:
     comuni_geo = json.load(f)
 
-with open("/Users/dany/genova/wikidata_rich_provincia.json") as f:
+with open(f"{_DATA_DIR}/wikidata_rich_provincia.json") as f:
     wd_rich = json.load(f)
 
-with open("/Users/dany/genova/osm_provincia_raw.json") as f:
+with open(f"{_DATA_DIR}/osm_provincia_raw.json") as f:
     osm_raw = json.load(f)["elements"]
 
-with open("/Users/dany/genova/guida_aperti_al_pubblico_provincia_genova.json") as f:
+with open(f"{_DATA_DIR}/guida_aperti_al_pubblico_provincia_genova.json") as f:
     guida = json.load(f)
 
-with open("/Users/dany/genova/toponimi_personaggi_provincia_genova.json") as f:
+with open(f"{_DATA_DIR}/toponimi_personaggi_provincia_genova.json") as f:
     toponimi = json.load(f)
 
 # Build GPS lookup
@@ -1512,7 +1514,7 @@ payload = {
     "places": curated
 }
 
-with open("/Users/dany/genova/tempo_libero_payload.json", "w", encoding="utf-8") as f:
+with open(f"{_DATA_DIR}/tempo_libero_payload.json", "w", encoding="utf-8") as f:
     json.dump(payload, f, ensure_ascii=False, separators=(",", ":"))
 
 print(f"Total places: {len(curated)} (Tier 1: {payload['meta']['tier1_flagships']})")
@@ -1520,4 +1522,4 @@ print("Comuni covered in places:", len({x['comune'] for x in curated}), "/ 67")
 print("By zone:", dict(Counter(x["zona"] for x in curated)))
 print("By tipo:", dict(Counter(x["tipo"] for x in curated)))
 import os
-print("Compact JSON size KB:", round(os.path.getsize("/Users/dany/genova/tempo_libero_payload.json") / 1024, 1))
+print("Compact JSON size KB:", round(os.path.getsize(f"{_DATA_DIR}/tempo_libero_payload.json") / 1024, 1))

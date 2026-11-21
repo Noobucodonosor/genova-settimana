@@ -4,11 +4,13 @@ import json
 import os
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
+import os as _os
+_DATA_DIR = _os.environ.get("GENOVA_DATA_DIR") or _os.path.dirname(_os.path.abspath(__file__))
 
-with open("/Users/dany/genova/comuni_provincia_genova.json") as f:
+with open(f"{_DATA_DIR}/comuni_provincia_genova.json") as f:
     comuni = json.load(f)
 
-missing = [c for c in comuni if not os.path.exists("/Users/dany/genova/comuni_raw/" + c["name"].replace(" ", "_") + ".json")]
+missing = [c for c in comuni if not os.path.exists(f"{_DATA_DIR}/comuni_raw/" + c["name"].replace(" ", "_") + ".json")]
 print("Fetching remaining:", len(missing))
 
 ENDPOINTS = [
@@ -19,7 +21,7 @@ ENDPOINTS = [
 
 def fetch_one(idx, c):
     area_id = 3600000000 + int(c["osm_rel"])
-    fname = "/Users/dany/genova/comuni_raw/" + c["name"].replace(" ", "_") + ".json"
+    fname = f"{_DATA_DIR}/comuni_raw/" + c["name"].replace(" ", "_") + ".json"
     query = f"""[out:json][timeout:30];
 area({area_id})->.a;
 (

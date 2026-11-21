@@ -1,10 +1,12 @@
 import json
 import re
+import os as _os
+_DATA_DIR = _os.environ.get("GENOVA_DATA_DIR") or _os.path.dirname(_os.path.abspath(__file__))
 
-with open("/Users/dany/genova/guida_aperti_al_pubblico_provincia_genova.json") as f:
+with open(f"{_DATA_DIR}/guida_aperti_al_pubblico_provincia_genova.json") as f:
     records = json.load(f)
 
-with open("/Users/dany/genova/toponimi_personaggi_provincia_genova.json") as f:
+with open(f"{_DATA_DIR}/toponimi_personaggi_provincia_genova.json") as f:
     toponimi = json.load(f)
 
 # Build lookup for historical character linked to the place or its street
@@ -304,5 +306,5 @@ for r in records:
     seen_names.add(key)
 
 print("Total rich items prepared for interactive dashboard:", len(curated_items))
-with open("/Users/dany/genova/dashboard_items.json", "w", encoding="utf-8") as f:
+with open(f"{_DATA_DIR}/dashboard_items.json", "w", encoding="utf-8") as f:
     json.dump(curated_items, f, indent=2, ensure_ascii=False)
