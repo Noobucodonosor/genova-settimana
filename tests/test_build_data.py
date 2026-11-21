@@ -82,6 +82,60 @@ class TestBuildDataETL(unittest.TestCase):
             self.assertEqual(es[0]["nome"], "Bottega Storica")
             self.assertNotIn("|", es[0]["cosa_trovi"])
 
+    def test_build_events_uses_editorial_category_and_programme_order(self):
+        from unittest.mock import patch
+        from genova_outings.models import OutingCategory, OutingOption
+
+        opts = [
+            OutingOption(
+                id="a_altro",
+                title="Abbazia Antica",
+                category=OutingCategory.ALTRO,
+                venue="Abbazia Antica",
+                zone="levante",
+                day_time="Sempre",
+                description="Abbazia",
+                verified_url="https://example.org/abbazia",
+            ),
+            OutingOption(
+                id="c_no_prog",
+                title="Cinema Alpha",
+                category=OutingCategory.CINEMA,
+                venue="Cinema Alpha",
+                zone="centro",
+                day_time="Sera",
+                description="Sala",
+                verified_url="https://example.org/alpha",
+            ),
+            OutingOption(
+                id="c_with_prog",
+                title="Cinema Zeta",
+                category=OutingCategory.CINEMA,
+                venue="Cinema Zeta",
+                zone="centro",
+                day_time="Sera",
+                description="Sala",
+                verified_url="https://example.org/zeta",
+                raw_metadata={"programma": [{"titolo": "Film", "quando": "21:00"}]},
+            ),
+            OutingOption(
+                id="m_mostra",
+                title="Mostra Arte",
+                category=OutingCategory.MOSTRA,
+                venue="Palazzo",
+                zone="centro",
+                day_time="10-19",
+                description="Mostra",
+                verified_url="https://example.org/mostra",
+            ),
+        ]
+        with patch("scripts.build_data.get_weekly_catalog", return_value=opts):
+            events = build_data.build_events(live_verify=False)
+        self.assertEqual(
+            [e["id"] for e in events],
+            ["c_with_prog", "c_no_prog", "m_mostra", "a_altro"],
+        )
+
 
 if __name__ == "__main__":
     unittest.main()

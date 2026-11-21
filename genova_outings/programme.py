@@ -202,29 +202,44 @@ def carlo_felice(url: str, today: date) -> List[Dict[str, str]]:
     return out
 
 
+def _safe_date(year: int, month: int, day: int) -> Optional[date]:
+    try:
+        return date(year, month, day)
+    except ValueError:
+        return None
+
+
 def parse_range(text: str, today: date) -> tuple[Optional[date], Optional[date]]:
     """Estrae (inizio, fine) da testi tipo '25 Set — 08 Dic 2026', 'Dal 12 novembre 2026 al 28
     febbraio 2027', '4-5 Novembre 2026', '13 novembre 2026', '26.11.2026'."""
     t = text.lower().replace("\u2014", "-").replace("\u2013", "-")
     m = re.search(r"\b(\d{1,2})\.(\d{1,2})\.(\d{4})\b", t)
     if m:
-        try:
-            d = date(int(m.group(3)), int(m.group(2)), int(m.group(1)))
-            return d, d
-        except ValueError:
-            return None, None
-    # "4-5 novembre" / "13 - 14 nov": un mese per due giorni
+        d = _safe_date(int(m.group(3)), int(m.group(2)), int(m.group(1)))
+        return (d, d) if d else (None, None)
+    # "4-5 novembre" / "13 - 14 nov 2026": un mese per due giorni
     m = re.search(r"\b(\d{1,2})\s*-\s*(\d{1,2})\s+([a-z]{3,9})\.?(?:\s+(\d{4}))?", t)
     if m and _month(m.group(3)):
         mm = _month(m.group(3))
+        if m.group(4):
+            yr = int(m.group(4))
+            return _safe_date(yr, mm, int(m.group(1))), _safe_date(yr, mm, int(m.group(2)))
         return _mkdate(int(m.group(1)), mm, today), _mkdate(int(m.group(2)), mm, today)
-    toks = [(int(d), _month(mo)) for d, mo in re.findall(r"\b(\d{1,2})\s+([a-z]{3,9})\b", t) if _month(mo)]
+    toks = [
+        (int(d), _month(mo), int(yr) if yr else None)
+        for d, mo, yr in re.findall(r"\b(\d{1,2})\s+([a-z]{3,9})\.?(?:\s+(\d{4}))?\b", t)
+        if _month(mo)
+    ]
     if not toks:
         return None, None
-    start = _mkdate(toks[0][0], toks[0][1], today)
-    end = _mkdate(toks[-1][0], toks[-1][1], today)
-    if start and end and end < start:
-        end = date(end.year + 1, end.month, end.day)
+    d1, m1, y1 = toks[0]
+    d2, m2, y2 = toks[-1]
+    if y1 is None and y2 is not None:
+        y1 = y2 if (m1, d1) <= (m2, d2) else y2 - 1
+    start = _safe_date(y1, m1, d1) if y1 is not None else _mkdate(d1, m1, today)
+    end = _safe_date(y2, m2, d2) if y2 is not None else _mkdate(d2, m2, today)
+    if start and end and end < start and y2 is None:
+        end = _safe_date(end.year + 1, end.month, end.day)
     return start, end
 
 
@@ -331,10 +346,68 @@ def teatro_tosse(url: str, today: date, hint: str = "") -> List[Dict[str, str]]:
     return out
 
 
+def crazy_bull(url: str, today: date) -> List[Dict[str, str]]:
+    """crazybullgenova.it/eventi: card <article class='event-card'> con datetime ISO e titolo."""
+    page = _get("https://www.crazybullgenova.it/eventi")
+    out, seen = [], set()
+    for card in re.findall(r'<article[^>]+class="[^"]*event-card[^"]*"[^>]*>(.*?)</article>', page, re.S):
+        m_dt = re.search(r'datetime="(\d{4}-\d{2}-\d{2})', card)
+        m_title = re.search(r"<h3[^>]*>(.*?)</h3>", card, re.S)
+        if not (m_dt and m_title):
+            continue
+        try:
+            d = date.fromisoformat(m_dt.group(1))
+        except ValueError:
+            continue
+        if not _in_window(d, today):
+            continue
+        title = _txt(m_title.group(1))
+        if not title or title in seen:
+            continue
+        seen.add(title)
+        m_time = re.search(r'class="event-card-time"[^>]*>(?:<span[^>]*>[^<]*</span>)?\s*([^<]+)<', card)
+        tm = _txt(m_time.group(1)) if m_time else ""
+        when = f"{_fmt(d)} {tm}".strip()
+        out.append({"titolo": title, "quando": when})
+    return out
+
+
+def genova_tango(url: str, today: date) -> List[Dict[str, str]]:
+    """genovatango.com/eventi/: card milonghe ed eventi tango con <p class='event-date'> e <h3>."""
+    page = _get("https://www.genovatango.com/eventi/")
+    out, seen = [], set()
+    weekday_re = re.compile(
+        r"\b(luned[iì]|marted[iì]|mercoled[iì]|gioved[iì]|venerd[iì]|sabato|domenica)\b",
+        re.IGNORECASE,
+    )
+    for card in re.findall(r'<article[^>]+class="[^"]*event-card[^"]*"[^>]*>(.*?)</article>', page, re.S):
+        m_dt = re.search(r'<p[^>]+class="[^"]*event-date[^"]*"[^>]*>(.*?)</p>', card, re.S)
+        m_title = re.search(r"<h3[^>]*>(.*?)</h3>", card, re.S)
+        if not (m_dt and m_title):
+            continue
+        raw_dt = _txt(m_dt.group(1))
+        cleaned_dt = re.sub(r"\s+", " ", weekday_re.sub("", raw_dt)).strip()
+        start, end = parse_range(cleaned_dt, today)
+        if not _keep(start, end, today):
+            continue
+        title = _txt(m_title.group(1))
+        if not title or title in seen:
+            continue
+        seen.add(title)
+        m_ore = re.search(r"\b(\d{1,2}:\d{2}(?:\s*-\s*\d{1,2}:\d{2})?)\b", raw_dt)
+        when = _span_label(start, end, today)
+        if m_ore:
+            when = f"{when} ore {m_ore.group(1)}"
+        out.append({"titolo": title, "quando": when})
+    return out
+
+
 EXTRACTORS: List[tuple[str, Callable[..., List[Dict[str, str]]]]] = [
     ("circuitocinemagenova.com", circuito_cinema),
     ("cineclubnickelodeon.it", nickelodeon),
     ("countbasie.it", count_basie),
+    ("crazybullgenova.it", crazy_bull),
+    ("genovatango.com", genova_tango),
     ("teatrosocialecamogli.it", tribe_events),
     ("teatronazionalegenova.it", teatro_nazionale),
     ("carlofelice", carlo_felice),
@@ -384,7 +457,7 @@ VENUE_GROUPS: List[List[str]] = [
     ["staglieno"],
     ["galata", "museo del mare"],
     ["acquario"],
-    ["gam ", "galleria d'arte moderna", "frugone", "wolfsoniana", "polo museale di nervi", "parchi di nervi"],
+    ["gam ", "galleria d'arte moderna", "frugone", "wolfsoniana", "polo museale di nervi"],
     ["sant'agostino"],
     ["palazzo spinola", "spinola di pellicceria"],
     ["palazzo reale"],
@@ -403,12 +476,23 @@ VENUE_GROUPS: List[List[str]] = [
     ["rapallo", "merletto"],
     ["santa margherita", "villa durazzo"],
     ["portofino", "castello brown"],
+    ["estoril", "estoril beach club"],
+    ["casa mia", "casamia"],
+    ["menodue", "meno due"],
+    ["mako", "discoteca mako"],
+    ["giardini luzzati"],
+    ["mog", "mercato orientale"],
+    ["buridda"],
 ]
 
 
+def _has_venue_keyword(text: str, kw: str) -> bool:
+    return bool(re.search(rf"(?<![a-z0-9]){re.escape(kw.strip())}(?![a-z0-9])", text))
+
+
 def _groups_for(text: str) -> List[List[str]]:
-    t = f" {text.lower()} "
-    return [g for g in VENUE_GROUPS if any(k in t for k in g)]
+    t = (text or "").lower()
+    return [g for g in VENUE_GROUPS if any(_has_venue_keyword(t, k) for k in g)]
 
 
 def musei_genova_events(today: date) -> List[Dict[str, str]]:
@@ -473,9 +557,62 @@ def visitgenoa_events(today: date, pages: int = 3) -> List[Dict[str, str]]:
     return out
 
 
+def _iter_jsonld_events(payload) -> List[Dict]:
+    items = payload if isinstance(payload, list) else [payload]
+    out: List[Dict] = []
+    for item in items:
+        if not isinstance(item, dict):
+            continue
+        graph = item.get("@graph")
+        if isinstance(graph, list):
+            out.extend(x for x in graph if isinstance(x, dict))
+        else:
+            out.append(item)
+    return out
+
+
+def _is_schema_event(ev: Dict) -> bool:
+    t = ev.get("@type")
+    types = t if isinstance(t, list) else [t]
+    return any(isinstance(x, str) and x.endswith("Event") for x in types)
+
+
+def xceed_genova_events(today: date) -> List[Dict[str, str]]:
+    """Serate club e discoteche a Genova via JSON-LD Schema.org Event su xceed.me."""
+    page = _get("https://xceed.me/it/genova/events")
+    out, seen = [], set()
+    for block in re.findall(r'<script[^>]+application/ld\+json[^>]*>(.*?)</script>', page, re.S):
+        try:
+            payload = json.loads(block)
+        except ValueError:
+            continue
+        for ev in _iter_jsonld_events(payload):
+            if not _is_schema_event(ev):
+                continue
+            start_raw = str(ev.get("startDate") or "")
+            if len(start_raw) < 10:
+                continue
+            try:
+                d = date.fromisoformat(start_raw[:10])
+            except ValueError:
+                continue
+            if not _in_window(d, today):
+                continue
+            loc = ev.get("location")
+            luogo = _txt(loc.get("name", "")) if isinstance(loc, dict) else ""
+            raw_title = _txt(str(ev.get("name") or "").replace("|", "-"))
+            if not raw_title or raw_title in seen:
+                continue
+            seen.add(raw_title)
+            m_time = re.search(r"T(\d{2}:\d{2})", start_raw)
+            when = f"{_fmt(d)} {m_time.group(1)}" if m_time else _fmt(d)
+            out.append({"luogo": luogo, "titolo": raw_title, "quando": when})
+    return out
+
+
 def build_venue_events(today: date) -> List[Dict[str, str]]:
     events: List[Dict[str, str]] = []
-    for fn in (musei_genova_events, palazzo_reale_events, visitgenoa_events):
+    for fn in (musei_genova_events, palazzo_reale_events, visitgenoa_events, xceed_genova_events):
         try:
             events.extend(fn(today))
         except Exception:
@@ -489,8 +626,8 @@ def match_venue_events(card_text: str, events: List[Dict[str, str]]) -> List[Dic
         return []
     out, seen = [], set()
     for ev in events:
-        hay = f" {ev['luogo']} {ev['titolo']} ".lower()
-        if any(k in hay for g in groups for k in g) and ev["titolo"] not in seen:
+        hay = f"{ev['luogo']} {ev['titolo']}".lower()
+        if any(_has_venue_keyword(hay, k) for g in groups for k in g) and ev["titolo"] not in seen:
             seen.add(ev["titolo"])
             q = ev["quando"] + (f", {ev['luogo']}" if ev["luogo"] and ev["luogo"].lower() not in card_text.lower() else "")
             out.append({"titolo": ev["titolo"], "quando": q})

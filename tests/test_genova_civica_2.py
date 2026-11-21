@@ -165,6 +165,17 @@ class TestGenovaCivica2(unittest.TestCase):
             description="Berio",
             verified_url="https://www.bibliotechedigenova.it/",
         )
+        bib_berio_dup = OutingOption(
+            id="biblioteca_civica_berio",
+            title="Biblioteca Civica Berio: Chiostro del Seicento e Spazio Lettura",
+            category=OutingCategory.BIBLIOTECA,
+            venue="Biblioteca Civica Berio",
+            zone="centro",
+            day_time="Lun-Sab",
+            description="Berio",
+            verified_url="https://www.bibliotechedigenova.it/berio",
+            source_type="live_web",
+        )
         bib_de_amicis = OutingOption(
             id="tl_30_biblioteca",
             title="Biblioteca De Amicis al Porto Antico",
@@ -174,6 +185,17 @@ class TestGenovaCivica2(unittest.TestCase):
             day_time="Lun-Sab",
             description="De Amicis",
             verified_url="https://www.bibliotechedigenova.it/",
+        )
+        bib_de_amicis_dup = OutingOption(
+            id="biblioteca_de_amicis",
+            title="Biblioteca De Amicis: Spazio Lettura sul Mare al Porto Antico",
+            category=OutingCategory.BIBLIOTECA,
+            venue="Biblioteca De Amicis",
+            zone="porto_antico",
+            day_time="Lun-Sab",
+            description="De Amicis",
+            verified_url="https://www.bibliotechedigenova.it/de-amicis",
+            source_type="live_web",
         )
 
         merged = export_static._dedupe([
@@ -186,15 +208,17 @@ class TestGenovaCivica2(unittest.TestCase):
             parchi_a,
             parchi_b,
             bib_berio,
+            bib_berio_dup,
             bib_de_amicis,
+            bib_de_amicis_dup,
         ])
         self.assertEqual(len(merged), 6)
         by_title = {item.title: item for item in merged}
         self.assertEqual(by_title["Cinema Sivori"].category, OutingCategory.CINEMA)
         self.assertEqual(len(by_title["Cinema Sivori"].raw_metadata["programma"]), 1)
-        self.assertIn("Teatro Sociale di Camogli: Concerti & Aperitivo nei Palchi", by_title)
+        self.assertIn("Teatro Sociale di Camogli", by_title)
         self.assertIn("Biblioteca Civica Berio", by_title)
-        self.assertIn("Biblioteca De Amicis al Porto Antico", by_title)
+        self.assertIn("Biblioteca De Amicis", by_title)
 
     def test_programme_get_retries_once_on_transient_timeout(self):
         class DummyResp:

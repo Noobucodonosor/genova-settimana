@@ -17,7 +17,14 @@ if str(REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(REPO_ROOT))
 
 from genova_outings.catalog import get_weekly_catalog
-from genova_outings.export_static import _clean_editorial_title, _dedupe
+from genova_outings.export_static import (
+    _clean_editorial_title,
+    _clean_programme_list,
+    _dedupe,
+    _format_place,
+    _normalize_district,
+    editorial_sort_key,
+)
 from genova_outings.html_utils import get_data_dir
 from genova_outings.programme import attach_programmes
 from genova_outings.validator import sanitize_plain_writing
@@ -40,14 +47,19 @@ def clean_scraping_text(value: Any) -> str:
 
 
 def make_summary(text: str, max_len: int = 160) -> str:
-    """Create a clean <=160 char summary without cutting mid-word."""
+    """Create a clean <=160 char summary ending cleanly without mid-sentence truncation."""
     cleaned = clean_scraping_text(text)
     if len(cleaned) <= max_len:
         return cleaned
-    clipped = cleaned[: max_len - 3].rsplit(" ", 1)[0].rstrip(" ,;:-")
+    window = cleaned[:max_len]
+    for sep in (". ", "; "):
+        pos = window.rfind(sep)
+        if pos >= 55:
+            return window[: pos + (1 if sep == ". " else 0)].strip()
+    clipped = cleaned[: max_len - 1].rsplit(" ", 1)[0].rstrip(" ,;:-")
     if not clipped:
-        clipped = cleaned[: max_len - 3]
-    return f"{clipped}..."
+        clipped = cleaned[: max_len - 1]
+    return f"{clipped}."
 
 
 def validate_events(events: List[Dict[str, Any]]) -> List[str]:
@@ -92,7 +104,7 @@ def build_events(live_verify: bool = False) -> List[Dict[str, Any]]:
     if live_verify:
         attach_programmes(options)
     options = _dedupe(options)
-    options.sort(key=lambda o: (o.category.value, o.title.lower(), o.id))
+    options.sort(key=editorial_sort_key)
 
     events: List[Dict[str, Any]] = []
     seen_keys = set()
@@ -104,20 +116,21 @@ def build_events(live_verify: bool = False) -> List[Dict[str, Any]]:
             continue
         seen_keys.add(key)
 
+        addr = clean_scraping_text(o.address or venue)
         showtimes = [
             {
                 "titolo": clean_scraping_text(p.get("titolo", "")),
                 "quando": clean_scraping_text(p.get("quando", "")),
             }
-            for p in (o.raw_metadata.get("programma") or [])
+            for p in _clean_programme_list(o.raw_metadata.get("programma") or [])
             if p.get("titolo")
         ]
         events.append({
             "id": o.id,
             "title": title,
             "venue": venue,
-            "address": clean_scraping_text(o.address or venue),
-            "district": clean_scraping_text((o.zone or "").replace("_", " ").title()),
+            "address": addr,
+            "district": clean_scraping_text(_normalize_district(o.zone, street=addr)),
             "category": o.category.value,
             "summary": make_summary(o.description or o.day_time, max_len=160),
             "showtimes": showtimes,
