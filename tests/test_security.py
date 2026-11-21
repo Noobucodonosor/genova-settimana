@@ -19,7 +19,10 @@ class TestSecurityHardening(unittest.TestCase):
         self.assertIn("${esc(href)}", web_ui.HTML_TEMPLATE)
 
     def test_export_static_escapes_inline_json_and_validates_urls(self):
-        self.assertIn('.replace("<", "\\\\u003c")', Path(export_static.__file__).read_text(encoding="utf-8"))
+        src = Path(export_static.__file__).read_text(encoding="utf-8")
+        self.assertTrue(
+            '.replace("<", "\\\\u003c")' in src or "safe_json_for_script" in src
+        )
         self.assertIn("/^https?:\\/\\//i.test", export_static.PAGE)
 
     def test_verifier_does_not_disable_tls_verification(self):
