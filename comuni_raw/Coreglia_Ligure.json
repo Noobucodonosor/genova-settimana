@@ -1,0 +1,2088 @@
+{
+  "version": 0.6,
+  "generator": "OpenStreetMap v0.6 API",
+  "comune": "Coreglia Ligure",
+  "elements": [
+    {
+      "type": "node",
+      "id": 66586668,
+      "tags": {
+        "gfoss_id": "1276",
+        "name": "Coreglia Ligure",
+        "place": "hamlet",
+        "population": "102",
+        "addr:city_extracted": "Coreglia Ligure"
+      },
+      "lat": 44.3873059,
+      "lon": 9.2583042
+    },
+    {
+      "type": "node",
+      "id": 316031253,
+      "tags": {
+        "ele": "69",
+        "gfoss_id": "35931",
+        "istat_id": "1001610002",
+        "name": "Pianezza",
+        "place": "hamlet",
+        "population": "153",
+        "addr:city_extracted": "Coreglia Ligure"
+      },
+      "lat": 44.3975615,
+      "lon": 9.2589834
+    },
+    {
+      "type": "node",
+      "id": 388092264,
+      "tags": {
+        "name": "Pian dei Manzi",
+        "traffic_sign": "city_limit",
+        "addr:city_extracted": "Coreglia Ligure"
+      },
+      "lat": 44.3913521,
+      "lon": 9.2677336
+    },
+    {
+      "type": "node",
+      "id": 388092361,
+      "tags": {
+        "ele": "599",
+        "mountain_pass": "yes",
+        "name": "Passo della Crocetta",
+        "natural": "saddle",
+        "wikidata": "Q3897389",
+        "wikipedia": "it:Passo della Crocetta",
+        "addr:city_extracted": "Coreglia Ligure"
+      },
+      "lat": 44.3845674,
+      "lon": 9.2421016
+    },
+    {
+      "type": "node",
+      "id": 1916777967,
+      "tags": {
+        "addr:housenumber": "12",
+        "addr:street": "Piazza della Libertà",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "De Ferrari",
+        "ref:msal": "6297",
+        "addr:city_extracted": "Coreglia Ligure"
+      },
+      "lat": 44.4027326,
+      "lon": 9.2499342
+    },
+    {
+      "type": "node",
+      "id": 1942020283,
+      "tags": {
+        "ele": "319",
+        "gfoss_id": "35956",
+        "istat_id": "1001920001",
+        "name": "Canevale",
+        "place": "hamlet",
+        "population": "47",
+        "addr:city_extracted": "Coreglia Ligure"
+      },
+      "lat": 44.3792424,
+      "lon": 9.2689275
+    },
+    {
+      "type": "node",
+      "id": 1942020301,
+      "tags": {
+        "ele": "467",
+        "gfoss_id": "36286",
+        "istat_id": "1004220001",
+        "name": "Costa di Soglio",
+        "place": "hamlet",
+        "population": "10",
+        "source": "Istat 2001 - geodati.gfoss.it",
+        "wikidata": "Q18457292",
+        "addr:city_extracted": "Coreglia Ligure"
+      },
+      "lat": 44.4004672,
+      "lon": 9.2798953
+    },
+    {
+      "type": "node",
+      "id": 1942020325,
+      "tags": {
+        "ele": "65",
+        "gfoss_id": "35955",
+        "istat_id": "1001910003",
+        "name": "Pian dei Manzi",
+        "place": "village",
+        "population": "27",
+        "wikidata": "Q18458529",
+        "addr:city_extracted": "Coreglia Ligure"
+      },
+      "lat": 44.3920889,
+      "lon": 9.2673536
+    },
+    {
+      "type": "node",
+      "id": 1942020327,
+      "tags": {
+        "ele": "65",
+        "name": "Pian dei Ratti",
+        "place": "hamlet",
+        "wikidata": "Q18458535",
+        "addr:city_extracted": "Coreglia Ligure"
+      },
+      "lat": 44.3921864,
+      "lon": 9.2724273
+    },
+    {
+      "type": "node",
+      "id": 1942020329,
+      "tags": {
+        "ele": "55",
+        "gfoss_id": "35954",
+        "istat_id": "1001910002",
+        "name": "Pian di Coreglia",
+        "place": "hamlet",
+        "population": "27",
+        "source": "Istat 2001 - geodati.gfoss.it",
+        "wikidata": "Q18458547",
+        "addr:city_extracted": "Coreglia Ligure"
+      },
+      "lat": 44.3883352,
+      "lon": 9.2764877
+    },
+    {
+      "type": "node",
+      "id": 1942020372,
+      "tags": {
+        "ele": "222",
+        "gfoss_id": "36285",
+        "istat_id": "1004210004",
+        "name": "Soglio",
+        "place": "hamlet",
+        "population": "62",
+        "source": "Istat 2001 - geodati.gfoss.it",
+        "wikidata": "Q18459160",
+        "addr:city_extracted": "Coreglia Ligure"
+      },
+      "lat": 44.3935095,
+      "lon": 9.2755541
+    },
+    {
+      "type": "node",
+      "id": 2584193836,
+      "tags": {
+        "ele": "900",
+        "mountain_pass": "yes",
+        "name": "Passo del Dente",
+        "natural": "saddle",
+        "addr:city_extracted": "Coreglia Ligure"
+      },
+      "lat": 44.4182704,
+      "lon": 9.3038299
+    },
+    {
+      "type": "node",
+      "id": 3092330572,
+      "tags": {
+        "addr:city": "Cicagna",
+        "addr:housenumber": "225",
+        "addr:postcode": "16044",
+        "addr:street": "Via Statale",
+        "amenity": "bar",
+        "name": "La Ciminiera",
+        "addr:city_extracted": "Coreglia Ligure"
+      },
+      "lat": 44.4026716,
+      "lon": 9.2497639
+    },
+    {
+      "type": "node",
+      "id": 4426825680,
+      "tags": {
+        "name": "Cicagna",
+        "traffic_sign": "city_limit",
+        "addr:city_extracted": "Coreglia Ligure"
+      },
+      "lat": 44.3963308,
+      "lon": 9.2594077
+    },
+    {
+      "type": "node",
+      "id": 4426825684,
+      "tags": {
+        "name": "Coreglia Ligure",
+        "place": "municipality",
+        "population": "285",
+        "addr:city_extracted": "Coreglia Ligure"
+      },
+      "lat": 44.3829,
+      "lon": 9.2643137
+    },
+    {
+      "type": "node",
+      "id": 4426825685,
+      "tags": {
+        "name": "Coreglia Ligure",
+        "traffic_sign": "city_limit",
+        "addr:city_extracted": "Coreglia Ligure"
+      },
+      "lat": 44.3875254,
+      "lon": 9.2660236
+    },
+    {
+      "type": "node",
+      "id": 4426825704,
+      "tags": {
+        "name": "Orero",
+        "traffic_sign": "city_limit",
+        "addr:city_extracted": "Coreglia Ligure"
+      },
+      "lat": 44.4099291,
+      "lon": 9.2685221
+    },
+    {
+      "type": "node",
+      "id": 4426825707,
+      "tags": {
+        "name": "Pian dei Manzi",
+        "traffic_sign": "city_limit",
+        "addr:city_extracted": "Coreglia Ligure"
+      },
+      "lat": 44.3926744,
+      "lon": 9.2685237
+    },
+    {
+      "type": "node",
+      "id": 4426825708,
+      "tags": {
+        "name": "Piana",
+        "place": "hamlet",
+        "addr:city_extracted": "Coreglia Ligure"
+      },
+      "lat": 44.3952283,
+      "lon": 9.2626749
+    },
+    {
+      "type": "node",
+      "id": 4426825709,
+      "tags": {
+        "name": "Piana",
+        "traffic_sign": "city_limit",
+        "addr:city_extracted": "Coreglia Ligure"
+      },
+      "lat": 44.396169,
+      "lon": 9.2594709
+    },
+    {
+      "type": "node",
+      "id": 4902714390,
+      "tags": {
+        "name": "Sella dei Fagiolari",
+        "natural": "saddle",
+        "addr:city_extracted": "Coreglia Ligure"
+      },
+      "lat": 44.4054059,
+      "lon": 9.2926092
+    },
+    {
+      "type": "node",
+      "id": 5879462092,
+      "tags": {
+        "ele": "70",
+        "man_made": "monitoring_station",
+        "monitoring:weather": "yes",
+        "name": "Pian dei Ratti",
+        "operator": "ARPAL",
+        "recording:automated": "yes",
+        "recording:remote": "yes",
+        "ref": "PRTTI",
+        "weather:humidity_sensor": "yes",
+        "weather:ombrometer": "yes",
+        "weather:thermometer": "yes",
+        "website": "https://omirl.regione.liguria.it/",
+        "addr:city_extracted": "Coreglia Ligure"
+      },
+      "lat": 44.39365,
+      "lon": 9.27102
+    },
+    {
+      "type": "node",
+      "id": 13234083270,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Isolona civ. 5",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6372",
+        "zone_id": "106",
+        "addr:city_extracted": "Coreglia Ligure"
+      },
+      "lat": 44.4043559,
+      "lon": 9.272964
+    },
+    {
+      "type": "node",
+      "id": 13234083271,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Pianezza",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6285",
+        "zone_id": "105",
+        "addr:city_extracted": "Coreglia Ligure"
+      },
+      "lat": 44.3973236,
+      "lon": 9.2592316
+    },
+    {
+      "type": "node",
+      "id": 13234083279,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Isolona civ. 5",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6371",
+        "zone_id": "106",
+        "addr:city_extracted": "Coreglia Ligure"
+      },
+      "lat": 44.404293,
+      "lon": 9.2730383
+    },
+    {
+      "type": "node",
+      "id": 13234083290,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Pianezza",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6178",
+        "zone_id": "105",
+        "addr:city_extracted": "Coreglia Ligure"
+      },
+      "lat": 44.3975983,
+      "lon": 9.2593851
+    },
+    {
+      "type": "node",
+      "id": 13234083291,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Fabbrica Arata",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6370",
+        "zone_id": "105",
+        "addr:city_extracted": "Coreglia Ligure"
+      },
+      "lat": 44.4017029,
+      "lon": 9.2703772
+    },
+    {
+      "type": "node",
+      "id": 13234083293,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Fabbrica Arata",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6369",
+        "zone_id": "105",
+        "addr:city_extracted": "Coreglia Ligure"
+      },
+      "lat": 44.4015884,
+      "lon": 9.2703524
+    },
+    {
+      "type": "node",
+      "id": 13268658486,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Calvari - campo sportivo",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6293",
+        "zone_id": "107",
+        "addr:city_extracted": "Coreglia Ligure"
+      },
+      "lat": 44.3823139,
+      "lon": 9.2853236
+    },
+    {
+      "type": "node",
+      "id": 13268658487,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Prati di Calvari",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6292",
+        "zone_id": "107",
+        "addr:city_extracted": "Coreglia Ligure"
+      },
+      "lat": 44.3846146,
+      "lon": 9.2827474
+    },
+    {
+      "type": "node",
+      "id": 13268658489,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Passo Canevale",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6291",
+        "zone_id": "105",
+        "addr:city_extracted": "Coreglia Ligure"
+      },
+      "lat": 44.3868778,
+      "lon": 9.2807475
+    },
+    {
+      "type": "node",
+      "id": 13268658490,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Da U Pin",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6290",
+        "zone_id": "105",
+        "addr:city_extracted": "Coreglia Ligure"
+      },
+      "lat": 44.390649,
+      "lon": 9.2758332
+    },
+    {
+      "type": "node",
+      "id": 13268658491,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Piandeiratti - posta",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6289",
+        "zone_id": "105",
+        "addr:city_extracted": "Coreglia Ligure"
+      },
+      "lat": 44.3915778,
+      "lon": 9.2734373
+    },
+    {
+      "type": "node",
+      "id": 13268658492,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Piandeiratti - macelleria",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6288",
+        "zone_id": "105",
+        "addr:city_extracted": "Coreglia Ligure"
+      },
+      "lat": 44.3941329,
+      "lon": 9.2700902
+    },
+    {
+      "type": "node",
+      "id": 13268658493,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Piana - Orero",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6287",
+        "zone_id": "105",
+        "addr:city_extracted": "Coreglia Ligure"
+      },
+      "lat": 44.3947029,
+      "lon": 9.2667237
+    },
+    {
+      "type": "node",
+      "id": 13268658494,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Piana - laboratorio ardesia",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6286",
+        "zone_id": "105",
+        "addr:city_extracted": "Coreglia Ligure"
+      },
+      "lat": 44.394784,
+      "lon": 9.2636047
+    },
+    {
+      "type": "node",
+      "id": 13268658495,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Chiapparino",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6284",
+        "zone_id": "105",
+        "addr:city_extracted": "Coreglia Ligure"
+      },
+      "lat": 44.4010435,
+      "lon": 9.2569743
+    },
+    {
+      "type": "node",
+      "id": 13268658496,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Monleone - via Alberogrosso",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6283",
+        "addr:city_extracted": "Coreglia Ligure"
+      },
+      "lat": 44.4012447,
+      "lon": 9.2538463
+    },
+    {
+      "type": "node",
+      "id": 13348428886,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Monleone capolinea",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6392",
+        "zone_id": "105",
+        "addr:city_extracted": "Coreglia Ligure"
+      },
+      "lat": 44.4030363,
+      "lon": 9.2500564
+    },
+    {
+      "type": "node",
+      "id": 13440773299,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Villa - Coreglia",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6350",
+        "zone_id": "105",
+        "addr:city_extracted": "Coreglia Ligure"
+      },
+      "lat": 44.3874893,
+      "lon": 9.2641191
+    },
+    {
+      "type": "node",
+      "id": 13440773300,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Crosa - Crosa",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6357",
+        "zone_id": "105",
+        "addr:city_extracted": "Coreglia Ligure"
+      },
+      "lat": 44.3880615,
+      "lon": 9.2600584
+    },
+    {
+      "type": "node",
+      "id": 13440786301,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Canevale Cappelleta",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6363",
+        "zone_id": "105",
+        "addr:city_extracted": "Coreglia Ligure"
+      },
+      "lat": 44.3802185,
+      "lon": 9.2699089
+    },
+    {
+      "type": "node",
+      "id": 13440786302,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Canevale Cappelleta",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6364",
+        "zone_id": "105",
+        "addr:city_extracted": "Coreglia Ligure"
+      },
+      "lat": 44.3802404,
+      "lon": 9.2698135
+    },
+    {
+      "type": "node",
+      "id": 13440786303,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Canevale civ. 18",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6366",
+        "zone_id": "105",
+        "addr:city_extracted": "Coreglia Ligure"
+      },
+      "lat": 44.3826942,
+      "lon": 9.2748861
+    },
+    {
+      "type": "node",
+      "id": 13440786304,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Costa",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6353",
+        "zone_id": "105",
+        "addr:city_extracted": "Coreglia Ligure"
+      },
+      "lat": 44.3886871,
+      "lon": 9.265336
+    },
+    {
+      "type": "node",
+      "id": 13440786305,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Canevale civ. 18",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6365",
+        "zone_id": "105",
+        "addr:city_extracted": "Coreglia Ligure"
+      },
+      "lat": 44.3826714,
+      "lon": 9.274992
+    },
+    {
+      "type": "node",
+      "id": 13440786306,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Prati di Calvari",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6172",
+        "zone_id": "107",
+        "addr:city_extracted": "Coreglia Ligure"
+      },
+      "lat": 44.3844032,
+      "lon": 9.2832279
+    },
+    {
+      "type": "node",
+      "id": 13440786308,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Vallebella",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6358",
+        "zone_id": "105",
+        "addr:city_extracted": "Coreglia Ligure"
+      },
+      "lat": 44.3869229,
+      "lon": 9.2577457
+    },
+    {
+      "type": "node",
+      "id": 13440786309,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Villa - Coreglia",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6351",
+        "zone_id": "105",
+        "addr:city_extracted": "Coreglia Ligure"
+      },
+      "lat": 44.3875237,
+      "lon": 9.2642097
+    },
+    {
+      "type": "node",
+      "id": 13440786310,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Villetta",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6349",
+        "zone_id": "105",
+        "addr:city_extracted": "Coreglia Ligure"
+      },
+      "lat": 44.387989,
+      "lon": 9.2664013
+    },
+    {
+      "type": "node",
+      "id": 13440786311,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Canevale civ. 12",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6367",
+        "zone_id": "105",
+        "addr:city_extracted": "Coreglia Ligure"
+      },
+      "lat": 44.3860817,
+      "lon": 9.2787123
+    },
+    {
+      "type": "node",
+      "id": 13440786312,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Pian di Coreglia - bivio Comune",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6346",
+        "zone_id": "105",
+        "addr:city_extracted": "Coreglia Ligure"
+      },
+      "lat": 44.3918037,
+      "lon": 9.2675571
+    },
+    {
+      "type": "node",
+      "id": 13440786313,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Pian di Coreglia - bivio Comune",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6347",
+        "zone_id": "105",
+        "addr:city_extracted": "Coreglia Ligure"
+      },
+      "lat": 44.3918152,
+      "lon": 9.2676353
+    },
+    {
+      "type": "node",
+      "id": 13440786314,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Villetta",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6348",
+        "zone_id": "105",
+        "addr:city_extracted": "Coreglia Ligure"
+      },
+      "lat": 44.3880234,
+      "lon": 9.2664423
+    },
+    {
+      "type": "node",
+      "id": 13440786316,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Coreglia Chiesa",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6354-6355",
+        "zone_id": "105",
+        "addr:city_extracted": "Coreglia Ligure"
+      },
+      "lat": 44.3882942,
+      "lon": 9.2624331
+    },
+    {
+      "type": "node",
+      "id": 13440786317,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Ponte Canevale",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6173",
+        "zone_id": "105",
+        "addr:city_extracted": "Coreglia Ligure"
+      },
+      "lat": 44.3867284,
+      "lon": 9.2809062
+    },
+    {
+      "type": "node",
+      "id": 13440786318,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Vallebella",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6359",
+        "zone_id": "105",
+        "addr:city_extracted": "Coreglia Ligure"
+      },
+      "lat": 44.386879,
+      "lon": 9.2578154
+    },
+    {
+      "type": "node",
+      "id": 13440786319,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Costa",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6352",
+        "zone_id": "105",
+        "addr:city_extracted": "Coreglia Ligure"
+      },
+      "lat": 44.3886261,
+      "lon": 9.2654076
+    },
+    {
+      "type": "node",
+      "id": 13440786320,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Canevale civ. 12",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6368",
+        "zone_id": "105",
+        "addr:city_extracted": "Coreglia Ligure"
+      },
+      "lat": 44.3861161,
+      "lon": 9.2786136
+    },
+    {
+      "type": "node",
+      "id": 13440786321,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Crosa - Coreglia",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6356",
+        "zone_id": "105",
+        "addr:city_extracted": "Coreglia Ligure"
+      },
+      "lat": 44.3880997,
+      "lon": 9.2600078
+    },
+    {
+      "type": "node",
+      "id": 13440786322,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Coreglia ex Capolinea",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6360",
+        "zone_id": "105",
+        "addr:city_extracted": "Coreglia Ligure"
+      },
+      "lat": 44.3846703,
+      "lon": 9.2546921
+    },
+    {
+      "type": "node",
+      "id": 13442975504,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Piandeiratti",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6176",
+        "zone_id": "105",
+        "addr:city_extracted": "Coreglia Ligure"
+      },
+      "lat": 44.3943977,
+      "lon": 9.2695141
+    },
+    {
+      "type": "node",
+      "id": 13442975505,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Piana - Orero",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6177",
+        "zone_id": "105",
+        "addr:city_extracted": "Coreglia Ligure"
+      },
+      "lat": 44.3949196,
+      "lon": 9.2660024
+    },
+    {
+      "type": "node",
+      "id": 13442975506,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Piandeiratti civ. 60 A",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6174",
+        "zone_id": "105",
+        "addr:city_extracted": "Coreglia Ligure"
+      },
+      "lat": 44.3909492,
+      "lon": 9.2753391
+    },
+    {
+      "type": "node",
+      "id": 13442975507,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Piandeiratti posta",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6175",
+        "zone_id": "105",
+        "addr:city_extracted": "Coreglia Ligure"
+      },
+      "lat": 44.3916664,
+      "lon": 9.2733879
+    },
+    {
+      "type": "node",
+      "id": 13442975509,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Monleone civ. 71",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6180",
+        "zone_id": "105",
+        "addr:city_extracted": "Coreglia Ligure"
+      },
+      "lat": 44.4014206,
+      "lon": 9.253562
+    },
+    {
+      "type": "node",
+      "id": 13442975510,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Chiapparino",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "6179",
+        "zone_id": "105",
+        "addr:city_extracted": "Coreglia Ligure"
+      },
+      "lat": 44.4009056,
+      "lon": 9.2559891
+    },
+    {
+      "type": "node",
+      "id": 13586460666,
+      "tags": {
+        "name": "Sorbora",
+        "place": "hamlet",
+        "addr:city_extracted": "Coreglia Ligure"
+      },
+      "lat": 44.3964725,
+      "lon": 9.2722378
+    },
+    {
+      "type": "way",
+      "id": 9220543,
+      "tags": {
+        "boat": "no",
+        "name": "Torrente Lavagna",
+        "waterway": "stream",
+        "wikidata": "Q3827996",
+        "wikipedia": "it:Lavagna (torrente)",
+        "addr:city_extracted": "Coreglia Ligure"
+      }
+    },
+    {
+      "type": "way",
+      "id": 181234503,
+      "tags": {
+        "highway": "service",
+        "name": "Piazza della Libertà",
+        "service": "parking_aisle",
+        "addr:city_extracted": "Coreglia Ligure"
+      }
+    },
+    {
+      "type": "way",
+      "id": 181234513,
+      "tags": {
+        "amenity": "parking",
+        "name": "Piazza della Libertà",
+        "parking": "surface",
+        "addr:city_extracted": "Coreglia Ligure"
+      }
+    },
+    {
+      "type": "way",
+      "id": 187285645,
+      "tags": {
+        "name": "Torrente Malvaro",
+        "waterway": "stream",
+        "addr:city_extracted": "Coreglia Ligure"
+      }
+    },
+    {
+      "type": "way",
+      "id": 187285646,
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Strada statale 225 della Fontanabuona",
+        "ref": "SS225",
+        "surface": "asphalt",
+        "addr:city_extracted": "Coreglia Ligure"
+      }
+    },
+    {
+      "type": "way",
+      "id": 187285657,
+      "tags": {
+        "bridge": "yes",
+        "highway": "primary",
+        "layer": "1",
+        "name": "Strada statale 225 della Fontanabuona",
+        "ref": "SS225",
+        "surface": "asphalt",
+        "addr:city_extracted": "Coreglia Ligure"
+      }
+    },
+    {
+      "type": "way",
+      "id": 193290143,
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Via Pian Mercato",
+        "nat_name": "Strada statale 225 della Fontanabuona",
+        "ref": "SS225",
+        "surface": "asphalt",
+        "addr:city_extracted": "Coreglia Ligure"
+      }
+    },
+    {
+      "type": "way",
+      "id": 193290293,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Dezerega",
+        "surface": "asphalt",
+        "addr:city_extracted": "Coreglia Ligure"
+      }
+    },
+    {
+      "type": "way",
+      "id": 193290399,
+      "tags": {
+        "highway": "primary",
+        "name": "Strada statale 225 della Fontanabuona",
+        "ref": "SS225",
+        "surface": "asphalt",
+        "addr:city_extracted": "Coreglia Ligure"
+      }
+    },
+    {
+      "type": "way",
+      "id": 193290400,
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Strada statale 225 della Fontanabuona",
+        "ref": "SS225",
+        "surface": "asphalt",
+        "addr:city_extracted": "Coreglia Ligure"
+      }
+    },
+    {
+      "type": "way",
+      "id": 202163647,
+      "tags": {
+        "building": "yes",
+        "name": "Chiesa di San Michele di Soglio",
+        "source": "Regione Liguria",
+        "addr:city_extracted": "Coreglia Ligure"
+      }
+    },
+    {
+      "type": "way",
+      "id": 382637170,
+      "tags": {
+        "cables": "3",
+        "name": "Molassana-San Colombano",
+        "power": "line",
+        "ref": "23.842",
+        "voltage": "132000",
+        "addr:city_extracted": "Coreglia Ligure"
+      }
+    },
+    {
+      "type": "way",
+      "id": 397554131,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "church",
+        "denomination": "catholic",
+        "name": "Chiesa di San Nicolò",
+        "religion": "christian",
+        "wikidata": "Q3671501",
+        "wikipedia": "it:Chiesa di San Nicolò (Coreglia Ligure)",
+        "addr:city_extracted": "Coreglia Ligure"
+      }
+    },
+    {
+      "type": "way",
+      "id": 521172268,
+      "tags": {
+        "cycleway": "yes",
+        "highway": "primary",
+        "name": "Strada statale 225 della Fontanabuona",
+        "ref": "SS225",
+        "surface": "asphalt",
+        "addr:city_extracted": "Coreglia Ligure"
+      }
+    },
+    {
+      "type": "way",
+      "id": 521172276,
+      "tags": {
+        "cycleway": "yes",
+        "highway": "primary",
+        "name": "Strada statale 225 della Fontanabuona",
+        "ref": "SS225",
+        "surface": "asphalt",
+        "addr:city_extracted": "Coreglia Ligure"
+      }
+    },
+    {
+      "type": "way",
+      "id": 580126192,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Castellaro",
+        "addr:city_extracted": "Coreglia Ligure"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1442283692,
+      "tags": {
+        "highway": "primary",
+        "maxspeed": "50",
+        "name": "Strada statale 225 della Fontanabuona",
+        "ref": "SS225",
+        "surface": "asphalt",
+        "addr:city_extracted": "Coreglia Ligure"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1455531888,
+      "tags": {
+        "highway": "secondary",
+        "name": "Strada Provinciale della Scoglina",
+        "oneway": "yes",
+        "ref": "SP23",
+        "surface": "asphalt",
+        "addr:city_extracted": "Coreglia Ligure"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1455531889,
+      "tags": {
+        "highway": "secondary",
+        "name": "Strada Provinciale della Scoglina",
+        "oneway": "yes",
+        "ref": "SP23",
+        "surface": "asphalt",
+        "addr:city_extracted": "Coreglia Ligure"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1465437178,
+      "tags": {
+        "highway": "primary",
+        "maxspeed": "50",
+        "name": "Strada statale 225 della Fontanabuona",
+        "ref": "SS225",
+        "surface": "asphalt",
+        "addr:city_extracted": "Coreglia Ligure"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1465437179,
+      "tags": {
+        "cycleway": "yes",
+        "highway": "primary",
+        "name": "Strada statale 225 della Fontanabuona",
+        "ref": "SS225",
+        "surface": "asphalt",
+        "addr:city_extracted": "Coreglia Ligure"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1465437181,
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Strada statale 225 della Fontanabuona",
+        "ref": "SS225",
+        "surface": "asphalt",
+        "addr:city_extracted": "Coreglia Ligure"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1465654800,
+      "tags": {
+        "highway": "primary",
+        "maxspeed": "50",
+        "name": "Strada statale 225 della Fontanabuona",
+        "ref": "SS225",
+        "surface": "asphalt",
+        "addr:city_extracted": "Coreglia Ligure"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1478604848,
+      "tags": {
+        "highway": "primary",
+        "name": "Strada statale 225 della Fontanabuona",
+        "ref": "SS225",
+        "surface": "asphalt",
+        "addr:city_extracted": "Coreglia Ligure"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1478622150,
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Strada Provinciale della Scoglina",
+        "ref": "SP23",
+        "surface": "asphalt",
+        "addr:city_extracted": "Coreglia Ligure"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1478622151,
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Strada Provinciale della Scoglina",
+        "ref": "SP23",
+        "surface": "asphalt",
+        "addr:city_extracted": "Coreglia Ligure"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1478622152,
+      "tags": {
+        "highway": "secondary",
+        "name": "Strada Provinciale della Scoglina",
+        "oneway": "yes",
+        "ref": "SP23",
+        "surface": "asphalt",
+        "addr:city_extracted": "Coreglia Ligure"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1478622153,
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Strada statale 225 della Fontanabuona",
+        "ref": "SS225",
+        "surface": "asphalt",
+        "addr:city_extracted": "Coreglia Ligure"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1484800017,
+      "tags": {
+        "highway": "unclassified",
+        "name": "via Domenico Cuneo",
+        "addr:city_extracted": "Coreglia Ligure"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 43070,
+      "tags": {
+        "admin_level": "8",
+        "boundary": "administrative",
+        "name": "Rapallo",
+        "population": "29870",
+        "population:date": "2026-08-28",
+        "ref:catasto": "H183",
+        "ref:ISTAT": "010046",
+        "source:population": "ANPR 2026",
+        "type": "boundary",
+        "wikidata": "Q210098",
+        "wikipedia": "it:Rapallo",
+        "addr:city_extracted": "Coreglia Ligure"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 43090,
+      "tags": {
+        "admin_level": "8",
+        "boundary": "administrative",
+        "gfoss_id": "1310",
+        "name": "San Colombano Certenoli",
+        "population": "2694",
+        "population:date": "2026-08-28",
+        "ref:catasto": "H802",
+        "ref:ISTAT": "010053",
+        "type": "boundary",
+        "wikidata": "Q267323",
+        "wikipedia": "it:San Colombano Certenoli",
+        "addr:city_extracted": "Coreglia Ligure"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 43121,
+      "tags": {
+        "admin_level": "8",
+        "boundary": "administrative",
+        "gfoss_id": "1276",
+        "name": "Coreglia Ligure",
+        "population": "237",
+        "population:date": "2026-08-28",
+        "ref:catasto": "C995",
+        "ref:ISTAT": "010019",
+        "type": "boundary",
+        "wikidata": "Q267230",
+        "wikipedia": "it:Coreglia Ligure",
+        "addr:city_extracted": "Coreglia Ligure"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 43126,
+      "tags": {
+        "admin_level": "8",
+        "boundary": "administrative",
+        "gfoss_id": "1299",
+        "name": "Orero",
+        "population": "499",
+        "population:date": "2026-08-28",
+        "ref:catasto": "G093",
+        "ref:ISTAT": "010042",
+        "source": "geodati.gfoss.it",
+        "source:population": "ANPR 2026",
+        "type": "boundary",
+        "wikidata": "Q267307",
+        "wikipedia": "it:Orero",
+        "addr:city_extracted": "Coreglia Ligure"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 43130,
+      "tags": {
+        "admin_level": "8",
+        "boundary": "administrative",
+        "name": "Cicagna",
+        "population": "2358",
+        "population:date": "2026-08-28",
+        "ref:catasto": "C673",
+        "ref:ISTAT": "010016",
+        "type": "boundary",
+        "wikidata": "Q267199",
+        "wikipedia": "it:Cicagna",
+        "addr:city_extracted": "Coreglia Ligure"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 414151,
+      "tags": {
+        "boundary": "protected_area",
+        "hunting": "no",
+        "leisure": "nature_reserve",
+        "name": "Parco Naturale Regionale di Portofino",
+        "protect_class": "2",
+        "protection_code": "EUAP0453",
+        "protection_title": "Area Protetta Regionale",
+        "site_zone": "1.0",
+        "type": "boundary",
+        "url": "http://www.parcoportofino.it/",
+        "website": "https://www.parcoportofino.it/",
+        "wikidata": "Q957736",
+        "addr:city_extracted": "Coreglia Ligure"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 1782624,
+      "tags": {
+        "cycle_network": "Bicitalia",
+        "description": "Proposed National Cycleway BI-19 Ciclovia Tirrenica",
+        "from": "Ventimiglia",
+        "name": "Ciclovia Tirrenica",
+        "network": "ncn",
+        "note": "please do not modify without consulting with www.bicitalia.it",
+        "operator": "FIAB",
+        "ref": "BI-19",
+        "route": "bicycle",
+        "to": "Latina",
+        "type": "route",
+        "url": "https://www.bicitalia.org/it/bicitalia/gli-itinerari-bicitalia/193-bi19-ciclovia-tirrenica",
+        "addr:city_extracted": "Coreglia Ligure"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 2562291,
+      "tags": {
+        "cycle_network": "Bicitalia",
+        "name": "Ciclovia Francigena - variante Moncenisio",
+        "network": "ncn",
+        "note": "Please do not modify without consulting with www.bicitalia.org",
+        "operator": "Bicitalia",
+        "ref": "BI-3 var. Moncenisio",
+        "route": "bicycle",
+        "source": "http://www.bicitalia.org/",
+        "type": "route",
+        "addr:city_extracted": "Coreglia Ligure"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 2689877,
+      "tags": {
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Parco Naturale Regionale di Portofino - Aree contigue",
+        "protect_class": "2",
+        "protection_code": "EUAP0453",
+        "protection_title": "Area Protetta Regionale",
+        "site_zone": "8.0",
+        "source": "Dai dati realizzati da Regione Liguria \"Aree Protette e relativi piani\" Anno 01/10/2012 scala 1:25000",
+        "type": "boundary",
+        "website": "https://www.parcoportofino.it/",
+        "addr:city_extracted": "Coreglia Ligure"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 7343202,
+      "tags": {
+        "cai_scale": "E",
+        "name": "Anello di Coreglia",
+        "network": "lwn",
+        "note:project_page": "http://wiki.openstreetmap.org/wiki/Liguria/Sentieri",
+        "ref": "122",
+        "ref:REI": "GGEB1220",
+        "reg_ref": "GGEB12225PE",
+        "roundtrip": "yes",
+        "route": "hiking",
+        "rwn:name": "Rete Escursionistica Ligure (REL)",
+        "source": "Regione Liguria;survey:CAI",
+        "state": "proposed",
+        "symbol": "unmarked",
+        "symbol:it": "non segnalato",
+        "type": "route",
+        "addr:city_extracted": "Coreglia Ligure"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 11634738,
+      "tags": {
+        "landuse": "forest",
+        "name": "Foresta Montallegro",
+        "type": "multipolygon",
+        "addr:city_extracted": "Coreglia Ligure"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 13500617,
+      "tags": {
+        "cai_scale": "E",
+        "name": "Pian dei Ratti - Coreglia Ligure - Santuario di Montallegro",
+        "network": "lwn",
+        "osmc:symbol": "red:white::◇◇:red",
+        "route": "hiking",
+        "source": "FIE",
+        "symbol:it": "due rombi rossi vuoti",
+        "type": "route",
+        "addr:city_extracted": "Coreglia Ligure"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 13500710,
+      "tags": {
+        "cai_scale": "E",
+        "name": "Sentiero Chichizola - Pian dei Ratti - Montallegro",
+        "network": "lwn",
+        "osmc:symbol": "red:white::▲▲:red",
+        "route": "hiking",
+        "symbol:it": "due triangoli rossi",
+        "type": "route",
+        "addr:city_extracted": "Coreglia Ligure"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 14944023,
+      "tags": {
+        "cai_scale": "T",
+        "name": "Variante Costa di Soglio",
+        "network": "lwn",
+        "osmc:symbol": "red:white::⸫:red",
+        "route": "hiking",
+        "source": "survey Nov '22",
+        "type": "route",
+        "addr:city_extracted": "Coreglia Ligure"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 15027049,
+      "tags": {
+        "cai_scale": "E",
+        "from": "Rapallo",
+        "name": "Trail di Rapallo",
+        "network": "lwn",
+        "osmc:symbol": "red:green::★:yellow",
+        "route": "hiking",
+        "symbol:it": "stella gialla",
+        "to": "Rapallo",
+        "type": "route",
+        "website": "https://www.reapalusrace.it/trail-running/",
+        "addr:city_extracted": "Coreglia Ligure"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 16829453,
+      "tags": {
+        "name": "Strada statale 225 della Fontanabuona",
+        "ref": "SS 225",
+        "route": "road",
+        "type": "route",
+        "wikidata": "Q3542120",
+        "wikipedia": "it:Strada statale 225 della Val Fontanabuona",
+        "addr:city_extracted": "Coreglia Ligure"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 18827498,
+      "tags": {
+        "description": "La ciclovia dell’Ardesia (o dell'Entella) è un percorso ciclabile che risale il fiume Entella, alla scoperta della natura e della storia della Val Fontanabuona. Nei pressi di Cogorno da vedere la Basilica dei Fieschi, antica cattedrale medioevale.",
+        "distance": "33",
+        "from": "Lavagna",
+        "name": "Ciclovia dell'Ardesia",
+        "network": "rcn",
+        "route": "bicycle",
+        "to": "Gattorna",
+        "type": "route",
+        "website": "https://lamialiguria.it/2023/03/ciclovia-ardesia/",
+        "addr:city_extracted": "Coreglia Ligure"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 19716831,
+      "tags": {
+        "description": "816 - corsa limitata tra Cicagna e Croce di Orero",
+        "fee": "yes",
+        "from": "Roccatagliata",
+        "name": "816 Cicagna - Croce di Orero",
+        "network": "AMT Linee Provinciali",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "816",
+        "route": "bus",
+        "to": "Croce di Orero",
+        "type": "route",
+        "addr:city_extracted": "Coreglia Ligure"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 19772404,
+      "tags": {
+        "bus": "yes",
+        "colour": "green",
+        "description": "Genova Brignole - Bargagli - Gattorna - Carasco - Chiavari",
+        "from": "Genova Brignole (v.Caviglia)",
+        "name": "715 Chiavari Nassiriya",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "network:wikipedia": "it:AMT (Genova)",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "715",
+        "route": "bus",
+        "to": "Chiavari Nassiriya",
+        "type": "route",
+        "addr:city_extracted": "Coreglia Ligure"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 19910902,
+      "tags": {
+        "bus": "yes",
+        "colour": "green",
+        "description": "Favale di Malvaro - Monleone",
+        "from": "Favale di Malvaro",
+        "name": "818 Favale di Malvaro - Monleone",
+        "network": "AMT Linee Provinciali",
+        "network:wikidata": "Q295335",
+        "network:wikipedia": "it:AMT (Genova)",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "818",
+        "route": "bus",
+        "to": "Monleone",
+        "type": "route",
+        "addr:city_extracted": "Coreglia Ligure"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 19950072,
+      "tags": {
+        "bus": "yes",
+        "colour": "green",
+        "description": "816 - Ferrada - Croce di Orero",
+        "from": "Ferrada",
+        "name": "816 - Croce di Orero",
+        "network": "AMT Linee Provinciali",
+        "network:wikidata": "Q295335",
+        "network:wikipedia": "it:AMT (Genova)",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "816",
+        "route": "bus",
+        "to": "Croce di Orero",
+        "type": "route",
+        "addr:city_extracted": "Coreglia Ligure"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 19954435,
+      "tags": {
+        "bus": "yes",
+        "colour": "green",
+        "description": "919 Chiavari - Calvari (campo sportivo)",
+        "from": "Chiavari",
+        "name": "919 Calvari",
+        "network": "AMT Linee Provinciali",
+        "network:wikipedia": "it:AMT (Genova)",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "919",
+        "route": "bus",
+        "to": "Calvari (Campo Sportivo)",
+        "type": "route",
+        "addr:city_extracted": "Coreglia Ligure"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 19957203,
+      "tags": {
+        "bus": "yes",
+        "colour": "green",
+        "description": "919 Calvari (campo sportivo) - Chiavari",
+        "FIXME": "verificare fermate nella parte terminale a Chiavari",
+        "from": "Calvari",
+        "name": "919 Chiavari",
+        "network": "AMT Linee Provinciali",
+        "network:wikipedia": "it:AMT (Genova)",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "919",
+        "route": "bus",
+        "to": "Chiavari",
+        "type": "route",
+        "addr:city_extracted": "Coreglia Ligure"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 20061221,
+      "tags": {
+        "bus": "yes",
+        "colour": "green",
+        "description": "935 Calvari - Canevale - Coreglia",
+        "from": "Chiavari",
+        "name": "935 Coreglia",
+        "network": "AMT Linee Provinciali",
+        "network:wikipedia": "it:AMT (Genova)",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "935",
+        "route": "bus",
+        "to": "Coreglia",
+        "type": "route",
+        "addr:city_extracted": "Coreglia Ligure"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 20063787,
+      "tags": {
+        "bus": "yes",
+        "colour": "green",
+        "description": "935 Calvari - Gattorna",
+        "from": "Calvari",
+        "name": "935 Gattorna",
+        "network": "AMT Linee Provinciali",
+        "network:wikipedia": "it:AMT (Genova)",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "935",
+        "route": "bus",
+        "to": "Gattorna",
+        "type": "route",
+        "addr:city_extracted": "Coreglia Ligure"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 20103013,
+      "tags": {
+        "bus": "yes",
+        "colour": "green",
+        "description": "Chiavari - Carasco - Gattorna - Bargagli - Genova Brignole",
+        "duration": "1:59",
+        "from": "Chiavari Nassiriya",
+        "name": "715 Genova Brignole",
+        "network": "AMT Linee Provinciali",
+        "network:wikidata": "Q295335",
+        "network:wikipedia": "it:AMT (Genova)",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "715",
+        "route": "bus",
+        "to": "Genova Brignole (v.Caviglia)",
+        "type": "route",
+        "addr:city_extracted": "Coreglia Ligure"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 20218100,
+      "tags": {
+        "bus": "yes",
+        "colour": "green",
+        "description": "Orero-Cicagna",
+        "duration": "0:20",
+        "from": "Croce d'Orero",
+        "name": "816 Cicagna",
+        "network": "AMT Linee Provinciali",
+        "network:wikidata": "Q295335",
+        "network:wikipedia": "it:AMT (Genova)",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "816",
+        "route": "bus",
+        "to": "Cicagna",
+        "type": "route",
+        "addr:city_extracted": "Coreglia Ligure"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 20218392,
+      "tags": {
+        "bus": "yes",
+        "colour": "green",
+        "description": "Cicagna-Monleone-Lorsica-Favale",
+        "duration": "0:36",
+        "from": "Cicagna",
+        "name": "818 Lorsica-Favale di Malvaro",
+        "network": "AMT Linee Provinciali",
+        "network:wikidata": "Q295335",
+        "network:wikipedia": "it:AMT (Genova)",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "818",
+        "route": "bus",
+        "to": "Favale di Malvaro",
+        "type": "route",
+        "addr:city_extracted": "Coreglia Ligure"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 20258022,
+      "tags": {
+        "bus": "yes",
+        "colour": "green",
+        "description": "937 Cicagna - Trino - Verzi - Ponte Lorsica - Monleone",
+        "duration": "0:20",
+        "from": "Cicagna",
+        "name": "937 Monleone",
+        "network": "AMT Linee Provinciali",
+        "network:wikidata": "Q295335",
+        "network:wikipedia": "it:AMT (Genova)",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "937",
+        "route": "bus",
+        "to": "Monleone",
+        "type": "route",
+        "addr:city_extracted": "Coreglia Ligure"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 20258023,
+      "tags": {
+        "bus": "yes",
+        "colour": "green",
+        "description": "936 Monleone - Ponte Lorsica - Verzi - Trino - Cicagna",
+        "duration": "0:20",
+        "from": "Monleone",
+        "name": "936 Cicagna",
+        "network": "AMT Linee Provinciali",
+        "network:wikidata": "Q295335",
+        "network:wikipedia": "it:AMT (Genova)",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "936",
+        "route": "bus",
+        "to": "Cicagna",
+        "type": "route",
+        "addr:city_extracted": "Coreglia Ligure"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 20265504,
+      "tags": {
+        "bus": "yes",
+        "colour": "green",
+        "description": "Calvari (campo sportivo) - Romaggi-Calvari(circolare)",
+        "duration": "0:30",
+        "from": "Calvari",
+        "name": "922 Romaggi",
+        "network": "AMT Linee Provinciali",
+        "network:wikipedia": "it:AMT (Genova)",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "922",
+        "route": "bus",
+        "to": "Romaggi-Calvari",
+        "type": "route",
+        "addr:city_extracted": "Coreglia Ligure"
+      }
+    }
+  ]
+}

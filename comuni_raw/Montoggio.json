@@ -1,0 +1,1754 @@
+{
+  "version": 0.6,
+  "generator": "OpenStreetMap v0.6 API",
+  "comune": "Montoggio",
+  "elements": [
+    {
+      "type": "node",
+      "id": 66586449,
+      "tags": {
+        "gfoss_id": "1296",
+        "name": "Montoggio",
+        "name:uk": "Монтоджо",
+        "place": "village",
+        "population": "1988",
+        "source": "geodati.gfoss.it",
+        "wikidata": "Q265616",
+        "wikipedia": "it:Montoggio",
+        "addr:city_extracted": "Montoggio"
+      },
+      "lat": 44.5154356,
+      "lon": 9.0442742
+    },
+    {
+      "type": "node",
+      "id": 302866425,
+      "tags": {
+        "created_by": "Potlatch 0.10d",
+        "name": "Antola",
+        "shop": "supermarket",
+        "addr:city_extracted": "Montoggio"
+      },
+      "lat": 44.5190069,
+      "lon": 9.0546785
+    },
+    {
+      "type": "node",
+      "id": 316029357,
+      "tags": {
+        "ele": "487",
+        "gfoss_id": "36228",
+        "istat_id": "1003920004",
+        "name": "Colletta",
+        "place": "hamlet",
+        "population": "43",
+        "source": "Istat 2001 - geodati.gfoss.it",
+        "wikidata": "Q18457198",
+        "addr:city_extracted": "Montoggio"
+      },
+      "lat": 44.5125237,
+      "lon": 9.0358819
+    },
+    {
+      "type": "node",
+      "id": 316029367,
+      "tags": {
+        "alt_name": "Tre Fontane",
+        "ele": "456",
+        "gfoss_id": "36224",
+        "istat_id": "1003910003",
+        "name": "Trefontane",
+        "place": "hamlet",
+        "population": "14",
+        "source": "Istat 2001 - geodati.gfoss.it",
+        "wikidata": "Q18459349",
+        "addr:city_extracted": "Montoggio"
+      },
+      "lat": 44.503185,
+      "lon": 9.0303762
+    },
+    {
+      "type": "node",
+      "id": 511176848,
+      "tags": {
+        "name": "Brava dei Piani",
+        "natural": "saddle",
+        "addr:city_extracted": "Montoggio"
+      },
+      "lat": 44.5398461,
+      "lon": 9.0668589
+    },
+    {
+      "type": "node",
+      "id": 789558578,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Ristorante Pizzeria La Rotonda",
+        "addr:city_extracted": "Montoggio"
+      },
+      "lat": 44.5128358,
+      "lon": 9.0384059
+    },
+    {
+      "type": "node",
+      "id": 1248112596,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Loc. Colletta",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4363",
+        "zone_id": "76",
+        "addr:city_extracted": "Montoggio"
+      },
+      "lat": 44.5120119,
+      "lon": 9.0354257
+    },
+    {
+      "type": "node",
+      "id": 1248112647,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Fraz. Tre Fontane Loc. Terme",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4336",
+        "zone_id": "76",
+        "addr:city_extracted": "Montoggio"
+      },
+      "lat": 44.5043703,
+      "lon": 9.031604
+    },
+    {
+      "type": "node",
+      "id": 1248112675,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Loc. Colletta",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4337",
+        "zone_id": "76",
+        "addr:city_extracted": "Montoggio"
+      },
+      "lat": 44.5120867,
+      "lon": 9.035606
+    },
+    {
+      "type": "node",
+      "id": 1248112732,
+      "tags": {
+        "amenity": "drinking_water",
+        "drinking_water": "yes",
+        "name": "Sorgente di Trefontane",
+        "addr:city_extracted": "Montoggio"
+      },
+      "lat": 44.5030875,
+      "lon": 9.0290683
+    },
+    {
+      "type": "node",
+      "id": 1249021534,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Bivio Ss226",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4338",
+        "zone_id": "76",
+        "addr:city_extracted": "Montoggio"
+      },
+      "lat": 44.5127267,
+      "lon": 9.0379066
+    },
+    {
+      "type": "node",
+      "id": 1249021539,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Casalino Villa Dina",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "3994",
+        "zone_id": "76",
+        "addr:city_extracted": "Montoggio"
+      },
+      "lat": 44.5143135,
+      "lon": 9.0312297
+    },
+    {
+      "type": "node",
+      "id": 1249021568,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Casalino F. Bivio Per Creto",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4009",
+        "zone_id": "76",
+        "addr:city_extracted": "Montoggio"
+      },
+      "lat": 44.5130032,
+      "lon": 9.0381474
+    },
+    {
+      "type": "node",
+      "id": 1249021579,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Casalino 2",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4010",
+        "zone_id": "76",
+        "addr:city_extracted": "Montoggio"
+      },
+      "lat": 44.5144497,
+      "lon": 9.0312356
+    },
+    {
+      "type": "node",
+      "id": 1249021605,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Casalino F. 6",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4011",
+        "zone_id": "76",
+        "addr:city_extracted": "Montoggio"
+      },
+      "lat": 44.5153761,
+      "lon": 9.0270945
+    },
+    {
+      "type": "node",
+      "id": 1249021622,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Casalino F. 4",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "3993",
+        "zone_id": "76",
+        "addr:city_extracted": "Montoggio"
+      },
+      "lat": 44.5152771,
+      "lon": 9.0272289
+    },
+    {
+      "type": "node",
+      "id": 1250297663,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Bivio sp 13 di Creto",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4362",
+        "shelter": "no",
+        "zone_id": "76",
+        "addr:city_extracted": "Montoggio"
+      },
+      "lat": 44.5129028,
+      "lon": 9.0379511
+    },
+    {
+      "type": "node",
+      "id": 1250297678,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Casalino Bivio Per Creto",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "3995",
+        "zone_id": "76",
+        "addr:city_extracted": "Montoggio"
+      },
+      "lat": 44.5128949,
+      "lon": 9.0380862
+    },
+    {
+      "type": "node",
+      "id": 2016260207,
+      "tags": {
+        "name": "Valico Monte Bano",
+        "natural": "saddle",
+        "addr:city_extracted": "Montoggio"
+      },
+      "lat": 44.500489,
+      "lon": 9.0440531
+    },
+    {
+      "type": "node",
+      "id": 2509625505,
+      "tags": {
+        "name": "Dego",
+        "place": "hamlet",
+        "addr:city_extracted": "Montoggio"
+      },
+      "lat": 44.5233531,
+      "lon": 9.0585982
+    },
+    {
+      "type": "node",
+      "id": 2626065472,
+      "tags": {
+        "name": "Bromia",
+        "place": "hamlet",
+        "addr:city_extracted": "Montoggio"
+      },
+      "lat": 44.5173977,
+      "lon": 9.0579296
+    },
+    {
+      "type": "node",
+      "id": 2628235298,
+      "tags": {
+        "name": "Ciappa",
+        "place": "isolated_dwelling",
+        "addr:city_extracted": "Montoggio"
+      },
+      "lat": 44.5045466,
+      "lon": 9.0585624
+    },
+    {
+      "type": "node",
+      "id": 2630843242,
+      "tags": {
+        "name": "Costa Superiore",
+        "place": "hamlet",
+        "addr:city_extracted": "Montoggio"
+      },
+      "lat": 44.5217904,
+      "lon": 9.0547685
+    },
+    {
+      "type": "node",
+      "id": 2630843243,
+      "tags": {
+        "name": "Costa Inferiore",
+        "place": "hamlet",
+        "addr:city_extracted": "Montoggio"
+      },
+      "lat": 44.5200157,
+      "lon": 9.0515283
+    },
+    {
+      "type": "node",
+      "id": 2630849234,
+      "tags": {
+        "name": "Castello",
+        "place": "hamlet",
+        "addr:city_extracted": "Montoggio"
+      },
+      "lat": 44.5214385,
+      "lon": 9.045134
+    },
+    {
+      "type": "node",
+      "id": 2630849235,
+      "tags": {
+        "name": "Sorriva Inferiore",
+        "place": "hamlet",
+        "addr:city_extracted": "Montoggio"
+      },
+      "lat": 44.5173229,
+      "lon": 9.0455202
+    },
+    {
+      "type": "node",
+      "id": 2630849236,
+      "tags": {
+        "name": "Sorriva Superiore",
+        "place": "hamlet",
+        "addr:city_extracted": "Montoggio"
+      },
+      "lat": 44.5181797,
+      "lon": 9.0447477
+    },
+    {
+      "type": "node",
+      "id": 2630849237,
+      "tags": {
+        "name": "Ca'",
+        "place": "hamlet",
+        "addr:city_extracted": "Montoggio"
+      },
+      "lat": 44.5123754,
+      "lon": 9.0409111
+    },
+    {
+      "type": "node",
+      "id": 2630849238,
+      "tags": {
+        "name": "Carpi Inferiore",
+        "place": "hamlet",
+        "addr:city_extracted": "Montoggio"
+      },
+      "lat": 44.5132682,
+      "lon": 9.0436523
+    },
+    {
+      "type": "node",
+      "id": 2630849239,
+      "tags": {
+        "name": "Carpi Superiore",
+        "place": "hamlet",
+        "addr:city_extracted": "Montoggio"
+      },
+      "lat": 44.5117075,
+      "lon": 9.0439109
+    },
+    {
+      "type": "node",
+      "id": 3122854942,
+      "tags": {
+        "name": "Gorretta",
+        "place": "hamlet",
+        "addr:city_extracted": "Montoggio"
+      },
+      "lat": 44.5257895,
+      "lon": 9.0552804
+    },
+    {
+      "type": "node",
+      "id": 3591083329,
+      "tags": {
+        "name": "Granara",
+        "place": "hamlet",
+        "addr:city_extracted": "Montoggio"
+      },
+      "lat": 44.5258855,
+      "lon": 9.0360644
+    },
+    {
+      "type": "node",
+      "id": 3600086453,
+      "tags": {
+        "addr:city": "Montoggio",
+        "addr:postcode": "16026",
+        "addr:street": "Via Case Nuove",
+        "name": "Agriturismo La Casetta",
+        "phone": "+39 340 4673268",
+        "tourism": "hotel",
+        "addr:city_extracted": "Montoggio"
+      },
+      "lat": 44.5200991,
+      "lon": 9.0593096
+    },
+    {
+      "type": "node",
+      "id": 3600089443,
+      "tags": {
+        "addr:city": "Montoggio",
+        "addr:housenumber": "6",
+        "addr:postcode": "16026",
+        "addr:street": "Località Carpi Superiore",
+        "name": "Azienda Agricola Artemisia di Emanuela Annetta",
+        "phone": "+39 347 0579001",
+        "tourism": "guest_house",
+        "url": "https://www.dannetta.it/artemisia.htm",
+        "addr:city_extracted": "Montoggio"
+      },
+      "lat": 44.512367,
+      "lon": 9.0439486
+    },
+    {
+      "type": "node",
+      "id": 3600092313,
+      "tags": {
+        "addr:city": "Montoggio",
+        "addr:housenumber": "20",
+        "addr:postcode": "16026",
+        "addr:street": "via Mangini",
+        "name": "Albergo Da Alfredo",
+        "phone": "+39 010 938954",
+        "stars": "2",
+        "tourism": "hotel",
+        "addr:city_extracted": "Montoggio"
+      },
+      "lat": 44.5175828,
+      "lon": 9.0567747
+    },
+    {
+      "type": "node",
+      "id": 3600092989,
+      "tags": {
+        "addr:city": "Montoggio",
+        "addr:housenumber": "7",
+        "addr:postcode": "16026",
+        "addr:street": "Via Guglielmo Marconi",
+        "name": "Campeggio Castello dei Fieschi",
+        "phone": "+39 010 938812",
+        "stars": "2",
+        "tourism": "hotel",
+        "addr:city_extracted": "Montoggio"
+      },
+      "lat": 44.516357,
+      "lon": 9.0441278
+    },
+    {
+      "type": "node",
+      "id": 6541855003,
+      "tags": {
+        "addr:city": "Montoggio",
+        "addr:housenumber": "88",
+        "addr:street": "Via Roma",
+        "emergency": "ambulance_station",
+        "healthcare": "hospital",
+        "name": "Croce Rossa - Montoggio",
+        "addr:city_extracted": "Montoggio"
+      },
+      "lat": 44.5141553,
+      "lon": 9.0452539
+    },
+    {
+      "type": "node",
+      "id": 8034298283,
+      "tags": {
+        "name": "da u gatto",
+        "tourism": "guest_house",
+        "website": "https://www.agriturismodaogatto.it/",
+        "addr:city_extracted": "Montoggio"
+      },
+      "lat": 44.5070653,
+      "lon": 9.0319083
+    },
+    {
+      "type": "node",
+      "id": 12652305806,
+      "tags": {
+        "name": "Costa della Rocca",
+        "place": "locality",
+        "addr:city_extracted": "Montoggio"
+      },
+      "lat": 44.5095551,
+      "lon": 9.0375006
+    },
+    {
+      "type": "node",
+      "id": 12652305847,
+      "tags": {
+        "name": "Brignò",
+        "place": "locality",
+        "addr:city_extracted": "Montoggio"
+      },
+      "lat": 44.5029522,
+      "lon": 9.0381596
+    },
+    {
+      "type": "node",
+      "id": 13248176763,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Mangini F. 12 Bromia Centro",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4000",
+        "shelter": "no",
+        "zone_id": "76",
+        "addr:city_extracted": "Montoggio"
+      },
+      "lat": 44.5171484,
+      "lon": 9.0576453
+    },
+    {
+      "type": "node",
+      "id": 13248176764,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Fraz. Bromia Loc. Giro Del Ponte",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "3999",
+        "shelter": "no",
+        "zone_id": "76",
+        "addr:city_extracted": "Montoggio"
+      },
+      "lat": 44.5186684,
+      "lon": 9.0564419
+    },
+    {
+      "type": "node",
+      "id": 13248176765,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Milite Ignoto 43 Loc. Antola",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "3998",
+        "shelter": "no",
+        "zone_id": "76",
+        "addr:city_extracted": "Montoggio"
+      },
+      "lat": 44.5190477,
+      "lon": 9.0550427
+    },
+    {
+      "type": "node",
+      "id": 13248176766,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Milite Ignoto F. 25 Loc. Ritale",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "8289",
+        "shelter": "no",
+        "zone_id": "76",
+        "addr:city_extracted": "Montoggio"
+      },
+      "lat": 44.5175221,
+      "lon": 9.0504924
+    },
+    {
+      "type": "node",
+      "id": 13248176767,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Roma F. 91 Montoggio",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "3997",
+        "shelter": "no",
+        "zone_id": "76",
+        "addr:city_extracted": "Montoggio"
+      },
+      "lat": 44.5146121,
+      "lon": 9.0474465
+    },
+    {
+      "type": "node",
+      "id": 13248176768,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Piazza Balilla 21 Montoggio Centro",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "3996",
+        "shelter": "no",
+        "zone_id": "76",
+        "addr:city_extracted": "Montoggio"
+      },
+      "lat": 44.5140874,
+      "lon": 9.0446223
+    },
+    {
+      "type": "node",
+      "id": 13399513580,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Roma 81 Montoggio",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4007",
+        "zone_id": "76",
+        "addr:city_extracted": "Montoggio"
+      },
+      "lat": 44.5145366,
+      "lon": 9.0468407
+    },
+    {
+      "type": "node",
+      "id": 13399513581,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Mangini 10 Rist. Alfredo",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4004",
+        "zone_id": "76",
+        "addr:city_extracted": "Montoggio"
+      },
+      "lat": 44.5167656,
+      "lon": 9.058486
+    },
+    {
+      "type": "node",
+      "id": 13399513582,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Piazza Balilla F. 34 Montoggio Centro",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4008",
+        "zone_id": "76",
+        "addr:city_extracted": "Montoggio"
+      },
+      "lat": 44.5140895,
+      "lon": 9.0444519
+    },
+    {
+      "type": "node",
+      "id": 13399513584,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Centro Trefontane capolinea",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "8741",
+        "zone_id": "76",
+        "addr:city_extracted": "Montoggio"
+      },
+      "lat": 44.5027504,
+      "lon": 9.0289001
+    },
+    {
+      "type": "node",
+      "id": 13399513585,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Milite Ignoto Loc. Antola",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4006",
+        "zone_id": "76",
+        "addr:city_extracted": "Montoggio"
+      },
+      "lat": 44.5188541,
+      "lon": 9.0545555
+    },
+    {
+      "type": "node",
+      "id": 13399513586,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Milite Ignoto 61 Fraz. Bromia Loc. Giro Del Ponte",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4005",
+        "zone_id": "76",
+        "addr:city_extracted": "Montoggio"
+      },
+      "lat": 44.5192696,
+      "lon": 9.0562241
+    },
+    {
+      "type": "node",
+      "id": 13399513587,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Fraz. Tre Fontane Loc. Terme",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4364",
+        "zone_id": "76",
+        "addr:city_extracted": "Montoggio"
+      },
+      "lat": 44.5043575,
+      "lon": 9.0314841
+    },
+    {
+      "type": "node",
+      "id": 13399513588,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Milite Ignoto Loc. Ritale",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "8308",
+        "zone_id": "76",
+        "addr:city_extracted": "Montoggio"
+      },
+      "lat": 44.5175921,
+      "lon": 9.0500598
+    },
+    {
+      "type": "way",
+      "id": 9929348,
+      "tags": {
+        "boat": "no",
+        "name": "Torrente Scrivia",
+        "waterway": "stream",
+        "addr:city_extracted": "Montoggio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 21252820,
+      "tags": {
+        "boat": "no",
+        "name": "Torrente Pentemina",
+        "waterway": "stream",
+        "addr:city_extracted": "Montoggio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 23027846,
+      "tags": {
+        "highway": "primary",
+        "maxspeed": "50",
+        "name": "Via Milite Ignoto",
+        "nat_name": "Strada Provinciale della Valle Scrivia",
+        "ref": "SP226",
+        "surface": "asphalt",
+        "addr:city_extracted": "Montoggio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 25039651,
+      "tags": {
+        "highway": "primary",
+        "maxspeed": "50",
+        "name": "Strada Provinciale della Valle Scrivia",
+        "nat_name": "Strada Provinciale della Valle Scrivia",
+        "ref": "SP226",
+        "surface": "asphalt",
+        "addr:city_extracted": "Montoggio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 27582921,
+      "tags": {
+        "boat": "no",
+        "name": "Rio di Creto",
+        "waterway": "stream",
+        "addr:city_extracted": "Montoggio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 78072048,
+      "tags": {
+        "bridge": "yes",
+        "highway": "primary",
+        "layer": "1",
+        "maxspeed": "50",
+        "maxweight": "40",
+        "name": "Strada Provinciale della Valle Scrivia",
+        "nat_name": "Strada Provinciale della Valle Scrivia",
+        "ref": "SP226",
+        "surface": "asphalt",
+        "addr:city_extracted": "Montoggio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 186563025,
+      "tags": {
+        "bridge": "yes",
+        "cycleway": "yes",
+        "highway": "primary",
+        "layer": "1",
+        "maxspeed": "50",
+        "name": "Strada Provinciale della Valle Scrivia",
+        "nat_name": "Strada Provinciale della Valle Scrivia",
+        "ref": "SP226",
+        "surface": "asphalt",
+        "addr:city_extracted": "Montoggio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204287555,
+      "tags": {
+        "addr:city": "Montoggio",
+        "addr:country": "IT",
+        "addr:housenumber": "1",
+        "addr:postcode": "16026",
+        "addr:street": "Piazza della Chiesa",
+        "amenity": "place_of_worship",
+        "building": "church",
+        "denomination": "catholic",
+        "name": "Chiesa di San Giovanni Decollato",
+        "ref:beweb": "28089",
+        "ref:iccd": "0700111040",
+        "religion": "christian",
+        "wikidata": "Q3670508",
+        "wikipedia": "it:Chiesa di San Giovanni Decollato (Montoggio)",
+        "addr:city_extracted": "Montoggio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204304026,
+      "tags": {
+        "addr:city": "Montoggio",
+        "addr:housenumber": "3",
+        "addr:postcode": "16026",
+        "addr:street": "Via ai Piazzi",
+        "amenity": "restaurant",
+        "building": "house",
+        "cuisine": "regional;italian",
+        "name": "Da Victoria - Trattoria Pizzeria",
+        "opening_hours": "Mo-Fr 12:00-14:30, Sa-Su 12:30-14:30, Mo-Su 19:00-22:00; Tu off",
+        "phone": "+39 0104711656",
+        "source": "Regione Liguria",
+        "addr:city_extracted": "Montoggio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204307282,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Santuario di Nostra Signora delle Tre Fontane",
+        "religion": "christian",
+        "wikidata": "Q3949971",
+        "wikipedia": "it:Santuario di Nostra Signora delle Tre Fontane",
+        "addr:city_extracted": "Montoggio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 223109782,
+      "tags": {
+        "highway": "primary",
+        "maxspeed": "50",
+        "name": "Strada Provinciale della Valle Scrivia",
+        "nat_name": "Strada Provinciale della Valle Scrivia",
+        "ref": "SP226",
+        "surface": "asphalt",
+        "addr:city_extracted": "Montoggio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 223109783,
+      "tags": {
+        "highway": "primary",
+        "name": "Strada Provinciale della Valle Scrivia",
+        "nat_name": "Strada Provinciale della Valle Scrivia",
+        "ref": "SP226",
+        "surface": "asphalt",
+        "addr:city_extracted": "Montoggio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 223109958,
+      "tags": {
+        "highway": "primary",
+        "name": "Strada Provinciale della Valle Scrivia",
+        "nat_name": "Strada Provinciale della Valle Scrivia",
+        "ref": "SP226",
+        "surface": "asphalt",
+        "addr:city_extracted": "Montoggio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 256989893,
+      "tags": {
+        "cycleway": "yes",
+        "highway": "primary",
+        "maxspeed": "30",
+        "name": "Strada Provinciale della Valle Scrivia",
+        "nat_name": "Strada Provinciale della Valle Scrivia",
+        "ref": "SP226",
+        "surface": "asphalt",
+        "addr:city_extracted": "Montoggio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 281419881,
+      "tags": {
+        "highway": "primary",
+        "maxspeed": "30",
+        "name": "Via Mangini",
+        "nat_name": "Strada Provinciale della Valle Scrivia",
+        "ref": "SP226",
+        "surface": "asphalt",
+        "addr:city_extracted": "Montoggio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 291439484,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Guglielmo Marconi",
+        "addr:city_extracted": "Montoggio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 291439486,
+      "tags": {
+        "highway": "pedestrian",
+        "name": "Via Gioacchino Rebora",
+        "addr:city_extracted": "Montoggio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 291439489,
+      "tags": {
+        "landuse": "cemetery",
+        "name": "Cimitero di Mignanego",
+        "addr:city_extracted": "Montoggio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 307196818,
+      "tags": {
+        "bridge": "yes",
+        "cycleway": "yes",
+        "highway": "primary",
+        "layer": "1",
+        "maxspeed": "30",
+        "name": "Strada Provinciale della Valle Scrivia",
+        "nat_name": "Strada Provinciale della Valle Scrivia",
+        "ref": "SP226",
+        "surface": "asphalt",
+        "addr:city_extracted": "Montoggio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 307220265,
+      "tags": {
+        "name": "Rio Carpi",
+        "waterway": "stream",
+        "addr:city_extracted": "Montoggio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 307385996,
+      "tags": {
+        "cycleway": "yes",
+        "highway": "primary",
+        "maxspeed": "50",
+        "name": "Strada Provinciale della Valle Scrivia",
+        "nat_name": "Strada Provinciale della Valle Scrivia",
+        "ref": "SP226",
+        "surface": "asphalt",
+        "addr:city_extracted": "Montoggio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 307385997,
+      "tags": {
+        "bridge": "yes",
+        "highway": "primary",
+        "layer": "1",
+        "maxspeed": "50",
+        "name": "Strada Provinciale della Valle Scrivia",
+        "nat_name": "Strada Provinciale della Valle Scrivia",
+        "ref": "SP226",
+        "surface": "asphalt",
+        "addr:city_extracted": "Montoggio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 319629208,
+      "tags": {
+        "historic": "ruins",
+        "name": "Castello Dei Fieschi",
+        "wikidata": "Q3662751",
+        "wikipedia": "it:Castello di Montoggio",
+        "addr:city_extracted": "Montoggio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 355763706,
+      "tags": {
+        "highway": "primary",
+        "maxspeed": "50",
+        "name": "Via Roma",
+        "nat_name": "Strada Provinciale della Valle Scrivia",
+        "ref": "SP226",
+        "surface": "asphalt",
+        "addr:city_extracted": "Montoggio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 402008007,
+      "tags": {
+        "highway": "track",
+        "name": "Montoggio-Monte Liprando (linea punto giallo)",
+        "addr:city_extracted": "Montoggio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 405436806,
+      "tags": {
+        "highway": "footway",
+        "name": "Montoggio-Monte Liprando (linea punto giallo)",
+        "addr:city_extracted": "Montoggio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 484801666,
+      "tags": {
+        "bicycle": "yes",
+        "fixme": "resurvey",
+        "highway": "path",
+        "name": "Montoggio-Monte Liprando (linea punto giallo)",
+        "sac_scale": "mountain_hiking",
+        "addr:city_extracted": "Montoggio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1116253909,
+      "tags": {
+        "highway": "primary",
+        "name": "Strada Provinciale della Valle Scrivia",
+        "nat_name": "Strada Provinciale della Valle Scrivia",
+        "ref": "SP226",
+        "surface": "asphalt",
+        "addr:city_extracted": "Montoggio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1191358980,
+      "tags": {
+        "addr:city": "Montoggio",
+        "addr:full": "Via Guglielmo Marconi, 7 16026 Montoggio GE – Italia",
+        "addr:housenumber": "7",
+        "addr:postcode": "16026",
+        "addr:street": "Via Guglielmo Marconi",
+        "bbq": "yes",
+        "cabins": "yes",
+        "caravans": "yes",
+        "contact:email": "mtitti61@tim.it",
+        "dog": "yes",
+        "dog:conditional": "yes",
+        "fee": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "yes",
+        "lit": "yes",
+        "motorhome": "yes",
+        "name": "Camping Castello dei Fieschi",
+        "permanent_camping": "yes",
+        "phone": "+39 010 938812",
+        "power_supply": "yes",
+        "ref:vatin": "IT02513230991",
+        "socket:cee_blue": "yes",
+        "stars": "2",
+        "start_date": "1967",
+        "tents": "yes",
+        "tourism": "camp_site",
+        "website": "https://campingcastellodeifieschi.it/",
+        "addr:city_extracted": "Montoggio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1295724669,
+      "tags": {
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Strada Provinciale della Valle Scrivia",
+        "nat_name": "Strada Provinciale della Valle Scrivia",
+        "ref": "SP226",
+        "surface": "asphalt",
+        "addr:city_extracted": "Montoggio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1416926023,
+      "tags": {
+        "layer": "-1",
+        "name": "Rio Carpi",
+        "tunnel": "culvert",
+        "waterway": "stream",
+        "addr:city_extracted": "Montoggio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1519383759,
+      "tags": {
+        "highway": "footway",
+        "name": "Passo Giotti",
+        "surface": "ground",
+        "addr:city_extracted": "Montoggio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1519477174,
+      "tags": {
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Strada Provinciale della Valle Scrivia",
+        "nat_name": "Strada Provinciale della Valle Scrivia",
+        "ref": "SP226",
+        "surface": "asphalt",
+        "addr:city_extracted": "Montoggio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1519477175,
+      "tags": {
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Strada Provinciale della Valle Scrivia",
+        "nat_name": "Strada Provinciale della Valle Scrivia",
+        "ref": "SP226",
+        "surface": "asphalt",
+        "addr:city_extracted": "Montoggio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1519477180,
+      "tags": {
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Strada Provinciale della Valle Scrivia",
+        "nat_name": "Strada Provinciale della Valle Scrivia",
+        "ref": "SP226",
+        "surface": "asphalt",
+        "addr:city_extracted": "Montoggio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1521262833,
+      "tags": {
+        "building": "wayside_shrine",
+        "denomination": "roman_catholic",
+        "name": "Cappelletta di Carpi Inferiore",
+        "religion": "christian",
+        "addr:city_extracted": "Montoggio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1528792135,
+      "tags": {
+        "name": "Rio Carpi",
+        "waterway": "stream",
+        "addr:city_extracted": "Montoggio"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 43213,
+      "tags": {
+        "admin_level": "8",
+        "boundary": "administrative",
+        "name": "Montoggio",
+        "population": "2018",
+        "population:date": "2026-08-28",
+        "ref:catasto": "F682",
+        "ref:ISTAT": "010039",
+        "source:population": "ANPR 2026",
+        "type": "boundary",
+        "wikidata": "Q265616",
+        "wikipedia": "it:Montoggio",
+        "addr:city_extracted": "Montoggio"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 2233730,
+      "tags": {
+        "destination": "Po",
+        "name": "Scrivia",
+        "type": "waterway",
+        "waterway": "river",
+        "wikidata": "Q646601",
+        "wikipedia": "it:Scrivia",
+        "addr:city_extracted": "Montoggio"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 2438980,
+      "tags": {
+        "name": "Strada Provinciale di Creto",
+        "ref": "SP13",
+        "route": "road",
+        "type": "route",
+        "addr:city_extracted": "Montoggio"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 2562291,
+      "tags": {
+        "cycle_network": "Bicitalia",
+        "name": "Ciclovia Francigena - variante Moncenisio",
+        "network": "ncn",
+        "note": "Please do not modify without consulting with www.bicitalia.org",
+        "operator": "Bicitalia",
+        "ref": "BI-3 var. Moncenisio",
+        "route": "bicycle",
+        "source": "http://www.bicitalia.org/",
+        "type": "route",
+        "addr:city_extracted": "Montoggio"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 7199709,
+      "tags": {
+        "ascent": "700",
+        "cai_scale": "E",
+        "description:it": "http://fieliguria.com/images/Sentieri-Zone-GENOVA/Zona6/GE06S05Montoggio_-_Monte_Liprando.pdf",
+        "distance": "6",
+        "duration:backward": "02:30",
+        "duration:forward": "02:30",
+        "from": "Bivio per Costa, sulla S.P.226, poco oltre il Ponte sul Rio delle Cogne, tra Montoggio e Bromia",
+        "name": "Sentiero di S. Agostino",
+        "network": "lwn",
+        "note:it": "relazione mantenuta da geomorfolab",
+        "operator": "Federazione Italiana Escursionismo - Comitato Regionale Ligure",
+        "osmc:symbol": "red:green::―●:yellow",
+        "ref": "639",
+        "ref:FIE": "GE06S05",
+        "ref:REI": "GGEA6390",
+        "reg_ref": "GGEA63904PE",
+        "route": "hiking",
+        "source": "Regione Liguria;survey:CAI",
+        "symbol:it": "linea e punto giallo",
+        "to": "Vetta del Monte Liprando",
+        "type": "route",
+        "website": "https://www.fieliguria.com/zona-6-descrizioni-e-note-dei-sentieri.html",
+        "addr:city_extracted": "Montoggio"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 13550418,
+      "tags": {
+        "cai_scale": "E",
+        "name": "Gola di Sisa - Tre Fontane",
+        "network": "lwn",
+        "osmc:symbol": "red:green:yellow_cross",
+        "route": "hiking",
+        "source": "FIE",
+        "type": "route",
+        "addr:city_extracted": "Montoggio"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 13609831,
+      "tags": {
+        "alt_ref": "321C",
+        "ascent": "450",
+        "cai_scale": "E",
+        "distance": "3.2",
+        "duration:forward": "01:30",
+        "from": "Montoggio",
+        "name": "Sentiero della Resistenza",
+        "network": "lwn",
+        "operator": "QuotaZero",
+        "osmc:symbol": "red:green::⸫:yellow",
+        "ref": "QZ4",
+        "ref:REI": "GGEA321C",
+        "reg_ref": "GGEA32104CE",
+        "route": "hiking",
+        "source": "Regione Liguria;survey:CAI",
+        "symbol:it": "tre pallini gialli disposti a triangolo",
+        "to": "Casa Teitin",
+        "type": "route",
+        "website": "https://www.quotazero.com/forum/viewtopic.php?f=15&t=14058",
+        "addr:city_extracted": "Montoggio"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 13617222,
+      "tags": {
+        "alt_ref": "324C",
+        "ascent": "400",
+        "cai_scale": "EE",
+        "distance": "3.6",
+        "duration:forward": "02:00",
+        "from": "Bromia",
+        "network": "lwn",
+        "note:it": "Il nome della meta può essere diverso da carta a carta (Campoveneroso, Camponevoso)",
+        "operator": "Federazione Italiana Escursionismo - Comitato Regionale Ligure",
+        "osmc:symbol": "red:green::⸫:yellow",
+        "ref": "QZ6",
+        "ref:REI": "GGEA324C",
+        "reg_ref": "GGEA32404CE",
+        "route": "hiking",
+        "source": "Regione Liguria;survey:CAI",
+        "survey:date": "2023-03",
+        "symbol:it": "tre pallini gialli disposti a triangolo",
+        "to": "Campoveneroso",
+        "type": "route",
+        "website": "https://www.quotazero.com/forum/viewtopic.php?f=15&t=14402",
+        "addr:city_extracted": "Montoggio"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 14921433,
+      "tags": {
+        "cai_scale:mtb": "TC",
+        "cai_scale:mtb:uphill": "TC",
+        "date": "2022-11-23",
+        "from": "Crocetta d'Orero",
+        "name": "SICAI Ciclo",
+        "network": "ncn",
+        "ref": "SI-C",
+        "route": "mtb",
+        "source": "survey:CAI",
+        "stage": "G13-B",
+        "to": "Colle di Creto",
+        "type": "route",
+        "addr:city_extracted": "Montoggio"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 14921434,
+      "tags": {
+        "cai_scale:mtb": "TC",
+        "cai_scale:mtb:uphill": "TC",
+        "date": "2022-11-23",
+        "from": "Colle di Creto",
+        "name": "SICAI Ciclo",
+        "network": "ncn",
+        "ref": "SI-C",
+        "route": "mtb",
+        "source": "survey:CAI",
+        "stage": "G13-A",
+        "to": "Crocetta d'Orero",
+        "type": "route",
+        "addr:city_extracted": "Montoggio"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 14922126,
+      "tags": {
+        "cai_scale:mtb": "TC",
+        "cai_scale:mtb:uphill": "TC",
+        "date": "2022-11-23",
+        "from": "Colle di Creto",
+        "name": "SICAI Ciclo",
+        "network": "ncn",
+        "ref": "SI-C",
+        "route": "mtb",
+        "source": "survey:CAI",
+        "stage": "G12-B",
+        "to": "Passo della Scoffera",
+        "type": "route",
+        "addr:city_extracted": "Montoggio"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 14922127,
+      "tags": {
+        "cai_scale:mtb": "TC",
+        "cai_scale:mtb:uphill": "TC",
+        "date": "2022-11-23",
+        "from": "Passo della Scoffera",
+        "name": "SICAI Ciclo",
+        "network": "ncn",
+        "ref": "SI-C",
+        "route": "mtb",
+        "source": "survey:CAI",
+        "stage": "G12-A",
+        "to": "Colle di Creto",
+        "type": "route",
+        "addr:city_extracted": "Montoggio"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 17313283,
+      "tags": {
+        "name": "(SI-C G00-A) Sentiero Italia Cicloescursionistico – Liguria",
+        "network": "ncn",
+        "route": "mtb",
+        "source": "survey:CAI",
+        "type": "superroute",
+        "addr:city_extracted": "Montoggio"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 17313290,
+      "tags": {
+        "name": "(SI-C G00-B) Sentiero Italia Cicloescursionistico – Liguria",
+        "network": "ncn",
+        "route": "mtb",
+        "source": "survey:CAI",
+        "type": "route",
+        "addr:city_extracted": "Montoggio"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 18731216,
+      "tags": {
+        "cai_scale": "E",
+        "from": "Montoggio",
+        "name": "Montoggio - La Ca' - Case Montebano - Monte Bano",
+        "network": "lwn",
+        "operator": "QuotaZero",
+        "osmc:symbol": "red:green:yellow_turned_T",
+        "ref": "QZ11",
+        "route": "hiking",
+        "symbol:it": "T gialla rovesciata",
+        "to": "Monte Bano",
+        "type": "route",
+        "addr:city_extracted": "Montoggio"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 19739754,
+      "tags": {
+        "bus": "yes",
+        "colour": "green",
+        "description": "Genova Brignole-Creto-Montoggio-Bromia",
+        "from": "Genova Brignole (v.Caviglia)",
+        "name": "728 Montoggio-Bromia",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "network:wikipedia": "it:AMT (Genova)",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "728",
+        "route": "bus",
+        "to": "Bromia",
+        "type": "route",
+        "addr:city_extracted": "Montoggio"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 19793721,
+      "tags": {
+        "bus": "yes",
+        "colour": "green",
+        "description": "Genova Brignole-A7-Busalla-Casella-Bromia",
+        "from": "Genova Brignole (v.Caviglia)",
+        "name": "727 A7-Casella-Bromia",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "network:wikipedia": "it:AMT (Genova)",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "727",
+        "route": "bus",
+        "to": "Bromia",
+        "type": "route",
+        "addr:city_extracted": "Montoggio"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 19998200,
+      "tags": {
+        "bus": "yes",
+        "colour": "green",
+        "description": "955 Genova Brignole-Bargagli-Laccio-Trefontane",
+        "from": "Genova Brignole",
+        "name": "955 Trefontane",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "network:wikipedia": "it:AMT (Genova)",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "955",
+        "route": "bus",
+        "to": "Trefontane",
+        "type": "route",
+        "addr:city_extracted": "Montoggio"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 20111708,
+      "tags": {
+        "bus": "yes",
+        "colour": "green",
+        "description": "Bromia - Montoggio - Creto - Genova Brignole",
+        "duration": "1:05",
+        "from": "Bromia",
+        "name": "728 Montoggio-Creto - Genova Brignole",
+        "network": "AMT Linee Provinciali",
+        "network:wikidata": "Q295335",
+        "network:wikipedia": "it:AMT (Genova)",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "728",
+        "route": "bus",
+        "to": "Genova Brignole",
+        "type": "route",
+        "addr:city_extracted": "Montoggio"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 20115627,
+      "tags": {
+        "bus": "yes",
+        "colour": "green",
+        "description": "Bromia - Casella - Busalla - A7 - Sampierdarena - Genova Brignole",
+        "duration": "1:10",
+        "from": "Bromia",
+        "name": "727 Casella-A7 - Genova Brignole",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "network:wikipedia": "it:AMT (Genova)",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "727",
+        "route": "bus",
+        "to": "Genova Brignole",
+        "type": "route",
+        "addr:city_extracted": "Montoggio"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 20127320,
+      "tags": {
+        "bus": "yes",
+        "colour": "green",
+        "description": "740 Bromia - Busalla FS",
+        "from": "Bromia",
+        "name": "740 Busalla FS",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "network:wikipedia": "it:AMT (Genova)",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "740",
+        "route": "bus",
+        "to": "Busalla FS",
+        "type": "route",
+        "addr:city_extracted": "Montoggio"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 20147581,
+      "tags": {
+        "bus": "yes",
+        "colour": "green",
+        "description": "740 Busalla FS - Bromia",
+        "from": "Busalla FS",
+        "name": "740 Bromia",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "network:wikipedia": "it:AMT (Genova)",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "740",
+        "route": "bus",
+        "to": "Bromia",
+        "type": "route",
+        "addr:city_extracted": "Montoggio"
+      }
+    }
+  ]
+}

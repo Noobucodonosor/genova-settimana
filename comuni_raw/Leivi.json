@@ -1,0 +1,1072 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-11-01T20:25:45Z",
+    "timestamp_areas_base": "2026-11-01T18:30:20Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "way",
+  "id": 24999589,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via San Rufino",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 40817009,
+  "tags": {
+    "access": "yes",
+    "bicycle": "permissive",
+    "foot": "yes",
+    "highway": "service",
+    "horse": "no",
+    "motor_vehicle": "private",
+    "name": "Via al Castello",
+    "service": "driveway",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 41569800,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "tertiary",
+    "lanes": "2",
+    "name": "Via Miramare",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 52475415,
+  "tags": {
+    "bridge": "yes",
+    "cycleway": "yes",
+    "highway": "residential",
+    "layer": "1",
+    "maxweight": "5",
+    "maxwidth": "2.2",
+    "name": "Via Pontevecchio",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 52475862,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Gazzo",
+    "oneway": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 63018695,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "path",
+    "mtb:scale": "2",
+    "name": "Anchetta DH",
+    "sac_scale": "mountain_hiking",
+    "surface": "dirt",
+    "trail_visibility": "excellent"
+  }
+},
+{
+  "type": "way",
+  "id": 83509236,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "tertiary",
+    "name": "Via Cogozzale",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 108420825,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Selaschi",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 121469145,
+  "tags": {
+    "highway": "tertiary",
+    "lanes": "2",
+    "name": "Via San Terenziano",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 123557888,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Località Caperana Case Sparse",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 124034086,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "path",
+    "mtb:scale": "3",
+    "name": "sentiero la Colla",
+    "sac_scale": "mountain_hiking",
+    "surface": "ground",
+    "trail_visibility": "good"
+  }
+},
+{
+  "type": "way",
+  "id": 125727254,
+  "tags": {
+    "historic": "castle",
+    "name": "Castello"
+  }
+},
+{
+  "type": "way",
+  "id": 125727259,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Belvedere"
+  }
+},
+{
+  "type": "way",
+  "id": 125801207,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Costasecca"
+  }
+},
+{
+  "type": "way",
+  "id": 125801209,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Costasecca"
+  }
+},
+{
+  "type": "way",
+  "id": 125801212,
+  "tags": {
+    "foot": "yes",
+    "highway": "unclassified",
+    "name": "Via Costasecca"
+  }
+},
+{
+  "type": "way",
+  "id": 125801218,
+  "tags": {
+    "foot": "yes",
+    "highway": "path",
+    "name": "Via Costasecca",
+    "surface": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 125801221,
+  "tags": {
+    "highway": "residential",
+    "name": "Via delle Ortensie",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 126897029,
+  "tags": {
+    "foot": "yes",
+    "highway": "path",
+    "name": "Pedonale della Ratta",
+    "surface": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 128179366,
+  "tags": {
+    "foot": "yes",
+    "highway": "path",
+    "name": "Mulattiera Castagna",
+    "surface": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 128179381,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Strada dei Boschi"
+  }
+},
+{
+  "type": "way",
+  "id": 128179388,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Castagna",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 128179391,
+  "tags": {
+    "foot": "yes",
+    "highway": "track",
+    "name": "Via dei Boschi",
+    "surface": "gravel"
+  }
+},
+{
+  "type": "way",
+  "id": 128179399,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via dei Boschi"
+  }
+},
+{
+  "type": "way",
+  "id": 128179400,
+  "tags": {
+    "highway": "residential",
+    "name": "Via dei Caduti",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 152049422,
+  "tags": {
+    "bicycle": "no",
+    "foot": "yes",
+    "highway": "path",
+    "name": "Pedonale del Bricollo",
+    "surface": "gravel"
+  }
+},
+{
+  "type": "way",
+  "id": 152049428,
+  "tags": {
+    "bicycle": "no",
+    "foot": "yes",
+    "highway": "path",
+    "name": "Pedonale del Bricollo",
+    "surface": "gravel"
+  }
+},
+{
+  "type": "way",
+  "id": 152049437,
+  "tags": {
+    "foot": "yes",
+    "highway": "path",
+    "name": "Pedonale del Moggiolo",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 152049442,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Pian dei Carmini"
+  }
+},
+{
+  "type": "way",
+  "id": 152049444,
+  "tags": {
+    "historic": "castle",
+    "name": "Torre di San Rufino"
+  }
+},
+{
+  "type": "way",
+  "id": 152049451,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Villa Oneto",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 153024563,
+  "tags": {
+    "bicycle": "no",
+    "foot": "yes",
+    "highway": "path",
+    "mtb:scale:imba": "1",
+    "name": "Sentiero Semorile",
+    "surface": "paved",
+    "trail_visibility": "good"
+  }
+},
+{
+  "type": "way",
+  "id": 154910175,
+  "tags": {
+    "foot": "yes",
+    "highway": "path",
+    "name": "Sentiero di Caminata",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 156645964,
+  "tags": {
+    "foot": "yes",
+    "highway": "unclassified",
+    "name": "Via Costasecca",
+    "surface": "unpaved"
+  }
+},
+{
+  "type": "way",
+  "id": 156645966,
+  "tags": {
+    "foot": "yes",
+    "highway": "path",
+    "name": "Via Costasecca",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 159233891,
+  "tags": {
+    "foot": "yes",
+    "highway": "path",
+    "name": "Strada del Solaro",
+    "surface": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 159233893,
+  "tags": {
+    "highway": "path",
+    "name": "Strada vicinale Costasecca",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 159233894,
+  "tags": {
+    "foot": "yes",
+    "highway": "path",
+    "name": "Strada vicinale Costasecca",
+    "surface": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 159233896,
+  "tags": {
+    "foot": "yes",
+    "highway": "path",
+    "name": "Strada vicinale del Bandio",
+    "surface": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 159233902,
+  "tags": {
+    "foot": "yes",
+    "highway": "path",
+    "name": "Strada vicinale del Solaro",
+    "surface": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 159233904,
+  "tags": {
+    "foot": "yes",
+    "highway": "path",
+    "name": "Strada vicinale delle Fontanelle",
+    "surface": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 183793112,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Crocetta"
+  }
+},
+{
+  "type": "way",
+  "id": 189210357,
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Via Nostra Signora della Guardia",
+    "ref": "SP32",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 201031494,
+  "tags": {
+    "building": "yes",
+    "leisure": "sports_centre",
+    "name": "Centro Polisportivo",
+    "source": "Regione Liguria",
+    "sport": "multi"
+  }
+},
+{
+  "type": "way",
+  "id": 263999611,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Garbuggi",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 263999612,
+  "tags": {
+    "bridge": "yes",
+    "highway": "tertiary",
+    "layer": "1",
+    "name": "Via Garbuggi",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 277827559,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Garbuggi",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 300818871,
+  "tags": {
+    "foot": "yes",
+    "highway": "path",
+    "name": "Via dei Boschi",
+    "surface": "gravel"
+  }
+},
+{
+  "type": "way",
+  "id": 309596903,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Case sparse di Ri Alto",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 309619314,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Le Fontane"
+  }
+},
+{
+  "type": "way",
+  "id": 309631276,
+  "tags": {
+    "highway": "residential",
+    "name": "Via dei Caduti"
+  }
+},
+{
+  "type": "way",
+  "id": 312547525,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via San Lorenzo",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 312547526,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Villa Oneto",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 315492495,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Garbuggi",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 315492498,
+  "tags": {
+    "bridge": "yes",
+    "highway": "tertiary",
+    "layer": "1",
+    "name": "Via Garbuggi",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 335241327,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via San Lorenzo",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 343005506,
+  "tags": {
+    "highway": "steps",
+    "name": "Via Miramare"
+  }
+},
+{
+  "type": "way",
+  "id": 368608536,
+  "tags": {
+    "highway": "path",
+    "name": "Pedonale di Pianabella"
+  }
+},
+{
+  "type": "way",
+  "id": 369696843,
+  "tags": {
+    "highway": "path",
+    "name": "Sentiero di Caminata"
+  }
+},
+{
+  "type": "way",
+  "id": 445227485,
+  "tags": {
+    "alt_name": "Via I Maggio",
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Via Primo Maggio",
+    "ref": "SP32",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 445227487,
+  "tags": {
+    "alt_name": "Via IV Novembre",
+    "highway": "secondary",
+    "name": "Via Quattro Novembre",
+    "ref": "SP32",
+    "short_name": "Via 4 Novembre",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 445227488,
+  "tags": {
+    "alt_name": "Via IV Novembre",
+    "highway": "secondary",
+    "name": "Via Quattro Novembre",
+    "ref": "SP32",
+    "short_name": "Via 4 Novembre",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 445227490,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via San Gaetano"
+  }
+},
+{
+  "type": "way",
+  "id": 445227493,
+  "tags": {
+    "alt_name": "Via XXV Aprile",
+    "highway": "secondary",
+    "name": "Via Venticinque Aprile",
+    "ref": "SP32",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 445227494,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via degli Ulivi",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 445227495,
+  "tags": {
+    "highway": "secondary",
+    "name": "Via dei Cacciatori",
+    "ref": "SP32",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 445227496,
+  "tags": {
+    "highway": "tertiary",
+    "lanes": "2",
+    "name": "Via dei Caduti",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 502049076,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "tertiary",
+    "lane_markings": "no",
+    "name": "Via Miramare",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 502049080,
+  "tags": {
+    "highway": "tertiary",
+    "lanes": "2",
+    "name": "Via Miramare",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 502049087,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Belvedere"
+  }
+},
+{
+  "type": "way",
+  "id": 502049088,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Belvedere",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 502049089,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Belvedere",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 502049586,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via San Rufino",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 502049589,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via dei Boschi",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 502051553,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via San Rufino",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 502051555,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via San Lorenzo",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 502051556,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via San Lorenzo",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 770704012,
+  "tags": {
+    "highway": "residential",
+    "name": "Via San Terenziano",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1017586450,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Gazzo",
+    "oneway": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 1017586451,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Gazzo",
+    "oneway": "no",
+    "surface": "gravel",
+    "width": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 1022966510,
+  "tags": {
+    "highway": "tertiary",
+    "lanes": "2",
+    "name": "Via Miramare",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1022966511,
+  "tags": {
+    "highway": "tertiary",
+    "lanes": "2",
+    "name": "Via Miramare",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1022966512,
+  "tags": {
+    "highway": "residential",
+    "name": "Via delle Ortensie",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1022966513,
+  "tags": {
+    "highway": "residential",
+    "name": "Via delle Ortensie",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1134533759,
+  "tags": {
+    "foot": "yes",
+    "highway": "path",
+    "name": "Via Costasecca",
+    "surface": "unpaved"
+  }
+},
+{
+  "type": "way",
+  "id": 1134533765,
+  "tags": {
+    "foot": "yes",
+    "highway": "unclassified",
+    "name": "Via Costasecca"
+  }
+},
+{
+  "type": "way",
+  "id": 1134533766,
+  "tags": {
+    "foot": "yes",
+    "highway": "unclassified",
+    "name": "Via Costasecca"
+  }
+},
+{
+  "type": "way",
+  "id": 1250777701,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Selaschi",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1250777702,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Selaschi",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1250777703,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "tertiary",
+    "lane_markings": "no",
+    "name": "Via Miramare",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1250777704,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Miramare",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1292950668,
+  "tags": {
+    "foot": "yes",
+    "highway": "path",
+    "name": "Sentiero di Caminata",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 1292950672,
+  "tags": {
+    "foot": "yes",
+    "highway": "path",
+    "name": "Sentiero di Caminata",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 1292950717,
+  "tags": {
+    "highway": "residential",
+    "name": "Strada dei Boschi"
+  }
+},
+{
+  "type": "way",
+  "id": 1337969024,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via San Lorenzo",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1337969025,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via San Lorenzo",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1337969036,
+  "tags": {
+    "highway": "secondary",
+    "name": "Via dei Cacciatori",
+    "ref": "SP32",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1356895405,
+  "tags": {
+    "alt_name": "Via IV Novembre",
+    "highway": "secondary",
+    "name": "Via Quattro Novembre",
+    "ref": "SP32",
+    "short_name": "Via 4 Novembre",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1356895406,
+  "tags": {
+    "alt_name": "Via IV Novembre",
+    "bridge": "yes",
+    "highway": "secondary",
+    "layer": "1",
+    "name": "Via Quattro Novembre",
+    "ref": "SP32",
+    "short_name": "Via 4 Novembre",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1451766001,
+  "tags": {
+    "highway": "residential",
+    "name": "Strada vicinale del Solaro"
+  }
+},
+{
+  "type": "way",
+  "id": 1452455439,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via San Terenziano",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1452455440,
+  "tags": {
+    "alt_name": "Via XXV Aprile",
+    "highway": "secondary",
+    "name": "Via Venticinque Aprile",
+    "ref": "SP32",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1455316735,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via San Terenziano",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1458166780,
+  "tags": {
+    "access": "private",
+    "highway": "residential",
+    "name": "Via case sparse"
+  }
+},
+{
+  "type": "way",
+  "id": 1458166782,
+  "tags": {
+    "bridge": "yes",
+    "cycleway": "yes",
+    "highway": "tertiary",
+    "layer": "1",
+    "name": "Via Cogozzale",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1471105895,
+  "tags": {
+    "highway": "tertiary",
+    "lanes": "2",
+    "name": "Via San Terenziano",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1481567259,
+  "tags": {
+    "highway": "secondary",
+    "name": "Via dei Cacciatori",
+    "ref": "SP32",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1481567260,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Villa Oneto",
+    "surface": "asphalt"
+  }
+}
+
+  ]
+}

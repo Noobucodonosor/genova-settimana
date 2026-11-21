@@ -1,0 +1,337 @@
+[
+  {
+    "name": "Arenzano",
+    "qid": "Q265257",
+    "osm_rel": "43144"
+  },
+  {
+    "name": "Avegno",
+    "qid": "Q266580",
+    "osm_rel": "43116"
+  },
+  {
+    "name": "Bargagli",
+    "qid": "Q266272",
+    "osm_rel": "43148"
+  },
+  {
+    "name": "Bogliasco",
+    "qid": "Q266592",
+    "osm_rel": "43113"
+  },
+  {
+    "name": "Borzonasca",
+    "qid": "Q267134",
+    "osm_rel": "43132"
+  },
+  {
+    "name": "Busalla",
+    "qid": "Q265551",
+    "osm_rel": "43319"
+  },
+  {
+    "name": "Camogli",
+    "qid": "Q266604",
+    "osm_rel": "43035"
+  },
+  {
+    "name": "Campo Ligure",
+    "qid": "Q265298",
+    "osm_rel": "43250"
+  },
+  {
+    "name": "Campomorone",
+    "qid": "Q265483",
+    "osm_rel": "43262"
+  },
+  {
+    "name": "Carasco",
+    "qid": "Q267183",
+    "osm_rel": "43062"
+  },
+  {
+    "name": "Casarza Ligure",
+    "qid": "Q267157",
+    "osm_rel": "42990"
+  },
+  {
+    "name": "Casella",
+    "qid": "Q265574",
+    "osm_rel": "43268"
+  },
+  {
+    "name": "Castiglione Chiavarese",
+    "qid": "Q267168",
+    "osm_rel": "42992"
+  },
+  {
+    "name": "Ceranesi",
+    "qid": "Q265498",
+    "osm_rel": "44878"
+  },
+  {
+    "name": "Chiavari",
+    "qid": "Q266941",
+    "osm_rel": "43040"
+  },
+  {
+    "name": "Cicagna",
+    "qid": "Q267199",
+    "osm_rel": "43130"
+  },
+  {
+    "name": "Cogoleto",
+    "qid": "Q265271",
+    "osm_rel": "43122"
+  },
+  {
+    "name": "Cogorno",
+    "qid": "Q267215",
+    "osm_rel": "43041"
+  },
+  {
+    "name": "Coreglia Ligure",
+    "qid": "Q267230",
+    "osm_rel": "43121"
+  },
+  {
+    "name": "Crocefieschi",
+    "qid": "Q265588",
+    "osm_rel": "43326"
+  },
+  {
+    "name": "Davagna",
+    "qid": "Q266283",
+    "osm_rel": "43187"
+  },
+  {
+    "name": "Fascia",
+    "qid": "Q266306",
+    "osm_rel": "43287"
+  },
+  {
+    "name": "Favale di Malvaro",
+    "qid": "Q267241",
+    "osm_rel": "43180"
+  },
+  {
+    "name": "Fontanigorda",
+    "qid": "Q266326",
+    "osm_rel": "43269"
+  },
+  {
+    "name": "Genova",
+    "qid": "Q1449",
+    "osm_rel": "44875"
+  },
+  {
+    "name": "Gorreto",
+    "qid": "Q266338",
+    "osm_rel": "43358"
+  },
+  {
+    "name": "Isola del Cantone",
+    "qid": "Q265605",
+    "osm_rel": "43390"
+  },
+  {
+    "name": "Lavagna",
+    "qid": "Q266794",
+    "osm_rel": "43030"
+  },
+  {
+    "name": "Leivi",
+    "qid": "Q267251",
+    "osm_rel": "43069"
+  },
+  {
+    "name": "Lorsica",
+    "qid": "Q267261",
+    "osm_rel": "44877"
+  },
+  {
+    "name": "Lumarzo",
+    "qid": "Q267268",
+    "osm_rel": "43149"
+  },
+  {
+    "name": "Masone",
+    "qid": "Q265311",
+    "osm_rel": "43210"
+  },
+  {
+    "name": "Mele",
+    "qid": "Q265284",
+    "osm_rel": "43220"
+  },
+  {
+    "name": "Mezzanego",
+    "qid": "Q267146",
+    "osm_rel": "43097"
+  },
+  {
+    "name": "Mignanego",
+    "qid": "Q265514",
+    "osm_rel": "43257"
+  },
+  {
+    "name": "Moconesi",
+    "qid": "Q267284",
+    "osm_rel": "44876"
+  },
+  {
+    "name": "Moneglia",
+    "qid": "Q267005",
+    "osm_rel": "49134"
+  },
+  {
+    "name": "Montebruno",
+    "qid": "Q266352",
+    "osm_rel": "43241"
+  },
+  {
+    "name": "Montoggio",
+    "qid": "Q265616",
+    "osm_rel": "43213"
+  },
+  {
+    "name": "Ne",
+    "qid": "Q12556041",
+    "osm_rel": "43034"
+  },
+  {
+    "name": "Neirone",
+    "qid": "Q267294",
+    "osm_rel": "43165"
+  },
+  {
+    "name": "Orero",
+    "qid": "Q267307",
+    "osm_rel": "43126"
+  },
+  {
+    "name": "Pieve Ligure",
+    "qid": "Q266620",
+    "osm_rel": "43098"
+  },
+  {
+    "name": "Portofino",
+    "qid": "Q232782",
+    "osm_rel": "43028"
+  },
+  {
+    "name": "Propata",
+    "qid": "Q266366",
+    "osm_rel": "43297"
+  },
+  {
+    "name": "Rapallo",
+    "qid": "Q210098",
+    "osm_rel": "43070"
+  },
+  {
+    "name": "Recco",
+    "qid": "Q266648",
+    "osm_rel": "43081"
+  },
+  {
+    "name": "Rezzoaglio",
+    "qid": "Q267022",
+    "osm_rel": "43168"
+  },
+  {
+    "name": "Ronco Scrivia",
+    "qid": "Q265626",
+    "osm_rel": "43386"
+  },
+  {
+    "name": "Rondanina",
+    "qid": "Q266381",
+    "osm_rel": "43279"
+  },
+  {
+    "name": "Rossiglione",
+    "qid": "Q265325",
+    "osm_rel": "43277"
+  },
+  {
+    "name": "Rovegno",
+    "qid": "Q266441",
+    "osm_rel": "43295"
+  },
+  {
+    "name": "San Colombano Certenoli",
+    "qid": "Q267323",
+    "osm_rel": "43090"
+  },
+  {
+    "name": "Sant'Olcese",
+    "qid": "Q265539",
+    "osm_rel": "43212"
+  },
+  {
+    "name": "Santa Margherita Ligure",
+    "qid": "Q266975",
+    "osm_rel": "43036"
+  },
+  {
+    "name": "Santo Stefano d'Aveto",
+    "qid": "Q267032",
+    "osm_rel": "43207"
+  },
+  {
+    "name": "Savignone",
+    "qid": "Q265708",
+    "osm_rel": "43276"
+  },
+  {
+    "name": "Serra Riccò",
+    "qid": "Q265528",
+    "osm_rel": "43251"
+  },
+  {
+    "name": "Sestri Levante",
+    "qid": "Q194081",
+    "osm_rel": "42982"
+  },
+  {
+    "name": "Sori",
+    "qid": "Q266630",
+    "osm_rel": "43096"
+  },
+  {
+    "name": "Tiglieto",
+    "qid": "Q266259",
+    "osm_rel": "43182"
+  },
+  {
+    "name": "Torriglia",
+    "qid": "Q266450",
+    "osm_rel": "43217"
+  },
+  {
+    "name": "Tribogna",
+    "qid": "Q267342",
+    "osm_rel": "43128"
+  },
+  {
+    "name": "Uscio",
+    "qid": "Q266666",
+    "osm_rel": "43139"
+  },
+  {
+    "name": "Valbrevenna",
+    "qid": "Q265720",
+    "osm_rel": "43275"
+  },
+  {
+    "name": "Vobbia",
+    "qid": "Q266145",
+    "osm_rel": "43337"
+  },
+  {
+    "name": "Zoagli",
+    "qid": "Q218027",
+    "osm_rel": "43064"
+  }
+]

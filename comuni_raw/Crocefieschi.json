@@ -1,0 +1,682 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-11-01T21:10:19Z",
+    "timestamp_areas_base": "2026-11-01T19:24:35Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 4442370140,
+  "tags": {
+    "addr:street": "Via alla Chiesa",
+    "contact:phone": "+39 347 8436982",
+    "name": "Museo Paleontologico",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "way",
+  "id": 24551265,
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Via Garibaldini",
+    "ref": "SP9",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 29162575,
+  "tags": {
+    "highway": "residential",
+    "name": "Via alla Rocca",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 29163020,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Milite Ignoto"
+  }
+},
+{
+  "type": "way",
+  "id": 29163021,
+  "tags": {
+    "alt_name": "Via XX Settembre",
+    "highway": "unclassified",
+    "name": "Via Venti Settembre",
+    "short_name": "Via 20 Settembre",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 29227793,
+  "tags": {
+    "highway": "path",
+    "name": "Via dei Re",
+    "sac_scale": "difficult_alpine_hiking",
+    "sport": "climbing",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 41545583,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada provinciale 8 di Vobbia",
+    "oneway": "no",
+    "ref": "SP8",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 61645781,
+  "tags": {
+    "highway": "secondary",
+    "name": "Via Vittorio Veneto",
+    "ref": "SP12",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 61645784,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada provinciale 9 di Crocefieschi",
+    "oneway": "no",
+    "ref": "SP9",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 69432340,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "tertiary",
+    "lane_markings": "no",
+    "maxspeed:type": "IT:urban",
+    "name": "Via Strasserra",
+    "sidewalk": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 69432585,
+  "tags": {
+    "highway": "service",
+    "name": "Via Martellone",
+    "service": "driveway"
+  }
+},
+{
+  "type": "way",
+  "id": 69486707,
+  "tags": {
+    "area:highway": "residential",
+    "name": "Piazza Quattro Novembre",
+    "place": "square"
+  }
+},
+{
+  "type": "way",
+  "id": 109854956,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Camarza"
+  }
+},
+{
+  "type": "way",
+  "id": 109854958,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Camarza"
+  }
+},
+{
+  "type": "way",
+  "id": 109854961,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Garibaldini"
+  }
+},
+{
+  "type": "way",
+  "id": 109861545,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Vallemara"
+  }
+},
+{
+  "type": "way",
+  "id": 161545098,
+  "tags": {
+    "highway": "path",
+    "name": "Rio Maggione - Bivio Case Crosi",
+    "surface": "dirt",
+    "trail_visibility": "bad"
+  }
+},
+{
+  "type": "way",
+  "id": 185949424,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Crebaia"
+  }
+},
+{
+  "type": "way",
+  "id": 185950268,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Lambaià"
+  }
+},
+{
+  "type": "way",
+  "id": 186557710,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Vallegge"
+  }
+},
+{
+  "type": "way",
+  "id": 186557720,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Vittorio Veneto"
+  }
+},
+{
+  "type": "way",
+  "id": 186557726,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Alpini"
+  }
+},
+{
+  "type": "way",
+  "id": 186557730,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Vittorio Veneto"
+  }
+},
+{
+  "type": "way",
+  "id": 186557734,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Garibaldini"
+  }
+},
+{
+  "type": "way",
+  "id": 186557742,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Vallegge"
+  }
+},
+{
+  "type": "way",
+  "id": 198085308,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Crosi"
+  }
+},
+{
+  "type": "way",
+  "id": 204296899,
+  "tags": {
+    "amenity": "townhall",
+    "building": "yes",
+    "name": "Palazzo Fieschi",
+    "wikidata": "Q3890108"
+  }
+},
+{
+  "type": "way",
+  "id": 219111827,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "path",
+    "mtb:scale": "2",
+    "name": "Monte Pianetto - Monte Brughea - Pendici Monte Crosi - Bivio Case Crosi",
+    "sac_scale": "demanding_mountain_hiking",
+    "surface": "dirt",
+    "trail_visibility": "intermediate"
+  }
+},
+{
+  "type": "way",
+  "id": 220893252,
+  "tags": {
+    "highway": "path",
+    "name": "Ferrata Deanna Orlandini",
+    "sac_scale": "difficult_alpine_hiking"
+  }
+},
+{
+  "type": "way",
+  "id": 220991186,
+  "tags": {
+    "highway": "path",
+    "name": "Sentiero dell'Acquapendente",
+    "sac_scale": "mountain_hiking"
+  }
+},
+{
+  "type": "way",
+  "id": 221370427,
+  "tags": {
+    "highway": "path",
+    "name": "Ferrata Deanna Orlandini",
+    "sac_scale": "difficult_alpine_hiking"
+  }
+},
+{
+  "type": "way",
+  "id": 221372510,
+  "tags": {
+    "highway": "path",
+    "name": "Ferrata Deanna Orlandini",
+    "sac_scale": "alpine_hiking"
+  }
+},
+{
+  "type": "way",
+  "id": 270789189,
+  "tags": {
+    "highway": "track",
+    "name": "Via Reopasso",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 277958478,
+  "tags": {
+    "highway": "service",
+    "name": "Via Vallemara",
+    "service": "alley"
+  }
+},
+{
+  "type": "way",
+  "id": 288165226,
+  "tags": {
+    "bridge": "yes",
+    "highway": "secondary",
+    "layer": "1",
+    "name": "Strada provinciale 9 di Crocefieschi",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 291442288,
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Via Busalla",
+    "ref": "SP9",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 291442289,
+  "tags": {
+    "bridge": "yes",
+    "highway": "secondary",
+    "lanes": "2",
+    "layer": "1",
+    "name": "Via Busalla",
+    "ref": "SP9",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 299926994,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Preria"
+  }
+},
+{
+  "type": "way",
+  "id": 321981517,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Strasserra",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 364164850,
+  "tags": {
+    "highway": "path",
+    "name": "Variante Schigonzo",
+    "sac_scale": "demanding_mountain_hiking",
+    "surface": "unpaved",
+    "trail_visibility": "bad"
+  }
+},
+{
+  "type": "way",
+  "id": 502137605,
+  "tags": {
+    "est_width": "2.5",
+    "highway": "tertiary",
+    "name": "Via Alpini",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 507037977,
+  "tags": {
+    "highway": "path",
+    "name": "Variante Schigonzo",
+    "sac_scale": "demanding_mountain_hiking",
+    "surface": "unpaved",
+    "trail_visibility": "bad"
+  }
+},
+{
+  "type": "way",
+  "id": 546329984,
+  "tags": {
+    "highway": "secondary",
+    "name": "Via Vallemara",
+    "ref": "SP9",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 546329985,
+  "tags": {
+    "highway": "secondary",
+    "name": "Via Casin",
+    "ref": "SP9",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 546329986,
+  "tags": {
+    "area:highway": "residential",
+    "name": "Piazza Mazzini",
+    "place": "square"
+  }
+},
+{
+  "type": "way",
+  "id": 546329987,
+  "tags": {
+    "highway": "service",
+    "name": "Via Busalla"
+  }
+},
+{
+  "type": "way",
+  "id": 546329988,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Busalla"
+  }
+},
+{
+  "type": "way",
+  "id": 546329989,
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Via Busalla",
+    "ref": "SP9",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 546329990,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Costa"
+  }
+},
+{
+  "type": "way",
+  "id": 546329991,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Chiesa",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 546329993,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Chiesa",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 546329995,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Buffalora"
+  }
+},
+{
+  "type": "way",
+  "id": 546329996,
+  "tags": {
+    "highway": "secondary",
+    "name": "Via Martellone",
+    "ref": "SP12",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 546329997,
+  "tags": {
+    "highway": "service",
+    "name": "Via Alpini"
+  }
+},
+{
+  "type": "way",
+  "id": 546329999,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Monte Castello"
+  }
+},
+{
+  "type": "way",
+  "id": 546330000,
+  "tags": {
+    "alt_name": "Via IV Novembre",
+    "highway": "unclassified",
+    "name": "Via Quattro Novembre",
+    "oneway": "yes",
+    "short_name": "Via 4 Novembre"
+  }
+},
+{
+  "type": "way",
+  "id": 546330001,
+  "tags": {
+    "highway": "track",
+    "name": "Via Vallemara"
+  }
+},
+{
+  "type": "way",
+  "id": 546330002,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada provinciale 9 di Crocefieschi",
+    "ref": "SP9",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 546330003,
+  "tags": {
+    "highway": "secondary",
+    "name": "Via Vallemara",
+    "ref": "SP9",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1016679461,
+  "tags": {
+    "highway": "residential",
+    "name": "Via alla Rocca",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1256982169,
+  "tags": {
+    "highway": "service",
+    "name": "Via Lambaià",
+    "service": "driveway"
+  }
+},
+{
+  "type": "way",
+  "id": 1256982177,
+  "tags": {
+    "highway": "residential",
+    "name": "Piazza Mazzini"
+  }
+},
+{
+  "type": "way",
+  "id": 1301427873,
+  "tags": {
+    "ford": "yes",
+    "highway": "path",
+    "name": "Sentiero dell'Acquapendente",
+    "sac_scale": "mountain_hiking"
+  }
+},
+{
+  "type": "way",
+  "id": 1301427874,
+  "tags": {
+    "highway": "path",
+    "name": "Sentiero dell'Acquapendente",
+    "sac_scale": "mountain_hiking"
+  }
+},
+{
+  "type": "way",
+  "id": 1414383894,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Mazzini",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1414383895,
+  "tags": {
+    "highway": "residential",
+    "name": "Piazza Daglio"
+  }
+},
+{
+  "type": "way",
+  "id": 1414383896,
+  "tags": {
+    "alt_name": "Via IV Novembre",
+    "highway": "unclassified",
+    "name": "Via Quattro Novembre",
+    "short_name": "Via 4 Novembre"
+  }
+},
+{
+  "type": "way",
+  "id": 1414383897,
+  "tags": {
+    "alt_name": "Via IV Novembre",
+    "highway": "unclassified",
+    "name": "Via Quattro Novembre",
+    "oneway": "yes",
+    "short_name": "Via 4 Novembre"
+  }
+},
+{
+  "type": "way",
+  "id": 1414383898,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Mazzini"
+  }
+},
+{
+  "type": "way",
+  "id": 1414383902,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Piazza Fippo Alfredo Crocco Domenico Martiri",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1414383908,
+  "tags": {
+    "highway": "footway",
+    "name": "Piazza Santa Caterina Fieschi"
+  }
+},
+{
+  "type": "way",
+  "id": 1414383910,
+  "tags": {
+    "highway": "footway",
+    "name": "Piazza Santa Caterina Fieschi"
+  }
+}
+
+  ]
+}

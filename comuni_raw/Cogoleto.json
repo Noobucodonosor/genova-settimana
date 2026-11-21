@@ -1,0 +1,8508 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-11-01T20:14:34Z",
+    "timestamp_areas_base": "2026-11-01T18:30:20Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 472748691,
+  "tags": {
+    "description": "una ventina di monotiri tra il 4° e il 6A",
+    "leisure": "sports_centre",
+    "name": "Torrioni di Sciarborasca",
+    "sport": "climbing"
+  }
+},
+{
+  "type": "node",
+  "id": 939655126,
+  "tags": {
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Monumento ai caduti"
+  }
+},
+{
+  "type": "node",
+  "id": 1724559172,
+  "tags": {
+    "historic": "monument",
+    "name": "Tubi Ghisa"
+  }
+},
+{
+  "type": "node",
+  "id": 1965407700,
+  "tags": {
+    "historic": "memorial",
+    "inscription": "Caro Renzo Da tutti noi un grazie per il tuo impegno generoso e per l'amore che hai sempre dimostrato alla tua terra e alle montagne. a Renzo Zunino 1917 - 1993 Gli amici",
+    "name": "Targa a Renzo Zunino"
+  }
+},
+{
+  "type": "node",
+  "id": 2889558742,
+  "tags": {
+    "addr:city": "Cogoleto",
+    "addr:housenumber": "66",
+    "addr:postcode": "16016",
+    "addr:street": "Via Marina Rati",
+    "amenity": "townhall",
+    "check_date": "2025-11-13",
+    "email": "protocollo@pec.comune.cogoleto.ge.it",
+    "fax": "+39 010 9170225",
+    "name": "Comune di Cogoleto",
+    "phone": "+39 010 91701",
+    "website": "https://www.comune.cogoleto.ge.it/"
+  }
+},
+{
+  "type": "node",
+  "id": 2905085948,
+  "tags": {
+    "name": "Radura degli U.F.O.",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 3561050857,
+  "tags": {
+    "historic": "memorial",
+    "memorial": "sculpture",
+    "name": "Cristoforo Colombo",
+    "name:it": "Cristoforo Colombo"
+  }
+},
+{
+  "type": "node",
+  "id": 3772173086,
+  "tags": {
+    "amenity": "school",
+    "check_date": "2024-04-23",
+    "education": "school",
+    "name": "Scuola secondaria di primo grado Recagno (medie)",
+    "religion": "none"
+  }
+},
+{
+  "type": "node",
+  "id": 3772179284,
+  "tags": {
+    "amenity": "school",
+    "check_date": "2024-04-23",
+    "education": "school",
+    "name": "Scuola primaria Giusti (elementari)",
+    "religion": "none"
+  }
+},
+{
+  "type": "node",
+  "id": 4339050757,
+  "tags": {
+    "contact:phone": "+39 333 1547258",
+    "description": "Per poterla visitare contattare il Sig. Stefano, 3331547258",
+    "description:en": "By appointment please contact miste Stefano see contact:phone",
+    "fee": "no",
+    "name": "Casa contadina",
+    "name:en": "Country house Museum",
+    "opening_hours": "\"by appointment\"",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 4339757181,
+  "tags": {
+    "amenity": "arts_centre",
+    "check_date": "2024-04-23",
+    "name": "Auditorium B. Berellini"
+  }
+},
+{
+  "type": "node",
+  "id": 4340105945,
+  "tags": {
+    "leisure": "garden",
+    "name": "Giardini Ballottole"
+  }
+},
+{
+  "type": "node",
+  "id": 4341360463,
+  "tags": {
+    "leisure": "garden",
+    "name": "Giardini Argentea"
+  }
+},
+{
+  "type": "node",
+  "id": 4360663628,
+  "tags": {
+    "name": "Casa natale di Cristoforo Colombo",
+    "tourism": "attraction",
+    "wikidata": "Q3661278"
+  }
+},
+{
+  "type": "node",
+  "id": 4360663633,
+  "tags": {
+    "historic": "memorial",
+    "memorial": "sculpture",
+    "name": "Monumento ai Carabinieri"
+  }
+},
+{
+  "type": "node",
+  "id": 5824481220,
+  "tags": {
+    "amenity": "arts_centre",
+    "name": "GALA"
+  }
+},
+{
+  "type": "node",
+  "id": 9172175235,
+  "tags": {
+    "historic": "memorial",
+    "memorial": "stone",
+    "name": "Macina"
+  }
+},
+{
+  "type": "node",
+  "id": 9172175240,
+  "tags": {
+    "historic": "memorial",
+    "memorial": "sculpture",
+    "name": "Monumento Ai Caduti del Mare"
+  }
+},
+{
+  "type": "node",
+  "id": 9247970835,
+  "tags": {
+    "historic": "memorial",
+    "memorial": "sculpture",
+    "name": "Macina"
+  }
+},
+{
+  "type": "node",
+  "id": 9794948022,
+  "tags": {
+    "addr:housenumber": "1",
+    "addr:street": "Piazza San Bernardo",
+    "amenity": "school",
+    "name": "Scuola primaria Lerca"
+  }
+},
+{
+  "type": "node",
+  "id": 11169495952,
+  "tags": {
+    "historic": "memorial",
+    "inscription": "L'Armata Britannica contro le truppe francesi al comando del Generale Massena, 1800",
+    "material": "marble",
+    "memorial": "plaque",
+    "name": "Targa Battaglia di Cogoleto 1800"
+  }
+},
+{
+  "type": "node",
+  "id": 11169495953,
+  "tags": {
+    "description": "targa posta dal comune 1888",
+    "historic": "memorial",
+    "inscription": "Sorgeva qui l'antico castello di Cogoleto. Ottone di Germania lo donava nel 1200 alla famiglia Colombo. Napoleone Primo l'atterrò nel 1809 per dar luogo alla Nizza-Roma. Il Comune 1888",
+    "material": "marble",
+    "memorial": "plaque",
+    "name": "Targa Castello di Cogoleto"
+  }
+},
+{
+  "type": "node",
+  "id": 11169495954,
+  "tags": {
+    "description": "Elenco partigiani caduti 1943-1945",
+    "historic": "memorial",
+    "inscription": "Non caddero invano ma caddero per la libertà.\nPartigiani caduti per la libertà 1943 - 1945.\nL'Amministrazione Comunale 1950 a memoria",
+    "memorial": "plaque",
+    "name": "Targa partigiani caduti per la libertà"
+  }
+},
+{
+  "type": "node",
+  "id": 11169495955,
+  "tags": {
+    "description": "targa posta dal comune 1888",
+    "historic": "memorial",
+    "inscription": "Addì II Ottobre 1847.\nAncorava in queste acque lo steamer nord-americano Princetown al comando del Cap. R. Engle venuto coi compagni a salutare la patria del Grande Navigatore. Il Comune 1888",
+    "material": "marble",
+    "memorial": "plaque",
+    "name": "Targa Americani in visita Casa di Colombo 1847"
+  }
+},
+{
+  "type": "node",
+  "id": 11169495956,
+  "tags": {
+    "description": "targa posta dal comune 1888",
+    "historic": "memorial",
+    "inscription": "A Re Vittorio Emanuele II al suo ministro Cavour in questo luogo addì I Febbraio 1857 con liete accoglienze di popolo Antonio Pestalardo sindaco Bianchi sac. Bernardo rappresentanti del Comune per la patria indipendenza voti ed auguri porgevano Il Comune",
+    "memorial": "plaque",
+    "name": "Targa Unità d'Italia"
+  }
+},
+{
+  "type": "node",
+  "id": 11839114061,
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "I nespoli",
+    "sport": "climbing"
+  }
+},
+{
+  "type": "node",
+  "id": 11839114062,
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "Scagiun de Lelua",
+    "sport": "climbing"
+  }
+},
+{
+  "type": "node",
+  "id": 12861676421,
+  "tags": {
+    "access": "yes",
+    "description": "Monumento agli Alpini costruito dal Gruppo Alpini Cogoleto in memoria di tutti gli Alpini \"Andati avanti\" costituito da una pietra di arenaria granitica a forma vagamente piramidale, sormontata da un aquila.",
+    "historic": "monument",
+    "inscription": "Per non dimenticare",
+    "material": "pietra",
+    "name": "Monumento agli Alpini"
+  }
+},
+{
+  "type": "way",
+  "id": 10070412,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "3",
+    "layer": "-1",
+    "lit": "24/7",
+    "maxspeed": "110",
+    "name": "Galleria Lerone",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A 10",
+    "surface": "asphalt",
+    "toll": "yes",
+    "tunnel": "yes",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 24164281,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "3",
+    "lit": "no",
+    "maxspeed": "130",
+    "name": "Autostrada dei Fiori",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A 10",
+    "surface": "asphalt",
+    "toll": "yes",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 24164283,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "3",
+    "layer": "-1",
+    "lit": "24/7",
+    "maxheight": "default",
+    "maxheight:signed": "no",
+    "maxspeed": "130",
+    "name": "Galleria Maxetti",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A 10",
+    "surface": "asphalt",
+    "toll": "yes",
+    "tunnel": "yes",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 24720042,
+  "tags": {
+    "highway": "residential",
+    "name": "Via al Parco",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 24720044,
+  "tags": {
+    "highway": "secondary",
+    "maxspeed": "30",
+    "name": "Via 30 Ottobre 1943",
+    "railway": "abandoned",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 24720045,
+  "tags": {
+    "highway": "residential",
+    "lane_markings": "no",
+    "name": "Via Superiore Onofrio Scassi",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 24720046,
+  "tags": {
+    "highway": "residential",
+    "lane_markings": "no",
+    "name": "Via Superiore Onofrio Scassi",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 26371847,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "3",
+    "layer": "-1",
+    "lit": "24/7",
+    "maxheight": "default",
+    "maxheight:signed": "no",
+    "maxspeed": "130",
+    "name": "Galleria Cogoleto II",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A 10",
+    "surface": "asphalt",
+    "toll": "yes",
+    "tunnel": "yes",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 26371850,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "3",
+    "layer": "-2",
+    "lit": "24/7",
+    "maxspeed": "130",
+    "name": "Galleria Beuca",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A 10",
+    "surface": "asphalt",
+    "toll": "yes",
+    "tunnel": "yes",
+    "tunnel:name": "Beuca",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 26371851,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "3",
+    "lit": "no",
+    "maxspeed": "130",
+    "name": "Autostrada dei Fiori",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A 10",
+    "surface": "asphalt",
+    "toll": "yes",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 27394342,
+  "tags": {
+    "highway": "residential",
+    "name": "Località Chiossone",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 27394540,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Gregorio Calcagno",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 27394586,
+  "tags": {
+    "highway": "secondary",
+    "maxspeed": "50",
+    "name": "Strada di Pratozanino",
+    "ref": "SP66",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 27535267,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "3",
+    "lit": "no",
+    "maxspeed": "130",
+    "name": "Autostrada dei Fiori",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A 10",
+    "surface": "asphalt",
+    "toll": "yes",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 27535268,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "3",
+    "layer": "-1",
+    "lit": "24/7",
+    "maxspeed": "130",
+    "name": "Galleria Lepri",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A 10",
+    "surface": "asphalt",
+    "toll": "yes",
+    "tunnel": "yes",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 29203985,
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "3",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "130",
+    "name": "Autostrada dei Fiori",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A 10",
+    "surface": "asphalt",
+    "toll": "yes",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 29605655,
+  "tags": {
+    "highway": "secondary",
+    "name": "Via Luigi Stoppani",
+    "ref": "SP78",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 29610497,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Monte Camulà",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 29610504,
+  "tags": {
+    "alt_name": "Via Maria Colombo Giusti",
+    "highway": "residential",
+    "name": "Via Maria Giusti Colombo",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 29610507,
+  "tags": {
+    "alt_name": "SP78 di Lerca",
+    "highway": "secondary",
+    "maxweight": "14",
+    "name": "Via Valverde",
+    "ref": "SP78",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 29610510,
+  "tags": {
+    "highway": "secondary",
+    "maxweight": "14",
+    "name": "Via Strada di Lerca",
+    "ref": "SP78",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 29610514,
+  "tags": {
+    "bridge": "yes",
+    "highway": "secondary",
+    "layer": "1",
+    "name": "Via Strada di Lerca",
+    "ref": "SP78",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 29611864,
+  "tags": {
+    "highway": "path",
+    "name": "Arrampicata \"Via Zunino\"",
+    "note:it": "via discontinua con passi di II e uno di III aggirabili",
+    "sac_scale": "demanding_alpine_hiking",
+    "surface": "dirt",
+    "trail_visibility": "good"
+  }
+},
+{
+  "type": "way",
+  "id": 30134384,
+  "tags": {
+    "name": "Piazza Martiri della Libertà",
+    "place": "square",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 30134435,
+  "tags": {
+    "highway": "residential",
+    "lane_markings": "no",
+    "name": "Via Giuseppe Mazzini",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 32428203,
+  "tags": {
+    "bridge": "yes",
+    "highway": "footway",
+    "layer": "1",
+    "name": "Ponte delle Ratte",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 32940001,
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "3",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "Autostrada dei Fiori",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A 10",
+    "surface": "asphalt",
+    "toll": "yes",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 37370879,
+  "tags": {
+    "highway": "secondary",
+    "name": "Via Giovanni Falcone",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 37370880,
+  "tags": {
+    "alt_name": "Direttissima Monte Rama",
+    "description:it": "partenza sentiero per Passo Camulà;Totem e via Fly (arrampicata)",
+    "highway": "path",
+    "name": "Collegamento passo Camulà",
+    "sac_scale": "demanding_mountain_hiking",
+    "surface": "dirt",
+    "trail_visibility": "good"
+  }
+},
+{
+  "type": "way",
+  "id": 37370887,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Località campo del Prete"
+  }
+},
+{
+  "type": "way",
+  "id": 37370888,
+  "tags": {
+    "alt_name": "SP78 di Lerca",
+    "description": "segnavia: 1 losanga rossa vuota",
+    "highway": "secondary",
+    "name": "Via Arma",
+    "ref": "SP78",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 37370890,
+  "tags": {
+    "description": "segnavia: 1 losanga rossa vuota",
+    "highway": "secondary",
+    "name": "Via Giovanni Falcone",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 37370892,
+  "tags": {
+    "alt_name": "SP78 di Lerca",
+    "bridge": "yes",
+    "description": "segnavia: 1 losanga rossa vuota",
+    "highway": "secondary",
+    "layer": "1",
+    "maxweight:signed": "no",
+    "name": "Via Arma",
+    "ref": "SP78",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 37370893,
+  "tags": {
+    "alt_name": "SP78 di Lerca",
+    "description": "segnavia: 1 losanga rossa vuota",
+    "highway": "secondary",
+    "name": "Via al Ponte",
+    "ref": "SP78",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 37370987,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Cesare Dattilo",
+    "short_name": "Via Dattilo",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 38527287,
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "3",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "130",
+    "name": "Autostrada dei Fiori",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A 10",
+    "surface": "asphalt",
+    "toll": "yes",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 38527288,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "3",
+    "lit": "no",
+    "maxspeed": "130",
+    "name": "Autostrada dei Fiori",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A 10",
+    "surface": "asphalt",
+    "toll": "yes",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 38527289,
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "3",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "130",
+    "name": "Autostrada dei Fiori",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A 10",
+    "surface": "asphalt",
+    "toll": "yes",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 38527290,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "3",
+    "layer": "-1",
+    "lit": "24/7",
+    "maxspeed": "130",
+    "name": "Galleria Cogoleto I",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A 10",
+    "surface": "asphalt",
+    "toll": "yes",
+    "tunnel": "yes",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 38527293,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "3",
+    "lit": "no",
+    "maxspeed": "90",
+    "name": "Autostrada dei Fiori",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "surface": "asphalt",
+    "toll": "yes",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 38527298,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "3",
+    "layer": "-1",
+    "lit": "24/7",
+    "maxspeed": "90",
+    "name": "Galleria Cogoleto",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "surface": "asphalt",
+    "toll": "yes",
+    "tunnel": "yes",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 38527301,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "3",
+    "layer": "-1",
+    "lit": "24/7",
+    "maxspeed": "110",
+    "name": "Galleria Arrestra",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "surface": "asphalt",
+    "toll": "yes",
+    "tunnel": "yes",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 39360432,
+  "tags": {
+    "highway": "path",
+    "name": "Sentiero Ca Miniera",
+    "sac_scale": "mountain_hiking",
+    "surface": "dirt",
+    "trail_visibility": "good"
+  }
+},
+{
+  "type": "way",
+  "id": 39366526,
+  "tags": {
+    "highway": "residential",
+    "lane_markings": "no",
+    "name": "Via Giuseppe Mazzini",
+    "oneway": "yes",
+    "sidewalk:both": "separate",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 39366527,
+  "tags": {
+    "highway": "residential",
+    "lanes": "1",
+    "name": "Via Parasco",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 39366528,
+  "tags": {
+    "highway": "residential",
+    "lane_markings": "no",
+    "name": "Via Davide Poggi",
+    "oneway": "yes",
+    "sidewalk:left": "separate",
+    "sidewalk:right": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 39366530,
+  "tags": {
+    "highway": "residential",
+    "lane_markings": "no",
+    "name": "Via Enea Silvio Recagno",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 39366863,
+  "tags": {
+    "highway": "residential",
+    "lane_markings": "no",
+    "name": "Via Felice Isnardi",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 39369991,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Ceola",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 39383373,
+  "tags": {
+    "highway": "service",
+    "name": "Via Molinetto",
+    "service": "parking_aisle"
+  }
+},
+{
+  "type": "way",
+  "id": 39383747,
+  "tags": {
+    "highway": "pedestrian",
+    "lit": "yes",
+    "name": "Via Piave",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 39384724,
+  "tags": {
+    "highway": "pedestrian",
+    "lit": "yes",
+    "name": "Via Cristoforo Colombo",
+    "surface": "sett"
+  }
+},
+{
+  "type": "way",
+  "id": 39423143,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "residential",
+    "lane_markings": "no",
+    "name": "Via Chiappino",
+    "sidewalk:both": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 39423155,
+  "tags": {
+    "highway": "residential",
+    "lane_markings": "no",
+    "name": "Via Isorella",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 39423157,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Natalino Otto",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 39423213,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Gioiello",
+    "oneway": "yes",
+    "sidewalk:both": "separate",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 39423267,
+  "tags": {
+    "highway": "pedestrian",
+    "lit": "yes",
+    "name": "Via Marina Rati",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 39423268,
+  "tags": {
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Via Marina Rati",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 39423298,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Valdolivo",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 39423299,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Salita Maxetti"
+  }
+},
+{
+  "type": "way",
+  "id": 39423479,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Ginepro"
+  }
+},
+{
+  "type": "way",
+  "id": 39423480,
+  "tags": {
+    "alt_name": "Via Frankenbergen",
+    "highway": "residential",
+    "name": "Via Peter Frankenbergen"
+  }
+},
+{
+  "type": "way",
+  "id": 39423481,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Ginestra"
+  }
+},
+{
+  "type": "way",
+  "id": 39423483,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Beuca",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 39423592,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Agrifoglio"
+  }
+},
+{
+  "type": "way",
+  "id": 39433461,
+  "tags": {
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Via delle Canisse",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 39433462,
+  "tags": {
+    "leisure": "park",
+    "name": "Parco Villa Nasturzio"
+  }
+},
+{
+  "type": "way",
+  "id": 39434405,
+  "tags": {
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Via Venere",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 39434818,
+  "tags": {
+    "highway": "residential",
+    "lane_markings": "no",
+    "name": "Via Nettuno",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 39434819,
+  "tags": {
+    "highway": "unclassified",
+    "lanes": "2",
+    "name": "Via Arrestra interna",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 39434820,
+  "tags": {
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Via Arrestra interna",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 39434822,
+  "tags": {
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Via Domenico Giusto",
+    "railway": "abandoned",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 39435310,
+  "tags": {
+    "highway": "unclassified",
+    "layer": "-1",
+    "name": "Via Domenico Giusto",
+    "railway": "abandoned",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 39435434,
+  "tags": {
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Via Arrestra interna",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 39435792,
+  "tags": {
+    "highway": "residential",
+    "incline": "down",
+    "lane_markings": "no",
+    "lit": "yes",
+    "name": "Passo Ronco",
+    "oneway": "yes",
+    "sidewalk:left": "no",
+    "sidewalk:right": "separate",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 39435799,
+  "tags": {
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Via Ronco",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 39435809,
+  "tags": {
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Via Ronco",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 39435840,
+  "tags": {
+    "addr:housenumber": "10",
+    "addr:postcode": "16016",
+    "addr:street": "Via della Gioventù",
+    "leisure": "sports_centre",
+    "name": "Campo sportivo Marco Pala",
+    "sport": "athletics",
+    "toilets:wheelchair": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 39436096,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Passo Cogorno",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 39436097,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Via degli Agnese",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 39436101,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Via Giovanna Pestalardo"
+  }
+},
+{
+  "type": "way",
+  "id": 39436104,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Passo Mazzini",
+    "surface": "sett"
+  }
+},
+{
+  "type": "way",
+  "id": 39438130,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "residential",
+    "lane_markings": "no",
+    "name": "Via Superiore Onofrio Scassi",
+    "sidewalk:both": "separate",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 39439168,
+  "tags": {
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "maxspeed": "30",
+    "name": "Via Giacomo Buranello",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 39441928,
+  "tags": {
+    "highway": "service",
+    "maxheight": "2.2",
+    "maxspeed": "30",
+    "name": "Piazzale Guido Rossa",
+    "oneway": "yes",
+    "service": "parking_aisle",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 39441939,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Viale allo Scoglio",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 39441943,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via delle Palme",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 39441952,
+  "tags": {
+    "highway": "residential",
+    "name": "Salita della Costa",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 39441960,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Prino inferiore",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 39442423,
+  "tags": {
+    "highway": "residential",
+    "name": "Viale dei Limoni",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 39444861,
+  "tags": {
+    "alt_name": "Vicolo alle Cave",
+    "highway": "pedestrian",
+    "name": "Vico alle Cave",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 39444863,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Scalo Maria Giusti Colombo",
+    "surface": "sett"
+  }
+},
+{
+  "type": "way",
+  "id": 39504839,
+  "tags": {
+    "cycleway:right": "no",
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Via Enea Silvio Recagno",
+    "oneway": "yes",
+    "sidewalk:left": "no",
+    "sidewalk:right": "separate",
+    "source:width": "ARCore",
+    "surface": "asphalt",
+    "width": "3.3"
+  }
+},
+{
+  "type": "way",
+  "id": 39504840,
+  "tags": {
+    "highway": "service",
+    "name": "Piazza della Vecchia Lira",
+    "oneway": "yes",
+    "service": "parking_aisle",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 39504954,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Aldo Gastaldi"
+  }
+},
+{
+  "type": "way",
+  "id": 39635279,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Pigna",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 39635358,
+  "tags": {
+    "highway": "residential",
+    "name": "Località Scaggina",
+    "surface": "asphalt",
+    "width": "1.6"
+  }
+},
+{
+  "type": "way",
+  "id": 39652264,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "maxspeed": "30",
+    "name": "Via Ronco",
+    "oneway": "no",
+    "sidewalk:both": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 39663136,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via al Deserto",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 39664070,
+  "tags": {
+    "highway": "residential",
+    "name": "Via al Castello",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 39695877,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Ciosa",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 39695884,
+  "tags": {
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Via Ciosa",
+    "oneway": "yes",
+    "source:width": "ARCore",
+    "surface": "asphalt",
+    "width": "4.1"
+  }
+},
+{
+  "type": "way",
+  "id": 39695887,
+  "tags": {
+    "access": "private",
+    "highway": "unclassified",
+    "name": "Località Molino"
+  }
+},
+{
+  "type": "way",
+  "id": 39743529,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via del Partigiano"
+  }
+},
+{
+  "type": "way",
+  "id": 39743530,
+  "tags": {
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "residential",
+    "horse": "permissive",
+    "maxspeed": "20",
+    "name": "Via Prato del Cirio",
+    "oneway": "no",
+    "postal_code": "16016",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 39743534,
+  "tags": {
+    "highway": "service",
+    "name": "Via Cascine"
+  }
+},
+{
+  "type": "way",
+  "id": 39743544,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Vicinale Chiappino",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 39743946,
+  "tags": {
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "residential",
+    "name": "Via San Rocco",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 39748518,
+  "tags": {
+    "highway": "residential",
+    "name": "Via della Madonnina",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 39748519,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Otto Marzo",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 39748520,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Enrico Fermi",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 39748521,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via della Madonnina inferiore",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 39784754,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Strada vicinale Camulà"
+  }
+},
+{
+  "type": "way",
+  "id": 39960456,
+  "tags": {
+    "highway": "residential",
+    "name": "Località Bricco di Pratozanino"
+  }
+},
+{
+  "type": "way",
+  "id": 39960521,
+  "tags": {
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Via Bricco Falò",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 40009992,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via 12 ottobre 1492",
+    "short_name": "Via 12 Ottobre",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 40010377,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Colombara",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 40010378,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Gioiello",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 40478157,
+  "tags": {
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Salita Baldassana",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 40544081,
+  "tags": {
+    "access:conditional": "yes @ Th",
+    "foot": "yes",
+    "highway": "service",
+    "maxheight": "none",
+    "maxspeed": "30",
+    "name": "Piazzale Antonio Gramsci",
+    "oneway": "yes",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "service": "parking_aisle",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 40544121,
+  "tags": {
+    "highway": "service",
+    "name": "Piazzale Carlo Alberto Dalla Chiesa",
+    "oneway": "yes",
+    "service": "parking_aisle",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 40664091,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Nino Baglietto",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 40664117,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Le Pleiadi",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 40881850,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Pratorotondo",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 41645769,
+  "tags": {
+    "highway": "service",
+    "name": "Località Rocca Gialla"
+  }
+},
+{
+  "type": "way",
+  "id": 41645781,
+  "tags": {
+    "fixme": "terminare percorso con gps",
+    "highway": "path",
+    "name": "Scorciatoia per Carbunea",
+    "surface": "dirt",
+    "trail_visibility": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 42774846,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Poggio Sant'Anna",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 42777572,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Monte Camulà"
+  }
+},
+{
+  "type": "way",
+  "id": 43087829,
+  "tags": {
+    "highway": "residential",
+    "name": "Località Scaggina",
+    "width": "1.6"
+  }
+},
+{
+  "type": "way",
+  "id": 43087832,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Pigna",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 47246020,
+  "tags": {
+    "bridge": "viaduct",
+    "highway": "unclassified",
+    "layer": "1",
+    "name": "Via Prino inferiore",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 49711825,
+  "tags": {
+    "cycleway": "proposed",
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Via Aurelia di Ponente",
+    "nat_ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 49711826,
+  "tags": {
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Via Molinetto",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 49711827,
+  "tags": {
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "layer": "-1",
+    "maxheight": "3.9",
+    "name": "Via Molinetto",
+    "oneway": "yes",
+    "surface": "asphalt",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 49711828,
+  "tags": {
+    "footway": "sidewalk",
+    "highway": "footway",
+    "name": "Via Molinetto",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 49711829,
+  "tags": {
+    "bridge": "yes",
+    "highway": "primary",
+    "lanes": "2",
+    "layer": "1",
+    "maxweight:signed": "no",
+    "name": "Via Aurelia",
+    "nat_ref": "SS1",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 58881778,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Bordin",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 71806072,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Marchesi Spinola",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 71806078,
+  "tags": {
+    "highway": "footway",
+    "name": "Largo degli Ulivi"
+  }
+},
+{
+  "type": "way",
+  "id": 72330095,
+  "tags": {
+    "highway": "service",
+    "name": "Via Molino della Rocca"
+  }
+},
+{
+  "type": "way",
+  "id": 72330098,
+  "tags": {
+    "bridge": "yes",
+    "highway": "footway",
+    "layer": "1",
+    "name": "Via degli Agnese",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 72330109,
+  "tags": {
+    "bridge": "yes",
+    "highway": "secondary",
+    "layer": "1",
+    "name": "Via Enea Silvio Recagno",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 80129912,
+  "tags": {
+    "highway": "residential",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Via Superiore Onofrio Scassi",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 80129915,
+  "tags": {
+    "highway": "residential",
+    "lane_markings": "no",
+    "name": "Via della Gioventù",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 80129924,
+  "tags": {
+    "highway": "pedestrian",
+    "incline": "down",
+    "lit": "yes",
+    "name": "Via della Gioventù",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 80179863,
+  "tags": {
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Via Molino della Rocca",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 80179871,
+  "tags": {
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "layer": "-1",
+    "maxheight": "2.2",
+    "name": "Via Molino della Rocca",
+    "surface": "asphalt",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 80278454,
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Via 30 Ottobre 1943",
+    "railway": "abandoned",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 80278476,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Carmine",
+    "oneway": "yes",
+    "sidewalk:left": "separate",
+    "sidewalk:right": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 80466173,
+  "tags": {
+    "area": "yes",
+    "highway": "pedestrian",
+    "lit": "yes",
+    "name": "Piazza Matteo Raimondi",
+    "place": "square",
+    "surface": "sett"
+  }
+},
+{
+  "type": "way",
+  "id": 80466180,
+  "tags": {
+    "area": "yes",
+    "highway": "pedestrian",
+    "name": "Piazzetta Nina",
+    "place": "square",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 80466190,
+  "tags": {
+    "alt_name": "Piazza Antonio Giusti",
+    "area": "yes",
+    "highway": "pedestrian",
+    "name": "Piazza professor Antonio Giusti",
+    "place": "square",
+    "surface": "sett"
+  }
+},
+{
+  "type": "way",
+  "id": 80466200,
+  "tags": {
+    "highway": "footway",
+    "layer": "-1",
+    "name": "Sottopassaggio Stazione FS",
+    "surface": "paving_stones",
+    "tunnel": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 80466202,
+  "tags": {
+    "access": "private",
+    "alt_name": "Piazza Europa",
+    "amenity": "parking",
+    "fee": "no",
+    "name": "Piazzale Europa",
+    "parking": "surface",
+    "place": "square"
+  }
+},
+{
+  "type": "way",
+  "id": 80466207,
+  "tags": {
+    "alt_name": "Piazza Europa",
+    "highway": "service",
+    "name": "Piazzale Europa",
+    "oneway": "yes",
+    "service": "parking_aisle",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 80466210,
+  "tags": {
+    "highway": "service",
+    "name": "Piazza scalo ferroviario",
+    "oneway": "yes",
+    "service": "parking_aisle",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 80540832,
+  "tags": {
+    "alt_name": "Vicolo alle Cave",
+    "highway": "residential",
+    "lane_markings": "no",
+    "name": "Vico alle Cave",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 80540835,
+  "tags": {
+    "cycleway:right": "no",
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Piazza Martiri della Libertà",
+    "oneway": "yes",
+    "sidewalk:both": "separate",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 80540836,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Isorella",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 80540840,
+  "tags": {
+    "covered": "yes",
+    "highway": "residential",
+    "name": "Via Isorella",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 80540846,
+  "tags": {
+    "highway": "footway",
+    "name": "Piazza Alcide De Gasperi",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 80540847,
+  "tags": {
+    "covered": "yes",
+    "highway": "residential",
+    "lane_markings": "no",
+    "maxheight": "4.9",
+    "maxheight:signed": "no",
+    "name": "Via Isorella",
+    "source:maxheight": "ARCore",
+    "surface": "asphalt",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 80540878,
+  "tags": {
+    "access": "permissive",
+    "bicycle": "yes",
+    "embankment": "no",
+    "foot": "yes",
+    "highway": "pedestrian",
+    "horse": "no",
+    "lit": "yes",
+    "name": "Passeggiata Aldo Moro",
+    "railway": "abandoned",
+    "surface": "paved",
+    "width": "3"
+  }
+},
+{
+  "type": "way",
+  "id": 80652562,
+  "tags": {
+    "highway": "footway",
+    "lit": "yes",
+    "name": "Vico dei Pescatori",
+    "surface": "sett"
+  }
+},
+{
+  "type": "way",
+  "id": 80652571,
+  "tags": {
+    "area": "yes",
+    "highway": "pedestrian",
+    "lit": "yes",
+    "name": "Piazza capitano Francesco Agnese",
+    "place": "square",
+    "short_name": "Piazza Agnese",
+    "surface": "sett"
+  }
+},
+{
+  "type": "way",
+  "id": 80652573,
+  "tags": {
+    "area": "yes",
+    "highway": "pedestrian",
+    "lit": "yes",
+    "name": "Scalo Placidia Giusti Rati",
+    "place": "square",
+    "surface": "sett"
+  }
+},
+{
+  "type": "way",
+  "id": 83416460,
+  "tags": {
+    "amenity": "school",
+    "check_date": "2024-04-23",
+    "education": "school",
+    "name": "Palestra scuola",
+    "religion": "none"
+  }
+},
+{
+  "type": "way",
+  "id": 83422072,
+  "tags": {
+    "bridge": "yes",
+    "cycleway": "proposed",
+    "highway": "primary",
+    "lanes": "2",
+    "layer": "1",
+    "maxweight:signed": "no",
+    "name": "Via Aurelia",
+    "nat_ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 83468072,
+  "tags": {
+    "highway": "service",
+    "name": "Via Nino Baglietto",
+    "service": "driveway",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 83468085,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Pini Domestici",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 83468108,
+  "tags": {
+    "amenity": "parking",
+    "fee": "no",
+    "name": "Piazza Luigi Paolo Daneo",
+    "parking": "surface",
+    "place": "square"
+  }
+},
+{
+  "type": "way",
+  "id": 83468115,
+  "tags": {
+    "bicycle": "yes",
+    "foot": "designated",
+    "highway": "pedestrian",
+    "lit": "yes",
+    "name": "Lungomare Ober-Ramstadt",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 83468144,
+  "tags": {
+    "bicycle": "yes",
+    "foot": "designated",
+    "highway": "pedestrian",
+    "horse": "yes",
+    "lit": "yes",
+    "name": "Lungomare Gilberto Govi",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 83468856,
+  "tags": {
+    "highway": "residential",
+    "lane_markings": "no",
+    "name": "Via della Fornace",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 83468863,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Molino della Rocca di ponente",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 83468870,
+  "tags": {
+    "highway": "residential",
+    "name": "Via degli Oleandri",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 83468881,
+  "tags": {
+    "bridge": "yes",
+    "highway": "residential",
+    "layer": "1",
+    "name": "Via degli Oleandri",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 83468889,
+  "tags": {
+    "highway": "residential",
+    "name": "Via degli Oleandri",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 83468891,
+  "tags": {
+    "highway": "residential",
+    "name": "Via della Fornace",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 83468894,
+  "tags": {
+    "bridge": "yes",
+    "highway": "residential",
+    "layer": "1",
+    "name": "Via della Fornace",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 83566435,
+  "tags": {
+    "highway": "service",
+    "name": "Piazza Luigi Paolo Daneo"
+  }
+},
+{
+  "type": "way",
+  "id": 83566512,
+  "tags": {
+    "highway": "residential",
+    "name": "Località Bricco di Pratozanino"
+  }
+},
+{
+  "type": "way",
+  "id": 83947518,
+  "tags": {
+    "highway": "residential",
+    "name": "Via della Cooperazione",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 83947542,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Alpini d'Italia"
+  }
+},
+{
+  "type": "way",
+  "id": 83947554,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Largo Ceola"
+  }
+},
+{
+  "type": "way",
+  "id": 84070246,
+  "tags": {
+    "access": "yes",
+    "amenity": "parking",
+    "fee": "no",
+    "name": "Piazza Sant'Ermete",
+    "parking": "surface",
+    "place": "square"
+  }
+},
+{
+  "type": "way",
+  "id": 84072297,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via discesa Bricco Falò",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 84072347,
+  "tags": {
+    "highway": "service",
+    "name": "Piazza Sant'Ermete",
+    "oneway": "yes",
+    "service": "parking_aisle"
+  }
+},
+{
+  "type": "way",
+  "id": 84073510,
+  "tags": {
+    "highway": "service",
+    "name": "Località Maxee",
+    "service": "driveway"
+  }
+},
+{
+  "type": "way",
+  "id": 84073514,
+  "tags": {
+    "highway": "residential",
+    "name": "Via La Pineta"
+  }
+},
+{
+  "type": "way",
+  "id": 84073529,
+  "tags": {
+    "highway": "residential",
+    "name": "Località Lamberta"
+  }
+},
+{
+  "type": "way",
+  "id": 84595179,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Bellavista",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 84595180,
+  "tags": {
+    "highway": "residential",
+    "name": "Località Tagliata sopra"
+  }
+},
+{
+  "type": "way",
+  "id": 84595181,
+  "tags": {
+    "description:it": "Via del Vecchio",
+    "highway": "path",
+    "name": "Via del Vecchio",
+    "sac_scale": "demanding_alpine_hiking",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 84595185,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Bellavista",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 84787600,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Mirto"
+  }
+},
+{
+  "type": "way",
+  "id": 84825804,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Ceola",
+    "surface": "gravel"
+  }
+},
+{
+  "type": "way",
+  "id": 84825860,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Strada Romana superiore",
+    "surface": "compacted"
+  }
+},
+{
+  "type": "way",
+  "id": 84825894,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Valdolivo"
+  }
+},
+{
+  "type": "way",
+  "id": 84825939,
+  "tags": {
+    "bridge": "yes",
+    "highway": "tertiary",
+    "layer": "1",
+    "name": "Via al Deserto",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 84825964,
+  "tags": {
+    "highway": "tertiary",
+    "lane_markings": "no",
+    "name": "Via al Deserto",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 84825980,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Strada vicinale Chiappino"
+  }
+},
+{
+  "type": "way",
+  "id": 86572903,
+  "tags": {
+    "highway": "service",
+    "name": "Via Nino Baglietto",
+    "oneway": "no",
+    "service": "parking_aisle",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 86572926,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Località Capuà"
+  }
+},
+{
+  "type": "way",
+  "id": 86572935,
+  "tags": {
+    "highway": "service",
+    "name": "Via Nino Baglietto",
+    "oneway": "no",
+    "service": "parking_aisle",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 86615827,
+  "tags": {
+    "highway": "service",
+    "name": "Piazzale del Manente",
+    "service": "parking_aisle",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 86615829,
+  "tags": {
+    "amenity": "parking",
+    "capacity": "40",
+    "name": "Piazzale Vittime del Terrorismo",
+    "parking": "surface",
+    "place": "square"
+  }
+},
+{
+  "type": "way",
+  "id": 86615836,
+  "tags": {
+    "highway": "service",
+    "name": "Piazzale Vittime del Terrorismo",
+    "service": "parking_aisle",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 86615850,
+  "tags": {
+    "highway": "service",
+    "name": "Piazzale del Manente",
+    "service": "parking_aisle",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 86615853,
+  "tags": {
+    "area": "yes",
+    "highway": "pedestrian",
+    "name": "Piazzetta Santa Maria",
+    "place": "square",
+    "surface": "sett"
+  }
+},
+{
+  "type": "way",
+  "id": 86615856,
+  "tags": {
+    "amenity": "parking",
+    "capacity": "25",
+    "name": "Piazzale del Manente",
+    "parking": "surface",
+    "place": "square"
+  }
+},
+{
+  "type": "way",
+  "id": 86615861,
+  "tags": {
+    "access": "private",
+    "highway": "residential",
+    "name": "Via della Pace"
+  }
+},
+{
+  "type": "way",
+  "id": 86615890,
+  "tags": {
+    "access": "private",
+    "covered": "no",
+    "highway": "service",
+    "maxspeed": "30",
+    "name": "Accesso ex Tubi-Ghisa",
+    "oneway": "no",
+    "service": "driveway",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 86627256,
+  "tags": {
+    "highway": "residential",
+    "name": "Via al Golf"
+  }
+},
+{
+  "type": "way",
+  "id": 86627270,
+  "tags": {
+    "access": "no",
+    "highway": "service",
+    "motor_vehicle": "no",
+    "name": "Via privata Ciumme'",
+    "service": "driveway",
+    "surface": "gravel"
+  }
+},
+{
+  "type": "way",
+  "id": 86627308,
+  "tags": {
+    "access": "no",
+    "alt_name": "Località Castagnette",
+    "bicycle": "permissive",
+    "foot": "permissive",
+    "highway": "residential",
+    "horse": "permissive",
+    "motor_vehicle": "private",
+    "name": "Località Castagnetta",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 86876441,
+  "tags": {
+    "highway": "residential",
+    "name": "Località Belvedere di Sciarborasca"
+  }
+},
+{
+  "type": "way",
+  "id": 86876471,
+  "tags": {
+    "highway": "unclassified",
+    "layer": "-1",
+    "name": "Via Valcalda",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 86876484,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Molinetto"
+  }
+},
+{
+  "type": "way",
+  "id": 86876497,
+  "tags": {
+    "highway": "residential",
+    "name": "Località Argentino",
+    "service": "driveway"
+  }
+},
+{
+  "type": "way",
+  "id": 86876531,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Valcalda"
+  }
+},
+{
+  "type": "way",
+  "id": 86876533,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Località Bugiu"
+  }
+},
+{
+  "type": "way",
+  "id": 86876535,
+  "tags": {
+    "highway": "path",
+    "mtb:scale": "2",
+    "name": "Via Frankenbergen",
+    "name:it": "Beuca",
+    "sac_scale": "hiking",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 86876566,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Valcalda"
+  }
+},
+{
+  "type": "way",
+  "id": 86876571,
+  "tags": {
+    "highway": "service",
+    "name": "Località Quartino",
+    "service": "driveway"
+  }
+},
+{
+  "type": "way",
+  "id": 86877775,
+  "tags": {
+    "leisure": "park",
+    "name": "Giardini Beuca"
+  }
+},
+{
+  "type": "way",
+  "id": 86886137,
+  "tags": {
+    "access": "private",
+    "highway": "service",
+    "name": "Via agli Orti",
+    "service": "driveway"
+  }
+},
+{
+  "type": "way",
+  "id": 86886186,
+  "tags": {
+    "alt_name": "Via 1 maggio",
+    "highway": "service",
+    "name": "Via Primo Maggio"
+  }
+},
+{
+  "type": "way",
+  "id": 86886188,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Villanuova"
+  }
+},
+{
+  "type": "way",
+  "id": 87095846,
+  "tags": {
+    "access": "yes",
+    "amenity": "parking",
+    "maxheight": "2.2",
+    "name": "Piazza Martiri delle Foibe - Zsl",
+    "parking": "surface",
+    "place": "square"
+  }
+},
+{
+  "type": "way",
+  "id": 87095854,
+  "tags": {
+    "highway": "service",
+    "name": "Piazza Martiri delle Foibe",
+    "oneway": "yes",
+    "service": "parking_aisle",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 87095858,
+  "tags": {
+    "access": "private",
+    "amenity": "parking",
+    "name": "Piazza Palmiro Togliatti",
+    "parking": "surface",
+    "place": "square"
+  }
+},
+{
+  "type": "way",
+  "id": 87444137,
+  "tags": {
+    "highway": "residential",
+    "name": "Località Ciazze inferiore"
+  }
+},
+{
+  "type": "way",
+  "id": 92411663,
+  "tags": {
+    "highway": "residential",
+    "name": "Località Bricco di Pratozanino"
+  }
+},
+{
+  "type": "way",
+  "id": 92411707,
+  "tags": {
+    "covered": "no",
+    "highway": "unclassified",
+    "maxspeed": "30",
+    "name": "Via Pratorotondo",
+    "oneway": "no",
+    "surface": "gravel"
+  }
+},
+{
+  "type": "way",
+  "id": 92411711,
+  "tags": {
+    "access": "private",
+    "highway": "service",
+    "name": "Località Splendoria",
+    "service": "driveway",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 94088457,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Via Aurelia di levante",
+    "nat_ref": "SS1",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 94088467,
+  "tags": {
+    "bridge": "yes",
+    "highway": "primary",
+    "lanes": "2",
+    "layer": "1",
+    "name": "Via Aurelia",
+    "nat_ref": "SS1",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 94088469,
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Via Enea Silvio Recagno",
+    "sidewalk:both": "separate",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 96639542,
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Via Enea Silvio Recagno",
+    "sidewalk:both": "separate",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 96639545,
+  "tags": {
+    "cycleway:right": "no",
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Piazza Martiri della Libertà",
+    "oneway": "yes",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 96639550,
+  "tags": {
+    "area": "yes",
+    "highway": "pedestrian",
+    "lit": "yes",
+    "name": "Piazza Giacomo Matteotti",
+    "place": "square",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 96639552,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Piazza dei Bianchi",
+    "surface": "sett"
+  }
+},
+{
+  "type": "way",
+  "id": 96639557,
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Piazza Fosco Maggetti",
+    "sidewalk:both": "separate",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 96639562,
+  "tags": {
+    "highway": "residential",
+    "lane_markings": "no",
+    "name": "Via Luigi Bruzzone",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 96639563,
+  "tags": {
+    "area": "yes",
+    "highway": "pedestrian",
+    "name": "Piazzetta Pinta",
+    "place": "square",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 96639571,
+  "tags": {
+    "highway": "residential",
+    "lane_markings": "no",
+    "name": "Via Carlo Bardina",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 98655811,
+  "tags": {
+    "highway": "service",
+    "name": "Piazza scalo ferroviario",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 100719985,
+  "tags": {
+    "name": "Largo della Pace",
+    "place": "square"
+  }
+},
+{
+  "type": "way",
+  "id": 100719987,
+  "tags": {
+    "highway": "footway",
+    "name": "Via degli Agnese",
+    "surface": "paving_stones",
+    "tunnel": "building_passage"
+  }
+},
+{
+  "type": "way",
+  "id": 101940772,
+  "tags": {
+    "access": "private",
+    "highway": "service",
+    "name": "Località Valdolivo di Sciarborasca",
+    "service": "driveway"
+  }
+},
+{
+  "type": "way",
+  "id": 107240705,
+  "tags": {
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Via Giuseppe Di Vagno",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 107240706,
+  "tags": {
+    "highway": "residential",
+    "lane_markings": "no",
+    "name": "Via Don Lorenzo Milani",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 107240708,
+  "tags": {
+    "access": "private",
+    "highway": "residential",
+    "name": "Via Sacerdote Del Buono"
+  }
+},
+{
+  "type": "way",
+  "id": 107240710,
+  "tags": {
+    "highway": "residential",
+    "name": "Viale delle Mimose",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 107240711,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Viale degli Ulivi",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 107240713,
+  "tags": {
+    "access": "private",
+    "highway": "service",
+    "layer": "-1",
+    "name": "Salita Villanuova",
+    "service": "driveway",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 107240714,
+  "tags": {
+    "highway": "residential",
+    "lane_markings": "no",
+    "name": "Via dei Lagoni",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 107240716,
+  "tags": {
+    "highway": "service",
+    "name": "Piazza Palmiro Togliatti",
+    "oneway": "yes",
+    "service": "parking_aisle",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 107240717,
+  "tags": {
+    "access": "private",
+    "highway": "service",
+    "name": "Salita Villanuova",
+    "service": "driveway"
+  }
+},
+{
+  "type": "way",
+  "id": 107240718,
+  "tags": {
+    "highway": "service",
+    "maxspeed": "30",
+    "name": "Piazzale Ronchetto",
+    "oneway": "no",
+    "service": "parking_aisle",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 107240719,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Sacerdote Del Buono"
+  }
+},
+{
+  "type": "way",
+  "id": 107240720,
+  "tags": {
+    "access": "private",
+    "alt_name": "Via XXV Aprile",
+    "highway": "residential",
+    "maxspeed": "10",
+    "name": "Via Venticinque Aprile",
+    "oneway": "no",
+    "short_name": "Via 25 Aprile",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 107240721,
+  "tags": {
+    "building": "yes",
+    "name": "Fornace Bianchi",
+    "tourism": "attraction",
+    "url": "http://www.cogoletoinfo.it/storia/fornaci/fornaci.htm"
+  }
+},
+{
+  "type": "way",
+  "id": 107240723,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Prino inferiore",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 107240724,
+  "tags": {
+    "access": "yes",
+    "highway": "service",
+    "name": "Salita Villanuova",
+    "oneway": "no",
+    "surface": "gravel",
+    "width": "2"
+  }
+},
+{
+  "type": "way",
+  "id": 107240725,
+  "tags": {
+    "access": "yes",
+    "amenity": "parking",
+    "capacity": "20",
+    "fee": "no",
+    "name": "Piazzale Ronchetto",
+    "operator": "Pubblico",
+    "parking": "surface",
+    "place": "square"
+  }
+},
+{
+  "type": "way",
+  "id": 107378828,
+  "tags": {
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Via Alexander Fleming",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 107378830,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Beuca",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 107378832,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Giuseppe Scanagatta",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 107378834,
+  "tags": {
+    "highway": "unclassified",
+    "lanes": "2",
+    "name": "Via Domenico Giusto",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 107378837,
+  "tags": {
+    "highway": "unclassified",
+    "layer": "-1",
+    "name": "Via Beuca",
+    "surface": "asphalt",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 107378838,
+  "tags": {
+    "alt_name": "Via 1 maggio",
+    "highway": "service",
+    "name": "Via Primo Maggio",
+    "service": "driveway"
+  }
+},
+{
+  "type": "way",
+  "id": 107378840,
+  "tags": {
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Via San Lorenzo",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 107378842,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Erica"
+  }
+},
+{
+  "type": "way",
+  "id": 107378844,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Prato delle Oche",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 107378845,
+  "tags": {
+    "access": "private",
+    "highway": "residential",
+    "name": "Via Brigate Partigiane"
+  }
+},
+{
+  "type": "way",
+  "id": 107378846,
+  "tags": {
+    "highway": "residential",
+    "lane_markings": "no",
+    "name": "Via Arrestra interna",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 107378847,
+  "tags": {
+    "highway": "steps",
+    "name": "Scalinata Pini Domestici"
+  }
+},
+{
+  "type": "way",
+  "id": 108702714,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Viale allo Scoglio",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 108702716,
+  "tags": {
+    "highway": "unclassified",
+    "incline": "up",
+    "name": "Via Priccone"
+  }
+},
+{
+  "type": "way",
+  "id": 108702720,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Prino inferiore"
+  }
+},
+{
+  "type": "way",
+  "id": 108702723,
+  "tags": {
+    "alt_name": "Via Pesce Pietro",
+    "description": "segnavia: 1 losanga rossa vuota",
+    "highway": "secondary",
+    "name": "Via Pietro Pesce",
+    "short_name": "Via Pesce",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 108702725,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Viale allo Scoglio",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 108702726,
+  "tags": {
+    "alt_name": "SP78 di Lerca",
+    "description": "segnavia: 1 losanga rossa vuota",
+    "highway": "secondary",
+    "maxweight": "14",
+    "name": "Via al Piano",
+    "ref": "SP78",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 108702728,
+  "tags": {
+    "access": "private",
+    "highway": "residential",
+    "name": "Via Pini Domestici"
+  }
+},
+{
+  "type": "way",
+  "id": 108702729,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Capieso",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 108702731,
+  "tags": {
+    "leisure": "park",
+    "name": "Giardino Mino Daccomi"
+  }
+},
+{
+  "type": "way",
+  "id": 108702732,
+  "tags": {
+    "bicycle": "permissive",
+    "highway": "secondary",
+    "horse": "permissive",
+    "maxspeed": "30",
+    "name": "Via Schivà",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 108702736,
+  "tags": {
+    "highway": "secondary",
+    "name": "Via al Ponte",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 108702740,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Viale allo Scoglio",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 109327783,
+  "tags": {
+    "highway": "residential",
+    "lane_markings": "no",
+    "name": "Località Isolone",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 109327801,
+  "tags": {
+    "area:highway": "residential",
+    "name": "Piazza San Bernardo",
+    "place": "square",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 109327807,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Bordin",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 109327811,
+  "tags": {
+    "alt_name": "Via Maria Colombo Giusti",
+    "highway": "residential",
+    "name": "Via Maria Giusti Colombo",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 109327834,
+  "tags": {
+    "alt_name": "SP78 di Lerca",
+    "description": "segnavia: 1 losanga rossa vuota",
+    "highway": "secondary",
+    "maxweight": "14",
+    "name": "Via al Piano",
+    "ref": "SP78",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 109327859,
+  "tags": {
+    "alt_name": "Via dell'asilo",
+    "highway": "unclassified",
+    "name": "Via all'Asilo",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 109327863,
+  "tags": {
+    "highway": "residential",
+    "name": "Località Montegrosso",
+    "sac_scale": "mountain_hiking",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 113284148,
+  "tags": {
+    "highway": "service",
+    "lanes": "1",
+    "maxspeed": "30",
+    "name": "Viale del Parco"
+  }
+},
+{
+  "type": "way",
+  "id": 119133934,
+  "tags": {
+    "highway": "service",
+    "name": "Via Inferiore Onofrio Scassi",
+    "service": "driveway",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 123269773,
+  "tags": {
+    "highway": "path",
+    "name": "Località Croce",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 123522890,
+  "tags": {
+    "highway": "residential",
+    "name": "Salita Sperone"
+  }
+},
+{
+  "type": "way",
+  "id": 123522897,
+  "tags": {
+    "highway": "residential",
+    "name": "Località Piancavallero",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 130875714,
+  "tags": {
+    "highway": "residential",
+    "lane_markings": "no",
+    "name": "Via del Belvedere",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 133097962,
+  "tags": {
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "path",
+    "mtb:scale": "2",
+    "name": "Via romana",
+    "sac_scale": "mountain_hiking",
+    "ski": "no",
+    "snowmobile": "no",
+    "surface": "rock",
+    "trail_visibility": "intermediate",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 134576768,
+  "tags": {
+    "bicycle": "no",
+    "highway": "path",
+    "name": "Arrampicata \"Via dell'acqua\"",
+    "sac_scale": "demanding_alpine_hiking",
+    "surface": "dirt",
+    "trail_visibility": "excellent"
+  }
+},
+{
+  "type": "way",
+  "id": 135023125,
+  "tags": {
+    "highway": "residential",
+    "lanes": "1",
+    "maxspeed": "20",
+    "name": "Via Capieso",
+    "oneway": "no",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 135023127,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "layer": "-1",
+    "maxheight:signed": "no",
+    "name": "Via Ronco",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 135023130,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "maxheight:signed": "no",
+    "name": "Via Ronco",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 135023132,
+  "tags": {
+    "highway": "residential",
+    "lanes": "1",
+    "name": "Località Piancavallero",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 135023137,
+  "tags": {
+    "highway": "service",
+    "name": "Località Villa Valle",
+    "service": "driveway",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 135023154,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Zerbo"
+  }
+},
+{
+  "type": "way",
+  "id": 135023174,
+  "tags": {
+    "access": "no",
+    "highway": "service",
+    "name": "Deposito autostrada",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 142648656,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Colombara",
+    "name:it": "Via Colombara",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 142650951,
+  "tags": {
+    "highway": "residential",
+    "maxspeed": "20",
+    "name": "Via Colombara",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 142976819,
+  "tags": {
+    "bridge": "yes",
+    "highway": "secondary",
+    "layer": "1",
+    "name": "Via della Pace",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 142976820,
+  "tags": {
+    "highway": "secondary",
+    "name": "Via della Pace",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 142976821,
+  "tags": {
+    "highway": "secondary",
+    "name": "Via della Pace",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 147064148,
+  "tags": {
+    "highway": "path",
+    "name": "Località Pietra Grossa",
+    "sac_scale": "hiking",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 151690832,
+  "tags": {
+    "highway": "service",
+    "layer": "1",
+    "name": "Località Talapò",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 154929191,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Paolo Borsellino",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 154929192,
+  "tags": {
+    "alt_name": "SP78 di Lerca",
+    "highway": "residential",
+    "name": "Via Valverde",
+    "oneway": "yes",
+    "ref": "SP78",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 154929196,
+  "tags": {
+    "highway": "secondary",
+    "maxweight": "14",
+    "name": "Via Paolo Borsellino",
+    "ref": "SP78",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 185956596,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Giardini Valverde"
+  }
+},
+{
+  "type": "way",
+  "id": 185956600,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Giardini Valverde"
+  }
+},
+{
+  "type": "way",
+  "id": 186445140,
+  "tags": {
+    "highway": "service",
+    "name": "Via Giardini Valverde",
+    "service": "driveway"
+  }
+},
+{
+  "type": "way",
+  "id": 187633429,
+  "tags": {
+    "highway": "residential",
+    "name": "Via dei Lecci"
+  }
+},
+{
+  "type": "way",
+  "id": 187637401,
+  "tags": {
+    "highway": "service",
+    "name": "Via Nino Baglietto",
+    "service": "parking_aisle"
+  }
+},
+{
+  "type": "way",
+  "id": 187645066,
+  "tags": {
+    "highway": "residential",
+    "name": "Via del Belvedere",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 187645075,
+  "tags": {
+    "highway": "service",
+    "name": "Via Arrestra interna",
+    "service": "driveway"
+  }
+},
+{
+  "type": "way",
+  "id": 187645080,
+  "tags": {
+    "highway": "service",
+    "name": "Strada Romana inferiore",
+    "service": "driveway",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 187645081,
+  "tags": {
+    "highway": "residential",
+    "lanes": "1",
+    "maxspeed": "30",
+    "name": "Via San Giovanni Bosco",
+    "oneway": "no",
+    "service": "driveway",
+    "short_name": "Via Bosco",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 203604213,
+  "tags": {
+    "highway": "residential",
+    "name": "Via della Cooperazione",
+    "tunnel": "building_passage"
+  }
+},
+{
+  "type": "way",
+  "id": 203604214,
+  "tags": {
+    "highway": "residential",
+    "name": "Via della Cooperazione"
+  }
+},
+{
+  "type": "way",
+  "id": 203605263,
+  "tags": {
+    "addr:postcode": "16016",
+    "addr:street": "Via della Gioventù",
+    "building": "sports_centre",
+    "leisure": "sports_centre",
+    "name": "PalaDamonte",
+    "source": "Regione Liguria",
+    "sport": "gymnastics;basketball;volleyball",
+    "wikidata": "Q3889103",
+    "wikipedia": "it:PalaDamonte"
+  }
+},
+{
+  "type": "way",
+  "id": 203619868,
+  "tags": {
+    "amenity": "hospital",
+    "disused": "yes",
+    "emergency": "no",
+    "healthcare": "hospital",
+    "name": "Area ed edifici Ex Ospedale Psichiatrico",
+    "operator": "FinTecna S.p.A."
+  }
+},
+{
+  "type": "way",
+  "id": 204642725,
+  "tags": {
+    "highway": "residential",
+    "name": "Via degli Oleandri",
+    "surface": "asphalt",
+    "tunnel": "building_passage"
+  }
+},
+{
+  "type": "way",
+  "id": 204642726,
+  "tags": {
+    "highway": "residential",
+    "lanes": "2",
+    "name": "Via degli Oleandri",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 204642728,
+  "tags": {
+    "covered": "no",
+    "highway": "service",
+    "maxspeed": "30",
+    "name": "Via Superiore Onofrio Scassi",
+    "service": "parking_aisle",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 204962143,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Valverde",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 204962158,
+  "tags": {
+    "highway": "service",
+    "name": "Via Lomellina"
+  }
+},
+{
+  "type": "way",
+  "id": 204962171,
+  "tags": {
+    "highway": "service",
+    "name": "Via Lomellina"
+  }
+},
+{
+  "type": "way",
+  "id": 219521988,
+  "tags": {
+    "highway": "footway",
+    "name": "Largo Marinai d'Italia"
+  }
+},
+{
+  "type": "way",
+  "id": 219521989,
+  "tags": {
+    "alt_name": "Molo Francesco Speca",
+    "highway": "footway",
+    "name": "Molo Francesco Speca"
+  }
+},
+{
+  "type": "way",
+  "id": 219521995,
+  "tags": {
+    "highway": "footway",
+    "lit": "yes",
+    "name": "Passeggiata Gilberto Govi",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 219522000,
+  "tags": {
+    "highway": "footway",
+    "name": "Piazza Alcide De Gasperi"
+  }
+},
+{
+  "type": "way",
+  "id": 226142458,
+  "tags": {
+    "highway": "residential",
+    "name": "Località Tagliata sotto"
+  }
+},
+{
+  "type": "way",
+  "id": 226142463,
+  "tags": {
+    "highway": "service",
+    "name": "Via delle Roverelle",
+    "service": "driveway"
+  }
+},
+{
+  "type": "way",
+  "id": 226142464,
+  "tags": {
+    "highway": "service",
+    "name": "Via delle Roverelle",
+    "service": "driveway"
+  }
+},
+{
+  "type": "way",
+  "id": 226142465,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Vallescura"
+  }
+},
+{
+  "type": "way",
+  "id": 226142466,
+  "tags": {
+    "highway": "service",
+    "name": "Località Laveggia",
+    "service": "driveway"
+  }
+},
+{
+  "type": "way",
+  "id": 226142467,
+  "tags": {
+    "highway": "service",
+    "name": "Via delle Roverelle",
+    "service": "driveway"
+  }
+},
+{
+  "type": "way",
+  "id": 238840884,
+  "tags": {
+    "highway": "service",
+    "name": "Piazzale Puntarrestra",
+    "oneway": "yes",
+    "service": "parking_aisle"
+  }
+},
+{
+  "type": "way",
+  "id": 238913774,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Molinetto"
+  }
+},
+{
+  "type": "way",
+  "id": 238913801,
+  "tags": {
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Via Molinetto",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 239035273,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Pratorotondo-Monte Beigua",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 242578403,
+  "tags": {
+    "highway": "service",
+    "name": "Via Pastonello",
+    "service": "driveway",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 242578404,
+  "tags": {
+    "highway": "residential",
+    "name": "Via all'Asilo",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 253010346,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Prino inferiore",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 253401028,
+  "tags": {
+    "highway": "service",
+    "name": "Piazzale Vittime del Terrorismo",
+    "service": "parking_aisle",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 257339959,
+  "tags": {
+    "highway": "service",
+    "name": "Via Prato del Cirio",
+    "service": "driveway"
+  }
+},
+{
+  "type": "way",
+  "id": 260393818,
+  "tags": {
+    "covered": "yes",
+    "highway": "residential",
+    "name": "Via Isorella",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 260393820,
+  "tags": {
+    "highway": "residential",
+    "lane_markings": "no",
+    "name": "Via Isorella",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 260393823,
+  "tags": {
+    "highway": "residential",
+    "lane_markings": "no",
+    "name": "Via Isorella",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 260393825,
+  "tags": {
+    "highway": "residential",
+    "lane_markings": "no",
+    "name": "Via Isorella",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 263844921,
+  "tags": {
+    "highway": "service",
+    "name": "Salita Prino superiore",
+    "service": "driveway"
+  }
+},
+{
+  "type": "way",
+  "id": 283743861,
+  "tags": {
+    "access": "no",
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "service",
+    "horse": "yes",
+    "loc_name": "Balledoro",
+    "mtb:scale": "3",
+    "name": "Via Prato delle Onde",
+    "ski": "no",
+    "snowmobile": "no",
+    "surface": "pebblestone",
+    "trail_visibility": "good",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 283744053,
+  "tags": {
+    "access": "no",
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "residential",
+    "motor_vehicle": "private",
+    "name": "Via Pissarotta Inferiore",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 283744540,
+  "tags": {
+    "access": "no",
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "service",
+    "horse": "no",
+    "motor_vehicle": "private",
+    "name": "Via Pissarotta Inferiore",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 283744990,
+  "tags": {
+    "access": "no",
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "service",
+    "motor_vehicle": "private",
+    "name": "Via Pissarotta Inferiore",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 283745371,
+  "tags": {
+    "access": "no",
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "unclassified",
+    "horse": "yes",
+    "motor_vehicle": "private",
+    "name": "Via Pissarotta Superiore",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 283745942,
+  "tags": {
+    "access": "permissive",
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "path",
+    "horse": "no",
+    "incline": "30%",
+    "motor_vehicle": "no",
+    "name": "Sentiero della Marchesa",
+    "surface": "gravel",
+    "width": "0.5"
+  }
+},
+{
+  "type": "way",
+  "id": 283747189,
+  "tags": {
+    "access": "permissive",
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "path",
+    "horse": "yes",
+    "name": "Sentiero della Marchesa"
+  }
+},
+{
+  "type": "way",
+  "id": 283749203,
+  "tags": {
+    "access": "no",
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "service",
+    "horse": "yes",
+    "loc_name": "Balledoro",
+    "name": "Via Prato delle Onde",
+    "surface": "unpaved"
+  }
+},
+{
+  "type": "way",
+  "id": 283754550,
+  "tags": {
+    "bicycle": "permissive",
+    "highway": "footway",
+    "horse": "no",
+    "name": "Crosa de Insuela",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 283759614,
+  "tags": {
+    "access": "permissive",
+    "alt_name": "Loaga",
+    "highway": "path",
+    "horse": "no",
+    "incline": "up",
+    "motor_vehicle": "no",
+    "mtb:scale": "2",
+    "mtb:scale:imba": "1",
+    "mtb:scale:uphill": "2",
+    "name": "Sentiero dell'autostrada",
+    "note:it": "Vecchia strada usata per costruzione autostrada, alcuni metri di dislivello all'altezza della galleria...",
+    "sac_scale": "hiking",
+    "trail_visibility": "good",
+    "width": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 284241329,
+  "tags": {
+    "bicycle": "permissive",
+    "highway": "footway",
+    "horse": "no",
+    "name": "Crosa de Insuela",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 284241330,
+  "tags": {
+    "bicycle": "permissive",
+    "bridge": "viaduct",
+    "highway": "footway",
+    "horse": "no",
+    "layer": "1",
+    "name": "Crosa de Insuela",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 284877548,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Natalino Otto",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 285260994,
+  "tags": {
+    "access": "permissive",
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "path",
+    "horse": "yes",
+    "mtb:scale": "3",
+    "mtb:scale:imba": "2",
+    "mtb:scale:uphill": "2",
+    "name": "Sentiero della Marchesa",
+    "sac_scale": "mountain_hiking",
+    "ski": "no",
+    "snowmobile": "no",
+    "surface": "pebblestone",
+    "trail_visibility": "good",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 285260999,
+  "tags": {
+    "access": "permissive",
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "path",
+    "horse": "yes",
+    "incline": "down",
+    "motor_vehicle": "no",
+    "mtb:scale": "3",
+    "mtb:scale:imba": "2",
+    "mtb:scale:uphill": "2",
+    "name": "Sentiero della Pissarotta",
+    "sac_scale": "mountain_hiking",
+    "surface": "unpaved",
+    "trail_visibility": "excellent",
+    "width": "0.5"
+  }
+},
+{
+  "type": "way",
+  "id": 285426527,
+  "tags": {
+    "access": "no",
+    "bicycle": "private",
+    "foot": "private",
+    "highway": "service",
+    "maxspeed": "30",
+    "motor_vehicle": "private",
+    "name": "Via Pissarotta Inferiore",
+    "surface": "unpaved"
+  }
+},
+{
+  "type": "way",
+  "id": 286826218,
+  "tags": {
+    "access": "no",
+    "description": "Rifugio scavato ai tempi della seconda guerra mondiale in parte franato pericolo di crollo (non accedere)",
+    "highway": "path",
+    "layer": "-1",
+    "name": "Rifugio della radura (pericolante)",
+    "ref": "Rifugio contro bombardamenti (pericolante)",
+    "surface": "unpaved",
+    "trail_visibility": "intermediate",
+    "tunnel": "yes",
+    "width": "2"
+  }
+},
+{
+  "type": "way",
+  "id": 286829122,
+  "tags": {
+    "access": "no",
+    "foot": "private",
+    "highway": "path",
+    "incline": "25%",
+    "name": "Alla Sorgente",
+    "surface": "unpaved",
+    "trail_visibility": "good"
+  }
+},
+{
+  "type": "way",
+  "id": 286830852,
+  "tags": {
+    "highway": "path",
+    "horse": "no",
+    "incline": "20%",
+    "mtb:scale": "3",
+    "mtb:scale:imba": "2",
+    "mtb:scale:uphill": "2",
+    "name": "Sentiero della Pissarotta",
+    "sac_scale": "mountain_hiking",
+    "surface": "unpaved",
+    "trail_visibility": "excellent",
+    "width": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 292088674,
+  "tags": {
+    "highway": "footway",
+    "name": "Giardini lord Robert Baden Powell"
+  }
+},
+{
+  "type": "way",
+  "id": 293128417,
+  "tags": {
+    "highway": "service",
+    "horse": "no",
+    "motor_vehicle": "no",
+    "name": "Via della Madonnina inferiore",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 299926990,
+  "tags": {
+    "access": "no",
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "residential",
+    "motor_vehicle": "private",
+    "name": "Via Pissarotta Inferiore",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 299926991,
+  "tags": {
+    "access": "no",
+    "bicycle": "yes",
+    "bridge": "yes",
+    "foot": "yes",
+    "highway": "residential",
+    "layer": "1",
+    "motor_vehicle": "private",
+    "name": "Via Pissarotta Inferiore",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 302585013,
+  "tags": {
+    "highway": "service",
+    "name": "Piazzale del Manente",
+    "service": "parking_aisle",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 302592014,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Enea Silvio Recagno",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 302592602,
+  "tags": {
+    "bicycle": "permissive",
+    "highway": "footway",
+    "horse": "no",
+    "layer": "-1",
+    "name": "Crosa de Insuela",
+    "surface": "paved",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 302592603,
+  "tags": {
+    "bicycle": "permissive",
+    "highway": "footway",
+    "horse": "no",
+    "name": "Crosa de Insuela",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 302595160,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "3",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "Autostrada dei Fiori",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "surface": "asphalt",
+    "toll": "yes",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 302595161,
+  "tags": {
+    "bridge": "viaduct",
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "3",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "Autostrada dei Fiori",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "surface": "asphalt",
+    "toll": "yes",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 304093718,
+  "tags": {
+    "highway": "residential",
+    "maxspeed": "20",
+    "name": "Via Prato del Cirio",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 315480955,
+  "tags": {
+    "highway": "path",
+    "mtb:scale": "0",
+    "mtb:scale:imba": "0",
+    "mtb:scale:uphill": "0",
+    "name": "Prato delle Onde",
+    "sac_scale": "hiking",
+    "surface": "unpaved"
+  }
+},
+{
+  "type": "way",
+  "id": 315483031,
+  "tags": {
+    "highway": "service",
+    "name": "Località dietro Valle",
+    "service": "driveway"
+  }
+},
+{
+  "type": "way",
+  "id": 315483033,
+  "tags": {
+    "bridge": "yes",
+    "highway": "service",
+    "layer": "1",
+    "name": "Località Leirola",
+    "service": "driveway"
+  }
+},
+{
+  "type": "way",
+  "id": 319092922,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Marchesi Spinola",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 319499966,
+  "tags": {
+    "bicycle": "yes",
+    "cutting": "yes",
+    "highway": "footway",
+    "horse": "no",
+    "name": "Rampa disabili",
+    "surface": "paving_stones",
+    "wheelchair": "yes",
+    "width": "2"
+  }
+},
+{
+  "type": "way",
+  "id": 319500158,
+  "tags": {
+    "bicycle": "yes",
+    "cutting": "yes",
+    "highway": "footway",
+    "name": "Rampa disabili",
+    "surface": "paving_stones",
+    "wheelchair": "yes",
+    "width": "2"
+  }
+},
+{
+  "type": "way",
+  "id": 319501121,
+  "tags": {
+    "highway": "service",
+    "lanes": "1",
+    "name": "Parcheggio residenti",
+    "service": "parking_aisle",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 319501122,
+  "tags": {
+    "bicycle": "no",
+    "highway": "footway",
+    "horse": "no",
+    "name": "Crosa de Insuela",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 319503973,
+  "tags": {
+    "highway": "service",
+    "horse": "no",
+    "name": "Via Aurelia di levante"
+  }
+},
+{
+  "type": "way",
+  "id": 319504063,
+  "tags": {
+    "access": "private",
+    "highway": "footway",
+    "name": "passaggio pedonale"
+  }
+},
+{
+  "type": "way",
+  "id": 320968860,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "footway",
+    "name": "Viottolo Scandolaro",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 320972530,
+  "tags": {
+    "highway": "service",
+    "name": "Via al Parco",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 320975147,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "footway",
+    "name": "accesso spiaggia"
+  }
+},
+{
+  "type": "way",
+  "id": 323650282,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Marchesi Spinola",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 323650284,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Marchesi Spinola",
+    "surface": "paved",
+    "tunnel": "building_passage"
+  }
+},
+{
+  "type": "way",
+  "id": 323678163,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "footway",
+    "horse": "no",
+    "name": "Via don Minzoni",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 324607247,
+  "tags": {
+    "highway": "unclassified",
+    "horse": "no",
+    "motor_vehicle": "permissive",
+    "name": "Via Prino superiore",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 326150813,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Vignagrande",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 326150814,
+  "tags": {
+    "alt_name": "Vico Vignagrande",
+    "highway": "pedestrian",
+    "name": "Vico Vigna grande",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 337659553,
+  "tags": {
+    "fixme": "questo nome via in effetti forse non esiste e' tutta Piazza Antonio Buelli",
+    "highway": "residential",
+    "maxspeed": "30",
+    "name": "Via Antonio Buelli",
+    "short_name": "Via Buelli",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 337659803,
+  "tags": {
+    "lit": "yes",
+    "name": "Piazza Nicolò Luigi Poggi",
+    "place": "square",
+    "short_name": "Piazza Poggi",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 337660155,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "pedestrian",
+    "lit": "yes",
+    "name": "Via Giuliano Visconti Prasca",
+    "short_name": "Via Prasca",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 337660333,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "pedestrian",
+    "lit": "yes",
+    "name": "Via San Giovanni Bosco",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 337660774,
+  "tags": {
+    "area": "yes",
+    "highway": "pedestrian",
+    "name": "Piazza Antonio Buelli",
+    "place": "square",
+    "short_name": "Piazza Buelli"
+  }
+},
+{
+  "type": "way",
+  "id": 341058558,
+  "tags": {
+    "access": "private",
+    "highway": "unclassified",
+    "name": "Via Pissarotta Superiore",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 341058724,
+  "tags": {
+    "access": "no",
+    "highway": "service",
+    "name": "Via Pissarotta Inferiore",
+    "oneway": "no",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 351148850,
+  "tags": {
+    "highway": "path",
+    "incline": "5%",
+    "mtb:scale": "0",
+    "mtb:scale:imba": "0",
+    "mtb:scale:uphill": "0",
+    "name": "Balledoro Bonaparte",
+    "surface": "unpaved",
+    "trail_visibility": "excellent",
+    "width": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 351148851,
+  "tags": {
+    "highway": "service",
+    "lanes": "1",
+    "name": "Parcheggio residenti",
+    "oneway": "yes",
+    "service": "parking_aisle",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 351148852,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Molino della Rocca",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 351154859,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Via Aurelia",
+    "nat_ref": "SS1",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 351154860,
+  "tags": {
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Via Molinetto",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 366296641,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "3",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "Autostrada dei Fiori",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "surface": "asphalt",
+    "toll": "yes",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 367320568,
+  "tags": {
+    "email": "info@ortobotanicocogoleto.it",
+    "leisure": "garden",
+    "name": "Orto botanico di Villa Beuca",
+    "phone": "+39 345 6401834",
+    "wikidata": "Q3886284",
+    "wikipedia": "it:Orto botanico di Villa Beuca"
+  }
+},
+{
+  "type": "way",
+  "id": 370569334,
+  "tags": {
+    "highway": "service",
+    "name": "Via Aldo Gastaldi"
+  }
+},
+{
+  "type": "way",
+  "id": 373794976,
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "maxheight": "3.8",
+    "maxspeed": "50",
+    "name": "Via Luigi Allegro",
+    "oneway": "no",
+    "ref": "SP66",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 386144426,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Via Benefizio",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 386153814,
+  "tags": {
+    "area:highway": "residential",
+    "name": "Piazza Caduti di Nassiriya",
+    "place": "square"
+  }
+},
+{
+  "type": "way",
+  "id": 386384494,
+  "tags": {
+    "bicycle": "no",
+    "highway": "path",
+    "horse": "no",
+    "name": "Via Zunino Variante Inferiore",
+    "sac_scale": "difficult_alpine_hiking",
+    "surface": "dirt",
+    "trail_visibility": "excellent"
+  }
+},
+{
+  "type": "way",
+  "id": 391815942,
+  "tags": {
+    "highway": "secondary",
+    "name": "Via Maluea",
+    "ref": "SP66",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 391821128,
+  "tags": {
+    "alt_name": "Via 1 maggio",
+    "highway": "residential",
+    "name": "Via Primo Maggio"
+  }
+},
+{
+  "type": "way",
+  "id": 391821129,
+  "tags": {
+    "alt_name": "Via 1 maggio",
+    "highway": "residential",
+    "name": "Via Primo Maggio"
+  }
+},
+{
+  "type": "way",
+  "id": 391821130,
+  "tags": {
+    "alt_name": "Via 1 maggio",
+    "highway": "service",
+    "name": "Via Primo Maggio"
+  }
+},
+{
+  "type": "way",
+  "id": 391823084,
+  "tags": {
+    "highway": "footway",
+    "name": "Via degli Agnese",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 391937800,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Tuccio"
+  }
+},
+{
+  "type": "way",
+  "id": 391940992,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Montà"
+  }
+},
+{
+  "type": "way",
+  "id": 391940999,
+  "tags": {
+    "highway": "service",
+    "name": "Salita Sperone",
+    "service": "driveway"
+  }
+},
+{
+  "type": "way",
+  "id": 391959924,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Scalo Domenico Colombo",
+    "surface": "sett"
+  }
+},
+{
+  "type": "way",
+  "id": 391959925,
+  "tags": {
+    "cycleway": "proposed",
+    "highway": "primary",
+    "lanes": "2",
+    "lit": "yes",
+    "name": "Lungomare Santa Maria",
+    "nat_ref": "SS1",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 391959926,
+  "tags": {
+    "highway": "footway",
+    "name": "Lungomare Santa Maria",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 391964309,
+  "tags": {
+    "access": "private",
+    "highway": "service",
+    "name": "Via agli Orti",
+    "service": "driveway"
+  }
+},
+{
+  "type": "way",
+  "id": 391966432,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Arma",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 391967755,
+  "tags": {
+    "highway": "service",
+    "name": "Via Maioa"
+  }
+},
+{
+  "type": "way",
+  "id": 391967756,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Maioa"
+  }
+},
+{
+  "type": "way",
+  "id": 391972270,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Persico"
+  }
+},
+{
+  "type": "way",
+  "id": 391972271,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Tuccio"
+  }
+},
+{
+  "type": "way",
+  "id": 391973177,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada di Pratozanino",
+    "ref": "SP66",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 391976892,
+  "tags": {
+    "highway": "footway",
+    "name": "Lungomare Santa Maria",
+    "surface": "paving_stones",
+    "tunnel": "building_passage"
+  }
+},
+{
+  "type": "way",
+  "id": 391976893,
+  "tags": {
+    "highway": "footway",
+    "name": "Lungomare Santa Maria",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 391979086,
+  "tags": {
+    "footway": "sidewalk",
+    "highway": "footway",
+    "name": "Via Luigi Parenti",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 391981073,
+  "tags": {
+    "area:highway": "pedestrian",
+    "name": "Piazza Stella Maris",
+    "place": "square"
+  }
+},
+{
+  "type": "way",
+  "id": 391983906,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Alfred Tennyson",
+    "short_name": "Via Tennyson",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 391983909,
+  "tags": {
+    "highway": "service",
+    "name": "Via Rossi",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 391983911,
+  "tags": {
+    "highway": "service",
+    "name": "Via Tre Caravelle",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 391983913,
+  "tags": {
+    "highway": "service",
+    "name": "Largo Belvedere",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 391996615,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Costa dei Prati",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 391998195,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Lamberta",
+    "note": "guessed",
+    "service": "driveway"
+  }
+},
+{
+  "type": "way",
+  "id": 391998196,
+  "tags": {
+    "highway": "service",
+    "name": "Via La Pineta",
+    "note": "guessed",
+    "service": "driveway"
+  }
+},
+{
+  "type": "way",
+  "id": 391998199,
+  "tags": {
+    "highway": "service",
+    "name": "Via Bricco delle Fosse",
+    "service": "driveway"
+  }
+},
+{
+  "type": "way",
+  "id": 392162775,
+  "tags": {
+    "name": "Piazza della Chiesa",
+    "place": "square"
+  }
+},
+{
+  "type": "way",
+  "id": 392164635,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Molino della Rocca",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 392165063,
+  "tags": {
+    "highway": "residential",
+    "lane_markings": "no",
+    "name": "Via Nino Baglietto",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 392166543,
+  "tags": {
+    "access": "no",
+    "bridge": "yes",
+    "highway": "track",
+    "layer": "1",
+    "motor_vehicle": "no",
+    "name": "Via privata Ciumme'",
+    "surface": "gravel"
+  }
+},
+{
+  "type": "way",
+  "id": 392166544,
+  "tags": {
+    "access": "no",
+    "highway": "track",
+    "motor_vehicle": "no",
+    "name": "Via privata Ciumme'",
+    "surface": "gravel"
+  }
+},
+{
+  "type": "way",
+  "id": 392930063,
+  "tags": {
+    "highway": "secondary",
+    "name": "Via Luigi Stoppani",
+    "ref": "SP78",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 392932942,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Colombara",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 401657114,
+  "tags": {
+    "highway": "service",
+    "level": "2",
+    "name": "Via Benefizio"
+  }
+},
+{
+  "type": "way",
+  "id": 435843504,
+  "tags": {
+    "handrail": "yes",
+    "highway": "steps",
+    "incline": "up",
+    "name": "Scalinata Donegaro",
+    "ramp": "yes",
+    "ramp:bicycle": "yes",
+    "surface": "concrete",
+    "tactile_paving": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 435846951,
+  "tags": {
+    "highway": "service",
+    "name": "Via Molino della Rocca di levante",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 435849361,
+  "tags": {
+    "highway": "service",
+    "name": "Via Molino della Rocca",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 435862435,
+  "tags": {
+    "access": "permissive",
+    "bicycle": "yes",
+    "embankment": "no",
+    "foot": "yes",
+    "highway": "footway",
+    "horse": "no",
+    "lit": "yes",
+    "name": "Lungomare di Levante",
+    "surface": "paving_stones",
+    "width": "3"
+  }
+},
+{
+  "type": "way",
+  "id": 435862436,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "footway",
+    "horse": "no",
+    "name": "Piazzale John Fitzgerald Kennedy",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 435862437,
+  "tags": {
+    "access": "permissive",
+    "bicycle": "yes",
+    "embankment": "no",
+    "foot": "yes",
+    "highway": "pedestrian",
+    "horse": "no",
+    "lit": "yes",
+    "name": "Piazzale John Fitzgerald Kennedy",
+    "surface": "paving_stones",
+    "width": "3"
+  }
+},
+{
+  "type": "way",
+  "id": 435862438,
+  "tags": {
+    "cycleway": "proposed",
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Via Aurelia",
+    "nat_ref": "SS1",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 435862440,
+  "tags": {
+    "highway": "service",
+    "name": "Via della Gioventù",
+    "oneway": "yes",
+    "service": "parking_aisle",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 435862442,
+  "tags": {
+    "highway": "service",
+    "name": "Via della Gioventù",
+    "oneway": "yes",
+    "service": "parking_aisle",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 435866267,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Alfred Tennyson",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 435869296,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Cascine"
+  }
+},
+{
+  "type": "way",
+  "id": 435869297,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Castagnassa"
+  }
+},
+{
+  "type": "way",
+  "id": 435870150,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Priccone"
+  }
+},
+{
+  "type": "way",
+  "id": 435873915,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Via Ronco",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 435982403,
+  "tags": {
+    "highway": "service",
+    "name": "Via discesa Santina"
+  }
+},
+{
+  "type": "way",
+  "id": 435993061,
+  "tags": {
+    "fixme": "Verificare il nome perchè potrebbe essere la parte finale di Via Gioiello",
+    "highway": "residential",
+    "name": "Via Prino inferiore",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 436019083,
+  "tags": {
+    "highway": "secondary",
+    "maxweight": "14",
+    "name": "Via Paolo Borsellino",
+    "ref": "SP78",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 436019084,
+  "tags": {
+    "highway": "service",
+    "name": "Via Zerbo"
+  }
+},
+{
+  "type": "way",
+  "id": 436099099,
+  "tags": {
+    "highway": "residential",
+    "lane_markings": "no",
+    "name": "Via della Gioventù",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 436101346,
+  "tags": {
+    "bicycle": "yes",
+    "foot": "designated",
+    "highway": "pedestrian",
+    "name": "Lungomare Alessandro Bianchi",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 436101347,
+  "tags": {
+    "cycleway": "proposed",
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Lungomare Alessandro Bianchi",
+    "nat_ref": "SS1",
+    "parking:both": "no",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 436130283,
+  "tags": {
+    "highway": "service",
+    "name": "Via Giardini Valverde",
+    "oneway": "no",
+    "service": "driveway",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 436137679,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Bellavista",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 436137680,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Lodole"
+  }
+},
+{
+  "type": "way",
+  "id": 436137681,
+  "tags": {
+    "highway": "residential",
+    "name": "Via dei Corbezzoli"
+  }
+},
+{
+  "type": "way",
+  "id": 436137682,
+  "tags": {
+    "highway": "residential",
+    "name": "Via delle More"
+  }
+},
+{
+  "type": "way",
+  "id": 436137683,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Località Lavelli",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 436138123,
+  "tags": {
+    "highway": "service",
+    "name": "Località Frexe"
+  }
+},
+{
+  "type": "way",
+  "id": 436139041,
+  "tags": {
+    "highway": "residential",
+    "name": "Località Vallone"
+  }
+},
+{
+  "type": "way",
+  "id": 436148728,
+  "tags": {
+    "highway": "service",
+    "name": "Località Lavelli"
+  }
+},
+{
+  "type": "way",
+  "id": 436148729,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Giardini Valverde"
+  }
+},
+{
+  "type": "way",
+  "id": 436153239,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Luigi Parenti",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 436153240,
+  "tags": {
+    "bridge": "yes",
+    "highway": "footway",
+    "layer": "1",
+    "name": "Via Luigi Parenti",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 436157618,
+  "tags": {
+    "highway": "service",
+    "name": "Località Leirola",
+    "service": "driveway"
+  }
+},
+{
+  "type": "way",
+  "id": 436157619,
+  "tags": {
+    "highway": "service",
+    "name": "Località Leirola",
+    "service": "driveway"
+  }
+},
+{
+  "type": "way",
+  "id": 436161177,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Chiappe"
+  }
+},
+{
+  "type": "way",
+  "id": 436161178,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Località Petadino"
+  }
+},
+{
+  "type": "way",
+  "id": 436161179,
+  "tags": {
+    "highway": "service",
+    "name": "Località Prato",
+    "service": "driveway"
+  }
+},
+{
+  "type": "way",
+  "id": 436161180,
+  "tags": {
+    "highway": "residential",
+    "name": "Località Prato"
+  }
+},
+{
+  "type": "way",
+  "id": 436161181,
+  "tags": {
+    "highway": "service",
+    "name": "Località Quartino",
+    "service": "driveway"
+  }
+},
+{
+  "type": "way",
+  "id": 436161182,
+  "tags": {
+    "highway": "service",
+    "name": "Località Quartino",
+    "service": "driveway"
+  }
+},
+{
+  "type": "way",
+  "id": 436161183,
+  "tags": {
+    "alt_name": "SP78 di Lerca",
+    "bridge": "yes",
+    "highway": "secondary",
+    "layer": "1",
+    "name": "Via Valverde",
+    "ref": "SP78",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 436161184,
+  "tags": {
+    "alt_name": "SP78 di Lerca",
+    "highway": "secondary",
+    "maxweight": "14",
+    "name": "Via Valverde",
+    "ref": "SP78",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 436161185,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via al Piano",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 436161186,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via al Piano"
+  }
+},
+{
+  "type": "way",
+  "id": 436180943,
+  "tags": {
+    "highway": "service",
+    "name": "Piazzale Vittime del Terrorismo",
+    "service": "parking_aisle",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 436240223,
+  "tags": {
+    "access": "private",
+    "highway": "service",
+    "motor_vehicle": "yes",
+    "name": "Via privata Ciumme'",
+    "surface": "gravel"
+  }
+},
+{
+  "type": "way",
+  "id": 436242100,
+  "tags": {
+    "highway": "residential",
+    "name": "Via dei Lecci"
+  }
+},
+{
+  "type": "way",
+  "id": 436244850,
+  "tags": {
+    "highway": "service",
+    "name": "Largo Salvo D'Acquisto",
+    "oneway": "yes",
+    "service": "parking_aisle",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 436247635,
+  "tags": {
+    "leisure": "garden",
+    "name": "Giardini Villa Rossello"
+  }
+},
+{
+  "type": "way",
+  "id": 436250086,
+  "tags": {
+    "highway": "footway",
+    "name": "Giardini lord Robert Baden Powell"
+  }
+},
+{
+  "type": "way",
+  "id": 436257442,
+  "tags": {
+    "highway": "path",
+    "name": "Via Molino della Rocca di levante"
+  }
+},
+{
+  "type": "way",
+  "id": 436257443,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Molino della Rocca di levante"
+  }
+},
+{
+  "type": "way",
+  "id": 436257444,
+  "tags": {
+    "access": "yes",
+    "bicycle": "yes",
+    "bridge": "yes",
+    "foot": "yes",
+    "highway": "service",
+    "horse": "no",
+    "layer": "1",
+    "motor_vehicle": "no",
+    "name": "Via Molino della Rocca di ponente",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 436257445,
+  "tags": {
+    "highway": "steps",
+    "name": "Via Molino della Rocca di ponente"
+  }
+},
+{
+  "type": "way",
+  "id": 436257446,
+  "tags": {
+    "highway": "service",
+    "name": "Via Molino della Rocca di ponente",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 436257679,
+  "tags": {
+    "highway": "service",
+    "name": "Via Molino della Rocca di levante",
+    "service": "driveway"
+  }
+},
+{
+  "type": "way",
+  "id": 436259830,
+  "tags": {
+    "bicycle": "designated",
+    "check_date:surface": "2025-02-11",
+    "cycleway:surface": "paving_stones",
+    "foot": "designated",
+    "footway:surface": "paving_stones",
+    "highway": "cycleway",
+    "name": "Passeggiata Gilberto Govi",
+    "segregated": "yes",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 436262027,
+  "tags": {
+    "area:highway": "residential",
+    "name": "Largo degli Ulivi",
+    "place": "square"
+  }
+},
+{
+  "type": "way",
+  "id": 436262028,
+  "tags": {
+    "highway": "footway",
+    "name": "Largo degli Ulivi"
+  }
+},
+{
+  "type": "way",
+  "id": 436262029,
+  "tags": {
+    "highway": "service",
+    "name": "Località Costa",
+    "service": "driveway"
+  }
+},
+{
+  "type": "way",
+  "id": 436262175,
+  "tags": {
+    "highway": "residential",
+    "name": "Via al Castello",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 436290132,
+  "tags": {
+    "highway": "residential",
+    "name": "Località Valdolivo di Sciarborasca",
+    "surface": "gravel"
+  }
+},
+{
+  "type": "way",
+  "id": 436290133,
+  "tags": {
+    "highway": "service",
+    "name": "Località Zucchina"
+  }
+},
+{
+  "type": "way",
+  "id": 436290342,
+  "tags": {
+    "highway": "service",
+    "name": "Località Barudda"
+  }
+},
+{
+  "type": "way",
+  "id": 436290343,
+  "tags": {
+    "access": "no",
+    "highway": "service",
+    "name": "Località Piana",
+    "service": "driveway"
+  }
+},
+{
+  "type": "way",
+  "id": 436293151,
+  "tags": {
+    "highway": "path",
+    "name": "Località Cuniazzo",
+    "sac_scale": "hiking"
+  }
+},
+{
+  "type": "way",
+  "id": 436295456,
+  "tags": {
+    "highway": "service",
+    "name": "Località Rive"
+  }
+},
+{
+  "type": "way",
+  "id": 436295457,
+  "tags": {
+    "highway": "service",
+    "name": "Località Rive"
+  }
+},
+{
+  "type": "way",
+  "id": 436298812,
+  "tags": {
+    "highway": "service",
+    "layer": "1",
+    "name": "Piazzale Nasturzio",
+    "service": "parking_aisle",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 436298813,
+  "tags": {
+    "highway": "service",
+    "name": "Piazzale Nasturzio",
+    "service": "parking_aisle",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 436300987,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Miramare"
+  }
+},
+{
+  "type": "way",
+  "id": 436301297,
+  "tags": {
+    "alt_name": "Via XXV Aprile",
+    "highway": "residential",
+    "lane_markings": "no",
+    "name": "Via Venticinque Aprile",
+    "short_name": "Via 25 Aprile",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 436301298,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "residential",
+    "lane_markings": "no",
+    "name": "Via Martiri delle Fosse Ardeatine",
+    "sidewalk:both": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 436302246,
+  "tags": {
+    "highway": "residential",
+    "name": "Località Fosse"
+  }
+},
+{
+  "type": "way",
+  "id": 436302247,
+  "tags": {
+    "highway": "residential",
+    "name": "Località Grittini"
+  }
+},
+{
+  "type": "way",
+  "id": 436302885,
+  "tags": {
+    "highway": "service",
+    "name": "Località Fosse"
+  }
+},
+{
+  "type": "way",
+  "id": 436302886,
+  "tags": {
+    "highway": "service",
+    "name": "Località Grittini"
+  }
+},
+{
+  "type": "way",
+  "id": 436303683,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Fosse Peulù",
+    "note": "guessed",
+    "service": "driveway"
+  }
+},
+{
+  "type": "way",
+  "id": 436303684,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Bricco delle Fosse"
+  }
+},
+{
+  "type": "way",
+  "id": 436304485,
+  "tags": {
+    "highway": "residential",
+    "lane_markings": "no",
+    "name": "Località Montegrosso",
+    "source:width": "ARCore",
+    "surface": "concrete",
+    "width": "2.4"
+  }
+},
+{
+  "type": "way",
+  "id": 436304487,
+  "tags": {
+    "bridge": "yes",
+    "highway": "residential",
+    "layer": "1",
+    "name": "Località Montegrosso"
+  }
+},
+{
+  "type": "way",
+  "id": 436304488,
+  "tags": {
+    "highway": "residential",
+    "name": "Località Montegrosso"
+  }
+},
+{
+  "type": "way",
+  "id": 436305445,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Località Erxio"
+  }
+},
+{
+  "type": "way",
+  "id": 436306299,
+  "tags": {
+    "highway": "service",
+    "name": "Via Lomellina"
+  }
+},
+{
+  "type": "way",
+  "id": 436312804,
+  "tags": {
+    "cycleway": "proposed",
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Via Arrestra",
+    "nat_ref": "SS1",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 436312805,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Via Aurelia di Ponente",
+    "nat_ref": "SS1",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 436312807,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Via Aurelia di Ponente",
+    "nat_ref": "SS1",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 436312808,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Via Aurelia di Ponente",
+    "nat_ref": "SS1",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 436315397,
+  "tags": {
+    "bridge": "yes",
+    "highway": "service",
+    "layer": "1",
+    "name": "Strada Romana inferiore",
+    "service": "driveway",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 436315399,
+  "tags": {
+    "highway": "service",
+    "name": "Strada Romana inferiore",
+    "service": "driveway",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 436635667,
+  "tags": {
+    "highway": "service",
+    "name": "Vico Capuzzola",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 436636060,
+  "tags": {
+    "area": "yes",
+    "highway": "pedestrian",
+    "name": "Molo Francesco Speca"
+  }
+},
+{
+  "type": "way",
+  "id": 436636061,
+  "tags": {
+    "area": "yes",
+    "highway": "pedestrian",
+    "name": "Piazza Giovanni Ventitreesimo",
+    "place": "square"
+  }
+},
+{
+  "type": "way",
+  "id": 436636179,
+  "tags": {
+    "highway": "pedestrian",
+    "horse": "yes",
+    "lit": "yes",
+    "name": "Lungomare Gilberto Govi",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 436636561,
+  "tags": {
+    "highway": "footway",
+    "name": "Passeggiata Gilberto Govi",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 437386403,
+  "tags": {
+    "highway": "footway",
+    "name": "passaggio pedonale"
+  }
+},
+{
+  "type": "way",
+  "id": 437390679,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Via della Pace",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 437390837,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Via della Pace",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 438338375,
+  "tags": {
+    "cycleway": "proposed",
+    "highway": "primary",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Lungomare Santa Maria",
+    "nat_ref": "SS1",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 462898862,
+  "tags": {
+    "highway": "service",
+    "maxspeed": "15",
+    "name": "VIa Superiore Onofrio Scassi",
+    "oneway": "no",
+    "service": "alley",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 489546007,
+  "tags": {
+    "bicycle": "no",
+    "foot": "yes",
+    "highway": "path",
+    "horse": "no",
+    "incline": "45%",
+    "name": "Radura Via Fermi",
+    "surface": "ground"
+  }
+},
+{
+  "type": "way",
+  "id": 505272384,
+  "tags": {
+    "alt_name": "SP78 di Lerca",
+    "description": "segnavia: 1 losanga rossa vuota",
+    "highway": "secondary",
+    "maxweight": "14",
+    "name": "Via al Piano",
+    "ref": "SP78",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 505272385,
+  "tags": {
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Strada vicinale Camulà",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 506188346,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Costa dei Prati",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 506188780,
+  "tags": {
+    "highway": "residential",
+    "name": "Località Chiossone"
+  }
+},
+{
+  "type": "way",
+  "id": 510497471,
+  "tags": {
+    "highway": "secondary",
+    "name": "Via Giovanni Falcone",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 510695397,
+  "tags": {
+    "highway": "secondary",
+    "name": "Via Paolo Borsellino",
+    "ref": "SP78",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 510695399,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Zerbo"
+  }
+},
+{
+  "type": "way",
+  "id": 518340251,
+  "tags": {
+    "cycleway": "proposed",
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Via Aurelia di Ponente",
+    "nat_ref": "SS1",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 518342437,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Via Aurelia",
+    "nat_ref": "SS1",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 567584820,
+  "tags": {
+    "highway": "service",
+    "lanes": "1",
+    "maxspeed": "30",
+    "name": "Viale del Parco",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 604174110,
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "maxheight:signed": "no",
+    "name": "Piazza Fosco Maggetti",
+    "railway": "abandoned",
+    "sidewalk:both": "separate",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 617278035,
+  "tags": {
+    "highway": "service",
+    "name": "Piazza Martiri delle Foibe",
+    "service": "parking_aisle",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 617284753,
+  "tags": {
+    "name": "Area di archeologia industriale Tiziano Mannoni",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "way",
+  "id": 745787909,
+  "tags": {
+    "access": "permissive",
+    "bicycle": "no",
+    "foot": "permissive",
+    "highway": "path",
+    "horse": "no",
+    "incline": "10%",
+    "motor_vehicle": "no",
+    "name": "Alla Sorgente",
+    "sac_scale": "mountain_hiking",
+    "surface": "ground"
+  }
+},
+{
+  "type": "way",
+  "id": 827718143,
+  "tags": {
+    "highway": "pedestrian",
+    "horse": "yes",
+    "lit": "yes",
+    "name": "Lungomare Gilberto Govi",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 827718144,
+  "tags": {
+    "bicycle": "yes",
+    "bridge": "yes",
+    "foot": "designated",
+    "highway": "pedestrian",
+    "layer": "1",
+    "name": "Lungomare Gilberto Govi",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 844253632,
+  "tags": {
+    "covered": "no",
+    "highway": "service",
+    "maxspeed": "30",
+    "name": "Via Nino Baglietto",
+    "oneway": "yes",
+    "service": "parking_aisle",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 844253633,
+  "tags": {
+    "highway": "service",
+    "name": "Via Nino Baglietto",
+    "oneway": "yes",
+    "service": "parking_aisle",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 844256529,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Luigi Allegro",
+    "surface": "asphalt",
+    "width": "2"
+  }
+},
+{
+  "type": "way",
+  "id": 846046361,
+  "tags": {
+    "access": "private",
+    "bicycle": "private",
+    "covered": "no",
+    "foot": "permissive",
+    "highway": "service",
+    "horse": "private",
+    "motor_vehicle": "private",
+    "name": "Via Luigi Allegro",
+    "oneway": "no",
+    "service": "alley"
+  }
+},
+{
+  "type": "way",
+  "id": 847497737,
+  "tags": {
+    "foot": "yes",
+    "highway": "footway",
+    "incline": "0%",
+    "name": "Via degli Oleandri",
+    "surface": "paving_stones",
+    "width": "2"
+  }
+},
+{
+  "type": "way",
+  "id": 847497738,
+  "tags": {
+    "foot": "yes",
+    "highway": "footway",
+    "incline": "down",
+    "name": "Via degli Oleandri",
+    "surface": "paving_stones",
+    "width": "2"
+  }
+},
+{
+  "type": "way",
+  "id": 847497741,
+  "tags": {
+    "foot": "yes",
+    "footway": "sidewalk",
+    "highway": "footway",
+    "name": "Via degli Oleandri",
+    "surface": "paving_stones",
+    "width": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 853283658,
+  "tags": {
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Via Marina Rati",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 853283660,
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Via 30 Ottobre 1943",
+    "railway": "abandoned",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 853290395,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Via Aurelia di Ponente",
+    "nat_ref": "SS1",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 853290396,
+  "tags": {
+    "highway": "residential",
+    "lane_markings": "no",
+    "name": "Via Arrestra interna",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 853290397,
+  "tags": {
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Via Arrestra interna",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 865408073,
+  "tags": {
+    "access": "no",
+    "covered": "no",
+    "highway": "unclassified",
+    "maxspeed": "30",
+    "name": "Via Pratorotondo",
+    "oneway": "no",
+    "surface": "gravel"
+  }
+},
+{
+  "type": "way",
+  "id": 890796105,
+  "tags": {
+    "highway": "footway",
+    "name": "Piazza Nicolò Luigi Poggi",
+    "short_name": "Piazza Poggi",
+    "surface": "paved",
+    "width": "2"
+  }
+},
+{
+  "type": "way",
+  "id": 890796106,
+  "tags": {
+    "access": "yes",
+    "highway": "steps",
+    "incline": "down",
+    "name": "Piazza Nicolò Luigi Poggi",
+    "short_name": "Piazza Poggi",
+    "step_count": "12",
+    "surface": "paved",
+    "width": "2"
+  }
+},
+{
+  "type": "way",
+  "id": 890796193,
+  "tags": {
+    "footway": "sidewalk",
+    "highway": "footway",
+    "name": "Piazza Antonio Buelli",
+    "short_name": "Piazza Buelli",
+    "surface": "paved",
+    "width": "2"
+  }
+},
+{
+  "type": "way",
+  "id": 890796246,
+  "tags": {
+    "footway": "sidewalk",
+    "highway": "footway",
+    "name": "Via Natalino Otto",
+    "surface": "paved",
+    "width": "1.5"
+  }
+},
+{
+  "type": "way",
+  "id": 890796460,
+  "tags": {
+    "highway": "residential",
+    "lanes": "1",
+    "maxspeed": "30",
+    "name": "Via San Giovanni Bosco",
+    "oneway": "no",
+    "short_name": "Via Bosco",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 890797359,
+  "tags": {
+    "highway": "footway",
+    "name": "Piazza Nicolò Luigi Poggi",
+    "short_name": "Piazza Poggi",
+    "surface": "paved",
+    "width": "2"
+  }
+},
+{
+  "type": "way",
+  "id": 890797741,
+  "tags": {
+    "highway": "footway",
+    "name": "Piazza Nicolò Luigi Poggi",
+    "short_name": "Piazza Poggi",
+    "surface": "paved",
+    "width": "2"
+  }
+},
+{
+  "type": "way",
+  "id": 890797861,
+  "tags": {
+    "highway": "footway",
+    "name": "Piazza Nicolò Luigi Poggi",
+    "short_name": "Piazza Poggi",
+    "surface": "paved",
+    "width": "2"
+  }
+},
+{
+  "type": "way",
+  "id": 891582180,
+  "tags": {
+    "dog": "yes",
+    "foot": "yes",
+    "highway": "path",
+    "mtb:scale": "3",
+    "name": "Scorsi trail",
+    "sac_scale": "mountain_hiking",
+    "trail_visibility": "good",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 895065978,
+  "tags": {
+    "highway": "residential",
+    "name": "Via della Madonnina",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 897314492,
+  "tags": {
+    "bicycle": "no",
+    "fixme": "Il sentiero non sembra corrispondere a quello rappresentato sulla mappa",
+    "highway": "path",
+    "horse": "no",
+    "incline": "15%",
+    "motor_vehicle": "no",
+    "name": "Sentiero del Rian du Scoggiu",
+    "surface": "dirt",
+    "width": "0.5"
+  }
+},
+{
+  "type": "way",
+  "id": 900715218,
+  "tags": {
+    "bicycle": "no",
+    "highway": "path",
+    "hiking": "yes",
+    "horse": "no",
+    "name": "Crosa du Calanu",
+    "outdoor": "yes",
+    "sac_scale": "hiking",
+    "ski": "no",
+    "surface": "ground",
+    "tracktype": "grade2",
+    "trail_visibility": "excellent",
+    "width": "0.7"
+  }
+},
+{
+  "type": "way",
+  "id": 900823783,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "path",
+    "hiking": "yes",
+    "horse": "no",
+    "mtb:scale": "0",
+    "name": "Crosa du Calanu",
+    "outdoor": "yes",
+    "sac_scale": "hiking",
+    "surface": "unpaved",
+    "tracktype": "grade2",
+    "trail_visibility": "intermediate"
+  }
+},
+{
+  "type": "way",
+  "id": 900826445,
+  "tags": {
+    "bicycle": "no",
+    "highway": "path",
+    "hiking": "yes",
+    "horse": "no",
+    "name": "Crosa du Calanu",
+    "note": "E' necessario scavalcare due alberi abbattuti lungo il tracciato",
+    "outdoor": "yes",
+    "sac_scale": "mountain_hiking",
+    "surface": "ground",
+    "tracktype": "grade3",
+    "trail_visibility": "good"
+  }
+},
+{
+  "type": "way",
+  "id": 900828149,
+  "tags": {
+    "access": "yes",
+    "bicycle": "no",
+    "foot": "yes",
+    "highway": "steps",
+    "hiking": "yes",
+    "horse": "no",
+    "mtb": "no",
+    "name": "Crosa du Calanu",
+    "sac_scale": "hiking",
+    "tactile_paving": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 900830754,
+  "tags": {
+    "bicycle": "no",
+    "highway": "path",
+    "hiking": "yes",
+    "horse": "no",
+    "name": "Crosa du Calanu",
+    "outdoor": "yes",
+    "sac_scale": "hiking",
+    "surface": "cobblestone",
+    "trail_visibility": "excellent"
+  }
+},
+{
+  "type": "way",
+  "id": 900830755,
+  "tags": {
+    "bicycle": "no",
+    "highway": "path",
+    "hiking": "yes",
+    "horse": "no",
+    "name": "Crosa du Calanu",
+    "outdoor": "yes",
+    "sac_scale": "hiking",
+    "surface": "cobblestone",
+    "trail_visibility": "excellent"
+  }
+},
+{
+  "type": "way",
+  "id": 905950204,
+  "tags": {
+    "alt_name": "Via XXV Aprile",
+    "highway": "residential",
+    "maxspeed": "10",
+    "name": "Via Venticinque Aprile",
+    "oneway": "no",
+    "short_name": "Via 25 Aprile",
+    "sidewalk:both": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 908891725,
+  "tags": {
+    "access": "permissive",
+    "bicycle": "yes",
+    "embankment": "no",
+    "foot": "yes",
+    "highway": "pedestrian",
+    "horse": "no",
+    "lit": "yes",
+    "name": "Passeggiata Aldo Moro",
+    "railway": "abandoned",
+    "surface": "paving_stones",
+    "width": "3"
+  }
+},
+{
+  "type": "way",
+  "id": 908891727,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Via Aurelia di levante",
+    "nat_ref": "SS1",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 910134913,
+  "tags": {
+    "alt_name": "Scoglio B",
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "path",
+    "hiking": "yes",
+    "horse": "yes",
+    "motor_vehicle": "no",
+    "mtb": "yes",
+    "name": "Sentiero delle Onde",
+    "sac_scale": "mountain_hiking",
+    "surface": "pebblestone",
+    "trail_visibility": "good"
+  }
+},
+{
+  "type": "way",
+  "id": 910134914,
+  "tags": {
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "path",
+    "hiking": "yes",
+    "horse": "yes",
+    "mtb": "yes",
+    "mtb:scale": "0",
+    "name": "Sentiero della Marchesa",
+    "sac_scale": "hiking",
+    "surface": "ground",
+    "trail_visibility": "excellent"
+  }
+},
+{
+  "type": "way",
+  "id": 910134915,
+  "tags": {
+    "alt_name": "Scoglio A",
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "path",
+    "hiking": "yes",
+    "horse": "no",
+    "motor_vehicle": "no",
+    "mtb": "yes",
+    "mtb:scale": "4",
+    "name": "Sentiero della Marchesa",
+    "sac_scale": "mountain_hiking",
+    "surface": "gravel",
+    "trail_visibility": "good"
+  }
+},
+{
+  "type": "way",
+  "id": 911550852,
+  "tags": {
+    "highway": "residential",
+    "lane_markings": "no",
+    "name": "Via Superiore Onofrio Scassi",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 911555877,
+  "tags": {
+    "highway": "footway",
+    "name": "Piazzale Ronchetto",
+    "width": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 911557337,
+  "tags": {
+    "highway": "service",
+    "maxheight": "2.5",
+    "maxspeed": "30",
+    "name": "Salita Villanuova",
+    "oneway": "no",
+    "smoothness": "very_bad",
+    "surface": "gravel",
+    "width": "2"
+  }
+},
+{
+  "type": "way",
+  "id": 913114997,
+  "tags": {
+    "access": "yes",
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "path",
+    "hiking": "yes",
+    "horse": "yes",
+    "motor_vehicle": "no",
+    "mtb": "yes",
+    "mtb:scale": "1",
+    "name": "Via Prato delle Oche",
+    "sac_scale": "hiking",
+    "surface": "unpaved",
+    "trail_visibility": "good"
+  }
+},
+{
+  "type": "way",
+  "id": 923931741,
+  "tags": {
+    "access": "yes",
+    "foot": "yes",
+    "highway": "path",
+    "hiking": "yes",
+    "horse": "no",
+    "motor_vehicle": "no",
+    "name": "sentiero lungo ex acquedotto della Tubi Ghisa",
+    "sac_scale": "mountain_hiking",
+    "surface": "ground",
+    "trail_visibility": "intermediate"
+  }
+},
+{
+  "type": "way",
+  "id": 924162442,
+  "tags": {
+    "abandoned": "yes",
+    "bicycle": "no",
+    "highway": "path",
+    "name": "sentiero per le grotte"
+  }
+},
+{
+  "type": "way",
+  "id": 924162443,
+  "tags": {
+    "abandoned": "yes",
+    "bicycle": "no",
+    "highway": "path",
+    "name": "sentiero per le grotte"
+  }
+},
+{
+  "type": "way",
+  "id": 925818939,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Bricco Falò"
+  }
+},
+{
+  "type": "way",
+  "id": 934307537,
+  "tags": {
+    "bicycle": "designated",
+    "description": "segnavia: un quadrato pieno rosso",
+    "highway": "path",
+    "mtb:scale": "3",
+    "name": "Pigo",
+    "sac_scale": "mountain_hiking",
+    "surface": "dirt",
+    "trail_visibility": "good"
+  }
+},
+{
+  "type": "way",
+  "id": 936349543,
+  "tags": {
+    "covered": "no",
+    "highway": "service",
+    "name": "Scalinata Donegaro",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 936389070,
+  "tags": {
+    "highway": "footway",
+    "name": "Via degli Agnese",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 939282354,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Passeggiata Aldo Moro",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 989312255,
+  "tags": {
+    "highway": "path",
+    "name": "Infermieri",
+    "sac_scale": "hiking",
+    "surface": "ground"
+  }
+},
+{
+  "type": "way",
+  "id": 989314925,
+  "tags": {
+    "alt_name": "Maluea",
+    "highway": "path",
+    "mtb:scale": "2",
+    "name": "Sentiero del Contadino",
+    "sac_scale": "hiking",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 992752515,
+  "tags": {
+    "area": "yes",
+    "highway": "pedestrian",
+    "name": "Largo Marinai d'Italia",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 1001493845,
+  "tags": {
+    "highway": "living_street",
+    "name": "Via Giacomo Buranello"
+  }
+},
+{
+  "type": "way",
+  "id": 1002685600,
+  "tags": {
+    "access": "yes",
+    "handrail": "no",
+    "highway": "steps",
+    "name": "Molo Francesco Speca",
+    "step_count": "3",
+    "tactile_paving": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 1002686884,
+  "tags": {
+    "highway": "footway",
+    "name": "Passeggiata Gilberto Govi",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 1003183267,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "path",
+    "mtb": "designated",
+    "mtb:name": "Ciazze",
+    "mtb:scale": "3",
+    "name": "DH Ciazze",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 1040148849,
+  "tags": {
+    "highway": "service",
+    "name": "Località Capuà",
+    "service": "driveway"
+  }
+},
+{
+  "type": "way",
+  "id": 1051641525,
+  "tags": {
+    "highway": "path",
+    "name": "Fonte Spinsu-Cima del Pozzo"
+  }
+},
+{
+  "type": "way",
+  "id": 1121452245,
+  "tags": {
+    "highway": "path",
+    "mtb:scale": "1",
+    "name": "Maioa",
+    "sac_scale": "hiking"
+  }
+},
+{
+  "type": "way",
+  "id": 1121452246,
+  "tags": {
+    "highway": "path",
+    "name": "Sentiero per il Beuca",
+    "sac_scale": "mountain_hiking"
+  }
+},
+{
+  "type": "way",
+  "id": 1121452250,
+  "tags": {
+    "alt_name": "Beuca",
+    "highway": "path",
+    "mtb:scale": "2",
+    "name": "DH Matti",
+    "sac_scale": "mountain_hiking",
+    "surface": "unpaved",
+    "trail_visibility": "good"
+  }
+},
+{
+  "type": "way",
+  "id": 1128242719,
+  "tags": {
+    "highway": "path",
+    "mtb:scale": "4",
+    "name": "DH Matti",
+    "sac_scale": "hiking",
+    "surface": "pebblestone"
+  }
+},
+{
+  "type": "way",
+  "id": 1145689312,
+  "tags": {
+    "highway": "service",
+    "name": "Via Molinetto",
+    "service": "parking_aisle",
+    "smoothness": "good",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1154637543,
+  "tags": {
+    "footway": "sidewalk",
+    "highway": "footway",
+    "name": "Via Enea Silvio Recagno",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1167887925,
+  "tags": {
+    "bicycle": "no",
+    "highway": "path",
+    "name": "Via del Nonno - arrampicata II-III",
+    "sac_scale": "demanding_alpine_hiking",
+    "trail_visibility": "bad"
+  }
+},
+{
+  "type": "way",
+  "id": 1198280422,
+  "tags": {
+    "bicycle": "permissive",
+    "foot": "yes",
+    "highway": "secondary",
+    "horse": "permissive",
+    "maxspeed": "30",
+    "name": "Via al Ponte",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1210150466,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Via Aurelia",
+    "nat_ref": "SS1",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1210150467,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Lungomare Alessandro Bianchi",
+    "nat_ref": "SS1",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1213160896,
+  "tags": {
+    "alt_name": "Molo Francesco Speca",
+    "highway": "footway",
+    "name": "Molo Francesco Speca"
+  }
+},
+{
+  "type": "way",
+  "id": 1230384413,
+  "tags": {
+    "access": "yes",
+    "bicycle": "no",
+    "foot": "yes",
+    "highway": "path",
+    "horse": "no",
+    "motor_vehicle": "no",
+    "name": "Lelua Trail",
+    "sac_scale": "demanding_mountain_hiking",
+    "surface": "dirt",
+    "trail_visibility": "bad",
+    "width": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 1238815345,
+  "tags": {
+    "description": "segnavia: un quadrato pieno rosso",
+    "highway": "path",
+    "mtb:scale": "3",
+    "name": "Pigo",
+    "sac_scale": "mountain_hiking",
+    "surface": "dirt",
+    "trail_visibility": "good"
+  }
+},
+{
+  "type": "way",
+  "id": 1243702678,
+  "tags": {
+    "bicycle": "no",
+    "highway": "path",
+    "name": "Rumaro EE",
+    "sac_scale": "mountain_hiking",
+    "trail_visibility": "intermediate"
+  }
+},
+{
+  "type": "way",
+  "id": 1253221954,
+  "tags": {
+    "highway": "path",
+    "mtb:scale": "2",
+    "name": "Ciapin",
+    "sac_scale": "mountain_hiking",
+    "surface": "unpaved"
+  }
+},
+{
+  "type": "way",
+  "id": 1253223262,
+  "tags": {
+    "highway": "path",
+    "mtb:scale": "2",
+    "name": "Sentiero OPP",
+    "sac_scale": "hiking",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 1254282483,
+  "tags": {
+    "highway": "footway",
+    "name": "Lungomare Gilberto Govi",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 1254282484,
+  "tags": {
+    "highway": "pedestrian",
+    "horse": "yes",
+    "lit": "yes",
+    "name": "Lungomare Gilberto Govi",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 1254282485,
+  "tags": {
+    "handrail": "yes",
+    "highway": "steps",
+    "horse": "yes",
+    "incline": "down",
+    "lit": "yes",
+    "name": "Lungomare Gilberto Govi",
+    "ramp": "no",
+    "step_count": "5",
+    "surface": "paving_stones",
+    "tactile_paving": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 1259080579,
+  "tags": {
+    "highway": "path",
+    "name": "Scorza Trail",
+    "sac_scale": "hiking",
+    "trail_visibility": "good"
+  }
+},
+{
+  "type": "way",
+  "id": 1259080580,
+  "tags": {
+    "access": "yes",
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "path",
+    "horse": "no",
+    "motor_vehicle": "no",
+    "name": "Scorza Trail",
+    "sac_scale": "hiking",
+    "trail_visibility": "good"
+  }
+},
+{
+  "type": "way",
+  "id": 1264406503,
+  "tags": {
+    "access": "no",
+    "highway": "unclassified",
+    "name": "Via Bricco Falò",
+    "note": "Ponte distrutto da alluvione e non ricostruito al 2024"
+  }
+},
+{
+  "type": "way",
+  "id": 1264406504,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Bricco Falò",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1267072926,
+  "tags": {
+    "alt_name": "Vico Vignagrande",
+    "highway": "pedestrian",
+    "name": "Vico Vigna grande",
+    "surface": "paved",
+    "tunnel": "building_passage"
+  }
+},
+{
+  "type": "way",
+  "id": 1267072927,
+  "tags": {
+    "alt_name": "Vico Vignagrande",
+    "highway": "pedestrian",
+    "name": "Vico Vigna grande",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 1267366788,
+  "tags": {
+    "highway": "service",
+    "layer": "1",
+    "name": "Località Talapò",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1269663761,
+  "tags": {
+    "highway": "service",
+    "maxheight": "2.5",
+    "maxspeed": "30",
+    "name": "Salita Villanuova",
+    "oneway": "no",
+    "smoothness": "very_bad",
+    "surface": "gravel",
+    "tunnel": "building_passage",
+    "width": "2"
+  }
+},
+{
+  "type": "way",
+  "id": 1269663762,
+  "tags": {
+    "highway": "service",
+    "maxheight": "2.5",
+    "maxspeed": "30",
+    "name": "Salita Villanuova",
+    "oneway": "no",
+    "smoothness": "very_bad",
+    "surface": "gravel",
+    "width": "2"
+  }
+},
+{
+  "type": "way",
+  "id": 1269694938,
+  "tags": {
+    "foot": "yes",
+    "highway": "footway",
+    "name": "Via degli Oleandri",
+    "surface": "paving_stones",
+    "width": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 1269694939,
+  "tags": {
+    "foot": "yes",
+    "highway": "footway",
+    "name": "Via degli Oleandri",
+    "surface": "paved",
+    "tunnel": "building_passage",
+    "width": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 1275051798,
+  "tags": {
+    "bicycle": "no",
+    "foot": "yes",
+    "highway": "path",
+    "lit": "no",
+    "name": "via di uscita della mediterranea",
+    "ski": "no",
+    "smoothness": "impassable",
+    "snowmobile": "no",
+    "surface": "grass",
+    "trail_visibility": "bad",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 1275338634,
+  "tags": {
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Via Ronco",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1275338635,
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Via Enea Silvio Recagno",
+    "sidewalk:both": "separate",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1275338636,
+  "tags": {
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Via Ronco",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1275338637,
+  "tags": {
+    "highway": "residential",
+    "lane_markings": "no",
+    "name": "Via Enea Silvio Recagno",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1279686258,
+  "tags": {
+    "highway": "service",
+    "maxheight": "2.2",
+    "maxspeed": "30",
+    "name": "Piazzale Guido Rossa",
+    "service": "parking_aisle",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1279847498,
+  "tags": {
+    "highway": "path",
+    "name": "Infermieri",
+    "sac_scale": "hiking",
+    "surface": "ground"
+  }
+},
+{
+  "type": "way",
+  "id": 1279847499,
+  "tags": {
+    "bridge": "yes",
+    "highway": "path",
+    "layer": "1",
+    "name": "Infermieri",
+    "sac_scale": "hiking",
+    "surface": "wood"
+  }
+},
+{
+  "type": "way",
+  "id": 1281138016,
+  "tags": {
+    "highway": "footway",
+    "lit": "yes",
+    "name": "Passeggiata Gilberto Govi",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 1281144306,
+  "tags": {
+    "flood_prone": "yes",
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "maxheight": "3.9",
+    "name": "Via Molinetto",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1281144307,
+  "tags": {
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Via Molinetto",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1281144308,
+  "tags": {
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "layer": "-1",
+    "maxheight": "3.9",
+    "name": "Via Molinetto",
+    "oneway": "yes",
+    "surface": "asphalt",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1281144309,
+  "tags": {
+    "flood_prone": "yes",
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "maxheight": "3.9",
+    "name": "Via Molinetto",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1281144310,
+  "tags": {
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Via Molinetto",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1281144311,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Via Aurelia di Ponente",
+    "nat_ref": "SS1",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1281144312,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Via Aurelia di Ponente",
+    "nat_ref": "SS1",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1281144313,
+  "tags": {
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Via Molinetto",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1288010299,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "path",
+    "name": "Sentiero Ca' da Ninna",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 1288012522,
+  "tags": {
+    "highway": "path",
+    "name": "Sentiero Stella di Sciarborasca",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 1293805990,
+  "tags": {
+    "highway": "path",
+    "name": "Sentiero del Ponte",
+    "trail_visibility": "bad"
+  }
+},
+{
+  "type": "way",
+  "id": 1293805991,
+  "tags": {
+    "highway": "path",
+    "name": "Sentiero del Ponte",
+    "trail_visibility": "bad"
+  }
+},
+{
+  "type": "way",
+  "id": 1300998480,
+  "tags": {
+    "access": "yes",
+    "bicycle": "no",
+    "highway": "footway",
+    "horse": "no",
+    "motor_vehicle": "no",
+    "name": "Piazzale Guido Rossa",
+    "stroller": "yes",
+    "surface": "asphalt",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1301357295,
+  "tags": {
+    "bicycle": "no",
+    "ford": "yes",
+    "highway": "path",
+    "name": "Rumaro EE",
+    "sac_scale": "mountain_hiking",
+    "trail_visibility": "intermediate"
+  }
+},
+{
+  "type": "way",
+  "id": 1301357296,
+  "tags": {
+    "bicycle": "no",
+    "highway": "path",
+    "name": "Rumaro EE",
+    "sac_scale": "mountain_hiking",
+    "trail_visibility": "intermediate"
+  }
+},
+{
+  "type": "way",
+  "id": 1301357300,
+  "tags": {
+    "highway": "residential",
+    "lane_markings": "no",
+    "name": "Via Ettore Vernazza",
+    "oneway": "yes",
+    "parking:left": "no",
+    "parking:right": "separate",
+    "sidewalk:left": "separate",
+    "sidewalk:right": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1301420607,
+  "tags": {
+    "highway": "service",
+    "name": "Località Piancavallero",
+    "service": "driveway",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1318833568,
+  "tags": {
+    "highway": "footway",
+    "name": "Passeggiata Gilberto Govi",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 1318833569,
+  "tags": {
+    "highway": "footway",
+    "name": "Largo Marinai d'Italia",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 1347375315,
+  "tags": {
+    "bicycle": "no",
+    "dog": "leashed",
+    "foot": "yes",
+    "highway": "path",
+    "horse": "no",
+    "lit": "no",
+    "name": "sentiero dell'acquedotto",
+    "sac_scale": "alpine_hiking",
+    "smoothness": "impassable",
+    "snowmobile": "no",
+    "surface": "grass",
+    "trail_visibility": "intermediate",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 1348911870,
+  "tags": {
+    "highway": "path",
+    "name": "Sentiero per il Beuca",
+    "sac_scale": "mountain_hiking"
+  }
+},
+{
+  "type": "way",
+  "id": 1352856090,
+  "tags": {
+    "bicycle": "no",
+    "foot": "yes",
+    "highway": "path",
+    "horse": "no",
+    "lit": "no",
+    "name": "sentiero dell'acquedotto",
+    "sac_scale": "alpine_hiking",
+    "snowmobile": "no",
+    "surface": "grass",
+    "trail_visibility": "intermediate",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 1354685030,
+  "tags": {
+    "access": "permissive",
+    "bicycle": "yes",
+    "embankment": "no",
+    "foot": "yes",
+    "highway": "pedestrian",
+    "horse": "no",
+    "lit": "yes",
+    "name": "Passeggiata Aldo Moro",
+    "railway": "abandoned",
+    "surface": "paving_stones",
+    "width": "3"
+  }
+},
+{
+  "type": "way",
+  "id": 1354685031,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Via Aurelia di levante",
+    "nat_ref": "SS1",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1354685034,
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Via 30 Ottobre 1943",
+    "railway": "abandoned",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1354685052,
+  "tags": {
+    "highway": "unclassified",
+    "lane_markings": "no",
+    "name": "Via Arrestra interna",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1372661011,
+  "tags": {
+    "highway": "service",
+    "name": "Via Molinetto"
+  }
+},
+{
+  "type": "way",
+  "id": 1372661012,
+  "tags": {
+    "highway": "service",
+    "name": "Via Molinetto"
+  }
+},
+{
+  "type": "way",
+  "id": 1372661024,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Valcalda"
+  }
+},
+{
+  "type": "way",
+  "id": 1372661026,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Valcalda"
+  }
+},
+{
+  "type": "way",
+  "id": 1400202844,
+  "tags": {
+    "access": "yes",
+    "bicycle": "no",
+    "foot": "yes",
+    "highway": "path",
+    "horse": "no",
+    "motor_vehicle": "no",
+    "name": "Scorza Trail",
+    "sac_scale": "mountain_hiking",
+    "surface": "dirt",
+    "trail_visibility": "good"
+  }
+},
+{
+  "type": "way",
+  "id": 1400202845,
+  "tags": {
+    "access": "yes",
+    "bicycle": "no",
+    "foot": "yes",
+    "highway": "path",
+    "horse": "no",
+    "name": "Scorza Trail",
+    "sac_scale": "mountain_hiking",
+    "trail_visibility": "good"
+  }
+},
+{
+  "type": "way",
+  "id": 1443191460,
+  "tags": {
+    "highway": "footway",
+    "name": "Largo Marinai d'Italia"
+  }
+},
+{
+  "type": "way",
+  "id": 1443225194,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "footway",
+    "horse": "no",
+    "name": "Via don Minzoni",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 1446009741,
+  "tags": {
+    "highway": "service",
+    "maxspeed": "30",
+    "name": "Via Nino Baglietto",
+    "oneway": "yes",
+    "service": "parking_aisle",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1446009742,
+  "tags": {
+    "highway": "service",
+    "maxspeed": "30",
+    "name": "Via Nino Baglietto",
+    "oneway": "yes",
+    "service": "parking_aisle",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1472943134,
+  "tags": {
+    "cycleway": "proposed",
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Via Aurelia",
+    "nat_ref": "SS1",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1472943135,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Via Aurelia di Ponente",
+    "nat_ref": "SS1",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1472943136,
+  "tags": {
+    "cycleway": "proposed",
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Via Aurelia di Ponente",
+    "nat_ref": "SS1",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1472943141,
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "maxheight:signed": "no",
+    "name": "Piazza Fosco Maggetti",
+    "railway": "abandoned",
+    "sidewalk:both": "separate",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1473356936,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada di Pratozanino",
+    "ref": "SP66",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1473356937,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via al Deserto",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1473356938,
+  "tags": {
+    "cycleway": "proposed",
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Via Arrestra",
+    "nat_ref": "SS1",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1473719035,
+  "tags": {
+    "alt_name": "Via Frankenbergen",
+    "highway": "residential",
+    "name": "Via Peter Frankenbergen"
+  }
+},
+{
+  "type": "way",
+  "id": 1473719036,
+  "tags": {
+    "alt_name": "Via Frankenbergen",
+    "highway": "residential",
+    "name": "Via Peter Frankenbergen"
+  }
+},
+{
+  "type": "way",
+  "id": 1473719037,
+  "tags": {
+    "alt_name": "Via Frankenbergen",
+    "highway": "residential",
+    "name": "Via Peter Frankenbergen"
+  }
+},
+{
+  "type": "way",
+  "id": 1473719038,
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "maxheight": "3.8",
+    "maxspeed": "50",
+    "name": "Via Luigi Allegro",
+    "oneway": "no",
+    "ref": "SP66",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1473722765,
+  "tags": {
+    "alt_name": "Via Frankenbergen",
+    "highway": "residential",
+    "name": "Via Peter Frankenbergen"
+  }
+},
+{
+  "type": "way",
+  "id": 1473722766,
+  "tags": {
+    "alt_name": "Via Frankenbergen",
+    "highway": "residential",
+    "name": "Via Peter Frankenbergen"
+  }
+},
+{
+  "type": "way",
+  "id": 1474233896,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Via Aurelia",
+    "nat_ref": "SS1",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1474233897,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Capieso",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1474233898,
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "maxheight:signed": "no",
+    "name": "Piazza Fosco Maggetti",
+    "railway": "abandoned",
+    "sidewalk:both": "separate",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1474233899,
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Via Enea Silvio Recagno",
+    "sidewalk:both": "separate",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1474233900,
+  "tags": {
+    "highway": "residential",
+    "maxspeed": "30",
+    "name": "Piazza Antonio Buelli",
+    "oneway": "yes",
+    "short_name": "Piazza Buelli",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1474233902,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Gioiello",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1488975804,
+  "tags": {
+    "highway": "residential",
+    "name": "Via privata Prino superiore"
+  }
+},
+{
+  "type": "way",
+  "id": 1503386643,
+  "tags": {
+    "dog": "leashed",
+    "foot": "official",
+    "highway": "path",
+    "lit": "no",
+    "motor_vehicle": "no",
+    "mtb:scale": "3",
+    "name": "Uscita Lerca sponda DX",
+    "sac_scale": "mountain_hiking",
+    "smoothness": "impassable",
+    "surface": "unpaved",
+    "trail_visibility": "good",
+    "trailblazed": "cairns",
+    "vehicle": "no",
+    "wheelchair": "no",
+    "width": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 1531016331,
+  "tags": {
+    "highway": "residential",
+    "lane_markings": "no",
+    "name": "Via Nettuno",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1535198811,
+  "tags": {
+    "highway": "footway",
+    "name": "Piazza Nicolò Luigi Poggi",
+    "short_name": "Piazza Poggi",
+    "surface": "paved",
+    "width": "2"
+  }
+},
+{
+  "type": "way",
+  "id": 1545073055,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Via Aurelia di levante",
+    "nat_ref": "SS1",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1545073056,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Via Aurelia",
+    "nat_ref": "SS1",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1545073057,
+  "tags": {
+    "highway": "service",
+    "lanes": "1",
+    "maxspeed": "30",
+    "name": "Viale del Parco",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1545073058,
+  "tags": {
+    "cycleway": "proposed",
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Via Aurelia",
+    "nat_ref": "SS1",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1545073059,
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Via 30 Ottobre 1943",
+    "railway": "abandoned",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "relation",
+  "id": 9976596,
+  "tags": {
+    "landuse": "grass",
+    "leisure": "park",
+    "name": "Giardini Lord Robert Baden Powell of Gilwell",
+    "operator": "Comune di Cogoleto",
+    "type": "multipolygon"
+  }
+}
+
+  ]
+}

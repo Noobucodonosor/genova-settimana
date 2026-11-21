@@ -1,0 +1,2253 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-11-01T20:28:51Z",
+    "timestamp_areas_base": "2026-11-01T18:30:20Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 676346890,
+  "tags": {
+    "historic": "memorial",
+    "name": "Sacrario Martiri del Turchino"
+  }
+},
+{
+  "type": "node",
+  "id": 1766025090,
+  "tags": {
+    "amenity": "school",
+    "name": "Scuola Media Statale Mele"
+  }
+},
+{
+  "type": "node",
+  "id": 1780349657,
+  "tags": {
+    "historic": "archaeological_site",
+    "name": "Pietra di Issel",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 2391000779,
+  "tags": {
+    "name": "Castello di pietra",
+    "place": "locality",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 2391000780,
+  "tags": {
+    "name": "Castello di pietra",
+    "place": "locality",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 2391000785,
+  "tags": {
+    "name": "Neviera della Grilla",
+    "place": "locality",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 3375614521,
+  "tags": {
+    "amenity": "school",
+    "name": "Scuola elementare A. Gaggero",
+    "operator": "Istituto Comprensivo Voltri 1"
+  }
+},
+{
+  "type": "node",
+  "id": 9240401053,
+  "tags": {
+    "historic": "memorial",
+    "inscription": "La Provincia di Genova a perenne ricordo dei Martiri del Turchino trucidati il 19 maggio 1944",
+    "memorial": "plaque",
+    "name": "Cippo ai Martiri del Turchino"
+  }
+},
+{
+  "type": "way",
+  "id": 12903147,
+  "tags": {
+    "bridge": "yes",
+    "bridge:name": "Tianin",
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Autostrada dei Trafori",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 12903148,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "layer": "-1",
+    "length": "175",
+    "lit": "24/7",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Galleria Rianasso",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "overtaking:hgv": "no",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 12903168,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "layer": "-1",
+    "lit": "24/7",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Galleria Rianasso",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "overtaking:hgv": "no",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 12903179,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "lit": "no",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Autostrada dei Trafori",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "overtaking:hgv": "no",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 16187921,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "layer": "-1",
+    "name": "Strada Statale del Turchino",
+    "ref": "SS456",
+    "surface": "asphalt",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 18603290,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Acquasanta",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 24106181,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "layer": "-3",
+    "length": "969",
+    "lit": "24/7",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Galleria Turchino",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "overtaking:hgv": "no",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes",
+    "tunnel": "yes",
+    "tunnel:name": "Turchino"
+  }
+},
+{
+  "type": "way",
+  "id": 24106205,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "lit": "no",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Autostrada dei Trafori",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 24106220,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "layer": "-3",
+    "lit": "24/7",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Galleria Turchino",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "overtaking:hgv": "no",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes",
+    "tunnel": "yes",
+    "tunnel:name": "Turchino"
+  }
+},
+{
+  "type": "way",
+  "id": 24311135,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Strada Statale del Turchino",
+    "ref": "SS456",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 24311236,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "lit": "no",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Autostrada dei Trafori",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "overtaking:hgv": "no",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 24311238,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "layer": "-1",
+    "lit": "24/7",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Galleria Massimo Risso",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "overtaking:hgv": "no",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 24311249,
+  "tags": {
+    "bridge": "yes",
+    "bridge:name": "Bric - Ronco",
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Autostrada dei Trafori",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "overtaking:hgv": "no",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 24311259,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "layer": "-1",
+    "length": "980",
+    "lit": "24/7",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Galleria Massimo Risso",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "overtaking:hgv": "no",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 25978836,
+  "tags": {
+    "highway": "residential",
+    "lit": "yes",
+    "name": "Via Baiarda",
+    "surface": "asphalt",
+    "trail_visibility": "excellent"
+  }
+},
+{
+  "type": "way",
+  "id": 25983715,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Baiarda",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 25984293,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Giutte",
+    "surface": "asphalt",
+    "width": "3.5"
+  }
+},
+{
+  "type": "way",
+  "id": 26689819,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Biscaccia"
+  }
+},
+{
+  "type": "way",
+  "id": 26690091,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "secondary",
+    "name": "Strada Provinciale del Faiallo",
+    "ref": "SP73",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 27661098,
+  "tags": {
+    "building": "yes",
+    "historic": "castle",
+    "name": "Forte Geremia",
+    "website": "https://www.101giteinliguria.it/forte-geremia-a-due-passi-da-genova/",
+    "wikidata": "Q3748561",
+    "wikimedia_commons": "Category:Forte Geremia",
+    "wikipedia": "it:Forte Geremia"
+  }
+},
+{
+  "type": "way",
+  "id": 36769683,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Perniciaro",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 38525053,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "lit": "no",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Autostrada dei Trafori",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 38525055,
+  "tags": {
+    "bridge": "yes",
+    "bridge:name": "Tianin",
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Autostrada dei Trafori",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 38525059,
+  "tags": {
+    "bridge": "yes",
+    "bridge:name": "Bric - Ronco",
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Autostrada dei Trafori",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 38525060,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "lit": "no",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Autostrada dei Trafori",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "overtaking:hgv": "no",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 38525062,
+  "tags": {
+    "bridge": "viaduct",
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "layer": "1",
+    "length": "672",
+    "lit": "no",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Autostrada dei Trafori",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "overtaking:hgv": "no",
+    "ref": "A26",
+    "start_date": "1972",
+    "surface": "asphalt",
+    "toll": "yes",
+    "wikipedia": "it:Viadotto Gorsexio"
+  }
+},
+{
+  "type": "way",
+  "id": 38525063,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "lit": "no",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Autostrada dei Trafori",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 39233395,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via del Piano"
+  }
+},
+{
+  "type": "way",
+  "id": 47246105,
+  "tags": {
+    "bridge": "viaduct",
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "layer": "1",
+    "length": "672",
+    "lit": "no",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Autostrada dei Trafori",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A26",
+    "start_date": "1978",
+    "surface": "asphalt",
+    "toll": "yes",
+    "wikipedia": "it:Viadotto Gorsexio"
+  }
+},
+{
+  "type": "way",
+  "id": 52067114,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "secondary",
+    "lit": "no",
+    "name": "Strada Provinciale del Faiallo",
+    "ref": "SP73",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 109991329,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Via Provinciale",
+    "nat_name": "Strada statale 456 del Turchino",
+    "ref": "SS456",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 134567985,
+  "tags": {
+    "highway": "service",
+    "name": "Via Ferriera",
+    "service": "driveway"
+  }
+},
+{
+  "type": "way",
+  "id": 134567986,
+  "tags": {
+    "highway": "residential",
+    "name": "Via delle Vigne"
+  }
+},
+{
+  "type": "way",
+  "id": 134567988,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Molinetto di Voltri"
+  }
+},
+{
+  "type": "way",
+  "id": 134567996,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Comun"
+  }
+},
+{
+  "type": "way",
+  "id": 134568000,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Barasino"
+  }
+},
+{
+  "type": "way",
+  "id": 134568001,
+  "tags": {
+    "highway": "service",
+    "name": "Via Ferriera",
+    "service": "driveway"
+  }
+},
+{
+  "type": "way",
+  "id": 134568002,
+  "tags": {
+    "alt_name": "Via Ferriere di Voltri",
+    "highway": "unclassified",
+    "name": "Via Ferriera",
+    "note": "Il tratto di via nel comune di Mele si chiama Via Ferriera, quello nel comune di Genova Via Ferriere di Voltri"
+  }
+},
+{
+  "type": "way",
+  "id": 134568003,
+  "tags": {
+    "highway": "unclassified",
+    "maxspeed": "30",
+    "name": "Via Fondocrosa"
+  }
+},
+{
+  "type": "way",
+  "id": 134568010,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Scaglia"
+  }
+},
+{
+  "type": "way",
+  "id": 134693877,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Biscaccia"
+  }
+},
+{
+  "type": "way",
+  "id": 134693880,
+  "tags": {
+    "bridge": "yes",
+    "highway": "unclassified",
+    "layer": "1",
+    "name": "Via Biscaccia"
+  }
+},
+{
+  "type": "way",
+  "id": 134693898,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Ronco"
+  }
+},
+{
+  "type": "way",
+  "id": 134693902,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Ronco"
+  }
+},
+{
+  "type": "way",
+  "id": 135111786,
+  "tags": {
+    "bridge": "yes",
+    "highway": "residential",
+    "layer": "1",
+    "name": "Via Gallinea"
+  }
+},
+{
+  "type": "way",
+  "id": 135111787,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Gallinea"
+  }
+},
+{
+  "type": "way",
+  "id": 135111790,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Gallinea"
+  }
+},
+{
+  "type": "way",
+  "id": 135111793,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Gallinea"
+  }
+},
+{
+  "type": "way",
+  "id": 135163739,
+  "tags": {
+    "bridge": "yes",
+    "highway": "residential",
+    "layer": "1",
+    "name": "Via Stazione"
+  }
+},
+{
+  "type": "way",
+  "id": 135163742,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Stazione"
+  }
+},
+{
+  "type": "way",
+  "id": 135258753,
+  "tags": {
+    "bridge": "yes",
+    "highway": "unclassified",
+    "layer": "1",
+    "name": "Via Acquasanta",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 135258754,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Corzetti",
+    "surface": "unpaved",
+    "trail_visibility": "good"
+  }
+},
+{
+  "type": "way",
+  "id": 135258755,
+  "tags": {
+    "highway": "service",
+    "name": "Via Corzetti",
+    "service": "driveway",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 135258756,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Corzetti",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 135258757,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Corzetti",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 135258758,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Corzetti",
+    "surface": "unpaved",
+    "trail_visibility": "good"
+  }
+},
+{
+  "type": "way",
+  "id": 159159607,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Biscaccia"
+  }
+},
+{
+  "type": "way",
+  "id": 159809168,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Corzetti",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 159809170,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Via Corzetti",
+    "sac_scale": "hiking",
+    "surface": "unpaved",
+    "trail_visibility": "good"
+  }
+},
+{
+  "type": "way",
+  "id": 159809172,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Corzetti",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 159842199,
+  "tags": {
+    "access": "private",
+    "highway": "track",
+    "name": "Via Giutte"
+  }
+},
+{
+  "type": "way",
+  "id": 159842206,
+  "tags": {
+    "access": "private",
+    "highway": "unclassified",
+    "name": "Via Baiarda"
+  }
+},
+{
+  "type": "way",
+  "id": 165021358,
+  "tags": {
+    "highway": "footway",
+    "name": "Discesa Ferriera"
+  }
+},
+{
+  "type": "way",
+  "id": 165021359,
+  "tags": {
+    "highway": "footway",
+    "name": "Via del Piano"
+  }
+},
+{
+  "type": "way",
+  "id": 165021365,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Poggio"
+  }
+},
+{
+  "type": "way",
+  "id": 165021366,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via del Piano"
+  }
+},
+{
+  "type": "way",
+  "id": 165021371,
+  "tags": {
+    "area": "yes",
+    "highway": "pedestrian",
+    "name": "Piazza del Municipio"
+  }
+},
+{
+  "type": "way",
+  "id": 165024141,
+  "tags": {
+    "alt_name": "Piazza Municipio",
+    "highway": "unclassified",
+    "name": "Piazza del Municipio",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 165024149,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Via Crosa"
+  }
+},
+{
+  "type": "way",
+  "id": 165024150,
+  "tags": {
+    "highway": "steps",
+    "name": "Via Crosa"
+  }
+},
+{
+  "type": "way",
+  "id": 165024151,
+  "tags": {
+    "alt_name": "Via Ferriere di Voltri",
+    "highway": "unclassified",
+    "name": "Via Ferriera",
+    "note": "Il tratto di via nel comune di Mele si chiama Via Ferriera, quello nel comune di Genova Via Ferriere di Voltri"
+  }
+},
+{
+  "type": "way",
+  "id": 165024152,
+  "tags": {
+    "alt_name": "Via Ferriere di Voltri",
+    "bridge": "yes",
+    "highway": "unclassified",
+    "layer": "1",
+    "name": "Via Ferriera",
+    "note": "Il tratto di via nel comune di Mele si chiama Via Ferriera, quello nel comune di Genova Via Ferriere di Voltri"
+  }
+},
+{
+  "type": "way",
+  "id": 165024153,
+  "tags": {
+    "alt_name": "Via Ferriere di Voltri",
+    "highway": "unclassified",
+    "name": "Via Ferriera",
+    "note": "Il tratto di via nel comune di Mele si chiama Via Ferriera, quello nel comune di Genova Via Ferriere di Voltri"
+  }
+},
+{
+  "type": "way",
+  "id": 165024154,
+  "tags": {
+    "highway": "residential",
+    "name": "Via del Piano"
+  }
+},
+{
+  "type": "way",
+  "id": 165024155,
+  "tags": {
+    "area": "yes",
+    "highway": "residential",
+    "name": "Via del Piano"
+  }
+},
+{
+  "type": "way",
+  "id": 165024157,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Perniciaro"
+  }
+},
+{
+  "type": "way",
+  "id": 203609528,
+  "tags": {
+    "amenity": "townhall",
+    "building": "yes",
+    "building:levels": "4",
+    "name": "Municipio",
+    "roof:shape": "hipped",
+    "source": "Regione Liguria"
+  }
+},
+{
+  "type": "way",
+  "id": 208150117,
+  "tags": {
+    "highway": "service",
+    "motor_vehicle": "private",
+    "name": "Via Ferriera",
+    "service": "driveway"
+  }
+},
+{
+  "type": "way",
+  "id": 208150118,
+  "tags": {
+    "highway": "track",
+    "motor_vehicle": "private",
+    "name": "Via Ferriera",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 213099091,
+  "tags": {
+    "cycleway": "no",
+    "highway": "unclassified",
+    "incline": "10%",
+    "lanes": "1",
+    "lit": "no",
+    "name": "Via Corzetti",
+    "surface": "asphalt",
+    "trail_visibility": "excellent",
+    "width": "2"
+  }
+},
+{
+  "type": "way",
+  "id": 213099092,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Corzetti",
+    "surface": "unpaved",
+    "trail_visibility": "good"
+  }
+},
+{
+  "type": "way",
+  "id": 213099093,
+  "tags": {
+    "cycleway": "no",
+    "highway": "unclassified",
+    "incline": "5%",
+    "lanes": "2",
+    "lit": "no",
+    "name": "Via Giutte",
+    "surface": "asphalt",
+    "width": "3.5"
+  }
+},
+{
+  "type": "way",
+  "id": 218264953,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Baiarda",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 225879194,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Stazione",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 227941567,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "lit": "no",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Autostrada dei Trafori",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 229182775,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Baiarda",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 229605514,
+  "tags": {
+    "highway": "path",
+    "mtb:name": "Trail Veleno",
+    "mtb:scale": "2",
+    "name": "Veleno",
+    "sac_scale": "mountain_hiking",
+    "surface": "dirt",
+    "trail_visibility": "good"
+  }
+},
+{
+  "type": "way",
+  "id": 230309077,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Strada Statale del Turchino",
+    "ref": "SS456",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 230309078,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "layer": "-2",
+    "name": "Nuova galleria del Turchino",
+    "ref": "SS456",
+    "surface": "asphalt",
+    "tunnel": "yes",
+    "tunnel:length": "283",
+    "tunnel:name": "Martiri del Turchino 19 maggio 1944"
+  }
+},
+{
+  "type": "way",
+  "id": 231535229,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Baiarda",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 231535230,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Baiarda",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 243051978,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada Provinciale del Faiallo",
+    "old_ref": "SS456",
+    "ref": "SP73",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 257744920,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Giutte",
+    "surface": "asphalt",
+    "width": "3.5"
+  }
+},
+{
+  "type": "way",
+  "id": 257744922,
+  "tags": {
+    "bridge": "yes",
+    "highway": "unclassified",
+    "layer": "1",
+    "name": "Giutte",
+    "surface": "asphalt",
+    "width": "3.5"
+  }
+},
+{
+  "type": "way",
+  "id": 276951020,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Strada Statale del Turchino",
+    "ref": "SS456",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 276951025,
+  "tags": {
+    "bridge": "yes",
+    "highway": "primary",
+    "lanes": "2",
+    "layer": "1",
+    "name": "Strada provinciale del Turchino",
+    "ref": "SP456",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 287314991,
+  "tags": {
+    "bridge": "yes",
+    "highway": "tertiary",
+    "incline": "3,6%",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "yes",
+    "name": "Via Acquasanta",
+    "surface": "asphalt",
+    "width": "3.5"
+  }
+},
+{
+  "type": "way",
+  "id": 287314992,
+  "tags": {
+    "highway": "tertiary",
+    "incline": "3.6%",
+    "lanes": "2",
+    "lit": "yes",
+    "name": "Via Acquasanta",
+    "surface": "asphalt",
+    "width": "3.5"
+  }
+},
+{
+  "type": "way",
+  "id": 385833277,
+  "tags": {
+    "bicycle": "no",
+    "foot": "permissive",
+    "highway": "path",
+    "name": "Verne",
+    "surface": "unpaved",
+    "tracktype": "grade4",
+    "trail_visibility": "horrible"
+  }
+},
+{
+  "type": "way",
+  "id": 385958695,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "path",
+    "mtb:scale": "2",
+    "mtb:scale:imba": "2",
+    "name": "Gallinea-Fado",
+    "sac_scale": "mountain_hiking",
+    "surface": "unpaved"
+  }
+},
+{
+  "type": "way",
+  "id": 385964979,
+  "tags": {
+    "highway": "path",
+    "name": "Gallinea-Fado"
+  }
+},
+{
+  "type": "way",
+  "id": 385965421,
+  "tags": {
+    "bicycle": "designated",
+    "highway": "path",
+    "mtb:name": "Cancelletti",
+    "mtb:scale": "2",
+    "name": "Trail Cancelletti",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 385965422,
+  "tags": {
+    "highway": "path",
+    "mtb:scale": "1",
+    "name": "Fado-Cannellona",
+    "surface": "unpaved"
+  }
+},
+{
+  "type": "way",
+  "id": 449704800,
+  "tags": {
+    "bin": "yes",
+    "caravans": "yes",
+    "drinking_water": "yes",
+    "highway": "services",
+    "internet_access": "wlan",
+    "name": "Area di Turchino Est",
+    "opening_hours": "24/7",
+    "picnic_table": "yes",
+    "toilets": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 449704801,
+  "tags": {
+    "bin": "yes",
+    "caravans": "yes",
+    "drinking_water": "yes",
+    "highway": "services",
+    "internet_access": "wlan",
+    "name": "Area di Turchino Ovest",
+    "opening_hours": "24/7",
+    "picnic_table": "no",
+    "toilets": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 506186323,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "secondary",
+    "lit": "no",
+    "name": "Strada Provinciale del Faiallo",
+    "ref": "SP73",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 506186324,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "secondary",
+    "lit": "no",
+    "name": "Strada Provinciale del Faiallo",
+    "ref": "SP73",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 506399521,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "secondary",
+    "lit": "no",
+    "name": "Strada Provinciale del Faiallo",
+    "ref": "SP73",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 507558617,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "secondary",
+    "lit": "no",
+    "name": "Strada Provinciale del Faiallo",
+    "ref": "SP73",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 511770616,
+  "tags": {
+    "alt_name": "Via dei Giovi",
+    "highway": "unclassified",
+    "name": "Via superiore dei Giovi",
+    "width": "2.2"
+  }
+},
+{
+  "type": "way",
+  "id": 511770617,
+  "tags": {
+    "alt_name": "Via dei Giovi",
+    "highway": "unclassified",
+    "name": "Via superiore dei Giovi",
+    "width": "2.2"
+  }
+},
+{
+  "type": "way",
+  "id": 544363805,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Via Fondocrosa",
+    "nat_name": "Strada statale 456 del Turchino",
+    "ref": "SS456",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 544363806,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Via Fado",
+    "nat_name": "Strada statale 456 del Turchino",
+    "ref": "SS456",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 575603422,
+  "tags": {
+    "emergency": "yes",
+    "foot": "permissive",
+    "highway": "service",
+    "incline": "down",
+    "lit": "yes",
+    "motor_vehicle": "no",
+    "motorcar": "yes",
+    "motorcycle": "yes",
+    "name": "Via Ronco",
+    "service": "emergency_access",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 602093341,
+  "tags": {
+    "highway": "path",
+    "mtb": "yes",
+    "name": "Bellavista",
+    "sac_scale": "hiking"
+  }
+},
+{
+  "type": "way",
+  "id": 664337407,
+  "tags": {
+    "highway": "path",
+    "name": "Coll.Giutte-Leite",
+    "surface": "unpaved"
+  }
+},
+{
+  "type": "way",
+  "id": 675773459,
+  "tags": {
+    "highway": "path",
+    "name": "Leite-CaduGallu",
+    "surface": "unpaved"
+  }
+},
+{
+  "type": "way",
+  "id": 675774404,
+  "tags": {
+    "highway": "path",
+    "mtb:name": "Ca du Gallo",
+    "mtb:scale": "2",
+    "name": "CaduGallu-Giutte",
+    "surface": "unpaved"
+  }
+},
+{
+  "type": "way",
+  "id": 675774407,
+  "tags": {
+    "highway": "path",
+    "mtb:name": "Ca du Gallo",
+    "mtb:scale": "2",
+    "name": "CaduGallu-Giutte",
+    "surface": "unpaved"
+  }
+},
+{
+  "type": "way",
+  "id": 675828354,
+  "tags": {
+    "bicycle": "designated",
+    "highway": "path",
+    "mtb:scale": "1",
+    "name": "Polveriera",
+    "surface": "unpaved"
+  }
+},
+{
+  "type": "way",
+  "id": 692196479,
+  "tags": {
+    "access": "private",
+    "highway": "service",
+    "name": "Via Biscaccia"
+  }
+},
+{
+  "type": "way",
+  "id": 724452290,
+  "tags": {
+    "bridge": "viaduct",
+    "bridge:name": "Viadotto Pecetti",
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Autostrada dei Trafori",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 724452292,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "lit": "no",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Autostrada dei Trafori",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 724452294,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "lit": "no",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Autostrada dei Trafori",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 724452296,
+  "tags": {
+    "bridge": "viaduct",
+    "bridge:name": "Viadotto Fado",
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "layer": "1",
+    "length": "360",
+    "lit": "no",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Autostrada dei Trafori",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 724456134,
+  "tags": {
+    "bridge": "viaduct",
+    "bridge:name": "Viadotto Pecetti",
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Autostrada dei Trafori",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 759795758,
+  "tags": {
+    "bicycle": "no",
+    "foot": "no",
+    "highway": "motorway",
+    "horse": "no",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "lit": "no",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Autostrada dei Trafori",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 810230523,
+  "tags": {
+    "bicycle": "designated",
+    "highway": "path",
+    "mtb:name": "Cancelletti",
+    "mtb:scale": "2",
+    "name": "Trail Cancelletti",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 810231827,
+  "tags": {
+    "highway": "path",
+    "name": "Fado-Cannellona",
+    "surface": "unpaved"
+  }
+},
+{
+  "type": "way",
+  "id": 810231828,
+  "tags": {
+    "highway": "path",
+    "mtb:name": "Cancelletti",
+    "mtb:scale": "2",
+    "name": "Fado-Cannellona",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 810415154,
+  "tags": {
+    "highway": "path",
+    "name": "Fado-Cannellona",
+    "surface": "unpaved"
+  }
+},
+{
+  "type": "way",
+  "id": 844827168,
+  "tags": {
+    "highway": "service",
+    "name": "Via Corzetti",
+    "surface": "unpaved"
+  }
+},
+{
+  "type": "way",
+  "id": 844827170,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Corzetti",
+    "surface": "unpaved"
+  }
+},
+{
+  "type": "way",
+  "id": 895691216,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Pian del Prete",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 895691973,
+  "tags": {
+    "bicycle": "designated",
+    "highway": "path",
+    "mtb:scale": "2",
+    "name": "Trail Cancelletti",
+    "surface": "ground"
+  }
+},
+{
+  "type": "way",
+  "id": 895694938,
+  "tags": {
+    "bicycle": "designated",
+    "highway": "path",
+    "mtb:name": "Cancelletti",
+    "mtb:scale": "2",
+    "name": "Trail Cancelletti",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 895694939,
+  "tags": {
+    "highway": "path",
+    "name": "Fado-Cannellona"
+  }
+},
+{
+  "type": "way",
+  "id": 967463391,
+  "tags": {
+    "bicycle": "designated",
+    "highway": "path",
+    "mtb:name": "Cancelletti",
+    "mtb:scale": "2",
+    "name": "Trail Cancelletti Compression",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 970192304,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Giutte",
+    "surface": "asphalt",
+    "width": "3.5"
+  }
+},
+{
+  "type": "way",
+  "id": 970192305,
+  "tags": {
+    "bridge": "yes",
+    "highway": "unclassified",
+    "layer": "1",
+    "name": "Via Giutte",
+    "surface": "asphalt",
+    "width": "3.5"
+  }
+},
+{
+  "type": "way",
+  "id": 1024556491,
+  "tags": {
+    "alt_name": "Via Ferriere di Voltri",
+    "highway": "unclassified",
+    "name": "Via Ferriera",
+    "note": "Il tratto di via nel comune di Mele si chiama Via Ferriera, quello nel comune di Genova Via Ferriere di Voltri"
+  }
+},
+{
+  "type": "way",
+  "id": 1024556492,
+  "tags": {
+    "highway": "service",
+    "layer": "-1",
+    "motor_vehicle": "private",
+    "name": "Via Ferriera",
+    "service": "driveway"
+  }
+},
+{
+  "type": "way",
+  "id": 1024556493,
+  "tags": {
+    "highway": "service",
+    "motor_vehicle": "private",
+    "name": "Via Ferriera",
+    "service": "driveway"
+  }
+},
+{
+  "type": "way",
+  "id": 1024556495,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Gallinea"
+  }
+},
+{
+  "type": "way",
+  "id": 1024556496,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Gallinea"
+  }
+},
+{
+  "type": "way",
+  "id": 1024556910,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Gallinea"
+  }
+},
+{
+  "type": "way",
+  "id": 1024559611,
+  "tags": {
+    "alt_name": "Via dei Giovi",
+    "highway": "unclassified",
+    "name": "Via dei Giovi Superiore",
+    "width": "2.2"
+  }
+},
+{
+  "type": "way",
+  "id": 1024561063,
+  "tags": {
+    "highway": "unclassified",
+    "maxspeed": "30",
+    "name": "Via Fondocrosa"
+  }
+},
+{
+  "type": "way",
+  "id": 1024561065,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via del Piano"
+  }
+},
+{
+  "type": "way",
+  "id": 1024561066,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Via Provinciale",
+    "nat_name": "Strada statale 456 del Turchino",
+    "ref": "SS456",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1024561067,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Via Provinciale",
+    "nat_name": "Strada statale 456 del Turchino",
+    "ref": "SS456",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1024564098,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Biscaccia"
+  }
+},
+{
+  "type": "way",
+  "id": 1024564099,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Biscaccia"
+  }
+},
+{
+  "type": "way",
+  "id": 1024564100,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Biscaccia"
+  }
+},
+{
+  "type": "way",
+  "id": 1024564102,
+  "tags": {
+    "highway": "service",
+    "name": "Via Biscaccia"
+  }
+},
+{
+  "type": "way",
+  "id": 1024564103,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Biscaccia"
+  }
+},
+{
+  "type": "way",
+  "id": 1024568477,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Giutte",
+    "surface": "asphalt",
+    "width": "3.5"
+  }
+},
+{
+  "type": "way",
+  "id": 1115965504,
+  "tags": {
+    "alt_name": "Via Ferriere di Voltri",
+    "highway": "unclassified",
+    "name": "Via Ferriera",
+    "note": "Il tratto di via nel comune di Mele si chiama Via Ferriera, quello nel comune di Genova Via Ferriere di Voltri"
+  }
+},
+{
+  "type": "way",
+  "id": 1115965505,
+  "tags": {
+    "highway": "residential",
+    "name": "Via del Piano"
+  }
+},
+{
+  "type": "way",
+  "id": 1115965506,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Via Provinciale",
+    "nat_name": "Strada statale 456 del Turchino",
+    "ref": "SS456",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1115965507,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Via Provinciale",
+    "nat_name": "Strada statale 456 del Turchino",
+    "ref": "SS456",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1115967428,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "secondary",
+    "lit": "no",
+    "name": "Strada Provinciale del Faiallo",
+    "ref": "SP73",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1116224873,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "secondary",
+    "lit": "no",
+    "name": "Strada Provinciale del Faiallo",
+    "ref": "SP73",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1159590613,
+  "tags": {
+    "bridge:structure": "beam",
+    "layer": "1",
+    "man_made": "bridge",
+    "name": "Viadotto Gorsexio",
+    "tourism": "attraction",
+    "wikidata": "Q55964560",
+    "wikipedia": "it:Viadotto Gorsexio"
+  }
+},
+{
+  "type": "way",
+  "id": 1240170492,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Privata Gentile"
+  }
+},
+{
+  "type": "way",
+  "id": 1241945701,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Biscaccia"
+  }
+},
+{
+  "type": "way",
+  "id": 1241945702,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Biscaccia"
+  }
+},
+{
+  "type": "way",
+  "id": 1241945707,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Ronco"
+  }
+},
+{
+  "type": "way",
+  "id": 1241945708,
+  "tags": {
+    "highway": "service",
+    "name": "Via Ronco"
+  }
+},
+{
+  "type": "way",
+  "id": 1241945716,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Biscaccia"
+  }
+},
+{
+  "type": "way",
+  "id": 1241991823,
+  "tags": {
+    "alt_name": "Via Ferriere di Voltri",
+    "bridge": "yes",
+    "highway": "unclassified",
+    "layer": "1",
+    "name": "Via Ferriera",
+    "note": "Il tratto di via nel comune di Mele si chiama Via Ferriera, quello nel comune di Genova Via Ferriere di Voltri"
+  }
+},
+{
+  "type": "way",
+  "id": 1241991826,
+  "tags": {
+    "highway": "unclassified",
+    "maxspeed": "30",
+    "name": "Via Fondocrosa"
+  }
+},
+{
+  "type": "way",
+  "id": 1278417724,
+  "tags": {
+    "highway": "footway",
+    "name": "Discesa Ferriera"
+  }
+},
+{
+  "type": "way",
+  "id": 1278417725,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Gallinea"
+  }
+},
+{
+  "type": "way",
+  "id": 1278417726,
+  "tags": {
+    "bridge": "yes",
+    "highway": "residential",
+    "layer": "1",
+    "name": "Via Gallinea"
+  }
+},
+{
+  "type": "way",
+  "id": 1278417735,
+  "tags": {
+    "highway": "service",
+    "motor_vehicle": "private",
+    "name": "Via Ferriera",
+    "service": "driveway"
+  }
+},
+{
+  "type": "way",
+  "id": 1279919071,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Pian del Prete"
+  }
+},
+{
+  "type": "way",
+  "id": 1279919075,
+  "tags": {
+    "bridge": "yes",
+    "highway": "unclassified",
+    "layer": "1",
+    "name": "Via Pian del Prete"
+  }
+},
+{
+  "type": "way",
+  "id": 1279919076,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Pian del Prete"
+  }
+},
+{
+  "type": "way",
+  "id": 1364476441,
+  "tags": {
+    "bridge:structure": "beam",
+    "layer": "1",
+    "man_made": "bridge",
+    "name": "Viadotto Bric - Ronco"
+  }
+},
+{
+  "type": "way",
+  "id": 1364476454,
+  "tags": {
+    "bridge:structure": "beam",
+    "layer": "1",
+    "man_made": "bridge",
+    "name": "Viadotto Tianin"
+  }
+},
+{
+  "type": "way",
+  "id": 1364476455,
+  "tags": {
+    "bridge": "viaduct",
+    "bridge:name": "Viadotto Fado",
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Autostrada dei Trafori",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1364476456,
+  "tags": {
+    "layer": "1",
+    "man_made": "bridge",
+    "name": "Viadotto Fado"
+  }
+},
+{
+  "type": "way",
+  "id": 1364476457,
+  "tags": {
+    "bridge:structure": "beam",
+    "layer": "1",
+    "man_made": "bridge",
+    "name": "Viadotto Pecetti"
+  }
+},
+{
+  "type": "way",
+  "id": 1472495642,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Strada Statale del Turchino",
+    "ref": "SS456",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1472621151,
+  "tags": {
+    "highway": "steps",
+    "name": "Via Scaglia"
+  }
+},
+{
+  "type": "way",
+  "id": 1472621152,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Scaglia"
+  }
+},
+{
+  "type": "way",
+  "id": 1472770153,
+  "tags": {
+    "alt_name": "Piazza Municipio",
+    "highway": "unclassified",
+    "name": "Piazza del Municipio",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "relation",
+  "id": 377223,
+  "tags": {
+    "name": "Autostrada dei Trafori",
+    "name:etymology:wikidata": "Q44377",
+    "name:etymology:wikipedia": "it:Galleria (ingegneria)",
+    "network": "IT:A-road",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A26",
+    "route": "road",
+    "type": "route",
+    "wikidata": "Q789092",
+    "wikipedia": "it:Autostrada A26 (Italia)"
+  }
+}
+
+  ]
+}

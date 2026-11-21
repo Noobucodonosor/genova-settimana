@@ -1,0 +1,2305 @@
+Total person/family-named places extracted: 1863
+Breakdown by detection source: {'Pattern Titolo/Ruolo': 316, 'Casata/Personaggio Storico': 370, 'Pattern Nome+Cognome': 1007, 'Wikidata P138': 52, 'OSM+Wikidata': 118}
+  Archivolto San Silvestro  -->  San Silvestro (Intitolazione con titolo/ruolo (San))
+  Archivolto dei Fregoso  -->  Fregoso (Personaggio o casata storica (Fregoso))
+  Archivolto di San Giovanni il Vecchio  -->  San Giovanni il Vecchio (Intitolazione con titolo/ruolo (San))
+  Archivolto di Sant'Andrea  -->  Sant'Andrea (Intitolazione con titolo/ruolo (Sant'andrea))
+  Archivolto di Santa Brigida  -->  Santa Brigida (Intitolazione con titolo/ruolo (Santa))
+  Archivolto di Santa Marta  -->  Santa Marta (Intitolazione con titolo/ruolo (Santa))
+  Arena Fabrizio De Andrè  -->  Fabrizio De Andrè (Nome e cognome di personaggio)
+  Belvedere Don Ga  -->  Don Ga (Intitolazione con titolo/ruolo (Don))
+  Belvedere Don Giacomo Chiesa  -->  Don Giacomo Chiesa (Intitolazione con titolo/ruolo (Don))
+  Belvedere Don Giovanni Battista Trabucco  -->  Don Giovanni Battista Trabucco (Intitolazione con titolo/ruolo (Don))
+  Belvedere Edoardo Firpo  -->  Edoardo Firpo (Personaggio o casata storica (Firpo))
+  Belvedere Gennarino Sansone  -->  Gennarino Sansone (Nome e cognome di personaggio)
+  Belvedere Gerolamo Da Passano  -->  Gerolamo Da Passano (Nome e cognome di personaggio)
+  Belvedere Lina Volonghi  -->  Lina Volonghi (Personaggio o casata storica (Volonghi))
+  Belvedere Lorenzo Pomodoro  -->  Lorenzo Pomodoro (Nome e cognome di personaggio)
+  Belvedere Luigi Montaldo  -->  Luigi Montaldo (Personaggio o casata storica (Montaldo))
+  Belvedere Mario Capio  -->  Mario Capio (Nome e cognome di personaggio)
+  Belvedere Padre Guglielmo Salvi  -->  Padre Guglielmo Salvi (Intitolazione con titolo/ruolo (Padre))
+  Belvedere Tonino Conte  -->  Tonino Conte (Nome e cognome di personaggio)
+  Belvedere Vittorio Pertusio  -->  Vittorio Pertusio (Nome e cognome di personaggio)
+  Biblioteca Adriano Vanzetti  -->  Adriano Vanzetti (Nome e cognome di personaggio)
+  Biblioteca Civica Berio  -->  Carlo Giuseppe Vespasiano Berio (presbitero e abate italiano)
+  Biblioteca Civica Federico Campanella  -->  Federico Campanella (patriota e politico italiano)
+  Biblioteca Civica Francesco Domenico Guerrazzi  -->  Francesco Domenico Guerrazzi (politico e scrittore italiano (1804-1873))
+  Biblioteca Civica Francesco Podestà  -->  Civica Francesco Podestà (Personaggio o casata storica (Podestà))
+  Biblioteca Civica Gian Luigi Lercari  -->  Civica Gian Luigi Lercari (Personaggio o casata storica (Lercari))
+  Biblioteca Civica Luigi Augusto Cervetto  -->  Luigi Augusto Cervetto (bibliotecario e storico locale italiano (1854-1923))
+  Biblioteca Civica Rosanna Benzi  -->  Rosanna Benzi (attivista, giornalista e scrittrice italiana, nota per essere sopravvissuta alla poliomielite)
+  Biblioteca Civica Virgilio Brocchi  -->  Virgilio Brocchi (scrittore italiano (1876-1961))
+  Biblioteca Edmondo De Amicis  -->  Edmondo De Amicis (Nome e cognome di personaggio)
+  Biblioteca Edoardo Firpo  -->  Edoardo Firpo (Personaggio o casata storica (Firpo))
+  Biblioteca Ferdinando Palasciano  -->  Ferdinando Palasciano (Nome e cognome di personaggio)
+  Biblioteca Franzoniana  -->  Paolo Gerolamo Franzoni (presbitero italiano)
+  Biblioteca Giovanni Palatucci  -->  Giovanni Palatucci (Nome e cognome di personaggio)
+  Biblioteca Giuseppe Piersantelli  -->  Giuseppe Piersantelli (Nome e cognome di personaggio)
+  Biblioteca Internazionale per Ragazzi Edmondo De Amicis  -->  Edmondo De Amicis (scrittore italiano (1846-1908))
+  Biblioteca Lercari  -->  Lercari (Personaggio o casata storica (Lercari))
+  Biblioteca Marconi Italiana  -->  Marconi Italiana (Personaggio o casata storica (Marconi))
+  Biblioteca Saffi  -->  Saffi (Personaggio o casata storica (Saffi))
+  Biblioteca Sergio Lupetti  -->  Sergio Lupetti (Nome e cognome di personaggio)
+Calata Andalò di Negro
+Calata Darsena
+Calata Falcone e Borsellino
+Calata Mandraccio
+Calata Molo Vecchio
+Calata Molo Vecchio Luigi Durand De La Penne
+Calata Salumi
+Calata delle Capitanerie di Porto
+Castello Casareto
+Castello Foltzer
+Castello Stramesi
+Corso Belvedere
+Corso Buenos Aires
+Corso Carbonara
+Corso Dogali
+Corso Magenta
+Corso Mentana
+Corso Monte Grappa
+Corso Sardegna
+Corso Torino
+Giardini 10 Maggio 1909
+Giardini 10 febbraio
+Giardini 21 Marzo 1968
+Giardini 8 marzo
+Giardini Alexander Langer
+Giardini Angiola Berpi
+Giardini Antonietta Vignolo "Tonia"
+Giardini Antonino Casu
+Giardini Aquile Randagie
+Giardini Baltimora
+Giardini Bambini di Terezin
+Giardini Buonvicini
+Giardini Caduti nei Lager Nazisti
+Giardini Cassiani Ingoni
+Giardini Combattenti Alleati
+Giardini De Caroli
+Giardini Donne di Cornigliano
+Giardini Eunice Kennedy Shriver
+Giardini Fiumara
+Giardini Gianni di Benedetto
+Giardini Ginocchio
+Giardini Guerra
+Giardini Jack Clerici
+Giardini John Lennon
+Giardini Jolanda Rocca e Luigi Matteini
+Giardini La Valletta
+Giardini Linneo
+Giardini Louis Braille
+Giardini Luciana Canepa
+Giardini Madonnetta
+Giardini Maestri del Lavoro
+Giardini Mariagrazia Casazza
+Giardini Melvin Jones
+Giardini Mirolli
+Giardini Natalino Otto
+Giardini Nilde Iotti
+Giardini Ottorino Balduzzi
+Giardini Oz
+Giardini Piazza Martinez
+Giardini Piazzale Palli
+Giardini Primavera
+Giardini Primula
+Giardini Ravel
+Giardini Savi
+Giardini Simon Bolivar
+Giardini Tina Bertolotto "Alba"
+Giardini Triestino Genovesi
+Giardini Tuttobene
+Giardini Unicef
+Giardini Via Carnia
+Giardini Via Mansueto
+Giardini Via Vezzani
+Giardini Via dei Carpentieri
+Giardini Villa Rosa
+Giardini Vittime di Bologna
+Giardini del Cuore
+Giardini del Tritone
+Giardini del Volontariato
+Giardini della Casetta dei Filtri
+Giardini delle Oche
+Giardini di Babilonia
+Giardini di Costa e Poggio
+Giardini di Palazzo Reale
+Giardini di Piazza Acquarone
+Giardini di Via Berlioz
+Giardini di Via Brocchi
+Giardini di Via Cechov
+Giardini di Via Giulia de Vincenzi
+Giardini di Via Tofane
+Giardini di Villa Stalder
+Giardini ex ONPI
+Giardini in Memoria delle Vittime dell'alluvione del 4 novembre 2011
+Giardini inferiori San Biagio
+Giardini pensili del DIpartimento Architettura Design dell'Università di Genova
+Giardini pubblici di Teglia
+Giardini scolastici
+Giardini superiori San Biagio
+Giardini via Arrivabene
+Largo 7 settembre 1893
+Largo Archimede
+Largo Autieri d'Italia
+Largo Banderali
+Largo Caduti R.S.I.
+Largo Caduti sul Lavoro
+Largo Calasetta
+Largo Carmine Alfredo Romanzi
+Largo Dodici Ottobre
+Largo Emanuela Loi
+Largo Fanti del Piave
+Largo Giovine Europa
+Largo Gloriano Mugnaini
+Largo Mucchio "O Muggio"
+Largo Nevio Rosso
+Largo Papacino D'Antoni
+Largo Poggi
+Largo Pontile
+Largo Scoglio dell'Oca
+Largo Unione Calcio Sampdoria 1946
+Largo dei Francesi
+Largo della Zecca
+Largo delle Fucine
+Museo Agostiniano di Arte Sacra
+Museo Biblioteca dell'attore
+Museo Certosa di Genova
+Museo Civico di Archeologia Ligure
+Museo Civico di storia e cultura contadina
+Museo Diocesano
+Museo Navale
+Museo Palazzo Reale di Genova
+Museo del Jazz Gianni Dagnino - Italian Jazz Institute
+Museo dell'Accademia Ligustica di Belle Arti
+Museo dell'Acqua e del Gas
+Museo della Carta
+Museo della Lanterna
+Museo della Montagna
+Museo della Storia del Genoa
+Museo delle culture del mondo
+Museo nazionale dell’emigrazione italiana
+Museo speleologico del Monte Gazzo
+Ospedale Evangelico Internazionale
+Ospedale Villa Scassi
+Palazzo Bianco
+Palazzo Ducale
+Palazzo Marc'Aurelio Rebuffo
+Palazzo Reale
+Palazzo Rosso
+Palazzo dell'Università di Genova
+Piazza Acquaverde
+Piazza Adriatico
+Piazza Albertina
+Piazza Amatore Sciesa
+Piazza Aquileia
+Piazza Armando Grosso
+Piazza Artoria
+Piazza Banchi
+Piazza Bandiera
+Piazza Battelli
+Piazza Battistino Rivara
+Piazza Bignami
+Piazza Borgo Pila
+Piazza Cadevilla
+Piazza Campetto
+Piazza Campopisano
+Piazza Caricamento
+Piazza Carignano
+Piazza Carloforte
+Piazza Cesino
+Piazza Cornelio de Simone
+Piazza Cosma Clavarino
+Piazza De Franchi
+Piazza De Marini
+Piazza Dinegro
+Piazza Dogana
+Piazza Errico Petrella
+Piazza Facchini
+Piazza Fernando Ortiz
+Piazza Ferretto
+Piazza Fontane Marose
+Piazza Fossatello
+Piazza Fulcieri Paolucci de Calboli
+Piazza Giusti
+Piazza Henry Dunant
+Piazza Inferiore del Roso
+Piazza Inferiore di Pellicceria
+Piazza Invrea
+Piazza Italia
+Piazza Lavagna
+Piazza Leccavela
+Piazza Lido di Pegli
+Piazza Luccoli
+Piazza Macelli di Soziglia
+Piazza Manin
+Piazza Marsala
+Piazza Merani
+Piazza Metelino
+Piazza Monte Santo
+Piazza Morchi
+Piazza Nettuno
+Piazza Ospedale Pastorino
+Piazza Palermo
+Piazza Palmaro
+Piazza Palmetta
+Piazza Pedro Ferreira
+Piazza Piccapietra
+Piazza Pinelli
+Piazza Pollaiuoli
+Piazza Pontedecimo
+Piazza Porticciolo
+Piazza Portoria
+Piazza Ragazzi del 99
+Piazza Repubblica di Genova
+Piazza Rosmini
+Piazza Rotonda
+Piazza Rovere
+Piazza Santuario delle Grazie
+Piazza Sarzano
+Piazza Scio
+Piazza Senarega
+Piazza Stella
+Piazza Sturla
+Piazza Tenedo
+Piazza Terralba
+Piazza Tomaso De Cristoforis
+Piazza Tre Ponti
+Piazza Truogoli di Santa Brigida
+Piazza Unità d'Italia
+Piazza Università Popolare
+Piazza Vacchero
+Piazza Vannuccio Faralli
+Piazza Veneroso
+Piazza Vernazzola
+Piazza Villa Giusti
+Piazza Virgo Potens
+Piazza Vittime di Bologna
+Piazza Zagora
+Piazza dei Cappuccini
+Piazza dei Greci
+Piazza dei Micone
+Piazza dei Nattino
+Piazza dei Partigiani caduti per la libertà
+Piazza dei Ragazzi
+Piazza del Campo
+Piazza del Campo di Santa Sabina
+Piazza del Canto
+Piazza del Capro
+Piazza del Carmine
+Piazza del Cavalletto
+Piazza del Chiappazzo
+Piazza del Ferro
+Piazza del Garbo
+Piazza del Monastero
+Piazza del Portello
+Piazza del Santuario di Coronata
+Piazza del Serriglio
+Piazza dell'Agnello
+Piazza dell'Amor Perfetto
+Piazza dell'Olmo
+Piazza della Canonica
+Piazza della Cernaia
+Piazza della Commenda
+Piazza della Darsena
+Piazza della Giuggiola
+Piazza della Lepre
+Piazza della Maddalena
+Piazza della Nunziata
+Piazza della Posta Vecchia
+Piazza della Raibetta
+Piazza della Stampa
+Piazza della Vittoria
+Piazza delle Americhe
+Piazza delle Cinque Lampadi
+Piazza delle Erbe
+Piazza delle Fontane Marose
+Piazza delle Grazie
+Piazza delle Lavandaie
+Piazza delle Marinelle
+Piazza delle Oche
+Piazza delle Scuole Pie
+Piazza delle Vigne
+Piazza dello Statuto
+Piazza dello Zerbino
+Piazza di Oregina
+Piazza di Pellicceria
+Piazza di Soziglia
+Piazza di Valoria
+Piazza dietro i Forni
+Piazza superiore del Roso
+Piazzetta Balestrino
+Piazzetta Banchero
+Piazzetta Barisone
+Piazzetta Campopisano Inferiore
+Piazzetta Cave di Selz
+Piazzetta Chighizola
+Piazzetta Giovannino Guareschi
+Piazzetta Maruffo
+Piazzetta Merli
+Piazzetta Ninfeo
+Piazzetta Parodi
+Piazzetta Pedegoli
+Piazzetta Porta del Molo
+Piazzetta Tabarca
+Piazzetta Tavarone
+Piazzetta Teresa Mattei
+Piazzetta Veneroso
+Piazzetta Veterani dello Sport
+Piazzetta Vittime di tutte le mafie
+Piazzetta degli Orti di Banchi
+Piazzetta dei Minolli
+Piazzetta dei Miracoli
+Piazzetta dei Tintori
+Piazzetta del Fico
+Piazzetta del Pozzetto
+Piazzetta dell'Amico
+Piazzetta dell'Unicorno
+Piazzetta della Fragola
+Piazzetta della Madonnina
+Piazzetta della Poesia
+Piazzetta delle Penne Nere
+Ponte 11 Marzo 1944
+Ponte Alexander Fleming
+Ponte Bezzecca
+Ponte Calvi
+Ponte Canale di Cavassolo
+Ponte Canale di San Pantaleo
+Ponte Canale di Sant'Antonino
+Ponte Canale sul Geirato
+Ponte Canale sul Rio Torbido
+Ponte Castelfidardo
+Ponte Cinese
+Ponte Divisione Alpina Cuneense
+Ponte Eritrea
+Ponte Feritore
+Ponte Monumentale
+Ponte Nazzareno Cavalletti
+Ponte Nicholas Green
+Ponte Omero Ciai
+Ponte Pieragostini
+Ponte Romano
+Ponte Sifone sul Geirato
+Ponte ad archi
+Ponte al Campo XXV Aprile
+Ponte al campo XXV Aprile
+Ponte bezzecca
+Ponte canale su rio Preli
+Ponte degli Spìnola
+Ponte della Canova
+Ponte della Forestale
+Ponte della Rosata
+Ponte e presa di Ronco
+Ponte e presa di rio Tassara
+Ponte sifone del Veilino
+Ponte sul Rio Ciliegio
+Ponte sul Rio della Gava
+Ponte sul torrente Cerusa
+Ponte «Martin» Giacomo Agostino Pesce
+Salita Accinelli
+Salita Acquamarsa
+Salita Aggio
+Salita Bachernia
+Salita Badina
+Salita Belvedere
+Salita Bersaglio
+Salita Binoia
+Salita Boccafò
+Salita Bocchettina
+Salita Bosco Pelato
+Salita Brasile
+Salita Ca Dolcini
+Salita Ca Giana
+Salita Ca dei Baghini
+Salita Ca dei Bazzurri
+Salita Ca dei Zerbi
+Salita Ca del Greco
+Salita Ca' Bianca
+Salita Ca' Driella
+Salita Ca' da Ria
+Salita Ca' dei Baghini
+Salita Ca' dei Trenta
+Salita Cadale
+Salita Calanca
+Salita Caldetto
+Salita Campasso di San Nicola
+Salita Campetti di Montesignano
+Salita Canova di Struppa
+Salita Cappelletta di Santa Maria Maddalena
+Salita Cappuccini di Campi
+Salita Carmine di Cesino
+Salita Carpinello
+Salita Carupola
+Salita Casellino
+Salita Cassinelle
+Salita Castellaro di Bavari
+Salita Castelluzzo
+Salita Castrofino
+Salita Cataldi
+Salita Ceresola
+Salita Chiappa di Struppa
+Salita Chiapparolo
+Salita Ciazzo di Struppa
+Salita Coccagna
+Salita Codoro
+Salita Costa Fredda
+Salita Costa d'Orecchia
+Salita Costa dei Ratti
+Salita Costa di Carnoli
+Salita Costa di Sestri
+Salita Costa e Poggio
+Salita Crocetta di Sant'Eusebio
+Salita Dinegro
+Salita Egeo
+Salita Fassolo di Struppa
+Salita Franzonina
+Salita Gaiello
+Salita Gambaro
+Salita Gambonia
+Salita Gave
+Salita Gelsomino
+Salita Geminiano
+Salita Gerbidi
+Salita Gesù e Maria
+Salita Ginestrato
+Salita Gioventina
+Salita Giò Maria Cotella
+Salita Grasso
+Salita Inferiore Cataldi
+Salita Inferiore Salvator Rosa
+Salita Inferiore San Simone
+Salita Inferiore Sant'Anna
+Salita Inferiore della Noce
+Salita Inferiore di Murta
+Salita Inferiore di San Barnaba
+Salita Inferiore di Santa Tecla
+Salita La Parte
+Salita Lambruschini
+Salita Landolfo
+Salita Loggia
+Salita Loja
+Salita Luvega
+Salita Madonnetta di Nervi
+Salita Madonnetta di Struppa
+Salita Maggiolo di Nervi
+Salita Maggiolo di Struppa
+Salita Majorca
+Salita Massiglione
+Salita Mermi
+Salita Millo
+Salita Montagnola della Marina
+Salita Monte Oliveto
+Salita Monterosato
+Salita Montetto
+Salita Morego
+Salita Multedo
+Salita Murta
+Salita Noffi
+Salita Olivaro
+Salita Pal Piccolo
+Salita Panigaro di Struppa
+Salita Paxo
+Salita Pianego
+Salita Piano di Rocca
+Salita Piloni
+Salita Pino Sottano
+Salita Poggio di Apparizione
+Salita Poggio di Struppa
+Salita Pollaiuoli
+Salita Preli
+Salita Rapalli
+Salita Rio Maggiore
+Salita Rivalta
+Salita Ronchetti
+Salita Ronco
+Salita Ruina'
+Salita Sardicelli
+Salita Sassi
+Salita Scaglie
+Salita Sella
+Salita Serino
+Salita Serroni
+Salita Spagnoletta
+Salita Sportiglia dei Piloni
+Salita Staiato
+Salita Superiore Acquamarsa
+Salita Superiore Cataldi
+Salita Superiore Gambonia
+Salita Superiore San Gerolamo
+Salita Superiore San Rocchino
+Salita Superiore ai Terrapieni
+Salita Superiore di San Gerolamo
+Salita Superiore di Sant'Anna
+Salita Superiore di Santa Tecla
+Salita Terpi
+Salita Tuvio
+Salita a Pietraminuta
+Salita a Porta delle Chiappe
+Salita a Porta di San Bernardino
+Salita ai Bastioni
+Salita ai Terrapieni
+Salita al Castello di Pontedecimo
+Salita al Crestino
+Salita al Forte della Crocetta
+Salita al Garbo
+Salita al Lago
+Salita al Santuario
+Salita all'Arcivescovato
+Salita all'Oratorio di Apparizione
+Salita alla Costa di Molassana
+Salita alla Costa di Sant'Eusebio
+Salita alla Montagnola dei Servi
+Salita alla Spianata di Castelletto
+Salita alle Monache Turchine
+Salita alle Piane di Bavari
+Salita carupola
+Salita da Serro a Morego
+Salita degli Angeli
+Salita dei Marsano
+Salita dei Molini
+Salita dei Muli
+Salita dei Sessanta
+Salita del Fondaco
+Salita del Marotto
+Salita del Montino
+Salita del Passero
+Salita del Prione
+Salita dell'Acquedotto
+Salita dell'Aquila
+Salita dell'Olivella
+Salita dell'Ombra
+Salita dell'Oro
+Salita dell'Orso
+Salita della Bella Giovanna
+Salita della Capra
+Salita della Chiappa
+Salita della Chiosa
+Salita della Cittadina
+Salita della Crosetta
+Salita della Fava Greca
+Salita della Fontanella
+Salita della Incarnazione
+Salita della Liggia
+Salita della Madonnetta
+Salita della Misericordia
+Salita della Neve
+Salita della Provvidenza
+Salita della Rondinella
+Salita della Seta
+Salita della Torretta
+Salita della Tosse
+Salita della Visitazione
+Salita delle Battistine
+Salita delle Cascine
+Salita delle Fieschine
+Salita delle Gavette
+Salita di Balaclava
+Salita di Carbonara
+Salita di Famagosta
+Salita di Granarolo
+Salita di Mascherona
+Salita di Montebello
+Salita di Monterosso
+Salita di Oregina
+Salita di Portafico
+Salita inferiore Salvador Rosa
+Salita inferiore San Cosimo di Struppa
+Salita inferiore San Rocchino
+Salita inferiore al Santuario
+Salita nuova di Nostra Signora del Monte
+Salita per il Ratti
+Salita superiore Ca' dei Baghini
+Salita superiore Rapalli
+Salita superiore Salvator Rosa
+Salita superiore San Simone
+Salita superiore della Noce
+Salita superiore della Rondinella
+Salita vecchia Nostra Signora del Monte
+Salita vecchia di Nostra Signora del Monte
+Teatro Akropolis
+Teatro Carignano
+Teatro Duse
+Teatro Garage
+Teatro La Claque in Agorà
+Teatro S.O.C
+Teatro TiQu
+Teatro Von Pauer
+Teatro del Ponente
+Teatro del Ricreatorio San Luigi Gonzaga
+Teatro dell'Ortica
+Teatro della Gioventù
+Teatro della Tosse
+Via 15 maggio 1987
+Via 16 Giugno 1944
+Via 2 Dicembre 1944
+Via 30 Giugno 1960
+Via Abramo Pongoli
+Via Accinelli
+Via Acquarone
+Via Acquasanta
+Via Adamello
+Via Adele Faraggiana
+Via Adua
+Via Ala
+Via Alassio
+Via Albaro
+Via Albenga
+Via Alberico Lanfranco
+Via Albisola
+Via Aleardo Aleardi
+Via Alemanno Da Costa
+Via Alghero
+Via Almeria
+Via Alpini d'Italia
+Via Alvise Cadamosto
+Via Amalfi
+Via Amba Alagi
+Via Ameglia
+Via Ammarengo
+Via Ancona
+Via Angeli del Fango
+Via Antica Fiumara
+Via Antica Romana di Pegli
+Via Antica Romana di Quarto
+Via Antica Romana di Quinto
+Via Antiochia
+Via Antioco Dejana
+Via Apparizione
+Via Araone da Struppa
+Via Archimede
+Via Arenile di Pra
+Via Argentina
+Via Argine Polcevera
+Via Argiroffo Montetto
+Via Argonauti
+Via Argonne
+Via Ariberto Albertazzi
+Via Armando Maffei
+Via Armando Pica
+Via Armanna
+Via Armenia
+Via Arsenale di Terra
+Via Arsiero
+Via Asiago
+Via Asilo Infantile di Murta
+Via Asmara
+Via Asolo
+Via Asolone
+Via Assab
+Via Associazione Gigi Ghirotti
+Via Assunta Sigimbosco
+Via Atto Vannucci
+Via Aulo Persio
+Via Aurelia
+Via Aureliano Galeazzo
+Via Aurora
+Via Ausonia
+Via Ausonio Vedovi
+Via Ayroli
+Via Bainsizza
+Via Baldovino Bigliati
+Via Baliano
+Via Ballari
+Via Balleydier
+Via Banchi
+Via Barabini di Teglia
+Via Baracchino
+Via Barberia
+Via Barchetta
+Via Bari
+Via Basciari
+Via Bassano
+Via Bastia
+Via Battigalli
+Via Bavari
+Via Begato
+Via Belsito
+Via Bengasi
+Via Benvenuto Cellini
+Via Bernardino Telesio
+Via Bersaglieri d'Italia
+Via Bettino Ricasoli
+Via Bettolo
+Via Bezzecca
+Via Bianchetti
+Via Bidone
+Via Binelle
+Via Bobbio
+Via Boccadasse
+Via Bocchella
+Via Bogliasco
+Via Bolano
+Via Bologna
+Via Bolzaneto
+Via Bolzano
+Via Bonifacio
+Via Bordighera
+Via Borgano
+Via Borghetto
+Via Borgo Incrociati
+Via Borgo di Pino
+Via Borgoratti
+Via Borzoli
+Via Boschi di Sant'Ilario
+Via Bosco di Molassana
+Via Bossaro
+Via Bottini
+Via Bracelli
+Via Branega
+Via Brenta
+Via Bressanone
+Via Brigata Liguria
+Via Brigata Salerno
+Via Brigata di Fanteria Genova
+Via Brindisi
+Via Briscata
+Via Brusato
+Via Brusinetti
+Via Bruzza
+Via Buccari
+Via Buonvicini
+Via Buratella
+Via Burba
+Via Buriano
+Via Buxio
+Via Ca' dei Mussi
+Via Ca' di Costa
+Via Ca' di Musa
+Via Cadari
+Via Cadato
+Via Cadato di Pino
+Via Cadavalle
+Via Cadeia
+Via Caderiva
+Via Caderossi
+Via Cadevilla
+Via Cadighiara
+Via Cadore
+Via Caffa
+Via Cagliari
+Via Caiero
+Via Calamandrei
+Via Calatafimi
+Via Calcapere
+Via Calcinara
+Via Calcinara di Nervi
+Via Camaldoli
+Via Camilla
+Via Campassi di San Quirico
+Via Campenave
+Via Campi
+Via Campi di Pei
+Via Campo Danego
+Via Campo di Tiro
+Via Campodenego
+Via Campodonico
+Via Campoligure
+Via Campomorone
+Via Campopiano
+Via Campopiano di Serino
+Via Camporsella
+Via Camposilvano
+Via Canascra
+Via Caneva
+Via Canneto di Apparizione
+Via Canneto di San Desiderio
+Via Cannè
+Via Cantalupo
+Via Capo d'Istria
+Via Capolungo
+Via Capoverde
+Via Cappella
+Via Capraia
+Via Caprera
+Via Capri
+Via Caracciolo
+Via Cardinal Pietro Boetto
+Via Carlino Pescia
+Via Carloforte
+Via Carmagnani
+Via Carnia
+Via Carnoli
+Via Carpenara
+Via Carpenera
+Via Carrozzino
+Via Carso
+Via Cartagenova
+Via Casa dell'Abate
+Via Casale
+Via Casata Centuriona
+Via Cascinassi
+Via Cascine delle Nasche
+Via Cascine di Nasche
+Via Case Libertas
+Via Caseggi
+Via Caselle
+Via Casimiro Corradi
+Via Casini
+Via Cassa di Risparmio
+Via Cassinelle
+Via Castagnato
+Via Castagnevizza
+Via Castel Morrone
+Via Castello di Pino
+Via Castelluccio
+Via Cavassolo
+Via Celesia
+Via Ceranesi
+Via Certosa
+Via Cerusa
+Via Cervignano
+Via Cervo
+Via Cesarea
+Via Chiabrera
+Via Chiale
+Via Chiappella
+Via Chiappeto di Aggio
+Via Chiappori
+Via Chiaramone
+Via Chiaravagna
+Via Chiusone
+Via Cialli
+Via Ciambrini
+Via Cian De Vi
+Via Cianà
+Via Cima di San Pantaleo
+Via Cinque Dicembre
+Via Cinque Maggio
+Via Cipro
+Via Cirenaica
+Via Clavarezza
+Via Col Beretta
+Via Col Di Lana
+Via Colletti di Voltri
+Via Comunaglia di Ciminello
+Via Concordia
+Via Conforti
+Via Coni Zugna
+Via Contardo
+Via Contubernio Giovanni Battista d'Albertis
+Via Cordanieri
+Via Cornigliano
+Via Coronata
+Via Costa
+Via Costa Verde
+Via Costa d'Erca
+Via Costa del Vento
+Via Costa di Cantalupo
+Via Costa di Monte Giugo
+Via Costa di Scioà
+Via Costabella
+Via Cravasco
+Via Cremeno
+Via Cresta
+Via Cresta di San Rocco
+Via Crimea
+Via Cristo di Marmo
+Via Crocetta di Apparizione
+Via Crocifisso
+Via Crosa
+Via Crosini
+Via Crucis
+Via Cuniolo
+Via Currò
+Via Curtatone
+Via Cà dei Frati
+Via Cà del Bianco
+Via Cà di Sciarretta
+Via Dardanelli
+Via De Mari
+Via De Marini
+Via De Nicolay
+Via Dellacasa
+Via Diano Marina
+Via Diciotto Fanciulli
+Via Digione
+Via Diretta del Dente
+Via Divisione Acqui
+Via Dodecaneso
+Via Dodici Ottobre
+Via Dolceacqua
+Via Donghi
+Via Dongo
+Via Donne della Resistenza
+Via Drago
+Via Due Dicembre 1944
+Via Edera
+Via Eduardo Traverso
+Via Egoli
+Via Elsa
+Via Elvezia
+Via Emilia
+Via Eridania
+Via Eritrea
+Via Erpidio Berno
+Via Erzelli
+Via Eustachio Degola
+Via Evandro Ferri
+Via Evasio Montanella
+Via Faenza
+Via Fagaglia
+Via Faliero Vezzani
+Via Fanti d'Italia
+Via Faone
+Via Fasce di Varenna
+Via Favale
+Via Fegino
+Via Felicita Noli
+Via Fereggiano
+Via Ferrara
+Via Ferriera
+Via Ferriere di Prà
+Via Ferriere di Voltri
+Via Fiamme Gialle
+Via Fidenza
+Via Figaro
+Via Finale
+Via Finocchiara
+Via Fiodor
+Via Fiorino
+Via Fiumara
+Via Fiume
+Via Flavia
+Via Flavia Steno
+Via Flora
+Via Fogliensi
+Via Fonderia San Giorgio
+Via Fontana di Trasta
+Via Fontane di Tupoli
+Via Fontanegli
+Via Fontanile
+Via Forlì
+Via Formellin
+Via Forte Monte Guano
+Via Fossa dei Carboni di Sopra
+Via Fossato di Montesignano
+Via Fossato di San Biagio
+Via Fossato di San Nicolò
+Via Francesca Saverio Cabrini
+Via Fravega
+Via Frà Daniello di Voltri
+Via Frà Giovanni Angelo Montorsoli
+Via Frà Giovanni Pantaleo
+Via Frà Pio Robotti
+Via Frà Simone da Carnoli
+Via Fulcone da Castello
+Via Fundega
+Via Funtanin
+Via G. A. Molfino
+Via G. B. Bottaro
+Via G. B. Sasso
+Via G.B. Botteri
+Via Gabrio Casati
+Via Gaeta
+Via Gaggi
+Via Galata
+Via Gambaro di Montesignano
+Via Garello
+Via Gattego
+Via Gaz
+Via Gazzo
+Via Geirato
+Via Geminiano
+Via Georges Bizet
+Via Ghiara
+Via Ghirardelli Pescetto
+Via Giaffa
+Via Gianbattista Gaulli
+Via Gianni Ribaldone
+Via Giasone
+Via Gibilrossa
+Via Gildo Pensiero
+Via Ginestrato
+Via Ginevra
+Via Giordano
+Via Giotto
+Via Giovanni Maggio
+Via Girbano
+Via Giro del Fullo
+Via Giro del Pero
+Via Giro del Vento
+Via Gneo
+Via Goito
+Via Gorgona
+Via Gorizia
+Via Gradisca
+Via Granara
+Via Granello
+Via Graziella Giuffrida
+Via Grenchen
+Via Greto di Cornigliano
+Via Gropallo
+Via Gualco
+Via Hector Berlioz
+Via Hermada
+Via Icaro
+Via Ilice
+Via Ilva
+Via Imperia
+Via Incisa
+Via Inferiore Branega
+Via Inferiore Briscata
+Via Inferiore Brusinetti
+Via Inferiore Budulli
+Via Inferiore Costa d'Orecchia
+Via Inferiore Costigliolo
+Via Inferiore Fagaglia
+Via Inferiore Fameiano
+Via Inferiore Gambonia
+Via Inferiore Palloa
+Via Inferiore Porcile
+Via Inferiore Ravina
+Via Inferiore Rio Maggiore
+Via Inferiore Rocca dei Corvi
+Via Inferiore Torrente Nervi
+Via Inferiore dei Bossari
+Via Inferiore dei Penchi
+Via Inferiore del Boscasso
+Via Inferiore dell'Olba
+Via Inferiore della Colletta
+Via Inferiore di Montemoro
+Via Interiano
+Via Ischia
+Via Isocorte
+Via Isola del Vescovo
+Via Isonzo
+Via James Richardson Spensley
+Via Jan Palach
+Via Jean Monnet
+Via Johann Sebastian Bach
+Via Kassala
+Via La Spezia
+Via Lago Figoi
+Via Laiasso
+Via Laigueglia
+Via Lastrego
+Via Lastrego di Resa
+Via Latisana
+Via Laura Pinelli
+Via Lavagnino
+Via Lavinia
+Via Laviosa
+Via Lazzaretto
+Via Leamara
+Via Leani
+Via Lega Navale
+Via Lemerle
+Via Lencisa
+Via Leon Battista Alberti
+Via Lepanto
+Via Lerni
+Via Lero
+Via Liberti
+Via Ligorna
+Via Livello
+Via Livorno
+Via Loano
+Via Lodi
+Via Lucca
+Via Lucchi
+Via Luccoli
+Via Lugo
+Via Luoghi Santi
+Via Maddaloni
+Via Madonna delle Vigne
+Via Madonna delle Vigne (Antica Via Postumia)
+Via Madonnetta di Bavari
+Via Magazzini del Cotone
+Via Maggiolo di Nervi
+Via Magna Superiore
+Via Mainetti
+Via Mainoso
+Via Majorana
+Via Malmistra
+Via Malta
+Via Mansueto
+Via Mantini
+Via Mantova
+Via Marassi
+Via Marasso
+Via Marina di Robilant
+Via Marinai d'Italia
+Via Marseno
+Via Marsiglia
+Via Marzabotto
+Via Maurice Ravel
+Via Medaglie d'Oro di Lunga Navigazione
+Via Melegari
+Via Melinotto
+Via Menegolo
+Via Merani
+Via Merano
+Via Mercati Generali
+Via Merella
+Via Mermi
+Via Michelangelo Buonarroti
+Via Milano
+Via Milazzo
+Via Militare di Borzoli
+Via Minore Palloa
+Via Mira
+Via Miramare
+Via Misericordia di Borzoli
+Via Missolungi
+Via Mogadiscio
+Via Mogge
+Via Moglia
+Via Molassana
+Via Molinari
+Via Molinassi
+Via Molinassi di Ceranesi
+Via Molinetti di Nervi
+Via Molinetto di Voltri
+Via Molini di Cima
+Via Molini di Nervi
+Via Molino di Crevari
+Via Molo Cagni
+Via Molo Giano
+Via Molotto
+Via Molteni
+Via Monaco Simone
+Via Monfalcone
+Via Monfenera
+Via Mongiardini
+Via Monico
+Via Montallegro
+Via Montani
+Via Monte Baldo
+Via Monte Cengio
+Via Monte Cimone
+Via Monte Contessa
+Via Monte Corno
+Via Monte Cucco
+Via Monte Fasce
+Via Monte Giugo
+Via Monte Guano
+Via Monte Nero
+Via Monte Oliveto
+Via Monte Pertica
+Via Monte Piana
+Via Monte Rosa
+Via Monte Sei Busi
+Via Monte Sleme
+Via Monte Suello
+Via Monte Timone
+Via Monte Zovetto
+Via Monte di Pino
+Via Montello
+Via Montelungo
+Via Monterosso
+Via Monterotondo
+Via Montesano
+Via Montevideo
+Via Monticelli
+Via Morcento
+Via Morego
+Via Motta
+Via Mottachiusura
+Via Mulinetti di Pegli
+Via Multedo di Pegli
+Via Mura degli Angeli
+Via Mura della Malapaga
+Via Mura delle Chiappe
+Via Mura di Granarolo
+Via Murcarolo
+Via Musanego
+Via Mylius
+Via Napoli
+Via Nasche
+Via Nazionale
+Via Negroponte
+Via Nervallo
+Via Nicolo Fabrizi
+Via Nimuri
+Via Nizza
+Via Noaro
+Via Noce di Nasche
+Via Nocebella
+Via Noffi
+Via Nora Massa
+Via Nostra Signora Assunta
+Via Nostra Signora dell'Aiuto
+Via Nostra Signora della Neve
+Via Nostra Signora di Lourdes
+Via Nuova Banchina Industriale
+Via Nuova di Crevari
+Via Odessa
+Via Odoardo Beccari
+Via Odoardo Ganduccio
+Via Ogerio Pane
+Via Oliveto
+Via Olivo
+Via Olmo
+Via Operai
+Via Oratorio di Apparizione
+Via Oratorio di Borzoli
+Via Oratorio di Santo Stefano delle Fosse
+Via Orfani
+Via Origoni
+Via Oristano
+Via Ortigara
+Via Ospedale Andrea Gallino
+Via Ospedale San Raffaele
+Via Ospedale di San Raffaele
+Via Ottava Società Case
+Via Ottonelli
+Via Ottorino Respighi
+Via Ovada
+Via Padrino
+Via Pagano
+Via Paggi
+Via Paglia
+Via Palazzo della Fortezza
+Via Palestro
+Via Palloa
+Via Palmaria
+Via Pammatone
+Via Panigalli
+Via Panigaro
+Via Papigliano
+Via Paradiso
+Via Parco del Peralto
+Via Parma
+Via Passese
+Via Passo Buole
+Via Passo D'Oro
+Via Passo della Turca
+Via Pastrengo
+Via Pasubio
+Via Patmo
+Via Paverano
+Via Pavia
+Via Pe' d'Aggio
+Via Pegli
+Via Pelio
+Via Pellegrina Amoretti
+Via Penco
+Via Penego
+Via Percile
+Via Percy Bysshe Shelley
+Via Pero
+Via Pertinace
+Via Pescetto
+Via Pescheria
+Via Peschiera
+Via Pescinotti
+Via Piacenza
+Via Pian dei Bianchi
+Via Pian del Prete
+Via Pian di Forno
+Via Pianata
+Via Pianderlino
+Via Piandilucco
+Via Pianeletti
+Via Piani di Ferretto
+Via Piano di Aggio
+Via Piave
+Via Piazzagrande
+Via Piccardo
+Via Pierino Pesce
+Via Pietra Ligure
+Via Pieve di Cadore
+Via Pieve di Teco
+Via Pillea
+Via Pino di Murta
+Via Pinolla
+Via Piombino
+Via Pionieri e Aviatori d'Italia
+Via Pisa
+Via Pissapaola
+Via Podgora
+Via Poggetto
+Via Poggetto di sopra
+Via Poggetto di sotto
+Via Poggio
+Via Poggione
+Via Pola
+Via Polleri
+Via Polverara
+Via Pomposa
+Via Pomà
+Via Pontasso
+Via Ponte Carrega
+Via Ponterotto
+Via Pontetti
+Via Pontevecchio
+Via Pontini
+Via Ponza
+Via Porcile
+Via Porta D'Archi
+Via Porta degli Angeli
+Via Porta di San Bartolomeo
+Via Portazza
+Via Posalunga
+Via Pozzi
+Via Pozzo del Piano
+Via Pozzoni
+Via Pozzuolo del Friuli
+Via Pra
+Via Pra'
+Via Prato Verde
+Via Premanico
+Via Premanico Superiore
+Via Prete Nicolò Daste
+Via Priano
+Via Priaruggia
+Via Prima Cadale
+Via Profondo
+Via Proloco d'Italia
+Via Promontorio
+Via Proratado
+Via Puggia
+Via Purgatorio
+Via Quarnaro
+Via Quarto
+Via Quinto
+Via Rachero
+Via Ramellina
+Via Ramiro Ginocchio
+Via Rampa Vecchia
+Via Ravano
+Via Ravano a Levante
+Via Ravano a Ponente
+Via Ravenna
+Via Razzara
+Via Redipuglia
+Via Renata Bianchi
+Via Rexello
+Via Richard Wagner
+Via Ricreatorio
+Via Riese
+Via Rio Fontanino
+Via Rio Fulle
+Via Rio Maggiore
+Via Rio Maltempo
+Via Rio Murcarolo
+Via Rio Salto
+Via Rio Torbido
+Via Rio di Po
+Via Ripa di Gattego
+Via Ritale
+Via Rivale
+Via Rivarolo
+Via Rivassa
+Via Rivoli
+Via Roana
+Via Robert Baden Powell
+Via Rocca dei Corvi
+Via Roccatagliata
+Via Rocche di Bavari
+Via Rocche di Coronata
+Via Rodi
+Via Rolih
+Via Rollino
+Via Romagna
+Via Romairone
+Via Romairone 42E R (primo piano)
+Via Romairone 42E Rosso (Copertura)
+Via Romairone 42E Rosso (Primo Piano)
+Via Romairone 42E Rosso (copertura)
+Via Romairone 42E Rosso (primo piano)
+Via Romairone 42E Rosso (secondo piano)
+Via Romana della Castagna
+Via Romana di Murcarolo
+Via Romana di Prà
+Via Romana di Quarto
+Via Romana di Voltri
+Via Roncallo
+Via Ronchi
+Via Roncone
+Via Rosata
+Via Rosetta
+Via Rosetta Parodi
+Via Rovereto
+Via Roveti
+Via Rubaldo Merello
+Via Rurik Spolidoro
+Via Sabotino
+Via Sagrado
+Via Sales
+Via Saluzzo
+Via Salvador Allende
+Via Sambugo
+Via Samengo
+Via Samo
+Via Santissimo Nome di Gesù
+Via Santorre Derossi di Santa Rosa
+Via Sapello
+Via Sapri
+Via Sardorella
+Via Sassolungo
+Via Savona
+Via Scala
+Via Scalette
+Via Scarpanto
+Via Scarpino
+Via Scialla
+Via Scogli
+Via Scoglio Rotto
+Via Scovaz
+Via Scovaz Sotto
+Via Scuole di San Biagio
+Via Seconda Cadale
+Via Sella
+Via Serino
+Via Serrato
+Via Serrea
+Via Serropiano
+Via Sibilla Mertens
+Via Sidney Sonnino
+Via Siena
+Via Siracusa
+Via Siria
+Via Smirne
+Via Sobrero
+Via Somalia
+Via Sottorocca
+Via Spalato
+Via Spallarossa
+Via Sparta
+Via Spra
+Via Stallo di Bavari
+Via Struppa
+Via Stuggia
+Via Sturla
+Via Superiore Begato
+Via Superiore Borghetto
+Via Superiore Briscata
+Via Superiore Budulli
+Via Superiore Contadina
+Via Superiore Costa d'Orecchia
+Via Superiore Costigliolo
+Via Superiore Fameiano
+Via Superiore Gave
+Via Superiore Gazzo
+Via Superiore Geminiano
+Via Superiore Gneo
+Via Superiore Monte di Pino
+Via Superiore Premanico
+Via Superiore Ravina
+Via Superiore Razzara
+Via Superiore Rocche di Bavari
+Via Superiore Rosata
+Via Superiore Torrente Nervi
+Via Superiore degli Ometti
+Via Superiore dei Bossari (Panoramico)
+Via Superiore dei Lucchi
+Via Superiore dei Penchi
+Via Superiore del Boscasso
+Via Superiore del Veilino
+Via Superiore dell'Olba
+Via Superiore della Colletta
+Via Superiore della Torrazza
+Via Superiore delle Banchelle
+Via Superiore delle Castagne
+Via Susanna Fontanarossa
+Via Tabarca
+Via Taggia
+Via Tagliamento
+Via Talamone
+Via Taranto
+Via Tea Benedetti
+Via Tecci
+Via Teglia
+Via Teodoro II di Monferrato
+Via Teodoro secondo di Monferrato
+Via Teodosia
+Via Terenzio Mamiani
+Via Teresio Mario Canepari
+Via Terpi
+Via Terralba
+Via Tevere
+Via Tigullio
+Via Timavo
+Via Tofane
+Via Tolemaide
+Via Tollot
+Via Tomaso Grossi
+Via Tomaso Marino
+Via Tomaso Ponsello
+Via Tonale
+Via Torbella
+Via Tortona
+Via Tortosa
+Via Trase
+Via Trasta
+Via Traverso
+Via Tre Pini
+Via Trebisonda
+Via Trensasco
+Via Trento
+Via Trieste
+Via Triora
+Via Tripoli
+Via Ubbia
+Via Urania
+Via Urpetta
+Via Ursone da Sestri
+Via Vado
+Via Val Cismon
+Via Val Fontanabuona
+Via Val Sugana
+Via Val Trebbia
+Via Val d'Astico
+Via Val d'Aveto
+Via Valle Calda
+Via Vallecrosia
+Via Valsugana
+Via Varenna
+Via Varese
+Via Vecchia
+Via Vecchia Sant'Alberto
+Via Vecchia di Crevari
+Via Venezia
+Via Venti Settembre
+Via Venticinque Aprile
+Via Ventimiglia
+Via Ventiquattro Maggio
+Via Ventotene
+Via Vernazzola
+Via Verona
+Via Vesima
+Via Vesuvio
+Via Vicenza
+Via Vigo
+Via Vigo al Passo
+Via Vigo al passo
+Via Vigo di Fassa
+Via Villa
+Via Villa Rocca
+Via Villini di Sturla
+Via Virgilio
+Via Virgo Potens
+Via Visconte Maggiolo
+Via Vittime della Torre 7 Maggio 2013
+Via Vittoria Giorni
+Via Vittorina Adaglio
+Via Vogatori Praesi
+Via Voltri
+Via Volturno
+Via Wolfgang Amadeus Mozart
+Via Zara
+Via Zella
+Via Zignago
+Via Zoagli
+Via Zuccarello
+Via a Calata Gadda
+Via a Cesino (Antica Via Postumia)
+Via a Piano delle Monache
+Via ai Bacini di carenaggio
+Via ai Cantieri
+Via ai Piani di Sant'Eusebio
+Via ai Piani di Struppa
+Via ai Pini di Rivarolo
+Via ai Prati di Oregina
+Via ai Soggi
+Via ai Tartari
+Via ai monti d'Orecchia
+Via ai monti d'Orecchia (trail dei campi)
+Via ai quattro canti di San Francesco
+Via al Bacino Portuale di Pra'
+Via al Capo di Santa Chiara
+Via al Castellaccio
+Via al Cimitero di Quinto
+Via al Forte Tenaglia
+Via al Forte di Begato
+Via al Forte di San Martino
+Via al Forte di Santa Tecla
+Via al Garbo
+Via al Lago
+Via al Mare
+Via al Mare Fabrizio De André
+Via al Maro
+Via al Molo Giano
+Via al Molo Vecchio
+Via al Municipio
+Via al Passo Nuovo
+Via al Piano delle Monache
+Via al Poggio di Bavari
+Via al Poligono del Lagaccio
+Via al Poligono di Quezzi
+Via al Ponte Calvi
+Via al Ponte Polcevera
+Via al Ponte Reale
+Via al Ponte di Teglia
+Via al Porto Antico
+Via al Porto Petroli
+Via al Santuario delle Grazie
+Via al Santuario di Nostra Signora della Guardia
+Via al Torrente Molinassi
+Via al Torrente Sturla
+Via all'Ex Idroscalo
+Via all'Opera Pia
+Via all'asilo Davide e Delfina Garbarino
+Via alla Brigna
+Via alla Calata Derna
+Via alla Calata Marinetta
+Via alla Cardina
+Via alla Casa dei Ratti
+Via alla Cima di Egoli
+Via alla Contadina
+Via alla Costa dei Zini
+Via alla Costa di Bavari
+Via alla Costa di Begato
+Via alla Costa di Pino
+Via alla Costa di San Siro
+Via alla Costa di Serretto
+Via alla Costa di Teglia
+Via alla Ferriera di Pontedecimo
+Via alla Fornace del Garbo
+Via alla Lanterna
+Via alla Piana
+Via alla Porta degli Archi
+Via alla Presa
+Via alla Scogliera
+Via alla Scuola di Agricoltura
+Via alla Soria
+Via alla Stazione di Granara
+Via alla Stazione di Rivarolo
+Via alla Stazione di San Quirico
+Via alla Stazione di Voltri
+Via alla Torre dell'Amore
+Via alla Torre di Bavari
+Via alla costa di Begato
+Via alle Antiche Bratte
+Via alle Brughe
+Via alle Mura di Porta Murata
+Via alle Piane di Molassana
+Via alle Riparazioni Navali
+Via alle Scuole di Morego
+Via alle Scuole di San Biagio
+Via alle Sorgenti Sulfuree
+Via alle Tre Coste
+Via alle Vecchie Fornaci
+Via antica romana di Pegli
+Via capo di San Rocco
+Via carboni di Monico
+Via cà dei Penchi
+Via dai Noffi ai Marsano
+Via dal Verme
+Via degli Agei
+Via degli Agei di Sopra
+Via degli Albanesi
+Via degli Anemoni
+Via degli Archi
+Via degli Arditi
+Via degli Artigiani
+Via degli Iris
+Via degli Oleandri
+Via degli Orefici
+Via degli Stivatori
+Via degli Storace
+Via dei Bavarelli
+Via dei Bedinotti
+Via dei Calaffati
+Via dei Calderai
+Via dei Canottieri
+Via dei Cantieri Navali
+Via dei Carpentieri
+Via dei Carpi
+Via dei Cebà
+Via dei Ciclamini
+Via dei Cinque Santi
+Via dei Conservatori del Mare
+Via dei Costo
+Via dei Domenicani
+Via dei Falegnami
+Via dei Ferrucci
+Via dei Filtri
+Via dei Fiori
+Via dei Floricoltori
+Via dei Franzone
+Via dei Frati
+Via dei Gerani
+Via dei Gerolami
+Via dei Giardini
+Via dei Giovi
+Via dei Greti
+Via dei Gruisti
+Via dei Laminatoi
+Via dei Landi
+Via dei Macelli di Soziglia
+Via dei Maristi
+Via dei Marsano
+Via dei Mille
+Via dei Molinussi
+Via dei Narcisi
+Via dei Nicolli
+Via dei Noceti
+Via dei Pescatori
+Via dei Picchettini
+Via dei Platani
+Via dei Rallisti
+Via dei Rebucchi
+Via dei Reggio
+Via dei Sansone
+Via dei Sessanta
+Via dei Tassara
+Via dei Tassorelli
+Via dei Tre
+Via dei Vassalli
+Via dei Vosgi
+Via del Borgo
+Via del Boschetto
+Via del Bragone
+Via del Brasile
+Via del Camoscio
+Via del Campasso
+Via del Campo
+Via del Campo 29 Rosso
+Via del Capriolo
+Via del Casone
+Via del Castello di Struppa
+Via del Castoro
+Via del Chiapparo
+Via del Chiappazzo
+Via del Ciazzo
+Via del Cipresso
+Via del Colle
+Via del Commercio
+Via del Comunetto
+Via del Faggio
+Via del Falcone
+Via del Forte di San Giuliano
+Via del Fossato
+Via del Giglio
+Via del Lagaccio
+Via del Manzasco
+Via del Mirto
+Via del Molinetto
+Via del Molo
+Via del Monastero
+Via del Monte
+Via del Palazzo
+Via del Pavone
+Via del Pendicollo
+Via del Peralto
+Via del Perdono
+Via del Pianello
+Via del Piano
+Via del Pontenuovo
+Via del Portello
+Via del Seminario
+Via del Sole
+Via del Tritone
+Via del Veilino
+Via del Voltino
+Via dell'Acciaio
+Via dell'Albero d'Oro
+Via dell'Alloro
+Via dell'Archivolto
+Via dell'Ardimento
+Via dell'Arena
+Via dell'Erze
+Via dell'Insurrezione 23-25 Aprile 1945
+Via dell'Ombra
+Via dell'Oratorio
+Via dell'Ulivo
+Via della Benedicta
+Via della Canellona
+Via della Cella
+Via della Chiassaiuola
+Via della Concezione
+Via della Consolazione
+Via della Cornacchia
+Via della Coscia
+Via della Costa di Chiappeto
+Via della Costiera
+Via della Crocetta
+Via della Fassa
+Via della Fenice
+Via della Fontana
+Via della Fontanaccia
+Via della Gaigiana
+Via della Gava
+Via della Giuseppina
+Via della Libertà
+Via della Luverna
+Via della Maddalena
+Via della Maona
+Via della Marina
+Via della Mercanzia
+Via della Mimosa
+Via della Pace
+Via della Pala
+Via della Pantera
+Via della Piazzetta
+Via della Pietra
+Via della Pigna
+Via della Posta Vecchia
+Via della Riviera
+Via della Santissima Trinità
+Via della Scalinata
+Via della Sirena
+Via della Superba
+Via della Torrazza
+Via della Vergine
+Via della Vespa
+Via della Zebra
+Via della Zuccona
+Via delle Acacie
+Via delle Banchelle
+Via delle Baracche
+Via delle Bernardine
+Via delle Campanule
+Via delle Cappuccine
+Via delle Casaccie
+Via delle Casette
+Via delle Castagne
+Via delle Chiappare
+Via delle Comunaglie
+Via delle Eriche
+Via delle Fabbriche
+Via delle Fondache
+Via delle Fonderie Grondona
+Via delle Fontane
+Via delle Franzoniane
+Via delle Gavette
+Via delle Genziane
+Via delle Ginestre
+Via delle Grazie
+Via delle Nuove Tecnologie Enrico Albareto
+Via delle Piazze
+Via delle Primule
+Via delle Ripe
+Via delle Rocche
+Via delle Rovare
+Via delle Terre Rosse
+Via delle Vigne
+Via delle Viole
+Via dello Zucco
+Via di Balaclava
+Via di Brera
+Via di Burlo
+Via di Canneto il Curto
+Via di Canneto il Lungo
+Via di Casanova
+Via di Chiappeto
+Via di Creto
+Via di Famagosta
+Via di Fassolo
+Via di Fossatello
+Via di Francia
+Via di Lavezzara
+Via di Mascherona
+Via di Montegalletto
+Via di Montemoro
+Via di Peietti
+Via di Pino
+Via di Pomata
+Via di Porta Soprana
+Via di Prè
+Via di Ravecca
+Via di Scurreria
+Via di Serretto
+Via di Sottoripa
+Via di Soziglia
+Via di Sponda Nuova
+Via di Vallechiara
+Via inferiore Mermi
+Via inferiore Ometti
+Via inferiore Porcile
+Via inferiore alla Contadina
+Via inferiore dei Bossari
+Via privata di Santa Zita
+Via sotto i Volti
+Via sotto il Monte
+Via sotto le Mura degli Angeli
+Via superiore Budulli
+Via superiore Torrente Nervi
+Via superiore dei Giovi
+Via superiore del Veilino
+Via superiore della Colletta
+Via superiore di Montemoro
+Via vecchia al Poggio di Bavari
+Via vecchia di Creto
+Viale Africa
+Viale Arezzo
+Viale Armanino
+Viale Aspromonte
+Viale Bernabò Brea
+Viale Borzino
+Viale Brian
+Viale Brigata Bisagno
+Viale Brigate Partigiane
+Viale Canessa
+Viale Carrena
+Viale Casanova
+Viale Cembrano
+Viale Classico
+Viale Colle degli Ulivi
+Viale Cravero
+Viale Ermelinda Rigon
+Viale Felicita Olivari
+Viale Freccia-Bonino
+Viale Gattorno
+Viale Giglio
+Viale IV Novembre
+Viale Inferiore Veilino
+Viale Larco
+Viale Mafalda di Savoia
+Viale Massaua
+Viale Michelangelo Buonarroti
+Viale Mojon
+Viale Narisano
+Viale Nuova Cripta
+Viale Oliva
+Viale Perrone
+Viale Pino Sottano
+Viale Poggio Gattorno
+Viale Ponte Dell'ammiraglio
+Viale Ponte dell'Ammiraglio
+Viale Primavera
+Viale Privato Albaro
+Viale Protestanti
+Viale Puccio
+Viale Quartara
+Viale Quattro Novembre
+Viale Sciaccaluga
+Viale Sciallero
+Viale Teano
+Viale Testero
+Viale Trieste
+Viale Valente
+Viale Varni
+Viale Veilino alto
+Viale Villa Gavotti
+Viale Villa Glori
+Viale Villini Rollino
+Viale Villini di Creto
+Viale a Pino Sottano
+Viale agli Eroi Caduti di tutte le Guerre
+Viale al Campo 28
+Viale al Crematorio
+Viale al campo 22
+Viale alla Pineta
+Viale campo 43
+Viale campo 46
+Viale dei Cipressi
+Viale dei Mille
+Viale della Fede
+Viale della Rimembranza di Pegli
+Viale delle Palme
+Viale delle Sacramentine
+Viale inferiore Gattorno
+Viale inferiore Sant'Antonino
+Viale inferiore Testero
+Viale superiore Brian
+Viale superiore Gattorno
+Viale superiore Pontasso
+Viale superiore Testero
+Viale superiore Veilino
+Vico Acqua Calda
+Vico Alabardieri
+Vico Albertina
+Vico Amandorla
+Vico Angeli
+Vico Aquileia
+Vico Asilo
+Vico Barnabiti
+Vico Basadonne
+Vico Biscotti
+Vico Boccadoro
+Vico Boggiano
+Vico Bozzellari
+Vico Brichetto
+Vico Calvi
+Vico Cannoni
+Vico Caprettari
+Vico Carmagnola
+Vico Castelgenovese
+Vico Castellea
+Vico Cembalo
+Vico Cera
+Vico Ceuta
+Vico Chiuso del Grillo
+Vico Cibeo
+Vico Cimella
+Vico Colalanza
+Vico Condino
+Vico Cuneo
+Vico Damiata
+Vico De Gradi
+Vico De Marini
+Vico Denegri
+Vico Deserto
+Vico Domoculta
+Vico Dora
+Vico Dosso Faiti
+Vico Elba
+Vico Erminio
+Vico Falamonica
+Vico Ferrante Aporti
+Vico Ferrari
+Vico Foglie Nuove
+Vico Foglie Vecchie
+Vico Foglietta
+Vico Fontanino
+Vico Fornetti
+Vico Forte
+Vico Gallipoli
+Vico Gattagà
+Vico Gattilusio
+Vico Gesù
+Vico Giannini
+Vico Gibello
+Vico Governolo
+Vico Guarchi
+Vico Inferiore Valoria
+Vico Inferiore del Ferro
+Vico Inferiore del Portello
+Vico Inferiore del Roso
+Vico Inferiore di Sant'Antonio
+Vico Inferiore di Santa Sabina
+Vico Inferiore di Testadoro
+Vico Intermedio
+Vico Invrea
+Vico Largo
+Vico Lavagna
+Vico Lavatoi Rondinella
+Vico Lavezzi
+Vico Libarna
+Vico Limisso
+Vico Macellari
+Vico Malatti
+Vico Mallone
+Vico Moncastello
+Vico Montebruno
+Vico Monteverde
+Vico Morando
+Vico Morchi
+Vico Nereo
+Vico Noli
+Vico Notturno
+Vico Nuovo
+Vico Ombroso
+Vico Ospedale di Voltri
+Vico Palla
+Vico Parodi
+Vico Pellegro Maruffo
+Vico Perino
+Vico Pietre Preziose
+Vico Pieve di San Martino
+Vico Pinelli
+Vico Piuma
+Vico Salvaghi
+Vico Saponiera
+Vico Saturno
+Vico Schiaffino
+Vico Scorciatoio
+Vico Semino
+Vico Sinope
+Vico Sorripa
+Vico Sottile
+Vico Sotto le Murette
+Vico Spada
+Vico Spotorno
+Vico Squarciafico
+Vico Stella
+Vico Stretto Sant'Antonio
+Vico Superiore del Ferro
+Vico Superiore del Roso
+Vico Superiore di Pellicceria
+Vico Superiore di Santa Sabina
+Vico Tacconi
+Vico Tana
+Vico Testadoro
+Vico Tiro
+Vico Torre di Cornigliano
+Vico Trau
+Vico Trombettieri
+Vico Valoria
+Vico Vegetti
+Vico Veneroso
+Vico Viani
+Vico Vignoso
+Vico a destra di San Pancrazio
+Vico a sinistra di San Pancrazio
+Vico agli Orti di Banchi
+Vico al Gazzo
+Vico al Molino
+Vico al Monte di Pietà
+Vico al Torrente
+Vico alla Passeggiata di Nervi
+Vico alla Posta Vecchia
+Vico chiuso Caffa
+Vico chiuso Casoni
+Vico chiuso Curletto
+Vico chiuso Gelsa
+Vico chiuso Lorenzo Pareto
+Vico chiuso Paggi
+Vico chiuso Pittamuli
+Vico chiuso Priano
+Vico chiuso Raggi
+Vico chiuso San Desiderio
+Vico chiuso Santa Maria
+Vico chiuso Vernazzola
+Vico chiuso degli Edili
+Vico chiuso degli Eroi
+Vico chiuso dei Cinque Santi
+Vico chiuso dei Gatti
+Vico chiuso del Carmine
+Vico chiuso del Leone
+Vico chiuso del Portico
+Vico chiuso dell'Acquidotto
+Vico chiuso della Pietra
+Vico chiuso della Rana
+Vico chiuso delle Formiche
+Vico chiuso dello Scalo
+Vico chiuso di San Salvatore
+Vico chiuso di Santa Consolata
+Vico degli Indoratori
+Vico degli Scudai
+Vico degli Stoppieri
+Vico dei Bottai
+Vico dei Cartai
+Vico dei Casareggio
+Vico dei Cassai
+Vico dei Castagna
+Vico dei Cavoli
+Vico dei Corrieri
+Vico dei Droghieri
+Vico dei Greci
+Vico dei Griffoni
+Vico dei Lavatoi
+Vico dei Mattoni Rossi
+Vico dei Migliorini
+Vico dei Notari
+Vico dei Parmigiani
+Vico dei Ragazzi
+Vico dei Savignone
+Vico dei Tre Re Magi
+Vico del Cambio
+Vico del Campanile delle Vigne
+Vico del Campo
+Vico del Canto
+Vico del Cappello
+Vico del Centro
+Vico del Cioccolatte
+Vico del Corallo
+Vico del Dragone
+Vico del Ferro
+Vico del Fico
+Vico del Fieno
+Vico del Filo
+Vico del Fornaro
+Vico del Fumo
+Vico del Gallo
+Vico del Granaio
+Vico del Pelo
+Vico del Pepe
+Vico del Pesce
+Vico del Piombo
+Vico del Pomino
+Vico del Pomogranato
+Vico del Ponte
+Vico del Pozzetto
+Vico del Pozzo
+Vico del Rosario
+Vico del Sale
+Vico del Serriglio
+Vico del Teatro Nazionale
+Vico del Teatro delle Vigne
+Vico del Tempo Buono
+Vico del Trogoletto
+Vico del Valore
+Vico del Volto
+Vico dell'Agnello
+Vico dell'Albergo
+Vico dell'Amor Perfetto
+Vico dell'Amore
+Vico dell'Antica Accademia
+Vico dell'Arancio
+Vico dell'Argento
+Vico dell'Isola
+Vico dell'Olio
+Vico dell'Oliva
+Vico dell'Orso
+Vico dell'Orto
+Vico dell'Umiltà
+Vico della Caserma
+Vico della Catena
+Vico della Cittadella
+Vico della Fortuna
+Vico della Fragola
+Vico della Galera
+Vico della Gazzella
+Vico della Giuggiola
+Vico della Lepre
+Vico della Luna
+Vico della Madonna
+Vico della Neve
+Vico della Pace
+Vico della Pece
+Vico della Prudenza
+Vico della Rosa
+Vico della Rovere
+Vico della Salute
+Vico della Scienza
+Vico della Scimmia
+Vico della Speranza
+Vico della Spiaggia
+Vico della Stampa
+Vico della Tartaruga
+Vico della Torre delle Vigne
+Vico della Torre di San Luca
+Vico della Vena
+Vico delle Camelie
+Vico delle Carabaghe
+Vico delle Cavigliere
+Vico delle Chiappe
+Vico delle Cinque Lampadi
+Vico delle Compere
+Vico delle Erbe
+Vico delle Fasciuole
+Vico delle Fate
+Vico delle Fiascaie
+Vico delle Marinelle
+Vico delle Mele
+Vico delle Monachette
+Vico delle Scale
+Vico delle Scuole Pie
+Vico delle Vele
+Vico delle Vigne
+Vico delle Virtù
+Vico dello Zucchero
+Vico di Campetto
+Vico di Campopisano
+Vico di Coccagna
+Vico di Mezzagalera
+Vico di Nostra Signora del Soccorso
+Vico di Pellicceria
+Vico di Portanuova
+Vico di Portavecchia
+Vico di Scurreria la vecchia
+Vico di Untoria
+Vico di Valoria
+Vico dietro il Coro delle Vigne
+Vico dietro il Coro di San Luca
+Vico dietro il Coro di San Salvatore
+Vico dietro il coro della Maddalena
+Vico dietro il coro di San Cosimo
+Vico dritto di Ponticello
+Vico superiore Priano
+Vico superiore di Campopisano
+Villa Banfi
+Villa Bonino
+Villa Carrara
+Villa Crollalanza Asplanati
+Villa Currò
+Villa Durazzo-Pallavicini
+Villa Gambaro
+Villa Giuseppina
+Villa Gropallo
+Villa Gruber
+Villa Ida
+Villa Millo-Navone
+Villa Pignone
+Villa Piuma
+Villa Quartara
+Villa Ratto
+Villa Ravara-Ottonello
+Villa Roccatagliata
+Villa Rosa
+Villa Rosazza
+Villa Scassi
+Villa Vinelli

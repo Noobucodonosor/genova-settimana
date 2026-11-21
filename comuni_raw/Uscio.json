@@ -1,0 +1,2994 @@
+{
+  "version": 0.6,
+  "generator": "OpenStreetMap v0.6 API",
+  "comune": "Uscio",
+  "elements": [
+    {
+      "type": "node",
+      "id": 66586522,
+      "tags": {
+        "gfoss_id": "1321",
+        "name": "Uscio",
+        "place": "village",
+        "population": "2198",
+        "source": "geodati.gfoss.it",
+        "wikidata": "Q266666",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4133432,
+      "lon": 9.1625628
+    },
+    {
+      "type": "node",
+      "id": 108189943,
+      "tags": {
+        "name": "Avegno",
+        "traffic_sign": "city_limit",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.3880939,
+      "lon": 9.1640942
+    },
+    {
+      "type": "node",
+      "id": 289702946,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Marconi civ. 76",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4945",
+        "zone_id": "26",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4019154,
+      "lon": 9.1656402
+    },
+    {
+      "type": "node",
+      "id": 289702948,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via XXIV Maggio dopo bivio Borissa",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4946",
+        "zone_id": "99",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4078971,
+      "lon": 9.1709383
+    },
+    {
+      "type": "node",
+      "id": 289702950,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via XXIV Maggio fronte civ. 53",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4947",
+        "zone_id": "99",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4091626,
+      "lon": 9.166699
+    },
+    {
+      "type": "node",
+      "id": 289705684,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Piazza della Resistenza",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4949",
+        "zone_id": "99",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4108875,
+      "lon": 9.1661275
+    },
+    {
+      "type": "node",
+      "id": 289721383,
+      "tags": {
+        "ele": "565",
+        "name": "Costa di Monte Rosso",
+        "place": "locality",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4202878,
+      "lon": 9.1628772
+    },
+    {
+      "type": "node",
+      "id": 289721384,
+      "tags": {
+        "ele": "550",
+        "name": "Cave di Monte Rosso",
+        "place": "locality",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4182762,
+      "lon": 9.163207
+    },
+    {
+      "type": "node",
+      "id": 289721385,
+      "tags": {
+        "ele": "558",
+        "name": "Passo delle Pozzette",
+        "place": "locality",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4169635,
+      "lon": 9.1657491
+    },
+    {
+      "type": "node",
+      "id": 289721386,
+      "tags": {
+        "ele": "538",
+        "name": "Passo del Castello Vecchio",
+        "natural": "saddle",
+        "place": "locality",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4154868,
+      "lon": 9.1698484
+    },
+    {
+      "type": "node",
+      "id": 289721388,
+      "tags": {
+        "name": "Pozzone",
+        "place": "isolated_dwelling",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.408486,
+      "lon": 9.1756459
+    },
+    {
+      "type": "node",
+      "id": 289738393,
+      "tags": {
+        "name": "Colle Caprile",
+        "place": "locality",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4177804,
+      "lon": 9.1499636
+    },
+    {
+      "type": "node",
+      "id": 316030312,
+      "tags": {
+        "ele": "270",
+        "gfoss_id": "36577",
+        "istat_id": "1006410002",
+        "name": "Terrile",
+        "place": "hamlet",
+        "population": "82",
+        "source": "Istat 2001 - geodati.gfoss.it",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4075667,
+      "lon": 9.153768
+    },
+    {
+      "type": "node",
+      "id": 728605040,
+      "tags": {
+        "addr:city": "Uscio",
+        "addr:housenumber": "2",
+        "addr:postcode": "16030",
+        "addr:street": "Via Roma",
+        "amenity": "cafe",
+        "name": "Dablè",
+        "operator": "Barbara Zunino",
+        "phone": "+39 0185 91130",
+        "tobacco": "yes",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4111056,
+      "lon": 9.1666218
+    },
+    {
+      "type": "node",
+      "id": 1273655066,
+      "tags": {
+        "name": "Museo degli orologi da torre Roberto Trebino",
+        "tourism": "museum",
+        "website": "https://www.trebino.it/museo/",
+        "wikidata": "Q20009254",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4143997,
+      "lon": 9.1599447
+    },
+    {
+      "type": "node",
+      "id": 2311218929,
+      "tags": {
+        "ele": "546",
+        "mountain_pass": "yes",
+        "name": "Passo della Spinarola",
+        "natural": "saddle",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4040118,
+      "lon": 9.1827006
+    },
+    {
+      "type": "node",
+      "id": 2321580437,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via XXIV Maggio prima del Bivio Borissa",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "7989",
+        "zone_id": "99",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4080949,
+      "lon": 9.1708881
+    },
+    {
+      "type": "node",
+      "id": 2321580440,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via XXIV Maggio civ. 53",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "7988",
+        "zone_id": "99",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4090304,
+      "lon": 9.1667239
+    },
+    {
+      "type": "node",
+      "id": 2321580443,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Vittorio Veneto fronte civ. 81",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4948",
+        "shelter": "yes",
+        "zone_id": "99",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4117189,
+      "lon": 9.1643386
+    },
+    {
+      "type": "node",
+      "id": 2321580457,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via IV Novembre civ. 26",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4950",
+        "zone_id": "99",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4134932,
+      "lon": 9.1618657
+    },
+    {
+      "type": "node",
+      "id": 2321580460,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via IV Novembre civ. 39",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "8712",
+        "zone_id": "99",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4136378,
+      "lon": 9.1616817
+    },
+    {
+      "type": "node",
+      "id": 2321580483,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Bianchi civ. 57",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4999",
+        "zone_id": "99",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4162461,
+      "lon": 9.1552152
+    },
+    {
+      "type": "node",
+      "id": 2321580487,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Bianchi civ. 17",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "8754",
+        "zone_id": "99",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.416152,
+      "lon": 9.1583665
+    },
+    {
+      "type": "node",
+      "id": 2321580489,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Bianchi civ. 106",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4952",
+        "zone_id": "99",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4164472,
+      "lon": 9.1549594
+    },
+    {
+      "type": "node",
+      "id": 2321580493,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Colle Caprile civ. 9",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4998",
+        "zone_id": "99",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.416811,
+      "lon": 9.148519
+    },
+    {
+      "type": "node",
+      "id": 2321580495,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Colle Caprile 58",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4953",
+        "zone_id": "99",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4168382,
+      "lon": 9.1486788
+    },
+    {
+      "type": "node",
+      "id": 2321580517,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Colle Caprile ex Capolinea",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "8752",
+        "zone_id": "99",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4178386,
+      "lon": 9.1489018
+    },
+    {
+      "type": "node",
+      "id": 2321580544,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Colle Caprile 23 Loc. Biole`",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4997",
+        "zone_id": "99",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4190171,
+      "lon": 9.1495868
+    },
+    {
+      "type": "node",
+      "id": 2321580559,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Fraz. Pian Dei Preti F. Bivio Fondegone",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4993",
+        "zone_id": "99",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4198491,
+      "lon": 9.1687683
+    },
+    {
+      "type": "node",
+      "id": 2321580590,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Fraz. Cassanesi F. Scalinata",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4991",
+        "zone_id": "99",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4209723,
+      "lon": 9.1806654
+    },
+    {
+      "type": "node",
+      "id": 2321580601,
+      "tags": {
+        "bench": "no",
+        "bus": "yes",
+        "covered": "no",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Fraz. Cassanesi F. Bivio Tribogna",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4992",
+        "shelter": "no",
+        "zone_id": "99",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4212365,
+      "lon": 9.1790746
+    },
+    {
+      "type": "node",
+      "id": 2321580655,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Colle Caprile Loc. Chiapparino",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4996",
+        "zone_id": "99",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4226251,
+      "lon": 9.1543224
+    },
+    {
+      "type": "node",
+      "id": 2321580671,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Fraz. Cassanesi Loc. Giro Dello Stretto",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4989",
+        "zone_id": "104",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4238825,
+      "lon": 9.1769838
+    },
+    {
+      "type": "node",
+      "id": 2321580690,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Fraz. Pian Dei Preti Bivio Pian Dei Preti",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4994",
+        "zone_id": "99",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4249128,
+      "lon": 9.1693649
+    },
+    {
+      "type": "node",
+      "id": 2321580698,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Fraz. Pian Dei Preti 24",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4995",
+        "zone_id": "99",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4252774,
+      "lon": 9.1688118
+    },
+    {
+      "type": "node",
+      "id": 2321604338,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Marconi fronte civ. 79",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "7990",
+        "zone_id": "26",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4024617,
+      "lon": 9.1650796
+    },
+    {
+      "type": "node",
+      "id": 2419991223,
+      "tags": {
+        "addr:city": "Uscio",
+        "addr:postcode": "16030",
+        "email": "colonia-arnaldi@libero.it",
+        "internet_access": "yes",
+        "name": "Colonia Arnaldi",
+        "operator": "Centro Arnaldi Uscio S.R.L.",
+        "phone": "+39 018 5919406",
+        "tourism": "hotel",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4072873,
+      "lon": 9.180216
+    },
+    {
+      "type": "node",
+      "id": 3200980962,
+      "tags": {
+        "name": "Borissa",
+        "place": "isolated_dwelling",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.406697,
+      "lon": 9.1708737
+    },
+    {
+      "type": "node",
+      "id": 3200980963,
+      "tags": {
+        "name": "Campo",
+        "place": "isolated_dwelling",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4089003,
+      "lon": 9.1636393
+    },
+    {
+      "type": "node",
+      "id": 3200980964,
+      "tags": {
+        "name": "Cascina",
+        "place": "hamlet",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4063548,
+      "lon": 9.1793127
+    },
+    {
+      "type": "node",
+      "id": 3200980965,
+      "tags": {
+        "name": "Cavalli",
+        "place": "isolated_dwelling",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4076511,
+      "lon": 9.1768108
+    },
+    {
+      "type": "node",
+      "id": 3200980966,
+      "tags": {
+        "name": "Cià",
+        "place": "isolated_dwelling",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4111921,
+      "lon": 9.1612572
+    },
+    {
+      "type": "node",
+      "id": 3200980972,
+      "tags": {
+        "name": "Rue",
+        "place": "isolated_dwelling",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4002333,
+      "lon": 9.1671055
+    },
+    {
+      "type": "node",
+      "id": 3203018146,
+      "tags": {
+        "ele": "581",
+        "name": "Monte Serro",
+        "natural": "peak",
+        "source": "CTR Regione Liguria",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4203738,
+      "lon": 9.1548252
+    },
+    {
+      "type": "node",
+      "id": 3599884907,
+      "tags": {
+        "addr:city": "Uscio",
+        "addr:housenumber": "8;9",
+        "addr:postcode": "16030",
+        "addr:street": "Salita Olivi",
+        "brand": "Bed&Breakfast",
+        "email": "info@rifugiouscio.com",
+        "internet_access": "yes",
+        "internet_access:fee": "yes",
+        "name": "B&B Rifugio Uscio",
+        "operator": "Sonia Poni",
+        "phone": "+39 328 4015992",
+        "tourism": "guest_house",
+        "website": "https://www.rifugiouscio.com",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4120318,
+      "lon": 9.1668132
+    },
+    {
+      "type": "node",
+      "id": 4502904306,
+      "tags": {
+        "name": "Ciacà",
+        "place": "locality",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4212579,
+      "lon": 9.178666
+    },
+    {
+      "type": "node",
+      "id": 4506732451,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Fraz. Cassanesi 7",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "8065",
+        "zone_id": "99",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4196672,
+      "lon": 9.1806347
+    },
+    {
+      "type": "node",
+      "id": 5049900263,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Il Bandito",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4106498,
+      "lon": 9.1662503
+    },
+    {
+      "type": "node",
+      "id": 5049900823,
+      "tags": {
+        "addr:city": "Uscio",
+        "addr:housenumber": "104",
+        "addr:postcode": "16030",
+        "addr:street": "Via Vittorio Veneto",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "name": "Farmacia della Salute",
+        "operator": "Della Salute Di Irma Sara Ghio",
+        "ref:msal": "6240",
+        "ref:vatin": "IT02467090060",
+        "source": "Ministero della Salute",
+        "source:start_date": "2015-04-10",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4109135,
+      "lon": 9.1658808
+    },
+    {
+      "type": "node",
+      "id": 5176334895,
+      "tags": {
+        "ele": "606",
+        "name": "Monte Rosso",
+        "natural": "peak",
+        "source": "CTR Regione Liguria",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.419247,
+      "lon": 9.1619754
+    },
+    {
+      "type": "node",
+      "id": 5226147777,
+      "tags": {
+        "name": "Biole",
+        "place": "isolated_dwelling",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4190918,
+      "lon": 9.1500986
+    },
+    {
+      "type": "node",
+      "id": 5226147778,
+      "tags": {
+        "name": "Sottocolle",
+        "place": "locality",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4178197,
+      "lon": 9.1453779
+    },
+    {
+      "type": "node",
+      "id": 5226147779,
+      "tags": {
+        "name": "Crai",
+        "place": "isolated_dwelling",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4155016,
+      "lon": 9.1486984
+    },
+    {
+      "type": "node",
+      "id": 5226147780,
+      "tags": {
+        "name": "Monta",
+        "place": "isolated_dwelling",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4143061,
+      "lon": 9.1481942
+    },
+    {
+      "type": "node",
+      "id": 5326645819,
+      "tags": {
+        "name": "Giro del Grigio",
+        "place": "locality",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4118323,
+      "lon": 9.1642451
+    },
+    {
+      "type": "node",
+      "id": 5326646029,
+      "tags": {
+        "amenity": "bar",
+        "name": "Società Sportiva U.S.C.J.O.",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4111453,
+      "lon": 9.1652821
+    },
+    {
+      "type": "node",
+      "id": 5326646030,
+      "tags": {
+        "addr:housenumber": "137",
+        "addr:street": "Via Vittorio Veneto",
+        "name": "Alimentari Rita",
+        "shop": "convenience",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4112091,
+      "lon": 9.1655534
+    },
+    {
+      "type": "node",
+      "id": 5327108230,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Vittorio Veneto civ. 91",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "8714",
+        "shelter": "no",
+        "zone_id": "99",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4117283,
+      "lon": 9.1644357
+    },
+    {
+      "type": "node",
+      "id": 5534657641,
+      "tags": {
+        "addr:housenumber": "12",
+        "addr:street": "Salita Olivi",
+        "check_date": "2023-06-10",
+        "contact:phone": "+39 0185 91725; +39 328 758 1789",
+        "guest_house": "bed_and_breakfast",
+        "name": "B&B La Margherita",
+        "tourism": "guest_house",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4120419,
+      "lon": 9.1667276
+    },
+    {
+      "type": "node",
+      "id": 5534709977,
+      "tags": {
+        "layer": "-1",
+        "leisure": "sports_centre",
+        "name": "palestra",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4106495,
+      "lon": 9.1659041
+    },
+    {
+      "type": "node",
+      "id": 5534714653,
+      "tags": {
+        "name": "Località Olivi",
+        "place": "neighbourhood",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4122402,
+      "lon": 9.1667028
+    },
+    {
+      "type": "node",
+      "id": 6449433666,
+      "tags": {
+        "ele": "533",
+        "name": "Passo dei Casetti",
+        "natural": "saddle",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4147541,
+      "lon": 9.1721758
+    },
+    {
+      "type": "node",
+      "id": 6449684039,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Murtà e Pestellu",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.421274,
+      "lon": 9.1785168
+    },
+    {
+      "type": "node",
+      "id": 6537006034,
+      "tags": {
+        "addr:city": "Uscio",
+        "addr:housenumber": "25",
+        "addr:postcode": "16036",
+        "addr:street": "Via Orlando Bianchi",
+        "emergency": "ambulance_station",
+        "healthcare": "hospital",
+        "name": "Croce Rossa - Uscio",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4161653,
+      "lon": 9.1572735
+    },
+    {
+      "type": "node",
+      "id": 6611905054,
+      "tags": {
+        "name": "Salto Alto",
+        "place": "hamlet",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.40138,
+      "lon": 9.1709393
+    },
+    {
+      "type": "node",
+      "id": 6611905055,
+      "tags": {
+        "name": "La croce",
+        "name:lij": "A croxe",
+        "place": "locality",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.400923,
+      "lon": 9.170941
+    },
+    {
+      "type": "node",
+      "id": 6681505172,
+      "tags": {
+        "amenity": "drinking_water",
+        "name": "Acqua della fonte Liteggia",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4080187,
+      "lon": 9.1807468
+    },
+    {
+      "type": "node",
+      "id": 8090422520,
+      "tags": {
+        "shop": "convenience",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.413558,
+      "lon": 9.1617043
+    },
+    {
+      "type": "node",
+      "id": 8090437317,
+      "tags": {
+        "addr:city": "Uscio",
+        "addr:housenumber": "33",
+        "addr:postcode": "16036",
+        "addr:street": "Via Quattro Novembre",
+        "name": "Franca e Ornella",
+        "phone": "+39 0185979005",
+        "shop": "hairdresser",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4132444,
+      "lon": 9.1620685
+    },
+    {
+      "type": "node",
+      "id": 8090437320,
+      "tags": {
+        "name": "Al Forno",
+        "shop": "bakery",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4117444,
+      "lon": 9.1655065
+    },
+    {
+      "type": "node",
+      "id": 8090437321,
+      "tags": {
+        "name": "Macelleria Fasce",
+        "shop": "butcher",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4115837,
+      "lon": 9.1657083
+    },
+    {
+      "type": "node",
+      "id": 8090437517,
+      "tags": {
+        "addr:city": "Uscio",
+        "addr:housenumber": "31",
+        "addr:postcode": "16036",
+        "addr:street": "Via Quattro Novembre",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Studio Odontoiatrico Aosci",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4132242,
+      "lon": 9.1621028
+    },
+    {
+      "type": "node",
+      "id": 8090447817,
+      "tags": {
+        "name": "Cristina",
+        "shop": "hairdresser",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.41158,
+      "lon": 9.1652912
+    },
+    {
+      "type": "node",
+      "id": 8090447818,
+      "tags": {
+        "amenity": "bank",
+        "name": "Banco BPM",
+        "operator": "Banco BPM",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4116167,
+      "lon": 9.1655697
+    },
+    {
+      "type": "node",
+      "id": 8090462317,
+      "tags": {
+        "shop": "general",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4111268,
+      "lon": 9.1663416
+    },
+    {
+      "type": "node",
+      "id": 8090472517,
+      "tags": {
+        "shop": "hairdresser",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4111178,
+      "lon": 9.1664694
+    },
+    {
+      "type": "node",
+      "id": 8090882010,
+      "tags": {
+        "artist_name": "ANPI e Comune di Uscio",
+        "historic": "memorial",
+        "inscription": "Barbaramente trucidato dai nazifascisti in nome dell'Italia per la libertà",
+        "memorial": "plaque",
+        "name": "Bisso SIlvio",
+        "start_date": "1975",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4094376,
+      "lon": 9.1685723
+    },
+    {
+      "type": "node",
+      "id": 8090893425,
+      "tags": {
+        "name": "Ghiardi",
+        "place": "neighbourhood",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4113105,
+      "lon": 9.157995
+    },
+    {
+      "type": "node",
+      "id": 8091999658,
+      "tags": {
+        "addr:city": "Uscio",
+        "addr:housenumber": "91",
+        "addr:postcode": "16036",
+        "addr:street": "Via Quattro Novembre",
+        "amenity": "police",
+        "email": "stge112570@carabinieri.it",
+        "name": "Carabinieri",
+        "operator": "Arma dei Carabinieri",
+        "operator:short": "Carabinieri",
+        "operator:wikidata": "Q54852",
+        "operator:wikipedia": "it:Arma dei Carabinieri",
+        "phone": "+39 0185 91114",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4149283,
+      "lon": 9.1594514
+    },
+    {
+      "type": "node",
+      "id": 8092008040,
+      "tags": {
+        "contact:phone": "+39 3923229311",
+        "leisure": "garden",
+        "name": "Orto - Bio",
+        "operator": "Paola",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4121018,
+      "lon": 9.1594139
+    },
+    {
+      "type": "node",
+      "id": 8094708935,
+      "tags": {
+        "name": "Locanda Il Mulino di Giò",
+        "tourism": "guest_house",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4087152,
+      "lon": 9.1682222
+    },
+    {
+      "type": "node",
+      "id": 8094708981,
+      "tags": {
+        "contact:phone": "+39 0185 91101",
+        "information": "office",
+        "name": "Pro Loco Uffico Iat",
+        "tourism": "information",
+        "website": "https://www.prolocouscio.it/",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4111248,
+      "lon": 9.1663798
+    },
+    {
+      "type": "node",
+      "id": 8463765126,
+      "tags": {
+        "name": "Pertigliola",
+        "place": "isolated_dwelling",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4084345,
+      "lon": 9.1546758
+    },
+    {
+      "type": "node",
+      "id": 8463765996,
+      "tags": {
+        "name": "Costa dei Santi",
+        "place": "isolated_dwelling",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4047699,
+      "lon": 9.155015
+    },
+    {
+      "type": "node",
+      "id": 10030956042,
+      "tags": {
+        "name": "Grotta con laghetto",
+        "natural": "cave_entrance",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4182427,
+      "lon": 9.1632838
+    },
+    {
+      "type": "node",
+      "id": 11245373541,
+      "tags": {
+        "giant_furniture": "bench",
+        "name": "Panchina Gigante",
+        "not:brand": "Big Bench Community Project",
+        "tourism": "giant_furniture",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4150265,
+      "lon": 9.1633148
+    },
+    {
+      "type": "node",
+      "id": 13007306536,
+      "tags": {
+        "craft": "clockmaker",
+        "name": "Trebino",
+        "website": "https://www.trebino.it/",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4144469,
+      "lon": 9.1596298
+    },
+    {
+      "type": "node",
+      "id": 13094934428,
+      "tags": {
+        "destination": "Passo dei Casetti h 0.40,slm 535;Terrarossa di Colombo h 1.30,slm 135|Calcinara h 0.20,slm 470;Passo Cordona h 2.25,slm 742;Nervi h 4.55,slm 10|Santuario N.S. del Bosco h 0.35,slm 344|VM Via del Mare",
+        "ele": "481",
+        "information": "guidepost",
+        "name": "Colle Caprile",
+        "support": "pole",
+        "tourism": "information",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4171902,
+      "lon": 9.1480613
+    },
+    {
+      "type": "node",
+      "id": 13244290237,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "L.Go Colle Caprile F. 8",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "8102",
+        "zone_id": "99",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4166656,
+      "lon": 9.1477677
+    },
+    {
+      "type": "node",
+      "id": 13244290238,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Garaventa 19 Fr. Calcinara",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "8058",
+        "zone_id": "99",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4142877,
+      "lon": 9.1464593
+    },
+    {
+      "type": "node",
+      "id": 13244290241,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Largo Colle Caprile",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "8753",
+        "zone_id": "99",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4164411,
+      "lon": 9.147643
+    },
+    {
+      "type": "node",
+      "id": 13244290244,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Colle Caprile 88 Loc. Biole",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4954",
+        "zone_id": "99",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4189472,
+      "lon": 9.1496085
+    },
+    {
+      "type": "node",
+      "id": 13244290245,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Garaventa F. 19 Fr. Calcinara",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "8003",
+        "zone_id": "99",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4142736,
+      "lon": 9.1463169
+    },
+    {
+      "type": "node",
+      "id": 13245546903,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via XXIV Maggio bivio Micerium",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4791",
+        "zone_id": "26",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4043168,
+      "lon": 9.1665785
+    },
+    {
+      "type": "node",
+      "id": 13245546904,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Uscio Chiesa",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "8713",
+        "shelter": "no",
+        "zone_id": "99",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4113144,
+      "lon": 9.1657981
+    },
+    {
+      "type": "node",
+      "id": 13362549450,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Fraz. Pian Dei Preti F. 10",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4957",
+        "zone_id": "99",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4257717,
+      "lon": 9.1697428
+    },
+    {
+      "type": "node",
+      "id": 13362549452,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Fraz. Cassanesi F. 5",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "8059",
+        "zone_id": "99",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4194717,
+      "lon": 9.1809034
+    },
+    {
+      "type": "node",
+      "id": 13362549453,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Fraz. Pian Dei Preti 3",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4956",
+        "zone_id": "99",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4250509,
+      "lon": 9.1677721
+    },
+    {
+      "type": "node",
+      "id": 13362549456,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Fraz. Pian Dei Preti Bivio Fondegone",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4958",
+        "zone_id": "99",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4196122,
+      "lon": 9.1685081
+    },
+    {
+      "type": "node",
+      "id": 13362549458,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Fraz. Cassanesi F. Loc. Giro Dello Stretto",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4962",
+        "zone_id": "104",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4235735,
+      "lon": 9.1774073
+    },
+    {
+      "type": "node",
+      "id": 13362549464,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Colle Caprile F. Loc. Chiapparino",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4955",
+        "zone_id": "99",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4227715,
+      "lon": 9.1544886
+    },
+    {
+      "type": "node",
+      "id": 13362549465,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Fraz. Cassanesi F. 86 Bivio Tribogna",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4959",
+        "zone_id": "99",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4211699,
+      "lon": 9.1785569
+    },
+    {
+      "type": "node",
+      "id": 13451045121,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Bianchi civ. 20",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4951",
+        "zone_id": "99",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4162958,
+      "lon": 9.1577267
+    },
+    {
+      "type": "node",
+      "id": 13451045122,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via XXIV Maggio dopo bivio Micerium",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4790",
+        "zone_id": "26",
+        "addr:city_extracted": "Uscio"
+      },
+      "lat": 44.4042133,
+      "lon": 9.1670737
+    },
+    {
+      "type": "way",
+      "id": 11987245,
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Via Orlando Bianchi",
+        "ref": "SP333",
+        "surface": "asphalt",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 26439075,
+      "tags": {
+        "highway": "unclassified",
+        "maxweight": "14",
+        "name": "Via Bisagno",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 48856275,
+      "tags": {
+        "highway": "tertiary",
+        "maxspeed": "30",
+        "name": "Via Cavalli",
+        "ref": "SP22",
+        "surface": "asphalt",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 48856278,
+      "tags": {
+        "highway": "residential",
+        "name": "Via Carlo Arnaldi",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 48856280,
+      "tags": {
+        "highway": "residential",
+        "name": "Via Cavalli",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 58788877,
+      "tags": {
+        "fixme": "verificare se è ancora attivo",
+        "leisure": "pitch",
+        "name": "Campo Sportivo",
+        "sport": "soccer",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 61382937,
+      "tags": {
+        "highway": "secondary",
+        "name": "Strada Provinciale del Monte Fasce",
+        "ref": "SP67",
+        "surface": "asphalt",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 114008071,
+      "tags": {
+        "name": "Piazza della Resistenza",
+        "place": "square",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 138375939,
+      "tags": {
+        "highway": "residential",
+        "name": "Passo dei Maggioli",
+        "surface": "asphalt",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 155220980,
+      "tags": {
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "path",
+        "motor_vehicle": "no",
+        "name": "Itinerario Storico Colombiano",
+        "sac_scale": "mountain_hiking",
+        "surface": "dirt",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 182671164,
+      "tags": {
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "path",
+        "name": "Colonia Arnaldi",
+        "sac_scale": "mountain_hiking",
+        "surface": "dirt",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 182761917,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Geppi",
+        "oneway": "no",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 182761929,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Craì",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 182761985,
+      "tags": {
+        "highway": "tertiary",
+        "maxweight": "5",
+        "name": "Via Caduti della Libertà",
+        "surface": "asphalt",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 195415069,
+      "tags": {
+        "highway": "residential",
+        "name": "Via Cià",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 195415070,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Costa Chiesa",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204742733,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "church",
+        "denomination": "catholic",
+        "name": "Chiesa di San Rocco e Sacro Cuore di Gesù",
+        "religion": "christian",
+        "source": "Regione Liguria",
+        "wikidata": "Q3671941",
+        "wikipedia": "it:Chiesa di San Rocco e Sacro Cuore di Gesù",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204743802,
+      "tags": {
+        "building": "house",
+        "name": "Casa delle Stelle",
+        "source": "Regione Liguria",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204748468,
+      "tags": {
+        "amenity": "social_facility",
+        "building": "yes",
+        "name": "Residenza Protetta Villa delle Rose",
+        "social_facility": "nursing_home",
+        "social_facility:for": "senior",
+        "source": "Regione Liguria",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204750947,
+      "tags": {
+        "building": "apartments",
+        "building:flats": "6",
+        "name": "Palazzo Bardellini",
+        "source": "Regione Liguria",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204751990,
+      "tags": {
+        "building": "yes",
+        "name": "Azienda Agricola Roberto Alloia",
+        "source": "Regione Liguria",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204753527,
+      "tags": {
+        "building": "house",
+        "name": "Reception",
+        "source": "Regione Liguria",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204754376,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "regional",
+        "name": "Chiapparino",
+        "source": "Regione Liguria",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204756270,
+      "tags": {
+        "building": "house",
+        "name": "Centro Sportivo Polifunzionale Cesare Rino Gatorna",
+        "operator": "Comune di Uscio",
+        "source": "Regione Liguria",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204757164,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "catholic",
+        "name": "Chiesa di Sant'Ambrogio",
+        "religion": "christian",
+        "wikidata": "Q3672371",
+        "wikipedia": "it:Chiesa di Sant'Ambrogio (Uscio)",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 215115611,
+      "tags": {
+        "highway": "tertiary",
+        "maxweight": "14",
+        "name": "Via Banchi",
+        "surface": "asphalt",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 319690457,
+      "tags": {
+        "highway": "tertiary",
+        "maxweight": "5",
+        "name": "Via Crocetta",
+        "surface": "asphalt",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 405904638,
+      "tags": {
+        "fixme": "resurvey",
+        "highway": "path",
+        "mtb:name": "Madonna del Bosco",
+        "name": "Madonna del Bosco",
+        "sac_scale": "mountain_hiking",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 421966736,
+      "tags": {
+        "highway": "path",
+        "name": "Chiapparino-Ognio",
+        "sac_scale": "mountain_hiking",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 421966737,
+      "tags": {
+        "bicycle": "yes",
+        "highway": "path",
+        "mtb:name": "Costa Lunga",
+        "mtb:scale": "1",
+        "name": "Costalunga",
+        "sac_scale": "mountain_hiking",
+        "surface": "dirt",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 453786385,
+      "tags": {
+        "name": "Cassanesi-Quartaie",
+        "power": "line",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 453799058,
+      "tags": {
+        "name": "Rio Rosso",
+        "waterway": "stream",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 453799059,
+      "tags": {
+        "name": "Rio Rosso",
+        "waterway": "stream",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 454735023,
+      "tags": {
+        "name": "Rio di Marsiglia",
+        "waterway": "stream",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 490122505,
+      "tags": {
+        "highway": "path",
+        "name": "Colle Caprile - Ruta",
+        "sac_scale": "mountain_hiking",
+        "symbol:it": "due cerchi rossi vuoti",
+        "trail_visibility": "good",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 517488980,
+      "tags": {
+        "highway": "secondary",
+        "name": "Via Roma",
+        "ref": "SP333",
+        "surface": "asphalt",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 517488981,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Costa Chiesa",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 517488982,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Caduti della Libertà",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 517488983,
+      "tags": {
+        "name": "Piazza Mille",
+        "place": "square",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 517488984,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Vecchia Crocetta",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 517488985,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Piazza Mille",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 551560611,
+      "tags": {
+        "highway": "residential",
+        "name": "Salita Isella",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 551619669,
+      "tags": {
+        "highway": "secondary",
+        "name": "Via Vittorio Veneto",
+        "ref": "SP333",
+        "surface": "asphalt",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 563907072,
+      "tags": {
+        "highway": "residential",
+        "name": "Via Borissa",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 570590439,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Travilla",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 575386228,
+      "tags": {
+        "highway": "steps",
+        "name": "Salita Chiapporo",
+        "sac_scale": "hiking",
+        "surface": "paving_stones",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 579047438,
+      "tags": {
+        "name": "Torrente Salto",
+        "waterway": "stream",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 586342642,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Strada Provinciale 22 di Tribogna",
+        "ref": "SP22",
+        "surface": "asphalt",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 635349520,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Tenaglio",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 677924966,
+      "tags": {
+        "highway": "footway",
+        "name": "Via Carlo Arnaldi",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 749612153,
+      "tags": {
+        "layer": "-1",
+        "name": "Rio Rosso",
+        "tunnel": "culvert",
+        "waterway": "stream",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 749612154,
+      "tags": {
+        "name": "Rio Rosso",
+        "waterway": "stream",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 749612155,
+      "tags": {
+        "layer": "-1",
+        "name": "Rio Rosso",
+        "tunnel": "culvert",
+        "waterway": "stream",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 749612156,
+      "tags": {
+        "name": "Rio Rosso",
+        "waterway": "stream",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 764661427,
+      "tags": {
+        "highway": "tertiary",
+        "maxspeed": "30",
+        "name": "Via Pozzone",
+        "ref": "SP22",
+        "surface": "asphalt",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 868007809,
+      "tags": {
+        "highway": "steps",
+        "name": "Salita Borissa",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 868014575,
+      "tags": {
+        "highway": "steps",
+        "name": "Salita Chiapporo",
+        "surface": "concrete",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 868014577,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Salita Chiapporo",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 868014578,
+      "tags": {
+        "highway": "footway",
+        "name": "Salita Chiapporo",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 868121700,
+      "tags": {
+        "highway": "steps",
+        "name": "Salita Castello",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 868121701,
+      "tags": {
+        "highway": "footway",
+        "name": "Salita Castello",
+        "surface": "concrete",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 868121702,
+      "tags": {
+        "highway": "footway",
+        "name": "Salita Castello",
+        "surface": "concrete",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 868121703,
+      "tags": {
+        "highway": "steps",
+        "name": "Salita Castello",
+        "surface": "concrete",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 868121704,
+      "tags": {
+        "highway": "footway",
+        "name": "Salita Castello",
+        "surface": "paving_stones",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 868121710,
+      "tags": {
+        "highway": "residential",
+        "name": "Via Campo",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 868121711,
+      "tags": {
+        "highway": "residential",
+        "name": "Via Pino",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 868430054,
+      "tags": {
+        "highway": "footway",
+        "name": "Salita Isella",
+        "surface": "concrete",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 909298631,
+      "tags": {
+        "highway": "footway",
+        "name": "Via Caduti della Libertà",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 909298632,
+      "tags": {
+        "highway": "steps",
+        "name": "Salita Camponi",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 923432551,
+      "tags": {
+        "bicycle": "yes",
+        "highway": "path",
+        "mtb:scale": "2",
+        "name": "Colonia Arnaldi",
+        "surface": "dirt",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 923432843,
+      "tags": {
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "path",
+        "name": "Passo Spinarola",
+        "sac_scale": "mountain_hiking",
+        "surface": "dirt",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 961088225,
+      "tags": {
+        "highway": "path",
+        "name": "Castello Vecchio",
+        "trail_visibility": "good",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 961088226,
+      "tags": {
+        "highway": "path",
+        "name": "Casa del cinese",
+        "trail_visibility": "bad",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 976351829,
+      "tags": {
+        "highway": "path",
+        "name": "Salita Costa di Gazzo",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 976351830,
+      "tags": {
+        "highway": "path",
+        "name": "Vico Filo",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 986632667,
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Via Quattro Novembre",
+        "ref": "SP333",
+        "short_name": "Via 4 Novembre",
+        "surface": "asphalt",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 986632668,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Cuneo",
+        "oneway": "no",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 986632669,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Molino Gazzo",
+        "oneway": "no",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 986632670,
+      "tags": {
+        "highway": "tertiary",
+        "maxweight": "14",
+        "name": "Via Silvio Bisso",
+        "surface": "asphalt",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1010976737,
+      "tags": {
+        "highway": "secondary",
+        "name": "Strada Provinciale del Monte Fasce",
+        "oneway": "yes",
+        "ref": "SP67",
+        "surface": "asphalt",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1010976738,
+      "tags": {
+        "highway": "secondary",
+        "name": "Strada Provinciale del Monte Fasce",
+        "ref": "SP67",
+        "surface": "asphalt",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1227131381,
+      "tags": {
+        "highway": "footway",
+        "name": "Via Costa Chiesa",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1227131383,
+      "tags": {
+        "highway": "unclassified",
+        "maxweight": "14",
+        "name": "Via Bisagno",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1227131384,
+      "tags": {
+        "highway": "residential",
+        "name": "Via Carlo Arnaldi",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1227131385,
+      "tags": {
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "path",
+        "name": "Colonia Arnaldi",
+        "sac_scale": "mountain_hiking",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1227131386,
+      "tags": {
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "track",
+        "name": "Colonia Arnaldi",
+        "sac_scale": "mountain_hiking",
+        "surface": "dirt",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1227131387,
+      "tags": {
+        "bicycle": "designated",
+        "foot": "yes",
+        "highway": "residential",
+        "name": "Colonia Arnaldi",
+        "sac_scale": "mountain_hiking",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1227131391,
+      "tags": {
+        "highway": "path",
+        "name": "Colle Caprile - Ruta",
+        "sac_scale": "mountain_hiking",
+        "symbol:it": "due cerchi rossi vuoti",
+        "trail_visibility": "good",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1415478895,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "catholic",
+        "name": "Pieve di Sant' Ambrogio",
+        "religion": "christian",
+        "wikidata": "Q3904733",
+        "wikipedia": "it:Pieve di Sant'Ambrogio (Uscio)",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1443311061,
+      "tags": {
+        "highway": "secondary",
+        "name": "Strada Provinciale del Monte Fasce",
+        "ref": "SP67",
+        "surface": "asphalt",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1443311062,
+      "tags": {
+        "highway": "secondary",
+        "name": "Strada Provinciale del Monte Fasce",
+        "oneway": "yes",
+        "ref": "SP67",
+        "surface": "asphalt",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1468447876,
+      "tags": {
+        "highway": "secondary",
+        "name": "Via Vittorio Veneto",
+        "ref": "SP333",
+        "surface": "asphalt",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1468447877,
+      "tags": {
+        "highway": "secondary",
+        "name": "Via Vittorio Veneto",
+        "ref": "SP333",
+        "surface": "asphalt",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1468447878,
+      "tags": {
+        "bridge": "yes",
+        "highway": "secondary",
+        "layer": "1",
+        "name": "Via XXIV Maggio",
+        "ref": "SP333",
+        "surface": "asphalt",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1493039818,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Strada Provinciale 22 di Tribogna",
+        "ref": "SP22",
+        "surface": "asphalt",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1551807250,
+      "tags": {
+        "name": "Rio Rosso",
+        "waterway": "stream",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1551807251,
+      "tags": {
+        "layer": "-1",
+        "name": "Rio Rosso",
+        "tunnel": "culvert",
+        "waterway": "stream",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1559335977,
+      "tags": {
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "path",
+        "motor_vehicle": "no",
+        "name": "Itinerario Storico Colombiano",
+        "sac_scale": "mountain_hiking",
+        "surface": "dirt",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 43116,
+      "tags": {
+        "admin_level": "8",
+        "boundary": "administrative",
+        "gfoss_id": "1259",
+        "name": "Avegno",
+        "population": "2553",
+        "population:date": "2026-08-27",
+        "ref:catasto": "A506",
+        "ref:ISTAT": "010002",
+        "type": "boundary",
+        "wikidata": "Q266580",
+        "wikipedia": "it:Avegno",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 43128,
+      "tags": {
+        "admin_level": "8",
+        "boundary": "administrative",
+        "gfoss_id": "1320",
+        "name": "Tribogna",
+        "population": "607",
+        "population:date": "2026-08-27",
+        "ref:catasto": "L416",
+        "ref:ISTAT": "010063",
+        "type": "boundary",
+        "wikidata": "Q267342",
+        "wikipedia": "it:Tribogna",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 43139,
+      "tags": {
+        "admin_level": "8",
+        "boundary": "administrative",
+        "name": "Uscio",
+        "population": "2155",
+        "population:date": "2026-08-28",
+        "ref:catasto": "L507",
+        "ref:ISTAT": "010064",
+        "source:population": "ANPR 2026",
+        "type": "boundary",
+        "wikidata": "Q266666",
+        "wikipedia": "it:Uscio",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 8825535,
+      "tags": {
+        "name": "Via del Mare",
+        "network": "rwn",
+        "osmc:symbol": "red:red:white_stripe:VM:black",
+        "route": "hiking",
+        "type": "route",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 13532603,
+      "tags": {
+        "cai_scale": "E",
+        "name": "Colle Caprile - Case Cornua - Case Becco (tratto VM)",
+        "network": "lwn",
+        "osmc:symbol": "red:white::⸫:red",
+        "route": "hiking",
+        "source": "FIE",
+        "type": "route",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 13535544,
+      "tags": {
+        "cai_scale": "E",
+        "from": "Terrarossa Colombo",
+        "name": "Itinerario Storico Colombiano (ISC)",
+        "network": "lwn",
+        "osmc:symbol": "red:white:red_corner:ISC:black",
+        "route": "hiking",
+        "source": "FIE",
+        "to": "Nervi",
+        "type": "route",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 16759985,
+      "tags": {
+        "cai_scale": "E",
+        "name": "Chiesa di Uscio – Prossimità passo dei Casetti (VM)",
+        "network": "lwn",
+        "operator": "FIE",
+        "osmc:symbol": "red:white::⸫:red",
+        "ref:FIE": "GE04BA17",
+        "route": "hiking",
+        "source": "survey Nov '23",
+        "symbol:it": "tre cerchi rossi disposti a triangolo",
+        "type": "route",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 17031878,
+      "tags": {
+        "cai_scale": "E",
+        "from": "Calcinara",
+        "name": "Itinerario Storico Colombiano - Variante ISC1",
+        "network": "lwn",
+        "osmc:symbol": "red:white:red_corner:IS1:black",
+        "route": "hiking",
+        "to": "Cappelletta degli Alpini",
+        "type": "route",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 17173360,
+      "tags": {
+        "cai_scale": "E",
+        "distance": "4.28",
+        "duration:backward": "02:00",
+        "duration:forward": "01:40",
+        "name": "Sentiero della Castagna",
+        "network": "lwn",
+        "operator": "Comune di Avegno",
+        "osmc:symbol": "red:white::⊘⊘:brown",
+        "ref": "419",
+        "ref:REI": "GGEA4190",
+        "reg_ref": "GGEA41996PE",
+        "route": "hiking",
+        "source": "Regione Liguria;survey:CAI",
+        "symbol:it": "due castagne",
+        "type": "route",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 17173420,
+      "tags": {
+        "ascent": "50",
+        "cai_scale": "T",
+        "distance": "0.89",
+        "duration:backward": "00:30",
+        "duration:forward": "00:30",
+        "name": "Sentiero della Marana",
+        "network": "lwn",
+        "operator": "Comune di Avegno",
+        "ref": "421",
+        "ref:REI": "GGEA4210",
+        "reg_ref": "GGEA42196PF",
+        "route": "hiking",
+        "source": "Regione Liguria;survey:CAI",
+        "state": "proposed",
+        "symbol:it": "corrente bianco e rosso",
+        "type": "route",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 19735141,
+      "tags": {
+        "bus": "yes",
+        "colour": "green",
+        "description": "Calcinara (Colle Caprile) - Recco - Genova Brignole",
+        "from": "Calcinara",
+        "name": "776 Genova Brignole",
+        "network": "AMT Linee Provinciali",
+        "network:wikipedia": "it:AMT (Genova)",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "776",
+        "route": "bus",
+        "to": "Viale Caviglia (Brignole)",
+        "type": "route",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 19895419,
+      "tags": {
+        "bus": "yes",
+        "colour": "green",
+        "description": "870 Colle Caprile - Ferriere",
+        "from": "Colle Caprile",
+        "name": "870 Colle Caprile - Ferriere",
+        "network": "AMT Linee Provinciali",
+        "network:wikipedia": "it:AMT (Genova)",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "870",
+        "route": "bus",
+        "to": "Ferriere",
+        "type": "route",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 19935586,
+      "tags": {
+        "bus": "yes",
+        "colour": "green",
+        "description": "869 Calcinara - Tribogna - Gattorna",
+        "from": "Calcinara",
+        "name": "869 Gattorna",
+        "network": "AMT Linee Provinciali",
+        "network:wikipedia": "it:AMT (Genova)",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "869",
+        "route": "bus",
+        "to": "Gattorna",
+        "type": "route",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 19940351,
+      "tags": {
+        "bus": "yes",
+        "colour": "green",
+        "description": "869 Gattorna - Tribogna - Calcinara",
+        "from": "Gattorna",
+        "name": "869 Calcinara",
+        "network": "AMT Linee Provinciali",
+        "network:wikipedia": "it:AMT (Genova)",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "869",
+        "route": "bus",
+        "to": "Calcinara",
+        "type": "route",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 19940352,
+      "tags": {
+        "bus": "yes",
+        "colour": "green",
+        "description": "869 Calcinara - Gattorna (diretta)",
+        "from": "Calcinara",
+        "name": "869 Gattorna",
+        "network": "AMT Linee Provinciali",
+        "network:wikipedia": "it:AMT (Genova)",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "869",
+        "route": "bus",
+        "to": "Gattorna",
+        "type": "route",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 20079435,
+      "tags": {
+        "bus": "yes",
+        "colour": "green",
+        "description": "Genova Brignole - Recco - Uscio - Calcinara",
+        "duration": "01:18",
+        "from": "Genova",
+        "name": "776 Calcinara",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "network:wikipedia": "it:AMT (Genova)",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "776",
+        "route": "bus",
+        "to": "Calcinara (Colle Caprile)",
+        "type": "route",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 20377677,
+      "tags": {
+        "cai_scale": "E",
+        "name": "Gattorna - Innesto Itinerario Storico Colombiano",
+        "network": "lwn",
+        "osmc:symbol": "red:white::❚●:red",
+        "route": "hiking",
+        "source": "survey",
+        "symbol:it": "cerchio e linea verticale rossi",
+        "type": "route",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 21215319,
+      "tags": {
+        "from": "Ponte Organasco",
+        "name": "Antica Via del Cifalco - Percorso principale",
+        "network": "nwn",
+        "network:type": "lwn",
+        "official_name": "Antica Via del Cifalco",
+        "ref": "AVC",
+        "route": "hiking",
+        "to": "Portofino Mare",
+        "type": "route",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 21824337,
+      "tags": {
+        "name": "Antica Via del Cifalco - deviazione Colle Caprile",
+        "network": "nwn",
+        "ref": "AVCd",
+        "route": "hiking",
+        "type": "route",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 21824348,
+      "tags": {
+        "from": "Ponte Organasco",
+        "name": "Antica Via del Cifalco",
+        "network": "nwn",
+        "ref": "AVC",
+        "route": "hiking",
+        "to": "Camogli",
+        "type": "superroute",
+        "addr:city_extracted": "Uscio"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 21824425,
+      "tags": {
+        "name": "Antica Via del Cifalco - deviazione Uscio",
+        "network": "nwn",
+        "ref": "AVCd",
+        "route": "hiking",
+        "type": "route",
+        "addr:city_extracted": "Uscio"
+      }
+    }
+  ]
+}

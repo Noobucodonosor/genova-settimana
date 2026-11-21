@@ -1,0 +1,295 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-11-01T21:12:21Z",
+    "timestamp_areas_base": "2026-11-01T18:30:20Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "way",
+  "id": 292294044,
+  "tags": {
+    "bridge": "yes",
+    "highway": "secondary",
+    "lanes": "2",
+    "layer": "1",
+    "name": "Strada provinciale del Fregarolo",
+    "ref": "SP48",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 292294045,
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Strada provinciale del Fregarolo",
+    "ref": "SP48",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 299759078,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Strada Statale di Val Trebbia",
+    "ref": "SS45",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 331607862,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada provinciale n. 48 del Fregarolo",
+    "ref": "SP48",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 357119562,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Fontana Vecchia"
+  }
+},
+{
+  "type": "way",
+  "id": 822281530,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "path",
+    "name": "Antica Strada di Chiavari",
+    "sac_scale": "mountain_hiking",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 947915692,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "path",
+    "mtb:scale": "1",
+    "name": "Antica Strada di Chiavari",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 947916006,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "path",
+    "mtb:scale": "1",
+    "name": "Antica Strada di Chiavari",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 947916007,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "path",
+    "mtb:scale": "1",
+    "name": "Antica Strada di Chiavari",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 1031292234,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "path",
+    "name": "Antica Strada di Chiavari",
+    "sac_scale": "mountain_hiking",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 1031292235,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada provinciale n. 48 del Fregarolo",
+    "ref": "SP48",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1031292236,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada provinciale n. 48 del Fregarolo",
+    "ref": "SP48",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1031292237,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada provinciale n. 48 del Fregarolo",
+    "ref": "SP48",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1031292238,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada provinciale n. 48 del Fregarolo",
+    "ref": "SP48",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1031292239,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada provinciale n. 48 del Fregarolo",
+    "ref": "SP48",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1031292240,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada provinciale n. 48 del Fregarolo",
+    "ref": "SP48",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1031292241,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada provinciale n. 48 del Fregarolo",
+    "ref": "SP48",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1031292242,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada provinciale n. 48 del Fregarolo",
+    "ref": "SP48",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1031599615,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada provinciale n. 48 del Fregarolo",
+    "ref": "SP48",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1031599616,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada provinciale n. 48 del Fregarolo",
+    "ref": "SP48",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1031612422,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada provinciale n. 48 del Fregarolo",
+    "ref": "SP48",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1031612423,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada provinciale n. 48 del Fregarolo",
+    "ref": "SP48",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1096219430,
+  "tags": {
+    "highway": "path",
+    "name": "Vecchia Strada \"La Spada nella Roccia\""
+  }
+},
+{
+  "type": "way",
+  "id": 1250338301,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada provinciale n. 48 del Fregarolo",
+    "ref": "SP48",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1309834013,
+  "tags": {
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "path",
+    "incline": "down",
+    "mtb:scale": "1",
+    "mtb:scale:uphill": "3",
+    "mtb:type": "allmountain",
+    "name": "DH Madonnina",
+    "surface": "ground",
+    "trail_visibility": "intermediate"
+  }
+},
+{
+  "type": "way",
+  "id": 1450395004,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada provinciale n. 48 del Fregarolo",
+    "ref": "SP48",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1573431032,
+  "tags": {
+    "highway": "secondary",
+    "name": "Strada provinciale n. 48 del Fregarolo",
+    "ref": "SP48",
+    "surface": "asphalt"
+  }
+}
+
+  ]
+}

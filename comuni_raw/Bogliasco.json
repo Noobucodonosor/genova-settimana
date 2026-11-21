@@ -1,0 +1,2119 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-11-01T20:03:21Z",
+    "timestamp_areas_base": "2026-11-01T12:51:03Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 6612298355,
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "Centro sportivo Gloriano Mugnaini",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "node",
+  "id": 10968155764,
+  "tags": {
+    "historic": "memorial",
+    "inscription": "4-11-1991 - 13-6-2010 La tua morte inattesa e rapida lascia un grande vuoto fra tutti coloro che ti amarono. (...) I tuoi amici.",
+    "name": "Daniele Piazza \"Ciccio\""
+  }
+},
+{
+  "type": "node",
+  "id": 10968155765,
+  "tags": {
+    "historic": "memorial",
+    "inscription": "Francesco e Luciana 6 ott0bre 1981",
+    "name": "Francesco e Luciana",
+    "start_date": "1981-10-06"
+  }
+},
+{
+  "type": "node",
+  "id": 11603633419,
+  "tags": {
+    "name": "Piazzetta Marchesa Carina Massone Negrone",
+    "place": "square"
+  }
+},
+{
+  "type": "node",
+  "id": 13036912703,
+  "tags": {
+    "leisure": "dog_park",
+    "name": "Area Cani Bogliasco"
+  }
+},
+{
+  "type": "node",
+  "id": 13120802487,
+  "tags": {
+    "direction": "90",
+    "historic": "memorial",
+    "image": "https://www.scriabinclub.com/images/scriabin-memorial-plaque.jpg",
+    "inscription": "LARGO ALEKSANDR SKRJABIN MUSICISTA MOSCA 1872 1915",
+    "material": "metal",
+    "memorial": "plaque",
+    "name": "Largo Aleksandr Skrjabin",
+    "name:en": "Alexander Scriabin memorial plaque",
+    "name:ru": "Александр Николаевич Скрябин",
+    "subject:wikidata": "Q185647",
+    "subject:wikipedia": "en:Alexander Scriabin",
+    "website": "https://www.scriabinclub.com/research/scriabin-bogliasco/"
+  }
+},
+{
+  "type": "way",
+  "id": 9219493,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "-1",
+    "lit": "24/7",
+    "maxspeed": "110",
+    "name": "Galleria Monte Castelletti",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes",
+    "tunnel": "yes",
+    "tunnel:length": "1348",
+    "tunnel:name": "Monte Castelletti",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 9219580,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "-1",
+    "lit": "24/7",
+    "maxspeed": "110",
+    "name": "Galleria Monte Castelletti",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes",
+    "tunnel": "yes",
+    "tunnel:length": "1338",
+    "tunnel:name": "Monte Castelletti",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 13235589,
+  "tags": {
+    "highway": "tertiary",
+    "maxspeed": "30",
+    "name": "Via Sessarego",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 15047232,
+  "tags": {
+    "highway": "residential",
+    "maxheight": "2.4",
+    "name": "Via Gianfrancesco De Marchi",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 15047265,
+  "tags": {
+    "highway": "residential",
+    "maxspeed": "30",
+    "name": "Via Camillo Benso Conte di Cavour",
+    "oneway": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 19796774,
+  "tags": {
+    "bridge": "yes",
+    "highway": "primary",
+    "lanes": "2",
+    "layer": "1",
+    "maxspeed": "50",
+    "name": "Via Aurelia",
+    "nat_ref": "SS1",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 19796777,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Via Aurelia",
+    "nat_ref": "SS1",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 19796783,
+  "tags": {
+    "highway": "residential",
+    "lanes": "2",
+    "maxspeed": "30",
+    "name": "Via Camillo Benso Conte di Cavour",
+    "oneway": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 19822797,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Giuseppe Mazzini",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 19822877,
+  "tags": {
+    "highway": "unclassified",
+    "maxspeed": "30",
+    "name": "Via Giuseppe Mazzini"
+  }
+},
+{
+  "type": "way",
+  "id": 23855350,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "A12 dir. Livorno - Genova Nervi/Recco",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 23855364,
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "A12 dir. Genova - Recco/Genova Nervi",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 23855366,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "-1",
+    "lit": "24/7",
+    "maxspeed": "110",
+    "name": "Galleria Sessarego",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes",
+    "tunnel": "yes",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 23855367,
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "A12 dir. Genova - Recco/Genova Nervi",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 24885446,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "-1",
+    "lit": "24/7",
+    "maxspeed": "110",
+    "name": "Galleria Monte Giugo",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes",
+    "tunnel": "yes",
+    "tunnel:length": "1680",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 24885449,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "-1",
+    "length": "540",
+    "lit": "24/7",
+    "maxspeed": "110",
+    "name": "Galleria Sessarego",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes",
+    "tunnel": "yes",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 24885452,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "A12 dir. Livorno - Genova Nervi/Recco",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 25792711,
+  "tags": {
+    "highway": "tertiary",
+    "lanes": "2",
+    "name": "Via Guglielmo Marconi",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 25792716,
+  "tags": {
+    "highway": "steps",
+    "name": "Via Favaro",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 25792914,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Favaro",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 27073132,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Via della Zuccona"
+  }
+},
+{
+  "type": "way",
+  "id": 27073133,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Via Armanna"
+  }
+},
+{
+  "type": "way",
+  "id": 27073134,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Via Armanno"
+  }
+},
+{
+  "type": "way",
+  "id": 27073135,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Via Armanna"
+  }
+},
+{
+  "type": "way",
+  "id": 27073136,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Via Armanna"
+  }
+},
+{
+  "type": "way",
+  "id": 27073139,
+  "tags": {
+    "access": "private",
+    "foot": "no",
+    "highway": "residential",
+    "name": "Via privata Adelina"
+  }
+},
+{
+  "type": "way",
+  "id": 28038916,
+  "tags": {
+    "highway": "steps",
+    "incline": "up",
+    "name": "Int'a Luietta",
+    "surface": "paved",
+    "wheelchair": "no",
+    "width": "2.5"
+  }
+},
+{
+  "type": "way",
+  "id": 28038918,
+  "tags": {
+    "highway": "tertiary",
+    "maxspeed": "30",
+    "name": "Via Sessarego",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 28039099,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "layer": "-1",
+    "maxspeed": "50",
+    "name": "Via Aurelia",
+    "nat_ref": "SS1",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 28039100,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Via Aurelia",
+    "nat_ref": "SS1",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 35791072,
+  "tags": {
+    "highway": "residential",
+    "name": "Località San Bernardo",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 35791075,
+  "tags": {
+    "alt_name": "Via San Bernardo",
+    "highway": "footway",
+    "name": "int'a Grafignann-a",
+    "surface": "paving_stones",
+    "symbol": "3 bolli rossi disposti a triangolo"
+  }
+},
+{
+  "type": "way",
+  "id": 50847676,
+  "tags": {
+    "highway": "tertiary",
+    "maxspeed": "30",
+    "name": "Via Antonio Canezza",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 50847677,
+  "tags": {
+    "highway": "tertiary",
+    "maxspeed": "30",
+    "name": "Via Antonio Canezza",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 50847679,
+  "tags": {
+    "highway": "steps",
+    "incline": "up",
+    "name": "Via Sessarego",
+    "surface": "paved",
+    "wheelchair": "no",
+    "width": "2"
+  }
+},
+{
+  "type": "way",
+  "id": 50847680,
+  "tags": {
+    "highway": "residential",
+    "name": "Via dei Mille"
+  }
+},
+{
+  "type": "way",
+  "id": 50847681,
+  "tags": {
+    "alt_name": "Piazza XXVI Aprile",
+    "name": "Piazza Ventisei Aprile",
+    "place": "square",
+    "short_name": "Piazza 26 Aprile"
+  }
+},
+{
+  "type": "way",
+  "id": 50847682,
+  "tags": {
+    "bridge": "yes",
+    "highway": "pedestrian",
+    "layer": "1",
+    "name": "Ponte Romano"
+  }
+},
+{
+  "type": "way",
+  "id": 50847683,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Via Cristoforo Colombo"
+  }
+},
+{
+  "type": "way",
+  "id": 50847687,
+  "tags": {
+    "bridge": "yes",
+    "highway": "tertiary",
+    "layer": "1",
+    "maxspeed": "30",
+    "name": "Via Sessarego",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 50847689,
+  "tags": {
+    "highway": "steps",
+    "incline": "up",
+    "name": "Via Impianti Sportivi",
+    "surface": "paved",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 50847698,
+  "tags": {
+    "highway": "tertiary",
+    "maxspeed": "30",
+    "name": "Via Antonio Canezza",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 50847700,
+  "tags": {
+    "access": "yes",
+    "highway": "steps",
+    "incline": "up",
+    "name": "Da-u Sègnu da Cruxe",
+    "surface": "paved",
+    "tactile_paving": "no",
+    "wheelchair": "no",
+    "width": "2"
+  }
+},
+{
+  "type": "way",
+  "id": 50847701,
+  "tags": {
+    "bridge": "yes",
+    "highway": "tertiary",
+    "layer": "1",
+    "maxspeed": "30",
+    "name": "Via Antonio Canezza",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 50847703,
+  "tags": {
+    "bridge": "yes",
+    "highway": "tertiary",
+    "layer": "1",
+    "maxspeed": "30",
+    "name": "Via Antonio Canezza",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 50847705,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "In Sciu Buschéttu"
+  }
+},
+{
+  "type": "way",
+  "id": 51852574,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Favaro",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 51852575,
+  "tags": {
+    "highway": "steps",
+    "name": "Via Favaro",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 51853296,
+  "tags": {
+    "highway": "residential",
+    "name": "San Bernardo",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 51979155,
+  "tags": {
+    "description": "segnavia: linea e punto rossi",
+    "highway": "steps",
+    "name": "Via Favaro",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 51979156,
+  "tags": {
+    "highway": "steps",
+    "name": "Via Favaro",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 51979157,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Via Aurelia",
+    "nat_ref": "SS1",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 51979158,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Favaro"
+  }
+},
+{
+  "type": "way",
+  "id": 51979159,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Favaro",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 51979160,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Via Favaro"
+  }
+},
+{
+  "type": "way",
+  "id": 51979163,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Via Favaro",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 53046633,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Via inferiore Angelo Vaglio"
+  }
+},
+{
+  "type": "way",
+  "id": 53046634,
+  "tags": {
+    "highway": "steps",
+    "incline": "down",
+    "name": "Salita Nicolò Ansaldo",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 53046636,
+  "tags": {
+    "highway": "steps",
+    "incline": "down",
+    "name": "Salita Nicolò Ansaldo"
+  }
+},
+{
+  "type": "way",
+  "id": 53046638,
+  "tags": {
+    "highway": "steps",
+    "incline": "down",
+    "layer": "-1",
+    "name": "Salita Nicolò Ansaldo",
+    "surface": "concrete",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 53062305,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Emanuele Pontiroli",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 53062306,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Emanuele Pontiroli",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 54723645,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Via Bettolo"
+  }
+},
+{
+  "type": "way",
+  "id": 56144727,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Fratelli Ferrari"
+  }
+},
+{
+  "type": "way",
+  "id": 61756532,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Via Aurelia",
+    "nat_ref": "SS1",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 87448299,
+  "tags": {
+    "addr:street": "Via Giuseppe Mazzini",
+    "amenity": "school",
+    "name": "Scuola primaria Enrico Fermi"
+  }
+},
+{
+  "type": "way",
+  "id": 88070523,
+  "tags": {
+    "access": "private",
+    "foot": "yes",
+    "highway": "residential",
+    "name": "Via privata Adelina"
+  }
+},
+{
+  "type": "way",
+  "id": 88070527,
+  "tags": {
+    "access": "private",
+    "foot": "yes",
+    "highway": "residential",
+    "name": "Via privata Adelina"
+  }
+},
+{
+  "type": "way",
+  "id": 88070533,
+  "tags": {
+    "access": "private",
+    "foot": "yes",
+    "highway": "residential",
+    "name": "Via privata Adelina"
+  }
+},
+{
+  "type": "way",
+  "id": 88070538,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Via del Pianello"
+  }
+},
+{
+  "type": "way",
+  "id": 89080010,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Vico Cannone"
+  }
+},
+{
+  "type": "way",
+  "id": 89080011,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Via Armanna"
+  }
+},
+{
+  "type": "way",
+  "id": 89080012,
+  "tags": {
+    "highway": "footway",
+    "name": "Salita Nicolò Ansaldo",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 89127294,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "tertiary",
+    "lane_markings": "no",
+    "name": "au Campu",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 89127315,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Guglielmo Marconi"
+  }
+},
+{
+  "type": "way",
+  "id": 89127318,
+  "tags": {
+    "alt_name": "Via San Bernardo",
+    "highway": "path",
+    "name": "int'a Grafignann-a",
+    "surface": "concrete",
+    "symbol": "3 bolli rossi disposti a triangolo"
+  }
+},
+{
+  "type": "way",
+  "id": 89127320,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "ped int'u Fasceu"
+  }
+},
+{
+  "type": "way",
+  "id": 94576091,
+  "tags": {
+    "highway": "residential",
+    "maxspeed": "30",
+    "name": "au Campu",
+    "surface": "asphalt",
+    "symbol": "red line"
+  }
+},
+{
+  "type": "way",
+  "id": 97090076,
+  "tags": {
+    "highway": "path",
+    "name": "Via Serra di Musanego",
+    "sac_scale": "hiking",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 97156477,
+  "tags": {
+    "area": "yes",
+    "highway": "pedestrian",
+    "name": "Piazza Emanuele Cevasco"
+  }
+},
+{
+  "type": "way",
+  "id": 97158671,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Via Giuseppe Consigliere"
+  }
+},
+{
+  "type": "way",
+  "id": 97158672,
+  "tags": {
+    "highway": "tertiary",
+    "lane_markings": "no",
+    "maxweight": "10",
+    "name": "Via Guglielmo Marconi",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 97158673,
+  "tags": {
+    "highway": "steps",
+    "name": "Salita Pollaroli"
+  }
+},
+{
+  "type": "way",
+  "id": 97158674,
+  "tags": {
+    "area": "yes",
+    "highway": "pedestrian",
+    "name": "Piazza Trento e Trieste"
+  }
+},
+{
+  "type": "way",
+  "id": 97158676,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Fratelli Ferrari"
+  }
+},
+{
+  "type": "way",
+  "id": 97158678,
+  "tags": {
+    "highway": "pedestrian",
+    "layer": "-1",
+    "name": "Via Giuseppe Consigliere",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 97158679,
+  "tags": {
+    "highway": "steps",
+    "name": "Via Giuseppe Consigliere"
+  }
+},
+{
+  "type": "way",
+  "id": 97158680,
+  "tags": {
+    "highway": "steps",
+    "name": "Via Giuseppe Consigliere"
+  }
+},
+{
+  "type": "way",
+  "id": 97214719,
+  "tags": {
+    "alt_name": "Piazza XXVI Aprile",
+    "highway": "pedestrian",
+    "name": "Piazza Ventisei Aprile",
+    "short_name": "Piazza 26 Aprile"
+  }
+},
+{
+  "type": "way",
+  "id": 97214724,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Via Antica Romana"
+  }
+},
+{
+  "type": "way",
+  "id": 97214728,
+  "tags": {
+    "area": "yes",
+    "highway": "pedestrian",
+    "name": "Belvedere Marinai d'Italia"
+  }
+},
+{
+  "type": "way",
+  "id": 97214729,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Via Armanna"
+  }
+},
+{
+  "type": "way",
+  "id": 97214731,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Antica Romana"
+  }
+},
+{
+  "type": "way",
+  "id": 97214734,
+  "tags": {
+    "access": "designated",
+    "highway": "residential",
+    "name": "Via Paraso"
+  }
+},
+{
+  "type": "way",
+  "id": 97214736,
+  "tags": {
+    "highway": "residential",
+    "name": "Via del Piano"
+  }
+},
+{
+  "type": "way",
+  "id": 100789434,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Via Scogliera"
+  }
+},
+{
+  "type": "way",
+  "id": 100789435,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Pale"
+  }
+},
+{
+  "type": "way",
+  "id": 100789436,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Scogliera"
+  }
+},
+{
+  "type": "way",
+  "id": 100789437,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Vicolo Mulino"
+  }
+},
+{
+  "type": "way",
+  "id": 100789438,
+  "tags": {
+    "highway": "steps",
+    "name": "Via Aurelia"
+  }
+},
+{
+  "type": "way",
+  "id": 101044698,
+  "tags": {
+    "highway": "residential",
+    "name": "Via del Piano"
+  }
+},
+{
+  "type": "way",
+  "id": 101044699,
+  "tags": {
+    "highway": "steps",
+    "name": "Via del Piano"
+  }
+},
+{
+  "type": "way",
+  "id": 101044701,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Via del Piano"
+  }
+},
+{
+  "type": "way",
+  "id": 134670848,
+  "tags": {
+    "access": "private",
+    "highway": "residential",
+    "name": "Via alla Bossola"
+  }
+},
+{
+  "type": "way",
+  "id": 134670849,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Campodonico"
+  }
+},
+{
+  "type": "way",
+  "id": 165330080,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Giuseppe Mazzini"
+  }
+},
+{
+  "type": "way",
+  "id": 178828001,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Aurelia"
+  }
+},
+{
+  "type": "way",
+  "id": 194838293,
+  "tags": {
+    "bridge": "yes",
+    "highway": "pedestrian",
+    "layer": "1",
+    "name": "Via Giuseppe Consigliere"
+  }
+},
+{
+  "type": "way",
+  "id": 194838294,
+  "tags": {
+    "highway": "steps",
+    "name": "Via Giuseppe Consigliere"
+  }
+},
+{
+  "type": "way",
+  "id": 194838414,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Aurelia"
+  }
+},
+{
+  "type": "way",
+  "id": 194838419,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Aurelia"
+  }
+},
+{
+  "type": "way",
+  "id": 199288367,
+  "tags": {
+    "highway": "pedestrian",
+    "layer": "1",
+    "name": "Via del Piano"
+  }
+},
+{
+  "type": "way",
+  "id": 204444012,
+  "tags": {
+    "highway": "pedestrian",
+    "layer": "-1",
+    "name": "Via Antica Romana",
+    "tunnel": "building_passage"
+  }
+},
+{
+  "type": "way",
+  "id": 204444013,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Via Antica Romana"
+  }
+},
+{
+  "type": "way",
+  "id": 204444014,
+  "tags": {
+    "highway": "steps",
+    "name": "Via Giuseppe Consigliere"
+  }
+},
+{
+  "type": "way",
+  "id": 204444015,
+  "tags": {
+    "highway": "residential",
+    "level": "1",
+    "name": "Via Guglielmo Marconi"
+  }
+},
+{
+  "type": "way",
+  "id": 204444016,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Guglielmo Marconi"
+  }
+},
+{
+  "type": "way",
+  "id": 204459375,
+  "tags": {
+    "amenity": "townhall",
+    "building": "public",
+    "name": "Municipio di Bogliasco",
+    "source": "Regione Liguria"
+  }
+},
+{
+  "type": "way",
+  "id": 204467502,
+  "tags": {
+    "alt_name": "Località San Bernardo",
+    "highway": "footway",
+    "name": "int'a Grafignann-a",
+    "surface": "paving_stones",
+    "symbol": "3 bolli rossi disposti a triangolo"
+  }
+},
+{
+  "type": "way",
+  "id": 204467503,
+  "tags": {
+    "alt_name": "Via San Bernardo",
+    "highway": "footway",
+    "name": "int'a Grafignann-a",
+    "surface": "paving_stones",
+    "symbol": "3 bolli rossi disposti a triangolo",
+    "tunnel": "building_passage"
+  }
+},
+{
+  "type": "way",
+  "id": 204575003,
+  "tags": {
+    "highway": "steps",
+    "name": "Via Pagano"
+  }
+},
+{
+  "type": "way",
+  "id": 204581353,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Via Bogliasco"
+  }
+},
+{
+  "type": "way",
+  "id": 204581478,
+  "tags": {
+    "highway": "residential",
+    "name": "Strada comunale Coxola"
+  }
+},
+{
+  "type": "way",
+  "id": 204586017,
+  "tags": {
+    "highway": "steps",
+    "name": "Via Favaro",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 211691809,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Aurelia"
+  }
+},
+{
+  "type": "way",
+  "id": 220534044,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Via Fritallo"
+  }
+},
+{
+  "type": "way",
+  "id": 269739915,
+  "tags": {
+    "bridge": "yes",
+    "highway": "tertiary",
+    "layer": "1",
+    "maxspeed": "30",
+    "name": "Via Antonio Canezza",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 269739916,
+  "tags": {
+    "highway": "tertiary",
+    "maxspeed": "30",
+    "name": "Via Antonio Canezza",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 269739927,
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "A12 dir. Livorno - Genova Nervi/Recco",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 269739928,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "A12 dir. Genova - Recco/Genova Nervi",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 275290467,
+  "tags": {
+    "highway": "steps",
+    "name": "Via Fritallo"
+  }
+},
+{
+  "type": "way",
+  "id": 275290469,
+  "tags": {
+    "highway": "steps",
+    "name": "Via degli Alpini"
+  }
+},
+{
+  "type": "way",
+  "id": 275431034,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Stradda do Gallo",
+    "oneway": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 277202045,
+  "tags": {
+    "highway": "steps",
+    "incline": "down",
+    "name": "Via Figari"
+  }
+},
+{
+  "type": "way",
+  "id": 326227095,
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "loc_name": "Via Monte Cordona",
+    "name": "Strada Provinciale del Monte Fasce",
+    "ref": "SP67",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 362599535,
+  "tags": {
+    "highway": "unclassified",
+    "maxspeed": "30",
+    "name": "Via Antonio Canezza"
+  }
+},
+{
+  "type": "way",
+  "id": 366300597,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "-1",
+    "lit": "24/7",
+    "maxspeed": "110",
+    "name": "Galleria Monte Giugo",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes",
+    "tunnel": "yes",
+    "tunnel:length": "1680",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 368302530,
+  "tags": {
+    "highway": "path",
+    "name": "Via degli Agei"
+  }
+},
+{
+  "type": "way",
+  "id": 373818360,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Via Aurelia",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 431965854,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Fritallo"
+  }
+},
+{
+  "type": "way",
+  "id": 503189004,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Via Aurelia",
+    "nat_ref": "SS1",
+    "oneway": "no",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 503189504,
+  "tags": {
+    "highway": "steps",
+    "incline": "down",
+    "name": "Salita Nicolò Ansaldo",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 503366340,
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Strada Provinciale del Monte Fasce",
+    "ref": "SP67",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 544582497,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Giuseppe Mazzini",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 544582501,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Fontana"
+  }
+},
+{
+  "type": "way",
+  "id": 547625165,
+  "tags": {
+    "highway": "service",
+    "name": "Via Aurelia"
+  }
+},
+{
+  "type": "way",
+  "id": 558083477,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Aurelia"
+  }
+},
+{
+  "type": "way",
+  "id": 566440933,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Rio Fontanino"
+  }
+},
+{
+  "type": "way",
+  "id": 678260085,
+  "tags": {
+    "highway": "path",
+    "name": "Via della Fontanaccia",
+    "sac_scale": "mountain_hiking"
+  }
+},
+{
+  "type": "way",
+  "id": 698984473,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "A12 dir. Genova - Recco/Genova Nervi",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 698984476,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "A12 dir. Livorno - Genova Nervi/Recco",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 698984477,
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "A12 dir. Livorno - Genova Nervi/Recco",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 698984478,
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "int_ref": "E 80",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "name": "A12 dir. Livorno - Genova Nervi/Recco",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A12",
+    "surface": "asphalt",
+    "toll": "yes",
+    "wikidata:operator": "Q2873039"
+  }
+},
+{
+  "type": "way",
+  "id": 853216166,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Via Armanna"
+  }
+},
+{
+  "type": "way",
+  "id": 853216167,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Via Fritallo"
+  }
+},
+{
+  "type": "way",
+  "id": 853216168,
+  "tags": {
+    "highway": "steps",
+    "name": "Via Fritallo"
+  }
+},
+{
+  "type": "way",
+  "id": 853216169,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "layer": "-1",
+    "maxspeed": "50",
+    "name": "Via Aurelia",
+    "nat_ref": "SS1",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 853216170,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Fratelli Ferrari"
+  }
+},
+{
+  "type": "way",
+  "id": 853216171,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Giuseppe Mazzini"
+  }
+},
+{
+  "type": "way",
+  "id": 1010706714,
+  "tags": {
+    "highway": "residential",
+    "name": "Località San Bernardo",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1010978912,
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Strada Provinciale del Monte Fasce",
+    "ref": "SP67",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1161537994,
+  "tags": {
+    "access": "no",
+    "foot": "yes",
+    "highway": "service",
+    "name": "Via Bettolo"
+  }
+},
+{
+  "type": "way",
+  "id": 1171763909,
+  "tags": {
+    "access": "private",
+    "highway": "service",
+    "name": "Via Impianti Sportivi",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1264450195,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Via Giuseppe Consigliere",
+    "tunnel": "building_passage"
+  }
+},
+{
+  "type": "way",
+  "id": 1264450196,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Via Giuseppe Consigliere"
+  }
+},
+{
+  "type": "way",
+  "id": 1266688686,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Vicolo Mulino",
+    "tunnel": "building_passage"
+  }
+},
+{
+  "type": "way",
+  "id": 1266688687,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Vicolo Mulino"
+  }
+},
+{
+  "type": "way",
+  "id": 1301631950,
+  "tags": {
+    "access": "private",
+    "bicycle": "no",
+    "check_date": "2024-07-16",
+    "covered": "no",
+    "foot": "private",
+    "highway": "footway",
+    "horse": "no",
+    "motor_vehicle": "no",
+    "name": "Via Aurelia"
+  }
+},
+{
+  "type": "way",
+  "id": 1301631951,
+  "tags": {
+    "check_date": "2024-07-16",
+    "covered": "no",
+    "highway": "service",
+    "lanes": "1",
+    "name": "Via Aurelia",
+    "parking:left": "no",
+    "parking:right": "no",
+    "service": "driveway",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1442164210,
+  "tags": {
+    "highway": "unclassified",
+    "maxspeed": "30",
+    "name": "Via Antonio Canezza"
+  }
+},
+{
+  "type": "way",
+  "id": 1442164211,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Via Aurelia",
+    "nat_ref": "SS1",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1442164212,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Via Aurelia",
+    "nat_ref": "SS1",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1442217644,
+  "tags": {
+    "bridge": "yes",
+    "highway": "tertiary",
+    "lane_markings": "no",
+    "layer": "1",
+    "level": "2",
+    "maxweight": "10",
+    "name": "Via Guglielmo Marconi",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1442217645,
+  "tags": {
+    "highway": "tertiary",
+    "lane_markings": "no",
+    "maxweight": "10",
+    "name": "Via Guglielmo Marconi",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1442217646,
+  "tags": {
+    "bridge": "yes",
+    "highway": "tertiary",
+    "lane_markings": "no",
+    "layer": "1",
+    "level": "2",
+    "maxweight": "10",
+    "name": "Via Guglielmo Marconi",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1442217647,
+  "tags": {
+    "highway": "tertiary",
+    "lane_markings": "no",
+    "maxweight": "10",
+    "name": "Via Guglielmo Marconi",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1442217648,
+  "tags": {
+    "bridge": "yes",
+    "highway": "tertiary",
+    "lane_markings": "no",
+    "layer": "2",
+    "maxweight": "10",
+    "name": "Via Guglielmo Marconi",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1442217649,
+  "tags": {
+    "highway": "tertiary",
+    "lane_markings": "no",
+    "maxweight": "10",
+    "name": "Via Guglielmo Marconi",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1442217650,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Via Aurelia",
+    "nat_ref": "SS1",
+    "oneway": "no",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1443023843,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Via Bogliasco"
+  }
+},
+{
+  "type": "way",
+  "id": 1443023844,
+  "tags": {
+    "highway": "steps",
+    "name": "Via Pagano"
+  }
+},
+{
+  "type": "way",
+  "id": 1443023845,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Via Aurelia",
+    "nat_ref": "SS1",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1443023846,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Via Aurelia",
+    "nat_ref": "SS1",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1443023847,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Giuseppe Mazzini",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1443023848,
+  "tags": {
+    "alt_name": "Piazza XXVI Aprile",
+    "highway": "pedestrian",
+    "name": "Piazza Ventisei Aprile",
+    "short_name": "Piazza 26 Aprile"
+  }
+},
+{
+  "type": "way",
+  "id": 1443023849,
+  "tags": {
+    "highway": "unclassified",
+    "maxspeed": "30",
+    "name": "Via Giuseppe Mazzini"
+  }
+},
+{
+  "type": "way",
+  "id": 1443023850,
+  "tags": {
+    "highway": "unclassified",
+    "maxspeed": "30",
+    "name": "Via Giuseppe Mazzini"
+  }
+},
+{
+  "type": "way",
+  "id": 1473679774,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Via Aurelia",
+    "nat_ref": "SS1",
+    "ref": "SS1",
+    "ref_name": "Strada statale 1 Via Aurelia",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1473679775,
+  "tags": {
+    "highway": "residential",
+    "name": "Via dei Mille"
+  }
+},
+{
+  "type": "way",
+  "id": 1473679776,
+  "tags": {
+    "highway": "unclassified",
+    "maxspeed": "30",
+    "name": "Via Antonio Canezza"
+  }
+},
+{
+  "type": "way",
+  "id": 1491189500,
+  "tags": {
+    "foot": "yes",
+    "highway": "residential",
+    "name": "Via privata Adelina"
+  }
+},
+{
+  "type": "way",
+  "id": 1491189501,
+  "tags": {
+    "access": "private",
+    "foot": "yes",
+    "highway": "residential",
+    "name": "Via privata Adelina"
+  }
+},
+{
+  "type": "way",
+  "id": 1561435868,
+  "tags": {
+    "highway": "path",
+    "name": "sentiero 4 novembre",
+    "sac_scale": "hiking",
+    "surface": "unpaved"
+  }
+}
+
+  ]
+}

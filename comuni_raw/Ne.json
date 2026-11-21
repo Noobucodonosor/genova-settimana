@@ -1,0 +1,880 @@
+{
+  "version": 0.6,
+  "generator": "OpenStreetMap v0.6 API",
+  "comune": "Ne",
+  "elements": [
+    {
+      "type": "node",
+      "id": 66586400,
+      "tags": {
+        "gfoss_id": "1297",
+        "name": "Campo di Ne",
+        "place": "hamlet",
+        "addr:city_extracted": "Ne"
+      },
+      "lat": 44.3557273,
+      "lon": 9.3909566
+    },
+    {
+      "type": "node",
+      "id": 316527776,
+      "tags": {
+        "ele": "68",
+        "gfoss_id": "36240",
+        "istat_id": "1004010005",
+        "name": "Ponte di Gaggia",
+        "place": "hamlet",
+        "population": "726",
+        "source": "Istat 2001 - geodati.gfoss.it",
+        "addr:city_extracted": "Ne"
+      },
+      "lat": 44.3466741,
+      "lon": 9.3893487
+    },
+    {
+      "type": "node",
+      "id": 768268441,
+      "tags": {
+        "name": "Caminata",
+        "place": "hamlet",
+        "wikidata": "Q18456552",
+        "addr:city_extracted": "Ne"
+      },
+      "lat": 44.3401486,
+      "lon": 9.410627
+    },
+    {
+      "type": "node",
+      "id": 768268734,
+      "tags": {
+        "name": "Graveglia",
+        "place": "hamlet",
+        "addr:city_extracted": "Ne"
+      },
+      "lat": 44.3485945,
+      "lon": 9.3829205
+    },
+    {
+      "type": "node",
+      "id": 1927877872,
+      "tags": {
+        "name": "Conscenti",
+        "place": "village",
+        "population": "742",
+        "addr:city_extracted": "Ne"
+      },
+      "lat": 44.3443096,
+      "lon": 9.3991692
+    },
+    {
+      "type": "node",
+      "id": 1932737204,
+      "tags": {
+        "name": "Liggi",
+        "place": "hamlet",
+        "addr:city_extracted": "Ne"
+      },
+      "lat": 44.3414988,
+      "lon": 9.4059273
+    },
+    {
+      "type": "node",
+      "id": 1932737206,
+      "tags": {
+        "ele": "266",
+        "gfoss_id": "36264",
+        "istat_id": "1004020017",
+        "name": "Tolceto Basso",
+        "place": "hamlet",
+        "population": "33",
+        "source": "Istat 2001 - geodati.gfoss.it",
+        "addr:city_extracted": "Ne"
+      },
+      "lat": 44.3380872,
+      "lon": 9.395723
+    },
+    {
+      "type": "node",
+      "id": 1932737207,
+      "tags": {
+        "name": "Tolceto alto",
+        "place": "hamlet",
+        "addr:city_extracted": "Ne"
+      },
+      "lat": 44.3351866,
+      "lon": 9.3930623
+    },
+    {
+      "type": "node",
+      "id": 1937334338,
+      "tags": {
+        "name": "Castello",
+        "place": "hamlet",
+        "addr:city_extracted": "Ne"
+      },
+      "lat": 44.3557848,
+      "lon": 9.3867447
+    },
+    {
+      "type": "node",
+      "id": 1942020320,
+      "tags": {
+        "ele": "186",
+        "gfoss_id": "36244",
+        "istat_id": "1004010009",
+        "name": "Ne",
+        "place": "hamlet",
+        "population": "116",
+        "wikidata": "Q33465952",
+        "addr:city_extracted": "Ne"
+      },
+      "lat": 44.3552173,
+      "lon": 9.3882892
+    },
+    {
+      "type": "node",
+      "id": 2603038281,
+      "tags": {
+        "name": "Olivella",
+        "place": "isolated_dwelling",
+        "addr:city_extracted": "Ne"
+      },
+      "lat": 44.3351201,
+      "lon": 9.4020065
+    },
+    {
+      "type": "node",
+      "id": 2603099654,
+      "tags": {
+        "name": "Casaretti",
+        "place": "hamlet",
+        "wikidata": "Q18456852",
+        "addr:city_extracted": "Ne"
+      },
+      "lat": 44.3350495,
+      "lon": 9.4149532
+    },
+    {
+      "type": "node",
+      "id": 3203018155,
+      "tags": {
+        "ele": "505",
+        "name": "Monte delle Artue",
+        "natural": "peak",
+        "source": "CTR Regione Liguria",
+        "addr:city_extracted": "Ne"
+      },
+      "lat": 44.3574759,
+      "lon": 9.4039296
+    },
+    {
+      "type": "node",
+      "id": 4877961332,
+      "tags": {
+        "name": "Pozzetto di Tolceto",
+        "natural": "cave_entrance",
+        "addr:city_extracted": "Ne"
+      },
+      "lat": 44.3349468,
+      "lon": 9.3989303
+    },
+    {
+      "type": "node",
+      "id": 5570079808,
+      "tags": {
+        "fixme": "confermare o spostare la posizione su edificio esatto",
+        "man_made": "watermill",
+        "name": "Vecchio mulino famigliare ad acqua",
+        "addr:city_extracted": "Ne"
+      },
+      "lat": 44.3426192,
+      "lon": 9.4005552
+    },
+    {
+      "type": "node",
+      "id": 5879462080,
+      "tags": {
+        "ele": "90",
+        "man_made": "monitoring_station",
+        "monitoring:water_level": "yes",
+        "name": "Caminata",
+        "operator": "ARPAL",
+        "recording:automated": "yes",
+        "recording:remote": "yes",
+        "ref": "CAMIN",
+        "website": "https://omirl.regione.liguria.it/",
+        "addr:city_extracted": "Ne"
+      },
+      "lat": 44.34006,
+      "lon": 9.41003
+    },
+    {
+      "type": "node",
+      "id": 10019177575,
+      "tags": {
+        "addr:city": "Ne",
+        "addr:housenumber": "58",
+        "addr:postcode": "16040",
+        "addr:street": "Via Campo di Ne",
+        "amenity": "restaurant",
+        "name": "Trattoria La Brinca",
+        "addr:city_extracted": "Ne"
+      },
+      "lat": 44.3538741,
+      "lon": 9.3892274
+    },
+    {
+      "type": "node",
+      "id": 13389630233,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Conscenti dopo il capolinea",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "7951",
+        "zone_id": "130",
+        "addr:city_extracted": "Ne"
+      },
+      "lat": 44.343688,
+      "lon": 9.3964641
+    },
+    {
+      "type": "node",
+      "id": 13389630236,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Conscenti capolinea",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "5126",
+        "shelter": "yes",
+        "zone_id": "130",
+        "addr:city_extracted": "Ne"
+      },
+      "lat": 44.3446772,
+      "lon": 9.3994055
+    },
+    {
+      "type": "node",
+      "id": 13389630239,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Inizio via Campo di Ne",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "5629",
+        "zone_id": "130",
+        "addr:city_extracted": "Ne"
+      },
+      "lat": 44.3487167,
+      "lon": 9.3864946
+    },
+    {
+      "type": "node",
+      "id": 13389630241,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Conscenti Frantoio",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "5122",
+        "zone_id": "130",
+        "addr:city_extracted": "Ne"
+      },
+      "lat": 44.3479501,
+      "lon": 9.3817994
+    },
+    {
+      "type": "node",
+      "id": 13389630242,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Conscenti prima del capolinea",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "7950",
+        "zone_id": "130",
+        "addr:city_extracted": "Ne"
+      },
+      "lat": 44.3442497,
+      "lon": 9.3956833
+    },
+    {
+      "type": "node",
+      "id": 13389630252,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Bivio Rivaie",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "5631",
+        "zone_id": "130",
+        "addr:city_extracted": "Ne"
+      },
+      "lat": 44.3512192,
+      "lon": 9.3869734
+    },
+    {
+      "type": "node",
+      "id": 13389630258,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Bivio Rivaie",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "5630",
+        "zone_id": "130",
+        "addr:city_extracted": "Ne"
+      },
+      "lat": 44.3511848,
+      "lon": 9.3869715
+    },
+    {
+      "type": "node",
+      "id": 13389630260,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Conscenti - Via Garibaldi scuole SCOL",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "9155",
+        "addr:city_extracted": "Ne"
+      },
+      "lat": 44.3443637,
+      "lon": 9.3981765
+    },
+    {
+      "type": "node",
+      "id": 13389630262,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Conscenti prima della galleria",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "5128",
+        "zone_id": "130",
+        "addr:city_extracted": "Ne"
+      },
+      "lat": 44.3471985,
+      "lon": 9.3900404
+    },
+    {
+      "type": "node",
+      "id": 13389630269,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Conscenti Ciapozzo",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "5127",
+        "zone_id": "130",
+        "addr:city_extracted": "Ne"
+      },
+      "lat": 44.3457921,
+      "lon": 9.3926249
+    },
+    {
+      "type": "node",
+      "id": 13389630286,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Via Aldo Moro 155 SCOL",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "9133",
+        "addr:city_extracted": "Ne"
+      },
+      "lat": 44.3443375,
+      "lon": 9.3961201
+    },
+    {
+      "type": "node",
+      "id": 13389630289,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Conscenti Ciapozzo",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "5125",
+        "zone_id": "130",
+        "addr:city_extracted": "Ne"
+      },
+      "lat": 44.3457633,
+      "lon": 9.3930905
+    },
+    {
+      "type": "node",
+      "id": 13389630293,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Conscenti Frantoio",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "5130",
+        "zone_id": "130",
+        "addr:city_extracted": "Ne"
+      },
+      "lat": 44.3479702,
+      "lon": 9.3815115
+    },
+    {
+      "type": "node",
+      "id": 13389630294,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Conscenti Ponte Gaggia",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "5129",
+        "zone_id": "130",
+        "addr:city_extracted": "Ne"
+      },
+      "lat": 44.348664,
+      "lon": 9.385912
+    },
+    {
+      "type": "node",
+      "id": 13389630301,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Prima del bivio per Ponte Gaggia",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "5628",
+        "zone_id": "130",
+        "addr:city_extracted": "Ne"
+      },
+      "lat": 44.3487282,
+      "lon": 9.3862734
+    },
+    {
+      "type": "node",
+      "id": 13389630302,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Conscenti Ponte Gaggia",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "5123",
+        "zone_id": "130",
+        "addr:city_extracted": "Ne"
+      },
+      "lat": 44.34856,
+      "lon": 9.3860239
+    },
+    {
+      "type": "node",
+      "id": 13389630303,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Conscenti dopo galleria",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "5124",
+        "zone_id": "130",
+        "addr:city_extracted": "Ne"
+      },
+      "lat": 44.3469833,
+      "lon": 9.3904478
+    },
+    {
+      "type": "node",
+      "id": 13391023280,
+      "tags": {
+        "addr:housenumber": "27",
+        "addr:street": "Piazza dei Mosto",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "name": "Farmacia Santa Rita",
+        "ref:msal": "6322",
+        "addr:city_extracted": "Ne"
+      },
+      "lat": 44.3446014,
+      "lon": 9.3990463
+    },
+    {
+      "type": "way",
+      "id": 61604832,
+      "tags": {
+        "alt_name": "SP26 di Valgraveglia",
+        "highway": "secondary",
+        "name": "Strada provinciale della Valgraveglia",
+        "ref": "SP26",
+        "surface": "asphalt",
+        "addr:city_extracted": "Ne"
+      }
+    },
+    {
+      "type": "way",
+      "id": 61604842,
+      "tags": {
+        "alt_name": "SP26 di Valgraveglia",
+        "bridge": "yes",
+        "highway": "secondary",
+        "layer": "1",
+        "name": "Strada provinciale della Valgraveglia",
+        "ref": "SP26",
+        "surface": "asphalt",
+        "addr:city_extracted": "Ne"
+      }
+    },
+    {
+      "type": "way",
+      "id": 61604843,
+      "tags": {
+        "alt_name": "SP26 di Valgraveglia",
+        "highway": "secondary",
+        "name": "Strada provinciale della Valgraveglia",
+        "ref": "SP26",
+        "surface": "asphalt",
+        "addr:city_extracted": "Ne"
+      }
+    },
+    {
+      "type": "way",
+      "id": 61604850,
+      "tags": {
+        "alt_name": "SP26 di Valgraveglia",
+        "highway": "secondary",
+        "layer": "-1",
+        "name": "Strada provinciale della Valgraveglia",
+        "ref": "SP26",
+        "surface": "asphalt",
+        "tunnel": "yes",
+        "addr:city_extracted": "Ne"
+      }
+    },
+    {
+      "type": "way",
+      "id": 61604852,
+      "tags": {
+        "alt_name": "SP26 di Valgraveglia",
+        "highway": "secondary",
+        "name": "Strada provinciale della Valgraveglia",
+        "ref": "SP26",
+        "surface": "asphalt",
+        "addr:city_extracted": "Ne"
+      }
+    },
+    {
+      "type": "way",
+      "id": 182438679,
+      "tags": {
+        "alt_name": "SP26 di Valgraveglia",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Strada provinciale della Valgraveglia",
+        "ref": "SP26",
+        "surface": "asphalt",
+        "addr:city_extracted": "Ne"
+      }
+    },
+    {
+      "type": "way",
+      "id": 182438762,
+      "tags": {
+        "highway": "tertiary",
+        "maxspeed": "30",
+        "name": "Via Aldo Moro",
+        "surface": "asphalt",
+        "addr:city_extracted": "Ne"
+      }
+    },
+    {
+      "type": "way",
+      "id": 182439294,
+      "tags": {
+        "name": "Torrente Graveglia",
+        "waterway": "stream",
+        "addr:city_extracted": "Ne"
+      }
+    },
+    {
+      "type": "way",
+      "id": 182737182,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Campo di Ne",
+        "addr:city_extracted": "Ne"
+      }
+    },
+    {
+      "type": "way",
+      "id": 182737831,
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Campo di Ne",
+        "addr:city_extracted": "Ne"
+      }
+    },
+    {
+      "type": "way",
+      "id": 183361843,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Via Campo di Ne",
+        "surface": "asphalt",
+        "addr:city_extracted": "Ne"
+      }
+    },
+    {
+      "type": "way",
+      "id": 196871195,
+      "tags": {
+        "alt_name": "SP26 di Valgraveglia",
+        "bridge": "yes",
+        "highway": "secondary",
+        "layer": "1",
+        "name": "Strada provinciale della Valgraveglia",
+        "ref": "SP26",
+        "surface": "asphalt",
+        "addr:city_extracted": "Ne"
+      }
+    },
+    {
+      "type": "way",
+      "id": 196871198,
+      "tags": {
+        "alt_name": "SP26 di Valgraveglia",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Strada provinciale della Valgraveglia",
+        "ref": "SP26",
+        "surface": "asphalt",
+        "addr:city_extracted": "Ne"
+      }
+    },
+    {
+      "type": "way",
+      "id": 222823877,
+      "tags": {
+        "name": "San Colombano-Sestri Levante",
+        "power": "line",
+        "ref": "23.843",
+        "voltage": "132000",
+        "addr:city_extracted": "Ne"
+      }
+    },
+    {
+      "type": "way",
+      "id": 226547670,
+      "tags": {
+        "amenity": "townhall",
+        "building": "yes",
+        "name": "Municipio di Nè",
+        "source": "Regione Liguria",
+        "addr:city_extracted": "Ne"
+      }
+    },
+    {
+      "type": "way",
+      "id": 312175635,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Via Campo di Ne",
+        "surface": "asphalt",
+        "addr:city_extracted": "Ne"
+      }
+    },
+    {
+      "type": "way",
+      "id": 386596488,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Via Tolceto",
+        "surface": "asphalt",
+        "addr:city_extracted": "Ne"
+      }
+    },
+    {
+      "type": "way",
+      "id": 940401331,
+      "tags": {
+        "alt_name": "SP26 di Valgraveglia",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Piazza dei Mosto",
+        "ref": "SP26",
+        "surface": "asphalt",
+        "addr:city_extracted": "Ne"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1093398863,
+      "tags": {
+        "access": "private",
+        "highway": "residential",
+        "name": "Via Don Michele Codeviola",
+        "addr:city_extracted": "Ne"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1417495560,
+      "tags": {
+        "leisure": "park",
+        "name": "Area Verde Sandro Pertini",
+        "addr:city_extracted": "Ne"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1459933386,
+      "tags": {
+        "alt_name": "SP26 di Valgraveglia",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Strada provinciale della Valgraveglia",
+        "ref": "SP26",
+        "surface": "asphalt",
+        "addr:city_extracted": "Ne"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 43034,
+      "tags": {
+        "admin_level": "8",
+        "boundary": "administrative",
+        "name": "Ne",
+        "population": "2121",
+        "population:date": "2026-08-28",
+        "ref:catasto": "F858",
+        "ref:ISTAT": "010040",
+        "type": "boundary",
+        "wikidata": "Q12556041",
+        "wikipedia": "it:Ne (Italia)",
+        "addr:city_extracted": "Ne"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 43041,
+      "tags": {
+        "admin_level": "8",
+        "boundary": "administrative",
+        "gfoss_id": "1275",
+        "name": "Cogorno",
+        "population": "5680",
+        "population:date": "2026-08-28",
+        "ref:catasto": "C826",
+        "ref:ISTAT": "010018",
+        "source": "geodati.gfoss.it",
+        "type": "boundary",
+        "wikidata": "Q267215",
+        "wikipedia": "it:Cogorno",
+        "addr:city_extracted": "Ne"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 19980850,
+      "tags": {
+        "bus": "yes",
+        "colour": "green",
+        "description": "703 Conscenti - San Salvatore - Ospedale di Lavagna - Chiavari Torre Fara",
+        "from": "Conscenti",
+        "name": "703 Chiavari Torre Fara",
+        "network": "AMT Linee Provinciali",
+        "network:wikipedia": "it:AMT (Genova)",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "703",
+        "route": "bus",
+        "to": "Chiavari Torre Fara",
+        "type": "route",
+        "addr:city_extracted": "Ne"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 19982768,
+      "tags": {
+        "bus": "yes",
+        "colour": "green",
+        "description": "703 Chiavari Torre Fara - Ospedale di Lavagna - San Salvatore - Conscenti",
+        "from": "Chiavari Torre Fara",
+        "name": "703 Conscenti",
+        "network": "AMT Linee Provinciali",
+        "network:wikipedia": "it:AMT (Genova)",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "703",
+        "route": "bus",
+        "to": "Conscenti",
+        "type": "route",
+        "addr:city_extracted": "Ne"
+      }
+    }
+  ]
+}

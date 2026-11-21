@@ -1,0 +1,1623 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-11-01T21:03:20Z",
+    "timestamp_areas_base": "2026-11-01T18:30:20Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 4526887790,
+  "tags": {
+    "name": "radiofaro",
+    "name:it": "radiofaro",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 12467155504,
+  "tags": {
+    "historic": "memorial",
+    "material": "marble",
+    "memorial": "war_memorial",
+    "name": "Monumento ai caduti di Viganego"
+  }
+},
+{
+  "type": "way",
+  "id": 9218637,
+  "tags": {
+    "access:conditional": "yes @ 05:30-21:30; no @ 2022 Jul 16 - 2023 Feb 28: 21:30-05:30",
+    "alt_name": "Galleria Bargagli-Ferriere",
+    "bicycle": "no",
+    "description": "La riapertura è prevista in entrambi i sensi di marcia dalle ore 5.30 alle ore 21.30 mentre resterà chiusa per lavori nelle ore notturne fino al febbraio del 2023.",
+    "foot": "no",
+    "highway": "trunk",
+    "lanes": "2",
+    "layer": "-1",
+    "lit": "yes",
+    "loc_name": "Galleria delle Ferriere",
+    "maxspeed": "70",
+    "mindistance": "50",
+    "name": "Strada statale 225 della Fontanabuona",
+    "old_ref": "T3",
+    "oneway": "no",
+    "overtaking": "no",
+    "ref": "SS225",
+    "source": "https://genova.repubblica.it/cronaca/2022/07/15/news/genova_riapre_al_traffico_il_tunnel_delle_ferriere-357951733/",
+    "surface": "asphalt",
+    "tunnel": "yes",
+    "tunnel:length": "2031",
+    "tunnel:name": "Galleria Paolo Emilio Taviani"
+  }
+},
+{
+  "type": "way",
+  "id": 9218646,
+  "tags": {
+    "highway": "trunk",
+    "lanes": "1",
+    "name": "Strada statale 225 della Fontanabuona",
+    "old_ref": "T3",
+    "oneway": "yes",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 22028709,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Giovanni Cevasco",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 22028712,
+  "tags": {
+    "highway": "unclassified",
+    "lanes": "2",
+    "name": "Via alla Chiesa di Traso",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 33138513,
+  "tags": {
+    "cycleway:right": "no",
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Via Giovanni Cevasco",
+    "nat_name": "Strada Statale di Val Trebbia",
+    "oneway": "yes",
+    "ref": "SS45",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 33138519,
+  "tags": {
+    "highway": "trunk",
+    "lanes": "1",
+    "name": "Strada statale 225 della Fontanabuona",
+    "old_ref": "T3",
+    "oneway": "yes",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 33138529,
+  "tags": {
+    "highway": "service",
+    "name": "Piazza Sandro Pertini"
+  }
+},
+{
+  "type": "way",
+  "id": 51852588,
+  "tags": {
+    "alt_name": "Via IV Novembre",
+    "description": "segnavia: triangolo rosso",
+    "highway": "footway",
+    "name": "Via Quattro Novembre",
+    "short_name": "Via 4 Novembre"
+  }
+},
+{
+  "type": "way",
+  "id": 51852589,
+  "tags": {
+    "alt_name": "Via IV Novembre",
+    "highway": "steps",
+    "name": "Via Quattro Novembre",
+    "short_name": "Via 4 Novembre"
+  }
+},
+{
+  "type": "way",
+  "id": 51852591,
+  "tags": {
+    "alt_name": "Via IV Novembre",
+    "description": "segnavia: triangolo rosso",
+    "highway": "footway",
+    "name": "Via Quattro Novembre",
+    "short_name": "Via 4 Novembre"
+  }
+},
+{
+  "type": "way",
+  "id": 51852592,
+  "tags": {
+    "alt_name": "Via IV Novembre",
+    "highway": "steps",
+    "name": "Via Quattro Novembre",
+    "short_name": "Via 4 Novembre"
+  }
+},
+{
+  "type": "way",
+  "id": 51852593,
+  "tags": {
+    "alt_name": "Via IV Novembre",
+    "description": "segnavia: triangolo rosso",
+    "highway": "footway",
+    "name": "Via Quattro Novembre",
+    "short_name": "Via 4 Novembre"
+  }
+},
+{
+  "type": "way",
+  "id": 51852596,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via E. Giacomazzi"
+  }
+},
+{
+  "type": "way",
+  "id": 51852599,
+  "tags": {
+    "highway": "tertiary",
+    "lanes": "2",
+    "name": "Via Giacomo Moresco",
+    "oneway": "no",
+    "ref": "SP82",
+    "source": "bing",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 51894047,
+  "tags": {
+    "alt_name": "Via IV Novembre",
+    "highway": "unclassified",
+    "lanes": "2",
+    "name": "Via Quattro Novembre",
+    "short_name": "Via 4 Novembre",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 51932094,
+  "tags": {
+    "alt_name": "Via IV Novembre",
+    "description": "segnavia: triangolo rosso",
+    "highway": "footway",
+    "name": "Via Quattro Novembre",
+    "short_name": "Via 4 Novembre"
+  }
+},
+{
+  "type": "way",
+  "id": 51978531,
+  "tags": {
+    "highway": "service",
+    "name": "Via Fiume",
+    "service": "alley"
+  }
+},
+{
+  "type": "way",
+  "id": 51978536,
+  "tags": {
+    "alt_name": "Via IV Novembre",
+    "highway": "residential",
+    "name": "Via Quattro Novembre",
+    "short_name": "Via 4 Novembre",
+    "width": "1.5"
+  }
+},
+{
+  "type": "way",
+  "id": 51978537,
+  "tags": {
+    "alt_name": "Via IV Novembre",
+    "highway": "path",
+    "name": "Via Quattro Novembre",
+    "short_name": "Via 4 Novembre",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 51978538,
+  "tags": {
+    "alt_name": "Via IV Novembre",
+    "highway": "steps",
+    "name": "Via Quattro Novembre",
+    "short_name": "Via 4 Novembre"
+  }
+},
+{
+  "type": "way",
+  "id": 52448025,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via E. Giacomazzi"
+  }
+},
+{
+  "type": "way",
+  "id": 52448090,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via E. Giacomazzi",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 138559639,
+  "tags": {
+    "bridge": "yes",
+    "highway": "primary",
+    "lanes": "2",
+    "layer": "1",
+    "name": "Via Giovanni Cevasco",
+    "nat_name": "Strada Statale di Val Trebbia",
+    "ref": "SS45",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 138559640,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Giovanni Cevasco",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 138559641,
+  "tags": {
+    "bridge": "yes",
+    "highway": "tertiary",
+    "layer": "1",
+    "name": "Via G. Cevasco",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 167513481,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Monte Sabotino",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 167513484,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Giovanni Battista Cevasco",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 196283333,
+  "tags": {
+    "highway": "living_street",
+    "name": "Via Giacomazzi",
+    "service": "driveway"
+  }
+},
+{
+  "type": "way",
+  "id": 196283335,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Aimone Martini"
+  }
+},
+{
+  "type": "way",
+  "id": 196283338,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Filippo Corridoni"
+  }
+},
+{
+  "type": "way",
+  "id": 196283346,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Monte San Michele"
+  }
+},
+{
+  "type": "way",
+  "id": 196283354,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Strada della Resa -Tecosa",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 204459709,
+  "tags": {
+    "amenity": "townhall",
+    "building": "yes",
+    "name": "Casa Comunale",
+    "source": "Regione Liguria"
+  }
+},
+{
+  "type": "way",
+  "id": 260855042,
+  "tags": {
+    "highway": "path",
+    "name": "x Colle Speranza"
+  }
+},
+{
+  "type": "way",
+  "id": 260855735,
+  "tags": {
+    "highway": "path",
+    "name": "x Pian della Speranza"
+  }
+},
+{
+  "type": "way",
+  "id": 260859842,
+  "tags": {
+    "bridge": "yes",
+    "highway": "primary",
+    "lanes": "2",
+    "layer": "1",
+    "maxspeed": "50",
+    "name": "Via dei Partigiani",
+    "nat_name": "Strada Statale di Val Trebbia",
+    "ref": "SS45",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 277519217,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Via Giovanni Cevasco",
+    "nat_name": "Strada Statale di Val Trebbia",
+    "ref": "SS45",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 281421857,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "SS 45",
+    "nat_name": "Strada Statale di Val Trebbia",
+    "ref": "SS45",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 307286327,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Strada Statale di Val Trebbia",
+    "ref": "SS45",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 307286330,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Aimone Martini",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 307286331,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Aimone Martini"
+  }
+},
+{
+  "type": "way",
+  "id": 307286332,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Via Aimone Martini",
+    "nat_name": "Strada Statale di Val Trebbia",
+    "ref": "SS45",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 307286333,
+  "tags": {
+    "cycleway:right": "no",
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Via Aimone Martini",
+    "nat_name": "Strada Statale di Val Trebbia",
+    "oneway": "yes",
+    "ref": "SS45",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 307286334,
+  "tags": {
+    "cycleway:right": "no",
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Via Aimone Martini",
+    "nat_name": "Strada Statale di Val Trebbia",
+    "oneway": "yes",
+    "ref": "SS45",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 307286335,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Aimone Martini"
+  }
+},
+{
+  "type": "way",
+  "id": 307286336,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Aimone Martini"
+  }
+},
+{
+  "type": "way",
+  "id": 307286337,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Via Aimone Martini",
+    "nat_name": "Strada Statale di Val Trebbia",
+    "ref": "SS45",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 307286338,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Via Giovanni Cevasco",
+    "nat_name": "Strada Statale di Val Trebbia",
+    "ref": "SS45",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 307286339,
+  "tags": {
+    "cycleway:right": "no",
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Via Giovanni Cevasco",
+    "nat_name": "Strada Statale di Val Trebbia",
+    "oneway": "yes",
+    "ref": "SS45",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 307286340,
+  "tags": {
+    "highway": "service",
+    "name": "Via Giovanni Cevasco"
+  }
+},
+{
+  "type": "way",
+  "id": 307286342,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Via dei Partigiani",
+    "nat_name": "Strada Statale di Val Trebbia",
+    "ref": "SS45",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 307286350,
+  "tags": {
+    "highway": "steps",
+    "name": "Via Cesare Battisti"
+  }
+},
+{
+  "type": "way",
+  "id": 307286355,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Cesare Battisti"
+  }
+},
+{
+  "type": "way",
+  "id": 307497708,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Via Aimone Martini",
+    "nat_name": "Strada Statale di Val Trebbia",
+    "ref": "SS45",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 307497709,
+  "tags": {
+    "bridge": "yes",
+    "highway": "primary",
+    "lanes": "2",
+    "layer": "1",
+    "maxspeed": "50",
+    "name": "Via Bavari",
+    "nat_name": "Strada Statale di Val Trebbia",
+    "ref": "SS45",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 310419296,
+  "tags": {
+    "highway": "tertiary",
+    "lanes": "2",
+    "name": "Via Giovanni Battista Cevasco",
+    "ref": "SP82",
+    "source": "bing",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 310419298,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Macallè"
+  }
+},
+{
+  "type": "way",
+  "id": 310419299,
+  "tags": {
+    "highway": "tertiary",
+    "lanes": "2",
+    "name": "Via Giovanni Battista Cevasco",
+    "ref": "SP82",
+    "source": "bing",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 329699493,
+  "tags": {
+    "highway": "trunk",
+    "lanes": "2",
+    "name": "Strada statale 225 della Fontanabuona",
+    "old_ref": "T3",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 440099298,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Via Aimone Martini",
+    "nat_name": "Strada Statale di Val Trebbia",
+    "ref": "SS45",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 440099302,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Via Aimone Martini",
+    "nat_name": "Strada Statale di Val Trebbia",
+    "ref": "SS45",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 440099314,
+  "tags": {
+    "highway": "steps",
+    "name": "Via Aimone Martini"
+  }
+},
+{
+  "type": "way",
+  "id": 440099316,
+  "tags": {
+    "bridge": "yes",
+    "highway": "primary",
+    "lanes": "2",
+    "layer": "1",
+    "maxspeed": "50",
+    "maxweight:signed": "no",
+    "name": "Via Aimone Martini",
+    "nat_name": "Strada Statale di Val Trebbia",
+    "ref": "SS45",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 440099322,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Aimone Martini"
+  }
+},
+{
+  "type": "way",
+  "id": 455730942,
+  "tags": {
+    "bridge": "yes",
+    "highway": "primary",
+    "lanes": "2",
+    "layer": "1",
+    "maxspeed": "50",
+    "maxweight:signed": "no",
+    "name": "Via Aimone Martini",
+    "nat_name": "Strada Statale di Val Trebbia",
+    "ref": "SS45",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 473380690,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Adua"
+  }
+},
+{
+  "type": "way",
+  "id": 473380692,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Adua",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 473380695,
+  "tags": {
+    "highway": "footway",
+    "name": "Via Adua"
+  }
+},
+{
+  "type": "way",
+  "id": 503174495,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Giovanni Carbone",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 503176472,
+  "tags": {
+    "highway": "service",
+    "name": "Via Fiume",
+    "service": "alley",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 503176473,
+  "tags": {
+    "alt_name": "Via IV Novembre",
+    "highway": "unclassified",
+    "lanes": "2",
+    "name": "Via Quattro Novembre",
+    "short_name": "Via 4 Novembre",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 503176476,
+  "tags": {
+    "alt_name": "Via IV Novembre",
+    "highway": "unclassified",
+    "lanes": "2",
+    "name": "Via Quattro Novembre",
+    "short_name": "Via 4 Novembre",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 544995538,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Roma"
+  }
+},
+{
+  "type": "way",
+  "id": 544995539,
+  "tags": {
+    "alt_name": "Via IV Novembre",
+    "highway": "unclassified",
+    "lanes": "2",
+    "name": "Via Quattro Novembre",
+    "short_name": "Via 4 Novembre",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 544995540,
+  "tags": {
+    "alt_name": "Via IV Novembre",
+    "highway": "unclassified",
+    "lanes": "2",
+    "name": "Via Quattro Novembre",
+    "short_name": "Via 4 Novembre",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 544995541,
+  "tags": {
+    "highway": "unclassified",
+    "lanes": "2",
+    "name": "Via alla Chiesa di Traso",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 544995542,
+  "tags": {
+    "alt_name": "Via IV Novembre",
+    "highway": "unclassified",
+    "lanes": "2",
+    "name": "Via Quattro Novembre",
+    "short_name": "Via 4 Novembre",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 544995545,
+  "tags": {
+    "highway": "unclassified",
+    "lanes": "2",
+    "name": "Via alla Chiesa di Traso",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 544995546,
+  "tags": {
+    "alt_name": "Via IV Novembre",
+    "highway": "unclassified",
+    "lanes": "2",
+    "name": "Via Quattro Novembre",
+    "short_name": "Via 4 Novembre",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 544995547,
+  "tags": {
+    "highway": "unclassified",
+    "lanes": "2",
+    "name": "Via alla Chiesa di Traso",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 546048505,
+  "tags": {
+    "alt_name": "Via IV Novembre",
+    "highway": "unclassified",
+    "lanes": "2",
+    "name": "Via Quattro Novembre",
+    "short_name": "Via 4 Novembre",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 587738309,
+  "tags": {
+    "bridge": "yes",
+    "highway": "tertiary",
+    "layer": "1",
+    "name": "Via Giovanni Cevasco",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 587738310,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Giovanni Cevasco",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 587738311,
+  "tags": {
+    "bridge": "yes",
+    "highway": "primary",
+    "lanes": "2",
+    "layer": "1",
+    "maxweight:signed": "no",
+    "name": "Strada Statale di Val Trebbia",
+    "ref": "SS45",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 587738312,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Strada Statale di Val Trebbia",
+    "ref": "SS45",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 802530209,
+  "tags": {
+    "bicycle": "no",
+    "foot": "no",
+    "highway": "trunk",
+    "lanes": "2",
+    "lanes:backward": "1",
+    "lanes:forward": "1",
+    "maxspeed": "70",
+    "mofa": "no",
+    "moped": "no",
+    "motorcycle:conditional": "no @ (displacement<=124 cc)",
+    "name": "Strada statale 225 della Fontanabuona",
+    "old_ref": "T3",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 818564345,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Monte Nero",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 819361057,
+  "tags": {
+    "highway": "tertiary",
+    "lanes": "2",
+    "name": "Via Emilio Giacomazzi",
+    "ref": "SP82",
+    "source": "bing",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 912870881,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "path",
+    "name": "Via Emilio Giacomazzi",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 912871598,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "path",
+    "name": "Via Emilio Giacomazzi",
+    "surface": "unpaved"
+  }
+},
+{
+  "type": "way",
+  "id": 935391822,
+  "tags": {
+    "highway": "path",
+    "name": "Collegamento al segnavia \"=\""
+  }
+},
+{
+  "type": "way",
+  "id": 1010944477,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via E. Giacomazzi",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1010944478,
+  "tags": {
+    "highway": "tertiary",
+    "lanes": "2",
+    "name": "Via Emilio Giacomazzi",
+    "ref": "SP82",
+    "source": "bing",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1010944479,
+  "tags": {
+    "highway": "tertiary",
+    "lanes": "2",
+    "name": "Via Emilio Giacomazzi",
+    "ref": "SP82",
+    "source": "bing",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1011045431,
+  "tags": {
+    "highway": "service",
+    "name": "Via Fiume",
+    "service": "alley"
+  }
+},
+{
+  "type": "way",
+  "id": 1042658167,
+  "tags": {
+    "highway": "unclassified",
+    "maxspeed": "50",
+    "name": "Piazza Salvo D'Acquisto",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1071021339,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "path",
+    "horse": "no",
+    "name": "Canova San Lorenzo",
+    "surface": "unpaved"
+  }
+},
+{
+  "type": "way",
+  "id": 1244010472,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "residential",
+    "name": "Via Emilio Giacomazzi"
+  }
+},
+{
+  "type": "way",
+  "id": 1244010473,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "residential",
+    "name": "Via Giacomazzi"
+  }
+},
+{
+  "type": "way",
+  "id": 1244010474,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "residential",
+    "name": "Via Emilio Giacomazzi",
+    "surface": "unpaved"
+  }
+},
+{
+  "type": "way",
+  "id": 1244010476,
+  "tags": {
+    "bicycle": "yes",
+    "highway": "residential",
+    "name": "Via Emilio Giacomazzi",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 1244010478,
+  "tags": {
+    "highway": "path",
+    "name": "Via Monte Sabotino"
+  }
+},
+{
+  "type": "way",
+  "id": 1244010479,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Monte Sabotino"
+  }
+},
+{
+  "type": "way",
+  "id": 1244010480,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Monte Sabotino"
+  }
+},
+{
+  "type": "way",
+  "id": 1244010481,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Monte Sabotino"
+  }
+},
+{
+  "type": "way",
+  "id": 1244010482,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Emilio Giacomazzi"
+  }
+},
+{
+  "type": "way",
+  "id": 1247214519,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Monte Sabotino",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1247214521,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Monte Sabotino",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1247214523,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Monte Sabotino",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1247214524,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Monte Sabotino",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1316322516,
+  "tags": {
+    "fixme": "antico sentiero che appare iniziare e risulta anche nella mappa catastale, ma bisogna verificare come prosegue e se è ancora interamente praticabile",
+    "highway": "path",
+    "name": "Sentiero da Sant'Ilario a Cisiano",
+    "surface": "ground"
+  }
+},
+{
+  "type": "way",
+  "id": 1371177973,
+  "tags": {
+    "highway": "path",
+    "name": "Canova-Mea",
+    "surface": "unpaved"
+  }
+},
+{
+  "type": "way",
+  "id": 1371215477,
+  "tags": {
+    "highway": "path",
+    "name": "Canova-Mea",
+    "surface": "unpaved"
+  }
+},
+{
+  "type": "way",
+  "id": 1371215478,
+  "tags": {
+    "ford": "yes",
+    "highway": "path",
+    "name": "Canova-Mea",
+    "surface": "unpaved"
+  }
+},
+{
+  "type": "way",
+  "id": 1371215479,
+  "tags": {
+    "highway": "path",
+    "name": "Canova-Mea",
+    "surface": "unpaved"
+  }
+},
+{
+  "type": "way",
+  "id": 1371215480,
+  "tags": {
+    "bridge": "yes",
+    "highway": "path",
+    "layer": "1",
+    "name": "Canova-Mea",
+    "surface": "unpaved"
+  }
+},
+{
+  "type": "way",
+  "id": 1371215481,
+  "tags": {
+    "highway": "path",
+    "name": "Canova-Mea",
+    "surface": "unpaved"
+  }
+},
+{
+  "type": "way",
+  "id": 1371215482,
+  "tags": {
+    "bridge": "yes",
+    "highway": "path",
+    "layer": "1",
+    "name": "Canova-Mea",
+    "surface": "unpaved"
+  }
+},
+{
+  "type": "way",
+  "id": 1415200281,
+  "tags": {
+    "bicycle": "no",
+    "foot": "no",
+    "highway": "trunk",
+    "maxspeed": "90",
+    "mofa": "no",
+    "moped": "no",
+    "motorcycle:conditional": "no @ (displacement<=124 cc)",
+    "name": "Strada statale 225 della Fontanabuona",
+    "old_ref": "T3",
+    "oneway": "yes",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1436866405,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Via Aimone Martini",
+    "nat_name": "Strada Statale di Val Trebbia",
+    "ref": "SS45",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1446143463,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Via Aimone Martini",
+    "nat_name": "Strada Statale di Val Trebbia",
+    "ref": "SS45",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1446143465,
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Via Aimone Martini",
+    "nat_name": "Strada Statale di Val Trebbia",
+    "ref": "SS45",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1456364242,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Via Aimone Martini",
+    "nat_name": "Strada Statale di Val Trebbia",
+    "ref": "SS45",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1456364243,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Strada Statale di Val Trebbia",
+    "ref": "SS45",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1456375146,
+  "tags": {
+    "highway": "unclassified",
+    "lanes": "2",
+    "name": "Via alla Chiesa di Traso",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1456375148,
+  "tags": {
+    "alt_name": "Via IV Novembre",
+    "description": "segnavia: triangolo rosso",
+    "highway": "service",
+    "name": "Via Quattro Novembre",
+    "short_name": "Via 4 Novembre"
+  }
+},
+{
+  "type": "way",
+  "id": 1456375151,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Giovanni Cevasco",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1463874050,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Aimone Martini",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1463874051,
+  "tags": {
+    "bridge": "yes",
+    "highway": "residential",
+    "layer": "1",
+    "name": "Via Aimone Martini",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1484324685,
+  "tags": {
+    "bicycle": "no",
+    "foot": "no",
+    "highway": "trunk",
+    "lanes": "4",
+    "lanes:backward": "2",
+    "lanes:forward": "2",
+    "maxspeed": "90",
+    "mofa": "no",
+    "moped": "no",
+    "motorcycle:conditional": "no @ (displacement<=124 cc)",
+    "name": "Strada statale 225 della Fontanabuona",
+    "old_ref": "T3",
+    "ref": "SS225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1484324686,
+  "tags": {
+    "bicycle": "no",
+    "foot": "no",
+    "highway": "trunk",
+    "lanes": "2",
+    "maxspeed": "90",
+    "name": "Strada Statale 225 della Fontanabuona",
+    "oneway": "yes",
+    "ref": "SS 225",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1509778233,
+  "tags": {
+    "highway": "pedestrian",
+    "name": "Via Gradisca"
+  }
+},
+{
+  "type": "way",
+  "id": 1509778235,
+  "tags": {
+    "alt_name": "Via IV Novembre",
+    "highway": "unclassified",
+    "lanes": "2",
+    "name": "Via Quattro Novembre",
+    "short_name": "Via 4 Novembre",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1509778236,
+  "tags": {
+    "alt_name": "Via IV Novembre",
+    "bridge": "yes",
+    "highway": "unclassified",
+    "lanes": "2",
+    "layer": "1",
+    "name": "Via Quattro Novembre",
+    "short_name": "Via 4 Novembre",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1524553696,
+  "tags": {
+    "highway": "tertiary",
+    "lanes": "2",
+    "name": "Via Giacomo Moresco",
+    "oneway": "no",
+    "ref": "SP82",
+    "source": "bing",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1524553697,
+  "tags": {
+    "bridge": "yes",
+    "highway": "tertiary",
+    "lanes": "2",
+    "layer": "1",
+    "name": "Via Giacomo Moresco",
+    "oneway": "no",
+    "ref": "SP82",
+    "source": "bing",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1524553700,
+  "tags": {
+    "highway": "tertiary",
+    "lanes": "2",
+    "name": "Via Giovanni Battista Cevasco",
+    "ref": "SP82",
+    "source": "bing",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1524553701,
+  "tags": {
+    "bridge": "yes",
+    "highway": "tertiary",
+    "lanes": "2",
+    "layer": "1",
+    "name": "Via Giovanni Battista Cevasco",
+    "ref": "SP82",
+    "source": "bing",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1536875044,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Giovanni Carbone",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1536875045,
+  "tags": {
+    "bridge": "yes",
+    "highway": "tertiary",
+    "layer": "1",
+    "name": "Via Giovanni Carbone",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1536875048,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Giovanni Carbone",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1536875049,
+  "tags": {
+    "bridge": "yes",
+    "highway": "tertiary",
+    "layer": "1",
+    "name": "Via Giovanni Carbone",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1536875052,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Giovanni Carbone",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1536875053,
+  "tags": {
+    "bridge": "yes",
+    "highway": "tertiary",
+    "layer": "1",
+    "name": "Via Giovanni Carbone",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1536875054,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Giovanni Carbone",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1536875055,
+  "tags": {
+    "bridge": "yes",
+    "highway": "tertiary",
+    "layer": "1",
+    "name": "Via Giovanni Carbone",
+    "surface": "asphalt"
+  }
+}
+
+  ]
+}

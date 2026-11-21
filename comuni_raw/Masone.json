@@ -1,0 +1,2457 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-11-01T20:28:51Z",
+    "timestamp_areas_base": "2026-11-01T18:30:20Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 735098959,
+  "tags": {
+    "name": "Cascata del Serpente",
+    "tourism": "attraction",
+    "waterway": "waterfall"
+  }
+},
+{
+  "type": "node",
+  "id": 2710498810,
+  "tags": {
+    "historic": "memorial",
+    "name": "Cippo a Costante Girardengo"
+  }
+},
+{
+  "type": "node",
+  "id": 2710997486,
+  "tags": {
+    "historic": "memorial",
+    "name": "Targa soldato russo fucilato dai tedeschi"
+  }
+},
+{
+  "type": "node",
+  "id": 2788849772,
+  "tags": {
+    "historic": "ruins",
+    "name": "Antica cartiera Savoi",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 6202994163,
+  "tags": {
+    "leisure": "garden",
+    "name": "Collezione Ortensie Villa Bagnara"
+  }
+},
+{
+  "type": "node",
+  "id": 6203379270,
+  "tags": {
+    "name": "Museo civico Andrea Tubino",
+    "tourism": "museum",
+    "wikidata": "Q55348552"
+  }
+},
+{
+  "type": "node",
+  "id": 7501893315,
+  "tags": {
+    "name": "Spada nella Roccia",
+    "opening_hours": "24/7",
+    "reservation": "no",
+    "tourism": "attraction",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 8886813153,
+  "tags": {
+    "historic": "memorial",
+    "name": "Monumento 13 Martiri"
+  }
+},
+{
+  "type": "way",
+  "id": 12520179,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "lit": "no",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Autostrada dei Trafori",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 12903392,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "lit": "no",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Autostrada dei Trafori",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 12903957,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Via Guglielmo Marconi",
+    "oneway": "yes",
+    "ref": "SS456",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 24106181,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "layer": "-3",
+    "length": "969",
+    "lit": "24/7",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Galleria Turchino",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "overtaking:hgv": "no",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes",
+    "tunnel": "yes",
+    "tunnel:name": "Turchino"
+  }
+},
+{
+  "type": "way",
+  "id": 24106220,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "layer": "-3",
+    "lit": "24/7",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Galleria Turchino",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "overtaking:hgv": "no",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes",
+    "tunnel": "yes",
+    "tunnel:name": "Turchino"
+  }
+},
+{
+  "type": "way",
+  "id": 24106417,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "lit": "no",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Autostrada dei Trafori",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 24106459,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "layer": "-1",
+    "lit": "24/7",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Galleria del Busa",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes",
+    "tunnel": "yes",
+    "tunnel:name": "San Pietro"
+  }
+},
+{
+  "type": "way",
+  "id": 24106638,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "layer": "-1",
+    "length": "258",
+    "lit": "24/7",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Galleria del Busa",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes",
+    "tunnel": "yes",
+    "tunnel:name": "San Pietro"
+  }
+},
+{
+  "type": "way",
+  "id": 24106694,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "lit": "no",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Autostrada dei Trafori",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 24106873,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "layer": "-1",
+    "length": "439",
+    "lit": "24/7",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Galleria Pietraguzza",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 24107045,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "layer": "-1",
+    "lit": "24/7",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Galleria Bertè",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 24107103,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "lit": "no",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Autostrada dei Trafori",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 24107427,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "lit": "no",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Autostrada dei Trafori",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 26599219,
+  "tags": {
+    "cycleway": "no",
+    "highway": "unclassified",
+    "name": "Via Valle Stura",
+    "oneway": "no",
+    "source": "Stefano Mazzone GEnova",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 26734059,
+  "tags": {
+    "access": "no",
+    "disused": "yes",
+    "highway": "service",
+    "lanes": "1",
+    "layer": "-1",
+    "name": "Vecchia galleria del Turchino",
+    "old_ref": "SS456",
+    "surface": "asphalt",
+    "tunnel": "yes",
+    "wikimedia_commons": "File:Passo_del_turchino_galleria_vecchia_aprile_2016.png"
+  }
+},
+{
+  "type": "way",
+  "id": 27661086,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Cappelletta",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 27661090,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Cappelletta",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 27661098,
+  "tags": {
+    "building": "yes",
+    "historic": "castle",
+    "name": "Forte Geremia",
+    "website": "https://www.101giteinliguria.it/forte-geremia-a-due-passi-da-genova/",
+    "wikidata": "Q3748561",
+    "wikimedia_commons": "Category:Forte Geremia",
+    "wikipedia": "it:Forte Geremia"
+  }
+},
+{
+  "type": "way",
+  "id": 27662095,
+  "tags": {
+    "highway": "tertiary",
+    "name": "Via Cappelletta",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 27673555,
+  "tags": {
+    "bicycle": "designated",
+    "highway": "path",
+    "mtb:name": "Mulino del Pesce DH",
+    "mtb:scale": "2",
+    "name": "Mulino del Pesce",
+    "sac_scale": "mountain_hiking",
+    "surface": "dirt",
+    "trail_visibility": "good"
+  }
+},
+{
+  "type": "way",
+  "id": 38524187,
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Autostrada dei Trafori",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 38524188,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "lit": "no",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Autostrada dei Trafori",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 38524189,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "lit": "no",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Autostrada dei Trafori",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 38524190,
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "4",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Autostrada dei Trafori",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 38524196,
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Autostrada dei Trafori",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 38524197,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "lit": "no",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Autostrada dei Trafori",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 38524198,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "lit": "no",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Autostrada dei Trafori",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 38524199,
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Autostrada dei Trafori",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 38524203,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "lit": "no",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Autostrada dei Trafori",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 38524204,
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Autostrada dei Trafori",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 38524205,
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Autostrada dei Trafori",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 38525047,
+  "tags": {
+    "bridge": "viaduct",
+    "bridge:name": "San Pietro",
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "layer": "1",
+    "length": "472",
+    "lit": "no",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Autostrada dei Trafori",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 38525048,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "lit": "no",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Autostrada dei Trafori",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 38525049,
+  "tags": {
+    "bridge": "viaduct",
+    "bridge:name": "San Pietro",
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Autostrada dei Trafori",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 38525050,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "lit": "no",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Autostrada dei Trafori",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 53099901,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Romitorio",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 53537419,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "secondary",
+    "lit": "no",
+    "name": "Strada Provinciale del Faiallo",
+    "ref": "SP73",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 55003238,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Durazzo Pallavicini",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 55061298,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Volpara"
+  }
+},
+{
+  "type": "way",
+  "id": 55061304,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Durazzo Pallavicini",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 55061309,
+  "tags": {
+    "bridge": "yes",
+    "highway": "residential",
+    "layer": "1",
+    "name": "Via Durazzo Pallavicini",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 55061312,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Cascata del Serpente",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 55061313,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Cascata del Serpente",
+    "surface": "asphalt",
+    "symbol": "3 punti gialli; 2 rombi vuoti gialli"
+  }
+},
+{
+  "type": "way",
+  "id": 55061315,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Durazzo Pallavicini",
+    "surface": "asphalt",
+    "symbol": "3 punti gialli; 2 rombi vuoti gialli"
+  }
+},
+{
+  "type": "way",
+  "id": 55219689,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Cascata del Serpente",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 55219702,
+  "tags": {
+    "highway": "unclassified",
+    "layer": "-1",
+    "name": "Via Cascata del Serpente",
+    "surface": "asphalt",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 55219854,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "layer": "-1",
+    "length": "899",
+    "lit": "24/7",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Galleria Bertè",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 55219856,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "lit": "no",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Autostrada dei Trafori",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 58943600,
+  "tags": {
+    "highway": "residential",
+    "name": "Via San Francesco"
+  }
+},
+{
+  "type": "way",
+  "id": 96728350,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Cosso",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 96728469,
+  "tags": {
+    "bridge": "yes",
+    "highway": "residential",
+    "layer": "1",
+    "name": "Via Cosso"
+  }
+},
+{
+  "type": "way",
+  "id": 96728592,
+  "tags": {
+    "bridge": "yes",
+    "cycleway": "yes",
+    "highway": "primary",
+    "lanes": "2",
+    "layer": "1",
+    "name": "Strada Statale del Turchino",
+    "ref": "SS456",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 96728607,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Strada Statale del Turchino",
+    "ref": "SS456",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 109995079,
+  "tags": {
+    "access": "private",
+    "highway": "service",
+    "name": "Via Romitorio",
+    "service": "driveway"
+  }
+},
+{
+  "type": "way",
+  "id": 109995087,
+  "tags": {
+    "highway": "unclassified",
+    "incline": "-10%",
+    "lanes": "1",
+    "name": "Via Romitorio",
+    "oneway": "no",
+    "passing_places": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 109995096,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Europa",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 109995101,
+  "tags": {
+    "highway": "residential",
+    "name": "Piazza 75 Martiri"
+  }
+},
+{
+  "type": "way",
+  "id": 109995122,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Via Turchino",
+    "ref": "SS456",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 109995135,
+  "tags": {
+    "cycleway": "no",
+    "highway": "unclassified",
+    "maxspeed": "60",
+    "name": "Via Romitorio"
+  }
+},
+{
+  "type": "way",
+  "id": 109995148,
+  "tags": {
+    "amenity": "cinema",
+    "building": "yes",
+    "name": "Cinema Teatro Opera Monsignor Macciò"
+  }
+},
+{
+  "type": "way",
+  "id": 109995152,
+  "tags": {
+    "bridge": "yes",
+    "cycleway": "yes",
+    "highway": "primary",
+    "lanes": "2",
+    "layer": "1",
+    "name": "Strada Statale del Turchino",
+    "ref": "SS456",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 109995165,
+  "tags": {
+    "bridge": "yes",
+    "highway": "residential",
+    "layer": "1",
+    "name": "Via San Francesco"
+  }
+},
+{
+  "type": "way",
+  "id": 109995174,
+  "tags": {
+    "highway": "residential",
+    "name": "Viale Vittorio Veneto"
+  }
+},
+{
+  "type": "way",
+  "id": 145228211,
+  "tags": {
+    "highway": "track",
+    "motor_vehicle": "no",
+    "name": "Sterrata del Laiasso",
+    "tracktype": "grade2",
+    "width": "2"
+  }
+},
+{
+  "type": "way",
+  "id": 169610065,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "lit": "no",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Autostrada dei Trafori",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 169610066,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "layer": "-1",
+    "lit": "24/7",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Galleria Pietraguzza",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 169610168,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Busa"
+  }
+},
+{
+  "type": "way",
+  "id": 169610184,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Giacinto Macciò"
+  }
+},
+{
+  "type": "way",
+  "id": 171837577,
+  "tags": {
+    "access": "private",
+    "highway": "residential",
+    "motor_vehicle": "private",
+    "name": "Via Romitorio",
+    "oneway": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 171837672,
+  "tags": {
+    "access": "private",
+    "highway": "residential",
+    "motor_vehicle": "private",
+    "name": "Via Romitorio"
+  }
+},
+{
+  "type": "way",
+  "id": 172550460,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Vallechiara",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 172550878,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Carlo Pastorino"
+  }
+},
+{
+  "type": "way",
+  "id": 176304387,
+  "tags": {
+    "highway": "residential",
+    "name": "Via della libertà"
+  }
+},
+{
+  "type": "way",
+  "id": 176304390,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Ortigara"
+  }
+},
+{
+  "type": "way",
+  "id": 176310581,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Vallestura",
+    "source": "Stefano Mazzone GEnova",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 177708246,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Carmine"
+  }
+},
+{
+  "type": "way",
+  "id": 178464006,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Carmine"
+  }
+},
+{
+  "type": "way",
+  "id": 178464007,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Montegrappa"
+  }
+},
+{
+  "type": "way",
+  "id": 178464009,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Negrotto Cambiaso"
+  }
+},
+{
+  "type": "way",
+  "id": 178464010,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Carmine"
+  }
+},
+{
+  "type": "way",
+  "id": 178464014,
+  "tags": {
+    "highway": "residential",
+    "name": "Via 13 martiri"
+  }
+},
+{
+  "type": "way",
+  "id": 178464015,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Piave"
+  }
+},
+{
+  "type": "way",
+  "id": 183713485,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "secondary",
+    "lit": "no",
+    "name": "Strada Provinciale del Faiallo",
+    "ref": "SP73",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 194524582,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Cappelletta",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 220077333,
+  "tags": {
+    "access": "private",
+    "bridge": "yes",
+    "highway": "residential",
+    "layer": "1",
+    "motor_vehicle": "private",
+    "name": "Via Romitorio",
+    "oneway": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 220077334,
+  "tags": {
+    "access": "private",
+    "highway": "residential",
+    "motor_vehicle": "private",
+    "name": "Via Romitorio",
+    "oneway": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 220077335,
+  "tags": {
+    "access": "private",
+    "highway": "residential",
+    "motor_vehicle": "private",
+    "name": "Via Romitorio",
+    "oneway": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 220077336,
+  "tags": {
+    "access": "private",
+    "highway": "residential",
+    "motor_vehicle": "private",
+    "name": "Via Romitorio",
+    "oneway": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 220454333,
+  "tags": {
+    "cycleway": "no",
+    "highway": "unclassified",
+    "maxspeed": "60",
+    "name": "Via Romitorio",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 221396514,
+  "tags": {
+    "highway": "path",
+    "name": "Via Diretta del Dente",
+    "sac_scale": "mountain_hiking",
+    "symbol:it": "linea rossa",
+    "trail_visibility": "intermediate"
+  }
+},
+{
+  "type": "way",
+  "id": 227571582,
+  "tags": {
+    "highway": "service",
+    "name": "Via Don Guido Brema"
+  }
+},
+{
+  "type": "way",
+  "id": 227571584,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Don Guido Brema"
+  }
+},
+{
+  "type": "way",
+  "id": 227571829,
+  "tags": {
+    "highway": "service",
+    "name": "Via Don Guido Brema"
+  }
+},
+{
+  "type": "way",
+  "id": 227571830,
+  "tags": {
+    "highway": "service",
+    "name": "Via Don Guido Brema"
+  }
+},
+{
+  "type": "way",
+  "id": 227572070,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Benedetto Macciò"
+  }
+},
+{
+  "type": "way",
+  "id": 227572072,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Cosso"
+  }
+},
+{
+  "type": "way",
+  "id": 227572073,
+  "tags": {
+    "highway": "service",
+    "name": "Via Volpara"
+  }
+},
+{
+  "type": "way",
+  "id": 227572918,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Oratorio"
+  }
+},
+{
+  "type": "way",
+  "id": 227573289,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Montegrappa",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 227573290,
+  "tags": {
+    "highway": "service",
+    "name": "Via Bruffi"
+  }
+},
+{
+  "type": "way",
+  "id": 227573456,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Carmine"
+  }
+},
+{
+  "type": "way",
+  "id": 227574124,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Europa"
+  }
+},
+{
+  "type": "way",
+  "id": 227575467,
+  "tags": {
+    "highway": "residential",
+    "horse": "no",
+    "maxspeed": "30",
+    "name": "Via dei Carlini",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 227575835,
+  "tags": {
+    "highway": "residential",
+    "name": "Piazza Ubaldo ottonello",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 227575837,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Generale Antonio Cantore",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 227575838,
+  "tags": {
+    "alt_name": "Via General Cantore",
+    "highway": "residential",
+    "name": "Via Cordova",
+    "oneway": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 227576354,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Tubino"
+  }
+},
+{
+  "type": "way",
+  "id": 230309078,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "layer": "-2",
+    "name": "Nuova galleria del Turchino",
+    "ref": "SS456",
+    "surface": "asphalt",
+    "tunnel": "yes",
+    "tunnel:length": "283",
+    "tunnel:name": "Martiri del Turchino 19 maggio 1944"
+  }
+},
+{
+  "type": "way",
+  "id": 230309079,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Strada Statale del Turchino",
+    "ref": "SS456",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 246667318,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Cascata del Serpente",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 257687845,
+  "tags": {
+    "highway": "residential",
+    "horse": "no",
+    "maxspeed": "30",
+    "name": "Piazza Carmine",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 269502581,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Europa",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 269502584,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Europa",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 278008180,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Cappelletta",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 294568349,
+  "tags": {
+    "highway": "service",
+    "name": "Piazza Monsignor Macciò",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 294664493,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Carmine"
+  }
+},
+{
+  "type": "way",
+  "id": 294740532,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Autra",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 294740536,
+  "tags": {
+    "highway": "footway",
+    "name": "Salita Oratorio"
+  }
+},
+{
+  "type": "way",
+  "id": 294740540,
+  "tags": {
+    "alt_name": "Via Papa Pio XII",
+    "highway": "residential",
+    "name": "Via Papa Pio Dodicesimo",
+    "old_name": "Via General Cantore",
+    "oneway": "yes",
+    "short_name": "Via Pio Dodicesimo"
+  }
+},
+{
+  "type": "way",
+  "id": 294788122,
+  "tags": {
+    "highway": "residential",
+    "name": "Piazzetta Oratorio"
+  }
+},
+{
+  "type": "way",
+  "id": 294788123,
+  "tags": {
+    "highway": "residential",
+    "name": "Piazza 75 Martiri"
+  }
+},
+{
+  "type": "way",
+  "id": 294788124,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Podestà",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 298346082,
+  "tags": {
+    "bridge": "yes",
+    "highway": "unclassified",
+    "incline": "-10%",
+    "lanes": "1",
+    "layer": "1",
+    "name": "Via Romitorio",
+    "oneway": "no",
+    "passing_places": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 298346083,
+  "tags": {
+    "highway": "unclassified",
+    "incline": "-10%",
+    "lanes": "1",
+    "name": "Via Romitorio",
+    "oneway": "no",
+    "passing_places": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 366282910,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Cascata del Serpente",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 383999907,
+  "tags": {
+    "highway": "primary",
+    "junction": "roundabout",
+    "name": "Strada Statale del Turchino",
+    "ref": "SS456",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 383999908,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Strada Statale del Turchino",
+    "oneway": "yes",
+    "ref": "SS456",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 383999909,
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Via Guglielmo Marconi",
+    "oneway": "yes",
+    "ref": "SS456",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 413288351,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Cascata del Serpente",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 413288352,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Cascata del Serpente",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 432240409,
+  "tags": {
+    "highway": "service",
+    "name": "Piazzale dispersi in Russia",
+    "oneway": "yes",
+    "service": "parking_aisle",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 450112564,
+  "tags": {
+    "access": "private",
+    "highway": "residential",
+    "motor_vehicle": "private",
+    "name": "Via Romitorio"
+  }
+},
+{
+  "type": "way",
+  "id": 477183637,
+  "tags": {
+    "highway": "path",
+    "name": "Via Podestà",
+    "sac_scale": "mountain_hiking",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 477188715,
+  "tags": {
+    "bicycle": "designated",
+    "highway": "path",
+    "mtb": "designated",
+    "mtb:name": "Trail Antidoto",
+    "mtb:scale": "2",
+    "name": "Antidoto",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 504212762,
+  "tags": {
+    "cycleway": "no",
+    "highway": "unclassified",
+    "maxspeed": "60",
+    "name": "Via Romitorio",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 504213128,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Romitorio"
+  }
+},
+{
+  "type": "way",
+  "id": 504234977,
+  "tags": {
+    "highway": "residential",
+    "name": "Via San Pietro",
+    "source": "Stefano Mazzone GEnova",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 504235219,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Vallechiara",
+    "oneway": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 506186323,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "secondary",
+    "lit": "no",
+    "name": "Strada Provinciale del Faiallo",
+    "ref": "SP73",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 506186324,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "secondary",
+    "lit": "no",
+    "name": "Strada Provinciale del Faiallo",
+    "ref": "SP73",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 506186325,
+  "tags": {
+    "highway": "residential",
+    "lane_markings": "yes",
+    "name": "Via Durazzo Pallavicini",
+    "surface": "asphalt",
+    "symbol": "3 punti gialli; 2 rombi vuoti gialli"
+  }
+},
+{
+  "type": "way",
+  "id": 506186326,
+  "tags": {
+    "highway": "residential",
+    "name": "Piazzetta Oratorio",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 506400608,
+  "tags": {
+    "highway": "tertiary",
+    "lane_markings": "no",
+    "name": "Via Cappelletta",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 507558617,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "secondary",
+    "lit": "no",
+    "name": "Strada Provinciale del Faiallo",
+    "ref": "SP73",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 518545171,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Durazzo Pallavicini",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 519841456,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "primary",
+    "junction": "roundabout",
+    "name": "Strada Statale del Turchino",
+    "ref": "SS456",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 521159542,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Cordova",
+    "oneway": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 524913551,
+  "tags": {
+    "highway": "track",
+    "name": "Sterrata del Laiasso",
+    "tracktype": "grade2",
+    "width": "2"
+  }
+},
+{
+  "type": "way",
+  "id": 544574074,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Strada Statale del Turchino",
+    "ref": "SS456",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 662511369,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Generale Antonio Cantore",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 662511372,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Europa"
+  }
+},
+{
+  "type": "way",
+  "id": 662511374,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Europa"
+  }
+},
+{
+  "type": "way",
+  "id": 662511376,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Generale Antonio Cantore",
+    "oneway": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 662511378,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Piave"
+  }
+},
+{
+  "type": "way",
+  "id": 662511379,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Piave",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 662516919,
+  "tags": {
+    "highway": "service",
+    "name": "Piazza G. M. Bottero",
+    "service": "parking_aisle"
+  }
+},
+{
+  "type": "way",
+  "id": 662516921,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Piave",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 662516923,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Piave"
+  }
+},
+{
+  "type": "way",
+  "id": 662516933,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Europa",
+    "oneway": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 662516936,
+  "tags": {
+    "highway": "residential",
+    "horse": "no",
+    "maxspeed": "30",
+    "name": "Via del Carmine",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 662590859,
+  "tags": {
+    "leisure": "park",
+    "name": "Villa Bagnara"
+  }
+},
+{
+  "type": "way",
+  "id": 662636881,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Romitorio"
+  }
+},
+{
+  "type": "way",
+  "id": 662636883,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Guido Mignone"
+  }
+},
+{
+  "type": "way",
+  "id": 662636884,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Durazzo Pallavicini"
+  }
+},
+{
+  "type": "way",
+  "id": 662636888,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Negrotto Cambiaso"
+  }
+},
+{
+  "type": "way",
+  "id": 662636889,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Via Roma",
+    "ref": "SS456",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 662636890,
+  "tags": {
+    "highway": "service",
+    "name": "Via 13 martiri"
+  }
+},
+{
+  "type": "way",
+  "id": 662636891,
+  "tags": {
+    "highway": "footway",
+    "name": "Via 13 martiri"
+  }
+},
+{
+  "type": "way",
+  "id": 662636892,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Benedetto Macciò"
+  }
+},
+{
+  "type": "way",
+  "id": 662697074,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via San Pietro",
+    "source": "Stefano Mazzone GEnova",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 663971879,
+  "tags": {
+    "leisure": "park",
+    "name": "Giardino Museo civico"
+  }
+},
+{
+  "type": "way",
+  "id": 675828354,
+  "tags": {
+    "bicycle": "designated",
+    "highway": "path",
+    "mtb:scale": "1",
+    "name": "Polveriera",
+    "surface": "unpaved"
+  }
+},
+{
+  "type": "way",
+  "id": 753638901,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Via Guglielmo Marconi",
+    "ref": "SS456",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 753638902,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Strada Statale del Turchino",
+    "oneway": "yes",
+    "ref": "SS456",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 759795759,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "lit": "no",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Autostrada dei Trafori",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 953044276,
+  "tags": {
+    "bicycle": "designated",
+    "highway": "path",
+    "mtb:scale": "1",
+    "name": "Polveriera Extension",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 967462532,
+  "tags": {
+    "bicycle": "designated",
+    "highway": "path",
+    "mtb:name": "Mulino del Pesce DH",
+    "mtb:scale": "2",
+    "name": "Mulino del Pesce",
+    "oneway": "yes",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 1024559611,
+  "tags": {
+    "alt_name": "Via dei Giovi",
+    "highway": "unclassified",
+    "name": "Via dei Giovi Superiore",
+    "width": "2.2"
+  }
+},
+{
+  "type": "way",
+  "id": 1084033624,
+  "tags": {
+    "bicycle": "designated",
+    "highway": "path",
+    "mtb:scale": "2",
+    "name": "Trail Fossa Grande",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 1084034045,
+  "tags": {
+    "bicycle": "designated",
+    "highway": "path",
+    "mtb:scale": "2",
+    "name": "Trail Fossa Grande",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 1084034978,
+  "tags": {
+    "bicycle": "designated",
+    "highway": "path",
+    "mtb:scale": "2",
+    "name": "Trail Fossa Grande",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 1084034979,
+  "tags": {
+    "bicycle": "designated",
+    "highway": "path",
+    "mtb:scale": "2",
+    "name": "Trail Fossa Grande",
+    "sac_scale": "mountain_hiking",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 1115967428,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "secondary",
+    "lit": "no",
+    "name": "Strada Provinciale del Faiallo",
+    "ref": "SP73",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1115967429,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "secondary",
+    "lit": "no",
+    "name": "Strada Provinciale del Faiallo",
+    "ref": "SP73",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1116227466,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via Romitorio"
+  }
+},
+{
+  "type": "way",
+  "id": 1116227467,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Via Roma",
+    "ref": "SS456",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1183713155,
+  "tags": {
+    "bicycle": "designated",
+    "highway": "path",
+    "mtb:name": "Mulino del Pesce DH",
+    "mtb:scale": "2",
+    "name": "Mulino del Pesce",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 1183715019,
+  "tags": {
+    "bicycle": "designated",
+    "highway": "path",
+    "mtb:name": "Mulino del Pesce DH",
+    "mtb:scale": "2",
+    "name": "Mulino del Pesce",
+    "oneway": "yes",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 1211125833,
+  "tags": {
+    "area:highway": "residential",
+    "name": "Piazza Castello",
+    "place": "square"
+  }
+},
+{
+  "type": "way",
+  "id": 1240386611,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Durazzo Pallavicini",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1240964313,
+  "tags": {
+    "highway": "service",
+    "name": "Piazzale dispersi in Russia",
+    "oneway": "yes",
+    "service": "parking_aisle",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1240964314,
+  "tags": {
+    "highway": "unclassified",
+    "name": "Via San Pietro",
+    "source": "Stefano Mazzone GEnova",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1283585894,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "4",
+    "lit": "no",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Autostrada dei Trafori",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1364729229,
+  "tags": {
+    "bridge:structure": "beam",
+    "layer": "1",
+    "man_made": "bridge",
+    "name": "Viadotto San Pietro"
+  }
+},
+{
+  "type": "way",
+  "id": 1436844875,
+  "tags": {
+    "highway": "residential",
+    "name": "Via Giacinto Macciò"
+  }
+},
+{
+  "type": "way",
+  "id": 1436844876,
+  "tags": {
+    "bridge": "yes",
+    "highway": "residential",
+    "layer": "1",
+    "name": "Via Giacinto Macciò"
+  }
+},
+{
+  "type": "way",
+  "id": 1449461120,
+  "tags": {
+    "highway": "residential",
+    "name": "Via San Pietro",
+    "source": "Stefano Mazzone GEnova",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1449461121,
+  "tags": {
+    "cycleway": "yes",
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Via Turchino",
+    "ref": "SS456",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1449461122,
+  "tags": {
+    "highway": "primary",
+    "junction": "roundabout",
+    "name": "Strada Statale del Turchino",
+    "ref": "SS456",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1449461123,
+  "tags": {
+    "highway": "primary",
+    "junction": "roundabout",
+    "name": "Strada Statale del Turchino",
+    "ref": "SS456",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1449461124,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "lit": "no",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Autostrada dei Trafori",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1449800538,
+  "tags": {
+    "highway": "primary",
+    "junction": "roundabout",
+    "name": "Strada Statale del Turchino",
+    "ref": "SS456",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1449800539,
+  "tags": {
+    "highway": "primary",
+    "junction": "roundabout",
+    "name": "Strada Statale del Turchino",
+    "ref": "SS456",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1468550118,
+  "tags": {
+    "highway": "motorway",
+    "int_ref": "E 25",
+    "lanes": "3",
+    "lit": "no",
+    "maxspeed": "110",
+    "maxspeed:hgv": "70",
+    "name": "Autostrada dei Trafori",
+    "oneway": "yes",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A26",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "relation",
+  "id": 377223,
+  "tags": {
+    "name": "Autostrada dei Trafori",
+    "name:etymology:wikidata": "Q44377",
+    "name:etymology:wikipedia": "it:Galleria (ingegneria)",
+    "network": "IT:A-road",
+    "operator": "Autostrade per l'Italia S.p.A.",
+    "ref": "A26",
+    "route": "road",
+    "type": "route",
+    "wikidata": "Q789092",
+    "wikipedia": "it:Autostrada A26 (Italia)"
+  }
+}
+
+  ]
+}

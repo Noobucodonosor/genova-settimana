@@ -1,0 +1,1054 @@
+{
+  "version": 0.6,
+  "generator": "OpenStreetMap v0.6 API",
+  "comune": "Rondanina",
+  "elements": [
+    {
+      "type": "node",
+      "id": 66586470,
+      "tags": {
+        "gfoss_id": "1307",
+        "name": "Rondanina",
+        "place": "village",
+        "population": "62",
+        "source": "geodati.gfoss.it",
+        "wikidata": "Q266381",
+        "addr:city_extracted": "Rondanina"
+      },
+      "lat": 44.563245,
+      "lon": 9.218071
+    },
+    {
+      "type": "node",
+      "id": 2566729645,
+      "tags": {
+        "ele": "1185",
+        "name": "Monte Maiada",
+        "natural": "peak",
+        "addr:city_extracted": "Rondanina"
+      },
+      "lat": 44.5505392,
+      "lon": 9.2124658
+    },
+    {
+      "type": "node",
+      "id": 2566731070,
+      "tags": {
+        "ele": "1055",
+        "name": "Monte Sant'Anna",
+        "natural": "peak",
+        "addr:city_extracted": "Rondanina"
+      },
+      "lat": 44.5550637,
+      "lon": 9.2220788
+    },
+    {
+      "type": "node",
+      "id": 2566737118,
+      "tags": {
+        "ele": "1340",
+        "name": "Bric Rondanina",
+        "natural": "peak",
+        "addr:city_extracted": "Rondanina"
+      },
+      "lat": 44.5623045,
+      "lon": 9.208883
+    },
+    {
+      "type": "node",
+      "id": 2627345395,
+      "tags": {
+        "name": "Boestre",
+        "place": "hamlet",
+        "addr:city_extracted": "Rondanina"
+      },
+      "lat": 44.5580453,
+      "lon": 9.2073494
+    },
+    {
+      "type": "node",
+      "id": 3414859210,
+      "tags": {
+        "barrier": "gate",
+        "name": "Cancello per cavalli",
+        "addr:city_extracted": "Rondanina"
+      },
+      "lat": 44.5683448,
+      "lon": 9.2381011
+    },
+    {
+      "type": "node",
+      "id": 3599824512,
+      "tags": {
+        "addr:city": "Rondanina",
+        "addr:housenumber": "2",
+        "addr:postcode": "16025",
+        "addr:street": "Piazza San Bartolomeo",
+        "information": "Centro_visita_(Parco_Naturale_Regionale_dell'Antola)",
+        "name": "Rifugio escursionistico di Rondanina",
+        "operator": "Centro visita (Parco Naturale Regionale dell'Antola)",
+        "phone": "+39 010 95854",
+        "tourism": "hotel",
+        "addr:city_extracted": "Rondanina"
+      },
+      "lat": 44.562688,
+      "lon": 9.2177862
+    },
+    {
+      "type": "node",
+      "id": 3692992512,
+      "tags": {
+        "barrier": "gate",
+        "material": "wood",
+        "name": "cancello per cavalli",
+        "addr:city_extracted": "Rondanina"
+      },
+      "lat": 44.5617965,
+      "lon": 9.2350403
+    },
+    {
+      "type": "node",
+      "id": 3692996885,
+      "tags": {
+        "disused:amenity": "watering_place",
+        "name": "Fontaniele",
+        "natural": "spring",
+        "note": "Sorgente con arbio anticamente usato per abbeverare il bestiame",
+        "addr:city_extracted": "Rondanina"
+      },
+      "lat": 44.5617924,
+      "lon": 9.2347853
+    },
+    {
+      "type": "node",
+      "id": 3693038658,
+      "tags": {
+        "barrier": "gate",
+        "bicycle": "yes",
+        "foot": "yes",
+        "horse": "yes",
+        "motor_vehicle": "yes",
+        "name": "cancello del campo di calcio",
+        "addr:city_extracted": "Rondanina"
+      },
+      "lat": 44.5644122,
+      "lon": 9.2355589
+    },
+    {
+      "type": "node",
+      "id": 3696803008,
+      "tags": {
+        "barrier": "gate",
+        "bicycle": "no",
+        "foot": "yes",
+        "horse": "yes",
+        "name": "cancello per cavalli",
+        "addr:city_extracted": "Rondanina"
+      },
+      "lat": 44.5672564,
+      "lon": 9.2343943
+    },
+    {
+      "type": "node",
+      "id": 3698972977,
+      "tags": {
+        "name": "Punto sella",
+        "tourism": "viewpoint",
+        "addr:city_extracted": "Rondanina"
+      },
+      "lat": 44.5721041,
+      "lon": 9.2347385
+    },
+    {
+      "type": "node",
+      "id": 3699627061,
+      "tags": {
+        "denotation": "dead",
+        "name": "Grosso albero tagliato",
+        "natural": "tree",
+        "addr:city_extracted": "Rondanina"
+      },
+      "lat": 44.5715259,
+      "lon": 9.2274958
+    },
+    {
+      "type": "node",
+      "id": 3701620211,
+      "tags": {
+        "man_made": "yes",
+        "name": "Legna tagliata stagionata",
+        "addr:city_extracted": "Rondanina"
+      },
+      "lat": 44.5676432,
+      "lon": 9.2324287
+    },
+    {
+      "type": "node",
+      "id": 3704279369,
+      "tags": {
+        "historic": "ruins",
+        "name": "Ruderi di varie cascine attaccate",
+        "ruins": "farmhouse",
+        "addr:city_extracted": "Rondanina"
+      },
+      "lat": 44.5753299,
+      "lon": 9.2280102
+    },
+    {
+      "type": "node",
+      "id": 3722057413,
+      "tags": {
+        "amenity": "fountain",
+        "name": "fontana non potabile",
+        "addr:city_extracted": "Rondanina"
+      },
+      "lat": 44.5617775,
+      "lon": 9.2177799
+    },
+    {
+      "type": "node",
+      "id": 4208087610,
+      "tags": {
+        "name": "Museo del lupo",
+        "tourism": "museum",
+        "website": "https://www.parcoantola.it/dettaglio.php?id=32549",
+        "addr:city_extracted": "Rondanina"
+      },
+      "lat": 44.5634232,
+      "lon": 9.2182267
+    },
+    {
+      "type": "node",
+      "id": 4208092189,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Osteria Cresci Valentina",
+        "phone": "+39 010 95852",
+        "website": "https://www.altavaltrebbia.net/strutture/ristoranti-trattorie-e-pizzerie/631-cresci-valentina.html",
+        "addr:city_extracted": "Rondanina"
+      },
+      "lat": 44.5637194,
+      "lon": 9.218401
+    },
+    {
+      "type": "node",
+      "id": 4357367271,
+      "tags": {
+        "barrier": "gate",
+        "name": "Filo spinato",
+        "addr:city_extracted": "Rondanina"
+      },
+      "lat": 44.5775632,
+      "lon": 9.235918
+    },
+    {
+      "type": "node",
+      "id": 4426825687,
+      "tags": {
+        "name": "Fascia",
+        "place": "municipality",
+        "population": "81",
+        "addr:city_extracted": "Rondanina"
+      },
+      "lat": 44.5719677,
+      "lon": 9.2356396
+    },
+    {
+      "type": "node",
+      "id": 8950874302,
+      "tags": {
+        "name": "Ruderi",
+        "place": "farm",
+        "addr:city_extracted": "Rondanina"
+      },
+      "lat": 44.5704101,
+      "lon": 9.2081724
+    },
+    {
+      "type": "node",
+      "id": 13241556166,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Fraz. Caffarena F. Loc. Vaccarezza",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4534",
+        "zone_id": "87",
+        "addr:city_extracted": "Rondanina"
+      },
+      "lat": 44.5609799,
+      "lon": 9.2009441
+    },
+    {
+      "type": "node",
+      "id": 13241556170,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "F. Loc. Balestre",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4533",
+        "zone_id": "87",
+        "addr:city_extracted": "Rondanina"
+      },
+      "lat": 44.5571442,
+      "lon": 9.2067833
+    },
+    {
+      "type": "node",
+      "id": 13241556176,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "F. Bivio Montebruno",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4532",
+        "zone_id": "87",
+        "addr:city_extracted": "Rondanina"
+      },
+      "lat": 44.5553046,
+      "lon": 9.2132797
+    },
+    {
+      "type": "node",
+      "id": 13241556186,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Capolinea Piazza della Fontana",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4531",
+        "zone_id": "87",
+        "addr:city_extracted": "Rondanina"
+      },
+      "lat": 44.5618172,
+      "lon": 9.2163877
+    },
+    {
+      "type": "node",
+      "id": 13241556189,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Fraz. Caffarena Loc. Balestre",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4529",
+        "zone_id": "87",
+        "addr:city_extracted": "Rondanina"
+      },
+      "lat": 44.5570221,
+      "lon": 9.2068996
+    },
+    {
+      "type": "node",
+      "id": 13241556192,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Fraz. Caffarena Loc. Vaccarezza",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4528",
+        "zone_id": "87",
+        "addr:city_extracted": "Rondanina"
+      },
+      "lat": 44.561027,
+      "lon": 9.2007637
+    },
+    {
+      "type": "node",
+      "id": 13241556196,
+      "tags": {
+        "bus": "yes",
+        "description": "AMT linee provinciali",
+        "highway": "bus_stop",
+        "name": "Bivio Montebruno",
+        "network": "AMT Genova",
+        "network:wikidata": "Q295335",
+        "operator": "AMT",
+        "public_transport": "platform",
+        "ref": "4530",
+        "zone_id": "87",
+        "addr:city_extracted": "Rondanina"
+      },
+      "lat": 44.5553436,
+      "lon": 9.2134295
+    },
+    {
+      "type": "way",
+      "id": 20308790,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Deviazione per Rondanina",
+        "surface": "asphalt",
+        "addr:city_extracted": "Rondanina"
+      }
+    },
+    {
+      "type": "way",
+      "id": 204446205,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "church",
+        "denomination": "catholic",
+        "name": "Chiesa di San Nicola",
+        "religion": "christian",
+        "source": "Regione Liguria",
+        "wikidata": "Q3671452",
+        "wikipedia": "it:Chiesa di San Nicola (Rondanina)",
+        "addr:city_extracted": "Rondanina"
+      }
+    },
+    {
+      "type": "way",
+      "id": 207457961,
+      "tags": {
+        "amenity": "place_of_worship",
+        "denomination": "catholic",
+        "name": "Sant'Anna",
+        "religion": "christian",
+        "addr:city_extracted": "Rondanina"
+      }
+    },
+    {
+      "type": "way",
+      "id": 354193625,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "church",
+        "denomination": "catholic",
+        "name": "Chiesa di San Michele Arcangelo",
+        "religion": "christian",
+        "wikidata": "Q3671279",
+        "wikipedia": "it:Chiesa di San Michele Arcangelo (Fascia)",
+        "addr:city_extracted": "Rondanina"
+      }
+    },
+    {
+      "type": "way",
+      "id": 363036763,
+      "tags": {
+        "access": "yes",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "track",
+        "horse": "yes",
+        "incline": "10%",
+        "mtb:scale": "0",
+        "mtb:scale:imba": "0",
+        "mtb:scale:uphill": "0",
+        "name": "Sentiero da Carpeneto a Rondanina",
+        "sac_scale": "hiking",
+        "smoothness": "horrible",
+        "surface": "unpaved",
+        "tracktype": "grade3",
+        "trail_visibility": "good",
+        "width": "2",
+        "addr:city_extracted": "Rondanina"
+      }
+    },
+    {
+      "type": "way",
+      "id": 363516869,
+      "tags": {
+        "landuse": "cemetery",
+        "name": "Cimitero di Carpeneto",
+        "wikidata": "Q107002925",
+        "addr:city_extracted": "Rondanina"
+      }
+    },
+    {
+      "type": "way",
+      "id": 364897336,
+      "tags": {
+        "highway": "track",
+        "incline": "10%",
+        "mtb:scale": "1",
+        "mtb:scale:imba": "1",
+        "mtb:scale:uphill": "1",
+        "name": "Sentiero basso Rondanina - Fascia",
+        "sac_scale": "hiking",
+        "surface": "unpaved",
+        "trail_visibility": "good",
+        "width": "1",
+        "addr:city_extracted": "Rondanina"
+      }
+    },
+    {
+      "type": "way",
+      "id": 365270431,
+      "tags": {
+        "name": "Roccione",
+        "natural": "bare_rock",
+        "addr:city_extracted": "Rondanina"
+      }
+    },
+    {
+      "type": "way",
+      "id": 365270433,
+      "tags": {
+        "bicycle": "yes",
+        "highway": "path",
+        "incline": "20%",
+        "mtb:scale": "6",
+        "mtb:scale:uphill": "0",
+        "name": "Salita sul roccione",
+        "sac_scale": "demanding_mountain_hiking",
+        "surface": "ground",
+        "trail_visibility": "good",
+        "width": "0.5",
+        "addr:city_extracted": "Rondanina"
+      }
+    },
+    {
+      "type": "way",
+      "id": 365273209,
+      "tags": {
+        "access": "yes",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "path",
+        "horse": "yes",
+        "incline": "15%",
+        "mtb:scale": "6",
+        "mtb:scale:imba": "2",
+        "mtb:scale:uphill": "3",
+        "name": "Sentiero da Carpeneto al Cassingheno",
+        "sac_scale": "hiking",
+        "smoothness": "horrible",
+        "surface": "unpaved",
+        "tracktype": "grade3",
+        "trail_visibility": "good",
+        "width": "1",
+        "addr:city_extracted": "Rondanina"
+      }
+    },
+    {
+      "type": "way",
+      "id": 365273837,
+      "tags": {
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "track",
+        "horse": "yes",
+        "incline": "10%",
+        "motor_vehicle": "yes",
+        "name": "accesso al campo di calcio",
+        "smoothness": "bad",
+        "surface": "unpaved",
+        "tracktype": "grade4",
+        "width": "3",
+        "addr:city_extracted": "Rondanina"
+      }
+    },
+    {
+      "type": "way",
+      "id": 365677923,
+      "tags": {
+        "highway": "path",
+        "horse": "yes",
+        "incline": "20%",
+        "mtb:scale": "6",
+        "mtb:scale:uphill": "4",
+        "name": "Sentiero dei Panni Gù",
+        "sac_scale": "hiking",
+        "surface": "unpaved",
+        "width": "1",
+        "addr:city_extracted": "Rondanina"
+      }
+    },
+    {
+      "type": "way",
+      "id": 365677927,
+      "tags": {
+        "name": "Acquitrino",
+        "natural": "wetland",
+        "addr:city_extracted": "Rondanina"
+      }
+    },
+    {
+      "type": "way",
+      "id": 366119643,
+      "tags": {
+        "bicycle": "no",
+        "highway": "path",
+        "mtb:scale": "4",
+        "name": "Deviazione verso il mulino",
+        "sac_scale": "hiking",
+        "surface": "unpaved",
+        "trail_visibility": "intermediate",
+        "width": "1",
+        "addr:city_extracted": "Rondanina"
+      }
+    },
+    {
+      "type": "way",
+      "id": 366170250,
+      "tags": {
+        "bicycle": "no",
+        "highway": "path",
+        "incline": "20%",
+        "name": "Sentiero verso il mulino",
+        "sac_scale": "hiking",
+        "surface": "unpaved",
+        "width": "1",
+        "addr:city_extracted": "Rondanina"
+      }
+    },
+    {
+      "type": "way",
+      "id": 366171452,
+      "tags": {
+        "access": "yes",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "path",
+        "horse": "yes",
+        "incline": "15%",
+        "mtb:scale": "6",
+        "mtb:scale:imba": "2",
+        "mtb:scale:uphill": "3",
+        "name": "Sentiero da Rondanina al Cassingheno",
+        "sac_scale": "hiking",
+        "smoothness": "horrible",
+        "surface": "unpaved",
+        "tracktype": "grade3",
+        "trail_visibility": "good",
+        "width": "1",
+        "addr:city_extracted": "Rondanina"
+      }
+    },
+    {
+      "type": "way",
+      "id": 366176593,
+      "tags": {
+        "name": "Fosso di Cogno Grosso",
+        "waterway": "stream",
+        "width": "2",
+        "addr:city_extracted": "Rondanina"
+      }
+    },
+    {
+      "type": "way",
+      "id": 420918650,
+      "tags": {
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "living_street",
+        "horse": "yes",
+        "name": "Via dei Partigiani",
+        "oneway": "no",
+        "surface": "asphalt",
+        "addr:city_extracted": "Rondanina"
+      }
+    },
+    {
+      "type": "way",
+      "id": 436613844,
+      "tags": {
+        "boat": "no",
+        "name": "Cassingheno",
+        "waterway": "stream",
+        "width": "2",
+        "addr:city_extracted": "Rondanina"
+      }
+    },
+    {
+      "type": "way",
+      "id": 437356095,
+      "tags": {
+        "building": "ruins",
+        "historic": "ruins",
+        "name": "Mulino di Rondanina",
+        "note": "L'accesso è reso difficile dalle spine",
+        "ruins": "watermill",
+        "addr:city_extracted": "Rondanina"
+      }
+    },
+    {
+      "type": "way",
+      "id": 437452545,
+      "tags": {
+        "building": "ruins",
+        "historic": "ruins",
+        "name": "Mulino di Carpeneto",
+        "ruins": "watermill",
+        "addr:city_extracted": "Rondanina"
+      }
+    },
+    {
+      "type": "way",
+      "id": 447021862,
+      "tags": {
+        "boundary": "protected_area",
+        "name": "Parco dell'Antola",
+        "protect_class": "97",
+        "ref": "IT1330905",
+        "ref:inspire": "IT.RLIG.SIC-IT1330905",
+        "website": "http://www.cartografiarl.regione.liguria.it/mapfiles/info/repertoriocartografico/pdf_protected_sites/schede_nat2000/SIC/Site_IT1330905.pdf",
+        "wikidata": "Q55317024",
+        "addr:city_extracted": "Rondanina"
+      }
+    },
+    {
+      "type": "way",
+      "id": 511661656,
+      "tags": {
+        "access": "yes",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "path",
+        "horse": "yes",
+        "incline": "15%",
+        "mtb:scale": "6",
+        "mtb:scale:imba": "2",
+        "mtb:scale:uphill": "3",
+        "name": "Sentiero da Rondanina al Cassingheno",
+        "sac_scale": "hiking",
+        "smoothness": "horrible",
+        "surface": "unpaved",
+        "tracktype": "grade3",
+        "trail_visibility": "good",
+        "width": "1",
+        "addr:city_extracted": "Rondanina"
+      }
+    },
+    {
+      "type": "way",
+      "id": 711325832,
+      "tags": {
+        "access": "yes",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "track",
+        "horse": "yes",
+        "incline": "15%",
+        "mtb:scale": "6",
+        "mtb:scale:imba": "2",
+        "mtb:scale:uphill": "3",
+        "name": "Sentiero da Rondanina al Cassingheno",
+        "sac_scale": "hiking",
+        "smoothness": "horrible",
+        "surface": "unpaved",
+        "tracktype": "grade3",
+        "trail_visibility": "good",
+        "width": "1",
+        "addr:city_extracted": "Rondanina"
+      }
+    },
+    {
+      "type": "way",
+      "id": 711325833,
+      "tags": {
+        "highway": "track",
+        "name": "Sentiero alto Rondanina - Fascia",
+        "addr:city_extracted": "Rondanina"
+      }
+    },
+    {
+      "type": "way",
+      "id": 711325834,
+      "tags": {
+        "highway": "path",
+        "name": "Sentiero alto Rondanina - Fascia",
+        "trail_visibility": "excellent",
+        "addr:city_extracted": "Rondanina"
+      }
+    },
+    {
+      "type": "way",
+      "id": 711325837,
+      "tags": {
+        "highway": "path",
+        "name": "Sentiero alto Rondanina - Fascia",
+        "trail_visibility": "intermediate",
+        "addr:city_extracted": "Rondanina"
+      }
+    },
+    {
+      "type": "way",
+      "id": 712287815,
+      "tags": {
+        "building": "house",
+        "name": "Casoni degli Arbogli",
+        "addr:city_extracted": "Rondanina"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1249995912,
+      "tags": {
+        "bicycle": "no",
+        "highway": "path",
+        "mtb:scale": "4",
+        "name": "Deviazione verso il mulino",
+        "sac_scale": "hiking",
+        "surface": "unpaved",
+        "trail_visibility": "intermediate",
+        "width": "1",
+        "addr:city_extracted": "Rondanina"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1443092697,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Deviazione per Rondanina",
+        "surface": "asphalt",
+        "addr:city_extracted": "Rondanina"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1443092698,
+      "tags": {
+        "highway": "tertiary",
+        "name": "Deviazione per Rondanina",
+        "surface": "asphalt",
+        "addr:city_extracted": "Rondanina"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 43279,
+      "tags": {
+        "admin_level": "8",
+        "boundary": "administrative",
+        "name": "Rondanina",
+        "population": "58",
+        "population:date": "2026-08-28",
+        "ref:catasto": "H546",
+        "ref:ISTAT": "010050",
+        "source:population": "ANPR 2026",
+        "type": "boundary",
+        "wikidata": "Q266381",
+        "wikipedia": "it:Rondanina",
+        "addr:city_extracted": "Rondanina"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 43287,
+      "tags": {
+        "admin_level": "8",
+        "boundary": "administrative",
+        "name": "Fascia",
+        "population": "63",
+        "population:date": "2026-08-28",
+        "ref:catasto": "D509",
+        "ref:ISTAT": "010022",
+        "source:population": "ANPR 2026",
+        "type": "boundary",
+        "wikidata": "Q266306",
+        "wikipedia": "it:Fascia (Italia)",
+        "addr:city_extracted": "Rondanina"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 43297,
+      "tags": {
+        "admin_level": "8",
+        "boundary": "administrative",
+        "name": "Propata",
+        "population": "121",
+        "population:date": "2026-08-27",
+        "ref:catasto": "H073",
+        "ref:ISTAT": "010045",
+        "type": "boundary",
+        "wikidata": "Q266366",
+        "wikipedia": "it:Propata",
+        "addr:city_extracted": "Rondanina"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 2440682,
+      "tags": {
+        "name": "Strada Provinciale del Brugneto",
+        "ref": "SP15",
+        "route": "road",
+        "type": "route",
+        "addr:city_extracted": "Rondanina"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 2689409,
+      "tags": {
+        "boundary": "protected_area",
+        "hunting": "no",
+        "name": "Parco naturale regionale dell'Antola",
+        "name:de": "Regionaler Naturpark Antola",
+        "name:en": "Antola Natural Regional Park",
+        "name:it": "Parco naturale regionale dell'Antola",
+        "protect_class": "2",
+        "protection_code": "EUAP0965",
+        "protection_title": "Area Protetta Regionale",
+        "site_zone": "1.0",
+        "source": "Dai dati realizzati da Regione Liguria \"Aree Protette e relativi piani\" Anno 01/10/2012 scala 1:25000",
+        "type": "boundary",
+        "wikidata": "Q182860",
+        "wikipedia": "it:Parco naturale regionale dell'Antola",
+        "addr:city_extracted": "Rondanina"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 2689411,
+      "tags": {
+        "boundary": "protected_area",
+        "hunting": "yes",
+        "leisure": "park",
+        "name": "Antola",
+        "protect_class": "2",
+        "protection_code": "EUAP0965",
+        "protection_title": "Area Protetta Regionale",
+        "site_zone": "12.0",
+        "source": "Dai dati realizzati da Regione Liguria \"Aree Protette e relativi piani\" Anno 01/10/2012 scala 1:25000",
+        "type": "boundary",
+        "addr:city_extracted": "Rondanina"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 2689412,
+      "tags": {
+        "boundary": "protected_area",
+        "hunting": "yes",
+        "name": "Antola",
+        "protect_class": "2",
+        "protection_code": "EUAP0965",
+        "protection_title": "Area Protetta Regionale",
+        "site_zone": "13.0",
+        "source": "Dai dati realizzati da Regione Liguria \"Aree Protette e relativi piani\" Anno 01/10/2012 scala 1:25000",
+        "type": "boundary",
+        "addr:city_extracted": "Rondanina"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 6486783,
+      "tags": {
+        "name": "Strada comunale Cassingheno - Rondanina",
+        "network": "lwn",
+        "type": "route",
+        "addr:city_extracted": "Rondanina"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 7349467,
+      "tags": {
+        "cai_scale": "E",
+        "name": "Anello di Rondanina",
+        "network": "lwn",
+        "note:project_page": "http://wiki.openstreetmap.org/wiki/Liguria/Sentieri",
+        "ref": "606",
+        "ref:REI": "GGEA6060",
+        "reg_ref": "GGEA60615PE",
+        "route": "hiking",
+        "rwn:name": "Rete Escursionistica Ligure (REL)",
+        "source": "Regione Liguria;survey:CAI",
+        "state": "proposed",
+        "symbol": "unmarked",
+        "symbol:it": "non segnalato",
+        "type": "route",
+        "addr:city_extracted": "Rondanina"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 7390798,
+      "tags": {
+        "cai_scale": "E",
+        "description:it": "http://fieliguria.com/images/Sentieri-Zone-GENOVA/Zona6/GE06S19Fascia_Rondanina_Casa_del_Romano.pdf",
+        "distance": "7",
+        "duration:backward": "02:15",
+        "duration:forward": "02:15",
+        "from": "Fascia",
+        "name": "Fascia – Rondanina-Casa del Romano",
+        "network": "lwn",
+        "note:project_page": "http://wiki.openstreetmap.org/wiki/Liguria/Sentieri",
+        "osmc:symbol": "red:green:yellow_dot",
+        "ref:FIE": "GE06S19",
+        "route": "hiking",
+        "source": "Federazione Italiana Escursionismo",
+        "symbol:it": "cerchio giallo",
+        "to": "Casa del Romano",
+        "type": "route",
+        "website:FIE": "http://www.fieliguria.com/sentieri-escursioni-liguria/genova.html",
+        "addr:city_extracted": "Rondanina"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 7390819,
+      "tags": {
+        "cai_scale": "E",
+        "description:it": "http://fieliguria.com/images/Sentieri-Zone-GENOVA/Zona6/GE06S20Montebruno_Rondanina.pdf",
+        "distance": "4.5",
+        "duration:backward": "01:30",
+        "duration:forward": "01:30",
+        "from": "Montebruno",
+        "name": "Montebruno - Rondanina",
+        "network": "lwn",
+        "note:project_page": "http://wiki.openstreetmap.org/wiki/Liguria/Sentieri",
+        "osmc:symbol": "red:green::❚●:yellow",
+        "ref:FIE": "GE06S20",
+        "route": "hiking",
+        "source": "Federazione Italiana Escursionismo",
+        "symbol:it": "linea verticale gialla e cerchio giallo",
+        "to": "Rondanina",
+        "type": "route",
+        "website:FIE": "http://www.fieliguria.com/sentieri-escursioni-liguria/genova.html",
+        "addr:city_extracted": "Rondanina"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 19728611,
+      "tags": {
+        "bus": "yes",
+        "colour": "green",
+        "description": "927 Rondanina - Propata - Torriglia (Loc. Laccetto)",
+        "from": "Rondanina",
+        "name": "927 Rondanina - Propata - Torriglia",
+        "network": "AMT Linee Provinciali",
+        "network:wikidata": "Q295335",
+        "network:wikipedia": "it:AMT (Genova)",
+        "operator": "AMT",
+        "public_transport:version": "2",
+        "ref": "927",
+        "route": "bus",
+        "to": "Torriglia",
+        "type": "route",
+        "addr:city_extracted": "Rondanina"
+      }
+    }
+  ]
+}
