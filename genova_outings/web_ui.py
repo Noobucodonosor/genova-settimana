@@ -495,6 +495,15 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
       }
     }
 
+    function esc(s) {
+      return String(s ?? '').replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
+    }
+
+    function safeUrl(u) {
+      const s = String(u ?? '').trim();
+      return /^https?:\/\//i.test(s) ? s : '';
+    }
+
     function renderCatalog() {
       const container = document.getElementById('catalogList');
       container.innerHTML = '';
@@ -518,18 +527,19 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
         card.className = 'card' + (isChecked ? ' selected' : '');
 
         const loc = item.zone ? `${item.venue} (${item.zone})` : item.venue;
+        const href = safeUrl(item.verified_url);
 
         card.innerHTML = `
-          <input type="checkbox" class="card-checkbox" ${isChecked ? 'checked' : ''} aria-label="Seleziona ${item.title}">
+          <input type="checkbox" class="card-checkbox" ${isChecked ? 'checked' : ''} aria-label="Seleziona ${esc(item.title)}">
           <div class="card-body">
-            <div class="card-title">${item.title}</div>
+            <div class="card-title">${esc(item.title)}</div>
             <div class="card-meta">
-              <span>📍 ${loc}</span>
-              ${item.day_time ? `<span>🗓️ ${item.day_time}</span>` : ''}
+              <span>📍 ${esc(loc)}</span>
+              ${item.day_time ? `<span>🗓️ ${esc(item.day_time)}</span>` : ''}
             </div>
-            ${item.description ? `<div class="card-desc">${item.description}</div>` : ''}
-            ${(item.raw_metadata && item.raw_metadata.programma && item.raw_metadata.programma.length) ? `<div class="card-prog"><div class="card-prog-h">In programma nei prossimi 7 giorni</div><ul>${item.raw_metadata.programma.map(p => `<li><b>${p.titolo}</b> <span>${p.quando}</span></li>`).join('')}</ul></div>` : ''}
-            ${item.verified_url ? `<a class="card-link" href="${item.verified_url}" target="_blank" rel="noopener">Fonte ufficiale &rarr;</a>` : ''}
+            ${item.description ? `<div class="card-desc">${esc(item.description)}</div>` : ''}
+            ${(item.raw_metadata && item.raw_metadata.programma && item.raw_metadata.programma.length) ? `<div class="card-prog"><div class="card-prog-h">In programma nei prossimi 7 giorni</div><ul>${item.raw_metadata.programma.map(p => `<li><b>${esc(p.titolo)}</b> <span>${esc(p.quando)}</span></li>`).join('')}</ul></div>` : ''}
+            ${href ? `<a class="card-link" href="${esc(href)}" target="_blank" rel="noopener">Fonte ufficiale &rarr;</a>` : ''}
           </div>
         `;
 
@@ -659,7 +669,9 @@ class OutingsWebHandler(BaseHTTPRequestHandler):
         self.send_response(status)
         self.send_header("Content-Type", "application/json; charset=utf-8")
         self.send_header("Content-Length", str(len(payload)))
-        self.send_header("Access-Control-Allow-Origin", "*")
+        origin = self.headers.get("Origin", "")
+        if origin.startswith(("http://127.0.0.1", "http://localhost")):
+            self.send_header("Access-Control-Allow-Origin", origin)
         self.end_headers()
         self.wfile.write(payload)
 
@@ -696,7 +708,14 @@ class OutingsWebHandler(BaseHTTPRequestHandler):
         path = parsed.path
 
         if path == "/api/format":
-            content_length = int(self.headers.get("Content-Length", 0))
+            try:
+                content_length = int(self.headers.get("Content-Length", 0))
+            except (TypeError, ValueError):
+                self.send_error(400, "Invalid Content-Length")
+                return
+            if content_length < 0 or content_length > 1_048_576:
+                self.send_error(413, "Payload Too Large")
+                return
             body_bytes = self.rfile.read(content_length)
             try:
                 data = json.loads(body_bytes.decode("utf-8"))

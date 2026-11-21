@@ -24,7 +24,7 @@ for idx, r in enumerate(records, 1):
         "lo": r["lon"]
     })
 
-payload_str = json.dumps(compact, ensure_ascii=False)
+payload_str = json.dumps(compact, ensure_ascii=False).replace("<", "\\u003c")
 
 html_doc = """<!DOCTYPE html>
 <html lang="it">
@@ -261,38 +261,51 @@ html_doc = """<!DOCTYPE html>
         `Trovati <span class="text-amber-400 font-bold">${currentMatches.length}</span> esercenti sul territorio — Mostrando ${slice.length > 0 ? start + 1 : 0}–${start + slice.length}`;
       document.getElementById("page-num").textContent = `Pag. ${currentPage} / ${totalPages}`;
 
+      function esc(s) {
+        return String(s ?? "").replace(/[&<>"']/g, m => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m]));
+      }
+      function safeUrl(u) {
+        const s = String(u ?? "").trim();
+        return /^https?:\/\//i.test(s) ? s : "";
+      }
+      function safeTel(t) {
+        return String(t ?? "").replace(/[^0-9+\-()\s]/g, "").trim();
+      }
+
       slice.forEach(r => {
         const mapLink = r.la && r.lo
-          ? `https://www.openstreetmap.org/?mlat=${r.la}&mlon=${r.lo}#map=18/${r.la}/${r.lo}`
+          ? `https://www.openstreetmap.org/?mlat=${encodeURIComponent(r.la)}&mlon=${encodeURIComponent(r.lo)}#map=18/${encodeURIComponent(r.la)}/${encodeURIComponent(r.lo)}`
           : `https://www.openstreetmap.org/search?query=${encodeURIComponent(r.n + " " + r.c)}`;
+        const webHref = safeUrl(r.w);
+        const telClean = safeTel(r.t);
 
         const card = document.createElement("div");
         card.className = "rounded-xl border border-[var(--border)] bg-[var(--card)] p-4 flex flex-col justify-between gap-3 hover:border-amber-500/60 transition";
         card.innerHTML = `
           <div class="space-y-1.5">
             <div class="flex items-start justify-between gap-2">
-              <span class="text-xs font-bold text-amber-400">${r.q}</span>
+              <span class="text-xs font-bold text-amber-400">${esc(r.q)}</span>
               ${r.ind
                 ? `<span class="px-2 py-0.5 rounded-full text-[11px] font-bold bg-emerald-500/15 text-emerald-400 border border-emerald-500/30">Indipendente / Locale</span>`
                 : `<span class="px-2 py-0.5 rounded-full text-[11px] font-medium bg-slate-700 text-slate-300">Catena / GDO</span>`
               }
             </div>
-            <h3 class="text-base font-bold text-[var(--foreground)] leading-snug">${r.n}</h3>
-            <div class="text-xs font-semibold text-blue-400">${r.s}</div>
-            ${r.a ? `<div class="text-xs text-[var(--foreground)]">📍 ${r.a} (${r.c})</div>` : `<div class="text-xs text-[var(--muted-foreground)]">📍 ${r.c}</div>`}
-            ${r.o ? `<div class="text-xs text-emerald-400 font-medium">🕒 Orari: ${r.o}</div>` : ""}
+            <h3 class="text-base font-bold text-[var(--foreground)] leading-snug">${esc(r.n)}</h3>
+            <div class="text-xs font-semibold text-blue-400">${esc(r.s)}</div>
+            ${r.a ? `<div class="text-xs text-[var(--foreground)]">📍 ${esc(r.a)} (${esc(r.c)})</div>` : `<div class="text-xs text-[var(--muted-foreground)]">📍 ${esc(r.c)}</div>`}
+            ${r.o ? `<div class="text-xs text-emerald-400 font-medium">🕒 Orari: ${esc(r.o)}</div>` : ""}
             <div class="p-2 rounded-lg bg-[var(--content)] border border-[var(--border)] text-xs text-[var(--muted-foreground)]">
-              🔎 <strong class="text-[var(--foreground)]">Cosa trovi / Parole chiave:</strong> ${r.k}
+              🔎 <strong class="text-[var(--foreground)]">Cosa trovi / Parole chiave:</strong> ${esc(r.k)}
             </div>
-            ${r.p ? `<div class="text-[11px] text-slate-400">🏛️ Via intitolata a: <strong>${r.p}</strong></div>` : ""}
+            ${r.p ? `<div class="text-[11px] text-slate-400">🏛️ Via intitolata a: <strong>${esc(r.p)}</strong></div>` : ""}
           </div>
 
           <div class="pt-2 border-t border-[var(--border)] flex flex-wrap items-center justify-between gap-2">
             <div class="flex items-center gap-2">
-              ${r.t ? `<a href="tel:${r.t}" class="px-2.5 py-1 rounded bg-emerald-600/20 border border-emerald-500/40 text-emerald-300 text-xs font-mono font-semibold hover:bg-emerald-600 hover:text-white transition">📞 ${r.t}</a>` : `<span class="text-xs text-[var(--muted-foreground)]">Tel. non indicato</span>`}
-              ${r.w ? `<a href="${r.w}" target="_blank" rel="noopener" class="px-2.5 py-1 rounded bg-amber-500 text-slate-950 text-xs font-bold hover:opacity-90">Sito / Social ↗</a>` : ""}
+              ${telClean ? `<a href="tel:${esc(telClean)}" class="px-2.5 py-1 rounded bg-emerald-600/20 border border-emerald-500/40 text-emerald-300 text-xs font-mono font-semibold hover:bg-emerald-600 hover:text-white transition">📞 ${esc(r.t)}</a>` : `<span class="text-xs text-[var(--muted-foreground)]">Tel. non indicato</span>`}
+              ${webHref ? `<a href="${esc(webHref)}" target="_blank" rel="noopener" class="px-2.5 py-1 rounded bg-amber-500 text-slate-950 text-xs font-bold hover:opacity-90">Sito / Social ↗</a>` : ""}
             </div>
-            <a href="${mapLink}" target="_blank" rel="noopener" class="text-xs font-semibold text-[var(--muted-foreground)] hover:text-amber-400 underline">Mappa esatta ↗</a>
+            <a href="${esc(mapLink)}" target="_blank" rel="noopener" class="text-xs font-semibold text-[var(--muted-foreground)] hover:text-amber-400 underline">Mappa esatta ↗</a>
           </div>
         `;
         grid.appendChild(card);
