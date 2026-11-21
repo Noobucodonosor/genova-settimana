@@ -2,21 +2,69 @@
 <html lang="it">
 <head>
   <meta charset="UTF-8">
-  <title>Genova & Provincia — Navigatore Anti-Amazon degli Esercenti, Artigiani e Negozi di Quartiere (4.966 Attività)</title>
+  <title>Genova & Provincia — Navigatore Esercenti, Artigiani e Negozi di Quartiere (4.966 Attività)</title>
   <style>
+.gc-nav {
+  background: #ffffff;
+  border-bottom: 1px solid #e2ddd5;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+.gc-nav-inner {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-wrap: balance;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+.gc-brand {
+  font-weight: 700;
+  font-size: 0.95rem;
+  letter-spacing: -0.01em;
+  color: #14191f;
+  text-decoration: none;
+}
+.gc-links {
+  display: flex;
+  flex-wrap: wrap;
+  flex-wrap: balance;
+  gap: 6px;
+}
+.gc-link {
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #475569;
+  text-decoration: none;
+  border: 1px solid transparent;
+  transition: background-color 140ms ease, color 140ms ease;
+}
+.gc-link:hover {
+  background: #f3efe8;
+  color: #14191f;
+}
+.gc-link.active {
+  background: #0f4c81;
+  color: #ffffff;
+}
+
 :root {
-  --background: #0f172a;
-  --foreground: #f8fafc;
-  --card: #1e293b;
-  --content: #0b1220;
-  --border: #334155;
-  --primary: #f59e0b;
-  --primary-foreground: #0f172a;
-  --muted-foreground: #94a3b8;
+  --background: #faf8f4;
+  --foreground: #14191f;
+  --card: #ffffff;
+  --content: #f3efe8;
+  --border: #e2ddd5;
+  --primary: #0f4c81;
+  --primary-foreground: #ffffff;
+  --muted-foreground: #5a6472;
 }
 *, *::before, *::after { box-sizing: border-box; }
 html { line-height: 1.5; -webkit-text-size-adjust: 100%; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
-body { margin: 0; font-size: 14px; background: var(--background); color: var(--foreground); -webkit-font-smoothing: antialiased; }
+body { margin: 0; font-size: 14px; background: var(--background); color: var(--foreground); -webkit-font-smoothing: antialiased; font-variant-numeric: tabular-nums; }
 h1, h2, h3, h4, p { margin: 0; }
 button, input, select { font: inherit; color: inherit; }
 button { background: transparent; border: 0; cursor: pointer; }
@@ -174,49 +222,49 @@ a { color: inherit; text-decoration: none; }
 /* Colors */
 .bg-transparent { background-color: transparent; }
 .bg-\[var\(--background\)\] { background-color: var(--background); }
-.bg-\[var\(--background\)\]\/95 { background-color: rgba(15, 23, 42, 0.95); }
+.bg-\[var\(--background\)\]\/95 { background-color: rgba(250, 248, 244, 0.95); }
 .bg-\[var\(--card\)\] { background-color: var(--card); }
-.bg-\[var\(--card\)\]\/95 { background-color: rgba(30, 41, 59, 0.95); }
+.bg-\[var\(--card\)\]\/95 { background-color: rgba(255, 255, 255, 0.95); }
 .bg-\[var\(--content\)\] { background-color: var(--content); }
-.bg-\[var\(--content\)\]\/30 { background-color: rgba(11, 18, 32, 0.3); }
-.bg-\[var\(--content\)\]\/50 { background-color: rgba(11, 18, 32, 0.5); }
-.bg-\[var\(--content\)\]\/70 { background-color: rgba(11, 18, 32, 0.7); }
+.bg-\[var\(--content\)\]\/30 { background-color: rgba(243, 239, 232, 0.5); }
+.bg-\[var\(--content\)\]\/50 { background-color: rgba(243, 239, 232, 0.7); }
+.bg-\[var\(--content\)\]\/70 { background-color: rgba(243, 239, 232, 0.85); }
 .bg-\[var\(--primary\)\] { background-color: var(--primary); }
-.bg-\[var\(--primary\)\]\/10 { background-color: rgba(245, 158, 11, 0.1); }
-.bg-amber-500 { background-color: #f59e0b; }
-.bg-amber-500\/10 { background-color: rgba(245, 158, 11, 0.1); }
-.bg-amber-500\/15 { background-color: rgba(245, 158, 11, 0.15); }
-.bg-amber-500\/20 { background-color: rgba(245, 158, 11, 0.2); }
-.bg-emerald-500\/10 { background-color: rgba(16, 185, 129, 0.1); }
-.bg-emerald-500\/15 { background-color: rgba(16, 185, 129, 0.15); }
-.bg-emerald-500\/20 { background-color: rgba(16, 185, 129, 0.2); }
-.bg-emerald-600 { background-color: #059669; }
-.bg-emerald-600\/20 { background-color: rgba(5, 150, 105, 0.2); }
-.bg-blue-500\/10 { background-color: rgba(59, 130, 246, 0.1); }
-.bg-red-500\/15 { background-color: rgba(239, 68, 68, 0.15); }
-.bg-red-500\/20 { background-color: rgba(239, 68, 68, 0.2); }
-.bg-slate-700 { background-color: #334155; }
-.bg-black\/40 { background-color: rgba(0, 0, 0, 0.4); }
+.bg-\[var\(--primary\)\]\/10 { background-color: rgba(15, 76, 129, 0.08); }
+.bg-amber-500 { background-color: #b45309; }
+.bg-amber-500\/10 { background-color: rgba(180, 83, 9, 0.08); }
+.bg-amber-500\/15 { background-color: rgba(180, 83, 9, 0.12); }
+.bg-amber-500\/20 { background-color: rgba(180, 83, 9, 0.14); }
+.bg-emerald-500\/10 { background-color: rgba(4, 120, 87, 0.08); }
+.bg-emerald-500\/15 { background-color: rgba(4, 120, 87, 0.12); }
+.bg-emerald-500\/20 { background-color: rgba(4, 120, 87, 0.14); }
+.bg-emerald-600 { background-color: #047857; }
+.bg-emerald-600\/20 { background-color: rgba(4, 120, 87, 0.12); }
+.bg-blue-500\/10 { background-color: rgba(15, 76, 129, 0.08); }
+.bg-red-500\/15 { background-color: rgba(185, 28, 28, 0.1); }
+.bg-red-500\/20 { background-color: rgba(185, 28, 28, 0.14); }
+.bg-slate-700 { background-color: #e2e8f0; }
+.bg-black\/40 { background-color: rgba(20, 25, 31, 0.35); }
 
 .text-\[var\(--foreground\)\] { color: var(--foreground); }
 .text-\[var\(--muted-foreground\)\] { color: var(--muted-foreground); }
 .text-\[var\(--primary\)\] { color: var(--primary); }
 .text-\[var\(--primary-foreground\)\] { color: var(--primary-foreground); }
 .text-white { color: #ffffff; }
-.text-slate-950 { color: #020617; }
-.text-slate-300 { color: #cbd5e1; }
-.text-slate-400 { color: #94a3b8; }
-.text-amber-400 { color: #fbbf24; }
-.text-amber-500 { color: #f59e0b; }
-.text-amber-600 { color: #d97706; }
-.text-emerald-300 { color: #6ee7b7; }
-.text-emerald-400 { color: #34d399; }
-.text-emerald-500 { color: #10b981; }
-.text-emerald-600 { color: #059669; }
-.text-blue-400 { color: #60a5fa; }
-.text-blue-500 { color: #3b82f6; }
-.text-red-300 { color: #fca5a5; }
-.text-red-400 { color: #f87171; }
+.text-slate-950 { color: #ffffff; }
+.text-slate-300 { color: #334155; }
+.text-slate-400 { color: #475569; }
+.text-amber-400 { color: #92400e; }
+.text-amber-500 { color: #92400e; }
+.text-amber-600 { color: #78350f; }
+.text-emerald-300 { color: #065f46; }
+.text-emerald-400 { color: #047857; }
+.text-emerald-500 { color: #047857; }
+.text-emerald-600 { color: #065f46; }
+.text-blue-400 { color: #0f4c81; }
+.text-blue-500 { color: #0f4c81; }
+.text-red-300 { color: #991b1b; }
+.text-red-400 { color: #b91c1c; }
 .placeholder\:text-\[var\(--muted-foreground\)\]::placeholder { color: var(--muted-foreground); }
 .accent-\[var\(--primary\)\] { accent-color: var(--primary); }
 .accent-amber-500 { accent-color: #f59e0b; }
@@ -327,21 +375,12 @@ a { color: inherit; text-decoration: none; }
   .xl\:grid-cols-7 { grid-template-columns: repeat(7, minmax(0, 1fr)); }
 }
 </style>
-  <style>
-    :root {
-      --background: #0f1419;
-      --foreground: #f1f5f9;
-      --card: #182028;
-      --content: #1e293b;
-      --border: #334155;
-      --primary: #f59e0b;
-      --primary-foreground: #0f1419;
-      --muted-foreground: #94a3b8;
-    }
-    body { background-color: var(--background); color: var(--foreground); font-family: system-ui, -apple-system, sans-serif; }
-  </style>
 </head>
 <body class="min-h-screen flex flex-col antialiased">
+  <nav class="gc-nav" aria-label="Sezioni Genova Civica"><div class="gc-nav-inner"><a class="gc-brand" href="index.html">Genova Civica</a><div class="gc-links"><a class="gc-link" href="index.html">Agenda Settimana</a>
+<a class="gc-link active" href="esercenti.html" aria-current="page">Esercenti</a>
+<a class="gc-link" href="bussola.html">Bussola</a>
+<a class="gc-link" href="dashboard.html">Dashboard</a></div></div></nav>
 
   <!-- Header -->
   <header class="border-b border-[var(--border)] bg-[var(--card)] px-6 py-4 sticky top-0 z-30 shadow-lg">
@@ -556,38 +595,51 @@ a { color: inherit; text-decoration: none; }
         `Trovati <span class="text-amber-400 font-bold">${currentMatches.length}</span> esercenti sul territorio — Mostrando ${slice.length > 0 ? start + 1 : 0}–${start + slice.length}`;
       document.getElementById("page-num").textContent = `Pag. ${currentPage} / ${totalPages}`;
 
+      function esc(s) {
+        return String(s ?? "").replace(/[&<>"']/g, m => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m]));
+      }
+      function safeUrl(u) {
+        const s = String(u ?? "").trim();
+        return /^https?:\/\//i.test(s) ? s : "";
+      }
+      function safeTel(t) {
+        return String(t ?? "").replace(/[^0-9+\-()\s]/g, "").trim();
+      }
+
       slice.forEach(r => {
         const mapLink = r.la && r.lo
-          ? `https://www.openstreetmap.org/?mlat=${r.la}&mlon=${r.lo}#map=18/${r.la}/${r.lo}`
+          ? `https://www.openstreetmap.org/?mlat=${encodeURIComponent(r.la)}&mlon=${encodeURIComponent(r.lo)}#map=18/${encodeURIComponent(r.la)}/${encodeURIComponent(r.lo)}`
           : `https://www.openstreetmap.org/search?query=${encodeURIComponent(r.n + " " + r.c)}`;
+        const webHref = safeUrl(r.w);
+        const telClean = safeTel(r.t);
 
         const card = document.createElement("div");
         card.className = "rounded-xl border border-[var(--border)] bg-[var(--card)] p-4 flex flex-col justify-between gap-3 hover:border-amber-500/60 transition";
         card.innerHTML = `
           <div class="space-y-1.5">
             <div class="flex items-start justify-between gap-2">
-              <span class="text-xs font-bold text-amber-400">${r.q}</span>
+              <span class="text-xs font-bold text-amber-400">${esc(r.q)}</span>
               ${r.ind
                 ? `<span class="px-2 py-0.5 rounded-full text-[11px] font-bold bg-emerald-500/15 text-emerald-400 border border-emerald-500/30">Indipendente / Locale</span>`
                 : `<span class="px-2 py-0.5 rounded-full text-[11px] font-medium bg-slate-700 text-slate-300">Catena / GDO</span>`
               }
             </div>
-            <h3 class="text-base font-bold text-[var(--foreground)] leading-snug">${r.n}</h3>
-            <div class="text-xs font-semibold text-blue-400">${r.s}</div>
-            ${r.a ? `<div class="text-xs text-[var(--foreground)]">📍 ${r.a} (${r.c})</div>` : `<div class="text-xs text-[var(--muted-foreground)]">📍 ${r.c}</div>`}
-            ${r.o ? `<div class="text-xs text-emerald-400 font-medium">🕒 Orari: ${r.o}</div>` : ""}
+            <h3 class="text-base font-bold text-[var(--foreground)] leading-snug">${esc(r.n)}</h3>
+            <div class="text-xs font-semibold text-blue-400">${esc(r.s)}</div>
+            ${r.a ? `<div class="text-xs text-[var(--foreground)]">📍 ${esc(r.a)} (${esc(r.c)})</div>` : `<div class="text-xs text-[var(--muted-foreground)]">📍 ${esc(r.c)}</div>`}
+            ${r.o ? `<div class="text-xs text-emerald-400 font-medium">🕒 Orari: ${esc(r.o)}</div>` : ""}
             <div class="p-2 rounded-lg bg-[var(--content)] border border-[var(--border)] text-xs text-[var(--muted-foreground)]">
-              🔎 <strong class="text-[var(--foreground)]">Cosa trovi / Parole chiave:</strong> ${r.k}
+              🔎 <strong class="text-[var(--foreground)]">Cosa trovi / Parole chiave:</strong> ${esc(r.k)}
             </div>
-            ${r.p ? `<div class="text-[11px] text-slate-400">🏛️ Via intitolata a: <strong>${r.p}</strong></div>` : ""}
+            ${r.p ? `<div class="text-[11px] text-slate-400">🏛️ Via intitolata a: <strong>${esc(r.p)}</strong></div>` : ""}
           </div>
 
           <div class="pt-2 border-t border-[var(--border)] flex flex-wrap items-center justify-between gap-2">
             <div class="flex items-center gap-2">
-              ${r.t ? `<a href="tel:${r.t}" class="px-2.5 py-1 rounded bg-emerald-600/20 border border-emerald-500/40 text-emerald-300 text-xs font-mono font-semibold hover:bg-emerald-600 hover:text-white transition">📞 ${r.t}</a>` : `<span class="text-xs text-[var(--muted-foreground)]">Tel. non indicato</span>`}
-              ${r.w ? `<a href="${r.w}" target="_blank" rel="noopener" class="px-2.5 py-1 rounded bg-amber-500 text-slate-950 text-xs font-bold hover:opacity-90">Sito / Social ↗</a>` : ""}
+              ${telClean ? `<a href="tel:${esc(telClean)}" class="px-2.5 py-1 rounded bg-emerald-600/20 border border-emerald-500/40 text-emerald-300 text-xs font-mono font-semibold hover:bg-emerald-600 hover:text-white transition">📞 ${esc(r.t)}</a>` : `<span class="text-xs text-[var(--muted-foreground)]">Tel. non indicato</span>`}
+              ${webHref ? `<a href="${esc(webHref)}" target="_blank" rel="noopener" class="px-2.5 py-1 rounded bg-amber-500 text-slate-950 text-xs font-bold hover:opacity-90">Sito / Social ↗</a>` : ""}
             </div>
-            <a href="${mapLink}" target="_blank" rel="noopener" class="text-xs font-semibold text-[var(--muted-foreground)] hover:text-amber-400 underline">Mappa esatta ↗</a>
+            <a href="${esc(mapLink)}" target="_blank" rel="noopener" class="text-xs font-semibold text-[var(--muted-foreground)] hover:text-amber-400 underline">Mappa esatta ↗</a>
           </div>
         `;
         grid.appendChild(card);
