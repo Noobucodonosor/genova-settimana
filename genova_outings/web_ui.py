@@ -525,6 +525,9 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
         const card = document.createElement('div');
         const isChecked = selectedIds.has(item.id);
         card.className = 'card' + (isChecked ? ' selected' : '');
+        card.setAttribute('role', 'checkbox');
+        card.setAttribute('aria-checked', isChecked ? 'true' : 'false');
+        card.setAttribute('tabindex', '0');
 
         const loc = item.zone ? `${item.venue} (${item.zone})` : item.venue;
         const href = safeUrl(item.verified_url);
@@ -543,20 +546,34 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
           </div>
         `;
 
-        card.addEventListener('click', (e) => {
-          if (e.target.tagName === 'A') return;
+        function toggleCard(fromCheckbox) {
           const chk = card.querySelector('.card-checkbox');
-          if (e.target !== chk) {
+          if (!fromCheckbox) {
             chk.checked = !chk.checked;
           }
           if (chk.checked) {
             selectedIds.add(item.id);
             card.classList.add('selected');
+            card.setAttribute('aria-checked', 'true');
           } else {
             selectedIds.delete(item.id);
             card.classList.remove('selected');
+            card.setAttribute('aria-checked', 'false');
           }
           updatePreview();
+        }
+
+        card.addEventListener('click', (e) => {
+          if (e.target.tagName === 'A') return;
+          toggleCard(e.target === card.querySelector('.card-checkbox'));
+        });
+
+        card.addEventListener('keydown', (e) => {
+          if (e.target.tagName === 'A' || e.target.tagName === 'INPUT') return;
+          if (e.key === ' ' || e.key === 'Enter') {
+            e.preventDefault();
+            toggleCard(false);
+          }
         });
 
         container.appendChild(card);

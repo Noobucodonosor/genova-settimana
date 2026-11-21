@@ -300,7 +300,7 @@ function render() {
     const prog = (d.programma || []).length
       ? `<div class="prog"><b>In programma</b><ul>${d.programma.map(p => `<li>${esc(p.titolo)} <span>${esc(p.quando)}</span></li>`).join("")}</ul></div>` : "";
     const safeHref = /^https?:\/\//i.test(String(d.url || "").trim()) ? d.url.trim() : "";
-    return `<div class="card ${sel.has(d.id)?'sel':''}" data-id="${esc(d.id)}">
+    return `<div class="card ${sel.has(d.id)?'sel':''}" data-id="${esc(d.id)}" role="checkbox" aria-checked="${sel.has(d.id)?'true':'false'}" tabindex="0">
       <input type="checkbox" ${sel.has(d.id)?'checked':''} aria-label="Scegli ${esc(d.title)}">
       <div><div class="t">${esc(d.title)}</div>
         <div class="m">📍 ${esc(d.place)}</div>
@@ -310,11 +310,23 @@ function render() {
         ${safeHref ? `<a class="src" href="${esc(safeHref)}" target="_blank" rel="noopener">Sito ufficiale</a>` : ""}
       </div></div>`;
   }).join("");
-  document.querySelectorAll(".card").forEach(c => c.onclick = e => {
-    if (e.target.tagName === "A") return;
-    const id = c.dataset.id;
-    sel.has(id) ? sel.delete(id) : sel.add(id);
-    render(); bar();
+  document.querySelectorAll(".card").forEach(c => {
+    const toggle = () => {
+      const id = c.dataset.id;
+      sel.has(id) ? sel.delete(id) : sel.add(id);
+      render(); bar();
+    };
+    c.onclick = e => {
+      if (e.target.tagName === "A") return;
+      toggle();
+    };
+    c.onkeydown = e => {
+      if (e.target.tagName === "A" || e.target.tagName === "INPUT") return;
+      if (e.key === " " || e.key === "Enter") {
+        e.preventDefault();
+        toggle();
+      }
+    };
   });
 }
 
