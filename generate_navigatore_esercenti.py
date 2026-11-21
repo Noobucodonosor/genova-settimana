@@ -1,6 +1,8 @@
 import json
+import os as _os
+_DATA_DIR = _os.environ.get("GENOVA_DATA_DIR") or _os.path.dirname(_os.path.abspath(__file__))
 
-with open("/Users/dany/genova/esercenti_genova_provincia_db.json") as f:
+with open(f"{_DATA_DIR}/esercenti_genova_provincia_db.json") as f:
     records = json.load(f)
 
 # Compact representation for instant client-side search across all 4,966 records
@@ -329,7 +331,7 @@ html_doc = """<!DOCTYPE html>
 """
 
 final_html = html_doc.replace("__PAYLOAD__", payload_str)
-with open("/Users/dany/genova/navigatore_esercenti_genova_provincia.html", "w", encoding="utf-8") as f:
+with open(f"{_DATA_DIR}/navigatore_esercenti_genova_provincia.html", "w", encoding="utf-8") as f:
     f.write(final_html)
 
 print("Generated /Users/dany/genova/navigatore_esercenti_genova_provincia.html! Size:", len(final_html)//1024, "KB")

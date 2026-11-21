@@ -7,10 +7,12 @@ from collections import defaultdict
 
 # Load our base classification rules
 import sys
-sys.path.append("/Users/dany/genova")
+sys.path.append(_DATA_DIR)
 import build_complete_dataset as bcd
+import os as _os
+_DATA_DIR = _os.environ.get("GENOVA_DATA_DIR") or _os.path.dirname(_os.path.abspath(__file__))
 
-with open("/Users/dany/genova/comuni_provincia_genova.json") as f:
+with open(f"{_DATA_DIR}/comuni_provincia_genova.json") as f:
     comuni_list = json.load(f)
 ALL_67_COMUNI = {c["name"]: c for c in comuni_list}
 
@@ -24,7 +26,7 @@ ALL_67_COMUNI = {c["name"]: c for c in comuni_list}
 places_by_comune = defaultdict(lambda: defaultdict(dict))
 
 # Load Wikidata P138 province lookup
-with open("/Users/dany/genova/wikidata_p138_provincia.json") as f:
+with open(f"{_DATA_DIR}/wikidata_p138_provincia.json") as f:
     wd_p138_prov = json.load(f)
 
 wd_prov_lookup = {}
@@ -43,7 +45,7 @@ for b in wd_p138_prov:
 bcd.wd_lookup.update(wd_prov_lookup)
 
 # Load 39 OSM files
-for rf in sorted(glob.glob("/Users/dany/genova/comuni_raw/*.json")):
+for rf in sorted(glob.glob(f"{_DATA_DIR}/comuni_raw/*.json")):
     cname = os.path.basename(rf)[:-5].replace("_", " ")
     # Normalize Sant'Olcese / etc. if needed
     matched_c = cname
@@ -63,7 +65,7 @@ for rf in sorted(glob.glob("/Users/dany/genova/comuni_raw/*.json")):
                 places_by_comune[matched_c][name][k] = v
 
 # Load 6,788 Wikidata items across the 67 municipalities
-with open("/Users/dany/genova/wikidata_all_provincia_items.json") as f:
+with open(f"{_DATA_DIR}/wikidata_all_provincia_items.json") as f:
     wd_all = json.load(f)
 
 for b in wd_all:
@@ -84,7 +86,7 @@ for b in wd_all:
         places_by_comune[cname][label_norm] = {"name": label_norm, "instance_of": inst}
 
 # Load 2,594 Wikidata P6375 street addresses
-with open("/Users/dany/genova/wikidata_addresses_provincia.json") as f:
+with open(f"{_DATA_DIR}/wikidata_addresses_provincia.json") as f:
     wd_addrs = json.load(f)
 
 for b in wd_addrs:
@@ -106,7 +108,7 @@ for b in wd_addrs:
             places_by_comune[cname][st_name] = {"name": st_name}
 
 # Parse Wikipedia articles for the 28 municipalities to extract streets, squares, palaces, villas, castles, churches, sanctuaries
-with open("/Users/dany/genova/wiki_28_comuni.json") as f:
+with open(f"{_DATA_DIR}/wiki_28_comuni.json") as f:
     wiki_28 = json.load(f)
 
 PATTERN_URBAN = re.compile(
@@ -217,15 +219,15 @@ print("TOTAL EXTRACTED ACROSS ALL 67 MUNICIPALITIES OF GENOVA PROVINCE:", len(al
 print("Municipalities with extracted person-named places:", len(comune_counts), "/ 67")
 
 # Save JSON, CSV, and Markdown
-with open("/Users/dany/genova/toponimi_personaggi_provincia_genova.json", "w", encoding="utf-8") as f:
+with open(f"{_DATA_DIR}/toponimi_personaggi_provincia_genova.json", "w", encoding="utf-8") as f:
     json.dump(all_results, f, indent=2, ensure_ascii=False)
 
-with open("/Users/dany/genova/toponimi_personaggi_provincia_genova.csv", "w", encoding="utf-8", newline="") as f:
+with open(f"{_DATA_DIR}/toponimi_personaggi_provincia_genova.csv", "w", encoding="utf-8", newline="") as f:
     writer = csv.DictWriter(f, fieldnames=["comune", "toponimo", "tipo", "personaggio_o_casata", "descrizione_categoria"])
     writer.writeheader()
     writer.writerows(all_results)
 
-with open("/Users/dany/genova/elenco_integrale_provincia_genova.md", "w", encoding="utf-8") as f:
+with open(f"{_DATA_DIR}/elenco_integrale_provincia_genova.md", "w", encoding="utf-8") as f:
     f.write("# Censimento Integrale dei Toponimi della Provincia / Città Metropolitana di Genova (67 Comuni)\n\n")
     f.write(f"**Totale luoghi intitolati a personaggi o casate nell'intera Provincia di Genova:** `{len(all_results)}` distribuiti sui **67 Comuni**.\n\n")
     

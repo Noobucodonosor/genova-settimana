@@ -261,16 +261,25 @@ def is_civic_museum_closed_on_day(venue_name: str, day_of_week: int | str) -> bo
 
 
 def _load_crawled_cache() -> Dict[str, dict]:
-    """Load local crawled_urls_cache.json if present in workspace."""
+    """Load local crawled_urls_cache.json if present in workspace and within TTL."""
     global _CRAWLED_CACHE_LOADED, _CRAWLED_CACHE_DATA
     if _CRAWLED_CACHE_LOADED:
         return _CRAWLED_CACHE_DATA
 
-    cache_path = Path("/Users/dany/genova/crawled_urls_cache.json")
+    import os
+    import time
+
+    data_dir = Path(os.environ.get("GENOVA_DATA_DIR") or Path(__file__).resolve().parent.parent)
+    cache_path = data_dir / "crawled_urls_cache.json"
+    ttl_days = int(os.environ.get("GENOVA_CACHE_TTL_DAYS", "7"))
     if cache_path.exists():
         try:
-            with open(cache_path, "r", encoding="utf-8") as f:
-                _CRAWLED_CACHE_DATA = json.load(f)
+            age_sec = time.time() - cache_path.stat().st_mtime
+            if ttl_days > 0 and age_sec > ttl_days * 86400:
+                _CRAWLED_CACHE_DATA = {}
+            else:
+                with open(cache_path, "r", encoding="utf-8") as f:
+                    _CRAWLED_CACHE_DATA = json.load(f)
         except Exception:
             _CRAWLED_CACHE_DATA = {}
     _CRAWLED_CACHE_LOADED = True

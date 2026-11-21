@@ -2,8 +2,10 @@ import urllib.request
 import json
 import xml.etree.ElementTree as ET
 import time
+import os as _os
+_DATA_DIR = _os.environ.get("GENOVA_DATA_DIR") or _os.path.dirname(_os.path.abspath(__file__))
 
-with open("/Users/dany/genova/osm_esercenti_provincia_raw.json") as f:
+with open(f"{_DATA_DIR}/osm_esercenti_provincia_raw.json") as f:
     existing = json.load(f).get("elements", [])
 
 all_elements = {f"{el['type']}_{el['id']}": el for el in existing}
@@ -51,7 +53,7 @@ for label, lon1, lat1, lon2, lat2 in BBOXES:
         print(f"[ERR] {label}: {e}")
     time.sleep(0.2)
 
-with open("/Users/dany/genova/osm_esercenti_provincia_raw.json", "w", encoding="utf-8") as f:
+with open(f"{_DATA_DIR}/osm_esercenti_provincia_raw.json", "w", encoding="utf-8") as f:
     json.dump({"elements": list(all_elements.values())}, f, ensure_ascii=False)
 
 print("FINAL COMPLETE ESERCENTI TOTAL:", len(all_elements))

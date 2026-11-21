@@ -17,6 +17,7 @@ from __future__ import annotations
 
 import json
 import logging
+import os
 from pathlib import Path
 from typing import Dict, List, Optional, Set
 
@@ -33,8 +34,8 @@ from genova_outings.verifier import (
 
 logger = logging.getLogger(__name__)
 
-# Base directory for local datasets
-DEFAULT_DATA_DIR = Path("/Users/dany/genova")
+# Base directory for local datasets (portable across CI and local machines)
+DEFAULT_DATA_DIR = Path(os.environ.get("GENOVA_DATA_DIR") or Path(__file__).resolve().parent.parent)
 
 # Authoritative live verified entities for current-week informal outings in Genova
 AUTHORITATIVE_LIVE_OUTINGS: List[Dict[str, object]] = [

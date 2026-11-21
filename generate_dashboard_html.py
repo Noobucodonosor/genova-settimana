@@ -1,6 +1,8 @@
 import json
+import os as _os
+_DATA_DIR = _os.environ.get("GENOVA_DATA_DIR") or _os.path.dirname(_os.path.abspath(__file__))
 
-with open("/Users/dany/genova/dashboard_items.json") as f:
+with open(f"{_DATA_DIR}/dashboard_items.json") as f:
     items = json.load(f)
 
 # Sort items so those with verified rich schedules & websites come first
@@ -619,7 +621,7 @@ html_template = """<!DOCTYPE html>
 
 final_html = html_template.replace("__JSON_PAYLOAD__", json_payload)
 
-with open("/Users/dany/genova/dashboard_genova_provincia.html", "w", encoding="utf-8") as f:
+with open(f"{_DATA_DIR}/dashboard_genova_provincia.html", "w", encoding="utf-8") as f:
     f.write(final_html)
 
 print("Generated /Users/dany/genova/dashboard_genova_provincia.html successfully! Size:", len(final_html) // 1024, "KB")
