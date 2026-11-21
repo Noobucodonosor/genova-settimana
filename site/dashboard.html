@@ -4,19 +4,67 @@
   <meta charset="UTF-8">
   <title>Genova & Provincia (67 Comuni) — Dashboard Giorno / Settimana / Mese</title>
   <style>
+.gc-nav {
+  background: #ffffff;
+  border-bottom: 1px solid #e2ddd5;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+.gc-nav-inner {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-wrap: balance;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+.gc-brand {
+  font-weight: 700;
+  font-size: 0.95rem;
+  letter-spacing: -0.01em;
+  color: #14191f;
+  text-decoration: none;
+}
+.gc-links {
+  display: flex;
+  flex-wrap: wrap;
+  flex-wrap: balance;
+  gap: 6px;
+}
+.gc-link {
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #475569;
+  text-decoration: none;
+  border: 1px solid transparent;
+  transition: background-color 140ms ease, color 140ms ease;
+}
+.gc-link:hover {
+  background: #f3efe8;
+  color: #14191f;
+}
+.gc-link.active {
+  background: #0f4c81;
+  color: #ffffff;
+}
+
 :root {
-  --background: #0f172a;
-  --foreground: #f8fafc;
-  --card: #1e293b;
-  --content: #0b1220;
-  --border: #334155;
-  --primary: #f59e0b;
-  --primary-foreground: #0f172a;
-  --muted-foreground: #94a3b8;
+  --background: #faf8f4;
+  --foreground: #14191f;
+  --card: #ffffff;
+  --content: #f3efe8;
+  --border: #e2ddd5;
+  --primary: #0f4c81;
+  --primary-foreground: #ffffff;
+  --muted-foreground: #5a6472;
 }
 *, *::before, *::after { box-sizing: border-box; }
 html { line-height: 1.5; -webkit-text-size-adjust: 100%; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
-body { margin: 0; font-size: 14px; background: var(--background); color: var(--foreground); -webkit-font-smoothing: antialiased; }
+body { margin: 0; font-size: 14px; background: var(--background); color: var(--foreground); -webkit-font-smoothing: antialiased; font-variant-numeric: tabular-nums; }
 h1, h2, h3, h4, p { margin: 0; }
 button, input, select { font: inherit; color: inherit; }
 button { background: transparent; border: 0; cursor: pointer; }
@@ -174,49 +222,49 @@ a { color: inherit; text-decoration: none; }
 /* Colors */
 .bg-transparent { background-color: transparent; }
 .bg-\[var\(--background\)\] { background-color: var(--background); }
-.bg-\[var\(--background\)\]\/95 { background-color: rgba(15, 23, 42, 0.95); }
+.bg-\[var\(--background\)\]\/95 { background-color: rgba(250, 248, 244, 0.95); }
 .bg-\[var\(--card\)\] { background-color: var(--card); }
-.bg-\[var\(--card\)\]\/95 { background-color: rgba(30, 41, 59, 0.95); }
+.bg-\[var\(--card\)\]\/95 { background-color: rgba(255, 255, 255, 0.95); }
 .bg-\[var\(--content\)\] { background-color: var(--content); }
-.bg-\[var\(--content\)\]\/30 { background-color: rgba(11, 18, 32, 0.3); }
-.bg-\[var\(--content\)\]\/50 { background-color: rgba(11, 18, 32, 0.5); }
-.bg-\[var\(--content\)\]\/70 { background-color: rgba(11, 18, 32, 0.7); }
+.bg-\[var\(--content\)\]\/30 { background-color: rgba(243, 239, 232, 0.5); }
+.bg-\[var\(--content\)\]\/50 { background-color: rgba(243, 239, 232, 0.7); }
+.bg-\[var\(--content\)\]\/70 { background-color: rgba(243, 239, 232, 0.85); }
 .bg-\[var\(--primary\)\] { background-color: var(--primary); }
-.bg-\[var\(--primary\)\]\/10 { background-color: rgba(245, 158, 11, 0.1); }
-.bg-amber-500 { background-color: #f59e0b; }
-.bg-amber-500\/10 { background-color: rgba(245, 158, 11, 0.1); }
-.bg-amber-500\/15 { background-color: rgba(245, 158, 11, 0.15); }
-.bg-amber-500\/20 { background-color: rgba(245, 158, 11, 0.2); }
-.bg-emerald-500\/10 { background-color: rgba(16, 185, 129, 0.1); }
-.bg-emerald-500\/15 { background-color: rgba(16, 185, 129, 0.15); }
-.bg-emerald-500\/20 { background-color: rgba(16, 185, 129, 0.2); }
-.bg-emerald-600 { background-color: #059669; }
-.bg-emerald-600\/20 { background-color: rgba(5, 150, 105, 0.2); }
-.bg-blue-500\/10 { background-color: rgba(59, 130, 246, 0.1); }
-.bg-red-500\/15 { background-color: rgba(239, 68, 68, 0.15); }
-.bg-red-500\/20 { background-color: rgba(239, 68, 68, 0.2); }
-.bg-slate-700 { background-color: #334155; }
-.bg-black\/40 { background-color: rgba(0, 0, 0, 0.4); }
+.bg-\[var\(--primary\)\]\/10 { background-color: rgba(15, 76, 129, 0.08); }
+.bg-amber-500 { background-color: #b45309; }
+.bg-amber-500\/10 { background-color: rgba(180, 83, 9, 0.08); }
+.bg-amber-500\/15 { background-color: rgba(180, 83, 9, 0.12); }
+.bg-amber-500\/20 { background-color: rgba(180, 83, 9, 0.14); }
+.bg-emerald-500\/10 { background-color: rgba(4, 120, 87, 0.08); }
+.bg-emerald-500\/15 { background-color: rgba(4, 120, 87, 0.12); }
+.bg-emerald-500\/20 { background-color: rgba(4, 120, 87, 0.14); }
+.bg-emerald-600 { background-color: #047857; }
+.bg-emerald-600\/20 { background-color: rgba(4, 120, 87, 0.12); }
+.bg-blue-500\/10 { background-color: rgba(15, 76, 129, 0.08); }
+.bg-red-500\/15 { background-color: rgba(185, 28, 28, 0.1); }
+.bg-red-500\/20 { background-color: rgba(185, 28, 28, 0.14); }
+.bg-slate-700 { background-color: #e2e8f0; }
+.bg-black\/40 { background-color: rgba(20, 25, 31, 0.35); }
 
 .text-\[var\(--foreground\)\] { color: var(--foreground); }
 .text-\[var\(--muted-foreground\)\] { color: var(--muted-foreground); }
 .text-\[var\(--primary\)\] { color: var(--primary); }
 .text-\[var\(--primary-foreground\)\] { color: var(--primary-foreground); }
 .text-white { color: #ffffff; }
-.text-slate-950 { color: #020617; }
-.text-slate-300 { color: #cbd5e1; }
-.text-slate-400 { color: #94a3b8; }
-.text-amber-400 { color: #fbbf24; }
-.text-amber-500 { color: #f59e0b; }
-.text-amber-600 { color: #d97706; }
-.text-emerald-300 { color: #6ee7b7; }
-.text-emerald-400 { color: #34d399; }
-.text-emerald-500 { color: #10b981; }
-.text-emerald-600 { color: #059669; }
-.text-blue-400 { color: #60a5fa; }
-.text-blue-500 { color: #3b82f6; }
-.text-red-300 { color: #fca5a5; }
-.text-red-400 { color: #f87171; }
+.text-slate-950 { color: #ffffff; }
+.text-slate-300 { color: #334155; }
+.text-slate-400 { color: #475569; }
+.text-amber-400 { color: #92400e; }
+.text-amber-500 { color: #92400e; }
+.text-amber-600 { color: #78350f; }
+.text-emerald-300 { color: #065f46; }
+.text-emerald-400 { color: #047857; }
+.text-emerald-500 { color: #047857; }
+.text-emerald-600 { color: #065f46; }
+.text-blue-400 { color: #0f4c81; }
+.text-blue-500 { color: #0f4c81; }
+.text-red-300 { color: #991b1b; }
+.text-red-400 { color: #b91c1c; }
 .placeholder\:text-\[var\(--muted-foreground\)\]::placeholder { color: var(--muted-foreground); }
 .accent-\[var\(--primary\)\] { accent-color: var(--primary); }
 .accent-amber-500 { accent-color: #f59e0b; }
@@ -334,6 +382,10 @@ a { color: inherit; text-decoration: none; }
   </style>
 </head>
 <body class="bg-[var(--background)] text-[var(--foreground)] antialiased min-h-screen flex flex-col">
+  <nav class="gc-nav" aria-label="Sezioni Genova Civica"><div class="gc-nav-inner"><a class="gc-brand" href="index.html">Genova Civica</a><div class="gc-links"><a class="gc-link" href="index.html">Agenda Settimana</a>
+<a class="gc-link" href="esercenti.html">Esercenti</a>
+<a class="gc-link" href="bussola.html">Bussola</a>
+<a class="gc-link active" href="dashboard.html" aria-current="page">Dashboard</a></div></div></nav>
 
   <!-- Top Header -->
   <header class="border-b border-[var(--border)] bg-[var(--card)] px-6 py-4 sticky top-0 z-30">
@@ -730,32 +782,34 @@ a { color: inherit; text-decoration: none; }
           }">${dayLetters[i]}</span>`;
         }).join("");
 
+        const esc = s => String(s ?? "").replace(/[&<>"']/g, m => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m]));
+        const safeHref = /^https?:\/\//i.test(String(it.w ?? "").trim()) ? it.w.trim() : "";
         const card = document.createElement("div");
         card.className = "rounded-xl border border-[var(--border)] bg-[var(--card)] p-4 shadow-sm flex flex-col justify-between gap-3 hover:border-[var(--primary)] transition-all";
         card.innerHTML = `
           <div class="space-y-2">
             <div class="flex items-start justify-between gap-2">
-              <span class="text-xs font-bold uppercase tracking-wider text-amber-500">${it.c} • ${it.m.split('.')[1]}</span>
+              <span class="text-xs font-bold uppercase tracking-wider text-amber-500">${esc(it.c)} • ${esc((it.m || "").split('.')[1] || "")}</span>
               ${statusBadge}
             </div>
-            <h3 class="text-base font-bold text-[var(--foreground)] leading-snug">${it.n}</h3>
-            ${it.a ? `<div class="text-xs text-[var(--muted-foreground)]">📍 ${it.a}</div>` : ""}
+            <h3 class="text-base font-bold text-[var(--foreground)] leading-snug">${esc(it.n)}</h3>
+            ${it.a ? `<div class="text-xs text-[var(--muted-foreground)]">📍 ${esc(it.a)}</div>` : ""}
             
             <div class="p-2.5 rounded-lg bg-[var(--content)] border border-[var(--border)] space-y-1">
-              <div class="text-xs font-semibold text-[var(--foreground)]">🕒 ${it.o}</div>
+              <div class="text-xs font-semibold text-[var(--foreground)]">🕒 ${esc(it.o)}</div>
               <div class="flex items-center gap-1 pt-1">${dayDots}</div>
             </div>
 
-            ${it.e ? `<p class="text-xs text-[var(--muted-foreground)] leading-relaxed">✨ <strong class="text-[var(--foreground)]">Eventi & Servizi:</strong> ${it.e}</p>` : ""}
-            ${it.p ? `<div class="text-xs px-2.5 py-1 rounded bg-blue-500/10 border border-blue-500/25 text-blue-400 font-medium">🏛️ Personaggio collegato: <strong>${it.p}</strong></div>` : ""}
+            ${it.e ? `<p class="text-xs text-[var(--muted-foreground)] leading-relaxed">✨ <strong class="text-[var(--foreground)]">Eventi & Servizi:</strong> ${esc(it.e)}</p>` : ""}
+            ${it.p ? `<div class="text-xs px-2.5 py-1 rounded bg-blue-500/10 border border-blue-500/25 text-blue-400 font-medium">🏛️ Personaggio collegato: <strong>${esc(it.p)}</strong></div>` : ""}
           </div>
 
           <div class="pt-2 border-t border-[var(--border)] flex flex-wrap items-center justify-between gap-2">
             <div class="flex items-center gap-2">
-              ${it.w ? `<a href="${it.w}" target="_blank" rel="noopener" class="px-2.5 py-1 rounded-md text-xs font-semibold bg-[var(--primary)] text-[var(--primary-foreground)] hover:opacity-90">Sito Web ↗</a>` : `<span class="text-xs text-[var(--muted-foreground)]">Sito non censito</span>`}
-              ${it.t ? `<span class="text-xs text-[var(--muted-foreground)] font-mono">📞 ${it.t}</span>` : ""}
+              ${safeHref ? `<a href="${esc(safeHref)}" target="_blank" rel="noopener" class="px-2.5 py-1 rounded-md text-xs font-semibold bg-[var(--primary)] text-[var(--primary-foreground)] hover:opacity-90">Sito Web ↗</a>` : `<span class="text-xs text-[var(--muted-foreground)]">Sito non censito</span>`}
+              ${it.t ? `<span class="text-xs text-[var(--muted-foreground)] font-mono">📞 ${esc(it.t)}</span>` : ""}
             </div>
-            <button onclick="togglePlanItem(${it.id})" class="px-2.5 py-1 rounded-md text-xs font-semibold border ${
+            <button onclick="togglePlanItem(${Number(it.id)})" class="px-2.5 py-1 rounded-md text-xs font-semibold border ${
               inPlan ? 'border-amber-500 bg-amber-500 text-white' : 'border-[var(--border)] bg-[var(--background)] text-[var(--foreground)] hover:bg-[var(--content)]'
             }">
               ${inPlan ? '✓ Nel Programma' : '+ Programma'}
@@ -864,23 +918,25 @@ a { color: inherit; text-decoration: none; }
       }
       const planItems = ITEMS.filter(it => savedPlan.has(it.id));
       planItems.forEach((it, idx) => {
+        const esc = s => String(s ?? "").replace(/[&<>"']/g, m => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m]));
+        const safeHref = /^https?:\/\//i.test(String(it.w ?? "").trim()) ? it.w.trim() : "";
         const div = document.createElement("div");
         div.className = "p-4 rounded-xl border border-amber-500/40 bg-[var(--card)] flex flex-col justify-between gap-2";
         div.innerHTML = `
           <div>
             <div class="flex items-center justify-between">
-              <span class="text-xs font-bold text-amber-500">Tappa ${idx + 1} • ${it.c}</span>
-              <button onclick="togglePlanItem(${it.id})" class="text-xs text-red-400 hover:underline">Rimuovi</button>
+              <span class="text-xs font-bold text-amber-500">Tappa ${idx + 1} • ${esc(it.c)}</span>
+              <button onclick="togglePlanItem(${Number(it.id)})" class="text-xs text-red-400 hover:underline">Rimuovi</button>
             </div>
-            <h4 class="text-base font-bold text-[var(--foreground)] mt-0.5">${it.n}</h4>
-            <div class="text-xs text-[var(--muted-foreground)] mt-0.5">📍 ${it.a || it.c}</div>
-            <div class="text-xs font-semibold text-[var(--foreground)] mt-1.5">🕒 ${it.o}</div>
-            <p class="text-xs text-[var(--muted-foreground)] mt-1">${it.e}</p>
-            ${it.p ? `<div class="mt-2 text-xs text-blue-400 font-medium">🏛️ Personaggio per la tua Storia: <strong>${it.p}</strong></div>` : ""}
+            <h4 class="text-base font-bold text-[var(--foreground)] mt-0.5">${esc(it.n)}</h4>
+            <div class="text-xs text-[var(--muted-foreground)] mt-0.5">📍 ${esc(it.a || it.c)}</div>
+            <div class="text-xs font-semibold text-[var(--foreground)] mt-1.5">🕒 ${esc(it.o)}</div>
+            <p class="text-xs text-[var(--muted-foreground)] mt-1">${esc(it.e)}</p>
+            ${it.p ? `<div class="mt-2 text-xs text-blue-400 font-medium">🏛️ Personaggio per la tua Storia: <strong>${esc(it.p)}</strong></div>` : ""}
           </div>
           <div class="pt-2 border-t border-[var(--border)] flex items-center justify-between">
-            ${it.w ? `<a href="${it.w}" target="_blank" class="text-xs font-semibold text-[var(--primary)] underline">Apri Sito Ufficiale ↗</a>` : `<span></span>`}
-            <span class="text-xs font-mono text-[var(--muted-foreground)]">${it.t || ""}</span>
+            ${safeHref ? `<a href="${esc(safeHref)}" target="_blank" rel="noopener" class="text-xs font-semibold text-[var(--primary)] underline">Apri Sito Ufficiale ↗</a>` : `<span></span>`}
+            <span class="text-xs font-mono text-[var(--muted-foreground)]">${esc(it.t || "")}</span>
           </div>
         `;
         container.appendChild(div);

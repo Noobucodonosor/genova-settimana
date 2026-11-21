@@ -56,6 +56,7 @@ html_template = """<!DOCTYPE html>
   </style>
 </head>
 <body class="bg-[var(--background)] text-[var(--foreground)] antialiased min-h-screen flex flex-col">
+  __SHARED_NAV__
 
   <!-- Top Header -->
   <header class="border-b border-[var(--border)] bg-[var(--card)] px-6 py-4 sticky top-0 z-30">
@@ -623,7 +624,8 @@ html_template = """<!DOCTYPE html>
 """
 
 from genova_outings.vanilla_css import VANILLA_CSS
-final_html = html_template.replace("__VANILLA_CSS__", VANILLA_CSS).replace("__JSON_PAYLOAD__", json_payload)
+from genova_outings.html_utils import render_shared_nav
+final_html = html_template.replace("__VANILLA_CSS__", VANILLA_CSS).replace("__SHARED_NAV__", render_shared_nav("dashboard")).replace("__JSON_PAYLOAD__", json_payload)
 
 with open(f"{_DATA_DIR}/dashboard_genova_provincia.html", "w", encoding="utf-8") as f:
     f.write(final_html)

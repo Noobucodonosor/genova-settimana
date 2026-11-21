@@ -35,6 +35,7 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
   </style>
 </head>
 <body class="bg-[var(--background)] text-[var(--foreground)] antialiased selection:bg-[var(--primary)] selection:text-[var(--primary-foreground)]">
+  __SHARED_NAV__
 
   <!-- TOP STICKY HEADER & PERSONAL COMPASS -->
   <header class="sticky top-0 z-30 bg-[var(--background)]/95 backdrop-blur border-b border-[var(--border)]">
@@ -2003,7 +2004,8 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
 </html>
 """
 
-final_html = HTML_TEMPLATE.replace("__VANILLA_CSS__", VANILLA_CSS).replace("__PAYLOAD_JSON__", payload_json)
+from genova_outings.html_utils import render_shared_nav
+final_html = HTML_TEMPLATE.replace("__VANILLA_CSS__", VANILLA_CSS).replace("__SHARED_NAV__", render_shared_nav("bussola")).replace("__PAYLOAD_JSON__", payload_json)
 
 with open(f"{_DATA_DIR}/bussola_tempo_libero_genova.html", "w", encoding="utf-8") as f:
     f.write(final_html)

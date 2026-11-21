@@ -13,16 +13,16 @@ from datetime import date, timedelta
 from pathlib import Path
 
 from genova_outings.catalog import get_weekly_catalog
-from genova_outings.html_utils import safe_json_for_script
+from genova_outings.html_utils import SHARED_NAV_CSS, render_shared_nav, safe_json_for_script
 from genova_outings.programme import attach_programmes
 
 MESI = ["gennaio", "febbraio", "marzo", "aprile", "maggio", "giugno", "luglio",
         "agosto", "settembre", "ottobre", "novembre", "dicembre"]
 
 CAT_LABEL = {
-    "cinema": "🎬 Cinema", "mostra": "🏛️ Mostre e musei", "musica": "🎶 Musica, serate e teatro",
-    "biblioteca": "📚 Biblioteche", "passeggiata": "🌿 Passeggiate", "laboratorio": "🏺 Botteghe e sapori",
-    "ritrovo": "☕ Caffè e ritrovi", "altro": "⛪ Abbazie e borghi",
+    "cinema": "Cinema", "mostra": "Mostre e musei", "musica": "Musica, serate e teatro",
+    "biblioteca": "Biblioteche", "passeggiata": "Passeggiate", "laboratorio": "Botteghe e sapori",
+    "ritrovo": "Caffè e ritrovi", "altro": "Abbazie e borghi",
 }
 CAT_ORDER = list(CAT_LABEL)
 
@@ -34,68 +34,72 @@ PAGE = r"""<!DOCTYPE html>
 <title>Cosa facciamo Genova</title>
 <meta name="description" content="Cosa facciamo a Genova questa settimana: cinema, mostre, musica, dove ballare, biblioteche, botteghe e passeggiate.">
 <style>
-  :root { color-scheme: light dark; --bg:#f7f7f5; --card:#fff; --fg:#1c1c1c; --mut:#6b6b6b; --line:#e4e4e0; --acc:#1f6feb; --sel:#eaf2ff; }
-  @media (prefers-color-scheme: dark) { :root { --bg:#141414; --card:#1e1e1e; --fg:#ececec; --mut:#9a9a9a; --line:#2e2e2e; --acc:#5b9dff; --sel:#1b2a40; } }
+  __SHARED_NAV_CSS__
+  :root { --bg:#faf8f4; --card:#ffffff; --fg:#14191f; --mut:#5a6472; --line:#e2ddd5; --acc:#0f4c81; --sel:#eef4fa; }
   * { box-sizing: border-box; }
-  body { margin:0; font: 16px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background:var(--bg); color:var(--fg); }
-  header { padding: 22px 16px 10px; max-width: 760px; margin: 0 auto; }
-  h1 { font-size: 24px; margin: 0 0 4px; letter-spacing: -0.02em; }
+  body { margin:0; font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background:var(--bg); color:var(--fg); font-variant-numeric: tabular-nums; }
+  header { padding: 24px 16px 12px; max-width: 820px; margin: 0 auto; }
+  h1 { font-size: 26px; margin: 0 0 6px; letter-spacing: -0.02em; }
   .sub { color: var(--mut); font-size: 14px; margin: 0 0 14px; }
-  .ask-box { position: relative; display: flex; align-items: center; background: var(--card); border: 1.5px solid var(--line); border-radius: 14px; padding: 4px 10px 4px 14px; box-shadow: 0 2px 6px rgba(0,0,0,0.04); }
-  .ask-box:focus-within { border-color: var(--acc); box-shadow: 0 0 0 3px color-mix(in srgb, var(--acc) 18%, transparent); }
-  .ask-in { flex: 1; border: 0; background: transparent; color: var(--fg); font-size: 16px; padding: 10px 0; outline: none; }
+  .ask-box { position: relative; display: flex; align-items: center; background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 4px 10px 4px 14px; }
+  .ask-box:focus-within { border-color: var(--acc); box-shadow: 0 0 0 3px rgba(15, 76, 129, 0.14); }
+  .ask-in { flex: 1; border: 0; background: transparent; color: var(--fg); font-size: 16px; padding: 10px 0; outline: none; min-width: 0; }
   .ask-in::placeholder { color: var(--mut); }
   .ask-clr { border: 0; background: var(--line); color: var(--fg); border-radius: 999px; width: 26px; height: 26px; font-size: 14px; cursor: pointer; display: none; align-items: center; justify-content: center; }
   .ask-clr.show { display: inline-flex; }
-  .prompts { display: flex; gap: 6px; overflow-x: auto; padding: 10px 0 2px; scrollbar-width: none; }
-  .pr { flex: 0 0 auto; border: 1px dashed var(--line); background: transparent; color: var(--mut); border-radius: 999px; padding: 5px 11px; font-size: 13px; cursor: pointer; }
-  .pr:hover, .pr.on { border-style: solid; border-color: var(--acc); color: var(--acc); background: color-mix(in srgb, var(--acc) 8%, transparent); }
-  nav { position: sticky; top: 0; z-index: 5; background: var(--bg); border-bottom: 1px solid var(--line); }
-  .chips { display:flex; gap:6px; overflow-x:auto; padding:10px 16px; max-width:760px; margin:0 auto; scrollbar-width:none; }
+  .prompts { display: flex; flex-wrap: wrap; flex-wrap: balance; gap: 6px; padding: 10px 0 2px; }
+  .pr { flex: 0 0 auto; border: 1px solid var(--line); background: var(--card); color: var(--mut); border-radius: 999px; padding: 5px 11px; font-size: 13px; cursor: pointer; }
+  .pr:hover, .pr.on { border-color: var(--acc); color: var(--acc); background: var(--sel); }
+  .filter-nav { position: sticky; top: 0; z-index: 5; background: rgba(250, 248, 244, 0.96); backdrop-filter: blur(6px); border-bottom: 1px solid var(--line); }
+  .chips { display:flex; flex-wrap: wrap; flex-wrap: balance; gap:6px; padding:10px 16px; max-width:820px; margin:0 auto; }
   .chip { flex:0 0 auto; border:1px solid var(--line); background:var(--card); color:var(--fg); border-radius:999px; padding:6px 12px; font-size:14px; cursor:pointer; }
   .chip.on { background:var(--acc); border-color:var(--acc); color:#fff; }
-  main { max-width:760px; margin:0 auto; padding: 12px 12px 140px; }
-  .ans { background: color-mix(in srgb, var(--acc) 10%, var(--card)); border: 1px solid color-mix(in srgb, var(--acc) 35%, var(--line)); border-radius: 12px; padding: 11px 14px; margin-bottom: 12px; font-size: 14px; display: none; }
+  main { max-width:820px; margin:0 auto; padding: 14px 16px 140px; }
+  .ans { background: var(--sel); border: 1px solid rgba(15, 76, 129, 0.25); border-radius: 10px; padding: 11px 14px; margin-bottom: 12px; font-size: 14px; display: none; }
   .ans.show { display: block; }
-  .card { display:flex; gap:12px; background:var(--card); border:1px solid var(--line); border-radius:14px; padding:14px; margin-bottom:10px; cursor:pointer; }
-  .card.sel { border-color: var(--acc); background: var(--sel); }
-  .card input { width:22px; height:22px; margin-top:2px; flex:0 0 auto; accent-color: var(--acc); }
-  .t { font-weight: 650; font-size: 16px; }
+  .card { display:flex; gap:12px; background:var(--card); border:1px solid var(--line); border-radius:12px; padding:15px; margin-bottom:10px; cursor:pointer; transition: border-color 140ms ease, box-shadow 140ms ease; }
+  .card:hover { border-color: var(--acc); }
+  .card.sel, .card:has(> input:checked) { border-color: var(--acc); box-shadow: 0 0 0 2px rgba(15, 76, 129, 0.16); background: var(--sel); }
+  .card input { width:20px; height:20px; margin-top:3px; flex:0 0 auto; accent-color: var(--acc); }
+  .t { font-weight: 650; font-size: 16px; line-height: 1.35; }
   .m { color: var(--mut); font-size: 14px; margin-top: 3px; }
-  .d { font-size: 14px; margin-top: 6px; }
-  .prog { margin-top:8px; padding:8px 10px; border-left:3px solid var(--acc); background: color-mix(in srgb, var(--acc) 8%, transparent); border-radius:6px; font-size:14px; }
+  .m.time { font-variant-numeric: tabular-nums; color: var(--fg); font-weight: 500; }
+  .d { font-size: 14px; margin-top: 6px; color: #2b3440; }
+  .prog { margin-top:8px; padding:8px 10px; border-left:3px solid var(--acc); background: rgba(15, 76, 129, 0.05); border-radius:6px; font-size:14px; }
   .prog b { font-weight:600; }
   .prog ul { margin:4px 0 0; padding-left:18px; }
   .prog li span { color: var(--mut); }
-  .src { display:inline-block; margin-top:8px; font-size:13px; color: var(--acc); text-decoration:none; }
-  .bar { position:fixed; left:0; right:0; bottom:0; background:var(--card); border-top:1px solid var(--line); padding:12px 16px calc(12px + env(safe-area-inset-bottom)); display:none; }
+  .src { display:inline-block; margin-top:8px; font-size:13px; font-weight: 600; color: var(--acc); text-decoration:none; }
+  .src:hover { text-decoration: underline; }
+  .bar { position:fixed; left:0; right:0; bottom:0; background:var(--card); border-top:1px solid var(--line); padding:12px 16px calc(12px + env(safe-area-inset-bottom)); display:none; box-shadow: 0 -4px 16px rgba(20, 25, 31, 0.08); }
   .bar.show { display:block; }
-  .bar-in { max-width:760px; margin:0 auto; display:flex; gap:8px; align-items:center; }
+  .bar-in { max-width:820px; margin:0 auto; display:flex; gap:8px; align-items:center; }
   .count { flex:1; font-size:14px; color: var(--mut); }
-  .btn { border:0; border-radius:10px; padding:11px 14px; font-size:15px; font-weight:600; cursor:pointer; }
-  .wa { background:#25d366; color:#fff; }
+  .btn { border:0; border-radius:8px; padding:10px 14px; font-size:15px; font-weight:600; cursor:pointer; }
+  .wa { background:#128c7e; color:#fff; }
   .cp { background: var(--line); color: var(--fg); }
-  footer { color: var(--mut); font-size: 12px; text-align:center; padding: 8px 16px 0; }
+  footer { color: var(--mut); font-size: 12px; text-align:center; padding: 12px 16px 24px; border-top: 1px solid var(--line); max-width: 820px; margin: 0 auto; }
 </style>
 </head>
 <body>
+__SHARED_NAV__
 <header>
-  <h1>Cosa facciamo Genova</h1>
-  <p class="sub">__RANGE__. Scrivi cosa ti va di fare o spunta quello che ti ispira per mandarlo su WhatsApp.</p>
+  <h1>Cosa facciamo a Genova</h1>
+  <p class="sub">__RANGE__. Filtra, spunta le proposte che ti interessano e genera il messaggio WhatsApp.</p>
   <div class="ask-box">
-    <input id="q" class="ask-in" type="search" placeholder="Chiedi qui, es: stasera dove vado a ballare? o se piove?" autocomplete="off" aria-label="Cerca o chiedi cosa fare a Genova">
+    <input id="q" class="ask-in" type="search" placeholder="Cerca o chiedi, es: stasera dove vado a ballare? o se piove?" autocomplete="off" aria-label="Cerca o chiedi cosa fare a Genova">
     <button id="qclr" class="ask-clr" type="button" aria-label="Cancella ricerca">✕</button>
   </div>
   <div class="prompts" id="prompts">
-    <button class="pr" type="button" data-q="stasera dove vado a ballare?">💃 Stasera dove vado a ballare?</button>
-    <button class="pr" type="button" data-q="cosa c'è stasera?">🌙 Cosa c'è stasera?</button>
-    <button class="pr" type="button" data-q="dove andiamo se piove?">🌧️ Se piove dove andiamo?</button>
-    <button class="pr" type="button" data-q="bere qualcosa o aperitivo nei caruggi">🍷 Bere qualcosa nei caruggi</button>
-    <button class="pr" type="button" data-q="film al cinema">🎬 Che film danno?</button>
-    <button class="pr" type="button" data-q="passeggiata vista mare">🌊 Vista mare</button>
+    <button class="pr" type="button" data-q="stasera dove vado a ballare?">Stasera dove vado a ballare?</button>
+    <button class="pr" type="button" data-q="cosa c'è stasera?">Cosa c'è stasera?</button>
+    <button class="pr" type="button" data-q="dove andiamo se piove?">Se piove dove andiamo?</button>
+    <button class="pr" type="button" data-q="bere qualcosa o aperitivo nei caruggi">Bere qualcosa nei caruggi</button>
+    <button class="pr" type="button" data-q="film al cinema">Che film danno?</button>
+    <button class="pr" type="button" data-q="passeggiata vista mare">Vista mare</button>
   </div>
 </header>
-<nav><div class="chips" id="chips"></div></nav>
+<nav class="filter-nav" aria-label="Filtri per categoria"><div class="chips" id="chips"></div></nav>
 <main>
   <div id="ans" class="ans"></div>
   <div id="list"></div>
@@ -107,10 +111,19 @@ PAGE = r"""<!DOCTYPE html>
   <button class="btn wa" id="send">Invia su WhatsApp</button>
 </div></div>
 <script>
-const DATA = __DATA__;
+let DATA = __DATA__;
 const LABEL = __LABELS__;
-let cat = "tutto";
-let query = "";
+const _params = new URLSearchParams(window.location.search);
+let cat = _params.get("cat") || "tutto";
+let query = _params.get("q") || "";
+function syncUrl() {
+  if (!window.history || !window.history.replaceState) return;
+  const p = new URLSearchParams();
+  if (cat && cat !== "tutto") p.set("cat", cat);
+  if (query && query.trim()) p.set("q", query.trim());
+  const qs = p.toString();
+  window.history.replaceState(null, "", qs ? `?${qs}` : window.location.pathname);
+}
 const sel = new Set();
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const norm = s => String(s ?? "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
@@ -268,7 +281,7 @@ function chips() {
   const cats = ["tutto", ...Object.keys(LABEL).filter(k => DATA.some(d => d.category === k))];
   document.getElementById("chips").innerHTML = cats.map(k =>
     `<button class="chip ${k===cat?'on':''}" data-k="${k}">${k==="tutto" ? "Tutto" : LABEL[k]}</button>`).join("");
-  document.querySelectorAll(".chip").forEach(b => b.onclick = () => { cat = b.dataset.k; chips(); render(); });
+  document.querySelectorAll(".chip").forEach(b => b.onclick = () => { cat = b.dataset.k; syncUrl(); chips(); render(); });
 }
 
 function render() {
@@ -301,15 +314,15 @@ function render() {
     const prog = (d.programma || []).length
       ? `<div class="prog"><b>In programma</b><ul>${d.programma.map(p => `<li>${esc(p.titolo)} <span>${esc(p.quando)}</span></li>`).join("")}</ul></div>` : "";
     const safeHref = /^https?:\/\//i.test(String(d.url || "").trim()) ? d.url.trim() : "";
-    return `<div class="card ${sel.has(d.id)?'sel':''}" data-id="${esc(d.id)}" role="checkbox" aria-checked="${sel.has(d.id)?'true':'false'}" tabindex="0">
+    return `<label class="card ${sel.has(d.id)?'sel':''}" data-id="${esc(d.id)}" role="checkbox" aria-checked="${sel.has(d.id)?'true':'false'}" tabindex="0">
       <input type="checkbox" ${sel.has(d.id)?'checked':''} aria-label="Scegli ${esc(d.title)}">
       <div><div class="t">${esc(d.title)}</div>
-        <div class="m">📍 ${esc(d.place)}</div>
-        <div class="m">🗓️ ${esc(d.day_time)}</div>
+        <div class="m">${esc(d.place)}</div>
+        <div class="m time">${esc(d.day_time)}</div>
         ${d.description ? `<div class="d">${esc(d.description)}</div>` : ""}
         ${prog}
         ${safeHref ? `<a class="src" href="${esc(safeHref)}" target="_blank" rel="noopener">Sito ufficiale</a>` : ""}
-      </div></div>`;
+      </div></label>`;
   }).join("");
   document.querySelectorAll(".card").forEach(c => {
     const toggle = () => {
@@ -367,6 +380,7 @@ function setQuery(val) {
   qClr.classList.toggle("show", Boolean(val));
   document.querySelectorAll(".pr").forEach(b => b.classList.toggle("on", b.dataset.q === val));
   if (val && cat !== "tutto") { cat = "tutto"; chips(); }
+  syncUrl();
   render();
 }
 qIn.oninput = e => setQuery(e.target.value);
@@ -379,7 +393,30 @@ document.getElementById("copy").onclick = async () => {
   catch { prompt("Copia il testo:", message()); }
   setTimeout(() => document.getElementById("copy").textContent = "Copia", 1500);
 };
+if (query) { qIn.value = query; qClr.classList.add("show"); }
 chips(); render(); bar();
+if (location.protocol.startsWith("http")) {
+  fetch("./data/events.json")
+    .then(r => r.ok ? r.json() : null)
+    .then(rows => {
+      if (!Array.isArray(rows) || !rows.length) return;
+      DATA = rows.map(r => ({
+        id: r.id,
+        category: r.category,
+        title: r.title,
+        place: [r.address || r.venue, r.district].filter(Boolean).join(", "),
+        day_time: r.day_time || "",
+        description: r.summary || "",
+        url: r.url || "",
+        programma: r.showtimes || [],
+        tags: r.tags || [],
+        outdoor: Boolean(r.outdoor),
+        time_slot: r.time_slot || "flessibile"
+      }));
+      chips(); render(); bar();
+    })
+    .catch(() => {});
+}
 </script>
 </body>
 </html>
@@ -419,7 +456,9 @@ def build(out_dir: Path) -> Path:
     today = date.today()
     end = today + timedelta(days=7)
     rng = f"Dal {today.day} {MESI[today.month-1]} al {end.day} {MESI[end.month-1]}"
-    page = (PAGE.replace("__DATA__", safe_json_for_script(data))
+    page = (PAGE.replace("__SHARED_NAV_CSS__", SHARED_NAV_CSS)
+                .replace("__SHARED_NAV__", render_shared_nav("index"))
+                .replace("__DATA__", safe_json_for_script(data))
                 .replace("__LABELS__", safe_json_for_script(CAT_LABEL))
                 .replace("__RANGE__", html.escape(rng))
                 .replace("__UPDATED__", f"{today.day} {MESI[today.month-1]} {today.year}"))

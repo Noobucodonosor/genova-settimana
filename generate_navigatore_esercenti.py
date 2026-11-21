@@ -32,23 +32,11 @@ html_doc = """<!DOCTYPE html>
 <html lang="it">
 <head>
   <meta charset="UTF-8">
-  <title>Genova & Provincia — Navigatore Anti-Amazon degli Esercenti, Artigiani e Negozi di Quartiere (4.966 Attività)</title>
+  <title>Genova & Provincia — Navigatore Esercenti, Artigiani e Negozi di Quartiere (4.966 Attività)</title>
   <style>__VANILLA_CSS__</style>
-  <style>
-    :root {
-      --background: #0f1419;
-      --foreground: #f1f5f9;
-      --card: #182028;
-      --content: #1e293b;
-      --border: #334155;
-      --primary: #f59e0b;
-      --primary-foreground: #0f1419;
-      --muted-foreground: #94a3b8;
-    }
-    body { background-color: var(--background); color: var(--foreground); font-family: system-ui, -apple-system, sans-serif; }
-  </style>
 </head>
 <body class="min-h-screen flex flex-col antialiased">
+  __SHARED_NAV__
 
   <!-- Header -->
   <header class="border-b border-[var(--border)] bg-[var(--card)] px-6 py-4 sticky top-0 z-30 shadow-lg">
@@ -334,7 +322,8 @@ html_doc = """<!DOCTYPE html>
 """
 
 from genova_outings.vanilla_css import VANILLA_CSS
-final_html = html_doc.replace("__VANILLA_CSS__", VANILLA_CSS).replace("__PAYLOAD__", payload_str)
+from genova_outings.html_utils import render_shared_nav
+final_html = html_doc.replace("__VANILLA_CSS__", VANILLA_CSS).replace("__SHARED_NAV__", render_shared_nav("esercenti")).replace("__PAYLOAD__", payload_str)
 with open(f"{_DATA_DIR}/navigatore_esercenti_genova_provincia.html", "w", encoding="utf-8") as f:
     f.write(final_html)
 
