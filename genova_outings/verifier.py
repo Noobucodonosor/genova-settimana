@@ -332,7 +332,9 @@ def probe_url_reachability(url: str, timeout: float = 3.5, use_cache: bool = Tru
             else:
                 result = (False, code, f"HTTP status {code}")
     except urllib.error.HTTPError as e:
-        result = (False, e.code, f"HTTP Error {e.code}")
+        code = e.code
+        e.close()
+        result = (False, code, f"HTTP Error {code}")
     except urllib.error.URLError as e:
         result = (False, 0, f"URL Error: {e.reason}")
     except Exception as e:
