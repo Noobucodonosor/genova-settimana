@@ -1,5 +1,7 @@
 # Genova Civica & Cultura — Hub Interattivo (67 Comuni)
 
+[![Anteprima Genova Civica & Cultura — 67 Comuni](./docs/preview/social-preview.png)](https://noobucodonosor.github.io/genova-settimana/)
+
 Raccolta di web app statiche, open data e script Python dedicati al territorio della **Città Metropolitana di Genova (67 comuni)**: eventi culturali, botteghe ed esercenti locali, luoghi aperti al pubblico e storia della città ricostruita attraverso l'odonomastica (OpenStreetMap + Wikidata `P138`).
 
 ## Demo Live (GitHub Pages)
