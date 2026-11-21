@@ -31,7 +31,7 @@ html_doc = """<!DOCTYPE html>
 <head>
   <meta charset="UTF-8">
   <title>Genova & Provincia — Navigatore Anti-Amazon degli Esercenti, Artigiani e Negozi di Quartiere (4.966 Attività)</title>
-  <script src="https://www.gstatic.com/antigravity/web/dev/tailwindcss.min.js"></script>
+  <style>__VANILLA_CSS__</style>
   <style>
     :root {
       --background: #0f1419;
@@ -311,11 +311,15 @@ html_doc = """<!DOCTYPE html>
 
     initApp();
   </script>
+  <footer class="px-6 py-4 border-t border-[var(--border)] text-center text-xs text-[var(--muted-foreground)]">
+    Dati geografici e toponimi: © OpenStreetMap contributors (ODbL 1.0) · Wikidata (CC0).
+  </footer>
 </body>
 </html>
 """
 
-final_html = html_doc.replace("__PAYLOAD__", payload_str)
+from genova_outings.vanilla_css import VANILLA_CSS
+final_html = html_doc.replace("__VANILLA_CSS__", VANILLA_CSS).replace("__PAYLOAD__", payload_str)
 with open("/Users/dany/genova/navigatore_esercenti_genova_provincia.html", "w", encoding="utf-8") as f:
     f.write(final_html)
 

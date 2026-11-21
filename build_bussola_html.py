@@ -1,4 +1,5 @@
 import json
+from genova_outings.vanilla_css import VANILLA_CSS
 
 with open("/Users/dany/genova/tempo_libero_payload.json", "r", encoding="utf-8") as f:
     payload_json = f.read()
@@ -9,7 +10,7 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Bussola del Tempo Libero — Genova & i 67 Comuni della Provincia</title>
-  <script src="https://www.gstatic.com/antigravity/web/dev/tailwindcss.min.js"></script>
+  <style>__VANILLA_CSS__</style>
   <style>
     * { box-sizing: border-box; }
     body { margin: 0; font-size: 14px; }
@@ -320,7 +321,8 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
     </section>
 
     <footer class="pt-2 pb-6 text-center text-xs text-[var(--muted-foreground)]">
-      Motore decisionale costruito su 67/67 Comuni della Città Metropolitana di Genova • 326 esperienze selezionate e geolocalizzate (filtrate da 4.251 luoghi aperti al pubblico estratti da OpenStreetMap, Wikidata e siti ufficiali) • Collegate a 5.540 toponimi di personaggi storici.
+      Motore decisionale costruito su 67/67 Comuni della Città Metropolitana di Genova • 326 esperienze selezionate e geolocalizzate (filtrate da 4.251 luoghi aperti al pubblico estratti da OpenStreetMap, Wikidata e siti ufficiali) • Collegate a 5.540 toponimi di personaggi storici.<br/>
+      Dati geografici e toponimi: © OpenStreetMap contributors (ODbL 1.0) · Wikidata (CC0).
     </footer>
 
   </main>
@@ -1997,7 +1999,7 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
 </html>
 """
 
-final_html = HTML_TEMPLATE.replace("__PAYLOAD_JSON__", payload_json)
+final_html = HTML_TEMPLATE.replace("__VANILLA_CSS__", VANILLA_CSS).replace("__PAYLOAD_JSON__", payload_json)
 
 with open("/Users/dany/genova/bussola_tempo_libero_genova.html", "w", encoding="utf-8") as f:
     f.write(final_html)
