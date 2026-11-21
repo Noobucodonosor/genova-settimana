@@ -1,176 +1,495 @@
-"""Esporta una pagina statica (un solo index.html) con le alternative della settimana.
-
-Chi apre la pagina può filtrare per tipo, spuntare le proposte e inviare la scelta
-su WhatsApp (wa.me/?text=..., senza numero: WhatsApp chiede a chi mandarlo).
+"""Esporta una pagina statica (site/index.html) essenziale in stile rivista culturale.
 
 Uso:  python3 -m genova_outings.export_static [cartella_uscita]
 """
 
 import html
-import json
+import re
 import sys
+import unicodedata
+from copy import deepcopy
 from datetime import date, timedelta
 from pathlib import Path
+from urllib.parse import urlparse
 
 from genova_outings.catalog import get_weekly_catalog
 from genova_outings.html_utils import (
     OPEN_DATA_ATTRIBUTION_TEXT,
     PWA_HEAD_HTML,
     PWA_SW_SCRIPT,
-    SHARED_NAV_CSS,
-    render_shared_nav,
     safe_json_for_script,
 )
+from genova_outings.models import OutingCategory
 from genova_outings.programme import attach_programmes
 
-MESI = ["gennaio", "febbraio", "marzo", "aprile", "maggio", "giugno", "luglio",
-        "agosto", "settembre", "ottobre", "novembre", "dicembre"]
+MESI = [
+    "gennaio", "febbraio", "marzo", "aprile", "maggio", "giugno",
+    "luglio", "agosto", "settembre", "ottobre", "novembre", "dicembre",
+]
 
 CAT_LABEL = {
-    "cinema": "Cinema", "mostra": "Mostre e musei", "musica": "Musica, serate e teatro",
-    "biblioteca": "Biblioteche", "passeggiata": "Passeggiate", "laboratorio": "Botteghe e sapori",
-    "ritrovo": "Caffè e ritrovi", "altro": "Abbazie e borghi",
+    "cinema": "Cinema",
+    "mostra": "Mostre",
+    "musica": "Musica e teatro",
+    "biblioteca": "Biblioteche",
+    "passeggiata": "Passeggiate",
+    "laboratorio": "Botteghe e sapori",
+    "ritrovo": "Caffè e ritrovi",
+    "altro": "Abbazie e borghi",
 }
 CAT_ORDER = list(CAT_LABEL)
+
+_ROBOTIC_SUFFIX_RE = re.compile(
+    r":\s*(?:Programmazione Spettacoli|Proiezioni d['’]Autore|Cinema e Cultura|"
+    r"Rassegna Cineforum e Cinema di Ricerca|Rassegna d['’]Essai(?:\s+e\s+Prime Visioni|\s+di\s+Quartiere)?|"
+    r"Libreria\s*\([^)]+\))\s*$",
+    re.IGNORECASE,
+)
+
+_CANONICAL_CINEMA_NAMES = {
+    "sivori": "Cinema Sivori",
+    "america": "Cinema America",
+    "odeon": "Cinema Odeon",
+    "nickelodeon": "Cineclub Nickelodeon",
+}
+
+_STRIP_PREFIX_RE = re.compile(
+    r"^(?:cinema|cineclub|teatro|museo|biblioteca\s+civica|biblioteca\s+internazionale|"
+    r"biblioteca\s+comunale|biblioteca|libreria)\s+",
+    re.IGNORECASE,
+)
+
+
+_SHARED_PORTAL_HOSTS = frozenset({
+    "bibliotechedigenova.it",
+    "botteghestorichegenova.it",
+    "museidigenova.it",
+    "visitgenoa.it",
+    "teatronazionalegenova.it",
+    "circuitocinemagenova.com",
+    "parcoantola.it",
+    "parcobeigua.it",
+    "parcoaveto.it",
+    "cittametropolitana.genova.it",
+    "chiavariturismo.it",
+    "arenzanoturismo.it",
+    "fondoambiente.it",
+    "sites.google.com",
+    "cultura.gov.it",
+})
+
+_CANONICAL_VENUE_PATTERNS = (
+    ("polomusealedinervi", re.compile(r"polo\s+museale\s+di\s+nervi|gam[- ]galleria\s+d['’]?arte\s+moderna")),
+    ("parchidinervi", re.compile(r"parchi[- ]di[- ]nervi|passeggiata\s+(?:anita\s+garibaldi|di\s+nervi)")),
+    ("parcodellemura", re.compile(r"parco[- ](?:urbano[- ])?delle[- ]mura|funicolare\s+zecca")),
+    ("teatrosocialecamogli", re.compile(r"teatro\s+sociale(?:\s+di\s+camogli)?\b|teatrosocialecamogli\.it")),
+    ("sivori", re.compile(r"\bsivori\b")),
+)
+
+
+def _norm_ascii(text: str) -> str:
+    decomposed = unicodedata.normalize("NFKD", text or "")
+    ascii_only = "".join(ch for ch in decomposed if not unicodedata.combining(ch))
+    return re.sub(r"\s+", " ", ascii_only).strip().lower()
+
+
+def _url_dedupe_key(url: str) -> str:
+    """Return a canonical URL key only when the URL uniquely identifies one venue."""
+    if not url:
+        return ""
+    parsed = urlparse(url.strip())
+    host = (parsed.netloc or "").lower().removeprefix("www.")
+    if not host or host.startswith("comune.") or ".comune." in host:
+        return ""
+    path = re.sub(r"-\d+$", "", (parsed.path or "").rstrip("/").lower())
+    if host in _SHARED_PORTAL_HOSTS:
+        if path in ("", "/it", "/en", "/eventi", "/mostre", "/biblioteca"):
+            return ""
+        return f"url:{host}{path}"
+    if path in ("", "/it", "/en", "/home", "/eventi", "/mostre", "/spettacoli", "/programma"):
+        return f"host:{host}"
+    return f"url:{host}{path}"
+
+
+def _venue_dedupe_key(o) -> str:
+    """Canonical venue key merging accented/prefixed/alias duplicates (e.g. Sivori / Cinema Sivori)."""
+    haystack = _norm_ascii(f"{o.venue} {o.title} {o.verified_url}")
+    for canonical, pattern in _CANONICAL_VENUE_PATTERNS:
+        if pattern.search(haystack):
+            return canonical
+    url_key = _url_dedupe_key(o.verified_url or "")
+    if url_key:
+        return url_key
+    raw = _norm_ascii(o.venue or o.title or o.id)
+    raw = raw.split(":")[0].split("&")[0].split("(")[0].strip()
+    core = _STRIP_PREFIX_RE.sub("", raw).strip()
+    tokens = re.findall(r"[a-z0-9]+", core)
+    if not tokens:
+        tokens = re.findall(r"[a-z0-9]+", raw)
+    slug = "".join(tokens[:2])[:22]
+    return slug or o.id
+
+
+def _clean_editorial_title(title: str, venue: str = "") -> str:
+    """Produce a clean human-friendly editorial title free of scraping suffixes."""
+    cleaned = _ROBOTIC_SUFFIX_RE.sub("", (title or "").strip()).strip(" :-")
+    cleaned = re.sub(r"\s+", " ", cleaned)
+    v_norm = _norm_ascii(venue or cleaned)
+    v_core = _STRIP_PREFIX_RE.sub("", v_norm).strip()
+    if v_core in _CANONICAL_CINEMA_NAMES and _norm_ascii(cleaned) in {v_core, _norm_ascii(_CANONICAL_CINEMA_NAMES[v_core])}:
+        return _CANONICAL_CINEMA_NAMES[v_core]
+    if _norm_ascii(cleaned) in _CANONICAL_CINEMA_NAMES:
+        return _CANONICAL_CINEMA_NAMES[_norm_ascii(cleaned)]
+    return cleaned or (venue or "").strip()
+
+
+def _dedupe(options):
+    """Una sola voce per luogo: fonde i programmi e sceglie la scheda più curata."""
+    grouped = {}
+    for o in options:
+        key = _venue_dedupe_key(o)
+        grouped.setdefault(key, []).append(o)
+
+    merged = []
+    for entries in grouped.values():
+        def quality(opt):
+            progs = opt.raw_metadata.get("programma") or []
+            is_https = 1 if (opt.verified_url or "").startswith("https://") else 0
+            clean_t = _clean_editorial_title(opt.title, opt.venue)
+            text_norm = _norm_ascii(f"{opt.title} {opt.venue}")
+            wants_cinema = int(
+                ("cinema" in text_norm or "cineclub" in text_norm)
+                and opt.category == OutingCategory.CINEMA
+            )
+            is_live = 1 if opt.source_type == "live_web" else 0
+            # Prefer matching Cinema category, real programme, live_web, https, and richer metadata
+            return (
+                wants_cinema,
+                len(progs) > 0,
+                len(progs),
+                is_live,
+                is_https,
+                -int(bool(_ROBOTIC_SUFFIX_RE.search(opt.title or ""))),
+                len(opt.description or ""),
+                len(clean_t),
+            )
+
+        best = deepcopy(max(entries, key=quality))
+        # Merge programme entries across all duplicates for this venue
+        seen_prog = set()
+        combined_prog = []
+        for ent in sorted(entries, key=quality, reverse=True):
+            for p in ent.raw_metadata.get("programma") or []:
+                pk = (_norm_ascii(p.get("titolo", "")), _norm_ascii(p.get("quando", "")))
+                if pk not in seen_prog and p.get("titolo"):
+                    seen_prog.add(pk)
+                    combined_prog.append(p)
+        if combined_prog:
+            best.raw_metadata["programma"] = combined_prog[:8]
+        best.title = _clean_editorial_title(best.title, best.venue)
+        merged.append(best)
+    return merged
+
 
 PAGE = r"""<!DOCTYPE html>
 <html lang="it">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Cosa facciamo Genova</title>
-<meta name="description" content="Cosa facciamo a Genova questa settimana: cinema, mostre, musica, dove ballare, biblioteche, botteghe e passeggiate.">
+<title>Questa settimana a Genova</title>
+<meta name="description" content="Cinema, mostre, musica, teatri e idee per la settimana a Genova.">
 __PWA_HEAD__
 <style>
-  __SHARED_NAV_CSS__
-  :root { --bg:#faf8f4; --card:#ffffff; --fg:#14191f; --mut:#5a6472; --line:#e2ddd5; --acc:#0f4c81; --sel:#eef4fa; }
+  :root {
+    --bg: #faf8f4;
+    --ink: #171717;
+    --muted: #66635e;
+    --line: #e5e0d8;
+    --accent: #0f4c81;
+    --sel: #f2f6fa;
+    --serif: Georgia, "Iowan Old Style", "Palatino Linotype", Palatino, serif;
+    --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
   * { box-sizing: border-box; }
-  body { margin:0; font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background:var(--bg); color:var(--fg); font-variant-numeric: tabular-nums; }
-  header { padding: 24px 16px 12px; max-width: 820px; margin: 0 auto; }
-  h1 { font-size: 26px; margin: 0 0 6px; letter-spacing: -0.02em; }
-  .sub { color: var(--mut); font-size: 14px; margin: 0 0 14px; }
-  .ask-box { position: relative; display: flex; align-items: center; background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 4px 10px 4px 14px; }
-  .ask-box:focus-within { border-color: var(--acc); box-shadow: 0 0 0 3px rgba(15, 76, 129, 0.14); }
-  .ask-in { flex: 1; border: 0; background: transparent; color: var(--fg); font-size: 16px; padding: 10px 0; outline: none; min-width: 0; }
-  .ask-in::placeholder { color: var(--mut); }
-  .ask-clr { border: 0; background: var(--line); color: var(--fg); border-radius: 999px; width: 26px; height: 26px; font-size: 14px; cursor: pointer; display: none; align-items: center; justify-content: center; }
-  .ask-clr.show { display: inline-flex; }
-  .prompts { display: flex; flex-wrap: wrap; flex-wrap: balance; gap: 6px; padding: 10px 0 2px; }
-  .pr { flex: 0 0 auto; border: 1px solid var(--line); background: var(--card); color: var(--mut); border-radius: 999px; padding: 5px 11px; font-size: 13px; cursor: pointer; }
-  .pr:hover, .pr.on { border-color: var(--acc); color: var(--acc); background: var(--sel); }
-  .ctx-row { display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:8px; margin-top:10px; }
-  .weather-bar { font-size:13px; color:var(--mut); display:flex; flex-wrap:wrap; align-items:center; gap:8px; }
-  .weather-alert { border:1px solid #b45309; background:rgba(180,83,9,0.08); color:#92400e; border-radius:999px; padding:3px 10px; font-size:12px; font-weight:600; cursor:pointer; }
-  .zone-sel { border:1px solid var(--line); background:var(--card); color:var(--fg); border-radius:8px; padding:6px 10px; font-size:13px; }
-  .filter-nav { position: sticky; top: 0; z-index: 5; background: rgba(250, 248, 244, 0.96); backdrop-filter: blur(6px); border-bottom: 1px solid var(--line); }
-  .chips { display:flex; flex-wrap: wrap; flex-wrap: balance; gap:6px; padding:10px 16px; max-width:820px; margin:0 auto; }
-  .chip { flex:0 0 auto; border:1px solid var(--line); background:var(--card); color:var(--fg); border-radius:999px; padding:6px 12px; font-size:14px; cursor:pointer; }
-  .chip.on { background:var(--acc); border-color:var(--acc); color:#fff; }
-  main { max-width:820px; margin:0 auto; padding: 14px 16px 140px; }
-  .ans { background: var(--sel); border: 1px solid rgba(15, 76, 129, 0.25); border-radius: 10px; padding: 11px 14px; margin-bottom: 12px; font-size: 14px; display: none; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font: 16px/1.55 var(--sans);
+    -webkit-font-smoothing: antialiased;
+    font-variant-numeric: tabular-nums;
+  }
+  .wrap {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  header {
+    padding: 40px 0 20px;
+  }
+  h1 {
+    font-family: var(--serif);
+    font-weight: 400;
+    font-size: clamp(28px, 5vw, 36px);
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+    margin: 0 0 8px;
+  }
+  .sub {
+    margin: 0 0 24px;
+    color: var(--muted);
+    font-size: 14px;
+    letter-spacing: 0.01em;
+  }
+  .ask {
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid var(--line);
+    background: transparent;
+    padding: 10px 0;
+    font: 16px/1.4 var(--sans);
+    color: var(--ink);
+    outline: none;
+    border-radius: 0;
+  }
+  .ask:focus { border-bottom-color: var(--ink); }
+  .ask::placeholder { color: #8c8881; }
+  .pills {
+    display: flex;
+    flex-wrap: wrap;
+    flex-wrap: balance;
+    gap: 8px;
+    margin-top: 18px;
+  }
+  .pill {
+    border: 1px solid var(--line);
+    background: transparent;
+    color: var(--muted);
+    border-radius: 999px;
+    padding: 5px 13px;
+    font: 13px/1.4 var(--sans);
+    cursor: pointer;
+    transition: border-color 140ms ease, color 140ms ease, background-color 140ms ease;
+  }
+  .pill:hover { border-color: var(--ink); color: var(--ink); }
+  .pill.on {
+    background: var(--ink);
+    border-color: var(--ink);
+    color: var(--bg);
+  }
+  main { padding-bottom: 130px; }
+  .ans {
+    margin: 10px 0 6px;
+    font-size: 13px;
+    color: var(--muted);
+    display: none;
+  }
   .ans.show { display: block; }
-  .card { display:flex; gap:12px; background:var(--card); border:1px solid var(--line); border-radius:12px; padding:15px; margin-bottom:10px; cursor:pointer; transition: border-color 140ms ease, box-shadow 140ms ease; }
-  .card:hover { border-color: var(--acc); }
-  .card.sel, .card:has(> input:checked) { border-color: var(--acc); box-shadow: 0 0 0 2px rgba(15, 76, 129, 0.16); background: var(--sel); }
-  .card input { width:20px; height:20px; margin-top:3px; flex:0 0 auto; accent-color: var(--acc); }
-  .t { font-weight: 650; font-size: 16px; line-height: 1.35; }
-  .m { color: var(--mut); font-size: 14px; margin-top: 3px; }
-  .m.time { font-variant-numeric: tabular-nums; color: var(--fg); font-weight: 500; }
-  .d { font-size: 14px; margin-top: 6px; color: #2b3440; }
-  .prog { margin-top:8px; padding:8px 10px; border-left:3px solid var(--acc); background: rgba(15, 76, 129, 0.05); border-radius:6px; font-size:14px; }
-  .prog b { font-weight:600; }
-  .prog ul { margin:4px 0 0; padding-left:18px; }
-  .prog li span { color: var(--mut); }
-  .src { display:inline-block; margin-top:8px; font-size:13px; font-weight: 600; color: var(--acc); text-decoration:none; }
+  .card {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 18px;
+    padding: 20px 4px;
+    border-bottom: 1px solid var(--line);
+    cursor: pointer;
+    transition: background-color 140ms ease;
+  }
+  .card:first-child { border-top: 1px solid var(--line); }
+  .card.sel, .card:has(> input:checked) {
+    background: var(--sel);
+    box-shadow: inset 3px 0 0 var(--accent);
+    padding-left: 12px;
+  }
+  .card-content { flex: 1; min-width: 0; }
+  .cat-kicker {
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 4px;
+  }
+  .t {
+    font-family: var(--serif);
+    font-size: 19px;
+    line-height: 1.3;
+    font-weight: 400;
+    color: var(--ink);
+  }
+  .m {
+    color: var(--muted);
+    font-size: 14px;
+    margin-top: 4px;
+  }
+  .d {
+    font-size: 14px;
+    color: #3a3834;
+    margin-top: 6px;
+  }
+  .prog {
+    margin: 10px 0 0;
+    padding: 0;
+    list-style: none;
+    font-size: 14px;
+  }
+  .prog li {
+    padding: 3px 0;
+    color: var(--ink);
+  }
+  .prog li span { color: var(--muted); }
+  .more-prog, .more-places {
+    border: 0;
+    background: transparent;
+    padding: 4px 0;
+    margin-top: 4px;
+    font: 13px var(--sans);
+    color: var(--muted);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    cursor: pointer;
+  }
+  .more-prog:hover, .more-places:hover { color: var(--ink); }
+  .more-places-wrap {
+    padding: 22px 0 8px;
+    text-align: left;
+  }
+  .src {
+    display: inline-block;
+    margin-top: 8px;
+    font-size: 13px;
+    color: var(--accent);
+    text-decoration: none;
+  }
   .src:hover { text-decoration: underline; }
-  .bar { position:fixed; left:0; right:0; bottom:0; background:var(--card); border-top:1px solid var(--line); padding:12px 16px calc(12px + env(safe-area-inset-bottom)); display:none; box-shadow: 0 -4px 16px rgba(20, 25, 31, 0.08); z-index:20; }
-  .bar.show { display:block; }
-  .bar-in { max-width:820px; margin:0 auto; display:flex; flex-wrap:wrap; gap:8px; align-items:center; }
-  .bar-actions { display:flex; flex-wrap:wrap; gap:6px; align-items:center; }
-  .preview-box { max-width:820px; margin:0 auto 10px; display:none; padding:10px; background:var(--bg); border:1px solid var(--line); border-radius:10px; }
-  .preview-box.open { display:block; }
-  .preview-head { display:flex; flex-wrap:wrap; gap:8px; align-items:center; justify-content:space-between; margin-bottom:8px; font-size:13px; }
-  .preview-edit { width:100%; min-height:110px; border:1px solid var(--line); border-radius:8px; padding:8px; font:14px/1.4 inherit; background:var(--card); color:var(--fg); resize:vertical; }
-  .count { flex:1; min-width:90px; font-size:14px; color: var(--mut); }
-  .btn { border:0; border-radius:8px; padding:9px 12px; font-size:14px; font-weight:600; cursor:pointer; }
-  .wa { background:#128c7e; color:#fff; }
-  .cp { background: var(--line); color: var(--fg); }
-  .sec { background: transparent; border:1px solid var(--line); color: var(--fg); }
-  footer { color: var(--mut); font-size: 12px; text-align:center; padding: 12px 16px 24px; border-top: 1px solid var(--line); max-width: 820px; margin: 0 auto; }
+  .card input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    margin-top: 6px;
+    flex: 0 0 auto;
+    accent-color: var(--accent);
+    cursor: pointer;
+  }
+  footer {
+    color: var(--muted);
+    font-size: 12px;
+    padding: 18px 0 32px;
+  }
+  .bar {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(250, 248, 244, 0.96);
+    backdrop-filter: blur(8px);
+    border-top: 1px solid var(--line);
+    padding: 12px 20px calc(12px + env(safe-area-inset-bottom));
+    display: none;
+    z-index: 20;
+  }
+  .bar.show { display: block; }
+  .bar-in {
+    max-width: 680px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+  }
+  .bar-meta {
+    flex: 1;
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+    min-width: 120px;
+  }
+  .count { font-size: 14px; color: var(--ink); font-weight: 500; }
+  .edit-link {
+    border: 0;
+    background: transparent;
+    padding: 0;
+    font: 13px var(--sans);
+    color: var(--muted);
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .bar-actions { display: flex; gap: 8px; }
+  .btn {
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    padding: 8px 15px;
+    font: 500 14px/1.2 var(--sans);
+    cursor: pointer;
+  }
+  .cp { background: #ffffff; color: var(--ink); }
+  .wa { background: #128c7e; border-color: #128c7e; color: #ffffff; }
+  .preview-box {
+    max-width: 680px;
+    margin: 0 auto 10px;
+    display: none;
+  }
+  .preview-box.open { display: block; }
+  .preview-edit {
+    width: 100%;
+    min-height: 115px;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 10px;
+    font: 14px/1.45 var(--sans);
+    background: #ffffff;
+    color: var(--ink);
+    resize: vertical;
+  }
 </style>
 </head>
 <body>
-__SHARED_NAV__
-<header>
-  <h1>Cosa facciamo a Genova</h1>
-  <p class="sub">__RANGE__. Filtra, spunta le proposte che ti interessano e genera il messaggio WhatsApp.</p>
-  <div class="ask-box">
-    <input id="q" class="ask-in" type="search" placeholder="Cerca o chiedi, es: stasera dove vado a ballare? o se piove?" autocomplete="off" aria-label="Cerca o chiedi cosa fare a Genova">
-    <button id="qclr" class="ask-clr" type="button" aria-label="Cancella ricerca">✕</button>
-  </div>
-  <div class="prompts" id="prompts">
-    <button class="pr" type="button" data-q="cosa c'è oggi?">Oggi</button>
-    <button class="pr" type="button" data-q="cosa c'è stasera?">Stasera</button>
-    <button class="pr" type="button" data-q="weekend">Weekend</button>
-    <button class="pr" type="button" data-q="dove andiamo se piove?">Al coperto</button>
-    <button class="pr" type="button" data-q="stasera dove vado a ballare?">Dove ballare</button>
-    <button class="pr" type="button" data-q="bere qualcosa o aperitivo nei caruggi">Aperitivo caruggi</button>
-  </div>
-  <div class="ctx-row">
-    <div id="weather-bar" class="weather-bar" aria-live="polite"></div>
-    <select id="zoneSel" class="zone-sel" aria-label="Filtra per zona">
-      <option value="">Tutte le zone</option>
-      <option value="centro">Genova Centro</option>
-      <option value="tigullio">Tigullio</option>
-      <option value="golfo paradiso">Golfo Paradiso</option>
-      <option value="ponente">Ponente / Valle Stura</option>
-      <option value="polcevera">Val Polcevera / Scrivia</option>
-    </select>
-  </div>
-</header>
-<nav class="filter-nav" aria-label="Filtri per categoria"><div class="chips" id="chips"></div></nav>
-<main>
-  <div id="ans" class="ans"></div>
-  <div id="list"></div>
-</main>
-<footer>Orari e programmi letti dai siti ufficiali il __UPDATED__. Prima di andare conviene ricontrollare sul sito del posto.<br>__ATTRIBUTION__</footer>
+<div class="wrap">
+  <header>
+    <h1>Questa settimana a Genova</h1>
+    <p class="sub">__RANGE__ · Cinema, mostre, musica e teatri</p>
+    <input id="q" class="ask" type="search" placeholder="Cerca un posto, un film, o scrivi stasera, piove, ballare..." autocomplete="off" aria-label="Cerca cosa fare a Genova">
+    <div class="pills" id="pills" role="tablist" aria-label="Categorie"></div>
+  </header>
+  <main>
+    <div id="ans" class="ans"></div>
+    <div id="list"></div>
+    <div id="moreWrap" class="more-places-wrap"></div>
+    <footer>Orari e programmi dai siti ufficiali (agg. __UPDATED__). __ATTRIBUTION__</footer>
+  </main>
+</div>
+
 <div class="bar" id="bar">
   <div class="preview-box" id="previewBox">
-    <div class="preview-head">
-      <label>Tono:
-        <select id="toneSel" class="zone-sel">
-          <option value="amichevole">Amichevole</option>
-          <option value="weekend">Weekend</option>
-          <option value="minimal">Minimal</option>
-        </select>
-      </label>
-      <button type="button" class="btn sec" id="clearSel">Svuota</button>
-    </div>
-    <textarea id="msgEdit" class="preview-edit" aria-label="Anteprima messaggio WhatsApp"></textarea>
+    <textarea id="msgEdit" class="preview-edit" aria-label="Modifica il messaggio WhatsApp"></textarea>
   </div>
   <div class="bar-in">
-    <span class="count" id="count"></span>
+    <div class="bar-meta">
+      <span class="count" id="count"></span>
+      <button class="edit-link" id="togglePreview" type="button">Modifica</button>
+    </div>
     <div class="bar-actions">
-      <button class="btn sec" id="togglePreview" type="button">Anteprima</button>
-      <button class="btn sec" id="copyLink" type="button">Copia link</button>
-      <button class="btn sec" id="saveIcs" type="button">Salva .ics</button>
-      <button class="btn cp" id="copy" type="button">Copia</button>
-      <button class="btn wa" id="send" type="button">WhatsApp</button>
+      <button class="btn cp" id="copy" type="button">Copia testo</button>
+      <button class="btn wa" id="send" type="button">Manda su WhatsApp</button>
     </div>
   </div>
 </div>
+
 <script>
 let DATA = __DATA__;
 const LABEL = __LABELS__;
+const MACRO_CATS = [
+  { id: "tutto", label: "Tutto" },
+  { id: "cinema", label: "Cinema" },
+  { id: "mostra", label: "Mostre" },
+  { id: "musica_teatro", label: "Musica e teatro" },
+  { id: "altro_macro", label: "Altro" }
+];
 const _params = new URLSearchParams(window.location.search);
 let cat = _params.get("cat") || "tutto";
 let query = _params.get("q") || "";
-let zoneFilter = _params.get("zone") || "";
-let tone = "amichevole";
+let showAlwaysOpen = false;
+const expandedProg = new Set();
 const SEL_KEY = "genova_civica_sel_v1";
 const sel = new Set((() => {
-  const fromUrl = _params.get("sel");
-  if (fromUrl) return fromUrl.split(",").map(s => s.trim()).filter(Boolean);
   try { return JSON.parse(localStorage.getItem(SEL_KEY) || "[]"); } catch { return []; }
 })());
 function persistSel() {
@@ -181,7 +500,6 @@ function syncUrl() {
   const p = new URLSearchParams();
   if (cat && cat !== "tutto") p.set("cat", cat);
   if (query && query.trim()) p.set("q", query.trim());
-  if (zoneFilter) p.set("zone", zoneFilter);
   const qs = p.toString();
   window.history.replaceState(null, "", qs ? `?${qs}` : window.location.pathname);
 }
@@ -192,114 +510,46 @@ const STOP = new Set(["stasera","oggi","domani","dove","vado","andiamo","andare"
 const DAYS = ["domenica","lunedi","martedi","mercoledi","giovedi","venerdi","sabato"];
 
 const INTENTS = [
-  {
-    name: "ballare",
-    triggers: ["ballare","ballo","balla","danzare","danza","discoteca","dj","djset","club","milonga","tango","swing","lindy","blues dance","salsa","latino","caraibico","pista","movida"],
-    boostTerms: ["ballare","ballo","swing","lindy","blues dance","milonga","tango","dj","claque","count basie","luzzati","zenaswingers","circolo vega","mog"],
-    cats: ["musica","ritrovo"],
-    banner: "Ecco i posti dove ballare o fare serata a Genova tra live club, swing e blues dance, milonga, dj set e piazze dei caruggi:"
-  },
-  {
-    name: "bere",
-    triggers: ["bere","aperitivo","aperitivi","calice","vino","birra","cocktail","drink","pub","enoteca","spritz","caruggi","vicoli","chiacchierare"],
-    boostTerms: ["aperitivo","vino","birra","cocktail","bar","luzzati","mog","mercato orientale","carmine","caruggi","ritrovo","caff","sciamadda","viganotti"],
-    cats: ["ritrovo","musica","laboratorio"],
-    banner: "Ecco i posti per bere qualcosa, fare aperitivo o fermarsi nei caruggi:"
-  },
-  {
-    name: "pioggia",
-    triggers: ["piove","pioggia","diluvia","coperto","interno","freddo","brutto tempo","chiuso"],
-    boostTerms: ["indoor","cinema","mostra","museo","palazzo","biblioteca","teatro","mercato"],
-    cats: ["cinema","mostra","biblioteca","musica","laboratorio"],
-    indoorOnly: true,
-    banner: "Se piove o fa freddo, queste sono tutte proposte al coperto (cinema, mostre, teatri, mercati storici e botteghe):"
-  },
-  {
-    name: "cinema",
-    triggers: ["film","cinema","proiezione","proiezioni","pellicola","sottotitoli","lingua originale","sala"],
-    boostTerms: ["cinema","sivori","america","odeon","nickelodeon","film","proiezioni"],
-    cats: ["cinema"],
-    banner: "Ecco i cinema e cineclub con i film in programmazione questa settimana:"
-  },
-  {
-    name: "mostra",
-    triggers: ["mostra","mostre","museo","musei","arte","quadri","fotografia","esposizione","palazzo","rolli"],
-    boostTerms: ["mostra","museo","palazzo","ducale","strada nuova","reale","spinola","galata","castello","nervi"],
-    cats: ["mostra"],
-    banner: "Ecco le mostre e i musei aperti con le esposizioni e visite in corso:"
-  },
-  {
-    name: "passeggiata",
-    triggers: ["passeggiata","passeggiare","camminare","mare","vista","panorama","tramonto","aperto","sole","parco","borgo","boccadasse","nervi","castelletto","righi","trekking"],
-    boostTerms: ["passeggiata","mare","belvedere","boccadasse","nervi","castelletto","righi","acquedotto","parco","borgo"],
-    cats: ["passeggiata","altro"],
-    banner: "Ecco le passeggiate panoramiche, i borghi sul mare e i percorsi all'aperto:"
-  },
-  {
-    name: "mangiare",
-    triggers: ["mangiare","cena","cenare","pranzo","focaccia","farinata","cioccolato","dolce","gelato","bottega","assaggiare","fame","sciamadda"],
-    boostTerms: ["farinata","cioccolato","confetteria","mog","mercato","friggitoria","forno","pasticceria","bottega"],
-    cats: ["laboratorio","ritrovo"],
-    banner: "Ecco botteghe storiche, sciamadde, cioccolaterie e posti dove mangiare qualcosa di tipico:"
-  },
-  {
-    name: "musica_teatro",
-    triggers: ["musica","concerto","concerti","live","jazz","teatro","spettacolo","spettacoli","stand up","comedy","opera"],
-    boostTerms: ["concerto","jazz","live","teatro","tosse","claque","count basie","modena","duse","camogli","carlo felice","politeama"],
-    cats: ["musica"],
-    banner: "Ecco concerti dal vivo, jazz club e spettacoli a teatro di questa settimana:"
-  }
+  { name:"ballare", triggers:["ballare","ballo","balla","danzare","danza","discoteca","dj","djset","club","milonga","tango","swing","lindy","blues dance","salsa","latino","caraibico","pista","movida"], boostTerms:["ballare","ballo","swing","lindy","blues dance","milonga","tango","dj","claque","count basie","luzzati","zenaswingers","circolo vega","mog"], cats:["musica","ritrovo"], banner:"Locali e serate dove ballare:" },
+  { name:"bere", triggers:["bere","aperitivo","aperitivi","calice","vino","birra","cocktail","drink","pub","enoteca","spritz","caruggi","vicoli","chiacchierare"], boostTerms:["aperitivo","vino","birra","cocktail","bar","luzzati","mog","mercato orientale","carmine","caruggi","ritrovo","caff","sciamadda","viganotti"], cats:["ritrovo","musica","laboratorio"], banner:"Aperitivi e locali nei caruggi:" },
+  { name:"pioggia", triggers:["piove","pioggia","diluvia","coperto","interno","freddo","brutto tempo","chiuso"], boostTerms:["indoor","cinema","mostra","museo","palazzo","biblioteca","teatro","mercato"], cats:["cinema","mostra","biblioteca","musica","laboratorio"], indoorOnly:true, banner:"Proposte al coperto:" },
+  { name:"cinema", triggers:["film","cinema","proiezione","proiezioni","pellicola","sottotitoli","lingua originale","sala"], boostTerms:["cinema","sivori","america","odeon","nickelodeon","film","proiezioni"], cats:["cinema"], banner:"Cinema in programmazione:" },
+  { name:"mostra", triggers:["mostra","mostre","museo","musei","arte","quadri","fotografia","esposizione","palazzo","rolli"], boostTerms:["mostra","museo","palazzo","ducale","strada nuova","reale","spinola","galata","castello","nervi"], cats:["mostra"], banner:"Mostre e musei:" },
+  { name:"passeggiata", triggers:["passeggiata","passeggiare","camminare","mare","vista","panorama","tramonto","aperto","sole","parco","borgo","boccadasse","nervi","castelletto","righi","trekking"], boostTerms:["passeggiata","mare","belvedere","boccadasse","nervi","castelletto","righi","acquedotto","parco","borgo"], cats:["passeggiata","altro"], banner:"Passeggiate e percorsi all'aperto:" },
+  { name:"mangiare", triggers:["mangiare","cena","cenare","pranzo","focaccia","farinata","cioccolato","dolce","gelato","bottega","assaggiare","fame","sciamadda"], boostTerms:["farinata","cioccolato","confetteria","mog","mercato","friggitoria","forno","pasticceria","bottega"], cats:["laboratorio","ritrovo"], banner:"Botteghe storiche e sapori:" }
 ];
 
-function analyzeQuery(raw) {
-  const q = norm(raw).replace(/[?!.,;:()"']/g, " ").replace(/\s+/g, " ").trim();
-  if (!q) return null;
-
-  const todayIdx = new Date().getDay();
-  const todayName = DAYS[todayIdx];
-  const tomorrowName = DAYS[(todayIdx + 1) % 7];
-
+function analyzeQuery(qRaw) {
+  const nq = norm(qRaw);
+  if (!nq) return null;
+  const matchedIntents = INTENTS.filter(it => it.triggers.some(t => nq.includes(norm(t))));
+  const now = new Date();
   let targetDay = null;
-  let wantEvening = /\b(stasera|sera|serata|notte|dopocena)\b/.test(q);
-  if (/\b(stasera|oggi)\b/.test(q)) targetDay = todayName;
-  else if (/\bdomani\b/.test(q)) targetDay = tomorrowName;
+  if (/\boggi\b|\bstasera\b|\bstanotte\b/.test(nq)) targetDay = DAYS[now.getDay()];
+  else if (/\bdomani\b/.test(nq)) targetDay = DAYS[(now.getDay() + 1) % 7];
   else {
-    for (const d of DAYS) {
-      if (q.includes(d)) { targetDay = d; break; }
-    }
+    for (const d of DAYS) if (nq.includes(d)) { targetDay = d; break; }
   }
-  const wantWeekend = /\b(weekend|fine settimana)\b/.test(q);
-
-  const matchedIntents = INTENTS.filter(it => it.triggers.some(tr => q.includes(norm(tr))));
-  const words = q.split(" ").filter(w => w.length > 2 && !STOP.has(w));
-
-  return { q, targetDay, wantEvening, wantWeekend, matchedIntents, words };
+  const wantEvening = /\b(stasera|sera|serata|notte|tardi|dopo cena)\b/.test(nq);
+  const wantWeekend = /\b(weekend|fine settimana)\b/.test(nq);
+  const words = nq.split(/[^a-z0-9]+/).filter(w => w.length >= 2 && !STOP.has(w));
+  return { nq, matchedIntents, targetDay, wantEvening, wantWeekend, words };
 }
 
 function scoreItem(d, info) {
-  if (!info) return 1;
-  const hay = norm([
-    d.title, d.place, d.day_time, d.description, d.category,
-    ...(d.tags || []),
-    ...(d.programma || []).map(p => `${p.titolo} ${p.quando}`)
-  ].join(" "));
-  const progHay = norm((d.programma || []).map(p => `${p.titolo} ${p.quando}`).join(" "));
+  const progText = (d.programma || []).map(p => `${p.titolo} ${p.quando}`).join(" ");
+  const hay = norm(`${d.title} ${d.place} ${d.description} ${d.day_time} ${(d.tags||[]).join(" ")} ${progText}`);
+  const progHay = norm(progText);
   const dtHay = norm(d.day_time);
 
-  let score = 0;
-
   if (info.matchedIntents.length > 0) {
+    let score = 0;
     for (const it of info.matchedIntents) {
       if (it.indoorOnly && d.outdoor) return 0;
       let intentHits = 0;
-      for (const b of it.boostTerms) {
-        if (hay.includes(norm(b))) intentHits += 3;
-      }
-      if ((d.tags || []).some(t => it.triggers.includes(norm(t)) || it.boostTerms.includes(norm(t)))) {
-        intentHits += 8;
-      }
+      for (const term of it.boostTerms) if (hay.includes(norm(term))) intentHits += 4;
       if (it.cats.includes(d.category)) intentHits += 2;
-      if (it.name === "ballare" && intentHits < 3) continue;
+      if (intentHits === 0) return 0;
       score += intentHits;
     }
     if (score === 0) return 0;
@@ -307,87 +557,112 @@ function scoreItem(d, info) {
 
   for (const w of info.words) {
     const isIntentWord = info.matchedIntents.some(it => it.triggers.some(tr => norm(tr).includes(w) || w.includes(norm(tr))));
-    if (hay.includes(w)) {
-      score += 5;
-    } else if (!isIntentWord && info.matchedIntents.length === 0) {
-      return 0;
-    }
+    if (hay.includes(w)) score += 5;
+    else if (!isIntentWord && info.matchedIntents.length === 0) return 0;
   }
-
-  if (info.matchedIntents.length === 0 && info.words.length === 0) {
-    // Query was only time-based like "cosa c'è stasera?" or "oggi"
-    score = 2;
-  }
-
+  if (info.matchedIntents.length === 0 && info.words.length === 0) score = 2;
   if (info.targetDay) {
     if (progHay.includes(info.targetDay)) score += 6;
     if (dtHay.includes(info.targetDay) || dtHay.includes("tutti i giorni")) score += 2;
     if (dtHay.includes(`${info.targetDay} chiuso`)) return 0;
   }
-  if (info.wantWeekend) {
-    if (progHay.includes("venerdi") || progHay.includes("sabato") || progHay.includes("domenica")) score += 5;
-  }
-  if (info.wantEvening) {
-    if (d.time_slot === "sera" || hay.includes("21:") || hay.includes("20:") || hay.includes("24:00") || hay.includes("serale")) {
-      score += 4;
-    }
-  }
+  if (info.wantWeekend && (progHay.includes("venerdi") || progHay.includes("sabato") || progHay.includes("domenica"))) score += 5;
+  if (info.wantEvening && (d.time_slot === "sera" || hay.includes("21:") || hay.includes("20:") || hay.includes("serale"))) score += 4;
   if ((d.programma || []).length > 0) score += 2;
-
   return score;
 }
 
-function chips() {
-  const cats = ["tutto", ...Object.keys(LABEL).filter(k => DATA.some(d => d.category === k))];
-  document.getElementById("chips").innerHTML = cats.map(k =>
-    `<button class="chip ${k===cat?'on':''}" data-k="${k}">${k==="tutto" ? "Tutto" : LABEL[k]}</button>`).join("");
-  document.querySelectorAll(".chip").forEach(b => b.onclick = () => { cat = b.dataset.k; syncUrl(); chips(); render(); });
+function matchesMacroCat(itemCat, macroId) {
+  if (macroId === "tutto") return true;
+  if (macroId === "cinema") return itemCat === "cinema";
+  if (macroId === "mostra") return itemCat === "mostra";
+  if (macroId === "musica_teatro") return itemCat === "musica";
+  if (macroId === "altro_macro") return !["cinema", "mostra", "musica"].includes(itemCat);
+  return itemCat === macroId;
+}
+
+function renderPills() {
+  document.getElementById("pills").innerHTML = MACRO_CATS.map(c =>
+    `<button class="pill ${c.id === cat ? 'on' : ''}" data-k="${c.id}" type="button">${c.label}</button>`
+  ).join("");
+  document.querySelectorAll(".pill").forEach(b => b.onclick = () => {
+    cat = b.dataset.k;
+    syncUrl();
+    renderPills();
+    render();
+  });
 }
 
 function render() {
   const info = analyzeQuery(query);
   const ansEl = document.getElementById("ans");
-  let items = DATA.filter(d => {
-    if (cat !== "tutto" && d.category !== cat) return false;
-    if (zoneFilter && !norm(d.place).includes(zoneFilter)) return false;
-    return true;
-  });
+  let pool = DATA.filter(d => matchesMacroCat(d.category, cat));
+  let hiddenAlwaysOpen = 0;
 
   if (info) {
-    const scored = items
-      .map(d => ({ d, s: scoreItem(d, info) }))
-      .filter(x => x.s > 0)
-      .sort((a, b) => b.s - a.s);
-    items = scored.map(x => x.d);
-
-    let msg = "";
-    if (info.matchedIntents.length > 0) {
-      msg = info.matchedIntents[0].banner;
-    } else if (info.targetDay || info.wantEvening) {
-      msg = `Ecco le proposte attive ${info.wantEvening ? "per la sera" : ""} (${items.length} trovate):`;
-    } else {
-      msg = `Risultati per "${query.trim()}" (${items.length} proposte):`;
-    }
-    ansEl.textContent = items.length ? msg : `Nessun risultato esatto per "${query.trim()}". Prova a cliccare su "Tutto" o a cercare ad esempio "ballare", "cinema", "piove" o "aperitivo".`;
+    const scored = pool.map(d => ({ d, s: scoreItem(d, info) })).filter(x => x.s > 0).sort((a, b) => b.s - a.s);
+    pool = scored.map(x => x.d);
+    ansEl.textContent = pool.length
+      ? (info.matchedIntents.length ? info.matchedIntents[0].banner : `${pool.length} proposte trovate`)
+      : `Nessuna proposta per "${query.trim()}".`;
     ansEl.classList.add("show");
   } else {
     ansEl.classList.remove("show");
+    const withProg = pool.filter(d => (d.programma || []).length > 0);
+    const alwaysOpen = pool.filter(d => (d.programma || []).length === 0);
+    if (!showAlwaysOpen && withProg.length > 0) {
+      hiddenAlwaysOpen = alwaysOpen.length;
+      pool = withProg;
+    }
   }
 
-  document.getElementById("list").innerHTML = items.map(d => {
-    const prog = (d.programma || []).length
-      ? `<div class="prog"><b>In programma</b><ul>${d.programma.map(p => `<li>${esc(p.titolo)} <span>${esc(p.quando)}</span></li>`).join("")}</ul></div>` : "";
+  document.getElementById("list").innerHTML = pool.map(d => {
+    const progs = d.programma || [];
+    const showAll = expandedProg.has(d.id);
+    const shown = showAll ? progs : progs.slice(0, 3);
+    const progHtml = shown.length
+      ? `<ul class="prog">${shown.map(p => `<li>${esc(p.titolo)} <span>${esc(p.quando)}</span></li>`).join("")}</ul>`
+        + (progs.length > 3 ? `<button type="button" class="more-prog" data-more="${esc(d.id)}">${showAll ? "Mostra meno" : `Vedi tutto il programma (+${progs.length - 3})`}</button>` : "")
+      : "";
     const safeHref = /^https?:\/\//i.test(String(d.url || "").trim()) ? d.url.trim() : "";
+    const catName = LABEL[d.category] || d.category;
     return `<label class="card ${sel.has(d.id)?'sel':''}" data-id="${esc(d.id)}" role="checkbox" aria-checked="${sel.has(d.id)?'true':'false'}" tabindex="0">
-      <input type="checkbox" ${sel.has(d.id)?'checked':''} aria-label="Scegli ${esc(d.title)}">
-      <div><div class="t">${esc(d.title)}</div>
+      <div class="card-content">
+        <div class="cat-kicker">${esc(catName)}</div>
+        <div class="t">${esc(d.title)}</div>
         <div class="m">${esc(d.place)}</div>
-        <div class="m time">${esc(d.day_time)}</div>
-        ${d.description ? `<div class="d">${esc(d.description)}</div>` : ""}
-        ${prog}
+        ${d.day_time ? `<div class="m">${esc(d.day_time)}</div>` : ""}
+        ${(!progs.length && d.description) ? `<div class="d">${esc(d.description)}</div>` : ""}
+        ${progHtml}
         ${safeHref ? `<a class="src" href="${esc(safeHref)}" target="_blank" rel="noopener">Sito ufficiale</a>` : ""}
-      </div></label>`;
+      </div>
+      <input type="checkbox" ${sel.has(d.id)?'checked':''} aria-label="Scegli ${esc(d.title)}">
+    </label>`;
   }).join("");
+
+  const moreWrap = document.getElementById("moreWrap");
+  if (!info && (hiddenAlwaysOpen > 0 || showAlwaysOpen)) {
+    moreWrap.innerHTML = showAlwaysOpen
+      ? `<button type="button" class="more-places" id="toggleAlwaysOpen">Mostra solo la programmazione della settimana</button>`
+      : `<button type="button" class="more-places" id="toggleAlwaysOpen">Mostra anche luoghi sempre aperti (+${hiddenAlwaysOpen})</button>`;
+    document.getElementById("toggleAlwaysOpen").onclick = () => {
+      showAlwaysOpen = !showAlwaysOpen;
+      render();
+    };
+  } else {
+    moreWrap.innerHTML = "";
+  }
+
+  document.querySelectorAll(".more-prog").forEach(btn => {
+    btn.onclick = e => {
+      e.preventDefault();
+      e.stopPropagation();
+      const id = btn.dataset.more;
+      expandedProg.has(id) ? expandedProg.delete(id) : expandedProg.add(id);
+      render();
+    };
+  });
+
   document.querySelectorAll(".card").forEach(c => {
     const toggle = () => {
       const id = c.dataset.id;
@@ -396,11 +671,20 @@ function render() {
       render(); bar();
     };
     c.onclick = e => {
-      if (e.target.tagName === "A") return;
+      if (e.target.tagName === "A" || e.target.tagName === "BUTTON") return;
+      if (e.target.tagName === "INPUT") {
+        // Checkbox inside label already toggles via browser; sync state cleanly
+        const id = c.dataset.id;
+        e.target.checked ? sel.add(id) : sel.delete(id);
+        persistSel();
+        render(); bar();
+        return;
+      }
+      e.preventDefault();
       toggle();
     };
     c.onkeydown = e => {
-      if (e.target.tagName === "A" || e.target.tagName === "INPUT") return;
+      if (e.target.tagName === "A" || e.target.tagName === "BUTTON" || e.target.tagName === "INPUT") return;
       if (e.key === " " || e.key === "Enter") {
         e.preventDefault();
         toggle();
@@ -416,16 +700,9 @@ function cleanPlain(s) {
 function message() {
   const chosen = DATA.filter(d => sel.has(d.id));
   if (!chosen.length) return "";
-  const openers = {
-    amichevole: chosen.length === 1
-      ? "Ho visto questa cosa a Genova questa settimana, se ti va:"
-      : "Ti lascio un paio di idee carine per questa settimana a Genova:",
-    weekend: chosen.length === 1
-      ? "Idea per questo fine settimana a Genova:"
-      : "Un paio di idee per questo fine settimana a Genova:",
-    minimal: "Idee Genova questa settimana:"
-  };
-  const head = openers[tone] || openers.amichevole;
+  const head = chosen.length === 1
+    ? "Ho visto questa cosa a Genova questa settimana, se ti va:"
+    : "Ti lascio un paio di idee per questa settimana a Genova:";
   const body = chosen.map(d => {
     const p = (d.programma || [])[0];
     const when = p ? `${cleanPlain(p.titolo)}, ${cleanPlain(p.quando)}` : cleanPlain(d.day_time);
@@ -434,8 +711,8 @@ function message() {
     if (safeHref) lines.push(`  Info: ${safeHref}`);
     return lines.join("\n");
   }).join("\n\n");
-  const tail = tone === "minimal" ? "" : (chosen.length === 1 ? "\n\nDimmi se ti ispira!" : "\n\nDimmi se ti ispira qualcosa!");
-  return `${head}\n\n${body}${tail}`;
+  const tail = chosen.length === 1 ? "Dimmi se ti ispira!" : "Dimmi se ti ispira qualcosa!";
+  return `${head}\n\n${body}\n\n${tail}`;
 }
 
 function getMessageText() {
@@ -455,85 +732,29 @@ function bar() {
   if (ed) ed.value = message();
 }
 
-function downloadIcs() {
-  const chosen = DATA.filter(d => sel.has(d.id));
-  if (!chosen.length) return;
-  const now = new Date();
-  const fmtDt = dt => dt.toISOString().replace(/[-:]/g, "").slice(0, 15) + "Z";
-  const start = new Date(now.getTime() + 86400000);
-  start.setUTCHours(18, 0, 0, 0);
-  const events = chosen.map((d, idx) => {
-    const dtStart = new Date(start.getTime() + idx * 3600000);
-    const dtEnd = new Date(dtStart.getTime() + 7200000);
-    const desc = cleanPlain(`${d.place} | ${d.day_time} | ${d.url || ""}`).replace(/,/g, "\\,");
-    return [
-      "BEGIN:VEVENT",
-      `UID:genova-civica-${esc(d.id)}-${now.getTime()}@genova`,
-      `DTSTAMP:${fmtDt(now)}`,
-      `DTSTART:${fmtDt(dtStart)}`,
-      `DTEND:${fmtDt(dtEnd)}`,
-      `SUMMARY:${cleanPlain(d.title).replace(/,/g, "\\,")}`,
-      `LOCATION:${cleanPlain(d.place).replace(/,/g, "\\,")}`,
-      `DESCRIPTION:${desc}`,
-      "END:VEVENT"
-    ].join("\r\n");
-  });
-  const ics = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Genova Civica//IT", ...events, "END:VCALENDAR"].join("\r\n");
-  const blob = new Blob([ics], { type: "text/calendar;charset=utf-8" });
-  const a = document.createElement("a");
-  a.href = URL.createObjectURL(blob);
-  a.download = "genova-programma.ics";
-  a.click();
-  setTimeout(() => URL.revokeObjectURL(a.href), 1000);
-}
-
 const qIn = document.getElementById("q");
-const qClr = document.getElementById("qclr");
-function setQuery(val) {
-  query = val;
-  qIn.value = val;
-  qClr.classList.toggle("show", Boolean(val));
-  document.querySelectorAll(".pr").forEach(b => b.classList.toggle("on", b.dataset.q === val));
-  if (val && cat !== "tutto") { cat = "tutto"; chips(); }
+qIn.oninput = e => {
+  query = e.target.value;
+  if (query && cat !== "tutto") { cat = "tutto"; renderPills(); }
   syncUrl();
   render();
-}
-qIn.oninput = e => setQuery(e.target.value);
-qClr.onclick = () => { setQuery(""); qIn.focus(); };
-document.querySelectorAll(".pr").forEach(b => b.onclick = () => setQuery(query === b.dataset.q ? "" : b.dataset.q));
+};
 
-const zoneSelEl = document.getElementById("zoneSel");
-if (zoneSelEl) {
-  zoneSelEl.value = zoneFilter;
-  zoneSelEl.onchange = () => { zoneFilter = zoneSelEl.value; syncUrl(); render(); };
-}
-document.getElementById("toneSel").onchange = e => { tone = e.target.value; bar(); };
 document.getElementById("togglePreview").onclick = () => {
   const box = document.getElementById("previewBox");
   box.classList.toggle("open");
   if (box.classList.contains("open")) document.getElementById("msgEdit").value = message();
 };
-document.getElementById("clearSel").onclick = () => { sel.clear(); persistSel(); render(); bar(); };
-document.getElementById("saveIcs").onclick = downloadIcs;
-document.getElementById("copyLink").onclick = async () => {
-  const p = new URLSearchParams();
-  if (cat && cat !== "tutto") p.set("cat", cat);
-  if (query.trim()) p.set("q", query.trim());
-  if (zoneFilter) p.set("zone", zoneFilter);
-  if (sel.size) p.set("sel", Array.from(sel).join(","));
-  const link = `${location.origin}${location.pathname}?${p.toString()}`;
-  try { await navigator.clipboard.writeText(link); document.getElementById("copyLink").textContent = "Link copiato"; }
-  catch { prompt("Copia link:", link); }
-  setTimeout(() => document.getElementById("copyLink").textContent = "Copia link", 1500);
-};
 document.getElementById("send").onclick = () => window.open("https://wa.me/?text=" + encodeURIComponent(getMessageText()), "_blank");
 document.getElementById("copy").onclick = async () => {
   try { await navigator.clipboard.writeText(getMessageText()); document.getElementById("copy").textContent = "Copiato"; }
   catch { prompt("Copia il testo:", getMessageText()); }
-  setTimeout(() => document.getElementById("copy").textContent = "Copia", 1500);
+  setTimeout(() => document.getElementById("copy").textContent = "Copia testo", 1500);
 };
-if (query) { qIn.value = query; qClr.classList.add("show"); }
-chips(); render(); bar();
+
+if (query) qIn.value = query;
+renderPills(); render(); bar();
+
 if (location.protocol.startsWith("http")) {
   fetch("./data/events.json")
     .then(r => r.ok ? r.json() : null)
@@ -552,21 +773,7 @@ if (location.protocol.startsWith("http")) {
         outdoor: Boolean(r.outdoor),
         time_slot: r.time_slot || "flessibile"
       }));
-      chips(); render(); bar();
-    })
-    .catch(() => {});
-  fetch("https://api.open-meteo.com/v1/forecast?latitude=44.4056&longitude=8.9463&current=temperature_2m,precipitation,wind_speed_10m,weather_code&timezone=Europe%2FRome")
-    .then(r => r.ok ? r.json() : null)
-    .then(w => {
-      const c = w && w.current;
-      const wb = document.getElementById("weather-bar");
-      if (!c || !wb) return;
-      const rain = Number(c.precipitation || 0) > 0;
-      const windy = Number(c.wind_speed_10m || 0) >= 30;
-      wb.innerHTML = `<span>Genova ora (Open-Meteo): <strong>${Math.round(c.temperature_2m)}°C</strong> · Vento ${Math.round(c.wind_speed_10m)} km/h${rain ? " · Pioggia in corso" : ""}</span>`
-        + ((rain || windy) ? ` <button type="button" class="weather-alert" id="btn-indoor-weather">Mostra solo al coperto</button>` : "");
-      const btn = document.getElementById("btn-indoor-weather");
-      if (btn) btn.onclick = () => setQuery("dove andiamo se piove?");
+      renderPills(); render(); bar();
     })
     .catch(() => {});
 }
@@ -577,48 +784,46 @@ __PWA_SW__
 """
 
 
-def _dedupe(options):
-    """Una scheda per luogo+url: tiene quella con più programma o descrizione."""
-    best = {}
-    for o in options:
-        v_slug = "".join(ch for ch in (o.venue or "").lower() if ch.isalnum())[:18]
-        key = (o.verified_url.rstrip("/").lower(), o.category.value, v_slug)
-        score = len(o.raw_metadata.get("programma") or []) * 10 + len(o.description or "")
-        if key not in best or score > best[key][0]:
-            best[key] = (score, o)
-    return [v[1] for v in best.values()]
-
-
 def build(out_dir: Path) -> Path:
     options = get_weekly_catalog(live_verify=True)
     attach_programmes(options)
     options = _dedupe(options)
-    options.sort(key=lambda o: (CAT_ORDER.index(o.category.value) if o.category.value in CAT_ORDER else 99,
-                                0 if o.raw_metadata.get("programma") else 1, o.title))
+    options.sort(
+        key=lambda o: (
+            CAT_ORDER.index(o.category.value) if o.category.value in CAT_ORDER else 99,
+            0 if o.raw_metadata.get("programma") else 1,
+            o.title,
+        )
+    )
     data = []
     for o in options:
-        place = o.venue if o.venue.lower() in o.title.lower() else o.venue
+        place = o.venue
         zone = (o.zone or "").replace("_", " ").title()
         data.append({
-            "id": o.id, "category": o.category.value, "title": o.title,
+            "id": o.id,
+            "category": o.category.value,
+            "title": o.title,
             "place": ", ".join(x for x in (o.address or place, zone) if x),
-            "day_time": o.day_time, "description": o.description,
-            "url": o.verified_url, "programma": o.raw_metadata.get("programma") or [],
-            "tags": o.tags or [], "outdoor": bool(o.is_weather_dependent),
+            "day_time": o.day_time,
+            "description": o.description,
+            "url": o.verified_url,
+            "programma": o.raw_metadata.get("programma") or [],
+            "tags": o.tags or [],
+            "outdoor": bool(o.is_weather_dependent),
             "time_slot": o.time_slot or "flessibile",
         })
     today = date.today()
     end = today + timedelta(days=7)
     rng = f"Dal {today.day} {MESI[today.month-1]} al {end.day} {MESI[end.month-1]}"
-    page = (PAGE.replace("__SHARED_NAV_CSS__", SHARED_NAV_CSS)
-                .replace("__SHARED_NAV__", render_shared_nav("index"))
-                .replace("__PWA_HEAD__", PWA_HEAD_HTML)
-                .replace("__PWA_SW__", PWA_SW_SCRIPT)
-                .replace("__ATTRIBUTION__", html.escape(OPEN_DATA_ATTRIBUTION_TEXT))
-                .replace("__DATA__", safe_json_for_script(data))
-                .replace("__LABELS__", safe_json_for_script(CAT_LABEL))
-                .replace("__RANGE__", html.escape(rng))
-                .replace("__UPDATED__", f"{today.day} {MESI[today.month-1]} {today.year}"))
+    page = (
+        PAGE.replace("__PWA_HEAD__", PWA_HEAD_HTML)
+        .replace("__PWA_SW__", PWA_SW_SCRIPT)
+        .replace("__ATTRIBUTION__", html.escape(OPEN_DATA_ATTRIBUTION_TEXT))
+        .replace("__DATA__", safe_json_for_script(data))
+        .replace("__LABELS__", safe_json_for_script(CAT_LABEL))
+        .replace("__RANGE__", html.escape(rng))
+        .replace("__UPDATED__", f"{today.day} {MESI[today.month-1]} {today.year}")
+    )
     out_dir.mkdir(parents=True, exist_ok=True)
     target = out_dir / "index.html"
     target.write_text(page, encoding="utf-8")

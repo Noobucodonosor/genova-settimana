@@ -72,24 +72,6 @@
     ]
   },
   {
-    "id": "tl_46_altro",
-    "title": "Funivia Panoramica & Santuario di Montallegro (612 m)",
-    "venue": "Funivia Panoramica & Santuario di Montallegro",
-    "address": "Stazione Funivia a 7 min a piedi dalla Stazione FS di Rapallo (o in auto)",
-    "district": "Tigullio Occ",
-    "category": "altro",
-    "summary": "L'unica funivia della Liguria ti solleva in 7 minuti dal livello del mare a 612 metri sopra l'intero Golfo del Tigullio, tra leccete secolari e trattorie...",
-    "showtimes": [],
-    "day_time": "Tutti i giorni 08:30/09:00 - 16:30/18:30 (Funivia soggetta a vento/manutenzione periodica)",
-    "url": "https://santuariodimontallegro.com/",
-    "outdoor": false,
-    "time_slot": "pomeriggio",
-    "tags": [
-      "abbazia",
-      "tigullio_occ"
-    ]
-  },
-  {
     "id": "tl_9_altro",
     "title": "Museo Diocesano & Chiostro Medievale di San Lorenzo",
     "venue": "Museo Diocesano & Chiostro Medievale di San Lorenzo",
@@ -97,7 +79,12 @@
     "district": "Centro",
     "category": "altro",
     "summary": "Tesoro 'salva-lunedì': un silenzioso chiostro romanico del XII secolo e i celebri Teli della Passione del '500 dipinti su fustagno indaco (gli antenati dei...",
-    "showtimes": [],
+    "showtimes": [
+      {
+        "titolo": "Oltremare. Genova e il blu: arte in viaggio tra Mediterraneo e Cina",
+        "quando": "in corso fino al 21 febbraio"
+      }
+    ],
     "day_time": "Lun 10:00-13:00 e 14:00-18:00; Mer-Dom 14:00-18:00; Mar chiuso (Aperto il Lunedì!)",
     "url": "https://www.museodiocesanogenova.it/",
     "outdoor": false,
@@ -151,7 +138,16 @@
     "district": "Centro",
     "category": "biblioteca",
     "summary": "La storica biblioteca centrale fondata dall'abate Berio nel Settecento: mostre bibliografiche, conferenze pomeridiane gratuite e caffetteria panoramica.",
-    "showtimes": [],
+    "showtimes": [
+      {
+        "titolo": "Percorsi di alfabetizzazione digitale per persone over 65 nell’ambito del progetto ColivingGenova2026",
+        "quando": "giovedì 26 novembre dalle ore 10:00 alle 11:30"
+      },
+      {
+        "titolo": "Incontro sull'utilizzo della biblioteca digitale MLOL",
+        "quando": "mercoledì 25 novembre dalle ore 11:00 alle ore 12:00"
+      }
+    ],
     "day_time": "Lun-Sab 08:00-19:00; Dom chiuso",
     "url": "https://www.bibliotechedigenova.it/",
     "outdoor": false,
@@ -169,7 +165,16 @@
     "district": "Centro",
     "category": "biblioteca",
     "summary": "La principale biblioteca civica cittadina nell'ex Seminario dei Chierici, con chiostro centrale alberato, emeroteca e caffetteria.",
-    "showtimes": [],
+    "showtimes": [
+      {
+        "titolo": "Percorsi di alfabetizzazione digitale per persone over 65 nell’ambito del progetto ColivingGenova2026",
+        "quando": "giovedì 26 novembre dalle ore 10:00 alle 11:30"
+      },
+      {
+        "titolo": "Incontro sull'utilizzo della biblioteca digitale MLOL",
+        "quando": "mercoledì 25 novembre dalle ore 11:00 alle ore 12:00"
+      }
+    ],
     "day_time": "Lunedì-Venerdì ore 08:00-19:00; Sabato ore 08:00-13:00",
     "url": "https://www.bibliotechedigenova.it/berio",
     "outdoor": false,
@@ -242,7 +247,16 @@
     "district": "Centro",
     "category": "biblioteca",
     "summary": "Affacciata sull'acqua del Porto Antico: la più grande biblioteca italiana per ragazzi e fumetto/illustrazione, con laboratori gratuiti.",
-    "showtimes": [],
+    "showtimes": [
+      {
+        "titolo": "Fiabe alla Biblioteca De Amicis con Michela Silvestri e i pupazzi di Mi racconti una storia?",
+        "quando": "sabato 28 novembre ore 10:30 (per bambini dai 3 ai 5 anni) e ore 15:30 (per bambini dai 6 anni)"
+      },
+      {
+        "titolo": "BIBI in Liguria. Ricerca, immaginari letterari, pratiche di lettura e alleanze educative",
+        "quando": "sabato 21 novembre ore 9-16"
+      }
+    ],
     "day_time": "Lun-Sab 09:00-19:00 (Sabato dedicato a bambini, ragazzi e famiglie)",
     "url": "https://www.bibliotechedigenova.it/",
     "outdoor": false,
@@ -260,7 +274,16 @@
     "district": "Porto Antico",
     "category": "biblioteca",
     "summary": "Spazio di lettura e consultazione situato sul molo dei Magazzini del Cotone con ampie vetrate affacciate sul porto.",
-    "showtimes": [],
+    "showtimes": [
+      {
+        "titolo": "Fiabe alla Biblioteca De Amicis con Michela Silvestri e i pupazzi di Mi racconti una storia?",
+        "quando": "sabato 28 novembre ore 10:30 (per bambini dai 3 ai 5 anni) e ore 15:30 (per bambini dai 6 anni)"
+      },
+      {
+        "titolo": "BIBI in Liguria. Ricerca, immaginari letterari, pratiche di lettura e alleanze educative",
+        "quando": "sabato 21 novembre ore 9-16"
+      }
+    ],
     "day_time": "Da lunedì a sabato ore 09:00-19:00",
     "url": "https://www.bibliotechedigenova.it/de-amicis",
     "outdoor": false,
@@ -315,7 +338,12 @@
     "district": "Centro",
     "category": "biblioteca",
     "summary": "Una villa rinascimentale affrescata da Luca Cambiaso circondata da un grande parco a terrazze di lecci: ingresso completamente gratuito.",
-    "showtimes": [],
+    "showtimes": [
+      {
+        "titolo": "Visita guidata gratuita a Villa Imperiale",
+        "quando": "lunedì 23 novembre dalle 11 alle 12:30"
+      }
+    ],
     "day_time": "Sale affrescate Lun-Ven 09:00-18:00; Parco di Villa Imperiale aperto tutti i giorni",
     "url": "https://www.bibliotechedigenova.it/",
     "outdoor": true,
@@ -326,26 +354,27 @@
     ]
   },
   {
-    "id": "tl_28_biblioteca",
-    "title": "Biblioteca Universitaria (Saloni dell'Ex Grand Hotel Colombia)",
+    "id": "biblioteca_universitaria",
+    "title": "Biblioteca Universitaria di Genova: Salone Storico di Via Balbi",
     "venue": "Biblioteca Universitaria",
-    "address": "Via Balbi 40: Proprio di fronte alla Stazione Piazza Principe",
-    "district": "Centro",
+    "address": "Via Balbi 40",
+    "district": "Principe",
     "category": "biblioteca",
-    "summary": "Leggere o visitare mostre gratuite nei saloni marmorei Art Déco dell'ex Grand Hotel Colombia che accoglieva i viaggiatori dei grandi transatlantici.",
+    "summary": "Spazio studio e ricerca nell'ex Hotel Colombia di fronte alla stazione Principe, con sale di consultazione aperte a tutti.",
     "showtimes": [],
-    "day_time": "Lun-Ven 08:30-18:30; Sab-Dom chiuso",
+    "day_time": "Da lunedì a venerdì ore 08:30-18:30",
     "url": "https://www.bibliotecauniversitaria.ge.it/",
     "outdoor": false,
     "time_slot": "pomeriggio",
     "tags": [
-      "biblioteca",
-      "centro"
+      "indoor",
+      "storico",
+      "studio"
     ]
   },
   {
     "id": "es_8_biblioteca",
-    "title": "Libreria Libraccio: Libreria (Nuovo, Scolastico E Usato)",
+    "title": "Libreria Libraccio",
     "venue": "Libreria Libraccio",
     "address": "Libreria Libraccio",
     "district": "Genova",
@@ -361,66 +390,35 @@
     ]
   },
   {
-    "id": "es_23_biblioteca",
-    "title": "Mondadori: Libreria (Nuovo, Scolastico E Usato)",
-    "venue": "Mondadori",
-    "address": "Via Venti Settembre 27 rosso",
-    "district": "Genova",
-    "category": "biblioteca",
-    "summary": "libri romanzi saggi testi scolastici",
-    "showtimes": [],
-    "day_time": "Mo-Sa 09:30-19:30; Su 10:00-19:00",
-    "url": "https://www.mondadoristore.it/negozi/libreria/mondadori-bookstore-genova/MXV120",
-    "outdoor": false,
-    "time_slot": "pomeriggio",
-    "tags": [
-      "libreria (nuovo, scolastico e usato)"
-    ]
-  },
-  {
-    "id": "es_15_biblioteca",
-    "title": "Sagep Editori: Libreria (Nuovo, Scolastico E Usato)",
-    "venue": "Sagep Editori",
-    "address": "Via David Chiossone 2/2",
-    "district": "Genova",
-    "category": "biblioteca",
-    "summary": "libri romanzi saggi testi scolastici",
-    "showtimes": [],
-    "day_time": "Mo-Fr 08:30-13:00,14:00-17:30",
-    "url": "https://www.sagep.it/",
-    "outdoor": false,
-    "time_slot": "pomeriggio",
-    "tags": [
-      "libreria (nuovo, scolastico e usato)"
-    ]
-  },
-  {
-    "id": "guida_3_cinema",
-    "title": "America: Programmazione Spettacoli",
-    "venue": "America",
-    "address": "Via Colombo 11",
-    "district": "Genova",
-    "category": "cinema",
-    "summary": "Programmazione, Eventi, Promozioni, Cinema, America, Ariston, City, Corallo, Odeon, Sivori, Splendor, Ducale, Quinto, Sul Mare, San Pietro, Newsletter, I...",
-    "showtimes": [],
-    "day_time": "lunedì, martedì, mercoledì, giovedì, venerdì, sabato, credito formativo, JE SO' PAZZO, 2026, ‧, Dramma, Musica, ‧, 1h 33m, 16:00, 18:45, 21:00, 16:00, 18:45, 21:00, 16:00, 18:45, 21:00, UN TRANQUILLO FUNERAL",
-    "url": "https://circuitocinemagenova.com/america/",
-    "outdoor": false,
-    "time_slot": "sera",
-    "tags": [
-      "cinema",
-      "Genova"
-    ]
-  },
-  {
     "id": "cineclub_nickelodeon",
-    "title": "Cineclub Nickelodeon: Rassegna Cineforum e Cinema di Ricerca",
+    "title": "Cineclub Nickelodeon",
     "venue": "Cineclub Nickelodeon",
     "address": "Via della Consolazione 5r",
     "district": "Centro",
     "category": "cinema",
     "summary": "Cineclub storico genovese dedicato al cinema d'autore, retrospettive cinematografiche e festival indipendenti.",
-    "showtimes": [],
+    "showtimes": [
+      {
+        "titolo": "Santiago - Un Cammino Per Ricominciare",
+        "quando": "sabato 21 novembre 18.30; domenica 22 novembre 16.00"
+      },
+      {
+        "titolo": "Digger",
+        "quando": "sabato 21 novembre 21.15; mercoledì 25 novembre 21.15"
+      },
+      {
+        "titolo": "Liebe, D-Mark Und Tod",
+        "quando": "domenica 22 novembre 18.30 Lingua originale sottotitolato"
+      },
+      {
+        "titolo": "Nas Ondas De Dorival Caymmi",
+        "quando": "domenica 22 novembre 20.10 Aperitivo / 21.00 Film Lingua originale sottotitolato"
+      },
+      {
+        "titolo": "Mama",
+        "quando": "lunedì 23 novembre 20.30 Lingua originale sottotitolato"
+      }
+    ],
     "day_time": "Martedì-Domenica ore 16:00 / 18:30 / 21:00",
     "url": "https://www.cineclubnickelodeon.it/",
     "outdoor": false,
@@ -433,13 +431,30 @@
   },
   {
     "id": "circuito_cinema_america",
-    "title": "Cinema America: Proiezioni d'Autore",
+    "title": "Cinema America",
     "venue": "Cinema America",
     "address": "Via Colombo 11",
     "district": "Centro / Foce",
     "category": "cinema",
     "summary": "Sala d'autore a pochi passi da Piazza Brignole, con proiezioni pomeridiane e serali del circuito indipendente.",
-    "showtimes": [],
+    "showtimes": [
+      {
+        "titolo": "Dune - Parte Tre",
+        "quando": "21:00"
+      },
+      {
+        "titolo": "Un Tranquillo Funerale Di Famiglia",
+        "quando": "oggi 18:30 21:00; domenica 15:45 18:30; lunedì 18:30 21:00"
+      },
+      {
+        "titolo": "Minotaur Nel Labirinto Del Potere",
+        "quando": "domenica 20:30; lunedì 15:45; martedì 15:45"
+      },
+      {
+        "titolo": "Il Rumore Delle Cose Nuove",
+        "quando": "oggi 18:45 21:15; domenica 16:00 18:45 21:15; lunedì 16:00 18:45 21:15"
+      }
+    ],
     "day_time": "Tutti i giorni ore 16:00 / 18:45 / 21:00",
     "url": "https://circuitocinemagenova.com/america/",
     "outdoor": false,
@@ -451,13 +466,34 @@
   },
   {
     "id": "circuito_cinema_odeon",
-    "title": "Cinema Odeon: Cinema e Cultura",
+    "title": "Cinema Odeon",
     "venue": "Cinema Odeon",
     "address": "Corso Buenos Aires 83",
     "district": "Foce / Albaro",
     "category": "cinema",
     "summary": "Polo cinematografico della Foce con programmazione settimanale di cinema italiano e internazionale contemporaneo.",
-    "showtimes": [],
+    "showtimes": [
+      {
+        "titolo": "Il Gatto Col Cappello",
+        "quando": "domenica 16:00"
+      },
+      {
+        "titolo": "Scrooge E Gli Spiriti Del Natale",
+        "quando": "oggi 18:30 21:00; domenica 18:00; lunedì 18:30 21:00"
+      },
+      {
+        "titolo": "Ebenezer - Scrooge E Gli Spiriti Del Natale - V.O.",
+        "quando": "domenica 21:00"
+      },
+      {
+        "titolo": "Hunger Games L'Alba Sulla Mietitura",
+        "quando": "oggi 18:30 21:30; domenica 15:30 18:30; lunedì 18:30 21:30"
+      },
+      {
+        "titolo": "Hunger Games: Sunrise On The Reaping - Hunger Games: L'Alba Sulla Mietitura - V.O.",
+        "quando": "domenica 21:30"
+      }
+    ],
     "day_time": "Tutti i giorni ore 16:00 / 18:30 / 21:15",
     "url": "https://circuitocinemagenova.com/odeon/",
     "outdoor": false,
@@ -467,26 +503,60 @@
     ]
   },
   {
-    "id": "guida_7_cinema",
-    "title": "Cinema Sivori: Programmazione Spettacoli",
+    "id": "circuito_cinema_sivori",
+    "title": "Cinema Sivori",
     "venue": "Cinema Sivori",
-    "address": "Salita di Santa Caterina 12r, 16123, Genova",
-    "district": "Genova",
+    "address": "Salita Santa Caterina 12",
+    "district": "Centro",
     "category": "cinema",
-    "summary": "Programmazione, Eventi, Promozioni, Cinema, America, Ariston, City, Corallo, Odeon, Sivori, Splendor, Ducale, Quinto, Sul Mare, San Pietro, Newsletter, I...",
-    "showtimes": [],
-    "day_time": "lunedì, martedì, mercoledì, giovedì, venerdì, sabato, credito formativo, NAZA, 2026, ‧, Documentario, ‧, 1h 20m, 21:15, 21:15, 21:15, credito formativo, DIO RIDE, 2026, ‧, Commedia, Dramma, ‧, 1h 54m, 16",
+    "summary": "Lo storico cinema d'essai nel cuore della città, con film d'autore in lingua originale sottotitolata e rassegne tematiche.",
+    "showtimes": [
+      {
+        "titolo": "Dio Ride",
+        "quando": "oggi 18:30 21:00; domenica 15:30 18:00 20:30; lunedì 16:00 18:30 21:00"
+      },
+      {
+        "titolo": "Se Domani Non Torno",
+        "quando": "oggi 16:15 18:30 21:00; domenica 16:00 18:15 20:30; lunedì 16:15 18:30 21:00"
+      },
+      {
+        "titolo": "En El Camino",
+        "quando": "martedì 21:00"
+      },
+      {
+        "titolo": "Pillion - Amore Senza Freni - Vm18",
+        "quando": "21:00"
+      },
+      {
+        "titolo": "L'Ereditiera",
+        "quando": "domenica 11:00"
+      },
+      {
+        "titolo": "La Storia Infinita - Con Colazione",
+        "quando": "domenica 10:30"
+      },
+      {
+        "titolo": "I Protagonisti Dell'Arte - I Documentari Di Yuri Ancarini - Evento Con Ospiti",
+        "quando": "20:15"
+      },
+      {
+        "titolo": "Zustissia - Al Cinema Con Te'",
+        "quando": "martedì 15:30"
+      }
+    ],
+    "day_time": "Da martedì a domenica ore 16:00 / 18:30 / 21:15",
     "url": "https://circuitocinemagenova.com/sivori/",
     "outdoor": false,
     "time_slot": "sera",
     "tags": [
-      "edificio",
-      "Genova"
+      "indoor",
+      "lingua_originale",
+      "essai"
     ]
   },
   {
     "id": "club_amici_del_cinema",
-    "title": "Club Amici del Cinema: Rassegna d'Essai di Quartiere",
+    "title": "Club Amici del Cinema",
     "venue": "Club Amici del Cinema",
     "address": "Via Carlo Rolando 15",
     "district": "Sampierdarena",
@@ -500,60 +570,6 @@
     "tags": [
       "indoor",
       "cineclub"
-    ]
-  },
-  {
-    "id": "guida_12_cinema",
-    "title": "Nickelodeon: Programmazione Spettacoli",
-    "venue": "Nickelodeon",
-    "address": "Via della Consolazione 5 rosso",
-    "district": "Genova",
-    "category": "cinema",
-    "summary": "Programmazione, Nickelodeon, Associazione Cineguida, Il nostro cinema, Rassegne, News, Contatti, Oggi in sala, DOV’È LA FIESTA?, 16; Eventi e Rassegne...",
-    "showtimes": [],
-    "day_time": "Orari, Film, venerdì, 16.00 / 18; sabato, 18.30 / 21; domenica, 16.00 / 18",
-    "url": "http://www.cineclubnickelodeon.it/",
-    "outdoor": false,
-    "time_slot": "sera",
-    "tags": [
-      "cinema",
-      "Genova"
-    ]
-  },
-  {
-    "id": "guida_14_cinema",
-    "title": "Odeon: Programmazione Spettacoli",
-    "venue": "Odeon",
-    "address": "Odeon",
-    "district": "Genova",
-    "category": "cinema",
-    "summary": "Programmazione, Eventi, Promozioni, Cinema, America, Ariston, City, Corallo, Odeon, Sivori, Splendor, Ducale, Quinto, Sul Mare, San Pietro, Newsletter, I...",
-    "showtimes": [],
-    "day_time": "lunedì, martedì, mercoledì, giovedì, venerdì, sabato, ANTEPRIMA, DUNE: PARTE TRE, 2026, ‧, Avventura, Fantascienza, ‧, 2h 20m, 21:00, L'ESTRANEA, 2026, ‧, Thriller, Dramma, ‧, 1h 55m, 16:00, 18:30, 21:15",
-    "url": "https://circuitocinemagenova.com/odeon/",
-    "outdoor": false,
-    "time_slot": "sera",
-    "tags": [
-      "cinema",
-      "Genova"
-    ]
-  },
-  {
-    "id": "guida_19_cinema",
-    "title": "Sìvori: Programmazione Spettacoli",
-    "venue": "Sìvori",
-    "address": "Salita di Santa Caterina 12r, 16123, Genova",
-    "district": "Genova",
-    "category": "cinema",
-    "summary": "Programmazione, Eventi, Promozioni, Cinema, America, Ariston, City, Corallo, Odeon, Sivori, Splendor, Ducale, Quinto, Sul Mare, San Pietro, Newsletter, I...",
-    "showtimes": [],
-    "day_time": "lunedì, martedì, mercoledì, giovedì, venerdì, sabato, credito formativo, NAZA, 2026, ‧, Documentario, ‧, 1h 20m, 21:15, 21:15, 21:15, credito formativo, DIO RIDE, 2026, ‧, Commedia, Dramma, ‧, 1h 54m, 16",
-    "url": "https://circuitocinemagenova.com/sivori/",
-    "outdoor": false,
-    "time_slot": "sera",
-    "tags": [
-      "cinema",
-      "Genova"
     ]
   },
   {
@@ -611,78 +627,6 @@
     ]
   },
   {
-    "id": "tl_243_laboratorio",
-    "title": "Basquiat Lounge Bar",
-    "venue": "Basquiat Lounge Bar",
-    "address": "Raggiungibile in treno / mezzi pubblici (Sestri Levante)",
-    "district": "Tigullio Or",
-    "category": "laboratorio",
-    "summary": "bar da esplorare a Sestri Levante, tra paesaggio ligure e memoria storica locale.",
-    "showtimes": [],
-    "day_time": "Mo-Su 16:30-26:00",
-    "url": "https://www.facebook.com/people/Basquiat-lounge-bar/100036361730497/",
-    "outdoor": false,
-    "time_slot": "pomeriggio",
-    "tags": [
-      "bottega",
-      "tigullio_or"
-    ]
-  },
-  {
-    "id": "tl_191_laboratorio",
-    "title": "Bottega Veneta",
-    "venue": "Bottega Veneta",
-    "address": "Gita in auto / moto verso Portofino",
-    "district": "Tigullio Occ",
-    "category": "laboratorio",
-    "summary": "fashion_accessories da esplorare a Portofino, tra paesaggio ligure e memoria storica locale.",
-    "showtimes": [],
-    "day_time": "Mo-Su 10:00-19:00",
-    "url": "https://www.bottegaveneta.com/de-de/storelocator/portofino-viaroma",
-    "outdoor": false,
-    "time_slot": "pomeriggio",
-    "tags": [
-      "bottega",
-      "tigullio_occ"
-    ]
-  },
-  {
-    "id": "tl_23_laboratorio",
-    "title": "Camiceria & Cravatteria Liberty E. Finollo (1899)",
-    "venue": "Camiceria & Cravatteria Liberty E. Finollo",
-    "address": "Via Roma 38r (accanto a Galleria Mazzini)",
-    "district": "Centro",
-    "category": "laboratorio",
-    "summary": "Vetrina e boiserie Art Nouveau capolavoro d'ebanisteria: celebre nel mondo per le cravatte 'sette pieghe' con iniziali ricamate in bandiere nautiche.",
-    "showtimes": [],
-    "day_time": "Mar-Sab 09:30-13:00 e 15:30-19:30; Lun e Dom chiuso",
-    "url": "https://www.finollo.it/",
-    "outdoor": false,
-    "time_slot": "pomeriggio",
-    "tags": [
-      "bottega",
-      "centro"
-    ]
-  },
-  {
-    "id": "tl_215_laboratorio",
-    "title": "Dolci Tentazioni",
-    "venue": "Dolci Tentazioni",
-    "address": "Raggiungibile in treno / mezzi pubblici (Rossiglione)",
-    "district": "Ponente Stura",
-    "category": "laboratorio",
-    "summary": "ice_cream da esplorare a Rossiglione (300 m s.l.m.), tra paesaggio ligure e memoria storica locale.",
-    "showtimes": [],
-    "day_time": "Tu-Su 08:00-22:00",
-    "url": "https://italythat.rocks/2017/05/27/nuova-gelateria-artigianale-a-rossiglione/",
-    "outdoor": false,
-    "time_slot": "pomeriggio",
-    "tags": [
-      "bottega",
-      "ponente_stura"
-    ]
-  },
-  {
     "id": "tl_20_laboratorio",
     "title": "Drogheria Torielli: 400 Cassetti di Spezie & Resine (1930)",
     "venue": "Drogheria Torielli",
@@ -711,24 +655,6 @@
     "showtimes": [],
     "day_time": "Forni e ristoranti storici del Consorzio aperti tutti i giorni da mattina a sera",
     "url": "https://www.focacciadirecco.it/",
-    "outdoor": false,
-    "time_slot": "pomeriggio",
-    "tags": [
-      "bottega",
-      "golfo_paradiso"
-    ]
-  },
-  {
-    "id": "tl_203_laboratorio",
-    "title": "Fondo",
-    "venue": "Fondo",
-    "address": "Raggiungibile in treno / mezzi pubblici (Recco)",
-    "district": "Golfo Paradiso",
-    "category": "laboratorio",
-    "summary": "restaurant da esplorare a Recco, tra paesaggio ligure e memoria storica locale.",
-    "showtimes": [],
-    "day_time": "20:00-02:00",
-    "url": "https://Ilfondopub",
     "outdoor": false,
     "time_slot": "pomeriggio",
     "tags": [
@@ -770,24 +696,6 @@
     "tags": [
       "bottega",
       "tigullio_or"
-    ]
-  },
-  {
-    "id": "tl_19_laboratorio",
-    "title": "Incisoria Busellato: Timbri, Punzoni Navali & Ceralacca (1896)",
-    "venue": "Incisoria Busellato",
-    "address": "Via al Ponte Reale 3r (di fronte a Piazza Caricamento / Acquario)",
-    "district": "Centro",
-    "category": "laboratorio",
-    "summary": "Pareti intere di cassettiere in rovere di fine '800 ricolme di punzoni d'acciaio, sigilli in ottone per ceralacca e targhe delle grandi compagnie di...",
-    "showtimes": [],
-    "day_time": "Lun-Ven 09:00-12:30 e 14:30-18:30; Sab-Dom chiuso",
-    "url": "https://www.busellato.it/",
-    "outdoor": false,
-    "time_slot": "pomeriggio",
-    "tags": [
-      "bottega",
-      "centro"
     ]
   },
   {
@@ -953,61 +861,6 @@
     ]
   },
   {
-    "id": "ducale_incontri_culturali",
-    "title": "Palazzo Ducale: Incontri e Conferenze al Maggior Consiglio",
-    "venue": "Palazzo Ducale",
-    "address": "Piazza Giacomo Matteotti 9",
-    "district": "Centro",
-    "category": "laboratorio",
-    "summary": "Rassegna di incontri aperti al pubblico su storia, letteratura e trasformazioni urbane nella Sala del Maggior Consiglio.",
-    "showtimes": [],
-    "day_time": "Mercoledì e giovedì ore 18:00 / 20:30",
-    "url": "https://palazzoducale.genova.it/eventi/",
-    "outdoor": false,
-    "time_slot": "sera",
-    "tags": [
-      "indoor",
-      "conferenze",
-      "cultura"
-    ]
-  },
-  {
-    "id": "tl_248_laboratorio",
-    "title": "Panificio Caligine Giovanna",
-    "venue": "Panificio Caligine Giovanna",
-    "address": "Raggiungibile in treno / mezzi pubblici (Sori)",
-    "district": "Golfo Paradiso",
-    "category": "laboratorio",
-    "summary": "bakery da esplorare a Sori, tra paesaggio ligure e memoria storica locale.",
-    "showtimes": [],
-    "day_time": "We 07:00-12:30; Mo-Tu, Th-Sa 07:00-12:30,16:00-19:00",
-    "url": "https://www.facebook.com/caliginegiovanna",
-    "outdoor": false,
-    "time_slot": "pomeriggio",
-    "tags": [
-      "bottega",
-      "golfo_paradiso"
-    ]
-  },
-  {
-    "id": "tl_22_laboratorio",
-    "title": "Pasticceria Liquoreria Marescotti di Cavo (1780)",
-    "venue": "Pasticceria Liquoreria Marescotti di Cavo",
-    "address": "Via di Fossatello 35r (5 min da Via Garibaldi)",
-    "district": "Centro",
-    "category": "laboratorio",
-    "summary": "Pausa caffè e pasticceria nei saloni dorati settecenteschi con museo degli stampi lignei: assaggia i celebri Amaretti morbidi di Voltaggio e i Quaresimali.",
-    "showtimes": [],
-    "day_time": "Mar-Dom 08:30-19:30; Lun chiuso (Aperta anche la Domenica!)",
-    "url": "https://www.pasticceriacavo.it/",
-    "outdoor": false,
-    "time_slot": "pomeriggio",
-    "tags": [
-      "bottega",
-      "centro"
-    ]
-  },
-  {
     "id": "tl_71_laboratorio",
     "title": "Pasticcerie dei Canestrellini di Torriglia & Sentiero del Lago del Brugneto",
     "venue": "Pasticcerie dei Canestrellini di Torriglia & Sentiero del Lago del Brugneto",
@@ -1044,24 +897,6 @@
     ]
   },
   {
-    "id": "tl_204_laboratorio",
-    "title": "Revello pasticceria focacceria",
-    "venue": "Revello pasticceria focacceria",
-    "address": "Raggiungibile in treno / mezzi pubblici (Recco)",
-    "district": "Golfo Paradiso",
-    "category": "laboratorio",
-    "summary": "pastry da esplorare a Recco, tra paesaggio ligure e memoria storica locale.",
-    "showtimes": [],
-    "day_time": "PH,Mo-Su 08:00-19:00",
-    "url": "https://www.revellocamogli.com/",
-    "outdoor": false,
-    "time_slot": "pomeriggio",
-    "tags": [
-      "bottega",
-      "golfo_paradiso"
-    ]
-  },
-  {
     "id": "tl_187_laboratorio",
     "title": "Ristorante La Risacca",
     "venue": "Ristorante La Risacca",
@@ -1080,24 +915,6 @@
     ]
   },
   {
-    "id": "tl_205_laboratorio",
-    "title": "Ten Restaurants Recco",
-    "venue": "Ten Restaurants Recco",
-    "address": "Raggiungibile in treno / mezzi pubblici (Recco)",
-    "district": "Golfo Paradiso",
-    "category": "laboratorio",
-    "summary": "restaurant da esplorare a Recco, tra paesaggio ligure e memoria storica locale.",
-    "showtimes": [],
-    "day_time": "Mo-Su 12:00-15:00, 18:30-23:00",
-    "url": "https://tenrestaurants.com/",
-    "outdoor": false,
-    "time_slot": "pomeriggio",
-    "tags": [
-      "bottega",
-      "golfo_paradiso"
-    ]
-  },
-  {
     "id": "tl_7_mostra",
     "title": "Acquario di Genova & Biosfera",
     "venue": "Acquario di Genova & Biosfera",
@@ -1105,7 +922,12 @@
     "district": "Centro",
     "category": "mostra",
     "summary": "Ideale anche di lunedì o con la pioggia: lamantini, squali, pinguini, meduse ipnotiche e il padiglione Cetacei progettato da Renzo Piano.",
-    "showtimes": [],
+    "showtimes": [
+      {
+        "titolo": "I Mercoledì Scienza degli Amici dell'Acquario",
+        "quando": "in corso fino al 24 febbraio"
+      }
+    ],
     "day_time": "Tutti i giorni 09:00-20:00 (ultimo ingresso 18:00)",
     "url": "https://www.acquariodigenova.it/",
     "outdoor": false,
@@ -1113,24 +935,6 @@
     "tags": [
       "museo",
       "centro"
-    ]
-  },
-  {
-    "id": "tl_51_mostra",
-    "title": "Baia del Silenzio, MuSel & Pasticceria Storica Rossignotti (1840)",
-    "venue": "Baia del Silenzio, MuSel & Pasticceria Storica Rossignotti",
-    "address": "Stazione di Sestri Levante (10 min a piedi lungo il caruggio pedonale Via XXV Aprile)",
-    "district": "Tigullio Or",
-    "category": "mostra",
-    "summary": "La penisola tra due mari amata da Andersen: museo della città a Palazzo Fascie, praline in arredi Liberty da Rossignotti (1840) e luce sulla Baia del Silenzio.",
-    "showtimes": [],
-    "day_time": "MuSel Mar-Sab 09:00-13:00 e 14:00-17:00, Dom 15:00-18:30; Baia del Silenzio e Rossignotti tutti i giorni",
-    "url": "https://www.musel.it/",
-    "outdoor": false,
-    "time_slot": "pomeriggio",
-    "tags": [
-      "museo",
-      "tigullio_or"
     ]
   },
   {
@@ -1170,21 +974,35 @@
     ]
   },
   {
-    "id": "tl_5_mostra",
-    "title": "Castello D'Albertis: Museo delle Culture del Mondo",
+    "id": "castello_dalbertis",
+    "title": "Castello D'Albertis: Museo delle Culture del Mondo e Parco",
     "venue": "Castello D'Albertis",
-    "address": "Ascensore storico Montegalletto da Via Balbi / Stazione Principe",
-    "district": "Centro",
+    "address": "Corso Dogali 18 (Ascensore Montegalletto)",
+    "district": "Castelletto",
     "category": "mostra",
-    "summary": "Si sale con un ascensore unico al mondo (prima corre in orizzontale sotto la collina e poi sale in verticale!) fino al castello neogotico del Capitano...",
-    "showtimes": [],
-    "day_time": "Mar-Ven 10:00-17:00 (Est 18:00); Sab-Dom 10:00-18:00 (Est 19:00); Lun chiuso",
+    "summary": "Dimora neogotica del Capitano D'Albertis affacciata sul porto, con collezioni etno-antropologiche e parco panoramico.",
+    "showtimes": [
+      {
+        "titolo": "Terza classe: Egitto-Genova andata e ritorno",
+        "quando": "in corso fino al 9 maggio, Castello D'Albertis Museo delle Culture del Mondo"
+      },
+      {
+        "titolo": "Omaggio alla Luce per la Pace",
+        "quando": "domenica 22 novembre, Castello D'Albertis Museo delle Culture del Mondo"
+      },
+      {
+        "titolo": "Il giro del Mondo in 50 giorni",
+        "quando": "sabato 28 novembre, Castello D'Albertis Museo delle Culture del Mondo"
+      }
+    ],
+    "day_time": "Martedì-Venerdì ore 10:00-17:00; Sabato-Domenica ore 10:00-18:00 (Lunedì chiuso)",
     "url": "https://www.museidigenova.it/it/castello-dalbertis-museo-delle-culture-del-mondo",
     "outdoor": false,
     "time_slot": "pomeriggio",
     "tags": [
-      "dimora",
-      "centro"
+      "indoor",
+      "panoramico",
+      "culture"
     ]
   },
   {
@@ -1206,24 +1024,6 @@
     ]
   },
   {
-    "id": "tl_62_mostra",
-    "title": "Castello Spinola di Campo Ligure, Ponte Medievale & Pratorondanino",
-    "venue": "Castello Spinola di Campo Ligure, Ponte Medievale & Pratorondanino",
-    "address": "Stazione FS Campo Ligure-Masone (10 min a piedi attraversando il ponte medievale sullo Stura)",
-    "district": "Ponente Stura",
-    "category": "mostra",
-    "summary": "Torre cilindrica trecentesca che domina i tre torrenti della Valle Stura, con giardino di sculture in ulivo e vista sulle vette del Parco del Beigua.",
-    "showtimes": [],
-    "day_time": "Sabato, Domenica e festivi 10:30-12:00 e 15:30-18:00",
-    "url": "https://www.comune.campoligure.ge.it/",
-    "outdoor": false,
-    "time_slot": "pomeriggio",
-    "tags": [
-      "dimora",
-      "ponente_stura"
-    ]
-  },
-  {
     "id": "tl_10_mostra",
     "title": "Complesso Monumentale della Lanterna di Genova",
     "venue": "Complesso Monumentale della Lanterna di Genova",
@@ -1231,7 +1031,12 @@
     "district": "Centro",
     "category": "mostra",
     "summary": "Passeggiata panoramica di 800 metri sospesa sul porto fino al faro simbolo di Genova (1543): 172 scalini per vedere tutta la città tra navi e Appennino.",
-    "showtimes": [],
+    "showtimes": [
+      {
+        "titolo": "Lanterna di Genova. Attività per le famiglie",
+        "quando": "in corso fino al 31 dicembre"
+      }
+    ],
     "day_time": "Ven, Sab, Dom e festivi 10:00-18:00 (ultimo ingresso 17:30; chiuso con allerta arancione/rossa)",
     "url": "https://www.lanternadigenova.com/",
     "outdoor": false,
@@ -1249,7 +1054,24 @@
     "district": "Centro",
     "category": "mostra",
     "summary": "Il più grande museo marittimo del Mediterraneo: sali su una galea del '600, affronta la tempesta a Capo Horn in 4D ed entra in un vero sottomarino...",
-    "showtimes": [],
+    "showtimes": [
+      {
+        "titolo": "L’avventura della moneta. Dall’oro al digitale",
+        "quando": "Mostra, in corso fino al 16 gennaio"
+      },
+      {
+        "titolo": "On the Move. The world behind logistics",
+        "quando": "Mostra, in corso fino al 28 febbraio"
+      },
+      {
+        "titolo": "La Valigia dei Ricordi 1956-2026",
+        "quando": "Evento, domenica 22 novembre"
+      },
+      {
+        "titolo": "On the move! The world behind logistics",
+        "quando": "in corso fino al 28 febbraio"
+      }
+    ],
     "day_time": "Aperto tutti i giorni (anche Lunedì!) 10:00-18:30/19:00",
     "url": "https://www.galatamuseodelmare.it/",
     "outdoor": false,
@@ -1267,7 +1089,12 @@
     "district": "Centro",
     "category": "mostra",
     "summary": "Una dimora dei Rolli rimasta intatta nei secoli, dalle cucine storiche in rame fino all'Ecce Homo di Antonello da Messina.",
-    "showtimes": [],
+    "showtimes": [
+      {
+        "titolo": "L’unione fa la forza. Art Bonus e il mecenatismo moderno",
+        "quando": "martedì 24 novembre"
+      }
+    ],
     "day_time": "Mar 13:30-19:00; Mer-Sab 09:00-19:00; 1ª Dom del mese 13:30-19:00 gratuito",
     "url": "https://palazzospinola.cultura.gov.it/",
     "outdoor": false,
@@ -1296,21 +1123,27 @@
     ]
   },
   {
-    "id": "tl_1_mostra",
-    "title": "Musei di Strada Nuova (Palazzo Rosso, Bianco e Tursi)",
+    "id": "musei_strada_nuova",
+    "title": "Musei di Strada Nuova: Palazzi Rosso, Bianco e Tursi",
     "venue": "Musei di Strada Nuova",
-    "address": "Metro De Ferrari / Stazione Principe (10 min a piedi)",
+    "address": "Via Garibaldi 11",
     "district": "Centro",
     "category": "mostra",
-    "summary": "Tre palazzi UNESCO in Via Garibaldi: capolavori di Van Dyck e Caravaggio, il violino 'Cannone' di Paganini e la terrazza Mirador sui tetti della città vecchia.",
-    "showtimes": [],
-    "day_time": "Mar-Ven 09:00-19:00; Sab-Dom 10:00-19:00; Lun chiuso",
+    "summary": "I palazzi dei Rolli con le quadrerie genovesi, il cannone di Paganini e la terrazza panoramica Mirador sulla città antica.",
+    "showtimes": [
+      {
+        "titolo": "Erbari svelati",
+        "quando": "in corso fino al 18 giugno"
+      }
+    ],
+    "day_time": "Martedì-Venerdì ore 09:00-19:00; Sabato-Domenica ore 10:00-19:00 (Lunedì chiuso)",
     "url": "https://www.museidigenova.it/it/musei-di-strada-nuova",
     "outdoor": false,
     "time_slot": "pomeriggio",
     "tags": [
-      "museo",
-      "centro"
+      "indoor",
+      "unesco",
+      "arte"
     ]
   },
   {
@@ -1321,27 +1154,14 @@
     "district": "Centro",
     "category": "mostra",
     "summary": "Amato da Mark Twain, Nietzsche, Hemingway e dai Joy Division: porticati e boschetti accogliente con capolavori scolpiti nel marmo (dalla venditrice di...",
-    "showtimes": [],
+    "showtimes": [
+      {
+        "titolo": "I Tour del Cimitero monumentale di Staglieno",
+        "quando": "in corso fino al 30 dicembre"
+      }
+    ],
     "day_time": "Tutti i giorni 07:30-17:00 (ingresso fino a 16:30)",
     "url": "https://staglieno.comune.genova.it/",
-    "outdoor": false,
-    "time_slot": "pomeriggio",
-    "tags": [
-      "museo",
-      "centro"
-    ]
-  },
-  {
-    "id": "tl_8_mostra",
-    "title": "Museo d'Arte Orientale Edoardo Chiossone & Villetta Di Negro",
-    "venue": "Museo d'Arte Orientale Edoardo Chiossone & Villetta Di Negro",
-    "address": "Piazza Corvetto (10 min da Brignole o De Ferrari)",
-    "district": "Centro",
-    "category": "mostra",
-    "summary": "In un parco accogliente sopraelevato con cascate e grotte: la più ricca collezione italiana di armature samurai, spade, lacche e stampe giapponesi.",
-    "showtimes": [],
-    "day_time": "Mar-Ven 09:00-19:00; Sab-Dom 10:00-19:00; Lun chiuso",
-    "url": "https://www.museidigenova.it/it/museo-darte-orientale-edoardo-chiossone",
     "outdoor": false,
     "time_slot": "pomeriggio",
     "tags": [
@@ -1440,24 +1260,6 @@
     ]
   },
   {
-    "id": "tl_4_mostra",
-    "title": "Palazzo Ducale: Grandi Mostre & Torre Grimaldina",
-    "venue": "Palazzo Ducale",
-    "address": "Metro De Ferrari (1 min a piedi)",
-    "district": "Centro",
-    "category": "mostra",
-    "summary": "L'antico palazzo dei Dogi: grandi mostre internazionali d'arte e fotografia, incontri gratuiti e salita alle carceri segrete della Torre Grimaldina.",
-    "showtimes": [],
-    "day_time": "Cortili tutti i giorni 07:00-23:00; Mostre Mar-Dom 10:00-19:00 (Ven fino 21:00, Lun pom spesso aperto)",
-    "url": "https://palazzoducale.genova.it/",
-    "outdoor": false,
-    "time_slot": "pomeriggio",
-    "tags": [
-      "museo",
-      "centro"
-    ]
-  },
-  {
     "id": "ducale_mostra_impressionisti",
     "title": "Palazzo Ducale: Mostra Impressionisti e Avanguardie Collezione Scharf",
     "venue": "Palazzo Ducale",
@@ -1465,7 +1267,16 @@
     "district": "Centro",
     "category": "mostra",
     "summary": "Esposizione dedicata ai capolavori di Renoir, Monet, Cézanne e Toulouse-Lautrec allestita negli spazi del Sottoporticato.",
-    "showtimes": [],
+    "showtimes": [
+      {
+        "titolo": "World Press Photo 2026",
+        "quando": "in corso fino all'8 dicembre, Palazzo Ducale Loggia degli Abati"
+      },
+      {
+        "titolo": "Renoir, Monet, Toulouse-Lautrec, Cézanne",
+        "quando": "in corso fino al 2 maggio, Palazzo Ducale Sottoporticato"
+      }
+    ],
     "day_time": "Da martedì a domenica ore 10:00-19:00 (venerdì apertura serale fino alle 21:00)",
     "url": "https://palazzoducale.genova.it/mostre/",
     "outdoor": false,
@@ -1495,24 +1306,6 @@
     ]
   },
   {
-    "id": "tl_26_mostra",
-    "title": "Polo Museale di Nervi (GAM, Raccolte Frugone & Wolfsoniana)",
-    "venue": "Polo Museale di Nervi",
-    "address": "Stazione Genova Nervi (5 min a piedi dentro i Parchi)",
-    "district": "Genova Mare",
-    "category": "mostra",
-    "summary": "Tre musei nelle ville storiche dei Parchi di Nervi: paesaggi liguri dell'800-'900, bronzi Belle Époque e gli arredi Art Déco della Wolfsoniana.",
-    "showtimes": [],
-    "day_time": "Mar-Dom 11:00-17:00 (Inverno) / 11:30-19:00 (Estate); Lun chiuso",
-    "url": "https://www.museidigenova.it/it/gam-galleria-darte-moderna",
-    "outdoor": true,
-    "time_slot": "pomeriggio",
-    "tags": [
-      "museo",
-      "genova_mare"
-    ]
-  },
-  {
     "id": "polo_museale_nervi_gam",
     "title": "Polo Museale di Nervi: Galleria d'Arte Moderna e Parchi",
     "venue": "GAM Galleria d'Arte Moderna",
@@ -1520,7 +1313,24 @@
     "district": "Nervi",
     "category": "mostra",
     "summary": "Collezioni dell'Ottocento e Novecento ligure all'interno di Villa Saluzzo Serra, immersa nel verde dei Parchi di Nervi.",
-    "showtimes": [],
+    "showtimes": [
+      {
+        "titolo": "Argentina-Genova andata/ritorno",
+        "quando": "in corso fino al 30 novembre"
+      },
+      {
+        "titolo": "Inside Monet Genova",
+        "quando": "in corso fino al 31 dicembre, Raccolte Frugone"
+      },
+      {
+        "titolo": "Argentina-Genova andata/ritorno",
+        "quando": "in corso fino al 30 novembre, GAM Galleria d'Arte Moderna"
+      },
+      {
+        "titolo": "Inside Monet Genova",
+        "quando": "in corso fino al 31 dicembre"
+      }
+    ],
     "day_time": "Da martedì a domenica ore 11:00-17:00 (lunedì chiuso)",
     "url": "https://www.museidigenova.it/it/gam-galleria-darte-moderna",
     "outdoor": true,
@@ -1529,42 +1339,6 @@
       "indoor",
       "museo",
       "parco"
-    ]
-  },
-  {
-    "id": "tl_43_mostra",
-    "title": "Villa Durazzo-Centurione & Parco Barocco sul Golfo",
-    "venue": "Villa Durazzo-Centurione & Parco Barocco sul Golfo",
-    "address": "Stazione S. Margherita Ligure-Portofino (8 min a piedi)",
-    "district": "Tigullio Occ",
-    "category": "mostra",
-    "summary": "Un parco gratuito spettacolare di camelie, cipressi e statue marmoree affacciato sul mare, con appartamenti principeschi e caffetteria nel giardino segreto...",
-    "showtimes": [],
-    "day_time": "Aperta tutti i giorni (anche Lunedì!): Parco 09:00-17:00 (Est 19:00); Museo 09:30-13:00 e 14:00-17:00",
-    "url": "https://www.villadurazzo.it/",
-    "outdoor": true,
-    "time_slot": "pomeriggio",
-    "tags": [
-      "dimora",
-      "tigullio_occ"
-    ]
-  },
-  {
-    "id": "tl_273_musica",
-    "title": "Cinema Sivori",
-    "venue": "Cinema Sivori",
-    "address": "Raggiungibile in treno / mezzi pubblici (Genova)",
-    "district": "Centro",
-    "category": "musica",
-    "summary": "Programmazione, Eventi, Promozioni, Cinema, America, Ariston, City, Corallo, Odeon, Sivori, Splendor, Ducale, Quinto, Sul Mare, San Pietro, Newsletter, I...",
-    "showtimes": [],
-    "day_time": "lunedì, martedì, mercoledì, giovedì, venerdì, sabato, credito formativo, NAZA, 2026, ‧, Documentario, ‧, 1h 20m, 21:15, 21:15",
-    "url": "https://circuitocinemagenova.com/sivori/",
-    "outdoor": false,
-    "time_slot": "pomeriggio",
-    "tags": [
-      "teatro",
-      "centro"
     ]
   },
   {
@@ -1597,7 +1371,28 @@
     "district": "Centro Storico / Carmine",
     "category": "musica",
     "summary": "Circolo Arci in un locale con volte in pietra nel Carmine: concerti jazz, serate per ballare Blues Dance e swing, milonga di tango La Cueva e jam session.",
-    "showtimes": [],
+    "showtimes": [
+      {
+        "titolo": "Claudio Chiara 4et + master jam",
+        "quando": "sabato 21 novembre"
+      },
+      {
+        "titolo": "COUNT BASIE LAB: con Claudio Chiara",
+        "quando": "sabato 21 novembre"
+      },
+      {
+        "titolo": "Altri Suoni Alfabeti Sonori",
+        "quando": "domenica 22 novembre"
+      },
+      {
+        "titolo": "Sotto l'arco, dentro al Count Showcase Freestyle",
+        "quando": "venerdì 27 novembre"
+      },
+      {
+        "titolo": "Entropia semplice New Improland Orchestra",
+        "quando": "sabato 28 novembre"
+      }
+    ],
     "day_time": "Giovedì, venerdì, sabato e domenica ore 20:30-00:30",
     "url": "https://www.countbasie.it/",
     "outdoor": false,
@@ -1616,46 +1411,30 @@
     ]
   },
   {
-    "id": "la_claque_teatro_della_tosse",
-    "title": "La Claque in Agorà: Live Club, Concerti, Dj Set e Serate",
-    "venue": "La Claque / Teatro della Tosse",
-    "address": "Vico San Donato 9",
-    "district": "Centro Storico",
-    "category": "musica",
-    "summary": "Il club e spazio live del Teatro della Tosse in Vico San Donato per concerti funk, ska, swing, dj set per ballare, stand-up comedy e teatro musicale.",
-    "showtimes": [],
-    "day_time": "Da mercoledì a domenica ore 21:00 / 21:30",
-    "url": "https://www.teatrodellatosse.it/eventi/",
-    "outdoor": false,
-    "time_slot": "sera",
-    "tags": [
-      "indoor",
-      "live_music",
-      "comedy",
-      "ballare",
-      "ballo",
-      "club",
-      "dj",
-      "serata",
-      "concerto"
-    ]
-  },
-  {
-    "id": "guida_15_musica",
-    "title": "Politeama Genovese: Programmazione Spettacoli",
+    "id": "tl_297_musica",
+    "title": "Politeama Genovese",
     "venue": "Politeama Genovese",
-    "address": "Via Nicolò Bacigalupo 2",
-    "district": "Genova",
+    "address": "Raggiungibile in treno / mezzi pubblici (Genova)",
+    "district": "Centro",
     "category": "musica",
     "summary": "Grandi show di comicità, musical, concerti pop/autore, danza e monologhi teatrali, biglietti, Botteghino online, Politeama Card, Botteghino online, Acquista...",
-    "showtimes": [],
+    "showtimes": [
+      {
+        "titolo": "Indovina chi viene a cena, Cesare Bocci e Vittoria Belvedere",
+        "quando": "20-21 novembre 2026"
+      },
+      {
+        "titolo": "Geppi Cucciari, Perfetta",
+        "quando": "23-24 novembre 2026"
+      }
+    ],
     "day_time": "Botteghino Lun-Ven 11:00-13:00 e 16:00-18:00; Sab 16:00-18:00 (Via Bacigalupo 2)",
     "url": "https://www.politeamagenovese.it/",
     "outdoor": false,
-    "time_slot": "sera",
+    "time_slot": "pomeriggio",
     "tags": [
-      "theatre",
-      "Genova"
+      "teatro",
+      "centro"
     ]
   },
   {
@@ -1683,7 +1462,36 @@
     "district": "Centro",
     "category": "musica",
     "summary": "Teatro visionario fondato da Tonino Conte ed Emanuele Luzzati, affiancato dal club live 'La Claque' in Vico di San Donato per musica dal vivo e stand-up.",
-    "showtimes": [],
+    "showtimes": [
+      {
+        "titolo": "UBoot 70",
+        "quando": "in corso fino al 5 dicembre, La Claque"
+      },
+      {
+        "titolo": "Katartika",
+        "quando": "domenica 22 novembre, La Claque"
+      },
+      {
+        "titolo": "Open coro",
+        "quando": "in corso fino al 14 dicembre, La Claque"
+      },
+      {
+        "titolo": "Parla, Clitemnestra!",
+        "quando": "martedì 24 novembre, La Claque"
+      },
+      {
+        "titolo": "Olivia Trummer Trio",
+        "quando": "venerdì 27 novembre, La Claque"
+      },
+      {
+        "titolo": "Mario Venuti & Tony Canto",
+        "quando": "sabato 28 novembre, La Claque"
+      },
+      {
+        "titolo": "I depositi di Sant'Agostino. Le pietre parlano 2026",
+        "quando": "in corso fino al 31 dicembre, Sant'Agostino - Verso un nuovo museo"
+      }
+    ],
     "day_time": "Spettacoli serali ore 20:30/21:30 e rassegne domenicali per famiglie",
     "url": "https://www.teatrodellatosse.it/",
     "outdoor": false,
@@ -1694,21 +1502,26 @@
     ]
   },
   {
-    "id": "guida_23_musica",
-    "title": "Teatro Carlo Felice: Programmazione Spettacoli",
+    "id": "tl_32_musica",
+    "title": "Teatro Carlo Felice: Opera, Sinfonica & Visite al Palcoscenico",
     "venue": "Teatro Carlo Felice",
-    "address": "Piazza De Ferrari 4, Genova (GE)",
-    "district": "Genova",
+    "address": "Piazza De Ferrari (Metro De Ferrari)",
+    "district": "Centro",
     "category": "musica",
-    "summary": "Stagione Lirica, Balletto e Sinfonica; visite guidate dietro le quinte con aperitivo nel foyer; rassegne per scuole e famiglie, Visite guidate, Stagione...",
-    "showtimes": [],
-    "day_time": "Biglietteria Lun-Sab 09:30-19:00 (Galleria Cardinale Siri 6) + 1h prima degli spettacoli",
+    "summary": "Lirica, balletto, grandi concerti sinfonici e visite guidate dietro le quinte della torre scenica progettata da Aldo Rossi.",
+    "showtimes": [
+      {
+        "titolo": "I CAPULETI E I MONTECCHI",
+        "quando": "Dal 20 al 27 novembre 2026"
+      }
+    ],
+    "day_time": "Biglietteria Lun-Sab 09:30-19:00; Spettacoli serali ore 20:00 e domenicali ore 15:00/16:00",
     "url": "https://operacarlofelicegenova.it/",
     "outdoor": false,
-    "time_slot": "sera",
+    "time_slot": "pomeriggio",
     "tags": [
-      "theatre",
-      "Genova"
+      "teatro",
+      "centro"
     ]
   },
   {
@@ -1730,57 +1543,67 @@
     ]
   },
   {
-    "id": "guida_32_musica",
-    "title": "Teatro Eleonora Duse: Programmazione Spettacoli",
+    "id": "tl_300_musica",
+    "title": "Teatro Eleonora Duse",
     "venue": "Teatro Eleonora Duse",
-    "address": "Teatro Eleonora Duse",
-    "district": "Genova",
+    "address": "Raggiungibile in treno / mezzi pubblici (Genova)",
+    "district": "Centro",
     "category": "musica",
     "summary": "Prosa contemporanea, rassegne teatrali e festival del Teatro Nazionale di Genova, biglietti, Abbonati, conviene!, Gestisci il tuo abbonamento, Regolamento...",
     "showtimes": [],
     "day_time": "Biglietteria via Teatro Nazionale (Mar-Sab 15:15-19:15); Spettacoli serali e pomeridiani (Via Niccolò Bacigalupo)",
     "url": "https://www.teatronazionalegenova.it/spettacolo_sala/duse/",
     "outdoor": false,
-    "time_slot": "sera",
+    "time_slot": "pomeriggio",
     "tags": [
       "teatro",
-      "Genova"
+      "centro"
     ]
   },
   {
-    "id": "guida_35_musica",
-    "title": "Teatro Gustavo Modena: Programmazione Spettacoli",
+    "id": "tl_301_musica",
+    "title": "Teatro Gustavo Modena",
     "venue": "Teatro Gustavo Modena",
-    "address": "Piazza Gustavo Modena, 3, 16149 Genova",
-    "district": "Genova",
+    "address": "Raggiungibile in treno / mezzi pubblici (Genova)",
+    "district": "Centro",
     "category": "musica",
     "summary": "Stagione del Teatro Nazionale di Genova e Sala Mercato: drammaturgia contemporanea, spettacoli classici e visite allo storico teatro ottocentesco...",
-    "showtimes": [],
+    "showtimes": [
+      {
+        "titolo": "Lu santo Jullare Francesco",
+        "quando": "18 - 22 Novembre, Teatro Gustavo Modena"
+      }
+    ],
     "day_time": "Biglietteria Mar-Sab 15:15-19:15; Spettacoli serali ore 19:30/20:30, Dom ore 16:00 (Piazza Gustavo Modena, Sampierdarena)",
     "url": "https://www.teatronazionalegenova.it/spettacolo_sala/modena/",
     "outdoor": false,
-    "time_slot": "sera",
+    "time_slot": "pomeriggio",
     "tags": [
-      "theatre",
-      "Genova"
+      "teatro",
+      "centro"
     ]
   },
   {
-    "id": "guida_36_musica",
-    "title": "Teatro Ivo Chiesa: Programmazione Spettacoli",
+    "id": "tl_302_musica",
+    "title": "Teatro Ivo Chiesa",
     "venue": "Teatro Ivo Chiesa",
-    "address": "Teatro Ivo Chiesa",
-    "district": "Genova",
+    "address": "Raggiungibile in treno / mezzi pubblici (Genova)",
+    "district": "Centro",
     "category": "musica",
     "summary": "Sede principale del Teatro Nazionale di Genova: grande prosa, regie internazionali, incontri con gli attori nel foyer, biglietti, Abbonati, conviene!...",
-    "showtimes": [],
+    "showtimes": [
+      {
+        "titolo": "People, Places & Things",
+        "quando": "19 - 22 Novembre, Teatro Ivo Chiesa"
+      }
+    ],
     "day_time": "Biglietteria Mar-Sab 15:15-19:15; Spettacoli Mar/Mer/Ven ore 20:30, Gio/Sab ore 19:30, Dom ore 16:00 (Piazza Borgo Pila)",
     "url": "https://www.teatronazionalegenova.it/spettacolo_sala/ivo-chiesa/",
     "outdoor": false,
-    "time_slot": "sera",
+    "time_slot": "pomeriggio",
     "tags": [
-      "theatre",
-      "Genova"
+      "teatro",
+      "centro"
     ]
   },
   {
@@ -1791,7 +1614,20 @@
     "district": "Centro",
     "category": "musica",
     "summary": "Uno dei massimi teatri stabili d'Europa: grande prosa, drammaturgia contemporanea e l'acustica ottocentesca della Sala Mercato e del Teatro Modena.",
-    "showtimes": [],
+    "showtimes": [
+      {
+        "titolo": "Mare di ruggine",
+        "quando": "20 - 22 Novembre, Sala Mercato"
+      },
+      {
+        "titolo": "People, Places & Things",
+        "quando": "19 - 22 Novembre, Teatro Ivo Chiesa"
+      },
+      {
+        "titolo": "Lu santo Jullare Francesco",
+        "quando": "18 - 22 Novembre, Teatro Gustavo Modena"
+      }
+    ],
     "day_time": "Biglietteria Mar-Sab 15:15-19:15; Spettacoli Mar-Sab 19:30/20:30, Dom 16:00",
     "url": "https://www.teatronazionalegenova.it/",
     "outdoor": false,
@@ -1820,39 +1656,50 @@
     ]
   },
   {
-    "id": "tl_35_musica",
-    "title": "Teatro Sociale di Camogli: Concerti & Aperitivo nei Palchi",
-    "venue": "Teatro Sociale di Camogli",
-    "address": "Stazione Camogli-S. Fruttuoso (proprio davanti alla stazione!)",
+    "id": "tl_89_musica",
+    "title": "Teatro Sociale",
+    "venue": "Teatro Sociale",
+    "address": "Raggiungibile in treno / mezzi pubblici (Camogli)",
     "district": "Golfo Paradiso",
     "category": "musica",
-    "summary": "Gioiello acustico del 1876 a quattro ordini di palchi sul mare: celebre per la formula 'Aperitivo nei Palchi' servito direttamente nel tuo palchetto storico.",
-    "showtimes": [],
-    "day_time": "Biglietteria Lun-Ven 10:00-12:00; Concerti, Jazz e 'Aperitivo a Teatro' Ven-Dom pomeriggio e sera",
-    "url": "https://www.teatrosocialecamogli.it/",
+    "summary": "Concerti nei palchi storici, aperitivi in musica, stagione di prosa, lirica e danza nel gioiello ottocentesco di Camogli, Benvenuto al Teatro Sociale...",
+    "showtimes": [
+      {
+        "titolo": "Il Sogno di Cordelia",
+        "quando": "sabato 21 novembre ore 21:00"
+      },
+      {
+        "titolo": "Pierino e il lupo - Spettacolo inaugurale Teatro Ragazzi",
+        "quando": "domenica 22 novembre ore 17:00"
+      },
+      {
+        "titolo": "I Bestiolini",
+        "quando": "lunedì 23 novembre ore 10:30"
+      },
+      {
+        "titolo": "Offline (Teatro delle Clarisse - Rapallo)",
+        "quando": "martedì 24 novembre ore 09:00"
+      },
+      {
+        "titolo": "Offline (Teatro delle Clarisse - Rapallo)",
+        "quando": "martedì 24 novembre ore 10:30"
+      },
+      {
+        "titolo": "Tributo alla grande musica degli autori genovesi e liguri",
+        "quando": "venerdì 27 novembre ore 21:00"
+      },
+      {
+        "titolo": "Paesaggi d’Arcadia",
+        "quando": "sabato 28 novembre ore 21:00"
+      }
+    ],
+    "day_time": "Biglietteria Lun-Ven 10:00-12:00 e 1h prima degli spettacoli (Piazza Matteotti 5, Camogli - tel. 0185 1770529)",
+    "url": "https://www.teatrosocialecamogli.it",
     "outdoor": false,
     "time_slot": "pomeriggio",
     "tags": [
       "teatro",
       "golfo_paradiso"
-    ]
-  },
-  {
-    "id": "guida_0_musica",
-    "title": "Teatro Sociale: Programmazione Spettacoli",
-    "venue": "Teatro Sociale",
-    "address": "Piazza Giacomo Matteotti",
-    "district": "Camogli",
-    "category": "musica",
-    "summary": "Concerti nei palchi storici, aperitivi in musica, stagione di prosa, lirica e danza nel gioiello ottocentesco di Camogli, Benvenuto al Teatro Sociale...",
-    "showtimes": [],
-    "day_time": "Biglietteria Lun-Ven 10:00-12:00 e 1h prima degli spettacoli (Piazza Matteotti 5, Camogli - tel. 0185 1770529)",
-    "url": "https://www.teatrosocialecamogli.it",
-    "outdoor": false,
-    "time_slot": "sera",
-    "tags": [
-      "theatre",
-      "Camogli"
     ]
   },
   {
@@ -1896,78 +1743,6 @@
       "outdoor",
       "borgo",
       "mare"
-    ]
-  },
-  {
-    "id": "tl_27_passeggiata",
-    "title": "Borgo Marinaro di Boccadasse & Belvedere Capo Santa Chiara",
-    "venue": "Borgo Marinaro di Boccadasse & Belvedere Capo Santa Chiara",
-    "address": "Bus 31 o 42 da Brignole / Passeggiata Corso Italia sul mare (30 min a piedi)",
-    "district": "Genova Mare",
-    "category": "passeggiata",
-    "summary": "Case color pastello strette attorno alla spiaggetta di ciottoli e una creuza che sale fino al belvedere di Capo Santa Chiara sotto il fiabesco Castello Türcke.",
-    "showtimes": [],
-    "day_time": "Sempre accessibile ( per gelato artigianale, focaccia o aperitivo sugli scogli al tramonto)",
-    "url": "https://www.visitgenoa.it/it/boccadasse",
-    "outdoor": true,
-    "time_slot": "pomeriggio",
-    "tags": [
-      "natura",
-      "genova_mare"
-    ]
-  },
-  {
-    "id": "tl_58_passeggiata",
-    "title": "Castello Malaspina-Doria, Lago delle Lame & Faggete dell'Aveto",
-    "venue": "Castello Malaspina-Doria, Lago delle Lame & Faggete dell'Aveto",
-    "address": "1h 15m in auto da Chiavari attraverso Rezzoaglio e il Lago delle Lame",
-    "district": "Tigullio Or",
-    "category": "passeggiata",
-    "summary": "Le Dolomiti della provincia di Genova: specchi d'acqua smeraldo tra abeti e faggi, il possente castello pentagonale dei Malaspina-Doria e il formaggio...",
-    "showtimes": [],
-    "day_time": "Borgo alpino (1.012 m), specchio glaciale del Lago delle Lame a Rezzoaglio e sentieri del Monte Penna sempre aperti",
-    "url": "https://www.turismosantostefanodaveto.it/",
-    "outdoor": true,
-    "time_slot": "pomeriggio",
-    "tags": [
-      "natura",
-      "tigullio_or"
-    ]
-  },
-  {
-    "id": "tl_12_passeggiata",
-    "title": "Funicolare Zecca: Righi & Anello Panoramico dei Forti (Parco delle Mura)",
-    "venue": "Funicolare Zecca: Righi & Anello Panoramico dei Forti",
-    "address": "Funicolare storica da Largo della Zecca fino a Righi (302 m) in 12 minuti!",
-    "district": "Centro",
-    "category": "passeggiata",
-    "summary": "Dal centro città ai pascoli d'alta quota in 12 minuti di funicolare: cammina lungo la più lunga cinta muraria d'Europa dopo la Muraglia Cinese toccando...",
-    "showtimes": [],
-    "day_time": "Sentieri del Parco delle Mura sempre aperti; Funicolare tutti i giorni 06:40-24:00",
-    "url": "https://www.visitgenoa.it/it/parco-urbano-delle-mura-e-forti",
-    "outdoor": true,
-    "time_slot": "pomeriggio",
-    "tags": [
-      "natura",
-      "centro"
-    ]
-  },
-  {
-    "id": "tl_25_passeggiata",
-    "title": "Parchi di Nervi, Roseto & Passeggiata Anita Garibaldi",
-    "venue": "Parchi di Nervi, Roseto & Passeggiata Anita Garibaldi",
-    "address": "Stazione Genova Nervi (accesso diretto sulla passeggiata a mare!)",
-    "district": "Genova Mare",
-    "category": "passeggiata",
-    "summary": "2 km sospesi sugli scogli a picco sul mare più 9 ettari di parchi botanici con scoiattoli socievoli, alberi monumentali e il Roseto Luigi Viacava.",
-    "showtimes": [],
-    "day_time": "Sempre aperto dall'alba al tramonto (Passeggiata sempre accessibile salvo mareggiate)",
-    "url": "https://www.visitgenoa.it/it/parchi-di-nervi",
-    "outdoor": true,
-    "time_slot": "pomeriggio",
-    "tags": [
-      "natura",
-      "genova_mare"
     ]
   },
   {
@@ -2033,7 +1808,16 @@
     "district": "Nervi",
     "category": "passeggiata",
     "summary": "Percorso pedonale lungo la scogliera a picco sul mare collegato ai parchi storici e al roseto.",
-    "showtimes": [],
+    "showtimes": [
+      {
+        "titolo": "Argentina-Genova andata/ritorno",
+        "quando": "in corso fino al 30 novembre, GAM Galleria d'Arte Moderna"
+      },
+      {
+        "titolo": "Inside Monet Genova",
+        "quando": "in corso fino al 31 dicembre, Raccolte Frugone"
+      }
+    ],
     "day_time": "Sempre accessibile h24 (parchi aperti ore 08:00-19:00)",
     "url": "https://www.visitgenoa.it/it/parchi-di-nervi-1",
     "outdoor": true,
@@ -2042,24 +1826,6 @@
       "outdoor",
       "scogliera",
       "mare"
-    ]
-  },
-  {
-    "id": "tl_37_passeggiata",
-    "title": "Sentiero di San Rocco, Batterie & Scoglio di Punta Chiappa",
-    "venue": "Sentiero di San Rocco, Batterie & Scoglio di Punta Chiappa",
-    "address": "Da Camogli a piedi per la mulattiera di San Nicolò di Capodimonte o Battello per Porto Pidocchio",
-    "district": "Golfo Paradiso",
-    "category": "passeggiata",
-    "summary": "Una lingua di roccia antichissima protesa nel mare blu del Parco di Portofino, passando per la chiesa millenaria di San Nicolò di Capodimonte e piccoli...",
-    "showtimes": [],
-    "day_time": "Sentiero del Parco di Portofino e chiesetta romanica di San Nicolò sempre accessibili",
-    "url": "https://www.parcodiportofino.it/",
-    "outdoor": true,
-    "time_slot": "pomeriggio",
-    "tags": [
-      "natura",
-      "golfo_paradiso"
     ]
   },
   {
@@ -2118,24 +1884,6 @@
     ]
   },
   {
-    "id": "tl_18_ritrovo",
-    "title": "Antica Barberia Giacalone: Gioiello Art Déco (Bene FAI)",
-    "venue": "Antica Barberia Giacalone",
-    "address": "Vico dei Caprettari 14r (tra San Lorenzo e Soziglia)",
-    "district": "Centro",
-    "category": "ritrovo",
-    "summary": "Dieci metri quadrati rivestiti nel 1922 di cristalli opalini blu pavone e verde smeraldo: ancora in attività per barba a panno caldo e tutelata dal FAI.",
-    "showtimes": [],
-    "day_time": "Mar-Sab 08:30-19:00; Lun e Dom chiuso",
-    "url": "https://fondoambiente.it/luoghi/barberia-giacalone",
-    "outdoor": false,
-    "time_slot": "pomeriggio",
-    "tags": [
-      "bottega",
-      "centro"
-    ]
-  },
-  {
     "id": "tl_21_ritrovo",
     "title": "Antica Friggitoria Sa' Pesta (Forno a Legna dal 1883)",
     "venue": "Antica Friggitoria Sa' Pesta",
@@ -2164,24 +1912,6 @@
     "showtimes": [],
     "day_time": "Lun 15:30-19:30; Mar-Sab 09:00-13:00 e 15:00-19:30 (Dicembre aperto anche Dom)",
     "url": "https://www.romanengo.com/",
-    "outdoor": false,
-    "time_slot": "pomeriggio",
-    "tags": [
-      "bottega",
-      "centro"
-    ]
-  },
-  {
-    "id": "tl_16_ritrovo",
-    "title": "Fabbrica di Cioccolato Romeo Viganotti (1866)",
-    "venue": "Fabbrica di Cioccolato Romeo Viganotti",
-    "address": "Metro De Ferrari: Vico dei Castagna 14r (Piazza delle Erbe)",
-    "district": "Centro",
-    "category": "ritrovo",
-    "summary": "Una delle pochissime botteghe storiche aperte anche la domenica: laboratorio a vista con macchinari originali dell'Ottocento che colano praline, boeri e...",
-    "showtimes": [],
-    "day_time": "Mar-Sab 09:30-19:30; Dom 10:00-13:00 e 15:30-19:30; Lun chiuso (Aperta la Domenica!)",
-    "url": "https://www.romeoviganotti.com/",
     "outdoor": false,
     "time_slot": "pomeriggio",
     "tags": [
@@ -2257,23 +1987,6 @@
     ]
   },
   {
-    "id": "es_4_ritrovo",
-    "title": "Panificio Caligine Giovanna: Panificio, Focacceria E Forno Genovese",
-    "venue": "Panificio Caligine Giovanna",
-    "address": "Via R. F. Ottavio Mangini 28",
-    "district": "Sori",
-    "category": "ritrovo",
-    "summary": "focaccia genovese pane fresco farinata grissini pandolce",
-    "showtimes": [],
-    "day_time": "We 07:00-12:30; Mo-Tu, Th-Sa 07:00-12:30,16:00-19:00",
-    "url": "https://www.facebook.com/caliginegiovanna",
-    "outdoor": false,
-    "time_slot": "pomeriggio",
-    "tags": [
-      "panificio, focacceria e forno genovese"
-    ]
-  },
-  {
     "id": "es_0_ritrovo",
     "title": "Panificio e Pasticceria Barbieri: Panificio, Focacceria E Forno Genovese",
     "venue": "Panificio e Pasticceria Barbieri",
@@ -2301,23 +2014,6 @@
     "showtimes": [],
     "day_time": "Tu-Su 05:00-19:30",
     "url": "https://www.priano.info/",
-    "outdoor": false,
-    "time_slot": "pomeriggio",
-    "tags": [
-      "panificio, focacceria e forno genovese"
-    ]
-  },
-  {
-    "id": "es_3_ritrovo",
-    "title": "Speedy Pizza: Panificio, Focacceria E Forno Genovese",
-    "venue": "Speedy Pizza",
-    "address": "Via Colombo",
-    "district": "Genova",
-    "category": "ritrovo",
-    "summary": "focaccia genovese pane fresco farinata grissini pandolce",
-    "showtimes": [],
-    "day_time": "Mo-Sa 10:30-15:00,17:30-20:30",
-    "url": "https://speedypizzagenova.business.site/",
     "outdoor": false,
     "time_slot": "pomeriggio",
     "tags": [
