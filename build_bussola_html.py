@@ -4,7 +4,7 @@ _DATA_DIR = _os.environ.get("GENOVA_DATA_DIR") or _os.path.dirname(_os.path.absp
 from genova_outings.vanilla_css import VANILLA_CSS
 
 with open(f"{_DATA_DIR}/tempo_libero_payload.json", "r", encoding="utf-8") as f:
-    payload_json = f.read().replace("<", "\u003c")
+    payload_json = f.read().replace("<", "\\u003c")
 
 HTML_TEMPLATE = r"""<!DOCTYPE html>
 <html lang="it">
