@@ -38,19 +38,19 @@
 
 ## 4. Task Operativi Collegati (con Definition of Done)
 
-- [ ] **TASK-GS-BE-01** (`#1`): **Pipeline Python ETL: separazione dati JSON e normalizzazione testi eventi**
+- [x] **TASK-GS-BE-01** (`#1`): **Pipeline Python ETL: separazione dati JSON e normalizzazione testi eventi**
   - *File coinvolti*: `scripts/build_data.py`, `data/*.json`
   - *Acceptance Criteria*: `events.json`, `esercenti.json`, `odonomastica.json` generati deterministicamente e validati.
   - *Verification Step*: Esecuzione script ETL + validator con 0 errori.
-- [ ] **TASK-GS-FE-01** (`#2`): **Restyling editoriale unificato anti-slop (Genova Civica)**
+- [x] **TASK-GS-FE-01** (`#2`): **Restyling editoriale unificato anti-slop (Genova Civica)**
   - *File coinvolti*: `site/*.html`, generatori frontend
   - *Acceptance Criteria*: Layout verificato a `1440×900` e `390×844` senza overflow né console error; caricamento JSON asincrono.
   - *Verification Step*: Ispezione browser reale desktop/mobile.
-- [ ] **TASK-REPO-01**: **Unificazione monorepo Git in `/Users/dany/genova` su `Noobucodonosor/genova-settimana`**
+- [x] **TASK-REPO-01**: **Unificazione monorepo Git in `/Users/dany/genova` su `Noobucodonosor/genova-settimana`**
   - *File coinvolti*: `.gitignore`, `site/odonomastica/`, `.github/workflows/`
   - *Acceptance Criteria*: Root `/Users/dany/genova` è repo Git con remote `Noobucodonosor/genova-settimana`; `site/odonomastica/*.py` rimossi senza perdere i sorgenti in root; `site/` servito correttamente su GitHub Pages.
   - *Verification Step*: `git status`, `git log -n 3`, `pre_release_check.py`.
-- [ ] **TASK-CLI-01**: **Completamento Milestone M3 (`genova_outings/cli.py` + `genova_outings.py`)**
+- [x] **TASK-CLI-01**: **Completamento Milestone M3 (`genova_outings/cli.py` + `genova_outings.py`)**
   - *File coinvolti*: `genova_outings/cli.py`, `genova_outings.py`, `genova_outings/__main__.py`
   - *Acceptance Criteria*: I 12 test E2E precedentemente skippati vengono eseguiti e passano.
   - *Verification Step*: `python3 run_tests.py` (84/84 passed, 0 skipped).

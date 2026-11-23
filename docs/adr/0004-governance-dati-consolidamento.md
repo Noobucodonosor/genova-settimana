@@ -37,15 +37,15 @@
 
 ## 4. Task Operativi Collegati (con Definition of Done)
 
-- [ ] **TASK-DATA-01**: **Esternalizzazione `AUTHORITATIVE_LIVE_OUTINGS` e blacklist in file dati versionati**
+- [x] **TASK-DATA-01**: **Esternalizzazione `AUTHORITATIVE_LIVE_OUTINGS` e blacklist in file dati versionati**
   - *File coinvolti*: `genova_outings/catalog.py`, `genova_outings/verifier.py`, `data/config/*.json`
   - *Acceptance Criteria*: Nessun evento stagionale hardcoded in `catalog.py`; supporto campi di scadenza `valid_to`.
   - *Verification Step*: Test catalogo con fixture temporali + `python3 run_tests.py`.
-- [ ] **TASK-ARCH-02**: **Consolidamento layer dati/template tra `genova_outings` e generatori provinciali**
+- [x] **TASK-ARCH-02**: **Consolidamento layer dati/template tra `genova_outings` e generatori provinciali**
   - *File coinvolti*: `genova_outings/`, `build_*.py`, `generate_*.py`
   - *Acceptance Criteria*: Helper condivisi per I/O dati, escape HTML e footer licenze senza duplicazione.
   - *Verification Step*: Rigenerazione completa di `site/` con diff verificato.
-- [ ] **TASK-A11Y-01**: **Accessibilità card da tastiera e telemetria estrattori `programme.py`**
+- [x] **TASK-A11Y-01**: **Accessibilità card da tastiera e telemetria estrattori `programme.py`**
   - *File coinvolti*: `genova_outings/web_ui.py`, `genova_outings/export_static.py`, `genova_outings/programme.py`
   - *Acceptance Criteria*: Selezione card completa via tastiera (`Tab`, `Space`/`Enter`); report fine esecuzione per estrattori a 0 eventi.
   - *Verification Step*: Verifica navigazione tastiera in browser + test log telemetria.

@@ -42,11 +42,11 @@
 
 ## 4. Task Operativi Collegati (con Definition of Done)
 
-- [ ] **TASK-SEC-01**: **Hardening XSS, Script Injection, TLS e server locale**
+- [x] **TASK-SEC-01**: **Hardening XSS, Script Injection, TLS e server locale**
   - *File coinvolti*: `genova_outings/web_ui.py`, `genova_outings/export_static.py`, `genova_outings/verifier.py`, `build_bussola_html.py`, `generate_dashboard_html.py`, `generate_navigatore_esercenti.py`
   - *Acceptance Criteria*: Nessuna interpolazione non escapata in `innerHTML`; `<` escapato in `\u003c` nei JSON inline; `href` validati `^https?://`; TLS verificato di default in `verifier.py`; CORS ristretto e `Content-Length` limitato in `web_ui.py`.
   - *Verification Step*: Test unitari di sicurezza (payload `<script>`, `javascript:alert(1)`, `CERT_NONE` rimosso) + `python3 -m unittest discover -s tests`.
-- [ ] **TASK-CSS-01**: **Rimozione `tailwindcss.min.js` con CSS vanilla e attribuzione ODbL 1.0**
+- [x] **TASK-CSS-01**: **Rimozione `tailwindcss.min.js` con CSS vanilla e attribuzione ODbL 1.0**
   - *File coinvolti*: `build_bussola_html.py`, `generate_dashboard_html.py`, `generate_navigatore_esercenti.py`, `site/README.md`
   - *Acceptance Criteria*: Zero riferimenti a `gstatic.com` nei sorgenti e negli HTML generati; footer con `© OpenStreetMap contributors (ODbL 1.0)` presente su tutte le viste OSM.
   - *Verification Step*: `grep -rn "tailwindcss\|gstatic" site/ *.py` (0 match) e verifica visiva/browser offline.
