@@ -77,4 +77,4 @@ out_raw = {
 with open(f"{_DATA_DIR}/osm_provincia_raw.json", "w", encoding="utf-8") as f:
     json.dump(out_raw, f, indent=2, ensure_ascii=False)
 
-print(f"Created /Users/dany/genova/osm_provincia_raw.json: {len(all_elements)} elements across {len(seen_comuni)} municipalities ({websites_count} with web/social links)")
+print(f"Created <repo-root>/osm_provincia_raw.json: {len(all_elements)} elements across {len(seen_comuni)} municipalities ({websites_count} with web/social links)")

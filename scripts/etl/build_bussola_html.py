@@ -2022,7 +2022,7 @@ with open(f"{_DATA_DIR}/bussola_tempo_libero_genova.html", "w", encoding="utf-8"
 
 import os, re
 size_kb = round(os.path.getsize(f"{_DATA_DIR}/bussola_tempo_libero_genova.html") / 1024, 1)
-print(f"Generated /Users/dany/genova/bussola_tempo_libero_genova.html ({size_kb} KB)")
+print(f"Generated <repo-root>/bussola_tempo_libero_genova.html ({size_kb} KB)")
 
 # Audit generative_ui rules: check no sub-12px classes or :root
 sub12 = re.findall(r"text-\[(?:[0-9]|10|11)px\]|font-size:\s*(?:[0-9]|10|11)px", final_html)

@@ -1,6 +1,6 @@
-# ADR-0001: Pipeline ETL JSON & Restyling Editoriale Unificato (Genova Civica)
+# ADR-0005: Pipeline ETL JSON & Restyling Editoriale Unificato (Genova Civica)
 
-- **Stato:** Proposed
+- **Stato:** Accettato (consolidato in ADR-0001)
 - **Data:** 2026-11-20
 - **Autori:** noobucodonosor, Antigravity
 - **Issue Collegate:** [#1](https://github.com/Noobucodonosor/genova-settimana/issues/1), [#2](https://github.com/Noobucodonosor/genova-settimana/issues/2), [#3](https://github.com/Noobucodonosor/genova-settimana/issues/3)

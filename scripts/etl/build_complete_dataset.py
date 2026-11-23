@@ -310,4 +310,4 @@ with open(f"{_DATA_DIR}/elenco_integrale_personaggi_genova.md", "w", encoding="u
             f.write(f"- **{r['toponimo']}** → *{r['personaggio_o_casata']}* ({r['descrizione_categoria']})\n")
         f.write("\n")
 
-print("Files written successfully to /Users/dany/genova/")
+print("Files written successfully to <repo-root>/")

@@ -8,7 +8,7 @@
 ## 1. Panoramica del Progetto
 
 - **Nome Progetto:** Genova Civica / `genova_outings`
-- **Repository:** `Noobucodonosor/genova-settimana` (monorepo in `/Users/dany/genova` con deploy statico di `site/` su GitHub Pages)
+- **Repository:** `Noobucodonosor/genova-settimana` (monorepo in `<repo-root>` con deploy statico di `site/` su GitHub Pages)
 - **Descrizione Sintetica:** Suite civica e culturale per Genova e i 67 comuni della Città Metropolitana: agenda settimanale verificata con export WhatsApp, navigatore esercenti, bussola del territorio, dashboard provinciale e odonomastica.
 - **Stack Tecnologico:**
   - **Backend / ETL:** Python 3 (`genova_outings/`, script `build_*.py` / `generate_*.py`, stdlib-first)

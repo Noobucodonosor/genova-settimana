@@ -17,11 +17,11 @@ with open(f"{_DATA_DIR}/comuni_provincia_genova.json") as f:
 ALL_67_COMUNI = {c["name"]: c for c in comuni_list}
 
 # 1. Collect all raw place names per municipality from:
-#    a) 39 OSM municipality files in /Users/dany/genova/comuni_raw/*.json
-#    b) 6,788 Wikidata items in /Users/dany/genova/wikidata_all_provincia_items.json
-#    c) 2,594 Wikidata P6375 postal addresses in /Users/dany/genova/wikidata_addresses_provincia.json
-#    d) 927 Wikidata P138 records in /Users/dany/genova/wikidata_p138_provincia.json
-#    e) Wikipedia full texts for the 28 municipalities in /Users/dany/genova/wiki_28_comuni.json
+#    a) 39 OSM municipality files in <repo-root>/comuni_raw/*.json
+#    b) 6,788 Wikidata items in <repo-root>/wikidata_all_provincia_items.json
+#    c) 2,594 Wikidata P6375 postal addresses in <repo-root>/wikidata_addresses_provincia.json
+#    d) 927 Wikidata P138 records in <repo-root>/wikidata_p138_provincia.json
+#    e) Wikipedia full texts for the 28 municipalities in <repo-root>/wiki_28_comuni.json
 
 places_by_comune = defaultdict(lambda: defaultdict(dict))
 

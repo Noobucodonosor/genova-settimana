@@ -337,4 +337,4 @@ final_html = (
 with open(f"{_DATA_DIR}/navigatore_esercenti_genova_provincia.html", "w", encoding="utf-8") as f:
     f.write(final_html)
 
-print("Generated /Users/dany/genova/navigatore_esercenti_genova_provincia.html! Size:", len(final_html)//1024, "KB")
+print("Generated <repo-root>/navigatore_esercenti_genova_provincia.html! Size:", len(final_html)//1024, "KB")

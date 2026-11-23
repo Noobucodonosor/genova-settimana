@@ -615,4 +615,4 @@ final_html = (
 with open(f"{_DATA_DIR}/dashboard_genova_provincia.html", "w", encoding="utf-8") as f:
     f.write(final_html)
 
-print("Generated /Users/dany/genova/dashboard_genova_provincia.html successfully! Size:", len(final_html) // 1024, "KB")
+print("Generated <repo-root>/dashboard_genova_provincia.html successfully! Size:", len(final_html) // 1024, "KB")
