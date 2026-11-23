@@ -251,10 +251,6 @@
       {
         "titolo": "Fiabe alla Biblioteca De Amicis con Michela Silvestri e i pupazzi di Mi racconti una storia?",
         "quando": "sabato 28 novembre ore 10:30 (per bambini dai 3 ai 5 anni) e ore 15:30 (per bambini dai 6 anni)"
-      },
-      {
-        "titolo": "BIBI in Liguria. Ricerca, immaginari letterari, pratiche di lettura e alleanze educative",
-        "quando": "sabato 21 novembre ore 9-16"
       }
     ],
     "day_time": "Lun-Sab 09:00-19:00 (Sabato dedicato a bambini, ragazzi e famiglie)",
@@ -278,10 +274,6 @@
       {
         "titolo": "Fiabe alla Biblioteca De Amicis con Michela Silvestri e i pupazzi di Mi racconti una storia?",
         "quando": "sabato 28 novembre ore 10:30 (per bambini dai 3 ai 5 anni) e ore 15:30 (per bambini dai 6 anni)"
-      },
-      {
-        "titolo": "BIBI in Liguria. Ricerca, immaginari letterari, pratiche di lettura e alleanze educative",
-        "quando": "sabato 21 novembre ore 9-16"
       }
     ],
     "day_time": "Da lunedì a sabato ore 09:00-19:00",
@@ -399,24 +391,12 @@
     "summary": "Cineclub storico genovese dedicato al cinema d'autore, retrospettive cinematografiche e festival indipendenti.",
     "showtimes": [
       {
-        "titolo": "Santiago - Un Cammino Per Ricominciare",
-        "quando": "sabato 21 novembre 18.30; domenica 22 novembre 16.00"
+        "titolo": "Mama",
+        "quando": "lunedì 23 novembre 20.30 Lingua originale sottotitolato"
       },
       {
         "titolo": "Digger",
-        "quando": "sabato 21 novembre 21.15; mercoledì 25 novembre 21.15"
-      },
-      {
-        "titolo": "Liebe, D-Mark Und Tod",
-        "quando": "domenica 22 novembre 18.30 Lingua originale sottotitolato"
-      },
-      {
-        "titolo": "Nas Ondas De Dorival Caymmi",
-        "quando": "domenica 22 novembre 20.10 Aperitivo / 21.00 Film Lingua originale sottotitolato"
-      },
-      {
-        "titolo": "Mama",
-        "quando": "lunedì 23 novembre 20.30 Lingua originale sottotitolato"
+        "quando": "mercoledì 25 novembre 21.15"
       }
     ],
     "day_time": "Martedì-Domenica ore 16:00 / 18:30 / 21:00",
@@ -444,15 +424,19 @@
       },
       {
         "titolo": "Un Tranquillo Funerale Di Famiglia",
-        "quando": "oggi 18:30 21:00; domenica 15:45 18:30; lunedì 18:30 21:00"
+        "quando": "oggi 18:30 21:00; martedì 18:30 21:00; mercoledì 18:30 21:00"
       },
       {
         "titolo": "Minotaur Nel Labirinto Del Potere",
-        "quando": "domenica 20:30; lunedì 15:45; martedì 15:45"
+        "quando": "martedì 15:45; mercoledì 15:45"
       },
       {
         "titolo": "Il Rumore Delle Cose Nuove",
-        "quando": "oggi 18:45 21:15; domenica 16:00 18:45 21:15; lunedì 16:00 18:45 21:15"
+        "quando": "oggi 18:45 21:15; martedì 16:00 18:45 21:15; mercoledì 16:00 18:45 21:15"
+      },
+      {
+        "titolo": "La Notte Delle Fragole",
+        "quando": "giovedì 15:30 17:30 19:30 21:30; venerdì 15:30 17:30 19:30 21:30; sabato 15:30 17:30 19:30 21:30"
       }
     ],
     "day_time": "Tutti i giorni ore 16:00 / 18:45 / 21:00",
@@ -474,24 +458,20 @@
     "summary": "Polo cinematografico della Foce con programmazione settimanale di cinema italiano e internazionale contemporaneo.",
     "showtimes": [
       {
-        "titolo": "Il Gatto Col Cappello",
-        "quando": "domenica 16:00"
-      },
-      {
         "titolo": "Scrooge E Gli Spiriti Del Natale",
-        "quando": "oggi 18:30 21:00; domenica 18:00; lunedì 18:30 21:00"
-      },
-      {
-        "titolo": "Ebenezer - Scrooge E Gli Spiriti Del Natale - V.O.",
-        "quando": "domenica 21:00"
+        "quando": "oggi 18:30 21:00; martedì 18:30 21:00; mercoledì 15:45 18:30 21:00"
       },
       {
         "titolo": "Hunger Games L'Alba Sulla Mietitura",
-        "quando": "oggi 18:30 21:30; domenica 15:30 18:30; lunedì 18:30 21:30"
+        "quando": "oggi 18:30 21:30; martedì 18:30 21:30; mercoledì 15:30 18:30 21:30"
       },
       {
         "titolo": "Hunger Games: Sunrise On The Reaping - Hunger Games: L'Alba Sulla Mietitura - V.O.",
-        "quando": "domenica 21:30"
+        "quando": "giovedì 18:30; domenica 21:00"
+      },
+      {
+        "titolo": "Hexe: Il Regno Delle Streghe",
+        "quando": "giovedì 16:00 18:15; venerdì 16:00 18:15; sabato 16:00 18:15"
       }
     ],
     "day_time": "Tutti i giorni ore 16:00 / 18:30 / 21:15",
@@ -513,11 +493,19 @@
     "showtimes": [
       {
         "titolo": "Dio Ride",
-        "quando": "oggi 18:30 21:00; domenica 15:30 18:00 20:30; lunedì 16:00 18:30 21:00"
+        "quando": "oggi 18:30 21:00; martedì 18:30; mercoledì 15:30 18:00"
+      },
+      {
+        "titolo": "Il Gatto Col Cappello",
+        "quando": "domenica 15:30"
       },
       {
         "titolo": "Se Domani Non Torno",
-        "quando": "oggi 16:15 18:30 21:00; domenica 16:00 18:15 20:30; lunedì 16:15 18:30 21:00"
+        "quando": "oggi 18:30 21:00; martedì 16:15 18:30 21:00; mercoledì 15:30 18:00"
+      },
+      {
+        "titolo": "L'Essere Amato",
+        "quando": "giovedì 16:00 18:30; venerdì 16:00 18:30; sabato 16:00 18:30"
       },
       {
         "titolo": "En El Camino",
@@ -526,14 +514,6 @@
       {
         "titolo": "Pillion - Amore Senza Freni - Vm18",
         "quando": "21:00"
-      },
-      {
-        "titolo": "L'Ereditiera",
-        "quando": "domenica 11:00"
-      },
-      {
-        "titolo": "La Storia Infinita - Con Colazione",
-        "quando": "domenica 10:30"
       },
       {
         "titolo": "I Protagonisti Dell'Arte - I Documentari Di Yuri Ancarini - Evento Con Ospiti",
@@ -645,24 +625,6 @@
     ]
   },
   {
-    "id": "tl_39_laboratorio",
-    "title": "Focaccerie Storiche IGP & Lungomare di Recco",
-    "venue": "Focaccerie Storiche IGP & Lungomare di Recco",
-    "address": "Stazione di Recco (22 min di treno da Genova Brignole)",
-    "district": "Golfo Paradiso",
-    "category": "laboratorio",
-    "summary": "La patria della Focaccia di Recco col Formaggio IGP (due veli trasparenti di pasta senza lievito colmi di crescenza fusa), perfetta prima di proseguire a...",
-    "showtimes": [],
-    "day_time": "Forni e ristoranti storici del Consorzio aperti tutti i giorni da mattina a sera",
-    "url": "https://www.focacciadirecco.it/",
-    "outdoor": false,
-    "time_slot": "pomeriggio",
-    "tags": [
-      "bottega",
-      "golfo_paradiso"
-    ]
-  },
-  {
     "id": "tl_17_laboratorio",
     "title": "G.M. Luico: Il Laboratorio dei Turaccioli in Sughero (1855)",
     "venue": "G.M. Luico",
@@ -768,24 +730,6 @@
     "tags": [
       "bottega",
       "tigullio_or"
-    ]
-  },
-  {
-    "id": "tl_59_laboratorio",
-    "title": "Museo della Carta di Mele: Antica Cartiera Piccardo (1756)",
-    "venue": "Museo della Carta di Mele",
-    "address": "Stazione Genova Voltri + Bus 93 (10 min) o 25 min in auto da Genova nella Valle delle Ferriere (Acquasanta)",
-    "district": "Ponente Stura",
-    "category": "laboratorio",
-    "summary": "Dentro una vera cartiera settecentesca mossa dall'acqua nella gola di Acquasanta: vedi fabbricare dal vivo i fogli di carta di cotone a mano che per secoli...",
-    "showtimes": [],
-    "day_time": "Ven, Sab e Dom 10:00-13:00 e 15:00-18:00 (abbinabile alle Terme e al Santuario dell'Acquasanta!)",
-    "url": "https://www.museocartamele.it/",
-    "outdoor": false,
-    "time_slot": "pomeriggio",
-    "tags": [
-      "bottega",
-      "ponente_stura"
     ]
   },
   {
@@ -897,6 +841,24 @@
     ]
   },
   {
+    "id": "tl_204_laboratorio",
+    "title": "Revello pasticceria focacceria",
+    "venue": "Revello pasticceria focacceria",
+    "address": "Raggiungibile in treno / mezzi pubblici (Recco)",
+    "district": "Golfo Paradiso",
+    "category": "laboratorio",
+    "summary": "pastry da esplorare a Recco, tra paesaggio ligure e memoria storica locale.",
+    "showtimes": [],
+    "day_time": "PH,Mo-Su 08:00-19:00",
+    "url": "https://www.revellocamogli.com/",
+    "outdoor": false,
+    "time_slot": "pomeriggio",
+    "tags": [
+      "bottega",
+      "golfo_paradiso"
+    ]
+  },
+  {
     "id": "tl_187_laboratorio",
     "title": "Ristorante La Risacca",
     "venue": "Ristorante La Risacca",
@@ -987,10 +949,6 @@
         "quando": "in corso fino al 9 maggio, Castello D'Albertis Museo delle Culture del Mondo"
       },
       {
-        "titolo": "Omaggio alla Luce per la Pace",
-        "quando": "domenica 22 novembre, Castello D'Albertis Museo delle Culture del Mondo"
-      },
-      {
         "titolo": "Il giro del Mondo in 50 giorni",
         "quando": "sabato 28 novembre, Castello D'Albertis Museo delle Culture del Mondo"
       }
@@ -1064,8 +1022,8 @@
         "quando": "Mostra, in corso fino al 28 febbraio"
       },
       {
-        "titolo": "La Valigia dei Ricordi 1956-2026",
-        "quando": "Evento, domenica 22 novembre"
+        "titolo": "Sulla stessa rotta. Un chicco di caffè, migliaia di storie",
+        "quando": "Mostra, da mercoledì 25 novembre a lunedì 31 maggio"
       },
       {
         "titolo": "On the move! The world behind logistics",
@@ -1213,7 +1171,12 @@
     "district": "Centro",
     "category": "mostra",
     "summary": "La reggia dei Balbi e dei Savoia con la sfolgorante Galleria degli Specchi e il giardino pensile a mosaico di ciottoli bianchi e neri affacciato sul porto.",
-    "showtimes": [],
+    "showtimes": [
+      {
+        "titolo": "Babar l’histoire du petit éléphant",
+        "quando": "domenica 29 novembre"
+      }
+    ],
     "day_time": "Mar 13:30-19:00; Mer-Sab 09:00-19:00; 1ª Dom del mese aperto gratuito (#DomenicalMuseo)",
     "url": "https://palazzorealegenova.cultura.gov.it/",
     "outdoor": false,
@@ -1323,12 +1286,20 @@
         "quando": "in corso fino al 31 dicembre, Raccolte Frugone"
       },
       {
+        "titolo": "Musica e arte ai Musei di Nervi",
+        "quando": "da domenica 29 novembre a domenica 13 dicembre, Raccolte Frugone"
+      },
+      {
         "titolo": "Argentina-Genova andata/ritorno",
         "quando": "in corso fino al 30 novembre, GAM Galleria d'Arte Moderna"
       },
       {
         "titolo": "Inside Monet Genova",
         "quando": "in corso fino al 31 dicembre"
+      },
+      {
+        "titolo": "Musica e arte ai Musei di Nervi",
+        "quando": "da domenica 29 novembre a domenica 13 dicembre"
       }
     ],
     "day_time": "Da martedì a domenica ore 11:00-17:00 (lunedì chiuso)",
@@ -1373,18 +1344,6 @@
     "summary": "Circolo Arci in un locale con volte in pietra nel Carmine: concerti jazz, serate per ballare Blues Dance e swing, milonga di tango La Cueva e jam session.",
     "showtimes": [
       {
-        "titolo": "Claudio Chiara 4et + master jam",
-        "quando": "sabato 21 novembre"
-      },
-      {
-        "titolo": "COUNT BASIE LAB: con Claudio Chiara",
-        "quando": "sabato 21 novembre"
-      },
-      {
-        "titolo": "Altri Suoni Alfabeti Sonori",
-        "quando": "domenica 22 novembre"
-      },
-      {
         "titolo": "Sotto l'arco, dentro al Count Showcase Freestyle",
         "quando": "venerdì 27 novembre"
       },
@@ -1420,12 +1379,16 @@
     "summary": "Grandi show di comicità, musical, concerti pop/autore, danza e monologhi teatrali, biglietti, Botteghino online, Politeama Card, Botteghino online, Acquista...",
     "showtimes": [
       {
-        "titolo": "Indovina chi viene a cena, Cesare Bocci e Vittoria Belvedere",
-        "quando": "20-21 novembre 2026"
-      },
-      {
         "titolo": "Geppi Cucciari, Perfetta",
         "quando": "23-24 novembre 2026"
+      },
+      {
+        "titolo": "Pirati dei caruggi, Sert du Soleil",
+        "quando": "Dal 27 al 29 novembre 2026"
+      },
+      {
+        "titolo": "Stefano Rapone, Comico dai ruoli mai principali",
+        "quando": "30 Novembre 2026"
       }
     ],
     "day_time": "Botteghino Lun-Ven 11:00-13:00 e 16:00-18:00; Sab 16:00-18:00 (Via Bacigalupo 2)",
@@ -1464,14 +1427,6 @@
     "summary": "Teatro visionario fondato da Tonino Conte ed Emanuele Luzzati, affiancato dal club live 'La Claque' in Vico di San Donato per musica dal vivo e stand-up.",
     "showtimes": [
       {
-        "titolo": "UBoot 70",
-        "quando": "in corso fino al 5 dicembre, La Claque"
-      },
-      {
-        "titolo": "Katartika",
-        "quando": "domenica 22 novembre, La Claque"
-      },
-      {
         "titolo": "Open coro",
         "quando": "in corso fino al 14 dicembre, La Claque"
       },
@@ -1486,6 +1441,10 @@
       {
         "titolo": "Mario Venuti & Tony Canto",
         "quando": "sabato 28 novembre, La Claque"
+      },
+      {
+        "titolo": "UBoot 70",
+        "quando": "in corso fino al 5 dicembre, La Claque"
       },
       {
         "titolo": "I depositi di Sant'Agostino. Le pietre parlano 2026",
@@ -1568,12 +1527,7 @@
     "district": "Centro",
     "category": "musica",
     "summary": "Stagione del Teatro Nazionale di Genova e Sala Mercato: drammaturgia contemporanea, spettacoli classici e visite allo storico teatro ottocentesco...",
-    "showtimes": [
-      {
-        "titolo": "Lu santo Jullare Francesco",
-        "quando": "18 - 22 Novembre, Teatro Gustavo Modena"
-      }
-    ],
+    "showtimes": [],
     "day_time": "Biglietteria Mar-Sab 15:15-19:15; Spettacoli serali ore 19:30/20:30, Dom ore 16:00 (Piazza Gustavo Modena, Sampierdarena)",
     "url": "https://www.teatronazionalegenova.it/spettacolo_sala/modena/",
     "outdoor": false,
@@ -1593,8 +1547,8 @@
     "summary": "Sede principale del Teatro Nazionale di Genova: grande prosa, regie internazionali, incontri con gli attori nel foyer, biglietti, Abbonati, conviene!...",
     "showtimes": [
       {
-        "titolo": "People, Places & Things",
-        "quando": "19 - 22 Novembre, Teatro Ivo Chiesa"
+        "titolo": "L'alba dopo la fine della Storia",
+        "quando": "24 - 25 Novembre, Teatro Ivo Chiesa"
       }
     ],
     "day_time": "Biglietteria Mar-Sab 15:15-19:15; Spettacoli Mar/Mer/Ven ore 20:30, Gio/Sab ore 19:30, Dom ore 16:00 (Piazza Borgo Pila)",
@@ -1616,16 +1570,12 @@
     "summary": "Uno dei massimi teatri stabili d'Europa: grande prosa, drammaturgia contemporanea e l'acustica ottocentesca della Sala Mercato e del Teatro Modena.",
     "showtimes": [
       {
-        "titolo": "Mare di ruggine",
-        "quando": "20 - 22 Novembre, Sala Mercato"
+        "titolo": "Scherzo, malgrado tutto",
+        "quando": "24 - 25 Novembre, Sala Mercato"
       },
       {
-        "titolo": "People, Places & Things",
-        "quando": "19 - 22 Novembre, Teatro Ivo Chiesa"
-      },
-      {
-        "titolo": "Lu santo Jullare Francesco",
-        "quando": "18 - 22 Novembre, Teatro Gustavo Modena"
+        "titolo": "L'alba dopo la fine della Storia",
+        "quando": "24 - 25 Novembre, Teatro Ivo Chiesa"
       }
     ],
     "day_time": "Biglietteria Mar-Sab 15:15-19:15; Spettacoli Mar-Sab 19:30/20:30, Dom 16:00",
@@ -1664,14 +1614,6 @@
     "category": "musica",
     "summary": "Concerti nei palchi storici, aperitivi in musica, stagione di prosa, lirica e danza nel gioiello ottocentesco di Camogli, Benvenuto al Teatro Sociale...",
     "showtimes": [
-      {
-        "titolo": "Il Sogno di Cordelia",
-        "quando": "sabato 21 novembre ore 21:00"
-      },
-      {
-        "titolo": "Pierino e il lupo - Spettacolo inaugurale Teatro Ragazzi",
-        "quando": "domenica 22 novembre ore 17:00"
-      },
       {
         "titolo": "I Bestiolini",
         "quando": "lunedì 23 novembre ore 10:30"
@@ -1816,6 +1758,10 @@
       {
         "titolo": "Inside Monet Genova",
         "quando": "in corso fino al 31 dicembre, Raccolte Frugone"
+      },
+      {
+        "titolo": "Musica e arte ai Musei di Nervi",
+        "quando": "da domenica 29 novembre a domenica 13 dicembre, Raccolte Frugone"
       }
     ],
     "day_time": "Sempre accessibile h24 (parchi aperti ore 08:00-19:00)",
@@ -1917,30 +1863,6 @@
     "tags": [
       "bottega",
       "centro"
-    ]
-  },
-  {
-    "id": "giardini_luzzati_spazio_comune",
-    "title": "Giardini Luzzati: Spazio Comune, Serate, Dj Set e Musica",
-    "venue": "Giardini Luzzati",
-    "address": "Piazza Giardini Luzzati",
-    "district": "Centro Storico",
-    "category": "ritrovo",
-    "summary": "Piazza aperta e circolo nel cuore dei caruggi con area archeologica, bar all'aperto, dj set, concerti acustici e serate per bere qualcosa e ballare.",
-    "showtimes": [],
-    "day_time": "Tutti i giorni ore 10:00-24:00 (venerdì e sabato fino alle 02:00 con dj set e live)",
-    "url": "https://giardiniluzzati.it/",
-    "outdoor": true,
-    "time_slot": "sera",
-    "tags": [
-      "ritrovo",
-      "musica",
-      "caruggi",
-      "ballare",
-      "dj",
-      "serata",
-      "bere",
-      "aperitivo"
     ]
   },
   {
