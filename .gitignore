@@ -17,6 +17,12 @@ build/
 *.sqlite
 *.sqlite3
 
+# Crawling cache & generated root HTML artifacts
+crawled_urls_cache.json
+bussola_tempo_libero_genova.html
+dashboard_genova_provincia.html
+navigatore_esercenti_genova_provincia.html
+
 # OS & Editor
 .DS_Store
 .vscode/

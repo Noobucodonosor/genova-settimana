@@ -33,9 +33,9 @@ class TestSecurityHardening(unittest.TestCase):
     def test_provincial_generators_escape_inline_json_and_have_xss_guards(self):
         root = Path(__file__).resolve().parent.parent
         for fname in (
-            "build_bussola_html.py",
-            "generate_dashboard_html.py",
-            "generate_navigatore_esercenti.py",
+            "scripts/etl/build_bussola_html.py",
+            "scripts/etl/generate_dashboard_html.py",
+            "scripts/etl/generate_navigatore_esercenti.py",
         ):
             src = (root / fname).read_text(encoding="utf-8")
             uses_async_json = 'fetch("./data/' in src

@@ -130,9 +130,15 @@ def build_events(live_verify: bool = False) -> List[Dict[str, Any]]:
     return events
 
 
+def _resolve_raw_file(data_dir: Path, filename: str) -> Path:
+    """Resolve a raw dataset file from data/raw/ with fallback to data_dir root."""
+    raw_candidate = data_dir / "data" / "raw" / filename
+    return raw_candidate if raw_candidate.exists() else data_dir / filename
+
+
 def build_esercenti(data_dir: Path) -> List[Dict[str, Any]]:
     """Build normalized esercenti dataset."""
-    src = data_dir / "esercenti_genova_provincia_db.json"
+    src = _resolve_raw_file(data_dir, "esercenti_genova_provincia_db.json")
     if not src.exists():
         return []
     raw = json.loads(src.read_text(encoding="utf-8"))
@@ -160,7 +166,7 @@ def build_esercenti(data_dir: Path) -> List[Dict[str, Any]]:
 
 def build_odonomastica(data_dir: Path) -> List[Dict[str, Any]]:
     """Build normalized odonomastica dataset from integral OSM+Wikidata CSV."""
-    src = data_dir / "toponimi_personaggi_genova_integrale.csv"
+    src = _resolve_raw_file(data_dir, "toponimi_personaggi_genova_integrale.csv")
     if not src.exists():
         return []
     out: List[Dict[str, Any]] = []
@@ -187,7 +193,7 @@ def build_odonomastica(data_dir: Path) -> List[Dict[str, Any]]:
 
 def build_dashboard(data_dir: Path) -> List[Dict[str, Any]]:
     """Build normalized compact dashboard dataset from dashboard_items.json."""
-    src = data_dir / "dashboard_items.json"
+    src = _resolve_raw_file(data_dir, "dashboard_items.json")
     if not src.exists():
         return []
     items = json.loads(src.read_text(encoding="utf-8"))

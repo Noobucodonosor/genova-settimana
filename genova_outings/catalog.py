@@ -38,6 +38,12 @@ logger = logging.getLogger(__name__)
 # Base directory for local datasets (portable across CI and local machines)
 DEFAULT_DATA_DIR = Path(os.environ.get("GENOVA_DATA_DIR") or Path(__file__).resolve().parent.parent)
 
+
+def _resolve_raw_file(data_dir: Path, filename: str) -> Path:
+    """Resolve a raw dataset file from data/raw/ with fallback to data_dir root."""
+    raw_candidate = data_dir / "data" / "raw" / filename
+    return raw_candidate if raw_candidate.exists() else data_dir / filename
+
 def _load_authoritative_outings(data_dir: Optional[Path] = None) -> List[Dict[str, object]]:
     """Load curated authoritative outings from data/config/authoritative_outings.json."""
     base = data_dir or DEFAULT_DATA_DIR
@@ -161,7 +167,7 @@ def load_authoritative_live_options(
 
 def load_local_tempo_libero(data_dir: Path) -> List[OutingOption]:
     """Extract informal options from tempo_libero_payload.json."""
-    path = data_dir / "tempo_libero_payload.json"
+    path = _resolve_raw_file(data_dir, "tempo_libero_payload.json")
     if not path.exists():
         return []
 
@@ -233,7 +239,7 @@ def load_local_tempo_libero(data_dir: Path) -> List[OutingOption]:
 
 def load_local_guida_aperti(data_dir: Path) -> List[OutingOption]:
     """Extract verified informal cinemas, theatres, and open cultural sites from guida."""
-    path = data_dir / "guida_aperti_al_pubblico_provincia_genova.json"
+    path = _resolve_raw_file(data_dir, "guida_aperti_al_pubblico_provincia_genova.json")
     if not path.exists():
         return []
 
@@ -293,7 +299,7 @@ def load_local_guida_aperti(data_dir: Path) -> List[OutingOption]:
 
 def load_local_esercenti_informali(data_dir: Path) -> List[OutingOption]:
     """Extract independent historic bookshops, vinyl shops, and traditional sciamadde."""
-    path = data_dir / "esercenti_genova_provincia_db.json"
+    path = _resolve_raw_file(data_dir, "esercenti_genova_provincia_db.json")
     if not path.exists():
         return []
 

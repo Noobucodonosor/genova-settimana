@@ -15,11 +15,12 @@ if PROJECT_ROOT not in sys.path:
     sys.path.insert(0, PROJECT_ROOT)
 
 # Dataset file paths in workspace
-TEMPO_LIBERO_PAYLOAD_PATH = os.path.join(PROJECT_ROOT, "tempo_libero_payload.json")
-TEMPO_LIBERO_DATASET_PATH = os.path.join(PROJECT_ROOT, "tempo_libero_dataset.json")
-GUIDA_APERTI_PATH = os.path.join(PROJECT_ROOT, "guida_aperti_al_pubblico_provincia_genova.json")
-DASHBOARD_ITEMS_PATH = os.path.join(PROJECT_ROOT, "dashboard_items.json")
-ESERCENTI_PATH = os.path.join(PROJECT_ROOT, "esercenti_genova_provincia_db.json")
+RAW_DATA_DIR = os.path.join(PROJECT_ROOT, "data", "raw")
+TEMPO_LIBERO_PAYLOAD_PATH = os.path.join(RAW_DATA_DIR, "tempo_libero_payload.json")
+TEMPO_LIBERO_DATASET_PATH = os.path.join(RAW_DATA_DIR, "tempo_libero_dataset.json")
+GUIDA_APERTI_PATH = os.path.join(RAW_DATA_DIR, "guida_aperti_al_pubblico_provincia_genova.json")
+DASHBOARD_ITEMS_PATH = os.path.join(RAW_DATA_DIR, "dashboard_items.json")
+ESERCENTI_PATH = os.path.join(RAW_DATA_DIR, "esercenti_genova_provincia_db.json")
 
 # Dynamic feature detection flags for genova_outings package
 def check_import(module_name: str, attr_name: Optional[str] = None) -> bool:
